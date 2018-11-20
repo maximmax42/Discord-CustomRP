@@ -41,28 +41,33 @@ namespace CustomRPC
             if (!settings.startMinimized) Show();
             if (settings.id == "")
             {
-                System.Diagnostics.Process.Start("https://discordapp.com/developers/applications/");
+                
                 MessageBox.Show(this, @"To set this up:
 1) Go to https://discordapp.com/developers/applications/
 2) Create a new app
 3) Add some more instructions
 4) Profit!", "Welcome!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                System.Diagnostics.Process.Start("https://discordapp.com/developers/applications/");
                 return;
             }
             else
             {
-                Init();
+                if (Init())
+                {
+                    buttonConnect.Enabled = false;
+                    buttonDisconnect.Enabled = true;
+                    textBoxID.ReadOnly = true;
+                }
             }
         }
 
-        private void Init()
+        private bool Init()
         {
             if (settings.id == "")
             {
                 MessageBox.Show(this, "No ID specified!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+                return false;
             }
-            
 
             if (client != null && !client.Disposed)
             {
@@ -79,6 +84,7 @@ namespace CustomRPC
             client.Initialize();
 
             SetPresence();
+            return true;
         }
 
         void SetPresence()
@@ -122,7 +128,12 @@ namespace CustomRPC
         private void Reconnect(object sender, EventArgs e)
         {
             ChangePresence();
-            Init();
+            if (Init())
+            {
+                buttonConnect.Enabled = false;
+                buttonDisconnect.Enabled = true;
+                textBoxID.ReadOnly = true;
+            }
         }
 
         private void Quit(object sender, EventArgs e)
@@ -163,6 +174,49 @@ namespace CustomRPC
         {
             ChangePresence();
             SetPresence();
+        }
+
+        private void Connect(object sender, EventArgs e)
+        {
+            ChangePresence();
+            if (Init())
+            {
+                buttonConnect.Enabled = false;
+                buttonDisconnect.Enabled = true;
+                textBoxID.ReadOnly = true;
+            }
+        }
+
+        private void Disconnect(object sender, EventArgs e)
+        {
+            buttonConnect.Enabled = true;
+            buttonDisconnect.Enabled = false;
+            textBoxID.ReadOnly = false;
+            timer.Dispose();
+            client.Dispose();
+        }
+
+        private void OpenDiscordSite(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            if (settings.id == "") return;
+
+            System.Diagnostics.Process.Start("https://discordapp.com/developers/applications/" + settings.id + "/rich-presence/assets");
+        }
+
+        private void OnlyNumbers(object sender, EventArgs e)
+        {
+            textBoxID.ReadOnly = true;
+
+            string newline = "";
+            foreach (var symbol in textBoxID.Text)
+            {
+                if (char.IsDigit(symbol)) newline += symbol;
+            }
+
+            textBoxID.Text = newline;
+            textBoxID.SelectionStart = textBoxID.Text.Length;
+            textBoxID.SelectionLength = 0;
+            textBoxID.ReadOnly = false;
         }
     }
 }
