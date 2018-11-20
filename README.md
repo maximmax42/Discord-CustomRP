@@ -1,4 +1,4 @@
-# Discord-CustomRP
+# Discord Custom Rich Presence Tool
 Custom Discord Rich Presence manager for Windows, features run on startup and hiding in tray.
 
-This is done under the hood but the UI part is far from done.
+Everything is pretty much done, polising remains. And also adding timestamps support.
