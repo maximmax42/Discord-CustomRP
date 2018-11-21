@@ -1,33 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DiscordRPC;
+using System;
+using System.IO;
 using System.Windows.Forms;
-using DiscordRPC;
 using Timer = System.Timers.Timer;
 
 namespace CustomRPC
 {
     public partial class MainForm : Form
     {
-        DiscordRpcClient client;
-        Timer timer;
-		
-        bool wasTooltipShown = false;
-		bool loading = true;
+        DiscordRpcClient client; // RPC Client
+        Timer timer; // Timer for invoking, required
+
+        bool wasTooltipShown = false; // When you minimize, tooltip shows once (that is if Start Minimized is disabled)
+        bool loading = true; // To prevent some event handlers from executing while app is loading
+
         Properties.Settings settings = Properties.Settings.Default;
-        
+
+        string linkPath = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\CustomRP.lnk"; // Autorun file link
+
+        // Constructor of the form
         public MainForm()
         {
             InitializeComponent();
 
+            // Setting up startup link for current user (enabled by default)
+            StartupSetup();
+
+            // Displays currently saved settings in the menu strip
             runOnStartupToolStripMenuItem.Checked = settings.runOnStartup;
             startMinimizedToolStripMenuItem.Checked = settings.startMinimized;
 
+            // Fills out fields
             textBoxID.Text = settings.id;
             textBoxDetails.Text = settings.details;
             textBoxState.Text = settings.state;
@@ -38,29 +41,25 @@ namespace CustomRPC
 
             loading = false;
 
-            if (!settings.startMinimized) Show();
+            if (!settings.startMinimized) Show(); // Starts minimized to tray by default
+
             if (settings.id == "")
             {
-                
-                MessageBox.Show(this, @"To set this up:
-1) Go to https://discordapp.com/developers/applications/
-2) Create a new app
-3) Add some more instructions
-4) Profit!", "Welcome!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                System.Diagnostics.Process.Start("https://discordapp.com/developers/applications/");
-                return;
+                // Opens the setup manual
+                System.Diagnostics.Process.Start("https://github.com/maximmax42/Discord-CustomRP/wiki/Setting-Up");
             }
             else
             {
-                if (Init())
+                if (Init()) // If successfully connected...
                 {
-                    buttonConnect.Enabled = false;
-                    buttonDisconnect.Enabled = true;
-                    textBoxID.ReadOnly = true;
+                    buttonConnect.Enabled = false; // ...disable Connect button...
+                    buttonDisconnect.Enabled = true; // ...enable Disconnect button...
+                    textBoxID.ReadOnly = true; // ...and make the ID field read only
                 }
             }
         }
 
+        // Connecting to the Discord API
         private bool Init()
         {
             if (settings.id == "")
@@ -71,12 +70,14 @@ namespace CustomRPC
 
             if (client != null && !client.Disposed)
             {
+                // This stuff needs proper disposal
                 timer.Dispose();
                 client.Dispose();
             }
-            
-            client = new DiscordRpcClient(settings.id);
 
+            client = new DiscordRpcClient(settings.id); // Assigning the ID
+
+            // Not sure why it's needed, but it is
             timer = new Timer(150);
             timer.Elapsed += (sender, args) => { client.Invoke(); };
             timer.Start();
@@ -87,6 +88,7 @@ namespace CustomRPC
             return true;
         }
 
+        // Sets up new presence from the settings
         void SetPresence()
         {
             if (client == null) return;
@@ -105,45 +107,41 @@ namespace CustomRPC
             });
         }
 
+        // Called when you close the main window with the X button
         private void MinimizeToTray(object sender, FormClosingEventArgs e)
         {
-            if (e.CloseReason == CloseReason.UserClosing)
+            if (e.CloseReason == CloseReason.UserClosing) // Checks if it was closed by user and not by system in a shutdown, for example
             {
+                // Prevent closing and hide the window to tray instead
                 e.Cancel = true;
                 Hide();
-                
+
                 if (!settings.startMinimized && !wasTooltipShown)
                 {
+                    // Show a tooltip if it wasn't shown already and if the app doesn't start minimized 
                     trayIcon.ShowBalloonTip(500);
                     wasTooltipShown = true;
                 }
             }
         }
 
+        // Called when you double click the tray icon
         private void MaximizeFromTray(object sender, EventArgs e)
         {
             Show();
         }
 
-        private void Reconnect(object sender, EventArgs e)
-        {
-            ChangePresence();
-            if (Init())
-            {
-                buttonConnect.Enabled = false;
-                buttonDisconnect.Enabled = true;
-                textBoxID.ReadOnly = true;
-            }
-        }
-
+        // Called when you click File -> Quit or right-click on the tray icon and choose Quit
         private void Quit(object sender, EventArgs e)
         {
             if (timer != null) timer.Dispose();
             if (client != null) client.Dispose();
+
             ChangePresence();
             Application.Exit();
         }
 
+        // Called when you press anything in Settings submenu of menu strip
         private void SaveSettings(object sender, EventArgs e)
         {
             if (loading) return;
@@ -151,13 +149,16 @@ namespace CustomRPC
             settings.runOnStartup = runOnStartupToolStripMenuItem.Checked;
             settings.startMinimized = startMinimizedToolStripMenuItem.Checked;
             settings.Save();
+            StartupSetup();
         }
 
+        // Called when you press About... in menu strip
         private void ShowAbout(object sender, EventArgs e)
         {
             MessageBox.Show(this, "Made by maximmax42\n© 2018", "About...", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        // Saves all the fields to settings
         private void ChangePresence()
         {
             settings.id = textBoxID.Text;
@@ -170,12 +171,14 @@ namespace CustomRPC
             settings.Save();
         }
 
+        // Called when you press the Update Presence button
         private void Update(object sender, EventArgs e)
         {
             ChangePresence();
             SetPresence();
         }
 
+        // Called when you press the Connect button or right-click on the tray icon and choose Reconnect
         private void Connect(object sender, EventArgs e)
         {
             ChangePresence();
@@ -187,15 +190,18 @@ namespace CustomRPC
             }
         }
 
+        // Called when you press the Disconnect button
         private void Disconnect(object sender, EventArgs e)
         {
             buttonConnect.Enabled = true;
             buttonDisconnect.Enabled = false;
             textBoxID.ReadOnly = false;
+
             timer.Dispose();
             client.Dispose();
         }
 
+        // Called when you press Upload Assets link
         private void OpenDiscordSite(object sender, LinkLabelLinkClickedEventArgs e)
         {
             if (settings.id == "") return;
@@ -203,20 +209,48 @@ namespace CustomRPC
             System.Diagnostics.Process.Start("https://discordapp.com/developers/applications/" + settings.id + "/rich-presence/assets");
         }
 
+        // Called when you input into the ID textbox
+        // This is overcomplicated isn't it, but hey, at least it works with copy-pasting as well!
         private void OnlyNumbers(object sender, EventArgs e)
         {
-            textBoxID.ReadOnly = true;
+            if (textBoxID.Text == "") return;
+
+            textBoxID.ReadOnly = true; // Not sure if I need it?
+
+            int sel = textBoxID.SelectionStart; // Current cursor position
+            int changed = 0;
 
             string newline = "";
+
             foreach (var symbol in textBoxID.Text)
             {
                 if (char.IsDigit(symbol)) newline += symbol;
+                else changed++;
             }
 
             textBoxID.Text = newline;
-            textBoxID.SelectionStart = textBoxID.Text.Length;
+            textBoxID.SelectionStart = sel - changed;
             textBoxID.SelectionLength = 0;
+
             textBoxID.ReadOnly = false;
+        }
+
+        // Sets up the startup link for the app.
+        private void StartupSetup()
+        {
+            if (settings.runOnStartup && !File.Exists(linkPath)) // If run on startup is enabled and the link isn't in the Startup folder
+            {
+                IWshRuntimeLibrary.WshShell wsh = new IWshRuntimeLibrary.WshShell();
+                IWshRuntimeLibrary.IWshShortcut shortcut = wsh.CreateShortcut(linkPath) as IWshRuntimeLibrary.IWshShortcut;
+                shortcut.Description = "Discord Custom Rich Presence Manager";
+                shortcut.TargetPath = Environment.CurrentDirectory + @"\CustomRP.exe";
+                shortcut.WorkingDirectory = Environment.CurrentDirectory + @"\";
+                shortcut.Save();
+            }
+            else if (!settings.runOnStartup && File.Exists(linkPath)) // If run on startup is disabled and the link is in the Startup folder
+            {
+                File.Delete(linkPath);
+            }
         }
     }
 }

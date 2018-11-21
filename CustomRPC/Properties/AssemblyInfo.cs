@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("CustomRPC")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("CustomRP")]
+[assembly: AssemblyDescription("Discord Custom Rich Presence Manager")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CustomRPC")]
+[assembly: AssemblyCompany("maximmax42")]
+[assembly: AssemblyProduct("CustomRP")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -85,24 +85,24 @@
             this.toolStripSeparator1,
             this.trayMenuQuit});
             this.trayMenuStrip.Name = "trayMenuStrip";
-            this.trayMenuStrip.Size = new System.Drawing.Size(131, 54);
+            this.trayMenuStrip.Size = new System.Drawing.Size(181, 76);
             // 
             // trayMenuReconnect
             // 
             this.trayMenuReconnect.Name = "trayMenuReconnect";
-            this.trayMenuReconnect.Size = new System.Drawing.Size(130, 22);
+            this.trayMenuReconnect.Size = new System.Drawing.Size(180, 22);
             this.trayMenuReconnect.Text = "Reconnect";
-            this.trayMenuReconnect.Click += new System.EventHandler(this.Reconnect);
+            this.trayMenuReconnect.Click += new System.EventHandler(this.Connect);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(127, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // trayMenuQuit
             // 
             this.trayMenuQuit.Name = "trayMenuQuit";
-            this.trayMenuQuit.Size = new System.Drawing.Size(130, 22);
+            this.trayMenuQuit.Size = new System.Drawing.Size(180, 22);
             this.trayMenuQuit.Text = "Quit";
             this.trayMenuQuit.Click += new System.EventHandler(this.Quit);
             // 
