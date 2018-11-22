@@ -13,8 +13,9 @@ namespace CustomRPC
 
         bool wasTooltipShown = false; // When you minimize, tooltip shows once (that is if Start Minimized is disabled)
         bool loading = true; // To prevent some event handlers from executing while app is loading
+        bool toAvoidRecursion = false; // ...This is stupid
 
-        Properties.Settings settings = Properties.Settings.Default;
+        Properties.Settings settings = Properties.Settings.Default; // Settings
 
         string linkPath = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\CustomRP.lnk"; // Autorun file link
 
@@ -64,7 +65,7 @@ namespace CustomRPC
         {
             if (settings.id == "")
             {
-                MessageBox.Show(this, "No ID specified!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, Strings.errorNoID, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
 
@@ -89,7 +90,7 @@ namespace CustomRPC
         }
 
         // Sets up new presence from the settings
-        void SetPresence()
+        private void SetPresence()
         {
             if (client == null) return;
 
@@ -105,6 +106,24 @@ namespace CustomRPC
                     LargeImageText = settings.largeText,
                 }
             });
+        }
+
+        // Sets up the startup link for the app.
+        private void StartupSetup()
+        {
+            if (settings.runOnStartup && !File.Exists(linkPath)) // If run on startup is enabled and the link isn't in the Startup folder
+            {
+                IWshRuntimeLibrary.WshShell wsh = new IWshRuntimeLibrary.WshShell();
+                IWshRuntimeLibrary.IWshShortcut shortcut = wsh.CreateShortcut(linkPath) as IWshRuntimeLibrary.IWshShortcut;
+                shortcut.Description = "Discord Custom Rich Presence Manager";
+                shortcut.TargetPath = Environment.CurrentDirectory + @"\CustomRP.exe";
+                shortcut.WorkingDirectory = Environment.CurrentDirectory + @"\";
+                shortcut.Save();
+            }
+            else if (!settings.runOnStartup && File.Exists(linkPath)) // If run on startup is disabled and the link is in the Startup folder
+            {
+                File.Delete(linkPath);
+            }
         }
 
         // Called when you close the main window with the X button
@@ -155,7 +174,7 @@ namespace CustomRPC
         // Called when you press About... in menu strip
         private void ShowAbout(object sender, EventArgs e)
         {
-            MessageBox.Show(this, "Made by maximmax42\n© 2018", "About...", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(this, "Made by maximmax42\n© 2018", aboutToolStripMenuItem.Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         // Saves all the fields to settings
@@ -171,11 +190,32 @@ namespace CustomRPC
             settings.Save();
         }
 
-        // Called when you press the Update Presence button
-        private void Update(object sender, EventArgs e)
+        // Called when you input into the ID textbox
+        // This is overcomplicated isn't it, but hey, at least it works with pasting as well!
+        private void OnlyNumbers(object sender, EventArgs e)
         {
-            ChangePresence();
-            SetPresence();
+            if (toAvoidRecursion || textBoxID.Text == "") return;
+
+            textBoxID.ReadOnly = true; // Not sure if I need it?
+            toAvoidRecursion = true; // Just so this handler doesn't get called again on...
+
+            int sel = textBoxID.SelectionStart; // Current cursor position
+            int changed = 0;
+
+            string newline = "";
+
+            foreach (var symbol in textBoxID.Text)
+            {
+                if (char.IsDigit(symbol)) newline += symbol;
+                else changed++;
+            }
+
+            textBoxID.Text = newline; // ...this line
+            textBoxID.SelectionStart = sel - changed;
+            textBoxID.SelectionLength = 0;
+
+            textBoxID.ReadOnly = false;
+            toAvoidRecursion = false;
         }
 
         // Called when you press the Connect button or right-click on the tray icon and choose Reconnect
@@ -201,56 +241,30 @@ namespace CustomRPC
             client.Dispose();
         }
 
+        // Called when you press the Update Presence button
+        private void Update(object sender, EventArgs e)
+        {
+            ChangePresence();
+            SetPresence();
+        }
+
         // Called when you press Upload Assets link
-        private void OpenDiscordSite(object sender, LinkLabelLinkClickedEventArgs e)
+        private void OpenDiscordSite(object sender, EventArgs e)
         {
             if (settings.id == "") return;
 
             System.Diagnostics.Process.Start("https://discordapp.com/developers/applications/" + settings.id + "/rich-presence/assets");
         }
 
-        // Called when you input into the ID textbox
-        // This is overcomplicated isn't it, but hey, at least it works with copy-pasting as well!
-        private void OnlyNumbers(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            if (textBoxID.Text == "") return;
-
-            textBoxID.ReadOnly = true; // Not sure if I need it?
-
-            int sel = textBoxID.SelectionStart; // Current cursor position
-            int changed = 0;
-
-            string newline = "";
-
-            foreach (var symbol in textBoxID.Text)
-            {
-                if (char.IsDigit(symbol)) newline += symbol;
-                else changed++;
-            }
-
-            textBoxID.Text = newline;
-            textBoxID.SelectionStart = sel - changed;
-            textBoxID.SelectionLength = 0;
-
-            textBoxID.ReadOnly = false;
+            var curTime = DateTime.Now;
+            client.UpdateStartTime(DateTime.UtcNow.Subtract(new TimeSpan(curTime.Hour, curTime.Minute, curTime.Second)));
         }
 
-        // Sets up the startup link for the app.
-        private void StartupSetup()
+        private void button2_Click(object sender, EventArgs e)
         {
-            if (settings.runOnStartup && !File.Exists(linkPath)) // If run on startup is enabled and the link isn't in the Startup folder
-            {
-                IWshRuntimeLibrary.WshShell wsh = new IWshRuntimeLibrary.WshShell();
-                IWshRuntimeLibrary.IWshShortcut shortcut = wsh.CreateShortcut(linkPath) as IWshRuntimeLibrary.IWshShortcut;
-                shortcut.Description = "Discord Custom Rich Presence Manager";
-                shortcut.TargetPath = Environment.CurrentDirectory + @"\CustomRP.exe";
-                shortcut.WorkingDirectory = Environment.CurrentDirectory + @"\";
-                shortcut.Save();
-            }
-            else if (!settings.runOnStartup && File.Exists(linkPath)) // If run on startup is disabled and the link is in the Startup folder
-            {
-                File.Delete(linkPath);
-            }
+            client.UpdateClearTime();
         }
     }
 }

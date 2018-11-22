@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.trayIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.trayMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.trayMenuReconnect = new System.Windows.Forms.ToolStripMenuItem();
@@ -36,6 +37,8 @@
             this.trayMenuQuit = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.uploadAssetsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.quitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.runOnStartupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -60,8 +63,9 @@
             this.labelLargeKey = new System.Windows.Forms.Label();
             this.labelSmall = new System.Windows.Forms.Label();
             this.labelLarge = new System.Windows.Forms.Label();
-            this.linkLabelDeveloperConsole = new System.Windows.Forms.LinkLabel();
             this.toolTipInfo = new System.Windows.Forms.ToolTip(this.components);
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
@@ -69,12 +73,9 @@
             // trayIcon
             // 
             this.trayIcon.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.trayIcon.BalloonTipText = "Double click on the icon to show it again, or right-click to quit.";
-            this.trayIcon.BalloonTipTitle = "The app will run in the tray.";
+            resources.ApplyResources(this.trayIcon, "trayIcon");
             this.trayIcon.ContextMenuStrip = this.trayMenuStrip;
             this.trayIcon.Icon = global::CustomRPC.Properties.Resources.favicon;
-            this.trayIcon.Text = "Custom RPC";
-            this.trayIcon.Visible = true;
             this.trayIcon.BalloonTipClicked += new System.EventHandler(this.MaximizeFromTray);
             this.trayIcon.DoubleClick += new System.EventHandler(this.MaximizeFromTray);
             // 
@@ -85,25 +86,23 @@
             this.toolStripSeparator1,
             this.trayMenuQuit});
             this.trayMenuStrip.Name = "trayMenuStrip";
-            this.trayMenuStrip.Size = new System.Drawing.Size(181, 76);
+            resources.ApplyResources(this.trayMenuStrip, "trayMenuStrip");
             // 
             // trayMenuReconnect
             // 
             this.trayMenuReconnect.Name = "trayMenuReconnect";
-            this.trayMenuReconnect.Size = new System.Drawing.Size(180, 22);
-            this.trayMenuReconnect.Text = "Reconnect";
+            resources.ApplyResources(this.trayMenuReconnect, "trayMenuReconnect");
             this.trayMenuReconnect.Click += new System.EventHandler(this.Connect);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             // 
             // trayMenuQuit
             // 
             this.trayMenuQuit.Name = "trayMenuQuit";
-            this.trayMenuQuit.Size = new System.Drawing.Size(180, 22);
-            this.trayMenuQuit.Text = "Quit";
+            resources.ApplyResources(this.trayMenuQuit, "trayMenuQuit");
             this.trayMenuQuit.Click += new System.EventHandler(this.Quit);
             // 
             // menuStrip
@@ -113,26 +112,33 @@
             this.fileToolStripMenuItem,
             this.settingsToolStripMenuItem,
             this.aboutToolStripMenuItem});
-            this.menuStrip.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.menuStrip, "menuStrip");
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.menuStrip.Size = new System.Drawing.Size(467, 24);
-            this.menuStrip.TabIndex = 1;
-            this.menuStrip.Text = "menuStrip1";
             // 
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.uploadAssetsToolStripMenuItem,
+            this.toolStripSeparator2,
             this.quitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "File";
+            resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
+            // 
+            // uploadAssetsToolStripMenuItem
+            // 
+            this.uploadAssetsToolStripMenuItem.Name = "uploadAssetsToolStripMenuItem";
+            resources.ApplyResources(this.uploadAssetsToolStripMenuItem, "uploadAssetsToolStripMenuItem");
+            this.uploadAssetsToolStripMenuItem.Click += new System.EventHandler(this.OpenDiscordSite);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             // 
             // quitToolStripMenuItem
             // 
             this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
-            this.quitToolStripMenuItem.Size = new System.Drawing.Size(97, 22);
-            this.quitToolStripMenuItem.Text = "Quit";
+            resources.ApplyResources(this.quitToolStripMenuItem, "quitToolStripMenuItem");
             this.quitToolStripMenuItem.Click += new System.EventHandler(this.Quit);
             // 
             // settingsToolStripMenuItem
@@ -141,247 +147,176 @@
             this.runOnStartupToolStripMenuItem,
             this.startMinimizedToolStripMenuItem});
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
-            this.settingsToolStripMenuItem.Text = "Settings";
+            resources.ApplyResources(this.settingsToolStripMenuItem, "settingsToolStripMenuItem");
             // 
             // runOnStartupToolStripMenuItem
             // 
             this.runOnStartupToolStripMenuItem.CheckOnClick = true;
             this.runOnStartupToolStripMenuItem.Name = "runOnStartupToolStripMenuItem";
-            this.runOnStartupToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
-            this.runOnStartupToolStripMenuItem.Text = "Run on Startup";
+            resources.ApplyResources(this.runOnStartupToolStripMenuItem, "runOnStartupToolStripMenuItem");
             this.runOnStartupToolStripMenuItem.CheckedChanged += new System.EventHandler(this.SaveSettings);
             // 
             // startMinimizedToolStripMenuItem
             // 
             this.startMinimizedToolStripMenuItem.CheckOnClick = true;
             this.startMinimizedToolStripMenuItem.Name = "startMinimizedToolStripMenuItem";
-            this.startMinimizedToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
-            this.startMinimizedToolStripMenuItem.Text = "Start Minimized";
+            resources.ApplyResources(this.startMinimizedToolStripMenuItem, "startMinimizedToolStripMenuItem");
             this.startMinimizedToolStripMenuItem.CheckedChanged += new System.EventHandler(this.SaveSettings);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
-            this.aboutToolStripMenuItem.Text = "About...";
+            resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.ShowAbout);
             // 
             // textBoxID
             // 
-            this.textBoxID.Location = new System.Drawing.Point(71, 51);
-            this.textBoxID.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
-            this.textBoxID.MaxLength = 18;
+            resources.ApplyResources(this.textBoxID, "textBoxID");
             this.textBoxID.Name = "textBoxID";
-            this.textBoxID.Size = new System.Drawing.Size(139, 22);
-            this.textBoxID.TabIndex = 2;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
             // textBoxDetails
             // 
-            this.textBoxDetails.Location = new System.Drawing.Point(71, 83);
-            this.textBoxDetails.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            resources.ApplyResources(this.textBoxDetails, "textBoxDetails");
             this.textBoxDetails.Name = "textBoxDetails";
-            this.textBoxDetails.Size = new System.Drawing.Size(345, 22);
-            this.textBoxDetails.TabIndex = 3;
             // 
             // textBoxState
             // 
-            this.textBoxState.Location = new System.Drawing.Point(71, 111);
-            this.textBoxState.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            resources.ApplyResources(this.textBoxState, "textBoxState");
             this.textBoxState.Name = "textBoxState";
-            this.textBoxState.Size = new System.Drawing.Size(345, 22);
-            this.textBoxState.TabIndex = 4;
             // 
             // textBoxSmallKey
             // 
-            this.textBoxSmallKey.Location = new System.Drawing.Point(71, 191);
-            this.textBoxSmallKey.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            resources.ApplyResources(this.textBoxSmallKey, "textBoxSmallKey");
             this.textBoxSmallKey.Name = "textBoxSmallKey";
-            this.textBoxSmallKey.Size = new System.Drawing.Size(150, 22);
-            this.textBoxSmallKey.TabIndex = 5;
             // 
             // textBoxSmallText
             // 
-            this.textBoxSmallText.Location = new System.Drawing.Point(71, 221);
-            this.textBoxSmallText.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            resources.ApplyResources(this.textBoxSmallText, "textBoxSmallText");
             this.textBoxSmallText.Name = "textBoxSmallText";
-            this.textBoxSmallText.Size = new System.Drawing.Size(150, 22);
-            this.textBoxSmallText.TabIndex = 6;
             // 
             // textBoxLargeKey
             // 
-            this.textBoxLargeKey.Location = new System.Drawing.Point(266, 191);
-            this.textBoxLargeKey.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            resources.ApplyResources(this.textBoxLargeKey, "textBoxLargeKey");
             this.textBoxLargeKey.Name = "textBoxLargeKey";
-            this.textBoxLargeKey.Size = new System.Drawing.Size(150, 22);
-            this.textBoxLargeKey.TabIndex = 7;
             // 
             // textBoxLargeText
             // 
-            this.textBoxLargeText.Location = new System.Drawing.Point(266, 221);
-            this.textBoxLargeText.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            resources.ApplyResources(this.textBoxLargeText, "textBoxLargeText");
             this.textBoxLargeText.Name = "textBoxLargeText";
-            this.textBoxLargeText.Size = new System.Drawing.Size(150, 22);
-            this.textBoxLargeText.TabIndex = 8;
             // 
             // buttonUpdatePresence
             // 
-            this.buttonUpdatePresence.Location = new System.Drawing.Point(173, 266);
-            this.buttonUpdatePresence.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            resources.ApplyResources(this.buttonUpdatePresence, "buttonUpdatePresence");
             this.buttonUpdatePresence.Name = "buttonUpdatePresence";
-            this.buttonUpdatePresence.Size = new System.Drawing.Size(113, 24);
-            this.buttonUpdatePresence.TabIndex = 9;
-            this.buttonUpdatePresence.Text = "Update Presence";
-            this.toolTipInfo.SetToolTip(this.buttonUpdatePresence, "Updates presence.");
+            this.toolTipInfo.SetToolTip(this.buttonUpdatePresence, resources.GetString("buttonUpdatePresence.ToolTip"));
             this.buttonUpdatePresence.UseVisualStyleBackColor = true;
             this.buttonUpdatePresence.Click += new System.EventHandler(this.Update);
             // 
             // buttonConnect
             // 
-            this.buttonConnect.Location = new System.Drawing.Point(234, 49);
-            this.buttonConnect.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            resources.ApplyResources(this.buttonConnect, "buttonConnect");
             this.buttonConnect.Name = "buttonConnect";
-            this.buttonConnect.Size = new System.Drawing.Size(79, 24);
-            this.buttonConnect.TabIndex = 10;
-            this.buttonConnect.Text = "Connect";
-            this.toolTipInfo.SetToolTip(this.buttonConnect, "Links the application to the specified ID with set presence.");
+            this.toolTipInfo.SetToolTip(this.buttonConnect, resources.GetString("buttonConnect.ToolTip"));
             this.buttonConnect.UseVisualStyleBackColor = true;
             this.buttonConnect.Click += new System.EventHandler(this.Connect);
             // 
             // buttonDisconnect
             // 
-            this.buttonDisconnect.Enabled = false;
-            this.buttonDisconnect.Location = new System.Drawing.Point(337, 49);
-            this.buttonDisconnect.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            resources.ApplyResources(this.buttonDisconnect, "buttonDisconnect");
             this.buttonDisconnect.Name = "buttonDisconnect";
-            this.buttonDisconnect.Size = new System.Drawing.Size(79, 24);
-            this.buttonDisconnect.TabIndex = 11;
-            this.buttonDisconnect.Text = "Disconnect";
-            this.toolTipInfo.SetToolTip(this.buttonDisconnect, "Disconnects the app from Discord. Please note that it might take a while.");
+            this.toolTipInfo.SetToolTip(this.buttonDisconnect, resources.GetString("buttonDisconnect.ToolTip"));
             this.buttonDisconnect.UseVisualStyleBackColor = true;
             this.buttonDisconnect.Click += new System.EventHandler(this.Disconnect);
             // 
             // labelID
             // 
-            this.labelID.AutoSize = true;
-            this.labelID.Location = new System.Drawing.Point(47, 54);
+            resources.ApplyResources(this.labelID, "labelID");
             this.labelID.Name = "labelID";
-            this.labelID.Size = new System.Drawing.Size(19, 14);
-            this.labelID.TabIndex = 12;
-            this.labelID.Text = "ID";
-            this.toolTipInfo.SetToolTip(this.labelID, "ID of the application from Discord Developers console.");
+            this.toolTipInfo.SetToolTip(this.labelID, resources.GetString("labelID.ToolTip"));
             // 
             // labelDetails
             // 
-            this.labelDetails.AutoSize = true;
-            this.labelDetails.Location = new System.Drawing.Point(24, 86);
+            resources.ApplyResources(this.labelDetails, "labelDetails");
             this.labelDetails.Name = "labelDetails";
-            this.labelDetails.Size = new System.Drawing.Size(42, 14);
-            this.labelDetails.TabIndex = 13;
-            this.labelDetails.Text = "Details";
-            this.toolTipInfo.SetToolTip(this.labelDetails, "First line in the presence.");
+            this.toolTipInfo.SetToolTip(this.labelDetails, resources.GetString("labelDetails.ToolTip"));
             // 
             // labelState
             // 
-            this.labelState.AutoSize = true;
-            this.labelState.Location = new System.Drawing.Point(29, 114);
+            resources.ApplyResources(this.labelState, "labelState");
             this.labelState.Name = "labelState";
-            this.labelState.Size = new System.Drawing.Size(37, 14);
-            this.labelState.TabIndex = 14;
-            this.labelState.Text = "State";
-            this.toolTipInfo.SetToolTip(this.labelState, "Second line in the presence.");
+            this.toolTipInfo.SetToolTip(this.labelState, resources.GetString("labelState.ToolTip"));
             // 
             // labelSmallKey
             // 
-            this.labelSmallKey.AutoSize = true;
-            this.labelSmallKey.Location = new System.Drawing.Point(39, 194);
+            resources.ApplyResources(this.labelSmallKey, "labelSmallKey");
             this.labelSmallKey.Name = "labelSmallKey";
-            this.labelSmallKey.Size = new System.Drawing.Size(27, 14);
-            this.labelSmallKey.TabIndex = 15;
-            this.labelSmallKey.Text = "Key";
-            this.toolTipInfo.SetToolTip(this.labelSmallKey, "Name of the asset for small image.");
+            this.toolTipInfo.SetToolTip(this.labelSmallKey, resources.GetString("labelSmallKey.ToolTip"));
             // 
             // labelSmallText
             // 
-            this.labelSmallText.AutoSize = true;
-            this.labelSmallText.Location = new System.Drawing.Point(33, 224);
+            resources.ApplyResources(this.labelSmallText, "labelSmallText");
             this.labelSmallText.Name = "labelSmallText";
-            this.labelSmallText.Size = new System.Drawing.Size(33, 14);
-            this.labelSmallText.TabIndex = 17;
-            this.labelSmallText.Text = "Text";
-            this.toolTipInfo.SetToolTip(this.labelSmallText, "Text displayed when hovering the small image.");
+            this.toolTipInfo.SetToolTip(this.labelSmallText, resources.GetString("labelSmallText.ToolTip"));
             // 
             // labelLargeText
             // 
-            this.labelLargeText.AutoSize = true;
-            this.labelLargeText.Location = new System.Drawing.Point(228, 224);
+            resources.ApplyResources(this.labelLargeText, "labelLargeText");
             this.labelLargeText.Name = "labelLargeText";
-            this.labelLargeText.Size = new System.Drawing.Size(33, 14);
-            this.labelLargeText.TabIndex = 19;
-            this.labelLargeText.Text = "Text";
-            this.toolTipInfo.SetToolTip(this.labelLargeText, "Text displayed when hovering the large image.");
+            this.toolTipInfo.SetToolTip(this.labelLargeText, resources.GetString("labelLargeText.ToolTip"));
             // 
             // labelLargeKey
             // 
-            this.labelLargeKey.AutoSize = true;
-            this.labelLargeKey.Location = new System.Drawing.Point(234, 194);
+            resources.ApplyResources(this.labelLargeKey, "labelLargeKey");
             this.labelLargeKey.Name = "labelLargeKey";
-            this.labelLargeKey.Size = new System.Drawing.Size(27, 14);
-            this.labelLargeKey.TabIndex = 18;
-            this.labelLargeKey.Text = "Key";
-            this.toolTipInfo.SetToolTip(this.labelLargeKey, "Name of the asset for large image.");
+            this.toolTipInfo.SetToolTip(this.labelLargeKey, resources.GetString("labelLargeKey.ToolTip"));
             // 
             // labelSmall
             // 
-            this.labelSmall.AutoSize = true;
-            this.labelSmall.Location = new System.Drawing.Point(99, 163);
+            resources.ApplyResources(this.labelSmall, "labelSmall");
             this.labelSmall.Name = "labelSmall";
-            this.labelSmall.Size = new System.Drawing.Size(72, 14);
-            this.labelSmall.TabIndex = 20;
-            this.labelSmall.Text = "Small Image";
-            this.toolTipInfo.SetToolTip(this.labelSmall, "Image that shows up in the down right corner of large image.");
+            this.toolTipInfo.SetToolTip(this.labelSmall, resources.GetString("labelSmall.ToolTip"));
             // 
             // labelLarge
             // 
-            this.labelLarge.AutoSize = true;
-            this.labelLarge.Location = new System.Drawing.Point(291, 163);
+            resources.ApplyResources(this.labelLarge, "labelLarge");
             this.labelLarge.Name = "labelLarge";
-            this.labelLarge.Size = new System.Drawing.Size(75, 14);
-            this.labelLarge.TabIndex = 21;
-            this.labelLarge.Text = "Large Image";
-            this.toolTipInfo.SetToolTip(this.labelLarge, "Image that shows left to the text set above.");
-            // 
-            // linkLabelDeveloperConsole
-            // 
-            this.linkLabelDeveloperConsole.AutoSize = true;
-            this.linkLabelDeveloperConsole.Location = new System.Drawing.Point(193, 163);
-            this.linkLabelDeveloperConsole.Name = "linkLabelDeveloperConsole";
-            this.linkLabelDeveloperConsole.Size = new System.Drawing.Size(83, 14);
-            this.linkLabelDeveloperConsole.TabIndex = 22;
-            this.linkLabelDeveloperConsole.TabStop = true;
-            this.linkLabelDeveloperConsole.Text = "Upload Assets";
-            this.toolTipInfo.SetToolTip(this.linkLabelDeveloperConsole, "Takes you to the Discord Developers site.");
-            this.linkLabelDeveloperConsole.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OpenDiscordSite);
+            this.toolTipInfo.SetToolTip(this.labelLarge, resources.GetString("labelLarge.ToolTip"));
             // 
             // toolTipInfo
             // 
             this.toolTipInfo.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.toolTipInfo.ToolTipTitle = "Information";
+            this.toolTipInfo.ToolTipTitle = "Информация";
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(467, 309);
-            this.Controls.Add(this.linkLabelDeveloperConsole);
+            this.Controls.Add(this.textBoxSmallKey);
+            this.Controls.Add(this.textBoxSmallText);
+            this.Controls.Add(this.labelSmallKey);
+            this.Controls.Add(this.labelSmallText);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.labelLarge);
             this.Controls.Add(this.labelSmall);
             this.Controls.Add(this.labelLargeText);
             this.Controls.Add(this.labelLargeKey);
-            this.Controls.Add(this.labelSmallText);
-            this.Controls.Add(this.labelSmallKey);
             this.Controls.Add(this.labelState);
             this.Controls.Add(this.labelDetails);
             this.Controls.Add(this.labelID);
@@ -390,22 +325,16 @@
             this.Controls.Add(this.buttonUpdatePresence);
             this.Controls.Add(this.textBoxLargeText);
             this.Controls.Add(this.textBoxLargeKey);
-            this.Controls.Add(this.textBoxSmallText);
-            this.Controls.Add(this.textBoxSmallKey);
             this.Controls.Add(this.textBoxState);
             this.Controls.Add(this.textBoxDetails);
             this.Controls.Add(this.textBoxID);
             this.Controls.Add(this.menuStrip);
-            this.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = global::CustomRPC.Properties.Resources.favicon;
             this.MainMenuStrip = this.menuStrip;
-            this.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MainForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Custom RP";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MinimizeToTray);
             this.trayMenuStrip.ResumeLayout(false);
             this.menuStrip.ResumeLayout(false);
@@ -448,8 +377,11 @@
         private System.Windows.Forms.Label labelSmall;
         private System.Windows.Forms.Label labelLarge;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.LinkLabel linkLabelDeveloperConsole;
         private System.Windows.Forms.ToolTip toolTipInfo;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ToolStripMenuItem uploadAssetsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
     }
 }
 
