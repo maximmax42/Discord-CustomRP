@@ -133,7 +133,7 @@
   <data name="trayMenuReconnect.Text" xml:space="preserve">
     <value>Переподключиться</value>
   </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 6</value>
   </data>
   <data name="trayMenuQuit.Size" type="System.Drawing.Size, System.Drawing">
@@ -154,7 +154,7 @@
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
     <value>Загрузить изображения</value>
   </data>
-  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>202, 6</value>
   </data>
   <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -194,7 +194,7 @@
     <value>Обновляет статус.</value>
   </data>
   <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 49</value>
+    <value>227, 49</value>
   </data>
   <data name="buttonConnect.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 24</value>
@@ -206,7 +206,7 @@
     <value>Связывает приложение с указанными ID и статусом.</value>
   </data>
   <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>319, 49</value>
+    <value>327, 49</value>
   </data>
   <data name="buttonDisconnect.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 24</value>
@@ -215,7 +215,7 @@
     <value>Отключить</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Отключается от Дискорда. Может занять некоторое время.</value>
+    <value>Отключается от Discord. Может занять некоторое время.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>ID приложения с сайта разработчиков Discord.</value>
@@ -255,5 +255,36 @@
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
     <value>Изображение, показываемое слева от установленного выше текста.</value>
+  </data>
+  <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 18</value>
+  </data>
+  <data name="radioButtonNone.Text" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="radioButtonNone.ToolTip" xml:space="preserve">
+    <value>Отключить строку со временем.</value>
+  </data>
+  <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 18</value>
+  </data>
+  <data name="radioButtonStartTime.Text" xml:space="preserve">
+    <value>С момента запуска Custom RP</value>
+  </data>
+  <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
+    <value>Показывает время со старта данной программы.</value>
+  </data>
+  <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 18</value>
+  </data>
+  <data name="radioButtonLocalTime.Text" xml:space="preserve">
+    <value>Время компьютера</value>
+  </data>
+  <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
+    <value>Показывает текущее время на компьютере в 24-часовом формате.</value>
+  </data>
+  <data name="labelTimestamp.ToolTip" xml:space="preserve">
+    <value>Настраивает время для статуса, показываемое под всем текстом, указанным выше.
+У времени в статусе есть 24-часовой лимит, то есть при достижении 24 часов время сбрасывается до 0:00.</value>
   </data>
 </root>

@@ -130,5 +130,17 @@ namespace CustomRPC.Properties {
                 this["runOnStartup"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int timestamps {
+            get {
+                return ((int)(this["timestamps"]));
+            }
+            set {
+                this["timestamps"] = value;
+            }
+        }
     }
 }

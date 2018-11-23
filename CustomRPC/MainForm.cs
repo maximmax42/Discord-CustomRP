@@ -11,6 +11,8 @@ namespace CustomRPC
         DiscordRpcClient client; // RPC Client
         Timer timer; // Timer for invoking, required
 
+        DateTime started = DateTime.UtcNow; // Timestamp of when the app started.
+
         bool wasTooltipShown = false; // When you minimize, tooltip shows once (that is if Start Minimized is disabled)
         bool loading = true; // To prevent some event handlers from executing while app is loading
         bool toAvoidRecursion = false; // ...This is stupid
@@ -39,6 +41,14 @@ namespace CustomRPC
             textBoxSmallText.Text = settings.smallText;
             textBoxLargeKey.Text = settings.largeKey;
             textBoxLargeText.Text = settings.largeText;
+
+            // Checks the needed timestamp radiobuttons
+            switch (settings.timestamps)
+            {
+                case 0: radioButtonNone.Checked = true; break;
+                case 1: radioButtonStartTime.Checked = true; break;
+                case 2: radioButtonLocalTime.Checked = true; break;
+            }
 
             loading = false;
 
@@ -106,6 +116,13 @@ namespace CustomRPC
                     LargeImageText = settings.largeText,
                 }
             });
+
+            switch (settings.timestamps)
+            {
+                case 0: break;
+                case 1: client.UpdateStartTime(started); break;
+                case 2: client.UpdateStartTime(DateTime.UtcNow.Subtract(new TimeSpan(DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second))); break;
+            }
         }
 
         // Sets up the startup link for the app.
@@ -218,6 +235,19 @@ namespace CustomRPC
             toAvoidRecursion = false;
         }
 
+        // Called when a timestamp radiobutton changed
+        private void TimestampsChanged(object sender, EventArgs e)
+        {
+            if (loading) return;
+
+            RadioButton btn = (RadioButton)sender;
+
+            if (!btn.Checked) return;
+
+            settings.timestamps = btn.TabIndex; // I mean... it's a great container for int values
+            settings.Save();
+        }
+
         // Called when you press the Connect button or right-click on the tray icon and choose Reconnect
         private void Connect(object sender, EventArgs e)
         {
@@ -254,17 +284,6 @@ namespace CustomRPC
             if (settings.id == "") return;
 
             System.Diagnostics.Process.Start("https://discordapp.com/developers/applications/" + settings.id + "/rich-presence/assets");
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            var curTime = DateTime.Now;
-            client.UpdateStartTime(DateTime.UtcNow.Subtract(new TimeSpan(curTime.Hour, curTime.Minute, curTime.Second)));
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            client.UpdateClearTime();
         }
     }
 }
