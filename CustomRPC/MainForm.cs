@@ -29,6 +29,10 @@ namespace CustomRPC
             // Setting up startup link for current user (enabled by default)
             StartupSetup();
 
+            #region I don't wanna see this
+            // There was a better way, and I only find that out 4-5 days in.
+            // Eff it, not gonna remake it out of principle.
+
             // Displays currently saved settings in the menu strip
             runOnStartupToolStripMenuItem.Checked = settings.runOnStartup;
             startMinimizedToolStripMenuItem.Checked = settings.startMinimized;
@@ -41,6 +45,8 @@ namespace CustomRPC
             textBoxSmallText.Text = settings.smallText;
             textBoxLargeKey.Text = settings.largeKey;
             textBoxLargeText.Text = settings.largeText;
+
+            #endregion
 
             // Checks the needed timestamp radiobuttons
             switch (settings.timestamps)
@@ -191,7 +197,7 @@ namespace CustomRPC
         // Called when you press About... in menu strip
         private void ShowAbout(object sender, EventArgs e)
         {
-            MessageBox.Show(this, "Made by maximmax42\n© 2018", aboutToolStripMenuItem.Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
+            new About(aboutToolStripMenuItem.Text).ShowDialog(this);
         }
 
         // Saves all the fields to settings
