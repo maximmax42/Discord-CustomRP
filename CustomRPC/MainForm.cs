@@ -171,6 +171,7 @@ namespace CustomRPC
         private void MaximizeFromTray(object sender, EventArgs e)
         {
             Show();
+            Activate();
         }
 
         // Called when you click File -> Quit or right-click on the tray icon and choose Quit
