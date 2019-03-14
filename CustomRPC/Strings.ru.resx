@@ -123,4 +123,10 @@
   <data name="errorNoID" xml:space="preserve">
     <value>ID не указан!</value>
   </data>
+  <data name="updateAvailable" xml:space="preserve">
+    <value>Доступно обновление</value>
+  </data>
+  <data name="updateAvailableText" xml:space="preserve">
+    <value>Пожалуйста, скачайте последнюю версию, нажав на "Скачать обновление".</value>
+  </data>
 </root>

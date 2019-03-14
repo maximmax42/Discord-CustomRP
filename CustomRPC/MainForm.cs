@@ -21,6 +21,9 @@ namespace CustomRPC
 
         string linkPath = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\CustomRP.lnk"; // Autorun file link
 
+        string latestVersion; // For checking updates
+        string currentVersion;
+
         // Constructor of the form
         public MainForm()
         {
@@ -74,6 +77,17 @@ namespace CustomRPC
                     textBoxID.ReadOnly = true; // ...and make the ID field read only
                 }
             }
+
+            currentVersion = Application.ProductVersion.Substring(0, Application.ProductVersion.Length - 4);
+            latestVersion = new System.Net.WebClient().DownloadString("https://raw.githubusercontent.com/maximmax42/Discord-CustomRP/master/version").Trim();
+
+            if (currentVersion != latestVersion) // If update is available...
+            {
+                updateAvailableToolStripMenuItem.Visible = true; // ...activate the "Download update" button...
+                Show(); // ...make sure the app window is shown if it was minimized...
+                Activate(); // ...make it the active window...
+                MessageBox.Show(Strings.updateAvailableText, Strings.updateAvailable, MessageBoxButtons.OK, MessageBoxIcon.Information); // ...and show a message box telling there's an update
+            }
         }
 
         // Connecting to the Discord API
@@ -81,7 +95,7 @@ namespace CustomRPC
         {
             if (settings.id == "")
             {
-                MessageBox.Show(this, Strings.errorNoID, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Strings.errorNoID, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
 
@@ -285,12 +299,18 @@ namespace CustomRPC
             SetPresence();
         }
 
-        // Called when you press Upload Assets link
+        // Called when you press Upload Assets button
         private void OpenDiscordSite(object sender, EventArgs e)
         {
             if (settings.id == "") return;
 
             System.Diagnostics.Process.Start("https://discordapp.com/developers/applications/" + settings.id + "/rich-presence/assets");
+        }
+
+        // Called when you press Update available! button
+        private void DownloadUpdate(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/maximmax42/Discord-CustomRP/releases/tag/" + latestVersion);
         }
     }
 }

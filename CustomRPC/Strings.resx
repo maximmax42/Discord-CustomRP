@@ -123,4 +123,10 @@
   <data name="errorNoID" xml:space="preserve">
     <value>No ID specified!</value>
   </data>
+  <data name="updateAvailable" xml:space="preserve">
+    <value>Update available</value>
+  </data>
+  <data name="updateAvailableText" xml:space="preserve">
+    <value>Please download the newest version by clicking "Download update" button.</value>
+  </data>
 </root>

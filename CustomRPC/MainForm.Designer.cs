@@ -44,6 +44,7 @@
             this.runOnStartupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.startMinimizedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updateAvailableToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textBoxID = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxState = new System.Windows.Forms.TextBox();
@@ -117,7 +118,8 @@
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.settingsToolStripMenuItem,
-            this.aboutToolStripMenuItem});
+            this.aboutToolStripMenuItem,
+            this.updateAvailableToolStripMenuItem});
             this.menuStrip.Name = "menuStrip";
             this.toolTipInfo.SetToolTip(this.menuStrip, resources.GetString("menuStrip.ToolTip"));
             // 
@@ -174,6 +176,13 @@
             resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.ShowAbout);
+            // 
+            // updateAvailableToolStripMenuItem
+            // 
+            resources.ApplyResources(this.updateAvailableToolStripMenuItem, "updateAvailableToolStripMenuItem");
+            this.updateAvailableToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
+            this.updateAvailableToolStripMenuItem.Name = "updateAvailableToolStripMenuItem";
+            this.updateAvailableToolStripMenuItem.Click += new System.EventHandler(this.DownloadUpdate);
             // 
             // textBoxID
             // 
@@ -432,6 +441,7 @@
         private System.Windows.Forms.RadioButton radioButtonNone;
         private System.Windows.Forms.Panel panelTimestamps;
         private System.Windows.Forms.Label labelTimestamp;
+        private System.Windows.Forms.ToolStripMenuItem updateAvailableToolStripMenuItem;
     }
 }
 

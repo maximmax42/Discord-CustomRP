@@ -237,6 +237,9 @@
   <data name="panelTimestamps.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="labelID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 54</value>
+  </data>
   <data name="labelState.ToolTip" xml:space="preserve">
     <value>Second line in the presence.</value>
   </data>
@@ -266,6 +269,9 @@
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>145, 6</value>
+  </data>
+  <data name="trayMenuStrip.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;textBoxID.Name" xml:space="preserve">
     <value>textBoxID</value>
@@ -311,6 +317,9 @@
   </data>
   <data name="textBoxSmallKey.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 22</value>
+  </data>
+  <data name="&gt;&gt;updateAvailableToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;labelLargeText.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -371,6 +380,9 @@
   </data>
   <data name="textBoxState.ToolTip" xml:space="preserve">
     <value />
+  </data>
+  <data name="updateAvailableToolStripMenuItem.Text" xml:space="preserve">
+    <value>Download update</value>
   </data>
   <data name="trayIcon.Text" xml:space="preserve">
     <value>Custom Rich Presence</value>
@@ -573,8 +585,8 @@
   <data name="&gt;&gt;textBoxState.ZOrder" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="labelID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 54</value>
+  <data name="&gt;&gt;buttonUpdatePresence.ZOrder" xml:space="preserve">
+    <value>16</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
     <value>Update Presence</value>
@@ -618,8 +630,8 @@
   <data name="labelTimestamp.Text" xml:space="preserve">
     <value>Timestamp</value>
   </data>
-  <data name="textBoxSmallText.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;updateAvailableToolStripMenuItem.Name" xml:space="preserve">
+    <value>updateAvailableToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;textBoxID.Parent" xml:space="preserve">
     <value>$this</value>
@@ -690,8 +702,8 @@
   <data name="menuStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>480, 24</value>
   </data>
-  <data name="trayMenuStrip.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;buttonUpdatePresence.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Text displayed when hovering the small image.</value>
@@ -728,6 +740,9 @@
   </data>
   <data name="&gt;&gt;labelLargeKey.ZOrder" xml:space="preserve">
     <value>10</value>
+  </data>
+  <data name="&gt;&gt;textBoxDetails.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;radioButtonNone.Parent" xml:space="preserve">
     <value>panelTimestamps</value>
@@ -795,6 +810,9 @@
   <data name="&gt;&gt;labelDetails.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
+  <data name="textBoxSmallText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="textBoxState.Size" type="System.Drawing.Size, System.Drawing">
     <value>340, 22</value>
   </data>
@@ -857,9 +875,6 @@
   </data>
   <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
     <value>aboutToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;buttonUpdatePresence.ZOrder" xml:space="preserve">
-    <value>16</value>
   </data>
   <data name="labelSmall.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -944,9 +959,6 @@
   </data>
   <data name="labelLarge.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
-  </data>
-  <data name="&gt;&gt;buttonUpdatePresence.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonConnect.Name" xml:space="preserve">
     <value>buttonConnect</value>
@@ -1057,14 +1069,17 @@ Status timers have 24 hour limit, meaning that after 24 hours time will go back 
   <data name="&gt;&gt;radioButtonStartTime.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;textBoxDetails.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="updateAvailableToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
   </data>
   <data name="&gt;&gt;radioButtonLocalTime.Parent" xml:space="preserve">
     <value>panelTimestamps</value>
   </data>
   <data name="&gt;&gt;textBoxSmallKey.Name" xml:space="preserve">
     <value>textBoxSmallKey</value>
+  </data>
+  <data name="updateAvailableToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="labelLargeText.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>

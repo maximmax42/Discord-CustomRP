@@ -77,5 +77,23 @@ namespace CustomRPC {
                 return ResourceManager.GetString("errorNoID", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Update available.
+        /// </summary>
+        internal static string updateAvailable {
+            get {
+                return ResourceManager.GetString("updateAvailable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Please download the newest version by clicking &quot;Download update&quot; button..
+        /// </summary>
+        internal static string updateAvailableText {
+            get {
+                return ResourceManager.GetString("updateAvailableText", resourceCulture);
+            }
+        }
     }
 }
