@@ -10,3 +10,6 @@ So far, the app supports these languages:
 * Russian
 
 If you know how to localize apps in Visual Studio, go ahead and do that, and send a pull request. If you don't - open an issue about wanting to participate with translation and I'll hook you up with strings to translate.
+
+## Feedback
+If you have any problems with the app, or you have suggestions on making it more functional, you can open an issue ticket, or contact me on Discord - maximmax42#5572.
