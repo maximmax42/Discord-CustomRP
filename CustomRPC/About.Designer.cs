@@ -33,6 +33,7 @@
             this.labelTitle = new System.Windows.Forms.Label();
             this.labelMadeBy = new System.Windows.Forms.Label();
             this.buttonClose = new System.Windows.Forms.Button();
+            this.labelVersion = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,11 +61,17 @@
             this.buttonClose.Name = "buttonClose";
             this.buttonClose.UseVisualStyleBackColor = true;
             // 
+            // labelVersion
+            // 
+            resources.ApplyResources(this.labelVersion, "labelVersion");
+            this.labelVersion.Name = "labelVersion";
+            // 
             // About
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Controls.Add(this.labelVersion);
             this.Controls.Add(this.buttonClose);
             this.Controls.Add(this.labelMadeBy);
             this.Controls.Add(this.labelTitle);
@@ -85,5 +92,6 @@
         private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.Label labelMadeBy;
         private System.Windows.Forms.Button buttonClose;
+        private System.Windows.Forms.Label labelVersion;
     }
 }

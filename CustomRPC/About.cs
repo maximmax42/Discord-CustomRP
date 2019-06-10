@@ -9,6 +9,11 @@ namespace CustomRPC
             InitializeComponent();
 
             Text = aboutLocalized;
+
+            var versionSplit = Application.ProductVersion.Split('.');
+
+            labelVersion.Text = "v" + versionSplit[0] + "." + versionSplit[1];
+            if (versionSplit[2] != "0") labelVersion.Text += "." + versionSplit[2];
         }
     }
 }

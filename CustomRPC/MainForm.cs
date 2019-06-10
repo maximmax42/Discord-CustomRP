@@ -2,14 +2,12 @@
 using System;
 using System.IO;
 using System.Windows.Forms;
-using Timer = System.Timers.Timer;
 
 namespace CustomRPC
 {
     public partial class MainForm : Form
     {
         DiscordRpcClient client; // RPC Client
-        Timer timer; // Timer for invoking, required
 
         DateTime started = DateTime.UtcNow; // Timestamp of when the app started.
 
@@ -22,7 +20,6 @@ namespace CustomRPC
         string linkPath = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\CustomRP.lnk"; // Autorun file link
 
         string latestVersion; // For checking updates
-        string currentVersion;
 
         // Constructor of the form
         public MainForm()
@@ -78,10 +75,26 @@ namespace CustomRPC
                 }
             }
 
-            currentVersion = Application.ProductVersion.Substring(0, Application.ProductVersion.Length - 4);
+            // Fetching newest version
             latestVersion = new System.Net.WebClient().DownloadString("https://raw.githubusercontent.com/maximmax42/Discord-CustomRP/master/version").Trim();
+            var current = Application.ProductVersion.Split('.');
+            var latest = latestVersion.Split('.');
 
-            if (currentVersion != latestVersion) // If update is available...
+            // I don't like the ".0" in the version, so yeah
+            if (latest.Length == 2) latest = new string[] { latest[0], latest[1], "0" };
+
+            bool updateAvailable = false;
+
+            for (int i = 0; i < 3; i++)
+            {
+                if (int.Parse(current[i]) < int.Parse(latest[i]))
+                {
+                    updateAvailable = true;
+                    break;
+                }
+            }
+
+            if (updateAvailable) // If update is available...
             {
                 updateAvailableToolStripMenuItem.Visible = true; // ...activate the "Download update" button...
                 Show(); // ...make sure the app window is shown if it was minimized...
@@ -99,19 +112,13 @@ namespace CustomRPC
                 return false;
             }
 
-            if (client != null && !client.Disposed)
+            if (client != null && !client.IsDisposed)
             {
                 // This stuff needs proper disposal
-                timer.Dispose();
                 client.Dispose();
             }
 
             client = new DiscordRpcClient(settings.id); // Assigning the ID
-
-            // Not sure why it's needed, but it is
-            timer = new Timer(150);
-            timer.Elapsed += (sender, args) => { client.Invoke(); };
-            timer.Start();
 
             client.Initialize();
 
@@ -188,10 +195,17 @@ namespace CustomRPC
             Activate();
         }
 
+        // Called when you press Upload Assets button
+        private void OpenDiscordSite(object sender, EventArgs e)
+        {
+            if (settings.id == "") return;
+
+            System.Diagnostics.Process.Start("https://discordapp.com/developers/applications/" + settings.id + "/rich-presence/assets");
+        }
+
         // Called when you click File -> Quit or right-click on the tray icon and choose Quit
         private void Quit(object sender, EventArgs e)
         {
-            if (timer != null) timer.Dispose();
             if (client != null) client.Dispose();
 
             ChangePresence();
@@ -209,10 +223,28 @@ namespace CustomRPC
             StartupSetup();
         }
 
-        // Called when you press About... in menu strip
+        // Called when you press Open the Manual button
+        private void OpenManual(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/maximmax42/Discord-CustomRP/wiki/Setting-Up");
+        }
+
+        // Called when you press GitHub Page button
+        private void OpenGitHub(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/maximmax42/Discord-CustomRP");
+        }
+
+        // Called when you press About... button
         private void ShowAbout(object sender, EventArgs e)
         {
             new About(aboutToolStripMenuItem.Text).ShowDialog(this);
+        }
+
+        // Called when you press Update available! button
+        private void DownloadUpdate(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/maximmax42/Discord-CustomRP/releases/tag/" + latestVersion);
         }
 
         // Saves all the fields to settings
@@ -288,7 +320,6 @@ namespace CustomRPC
             buttonDisconnect.Enabled = false;
             textBoxID.ReadOnly = false;
 
-            timer.Dispose();
             client.Dispose();
         }
 
@@ -297,20 +328,6 @@ namespace CustomRPC
         {
             ChangePresence();
             SetPresence();
-        }
-
-        // Called when you press Upload Assets button
-        private void OpenDiscordSite(object sender, EventArgs e)
-        {
-            if (settings.id == "") return;
-
-            System.Diagnostics.Process.Start("https://discordapp.com/developers/applications/" + settings.id + "/rich-presence/assets");
-        }
-
-        // Called when you press Update available! button
-        private void DownloadUpdate(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://github.com/maximmax42/Discord-CustomRP/releases/tag/" + latestVersion);
         }
     }
 }
