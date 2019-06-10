@@ -1,4 +1,6 @@
 # Custom Discord Rich Presence Manager
+![App Banner](https://repository-images.githubusercontent.com/158286982/e4ddf080-8be6-11e9-8596-b1208b88eda2)
+
 Custom Discord Rich Presence Manager for Windows. Some of its features are run on startup and tray minimization. Uses [Lachee's DiscordRPC for C#](https://github.com/Lachee/discord-rpc-csharp).
 
 ## Downloading and setting up
