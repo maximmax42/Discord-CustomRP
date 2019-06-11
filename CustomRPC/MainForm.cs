@@ -309,6 +309,7 @@ namespace CustomRPC
             {
                 buttonConnect.Enabled = false;
                 buttonDisconnect.Enabled = true;
+                buttonUpdatePresence.Enabled = true;
                 textBoxID.ReadOnly = true;
             }
         }
@@ -318,6 +319,7 @@ namespace CustomRPC
         {
             buttonConnect.Enabled = true;
             buttonDisconnect.Enabled = false;
+            buttonUpdatePresence.Enabled = false;
             textBoxID.ReadOnly = false;
 
             client.Dispose();
