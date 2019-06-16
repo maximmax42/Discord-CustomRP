@@ -79,20 +79,21 @@ namespace CustomRPC {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Update available.
+        ///   Ищет локализованную строку, похожую на First Time Run.
         /// </summary>
-        internal static string updateAvailable {
+        internal static string firstTimeRun {
             get {
-                return ResourceManager.GetString("updateAvailable", resourceCulture);
+                return ResourceManager.GetString("firstTimeRun", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Please download the newest version by clicking &quot;Download update&quot; button..
+        ///   Ищет локализованную строку, похожую на Would you like to open a manual?
+        ///You can open it any time by going Help -&gt; Open the Manual or pressing F1..
         /// </summary>
-        internal static string updateAvailableText {
+        internal static string firstTimeRunText {
             get {
-                return ResourceManager.GetString("updateAvailableText", resourceCulture);
+                return ResourceManager.GetString("firstTimeRunText", resourceCulture);
             }
         }
     }

@@ -36,6 +36,7 @@ namespace CustomRPC
             // Displays currently saved settings in the menu strip
             runOnStartupToolStripMenuItem.Checked = settings.runOnStartup;
             startMinimizedToolStripMenuItem.Checked = settings.startMinimized;
+            checkUpdatesToolStripMenuItem.Checked = settings.checkUpdates;
 
             // Fills out fields
             textBoxID.Text = settings.id;
@@ -60,12 +61,25 @@ namespace CustomRPC
 
             if (!settings.startMinimized) Show(); // Starts minimized to tray by default
 
-            if (settings.id == "")
+            if (settings.id != "" && settings.firstStart) // That means user has upgraded from older version without that flag
             {
-                // Opens the setup manual
-                System.Diagnostics.Process.Start("https://github.com/maximmax42/Discord-CustomRP/wiki/Setting-Up");
+                settings.firstStart = false;
+                settings.Save();
+            } 
+
+            if (settings.firstStart)
+            {
+                // Asking if the user wants the manual
+                var messageBox = MessageBox.Show(this, Strings.firstTimeRunText, Strings.firstTimeRun, MessageBoxButtons.YesNo, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
+
+                if (messageBox == DialogResult.Yes)
+                    // Opens the setup manual
+                    System.Diagnostics.Process.Start("https://github.com/maximmax42/Discord-CustomRP/wiki/Setting-Up");
+
+                settings.firstStart = false;
+                settings.Save();
             }
-            else
+            else if (settings.id != "")
             {
                 if (Init()) // If successfully connected...
                 {
@@ -75,31 +89,32 @@ namespace CustomRPC
                 }
             }
 
-            // Fetching newest version
+            if (settings.checkUpdates) CheckForUpdates();
+        }
+
+        // Checking updates
+        private void CheckForUpdates()
+        {
+            // Fetching latest version
             latestVersion = new System.Net.WebClient().DownloadString("https://raw.githubusercontent.com/maximmax42/Discord-CustomRP/master/version").Trim();
-            var current = Application.ProductVersion.Split('.');
-            var latest = latestVersion.Split('.');
 
-            // I don't like the ".0" in the version, so yeah
-            if (latest.Length == 2) latest = new string[] { latest[0], latest[1], "0" };
+            Version current = new Version(Application.ProductVersion);
+            Version latest = new Version(latestVersion);
 
-            bool updateAvailable = false;
-
-            for (int i = 0; i < 3; i++)
-            {
-                if (int.Parse(current[i]) < int.Parse(latest[i]))
-                {
-                    updateAvailable = true;
-                    break;
-                }
-            }
-
-            if (updateAvailable) // If update is available...
+            if (current.CompareTo(latest) < 0) // If update is available...
             {
                 updateAvailableToolStripMenuItem.Visible = true; // ...activate the "Download update" button...
                 Show(); // ...make sure the app window is shown if it was minimized...
-                Activate(); // ...make it the active window...
-                MessageBox.Show(Strings.updateAvailableText, Strings.updateAvailable, MessageBoxButtons.OK, MessageBoxIcon.Information); // ...and show a message box telling there's an update
+
+                var messageBox = new UpdatePrompt(current, latest).ShowDialog(); // ...and show a dialog box telling there's an update
+
+                if (messageBox == DialogResult.Yes)
+                    System.Diagnostics.Process.Start("https://github.com/maximmax42/Discord-CustomRP/releases/tag/" + latestVersion);
+
+                checkUpdatesToolStripMenuItem.Checked = settings.checkUpdates;
+
+                if (!settings.checkUpdates)
+                    updateAvailableToolStripMenuItem.Visible = false; // If user doesn't want update notifications, let's not bother them
             }
         }
 
@@ -219,8 +234,12 @@ namespace CustomRPC
 
             settings.runOnStartup = runOnStartupToolStripMenuItem.Checked;
             settings.startMinimized = startMinimizedToolStripMenuItem.Checked;
+            settings.checkUpdates = checkUpdatesToolStripMenuItem.Checked;
+
             settings.Save();
+
             StartupSetup();
+            if (settings.checkUpdates) CheckForUpdates();
         }
 
         // Called when you press Open the Manual button

@@ -123,10 +123,11 @@
   <data name="errorNoID" xml:space="preserve">
     <value>ID не указан!</value>
   </data>
-  <data name="updateAvailable" xml:space="preserve">
-    <value>Доступно обновление</value>
+  <data name="firstTimeRun" xml:space="preserve">
+    <value>Первый запуск</value>
   </data>
-  <data name="updateAvailableText" xml:space="preserve">
-    <value>Пожалуйста, скачайте последнюю версию, нажав на "Скачать обновление".</value>
+  <data name="firstTimeRunText" xml:space="preserve">
+    <value>Хотите ли вы открыть руководство?
+Его можно открыть в любое время, открыв меню Помощь -&gt; Открыть руководство, или нажав кнопку F1.</value>
   </data>
 </root>
