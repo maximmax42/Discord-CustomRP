@@ -117,11 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="buttonYes.Text" xml:space="preserve">
-    <value>Да</value>
+  <data name="buttonUpdate.Text" xml:space="preserve">
+    <value>Обновить</value>
   </data>
-  <data name="buttonNo.Text" xml:space="preserve">
-    <value>Нет</value>
+  <data name="buttonNotNow.Text" xml:space="preserve">
+    <value>Не сейчас</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
@@ -136,12 +136,19 @@
   <data name="checkBoxNeverNotify.Text" xml:space="preserve">
     <value>Не проверять обновления в дальнейшем</value>
   </data>
-  <data name="labelVersionsText.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 12pt</value>
-  </data>
   <data name="labelVersionsText.Text" xml:space="preserve">
     <value>Текущая версия:
 Последняя версия:</value>
+  </data>
+  <data name="buttonSkipUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="buttonSkipUpdate.Text" xml:space="preserve">
+    <value>Пропустить версию</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Доступно обновление</value>

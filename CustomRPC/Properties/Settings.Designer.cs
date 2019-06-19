@@ -166,5 +166,17 @@ namespace CustomRPC.Properties {
                 this["checkUpdates"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ignoreVersion {
+            get {
+                return ((string)(this["ignoreVersion"]));
+            }
+            set {
+                this["ignoreVersion"] = value;
+            }
+        }
     }
 }

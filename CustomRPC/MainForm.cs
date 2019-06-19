@@ -98,6 +98,8 @@ namespace CustomRPC
             // Fetching latest version
             latestVersion = new System.Net.WebClient().DownloadString("https://raw.githubusercontent.com/maximmax42/Discord-CustomRP/master/version").Trim();
 
+            if (latestVersion == settings.ignoreVersion) return; // The user ignored this version
+
             Version current = new Version(Application.ProductVersion);
             Version latest = new Version(latestVersion);
 
@@ -110,10 +112,12 @@ namespace CustomRPC
 
                 if (messageBox == DialogResult.Yes)
                     System.Diagnostics.Process.Start("https://github.com/maximmax42/Discord-CustomRP/releases/tag/" + latestVersion);
+                else if (messageBox == DialogResult.Ignore)
+                    settings.ignoreVersion = latestVersion;
 
                 checkUpdatesToolStripMenuItem.Checked = settings.checkUpdates;
 
-                if (!settings.checkUpdates)
+                if (!settings.checkUpdates || messageBox == DialogResult.Ignore)
                     updateAvailableToolStripMenuItem.Visible = false; // If user doesn't want update notifications, let's not bother them
             }
         }
@@ -260,7 +264,7 @@ namespace CustomRPC
             new About(aboutToolStripMenuItem.Text).ShowDialog(this);
         }
 
-        // Called when you press Update available! button
+        // Called when you press Download Update button
         private void DownloadUpdate(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://github.com/maximmax42/Discord-CustomRP/releases/tag/" + latestVersion);

@@ -29,38 +29,39 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UpdatePrompt));
-            this.buttonYes = new System.Windows.Forms.Button();
+            this.buttonUpdate = new System.Windows.Forms.Button();
             this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
-            this.buttonNo = new System.Windows.Forms.Button();
+            this.buttonNotNow = new System.Windows.Forms.Button();
             this.labelQuestion = new System.Windows.Forms.Label();
             this.checkBoxNeverNotify = new System.Windows.Forms.CheckBox();
             this.labelVersionsText = new System.Windows.Forms.Label();
             this.labelVersions = new System.Windows.Forms.Label();
+            this.buttonSkipUpdate = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
-            // buttonYes
+            // buttonUpdate
             // 
-            resources.ApplyResources(this.buttonYes, "buttonYes");
-            this.buttonYes.AutoEllipsis = true;
-            this.buttonYes.DialogResult = System.Windows.Forms.DialogResult.Yes;
-            this.buttonYes.Name = "buttonYes";
-            this.buttonYes.UseVisualStyleBackColor = true;
+            this.buttonUpdate.AutoEllipsis = true;
+            this.buttonUpdate.DialogResult = System.Windows.Forms.DialogResult.Yes;
+            resources.ApplyResources(this.buttonUpdate, "buttonUpdate");
+            this.buttonUpdate.Name = "buttonUpdate";
+            this.buttonUpdate.UseVisualStyleBackColor = true;
             // 
             // pictureBoxLogo
             // 
-            resources.ApplyResources(this.pictureBoxLogo, "pictureBoxLogo");
             this.pictureBoxLogo.Image = global::CustomRPC.Properties.Resources.logo;
+            resources.ApplyResources(this.pictureBoxLogo, "pictureBoxLogo");
             this.pictureBoxLogo.Name = "pictureBoxLogo";
             this.pictureBoxLogo.TabStop = false;
             // 
-            // buttonNo
+            // buttonNotNow
             // 
-            resources.ApplyResources(this.buttonNo, "buttonNo");
-            this.buttonNo.AutoEllipsis = true;
-            this.buttonNo.DialogResult = System.Windows.Forms.DialogResult.No;
-            this.buttonNo.Name = "buttonNo";
-            this.buttonNo.UseVisualStyleBackColor = true;
+            this.buttonNotNow.AutoEllipsis = true;
+            this.buttonNotNow.DialogResult = System.Windows.Forms.DialogResult.No;
+            resources.ApplyResources(this.buttonNotNow, "buttonNotNow");
+            this.buttonNotNow.Name = "buttonNotNow";
+            this.buttonNotNow.UseVisualStyleBackColor = true;
             // 
             // labelQuestion
             // 
@@ -84,18 +85,27 @@
             resources.ApplyResources(this.labelVersions, "labelVersions");
             this.labelVersions.Name = "labelVersions";
             // 
+            // buttonSkipUpdate
+            // 
+            this.buttonSkipUpdate.AutoEllipsis = true;
+            this.buttonSkipUpdate.DialogResult = System.Windows.Forms.DialogResult.Ignore;
+            resources.ApplyResources(this.buttonSkipUpdate, "buttonSkipUpdate");
+            this.buttonSkipUpdate.Name = "buttonSkipUpdate";
+            this.buttonSkipUpdate.UseVisualStyleBackColor = true;
+            // 
             // UpdatePrompt
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Controls.Add(this.buttonSkipUpdate);
             this.Controls.Add(this.labelVersions);
             this.Controls.Add(this.labelVersionsText);
             this.Controls.Add(this.checkBoxNeverNotify);
             this.Controls.Add(this.labelQuestion);
-            this.Controls.Add(this.buttonNo);
+            this.Controls.Add(this.buttonNotNow);
             this.Controls.Add(this.pictureBoxLogo);
-            this.Controls.Add(this.buttonYes);
+            this.Controls.Add(this.buttonUpdate);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -108,12 +118,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Button buttonYes;
+        private System.Windows.Forms.Button buttonUpdate;
         private System.Windows.Forms.PictureBox pictureBoxLogo;
-        private System.Windows.Forms.Button buttonNo;
+        private System.Windows.Forms.Button buttonNotNow;
         private System.Windows.Forms.Label labelQuestion;
         private System.Windows.Forms.CheckBox checkBoxNeverNotify;
         private System.Windows.Forms.Label labelVersionsText;
         private System.Windows.Forms.Label labelVersions;
+        private System.Windows.Forms.Button buttonSkipUpdate;
     }
 }
