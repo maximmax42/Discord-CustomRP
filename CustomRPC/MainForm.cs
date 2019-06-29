@@ -57,6 +57,9 @@ namespace CustomRPC
                 case 2: radioButtonLocalTime.Checked = true; break;
             }
 
+            // Localize the header of the tooltip because Visual Studio can't do that for some reason
+            toolTipInfo.ToolTipTitle = Strings.information;
+
             loading = false;
 
             if (!settings.startMinimized) Show(); // Starts minimized to tray by default
@@ -262,6 +265,14 @@ namespace CustomRPC
         private void ShowAbout(object sender, EventArgs e)
         {
             new About(aboutToolStripMenuItem.Text).ShowDialog(this);
+        }
+
+        // Called when you press on a translator's nickname
+        private void OpenTranslatorPage(object sender, EventArgs e)
+        {
+            var translator = (ToolStripMenuItem)sender;
+
+            System.Diagnostics.Process.Start((string)translator.Tag);
         }
 
         // Called when you press Download Update button

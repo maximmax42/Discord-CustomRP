@@ -1,0 +1,80 @@
+// Lines that start like this one are comments.
+// If something is wrapped in ""s, it's a multiline string.
+
+// MAIN WINDOW
+// Main menu
+File
+	Upload Assets
+	Quit
+Settings
+	Run on Startup
+	Start Minimized // (to tray)
+	Check Updates
+Help
+	Open the Manual
+	GitHub Page
+	About...
+	Translators
+Download Update
+
+// Buttons and labels
+Connect
+Disconnect
+Large Image
+Small Image
+Update Presence
+
+// Timestamps
+None
+Since Custom RP started
+Your local time
+
+// Tooltips
+ID of the application from Discord Developers site. // ID
+Links the application to the specified ID with set presence. // Connect
+Disconnects the app from Discord. Please note that it might take a while. // Disconnect
+First line in the presence. // Details
+Second line in the presence. // State
+"Sets up timestamp for the status, which shows up under all the text above. 
+Status timers have 24 hour limit, meaning that after 24 hours time will go back to 0:00." // Timestamps
+No timestamps enabled. // Timestamps -> None
+Shows time since the app was started. // -> Since CustomRP started
+Shows your current time in 24-hour format. // -> Your local time
+Image that shows left to the text set above. // Large Image
+Image that shows up in the down right corner of large image. // Small Image
+Name of the asset for large image. // Large Key
+Text displayed when hovering the large image. // Large Text
+Name of the asset for small image. // Small Key
+Text displayed when hovering the small image. // Small Text
+Updates presence. // Update Presence
+
+// TRAY ICON
+// Notification
+The app will run in the tray. // Title
+Double click on the icon to show it again, or right-click to quit. // Text
+
+// Context Menu
+Reconnect
+Quit
+
+// Strings.resx
+error=Error
+errorNoID=No ID specified!
+firstTimeRun=First Time Run
+firstTimeRunText="Would you like to open a manual?
+You can open it any time by going Help -> Open the Manual or pressing F1."
+information=Information
+
+// ABOUT WINDOW
+Made by:
+Close
+
+// UPDATE WINDOW
+Update Available
+Current Version:
+Latest Version:
+Would you like to download this update?
+Don't check for updates again
+Skip This Version
+Not Now
+Update

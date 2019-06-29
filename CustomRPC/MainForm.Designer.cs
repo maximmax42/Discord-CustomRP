@@ -53,6 +53,12 @@
             this.gitHubPageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.translatedByToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.germanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ypsolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.russianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.maximmax42ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.updateAvailableToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textBoxID = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
@@ -201,7 +207,9 @@
             this.openTheManuakToolStripMenuItem,
             this.gitHubPageToolStripMenuItem,
             this.toolStripSeparator1,
-            this.aboutToolStripMenuItem});
+            this.aboutToolStripMenuItem,
+            this.toolStripSeparator3,
+            this.translatedByToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             // 
             // openTheManuakToolStripMenuItem
@@ -226,6 +234,45 @@
             resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.ShowAbout);
+            // 
+            // toolStripSeparator3
+            // 
+            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            // 
+            // translatedByToolStripMenuItem
+            // 
+            resources.ApplyResources(this.translatedByToolStripMenuItem, "translatedByToolStripMenuItem");
+            this.translatedByToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.germanToolStripMenuItem,
+            this.ypsolToolStripMenuItem,
+            this.russianToolStripMenuItem,
+            this.maximmax42ToolStripMenuItem});
+            this.translatedByToolStripMenuItem.Name = "translatedByToolStripMenuItem";
+            // 
+            // germanToolStripMenuItem
+            // 
+            resources.ApplyResources(this.germanToolStripMenuItem, "germanToolStripMenuItem");
+            this.germanToolStripMenuItem.Name = "germanToolStripMenuItem";
+            // 
+            // ypsolToolStripMenuItem
+            // 
+            resources.ApplyResources(this.ypsolToolStripMenuItem, "ypsolToolStripMenuItem");
+            this.ypsolToolStripMenuItem.Name = "ypsolToolStripMenuItem";
+            this.ypsolToolStripMenuItem.Tag = "https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA";
+            this.ypsolToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
+            // 
+            // russianToolStripMenuItem
+            // 
+            resources.ApplyResources(this.russianToolStripMenuItem, "russianToolStripMenuItem");
+            this.russianToolStripMenuItem.Name = "russianToolStripMenuItem";
+            // 
+            // maximmax42ToolStripMenuItem
+            // 
+            resources.ApplyResources(this.maximmax42ToolStripMenuItem, "maximmax42ToolStripMenuItem");
+            this.maximmax42ToolStripMenuItem.Name = "maximmax42ToolStripMenuItem";
+            this.maximmax42ToolStripMenuItem.Tag = "https://www.maximmax42.ru";
+            this.maximmax42ToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // updateAvailableToolStripMenuItem
             // 
@@ -358,7 +405,7 @@
             // toolTipInfo
             // 
             this.toolTipInfo.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.toolTipInfo.ToolTipTitle = "Информация";
+            this.toolTipInfo.ToolTipTitle = "Information";
             // 
             // radioButtonNone
             // 
@@ -498,6 +545,12 @@
         private System.Windows.Forms.ToolStripMenuItem openTheManuakToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem checkUpdatesToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripMenuItem translatedByToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem germanToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ypsolToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem russianToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem maximmax42ToolStripMenuItem;
     }
 }
 

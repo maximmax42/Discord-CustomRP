@@ -89,11 +89,20 @@ namespace CustomRPC {
         
         /// <summary>
         ///   Ищет локализованную строку, похожую на Would you like to open a manual?
-        ///You can open it any time by going Help -&gt; Open the Manual or pressing F1..
+        ///You can open it any time by going to Help -&gt; Open the Manual or pressing F1..
         /// </summary>
         internal static string firstTimeRunText {
             get {
                 return ResourceManager.GetString("firstTimeRunText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Information.
+        /// </summary>
+        internal static string information {
+            get {
+                return ResourceManager.GetString("information", resourceCulture);
             }
         }
     }

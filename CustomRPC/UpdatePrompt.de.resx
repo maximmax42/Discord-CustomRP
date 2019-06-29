@@ -118,35 +118,35 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="buttonUpdate.Text" xml:space="preserve">
-    <value>Да</value>
+    <value>Ja</value>
   </data>
   <data name="buttonNotNow.Text" xml:space="preserve">
-    <value>Не сейчас</value>
+    <value>Nicht jetzt</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 14</value>
+    <value>244, 14</value>
   </data>
   <data name="labelQuestion.Text" xml:space="preserve">
-    <value>Вы хотите скачать это обновление?</value>
+    <value>Möchtest du dieses Update herunterladen?</value>
   </data>
   <data name="checkBoxNeverNotify.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 18</value>
+    <value>202, 18</value>
   </data>
   <data name="checkBoxNeverNotify.Text" xml:space="preserve">
-    <value>Не проверять обновления в дальнейшем</value>
+    <value>Suche nicht mehr nach Updates</value>
   </data>
   <data name="labelVersionsText.Text" xml:space="preserve">
-    <value>Текущая версия:
-Последняя версия:</value>
+    <value>Aktuelle Version:
+Neueste Version:</value>
   </data>
   <data name="buttonSkipUpdate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 23</value>
+    <value>130, 23</value>
   </data>
   <data name="buttonSkipUpdate.Text" xml:space="preserve">
-    <value>Пропустить версию</value>
+    <value>Version überspringen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Доступно обновление</value>
+    <value>Update verfügbar</value>
   </data>
 </root>
