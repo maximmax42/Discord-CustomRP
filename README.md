@@ -11,6 +11,7 @@ If you don't want to lose all your settings, please unpack the new version in th
 ## Translations
 So far, the app supports these languages:
 * English
+* German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA))
 * Russian
 
 If you know how to localize apps in Visual Studio, go ahead and do that, and send a pull request. If you don't - open an issue about wanting to participate with translation and I'll hook you up with strings to translate.
