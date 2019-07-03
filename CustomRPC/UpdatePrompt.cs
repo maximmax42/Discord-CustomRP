@@ -12,7 +12,7 @@ namespace CustomRPC
 {
     public partial class UpdatePrompt : Form
     {
-        public UpdatePrompt(Version current, Version latest)
+        public UpdatePrompt(Version current, Version latest, string changelog)
         {
             InitializeComponent();
 
@@ -21,13 +21,15 @@ namespace CustomRPC
 
             labelVersions.Text = currentStr + "\r\n" + latestStr;
 
+            htmlPanelChangelog.Text = changelog;
+
             System.Media.SystemSounds.Beep.Play();
             Activate();
         }
 
         private void ToggleUpdates(object sender, EventArgs e)
         {
-            Properties.Settings settings = Properties.Settings.Default;
+            var settings = Properties.Settings.Default;
 
             settings.checkUpdates = !((CheckBox)sender).Checked;
             settings.Save();

@@ -37,29 +37,30 @@
             this.labelVersionsText = new System.Windows.Forms.Label();
             this.labelVersions = new System.Windows.Forms.Label();
             this.buttonSkipUpdate = new System.Windows.Forms.Button();
+            this.htmlPanelChangelog = new TheArtOfDev.HtmlRenderer.WinForms.HtmlPanel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonUpdate
             // 
-            resources.ApplyResources(this.buttonUpdate, "buttonUpdate");
             this.buttonUpdate.AutoEllipsis = true;
             this.buttonUpdate.DialogResult = System.Windows.Forms.DialogResult.Yes;
+            resources.ApplyResources(this.buttonUpdate, "buttonUpdate");
             this.buttonUpdate.Name = "buttonUpdate";
             this.buttonUpdate.UseVisualStyleBackColor = true;
             // 
             // pictureBoxLogo
             // 
-            resources.ApplyResources(this.pictureBoxLogo, "pictureBoxLogo");
             this.pictureBoxLogo.Image = global::CustomRPC.Properties.Resources.logo;
+            resources.ApplyResources(this.pictureBoxLogo, "pictureBoxLogo");
             this.pictureBoxLogo.Name = "pictureBoxLogo";
             this.pictureBoxLogo.TabStop = false;
             // 
             // buttonNotNow
             // 
-            resources.ApplyResources(this.buttonNotNow, "buttonNotNow");
             this.buttonNotNow.AutoEllipsis = true;
             this.buttonNotNow.DialogResult = System.Windows.Forms.DialogResult.No;
+            resources.ApplyResources(this.buttonNotNow, "buttonNotNow");
             this.buttonNotNow.Name = "buttonNotNow";
             this.buttonNotNow.UseVisualStyleBackColor = true;
             // 
@@ -87,17 +88,31 @@
             // 
             // buttonSkipUpdate
             // 
-            resources.ApplyResources(this.buttonSkipUpdate, "buttonSkipUpdate");
             this.buttonSkipUpdate.AutoEllipsis = true;
             this.buttonSkipUpdate.DialogResult = System.Windows.Forms.DialogResult.Ignore;
+            resources.ApplyResources(this.buttonSkipUpdate, "buttonSkipUpdate");
             this.buttonSkipUpdate.Name = "buttonSkipUpdate";
             this.buttonSkipUpdate.UseVisualStyleBackColor = true;
             // 
+            // htmlPanelChangelog
+            // 
+            resources.ApplyResources(this.htmlPanelChangelog, "htmlPanelChangelog");
+            this.htmlPanelChangelog.BackColor = System.Drawing.SystemColors.Window;
+            this.htmlPanelChangelog.BaseStylesheet = "h3 {\r\nmargin: 0;\r\n}\r\n\r\nul {\r\nmargin-top: 0.5em;\r\nmargin-bottom: 0.5em;\r\nmargin-le" +
+    "ft: 1.5em;\r\nfont-size: 1em;\r\n}";
+            this.htmlPanelChangelog.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.htmlPanelChangelog.Cursor = System.Windows.Forms.Cursors.Default;
+            this.htmlPanelChangelog.Name = "htmlPanelChangelog";
+            this.htmlPanelChangelog.UseGdiPlusTextRendering = true;
+            // 
             // UpdatePrompt
             // 
+            this.AcceptButton = this.buttonUpdate;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.CancelButton = this.buttonNotNow;
+            this.Controls.Add(this.htmlPanelChangelog);
             this.Controls.Add(this.buttonSkipUpdate);
             this.Controls.Add(this.labelVersions);
             this.Controls.Add(this.labelVersionsText);
@@ -126,5 +141,6 @@
         private System.Windows.Forms.Label labelVersionsText;
         private System.Windows.Forms.Label labelVersions;
         private System.Windows.Forms.Button buttonSkipUpdate;
+        private TheArtOfDev.HtmlRenderer.WinForms.HtmlPanel htmlPanelChangelog;
     }
 }

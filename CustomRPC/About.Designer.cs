@@ -68,9 +68,11 @@
             // 
             // About
             // 
+            this.AcceptButton = this.buttonClose;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.CancelButton = this.buttonClose;
             this.Controls.Add(this.labelVersion);
             this.Controls.Add(this.buttonClose);
             this.Controls.Add(this.labelMadeBy);

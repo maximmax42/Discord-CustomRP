@@ -1,7 +1,9 @@
 ﻿using DiscordRPC;
+using Octokit;
 using System;
 using System.IO;
 using System.Windows.Forms;
+using Application = System.Windows.Forms.Application;
 
 namespace CustomRPC
 {
@@ -19,7 +21,7 @@ namespace CustomRPC
 
         string linkPath = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\CustomRP.lnk"; // Autorun file link
 
-        string latestVersion; // For checking updates
+        GitHubClient githubClient = new GitHubClient(new ProductHeaderValue("CustomRP")); // For getting updates
 
         // Constructor of the form
         public MainForm()
@@ -88,7 +90,8 @@ namespace CustomRPC
                 {
                     buttonConnect.Enabled = false; // ...disable Connect button...
                     buttonDisconnect.Enabled = true; // ...enable Disconnect button...
-                    textBoxID.ReadOnly = true; // ...and make the ID field read only
+                    textBoxID.ReadOnly = true; // ...make the ID field read only...
+                    buttonUpdatePresence.Enabled = true; // ...and enable Update Presence button
                 }
             }
 
@@ -96,22 +99,47 @@ namespace CustomRPC
         }
 
         // Checking updates
-        private void CheckForUpdates()
+        private async void CheckForUpdates()
         {
-            // Fetching latest version
-            latestVersion = new System.Net.WebClient().DownloadString("https://raw.githubusercontent.com/maximmax42/Discord-CustomRP/master/version").Trim();
+            // Fetching latest release and getting its version
+            var latestRel = await githubClient.Repository.Release.GetLatest("maximmax42", "Discord-CustomRP");
+            string latestVersion = latestRel.TagName;
 
             if (latestVersion == settings.ignoreVersion) return; // The user ignored this version
 
-            Version current = new Version(Application.ProductVersion);
+            Version current = new Version(Application.ProductVersion.Substring(0, Application.ProductVersion.Length - 2)); // To not deal with revision number
             Version latest = new Version(latestVersion);
 
             if (current.CompareTo(latest) < 0) // If update is available...
             {
+                var changelogBuilder = new System.Text.StringBuilder();
+
+                var releases = await githubClient.Repository.Release.GetAll("maximmax42", "Discord-CustomRP"); // ...get all Releases of the app
+                foreach (var release in releases)
+                {
+                    Version releaseVer = new Version(release.TagName);
+                    if (releaseVer.Build == -1) releaseVer = new Version(releaseVer.Major, releaseVer.Minor, 0); // Because 1.3 != 1.3.0
+
+                    if (releaseVer.Equals(current)) break;
+
+                    var releaseBody = release.Body.Trim().Split("\r\n".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+
+                    changelogBuilder.Append("<h3>" + release.Name + "</h3><ul>");
+
+                    for (int i = 1; i < releaseBody.Length - 2; i++)
+                    {
+                        changelogBuilder.Append("<li>" + releaseBody[i].Substring(2) + "</li>");
+                    }
+
+                    changelogBuilder.Append("</ul>");
+                }
+
+                string changelog = changelogBuilder.ToString();
+
                 updateAvailableToolStripMenuItem.Visible = true; // ...activate the "Download update" button...
                 Show(); // ...make sure the app window is shown if it was minimized...
 
-                var messageBox = new UpdatePrompt(current, latest).ShowDialog(); // ...and show a dialog box telling there's an update
+                var messageBox = new UpdatePrompt(current, latest, changelog).ShowDialog(); // ...and show a dialog box telling there's an update
 
                 if (messageBox == DialogResult.Yes)
                     System.Diagnostics.Process.Start("https://github.com/maximmax42/Discord-CustomRP/releases/tag/" + latestVersion);
@@ -278,7 +306,7 @@ namespace CustomRPC
         // Called when you press Download Update button
         private void DownloadUpdate(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/maximmax42/Discord-CustomRP/releases/tag/" + latestVersion);
+            System.Diagnostics.Process.Start("https://github.com/maximmax42/Discord-CustomRP/releases/latest");
         }
 
         // Saves all the fields to settings
