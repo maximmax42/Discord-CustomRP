@@ -1,3 +1,4 @@
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P4QIXC)
 # Custom Discord Rich Presence Manager
 ![App Banner](https://customrp.maximmax42.ru/assets/screenshot.png)
 
