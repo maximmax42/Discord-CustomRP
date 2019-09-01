@@ -15,8 +15,8 @@ Settings
 Help
 	Open the Manual
 	GitHub Page
-	About...
 	Translators
+	About...
 Download Update
 
 // Buttons and labels
@@ -81,4 +81,4 @@ Would you like to download this update?
 Don't check for updates again
 Skip This Version
 Not Now
-Update
+Yes
