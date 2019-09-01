@@ -34,6 +34,8 @@ namespace CustomRPC
         bool loading = true; // To prevent some event handlers from executing while app is loading
         bool toAvoidRecursion = false; // ...This is stupid
 
+        short connectionState = 0; // 0 - not connected, 1 - connected, 2 - error
+
         Properties.Settings settings = Properties.Settings.Default; // Settings
 
         string linkPath = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\CustomRP.lnk"; // Autorun file link
@@ -204,13 +206,15 @@ namespace CustomRPC
         // Will be called if successfully connected
         private void ClientOnReady(object sender, DiscordRPC.Message.ReadyMessage args)
         {
-            textBoxID.Invoke(new MethodInvoker(() => textBoxID.BackColor = System.Drawing.Color.FromArgb(192, 255, 192)));
+            connectionState = 1;
+            Invoke(new MethodInvoker(() => textBoxID.BackColor = System.Drawing.Color.FromArgb(192, 255, 192)));
         }
 
         // Will be called if failed connecting 
         private void ClientOnClose(object sender, DiscordRPC.Message.CloseMessage args)
         {
-            textBoxID.Invoke(new MethodInvoker(() => textBoxID.BackColor = System.Drawing.Color.FromArgb(255, 192, 192)));
+            connectionState = 2;
+            Invoke(new MethodInvoker(() => textBoxID.BackColor = System.Drawing.Color.FromArgb(255, 192, 192)));
         }
 
         // Sets up new presence from the settings
@@ -278,6 +282,13 @@ namespace CustomRPC
         // Called when you double click the tray icon
         private void MaximizeFromTray(object sender, EventArgs e)
         {
+            switch (connectionState) // Because invoking doesn't work while the form is hidden
+            {
+                case 0: textBoxID.BackColor = System.Drawing.Color.FromName("Window"); break;
+                case 1: textBoxID.BackColor = System.Drawing.Color.FromArgb(192, 255, 192); break;
+                case 2: textBoxID.BackColor = System.Drawing.Color.FromArgb(255, 192, 192); break;
+            }
+
             Show();
             Activate();
         }
@@ -482,6 +493,7 @@ namespace CustomRPC
             textBoxID.ReadOnly = false;
 
             textBoxID.BackColor = System.Drawing.Color.FromName("Window");
+            connectionState = 0;
 
             client.Dispose();
         }
