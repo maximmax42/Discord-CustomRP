@@ -124,6 +124,9 @@
     <value>Приложение остаётся запущенным</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 54</value>
+  </data>
   <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
     <value>182, 22</value>
   </data>
@@ -139,11 +142,11 @@
   <data name="trayMenuQuit.Text" xml:space="preserve">
     <value>Выйти</value>
   </data>
-  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 54</value>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
   </data>
-  <data name="trayMenuStrip.ToolTip" xml:space="preserve">
-    <value />
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Файл</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>247, 22</value>
@@ -154,17 +157,32 @@
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>244, 6</value>
   </data>
+  <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Загрузить пресет</value>
+  </data>
+  <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сохранить пресет</value>
+  </data>
+  <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 6</value>
+  </data>
   <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>247, 22</value>
   </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
     <value>Выход</value>
   </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 20</value>
   </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Файл</value>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Настройки</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 22</value>
@@ -178,7 +196,7 @@
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
     <value>Запускать свёрнутым</value>
   </data>
-  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 6</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -187,16 +205,16 @@
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>Проверять обновления</value>
   </data>
-  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 20</value>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
   </data>
-  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Настройки</value>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Помощь</value>
   </data>
-  <data name="openTheManuakToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>212, 22</value>
   </data>
-  <data name="openTheManuakToolStripMenuItem.Text" xml:space="preserve">
+  <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
     <value>Открыть руководство</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -205,7 +223,22 @@
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
     <value>Страница на GitHub</value>
   </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 6</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Переводчики</value>
+  </data>
+  <data name="germanToolStripMenuItem.Text" xml:space="preserve">
+    <value>Немецкий:</value>
+  </data>
+  <data name="russianToolStripMenuItem.Text" xml:space="preserve">
+    <value>Русский:</value>
+  </data>
+  <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
     <value>209, 6</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -214,56 +247,11 @@
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>О программе...</value>
   </data>
-  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 6</value>
-  </data>
-  <data name="germanToolStripMenuItem.Text" xml:space="preserve">
-    <value>Немецкий:</value>
-  </data>
-  <data name="russianToolStripMenuItem.Text" xml:space="preserve">
-    <value>Русский:</value>
-  </data>
-  <data name="translatedByToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 22</value>
-  </data>
-  <data name="translatedByToolStripMenuItem.Text" xml:space="preserve">
-    <value>Переводчики</value>
-  </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 20</value>
-  </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Помощь</value>
-  </data>
-  <data name="updateAvailableToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 20</value>
   </data>
-  <data name="updateAvailableToolStripMenuItem.Text" xml:space="preserve">
+  <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
     <value>Скачать обновление</value>
-  </data>
-  <data name="menuStrip.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxID.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxDetails.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxState.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxSmallKey.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxSmallText.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxLargeKey.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxLargeText.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
     <value>Обновить статус</value>
@@ -364,11 +352,5 @@
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>Настраивает время для статуса, показываемое под всем текстом, указанным выше.
 У времени в статусе есть 24-часовой лимит, то есть при достижении 24 часов время сбрасывается до 0:00.</value>
-  </data>
-  <data name="panelTimestamps.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
   </data>
 </root>

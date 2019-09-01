@@ -5,6 +5,8 @@
 // Main menu
 File
 	Upload Assets
+	Load Preset
+	Save Preset
 	Quit
 Settings
 	Run on Startup
@@ -60,6 +62,8 @@ Quit
 // Strings.resx
 error=Error
 errorNoID=No ID specified!
+errorUpdateFailed="There was an error downloading or installing an update.
+Press "Yes" to retry or "No" to download manually."
 firstTimeRun=First Time Run
 firstTimeRunText="Would you like to open a manual?
 You can open it any time by going Help -> Open the Manual or pressing F1."

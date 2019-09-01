@@ -123,6 +123,10 @@
   <data name="errorNoID" xml:space="preserve">
     <value>No ID specified!</value>
   </data>
+  <data name="errorUpdateFailed" xml:space="preserve">
+    <value>There was an error downloading or installing an update.
+Press "Yes" to retry or "No" to download manually.</value>
+  </data>
   <data name="firstTimeRun" xml:space="preserve">
     <value>First Time Run</value>
   </data>

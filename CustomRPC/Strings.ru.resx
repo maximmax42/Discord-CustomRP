@@ -123,6 +123,10 @@
   <data name="errorNoID" xml:space="preserve">
     <value>ID не указан!</value>
   </data>
+  <data name="errorUpdateFailed" xml:space="preserve">
+    <value>Не удалось скачать или установить обновление.
+Нажмите "Да", чтобы повторить или "Нет", чтобы скачать обновление вручную.</value>
+  </data>
   <data name="firstTimeRun" xml:space="preserve">
     <value>Первый запуск</value>
   </data>

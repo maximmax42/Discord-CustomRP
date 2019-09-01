@@ -1,12 +1,29 @@
 ﻿using DiscordRPC;
 using Octokit;
 using System;
+using System.Diagnostics;
 using System.IO;
+using System.Net;
 using System.Windows.Forms;
+using System.Xml.Serialization;
 using Application = System.Windows.Forms.Application;
 
 namespace CustomRPC
 {
+    // A struct for handling preset importing/exporting
+    [Serializable]
+    public struct Preset
+    {
+        public string ID;
+        public string Details;
+        public string State;
+        public int Timestamps;
+        public string LargeKey;
+        public string LargeText;
+        public string SmallKey;
+        public string SmallText;
+    }
+
     public partial class MainForm : Form
     {
         DiscordRpcClient client; // RPC Client
@@ -22,6 +39,7 @@ namespace CustomRPC
         string linkPath = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\CustomRP.lnk"; // Autorun file link
 
         GitHubClient githubClient = new GitHubClient(new ProductHeaderValue("CustomRP")); // For getting updates
+        Release latestRelease;
 
         // Constructor of the form
         public MainForm()
@@ -31,27 +49,7 @@ namespace CustomRPC
             // Setting up startup link for current user (enabled by default)
             StartupSetup();
 
-            #region I don't wanna see this
-            // There was a better way, and I only find that out 4-5 days in.
-            // Eff it, not gonna remake it out of principle.
-
-            // Displays currently saved settings in the menu strip
-            runOnStartupToolStripMenuItem.Checked = settings.runOnStartup;
-            startMinimizedToolStripMenuItem.Checked = settings.startMinimized;
-            checkUpdatesToolStripMenuItem.Checked = settings.checkUpdates;
-
-            // Fills out fields
-            textBoxID.Text = settings.id;
-            textBoxDetails.Text = settings.details;
-            textBoxState.Text = settings.state;
-            textBoxSmallKey.Text = settings.smallKey;
-            textBoxSmallText.Text = settings.smallText;
-            textBoxLargeKey.Text = settings.largeKey;
-            textBoxLargeText.Text = settings.largeText;
-
-            #endregion
-
-            // Checks the needed timestamp radiobuttons
+            // Checks the needed timestamp radiobuttons because settings binding can't do that
             switch (settings.timestamps)
             {
                 case 0: radioButtonNone.Checked = true; break;
@@ -70,7 +68,7 @@ namespace CustomRPC
             {
                 settings.firstStart = false;
                 settings.Save();
-            } 
+            }
 
             if (settings.firstStart)
             {
@@ -79,7 +77,7 @@ namespace CustomRPC
 
                 if (messageBox == DialogResult.Yes)
                     // Opens the setup manual
-                    System.Diagnostics.Process.Start("https://github.com/maximmax42/Discord-CustomRP/wiki/Setting-Up");
+                    Process.Start("https://github.com/maximmax42/Discord-CustomRP/wiki/Setting-Up");
 
                 settings.firstStart = false;
                 settings.Save();
@@ -102,8 +100,8 @@ namespace CustomRPC
         private async void CheckForUpdates()
         {
             // Fetching latest release and getting its version
-            var latestRel = await githubClient.Repository.Release.GetLatest("maximmax42", "Discord-CustomRP");
-            string latestVersion = latestRel.TagName;
+            latestRelease = await githubClient.Repository.Release.GetLatest("maximmax42", "Discord-CustomRP");
+            string latestVersion = latestRelease.TagName;
 
             if (latestVersion == settings.ignoreVersion) return; // The user ignored this version
 
@@ -112,9 +110,9 @@ namespace CustomRPC
 
             if (current.CompareTo(latest) < 0) // If update is available...
             {
-                var changelogBuilder = new System.Text.StringBuilder();
+                var changelogBuilder = new System.Text.StringBuilder(); // ...build the changelog...
 
-                var releases = await githubClient.Repository.Release.GetAll("maximmax42", "Discord-CustomRP"); // ...get all Releases of the app
+                var releases = await githubClient.Repository.Release.GetAll("maximmax42", "Discord-CustomRP"); // Get all Releases of the app
                 foreach (var release in releases)
                 {
                     Version releaseVer = new Version(release.TagName);
@@ -136,20 +134,45 @@ namespace CustomRPC
 
                 string changelog = changelogBuilder.ToString();
 
-                updateAvailableToolStripMenuItem.Visible = true; // ...activate the "Download update" button...
+                downloadUpdateToolStripMenuItem.Visible = true; // ...activate the "Download update" button...
                 Show(); // ...make sure the app window is shown if it was minimized...
 
                 var messageBox = new UpdatePrompt(current, latest, changelog).ShowDialog(); // ...and show a dialog box telling there's an update
 
                 if (messageBox == DialogResult.Yes)
-                    System.Diagnostics.Process.Start("https://github.com/maximmax42/Discord-CustomRP/releases/tag/" + latestVersion);
+                    DownloadAndInstallUpdate();
                 else if (messageBox == DialogResult.Ignore)
                     settings.ignoreVersion = latestVersion;
 
                 checkUpdatesToolStripMenuItem.Checked = settings.checkUpdates;
 
                 if (!settings.checkUpdates || messageBox == DialogResult.Ignore)
-                    updateAvailableToolStripMenuItem.Visible = false; // If user doesn't want update notifications, let's not bother them
+                    downloadUpdateToolStripMenuItem.Visible = false; // If user doesn't want update notifications, let's not bother them
+            }
+        }
+
+        // Downloading and installing latest update from GitHub
+        public async void DownloadAndInstallUpdate()
+        {
+            if (latestRelease == null) await githubClient.Repository.Release.GetAll("maximmax42", "Discord-CustomRP"); // Probably shouldn't happen, but just in case
+
+            var wc = new WebClient();
+            var exec = Path.GetTempPath() + latestRelease.Assets[0].Name;
+
+            try
+            {
+                if (!File.Exists(exec))
+                    await wc.DownloadFileTaskAsync(latestRelease.Assets[0].BrowserDownloadUrl, exec);
+                Process.Start(exec);
+            }
+            catch
+            {
+                var result = MessageBox.Show(this, Strings.errorUpdateFailed, Strings.error, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+
+                if (result == DialogResult.Yes)
+                    DownloadAndInstallUpdate(); // I dunno if it's a good idea
+                else if (result == DialogResult.No)
+                    Process.Start(latestRelease.Assets[0].BrowserDownloadUrl);
             }
         }
 
@@ -158,7 +181,7 @@ namespace CustomRPC
         {
             if (settings.id == "")
             {
-                MessageBox.Show(Strings.errorNoID, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Strings.errorNoID, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
                 return false;
             }
 
@@ -169,11 +192,25 @@ namespace CustomRPC
             }
 
             client = new DiscordRpcClient(settings.id); // Assigning the ID
+            client.OnReady += ClientOnReady; 
+            client.OnClose += ClientOnClose;
 
             client.Initialize();
 
             SetPresence();
             return true;
+        }
+
+        // Will be called if successfully connected
+        private void ClientOnReady(object sender, DiscordRPC.Message.ReadyMessage args)
+        {
+            textBoxID.Invoke(new MethodInvoker(() => textBoxID.BackColor = System.Drawing.Color.FromArgb(192, 255, 192)));
+        }
+
+        // Will be called if failed connecting 
+        private void ClientOnClose(object sender, DiscordRPC.Message.CloseMessage args)
+        {
+            textBoxID.Invoke(new MethodInvoker(() => textBoxID.BackColor = System.Drawing.Color.FromArgb(255, 192, 192)));
         }
 
         // Sets up new presence from the settings
@@ -245,12 +282,72 @@ namespace CustomRPC
             Activate();
         }
 
+        // Called when you press Load Preset button
+        private void LoadPreset(object sender, EventArgs e)
+        {
+            var xs = new XmlSerializer(typeof(Preset)); // Using XML here because... why not? Settings are already saved in XML
+            var presetFile = new OpenFileDialog()
+            {
+                Filter = "CustomRP Preset|*.crp"
+            };
+
+            presetFile.ShowDialog();
+            var file = presetFile.OpenFile();
+
+            var preset = (Preset)xs.Deserialize(file);
+
+            settings.id = preset.ID;
+            settings.details = preset.Details;
+            settings.state = preset.State;
+            settings.timestamps = preset.Timestamps;
+            settings.largeKey = preset.LargeKey;
+            settings.largeText = preset.LargeText;
+            settings.smallKey = preset.SmallKey;
+            settings.smallText = preset.SmallText;
+
+            switch (settings.timestamps)
+            {
+                case 0: radioButtonNone.Checked = true; break;
+                case 1: radioButtonStartTime.Checked = true; break;
+                case 2: radioButtonLocalTime.Checked = true; break;
+            }
+
+            file.Close();
+        }
+
+        // Called when you press Save Preset button
+        private void SavePreset(object sender, EventArgs e)
+        {
+            var xs = new XmlSerializer(typeof(Preset));
+            var presetFile = new SaveFileDialog()
+            {
+                Filter = "CustomRP Preset|*.crp"
+            };
+
+            presetFile.ShowDialog();
+            var file = presetFile.OpenFile();
+
+            xs.Serialize(file, new Preset()
+            {
+                ID = settings.id,
+                Details = settings.details,
+                State = settings.state,
+                Timestamps = settings.timestamps,
+                LargeKey = settings.largeKey,
+                LargeText = settings.largeText,
+                SmallKey = settings.smallKey,
+                SmallText = settings.smallText,
+            });
+
+            file.Close();
+        }
+
         // Called when you press Upload Assets button
         private void OpenDiscordSite(object sender, EventArgs e)
         {
             if (settings.id == "") return;
 
-            System.Diagnostics.Process.Start("https://discordapp.com/developers/applications/" + settings.id + "/rich-presence/assets");
+            Process.Start("https://discordapp.com/developers/applications/" + settings.id + "/rich-presence/assets");
         }
 
         // Called when you click File -> Quit or right-click on the tray icon and choose Quit
@@ -280,13 +377,13 @@ namespace CustomRPC
         // Called when you press Open the Manual button
         private void OpenManual(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/maximmax42/Discord-CustomRP/wiki/Setting-Up");
+            Process.Start("https://github.com/maximmax42/Discord-CustomRP/wiki/Setting-Up");
         }
 
         // Called when you press GitHub Page button
         private void OpenGitHub(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/maximmax42/Discord-CustomRP");
+            Process.Start("https://github.com/maximmax42/Discord-CustomRP");
         }
 
         // Called when you press About... button
@@ -300,13 +397,13 @@ namespace CustomRPC
         {
             var translator = (ToolStripMenuItem)sender;
 
-            System.Diagnostics.Process.Start((string)translator.Tag);
+            Process.Start((string)translator.Tag);
         }
 
         // Called when you press Download Update button
         private void DownloadUpdate(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/maximmax42/Discord-CustomRP/releases/latest");
+            DownloadAndInstallUpdate();
         }
 
         // Saves all the fields to settings
@@ -383,6 +480,8 @@ namespace CustomRPC
             buttonDisconnect.Enabled = false;
             buttonUpdatePresence.Enabled = false;
             textBoxID.ReadOnly = false;
+
+            textBoxID.BackColor = System.Drawing.Color.FromName("Window");
 
             client.Dispose();
         }

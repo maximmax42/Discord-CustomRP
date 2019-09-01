@@ -19,7 +19,7 @@ namespace CustomRPC {
     // с помощью такого средства, как ResGen или Visual Studio.
     // Чтобы добавить или удалить член, измените файл .ResX и снова запустите ResGen
     // с параметром /str или перестройте свой проект VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Strings {
@@ -75,6 +75,16 @@ namespace CustomRPC {
         internal static string errorNoID {
             get {
                 return ResourceManager.GetString("errorNoID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на There was an error downloading or installing an update.
+        ///Press &quot;Yes&quot; to retry or &quot;No&quot; to download manually..
+        /// </summary>
+        internal static string errorUpdateFailed {
+            get {
+                return ResourceManager.GetString("errorUpdateFailed", resourceCulture);
             }
         }
         
