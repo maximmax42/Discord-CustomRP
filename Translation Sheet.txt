@@ -61,6 +61,8 @@ Quit
 
 // Strings.resx
 error=Error
+errorCannotConnect="Can't connect to Discord client.
+Are you sure it's running?"
 errorNoID=No ID specified!
 errorUpdateFailed="There was an error downloading or installing an update.
 Press "Yes" to retry or "No" to download manually."

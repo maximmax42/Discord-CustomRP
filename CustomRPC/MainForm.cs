@@ -156,7 +156,7 @@ namespace CustomRPC
         // Downloading and installing latest update from GitHub
         public async void DownloadAndInstallUpdate()
         {
-            if (latestRelease == null) await githubClient.Repository.Release.GetAll("maximmax42", "Discord-CustomRP"); // Probably shouldn't happen, but just in case
+            if (latestRelease == null) return; // Probably shouldn't happen, but just in case
 
             var wc = new WebClient();
             var exec = Path.GetTempPath() + latestRelease.Assets[0].Name;
@@ -194,8 +194,9 @@ namespace CustomRPC
             }
 
             client = new DiscordRpcClient(settings.id); // Assigning the ID
-            client.OnReady += ClientOnReady; 
-            client.OnClose += ClientOnClose;
+            client.OnPresenceUpdate += ClientOnPresenceUpdate; // If the presence is sent successfully
+            client.OnError += ClientOnError;
+            client.OnConnectionFailed += ClientOnConnFailed;
 
             client.Initialize();
 
@@ -203,18 +204,29 @@ namespace CustomRPC
             return true;
         }
 
-        // Will be called if successfully connected
-        private void ClientOnReady(object sender, DiscordRPC.Message.ReadyMessage args)
+        // Will be called if successfully connected and sent the presence payload
+        private void ClientOnPresenceUpdate(object sender, DiscordRPC.Message.PresenceMessage args)
         {
             connectionState = 1;
             Invoke(new MethodInvoker(() => textBoxID.BackColor = System.Drawing.Color.FromArgb(192, 255, 192)));
         }
 
-        // Will be called if failed connecting 
-        private void ClientOnClose(object sender, DiscordRPC.Message.CloseMessage args)
+        // Will be called if failed connecting (due to bad app id or anything else)
+        private void ClientOnError(object sender, DiscordRPC.Message.ErrorMessage args)
         {
             connectionState = 2;
             Invoke(new MethodInvoker(() => textBoxID.BackColor = System.Drawing.Color.FromArgb(255, 192, 192)));
+        }
+
+        // Will be called if failed connecting (mostly due to Discord being closed)
+        private void ClientOnConnFailed(object sender, DiscordRPC.Message.ConnectionFailedMessage args)
+        {
+            MessageBox.Show(Strings.errorCannotConnect, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+            Invoke(new MethodInvoker(() => {
+                Show();
+                Activate();
+                Disconnect();
+            }));
         }
 
         // Sets up new presence from the settings
@@ -222,7 +234,7 @@ namespace CustomRPC
         {
             if (client == null) return;
 
-            client.SetPresence(new RichPresence()
+            var rp = new RichPresence()
             {
                 Details = settings.details,
                 State = settings.state,
@@ -233,14 +245,16 @@ namespace CustomRPC
                     LargeImageKey = settings.largeKey,
                     LargeImageText = settings.largeText,
                 }
-            });
+            };
 
             switch (settings.timestamps)
             {
                 case 0: break;
-                case 1: client.UpdateStartTime(started); break;
-                case 2: client.UpdateStartTime(DateTime.UtcNow.Subtract(new TimeSpan(DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second))); break;
+                case 1: rp.Timestamps = new Timestamps(started); break;
+                case 2: rp.Timestamps = new Timestamps(DateTime.UtcNow.Subtract(new TimeSpan(DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second))); break;
             }
+
+            client.SetPresence(rp);
         }
 
         // Sets up the startup link for the app.
@@ -496,6 +510,12 @@ namespace CustomRPC
             connectionState = 0;
 
             client.Dispose();
+        }
+
+        // Same but as a tidy function for using in code
+        private void Disconnect()
+        {
+            Disconnect(null, new EventArgs());
         }
 
         // Called when you press the Update Presence button

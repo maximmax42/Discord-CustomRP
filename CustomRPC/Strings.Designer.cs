@@ -70,6 +70,16 @@ namespace CustomRPC {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Can&apos;t connect to Discord client.
+        ///Are you sure it&apos;s running?.
+        /// </summary>
+        internal static string errorCannotConnect {
+            get {
+                return ResourceManager.GetString("errorCannotConnect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на No ID specified!.
         /// </summary>
         internal static string errorNoID {

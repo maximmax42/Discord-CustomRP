@@ -120,6 +120,10 @@
   <data name="error" xml:space="preserve">
     <value>Ошибка</value>
   </data>
+  <data name="errorCannotConnect" xml:space="preserve">
+    <value>Не удаётся подключиться к клиенту Discord.
+Вы уверены, что он запущен?</value>
+  </data>
   <data name="errorNoID" xml:space="preserve">
     <value>ID не указан!</value>
   </data>
