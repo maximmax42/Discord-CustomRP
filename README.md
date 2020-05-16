@@ -5,9 +5,9 @@
 Custom Discord Rich Presence Manager for Windows. Some of its features are run on startup and tray minimization. Uses [Lachee's DiscordRPC for C#](https://github.com/Lachee/discord-rpc-csharp).
 
 ## Downloading and setting up
-Download the latest version from [Releases](https://github.com/maximmax42/Discord-CustomRP/releases) page, unpack it somewhere, preferably in a separate folder, and start it up. Upon starting, you will be prompted to open a setup manual. You can open it later by pressing F1 or going Help -> Open Manual.
+Download the latest version from [Releases](https://github.com/maximmax42/Discord-CustomRP/releases) page and run the .exe installer! Or, if you prefer the portable version, download the zip, unpack it somewhere, preferably in a separate folder, and start it up. Upon starting, you will be prompted to open a setup manual. You can open it later by pressing F1 or going Help -> Open Manual.
 ### Updating
-If you don't want to lose all your settings, please unpack the new version in the same folder as you did previously.
+If you installed the app, updating is literally as easy as running the installer for the newer version. If you use a portable version, please make sure to extract updated files into the same folder as you did before to keep your settings.
 
 ## Translations
 So far, the app supports these languages:
