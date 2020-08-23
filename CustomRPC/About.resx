@@ -162,6 +162,7 @@
   <data name="labelTitle.Text" xml:space="preserve">
     <value>Custom Discord Rich
 Presence Manager</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -243,6 +244,7 @@ Presence Manager</value>
   </data>
   <data name="labelVersion.Text" xml:space="preserve">
     <value>v6.9</value>
+    <comment>@Invariant Placeholder</comment>
   </data>
   <data name="labelVersion.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>

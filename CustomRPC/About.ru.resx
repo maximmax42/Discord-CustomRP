@@ -130,4 +130,7 @@
   <data name="buttonClose.Text" xml:space="preserve">
     <value>Закрыть</value>
   </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>О программе...</value>
+  </data>
 </root>

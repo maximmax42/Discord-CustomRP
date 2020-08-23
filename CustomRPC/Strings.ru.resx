@@ -141,4 +141,20 @@
   <data name="information" xml:space="preserve">
     <value>Информация</value>
   </data>
+  <data name="statusConnected" xml:space="preserve">
+    <value>Подключено</value>
+  </data>
+  <data name="statusConnecting" xml:space="preserve">
+    <value>Подключение...</value>
+    <comment>`</comment>
+  </data>
+  <data name="statusConnectionFailed" xml:space="preserve">
+    <value>Не удалось подключиться (Запущен ли Discord?)</value>
+  </data>
+  <data name="statusDisconnected" xml:space="preserve">
+    <value>Отключено</value>
+  </data>
+  <data name="statusError" xml:space="preserve">
+    <value>Ошибка подключения (Неправильный ID?)</value>
+  </data>
 </root>

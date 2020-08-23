@@ -141,4 +141,20 @@ Du kannst es jederzeit unter Hilfe -&gt; Öffne das Handbuch oder mit der F1-Tas
   <data name="information" xml:space="preserve">
     <value>Information</value>
   </data>
+  <data name="statusConnected" xml:space="preserve">
+    <value>Verbunden</value>
+  </data>
+  <data name="statusConnecting" xml:space="preserve">
+    <value>Verbindend...</value>
+    <comment>`</comment>
+  </data>
+  <data name="statusConnectionFailed" xml:space="preserve">
+    <value>Verbindung fehlgeschlagen (Läuft Discord?)</value>
+  </data>
+  <data name="statusDisconnected" xml:space="preserve">
+    <value>Getrennt</value>
+  </data>
+  <data name="statusError" xml:space="preserve">
+    <value>Verbindungsfehler (Falsche ID?)</value>
+  </data>
 </root>

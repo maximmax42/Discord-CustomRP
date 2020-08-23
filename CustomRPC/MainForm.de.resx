@@ -142,18 +142,6 @@
   <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 54</value>
   </data>
-  <data name="trayMenuStrip.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
-  </data>
-  <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Assets hochladen</value>
-  </data>
-  <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 6</value>
-  </data>
   <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>208, 22</value>
   </data>
@@ -165,6 +153,15 @@
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Preset speichern</value>
+  </data>
+  <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 6</value>
+  </data>
+  <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Assets hochladen</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>205, 6</value>
@@ -253,9 +250,6 @@
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
     <value>Update runterladen</value>
   </data>
-  <data name="menuStrip.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
     <value>180, 317</value>
   </data>
@@ -341,8 +335,7 @@
     <value>115, 18</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>Deine lokale Zeit
-</value>
+    <value>Deine lokale Zeit</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
     <value>Zeigt deine momentane Zeit im 24-Stunden Format an.</value>
@@ -351,31 +344,17 @@
     <value>Setzt Zeitstempel für den Status, welcher unter dem obigen Text angezeigt wird. 
 Status Timer haben ein Limit von 24 Stunden. Das bedeutet, dass der Zeitstempel nach 24 Stunden auf 0:00 gesetzt wird.</value>
   </data>
-  <data name="panelTimestamps.ToolTip" xml:space="preserve">
-    <value />
+  <data name="labelParty.ToolTip" xml:space="preserve">
+    <value>Anzahl der Spieler in der aktuellen Gruppe, die neben dem Feld "State" angezeigt werden.
+Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
   </data>
-  <data name="textBoxSmallKey.ToolTip" xml:space="preserve">
-    <value />
+  <data name="labelPartyOf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>337, 114</value>
   </data>
-  <data name="textBoxSmallText.ToolTip" xml:space="preserve">
-    <value />
+  <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 14</value>
   </data>
-  <data name="textBoxLargeText.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxLargeKey.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxState.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxDetails.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxID.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
+  <data name="labelPartyOf.Text" xml:space="preserve">
+    <value>von</value>
   </data>
 </root>

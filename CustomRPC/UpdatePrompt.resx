@@ -304,6 +304,7 @@ Latest version:</value>
   <data name="labelVersions.Text" xml:space="preserve">
     <value>1.0.0
 9.99.9</value>
+    <comment>@Invariant Placeholder</comment>
   </data>
   <data name="labelVersions.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -364,6 +365,7 @@ Latest version:</value>
   </data>
   <data name="htmlPanelChangelog.Text" xml:space="preserve">
     <value>&lt;h3&gt;CustomRP 1.1&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Test&lt;/li&gt;&lt;li&gt;Test 2&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;CustomRP 1.0&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Test&lt;/li&gt;&lt;li&gt;Test 2&lt;/li&gt;&lt;/ul&gt;</value>
+    <comment>@Invariant Placeholder</comment>
   </data>
   <data name="&gt;&gt;htmlPanelChangelog.Name" xml:space="preserve">
     <value>htmlPanelChangelog</value>

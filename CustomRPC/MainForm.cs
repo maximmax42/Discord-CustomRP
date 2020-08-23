@@ -10,6 +10,10 @@ using Application = System.Windows.Forms.Application;
 
 namespace CustomRPC
 {
+    /*
+     * TODO: profiles not as external files
+    */
+
     // A struct for handling preset importing/exporting
     [Serializable]
     public struct Preset
@@ -17,6 +21,8 @@ namespace CustomRPC
         public string ID;
         public string Details;
         public string State;
+        public int PartySize;
+        public int PartyMax;
         public int Timestamps;
         public string LargeKey;
         public string LargeText;
@@ -34,7 +40,7 @@ namespace CustomRPC
         bool loading = true; // To prevent some event handlers from executing while app is loading
         bool toAvoidRecursion = false; // ...This is stupid
 
-        short connectionState = 0; // 0 - not connected, 1 - connected, 2 - error
+        short connectionState = 0; // 0 - not connected/connecting, 1 - connected, 2 - error
 
         Properties.Settings settings = Properties.Settings.Default; // Settings
 
@@ -86,13 +92,7 @@ namespace CustomRPC
             }
             else if (settings.id != "")
             {
-                if (Init()) // If successfully connected...
-                {
-                    buttonConnect.Enabled = false; // ...disable Connect button...
-                    buttonDisconnect.Enabled = true; // ...enable Disconnect button...
-                    textBoxID.ReadOnly = true; // ...make the ID field read only...
-                    buttonUpdatePresence.Enabled = true; // ...and enable Update Presence button
-                }
+                Connect();
             }
 
             if (settings.checkUpdates) CheckForUpdates();
@@ -102,7 +102,14 @@ namespace CustomRPC
         private async void CheckForUpdates()
         {
             // Fetching latest release and getting its version
-            latestRelease = await githubClient.Repository.Release.GetLatest("maximmax42", "Discord-CustomRP");
+            try
+            {
+                latestRelease = await githubClient.Repository.Release.GetLatest("maximmax42", "Discord-CustomRP");
+            } catch
+            {
+                return; // If there's no internet or Github is down, do nothing
+            }
+
             string latestVersion = latestRelease.TagName;
 
             if (latestVersion == settings.ignoreVersion) return; // The user ignored this version
@@ -208,24 +215,29 @@ namespace CustomRPC
         private void ClientOnPresenceUpdate(object sender, DiscordRPC.Message.PresenceMessage args)
         {
             connectionState = 1;
-            Invoke(new MethodInvoker(() => textBoxID.BackColor = System.Drawing.Color.FromArgb(192, 255, 192)));
+            Invoke(new MethodInvoker(() => {
+                textBoxID.BackColor = System.Drawing.Color.FromArgb(192, 255, 192);
+                toolStripStatusLabelStatus.Text = Strings.statusConnected;
+            }));
         }
 
         // Will be called if failed connecting (due to bad app id or anything else)
         private void ClientOnError(object sender, DiscordRPC.Message.ErrorMessage args)
         {
             connectionState = 2;
-            Invoke(new MethodInvoker(() => textBoxID.BackColor = System.Drawing.Color.FromArgb(255, 192, 192)));
+            Invoke(new MethodInvoker(() => {
+                textBoxID.BackColor = System.Drawing.Color.FromArgb(255, 192, 192);
+                toolStripStatusLabelStatus.Text = Strings.statusError;
+            }));
         }
 
         // Will be called if failed connecting (mostly due to Discord being closed)
         private void ClientOnConnFailed(object sender, DiscordRPC.Message.ConnectionFailedMessage args)
         {
-            MessageBox.Show(Strings.errorCannotConnect, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+            connectionState = 2;
             Invoke(new MethodInvoker(() => {
-                Show();
-                Activate();
-                Disconnect();
+                textBoxID.BackColor = System.Drawing.Color.FromArgb(255, 192, 192);
+                toolStripStatusLabelStatus.Text = Strings.statusConnectionFailed;
             }));
         }
 
@@ -244,6 +256,12 @@ namespace CustomRPC
                     SmallImageText = settings.smallText,
                     LargeImageKey = settings.largeKey,
                     LargeImageText = settings.largeText,
+                },
+                Party = new Party()
+                {
+                    ID = (settings.partySize != 0) ? "CustomRP" : "",
+                    Size = (int)settings.partySize,
+                    Max = (int)settings.partyMax
                 }
             };
 
@@ -298,9 +316,18 @@ namespace CustomRPC
         {
             switch (connectionState) // Because invoking doesn't work while the form is hidden
             {
-                case 0: textBoxID.BackColor = System.Drawing.Color.FromName("Window"); break;
-                case 1: textBoxID.BackColor = System.Drawing.Color.FromArgb(192, 255, 192); break;
-                case 2: textBoxID.BackColor = System.Drawing.Color.FromArgb(255, 192, 192); break;
+                case 0:
+                    textBoxID.BackColor = System.Drawing.Color.FromName("Window");
+                    toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
+                    break;
+                case 1:
+                    textBoxID.BackColor = System.Drawing.Color.FromArgb(192, 255, 192);
+                    toolStripStatusLabelStatus.Text = Strings.statusConnected;
+                    break;
+                case 2:
+                    textBoxID.BackColor = System.Drawing.Color.FromArgb(255, 192, 192);
+                    toolStripStatusLabelStatus.Text = Strings.statusError;
+                    break;
             }
 
             Show();
@@ -316,7 +343,8 @@ namespace CustomRPC
                 Filter = "CustomRP Preset|*.crp"
             };
 
-            presetFile.ShowDialog();
+            if (presetFile.ShowDialog() != DialogResult.OK) return;
+
             var file = presetFile.OpenFile();
 
             var preset = (Preset)xs.Deserialize(file);
@@ -324,6 +352,8 @@ namespace CustomRPC
             settings.id = preset.ID;
             settings.details = preset.Details;
             settings.state = preset.State;
+            settings.partySize = preset.PartySize;
+            settings.partyMax = preset.PartyMax;
             settings.timestamps = preset.Timestamps;
             settings.largeKey = preset.LargeKey;
             settings.largeText = preset.LargeText;
@@ -349,7 +379,8 @@ namespace CustomRPC
                 Filter = "CustomRP Preset|*.crp"
             };
 
-            presetFile.ShowDialog();
+            if (presetFile.ShowDialog() != DialogResult.OK) return;
+
             var file = presetFile.OpenFile();
 
             xs.Serialize(file, new Preset()
@@ -357,6 +388,8 @@ namespace CustomRPC
                 ID = settings.id,
                 Details = settings.details,
                 State = settings.state,
+                PartySize = (int)settings.partySize,
+                PartyMax = (int)settings.partyMax,
                 Timestamps = settings.timestamps,
                 LargeKey = settings.largeKey,
                 LargeText = settings.largeText,
@@ -372,7 +405,7 @@ namespace CustomRPC
         {
             if (settings.id == "") return;
 
-            Process.Start("https://discordapp.com/developers/applications/" + settings.id + "/rich-presence/assets");
+            Process.Start("https://discord.com/developers/applications/" + settings.id + "/rich-presence/assets");
         }
 
         // Called when you click File -> Quit or right-click on the tray icon and choose Quit
@@ -388,10 +421,6 @@ namespace CustomRPC
         private void SaveSettings(object sender, EventArgs e)
         {
             if (loading) return;
-
-            settings.runOnStartup = runOnStartupToolStripMenuItem.Checked;
-            settings.startMinimized = startMinimizedToolStripMenuItem.Checked;
-            settings.checkUpdates = checkUpdatesToolStripMenuItem.Checked;
 
             settings.Save();
 
@@ -414,7 +443,7 @@ namespace CustomRPC
         // Called when you press About... button
         private void ShowAbout(object sender, EventArgs e)
         {
-            new About(aboutToolStripMenuItem.Text).ShowDialog(this);
+            new About().ShowDialog(this);
         }
 
         // Called when you press on a translator's nickname
@@ -422,7 +451,9 @@ namespace CustomRPC
         {
             var translator = (ToolStripMenuItem)sender;
 
-            Process.Start((string)translator.Tag);
+            if (String.IsNullOrWhiteSpace((string)translator.Tag)) return;
+
+            Process.Start((string)translator.Tag); // Tags contain URLs
         }
 
         // Called when you press Download Update button
@@ -489,13 +520,20 @@ namespace CustomRPC
         private void Connect(object sender, EventArgs e)
         {
             ChangePresence();
-            if (Init())
+            if (Init()) // If successfully connected...
             {
-                buttonConnect.Enabled = false;
-                buttonDisconnect.Enabled = true;
-                buttonUpdatePresence.Enabled = true;
-                textBoxID.ReadOnly = true;
+                buttonConnect.Enabled = false; // ...disable Connect button...
+                buttonDisconnect.Enabled = true; // ...enable Disconnect button...
+                textBoxID.ReadOnly = true; // ...make the ID field read only...
+                buttonUpdatePresence.Enabled = true; // ...enable Update Presence button...
+                toolStripStatusLabelStatus.Text = Strings.statusConnecting; // and update the connection status label
             }
+        }
+
+        // Same but as a tidy function for using in code
+        private void Connect()
+        {
+            Connect(null, new EventArgs());
         }
 
         // Called when you press the Disconnect button
@@ -505,6 +543,7 @@ namespace CustomRPC
             buttonDisconnect.Enabled = false;
             buttonUpdatePresence.Enabled = false;
             textBoxID.ReadOnly = false;
+            toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
 
             textBoxID.BackColor = System.Drawing.Color.FromName("Window");
             connectionState = 0;

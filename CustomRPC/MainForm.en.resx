@@ -117,40 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="trayMenuStrip.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="menuStrip.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxID.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxDetails.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxState.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxSmallKey.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxSmallText.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxLargeKey.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxLargeText.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="button1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="button2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
-  </data>
 </root>

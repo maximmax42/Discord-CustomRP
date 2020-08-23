@@ -125,5 +125,50 @@ namespace CustomRPC {
                 return ResourceManager.GetString("information", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Connected.
+        /// </summary>
+        internal static string statusConnected {
+            get {
+                return ResourceManager.GetString("statusConnected", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Connecting....
+        /// </summary>
+        internal static string statusConnecting {
+            get {
+                return ResourceManager.GetString("statusConnecting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Connection failed (Is Discord running?).
+        /// </summary>
+        internal static string statusConnectionFailed {
+            get {
+                return ResourceManager.GetString("statusConnectionFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Disconnected.
+        /// </summary>
+        internal static string statusDisconnected {
+            get {
+                return ResourceManager.GetString("statusDisconnected", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Connection error (Wrong ID?).
+        /// </summary>
+        internal static string statusError {
+            get {
+                return ResourceManager.GetString("statusError", resourceCulture);
+            }
+        }
     }
 }

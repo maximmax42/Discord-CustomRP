@@ -123,6 +123,7 @@
   <data name="errorCannotConnect" xml:space="preserve">
     <value>Can't connect to Discord client.
 Are you sure it's running?</value>
+    <comment>Unused</comment>
   </data>
   <data name="errorNoID" xml:space="preserve">
     <value>No ID specified!</value>
@@ -140,5 +141,21 @@ You can open it any time by going to Help -&gt; Open the Manual or pressing F1.<
   </data>
   <data name="information" xml:space="preserve">
     <value>Information</value>
+  </data>
+  <data name="statusConnected" xml:space="preserve">
+    <value>Connected</value>
+  </data>
+  <data name="statusConnecting" xml:space="preserve">
+    <value>Connecting...</value>
+    
+  </data>
+  <data name="statusConnectionFailed" xml:space="preserve">
+    <value>Connection failed (Is Discord running?)</value>
+  </data>
+  <data name="statusDisconnected" xml:space="preserve">
+    <value>Disconnected</value>
+  </data>
+  <data name="statusError" xml:space="preserve">
+    <value>Connection error (Wrong ID?)</value>
   </data>
 </root>
