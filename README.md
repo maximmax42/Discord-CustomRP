@@ -1,4 +1,9 @@
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P4QIXC)
+<p align=center>
+<a href="https://github.com/maximmax42/Discord-CustomRP/releases/latest"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/maximmax42/Discord-CustomRP?color=19e2e2&label=latest&logo=github"></a> <a href="https://github.com/maximmax42/Discord-CustomRP/releases/latest"><img alt="GitHub Releases" src="https://img.shields.io/github/downloads/maximmax42/Discord-CustomRP/latest/total?color=19e2e2&label=downloads&logo=github"></a> <a href="https://github.com/maximmax42/Discord-CustomRP/releases"><img alt="All GitHub Releases" src="https://img.shields.io/github/downloads/maximmax42/Discord-CustomRP/total?color=19e2e2&label=total%20downloads&logo=github"></a>
+<br>
+<a href="https://ko-fi.com/maximmax42"><img alt="Support on Ko-fi" src="https://img.shields.io/badge/support%20on-ko--fi-19e2e2?logo=ko-fi"></a>
+</p>
+
 # Custom Discord Rich Presence Manager
 ![App Banner](https://customrp.maximmax42.ru/assets/screenshot.png)
 
@@ -15,7 +20,7 @@ So far, the app supports these languages:
 * German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA))
 * Russian
 
-If you know how to localize apps in Visual Studio, go ahead and do that, and send a pull request. If you don't - open an issue about wanting to participate with translation and I'll hook you up with strings to translate.
+I use [ResXManager](https://marketplace.visualstudio.com/items?itemName=TomEnglert.ResXManager) to localize the app. If you know how to use it, please translate the app to your language and make a pull request with only the .xx.resx files (xx being your language's code). If you don't know how to operate in Visual Studio at all, you can open up [new issue](https://github.com/maximmax42/Discord-CustomRP/issues/new) and we'll work with that.
 
 ## Feedback
 If you have any problems with the app, or you have suggestions on making it more functional, you can open an issue ticket, or contact me on Discord - maximmax42#5572.
