@@ -124,9 +124,6 @@
     <value>Приложение остаётся запущенным.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 54</value>
-  </data>
   <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
     <value>182, 22</value>
   </data>
@@ -142,11 +139,8 @@
   <data name="trayMenuQuit.Text" xml:space="preserve">
     <value>Выйти</value>
   </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Файл</value>
+  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 54</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>247, 22</value>
@@ -178,11 +172,11 @@
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
     <value>Выход</value>
   </data>
-  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 20</value>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
   </data>
-  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Настройки</value>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Файл</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 22</value>
@@ -205,11 +199,11 @@
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>Проверять обновления</value>
   </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 20</value>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 20</value>
   </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Помощь</value>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Настройки</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>212, 22</value>
@@ -226,17 +220,17 @@
   <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
     <value>209, 6</value>
   </data>
-  <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 22</value>
-  </data>
-  <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Переводчики</value>
-  </data>
   <data name="germanToolStripMenuItem.Text" xml:space="preserve">
     <value>Немецкий:</value>
   </data>
   <data name="russianToolStripMenuItem.Text" xml:space="preserve">
     <value>Русский:</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Переводчики</value>
   </data>
   <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
     <value>209, 6</value>
@@ -246,6 +240,12 @@
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>О программе...</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Помощь</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 20</value>
@@ -356,6 +356,15 @@
   <data name="labelParty.ToolTip" xml:space="preserve">
     <value>Количество игроков в группе, показываемое рядом с полем State.
 Чтобы изменения применились, оба поля должны отличаться от нуля.</value>
+  </data>
+  <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 18</value>
+  </data>
+  <data name="radioButtonCustom.Text" xml:space="preserve">
+    <value>Своё время</value>
+  </data>
+  <data name="radioButtonCustom.ToolTip" xml:space="preserve">
+    <value>Показывает, сколько времени осталось до/прошло после выбранного времени.</value>
   </data>
   <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
     <value>19, 14</value>

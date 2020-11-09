@@ -348,6 +348,9 @@ Status Timer haben ein Limit von 24 Stunden. Das bedeutet, dass der Zeitstempel 
     <value>Anzahl der Spieler in der aktuellen Gruppe, die neben dem Feld "State" angezeigt werden.
 Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
   </data>
+  <data name="radioButtonCustom.Text" xml:space="preserve">
+    <value>Benutzerdefinierter Zeitstempel</value>
+  </data>
   <data name="labelPartyOf.Location" type="System.Drawing.Point, System.Drawing">
     <value>337, 114</value>
   </data>
@@ -356,5 +359,8 @@ Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>von</value>
+  </data>
+  <data name="radioButtonCustom.ToolTip" xml:space="preserve">
+    <value>Zeigt an, wie viel Zeit seit dem unten festgelegten Datum vergangen ist oder verbleibt.</value>
   </data>
 </root>

@@ -2,6 +2,7 @@
 using Octokit;
 using System;
 using System.Diagnostics;
+using System.Globalization;
 using System.IO;
 using System.Net;
 using System.Windows.Forms;
@@ -24,6 +25,7 @@ namespace CustomRPC
         public int PartySize;
         public int PartyMax;
         public int Timestamps;
+        public DateTime CustomTimestamp;
         public string LargeKey;
         public string LargeText;
         public string SmallKey;
@@ -63,7 +65,21 @@ namespace CustomRPC
                 case 0: radioButtonNone.Checked = true; break;
                 case 1: radioButtonStartTime.Checked = true; break;
                 case 2: radioButtonLocalTime.Checked = true; break;
+                case 3: radioButtonCustom.Checked = true; break;
             }
+
+            // Enable or disable the date and time picker depending on whether a custom timestamp setting is chosen
+            dateTimePickerTimestamp.Enabled = settings.timestamps == 3;
+
+            // Change the date and time picker's format according to system's culture
+            dateTimePickerTimestamp.CustomFormat = CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern + " " + CultureInfo.CurrentCulture.DateTimeFormat.LongTimePattern;
+
+            // Change the earliest date user can choose according to user's timezone
+            dateTimePickerTimestamp.MinDate = new DateTime(1970, 1, 1, 0, 0, 0).ToLocalTime();
+
+            // If the app was launched for the first time (including since update), set the default time to current one
+            if (settings.customTimestamp.CompareTo(new DateTime(1969, 1, 1, 0, 0, 0)) == 0)
+                settings.customTimestamp = DateTime.Now;
 
             // Localize the header of the tooltip because Visual Studio can't do that for some reason
             toolTipInfo.ToolTipTitle = Strings.information;
@@ -270,6 +286,10 @@ namespace CustomRPC
                 case 0: break;
                 case 1: rp.Timestamps = new Timestamps(started); break;
                 case 2: rp.Timestamps = new Timestamps(DateTime.UtcNow.Subtract(new TimeSpan(DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second))); break;
+                case 3:
+                    DateTime customTimestamp = dateTimePickerTimestamp.Value.ToUniversalTime();
+                    rp.Timestamps = customTimestamp.CompareTo(DateTime.UtcNow) < 0 ? new Timestamps(customTimestamp) : new Timestamps(DateTime.UtcNow, customTimestamp);
+                    break;
             }
 
             client.SetPresence(rp);
@@ -355,6 +375,7 @@ namespace CustomRPC
             settings.partySize = preset.PartySize;
             settings.partyMax = preset.PartyMax;
             settings.timestamps = preset.Timestamps;
+            settings.customTimestamp = preset.CustomTimestamp;
             settings.largeKey = preset.LargeKey;
             settings.largeText = preset.LargeText;
             settings.smallKey = preset.SmallKey;
@@ -365,6 +386,7 @@ namespace CustomRPC
                 case 0: radioButtonNone.Checked = true; break;
                 case 1: radioButtonStartTime.Checked = true; break;
                 case 2: radioButtonLocalTime.Checked = true; break;
+                case 3: radioButtonCustom.Checked = true; break;
             }
 
             file.Close();
@@ -391,6 +413,7 @@ namespace CustomRPC
                 PartySize = (int)settings.partySize,
                 PartyMax = (int)settings.partyMax,
                 Timestamps = settings.timestamps,
+                CustomTimestamp = settings.customTimestamp,
                 LargeKey = settings.largeKey,
                 LargeText = settings.largeText,
                 SmallKey = settings.smallKey,
@@ -413,7 +436,7 @@ namespace CustomRPC
         {
             if (client != null) client.Dispose();
 
-            ChangePresence();
+            settings.Save();
             Application.Exit();
         }
 
@@ -462,19 +485,6 @@ namespace CustomRPC
             DownloadAndInstallUpdate();
         }
 
-        // Saves all the fields to settings
-        private void ChangePresence()
-        {
-            settings.id = textBoxID.Text;
-            settings.details = textBoxDetails.Text;
-            settings.state = textBoxState.Text;
-            settings.smallKey = textBoxSmallKey.Text;
-            settings.smallText = textBoxSmallText.Text;
-            settings.largeKey = textBoxLargeKey.Text;
-            settings.largeText = textBoxLargeText.Text;
-            settings.Save();
-        }
-
         // Called when you input into the ID textbox
         // This is overcomplicated isn't it, but hey, at least it works with pasting as well!
         private void OnlyNumbers(object sender, EventArgs e)
@@ -514,12 +524,14 @@ namespace CustomRPC
 
             settings.timestamps = btn.TabIndex; // I mean... it's a great container for int values
             settings.Save();
+
+            dateTimePickerTimestamp.Enabled = settings.timestamps == 3;
         }
 
         // Called when you press the Connect button or right-click on the tray icon and choose Reconnect
         private void Connect(object sender, EventArgs e)
         {
-            ChangePresence();
+            settings.Save();
             if (Init()) // If successfully connected...
             {
                 buttonConnect.Enabled = false; // ...disable Connect button...
@@ -560,7 +572,7 @@ namespace CustomRPC
         // Called when you press the Update Presence button
         private void Update(object sender, EventArgs e)
         {
-            ChangePresence();
+            settings.Save();
             SetPresence();
         }
     }
