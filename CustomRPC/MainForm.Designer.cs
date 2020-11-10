@@ -494,7 +494,7 @@
             resources.ApplyResources(this.dateTimePickerTimestamp, "dateTimePickerTimestamp");
             this.dateTimePickerTimestamp.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "customTimestamp", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.dateTimePickerTimestamp.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePickerTimestamp.MinDate = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
+            this.dateTimePickerTimestamp.MinDate = new System.DateTime(1969, 1, 1, 0, 0, 0, 0);
             this.dateTimePickerTimestamp.Name = "dateTimePickerTimestamp";
             this.dateTimePickerTimestamp.Value = global::CustomRPC.Properties.Settings.Default.customTimestamp;
             // 
