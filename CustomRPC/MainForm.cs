@@ -1,6 +1,7 @@
 ﻿using DiscordRPC;
 using Octokit;
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
 using System.IO;
@@ -8,6 +9,7 @@ using System.Net;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 using Application = System.Windows.Forms.Application;
+using DButton = DiscordRPC.Button;
 
 namespace CustomRPC
 {
@@ -35,6 +37,8 @@ namespace CustomRPC
     public partial class MainForm : Form
     {
         DiscordRpcClient client; // RPC Client
+
+        List<DButton> buttonsList = new List<DButton>(); // List of custom buttons
 
         DateTime started = DateTime.UtcNow; // Timestamp of when the app started.
 
@@ -278,7 +282,8 @@ namespace CustomRPC
                     ID = (settings.partySize != 0) ? "CustomRP" : "",
                     Size = (int)settings.partySize,
                     Max = (int)settings.partyMax
-                }
+                },
+                Buttons = buttonsList.ToArray()
             };
 
             switch (settings.timestamps)

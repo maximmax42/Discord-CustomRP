@@ -120,10 +120,6 @@
   <data name="error" xml:space="preserve">
     <value>Fehler</value>
   </data>
-  <data name="errorCannotConnect" xml:space="preserve">
-    <value>Es kann keine Verbindung zum Discord-Client hergestellt werden.
-Bist du sicher, dass es läuft?</value>
-  </data>
   <data name="errorNoID" xml:space="preserve">
     <value>Keine ID wurde festgelegt!</value>
   </data>
@@ -156,5 +152,10 @@ Du kannst es jederzeit unter Hilfe -&gt; Öffne das Handbuch oder mit der F1-Tas
   </data>
   <data name="statusError" xml:space="preserve">
     <value>Verbindungsfehler (Falsche ID?)</value>
+  </data>
+  <data name="errorCannotConnect" xml:space="preserve">
+    <value></value>
+    <comment>Es kann keine Verbindung zum Discord-Client hergestellt werden.
+Bist du sicher, dass es läuft?</comment>
   </data>
 </root>

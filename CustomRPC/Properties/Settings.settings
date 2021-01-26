@@ -50,5 +50,17 @@
     <Setting Name="customTimestamp" Type="System.DateTime" Scope="User">
       <Value Profile="(Default)">1969-01-01</Value>
     </Setting>
+    <Setting Name="button1Label" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="button1Url" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="button2Label" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="button2Url" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
   </Settings>
 </SettingsFile>

@@ -117,20 +117,39 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="labelMadeBy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 93</value>
+  <data name="error" xml:space="preserve">
+    <value>Errore</value>
   </data>
-  <data name="labelMadeBy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 19</value>
+  <data name="errorNoID" xml:space="preserve">
+    <value>Nessun ID è stato specificato!</value>
   </data>
-  <data name="labelMadeBy.Text" xml:space="preserve">
-    <value>Разработал: maximmax42</value>
+  <data name="errorUpdateFailed" xml:space="preserve">
+    <value>Si è verificato un errore durante il download o l'installazione di un aggiornamento.
+Premi "Sì" per riprovare o "No" per scaricare manualmente.</value>
   </data>
-  <data name="buttonClose.Text" xml:space="preserve">
-    <value>Закрыть</value>
+  <data name="firstTimeRun" xml:space="preserve">
+    <value>Prima esecuzione</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>О программе…</value>
+  <data name="firstTimeRunText" xml:space="preserve">
+    <value>Vuoi aprire un manuale?
+Puoi aprirlo in qualsiasi momento andando su Help -&gt; Apri il manuale o premendo F1.</value>
+  </data>
+  <data name="information" xml:space="preserve">
+    <value>Informazioni</value>
+  </data>
+  <data name="statusConnected" xml:space="preserve">
+    <value>Connesso</value>
+  </data>
+  <data name="statusConnecting" xml:space="preserve">
+    <value>Connessione in corso...</value>
+  </data>
+  <data name="statusConnectionFailed" xml:space="preserve">
+    <value>Connessione fallita (Discord è in esecuzione?)</value>
+  </data>
+  <data name="statusDisconnected" xml:space="preserve">
+    <value>Disconnesso</value>
+  </data>
+  <data name="statusError" xml:space="preserve">
+    <value>Errore di connessione (ID errato?)</value>
   </data>
 </root>
