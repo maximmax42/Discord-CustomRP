@@ -18,9 +18,10 @@ If you installed the app, updating is literally as easy as running the installer
 So far, the app supports these languages:
 * English
 * German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA))
+* Italian (thanks to DJD320)
 * Russian
 
-I use [ResXManager](https://marketplace.visualstudio.com/items?itemName=TomEnglert.ResXManager) to localize the app. If you know how to use it, please translate the app to your language and make a pull request with only the .xx.resx files (xx being your language's code). If you don't know how to operate in Visual Studio at all, you can open up [new issue](https://github.com/maximmax42/Discord-CustomRP/issues/new) and we'll work with that.
+If you want to help translate the app to your language, please go [here](https://poeditor.com/join/project?hash=2jq0i7ANr1).
 
 ## Feedback
 If you have any problems with the app, or you have suggestions on making it more functional, you can open an issue ticket, or contact me on Discord - maximmax42#5572.
