@@ -357,4 +357,28 @@ Per avere effetto, entrambi i valori devono essere superiori a 0.</value>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>File</value>
   </data>
+  <data name="labelButton1.Text" xml:space="preserve">
+    <value>Pulsante 1</value>
+  </data>
+  <data name="labelButton1.ToolTip" xml:space="preserve">
+    <value>Primo dei due pulsanti che compaiono sotto il tuo stato nel popup del tuo profilo e sul lato destro nel profilo completo.</value>
+  </data>
+  <data name="labelButton2.Text" xml:space="preserve">
+    <value>Pulsante 2</value>
+  </data>
+  <data name="labelButton2.ToolTip" xml:space="preserve">
+    <value>Secondo pulsante, che appare proprio sotto il primo pulsante, o al suo posto, se il primo non è impostato.</value>
+  </data>
+  <data name="labelButton1URL.ToolTip" xml:space="preserve">
+    <value>URL a cui verrà indirizzato l'utente dopo aver fatto clic.</value>
+  </data>
+  <data name="labelButton2URL.ToolTip" xml:space="preserve">
+    <value>URL a cui verrà indirizzato l'utente dopo aver fatto clic.</value>
+  </data>
+  <data name="labelButton1Text.ToolTip" xml:space="preserve">
+    <value>Testo del primo pulsante.</value>
+  </data>
+  <data name="labelButton2Text.ToolTip" xml:space="preserve">
+    <value>Testo del secondo pulsante.</value>
+  </data>
 </root>

@@ -80,6 +80,15 @@ namespace CustomRPC {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Invalid URL specified for button(s)!.
+        /// </summary>
+        internal static string errorInvalidURL {
+            get {
+                return ResourceManager.GetString("errorInvalidURL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на No ID specified!.
         /// </summary>
         internal static string errorNoID {

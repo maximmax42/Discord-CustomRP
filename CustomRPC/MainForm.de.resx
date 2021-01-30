@@ -360,4 +360,28 @@ Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>von</value>
   </data>
+  <data name="labelButton1.Text" xml:space="preserve">
+    <value>Schaltflächen 1</value>
+  </data>
+  <data name="labelButton1.ToolTip" xml:space="preserve">
+    <value>Die erste der beiden Schaltflächen, die unter Ihrem Status in Ihrem Profil-Popup und auf der rechten Seite im vollständigen Profil angezeigt wird.</value>
+  </data>
+  <data name="labelButton2.Text" xml:space="preserve">
+    <value>Schaltflächen 2</value>
+  </data>
+  <data name="labelButton2.ToolTip" xml:space="preserve">
+    <value>Zweite Schaltfläche, die direkt unter der ersten Schaltfläche erscheint oder an deren Stelle, wenn die erste nicht gesetzt ist.</value>
+  </data>
+  <data name="labelButton1URL.ToolTip" xml:space="preserve">
+    <value>URL, zu der die Schaltfläche den Benutzer beim Anklicken führt.</value>
+  </data>
+  <data name="labelButton2URL.ToolTip" xml:space="preserve">
+    <value>URL, zu der die Schaltfläche den Benutzer beim Anklicken führt.</value>
+  </data>
+  <data name="labelButton1Text.ToolTip" xml:space="preserve">
+    <value>Beschriftung der ersten Schaltfläche.</value>
+  </data>
+  <data name="labelButton2Text.ToolTip" xml:space="preserve">
+    <value>Beschriftung der zweiten Schaltfläche.</value>
+  </data>
 </root>

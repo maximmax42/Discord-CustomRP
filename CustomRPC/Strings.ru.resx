@@ -158,4 +158,7 @@
     <comment>Не удаётся подключиться к клиенту Discord.
 Вы уверены, что он запущен?</comment>
   </data>
+  <data name="errorInvalidURL" xml:space="preserve">
+    <value>Для кнопки (кнопок) указан неверный URL!</value>
+  </data>
 </root>

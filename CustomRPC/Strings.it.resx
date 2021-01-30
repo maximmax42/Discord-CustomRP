@@ -152,4 +152,7 @@ Puoi aprirlo in qualsiasi momento andando su Help -&gt; Apri il manuale o premen
   <data name="statusError" xml:space="preserve">
     <value>Errore di connessione (ID errato?)</value>
   </data>
+  <data name="errorInvalidURL" xml:space="preserve">
+    <value>URL specificato per i pulsanti non valido!</value>
+  </data>
 </root>

@@ -366,4 +366,30 @@
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>из</value>
   </data>
+  <data name="labelButton1.Text" xml:space="preserve">
+    <value>Кнопка 1</value>
+  </data>
+  <data name="labelButton2.Text" xml:space="preserve">
+    <value>Кнопка 2</value>
+  </data>
+  <data name="labelButton1Text.ToolTip" xml:space="preserve">
+    <value>Название первой кнопки.
+Максимум 32 символа.</value>
+  </data>
+  <data name="labelButton2Text.ToolTip" xml:space="preserve">
+    <value>Название второй кнопки.
+Максимум 32 символа.</value>
+  </data>
+  <data name="labelButton1.ToolTip" xml:space="preserve">
+    <value>Первая из двух кнопок, показываемая под статусом в мини-профиле и справа от него в полном профиле.</value>
+  </data>
+  <data name="labelButton1URL.ToolTip" xml:space="preserve">
+    <value>Ссылка, по которой пользователь перейдёт при нажатии на кнопку.</value>
+  </data>
+  <data name="labelButton2URL.ToolTip" xml:space="preserve">
+    <value>Ссылка, по которой пользователь перейдёт при нажатии на кнопку.</value>
+  </data>
+  <data name="labelButton2.ToolTip" xml:space="preserve">
+    <value>Вторая кнопка, которая показывается прямо под первой, или вместо неё, если первая кнопка не настроена.</value>
+  </data>
 </root>

@@ -158,4 +158,7 @@ Du kannst es jederzeit unter Hilfe -&gt; Öffne das Handbuch oder mit der F1-Tas
     <comment>Es kann keine Verbindung zum Discord-Client hergestellt werden.
 Bist du sicher, dass es läuft?</comment>
   </data>
+  <data name="errorInvalidURL" xml:space="preserve">
+    <value>Ungültige URL für Schaltfläche(n) angegeben!</value>
+  </data>
 </root>

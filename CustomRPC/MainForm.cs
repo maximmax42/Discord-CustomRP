@@ -32,6 +32,10 @@ namespace CustomRPC
         public string LargeText;
         public string SmallKey;
         public string SmallText;
+        public string Button1Text;
+        public string Button1URL;
+        public string Button2Text;
+        public string Button2URL;
     }
 
     public partial class MainForm : Form
@@ -282,9 +286,31 @@ namespace CustomRPC
                     ID = (settings.partySize != 0) ? "CustomRP" : "",
                     Size = (int)settings.partySize,
                     Max = (int)settings.partyMax
-                },
-                Buttons = buttonsList.ToArray()
+                }
             };
+
+            buttonsList.Clear();
+
+            try
+            {
+                if (settings.button1Text != "" && settings.button1URL != "") buttonsList.Add(new DButton()
+                {
+                    Label = settings.button1Text,
+                    Url = settings.button1URL
+                });
+
+                if (settings.button2Text != "" && settings.button2URL != "") buttonsList.Add(new DButton()
+                {
+                    Label = settings.button2Text,
+                    Url = settings.button2URL
+                });
+            }
+            catch
+            {
+                MessageBox.Show(Strings.errorInvalidURL, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+            }
+
+            rp.Buttons = buttonsList.ToArray();
 
             switch (settings.timestamps)
             {
@@ -385,6 +411,10 @@ namespace CustomRPC
             settings.largeText = preset.LargeText;
             settings.smallKey = preset.SmallKey;
             settings.smallText = preset.SmallText;
+            settings.button1Text = preset.Button1Text;
+            settings.button1URL = preset.Button1URL;
+            settings.button2Text = preset.Button2Text;
+            settings.button2URL = preset.Button2URL;
 
             switch (settings.timestamps)
             {
@@ -423,6 +453,10 @@ namespace CustomRPC
                 LargeText = settings.largeText,
                 SmallKey = settings.smallKey,
                 SmallText = settings.smallText,
+                Button1Text = settings.button1Text,
+                Button1URL = settings.button1URL,
+                Button2Text = settings.button2Text,
+                Button2URL = settings.button2URL,
             });
 
             file.Close();

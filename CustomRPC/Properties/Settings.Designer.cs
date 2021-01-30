@@ -218,48 +218,48 @@ namespace CustomRPC.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string button1Label {
+        public string button1Text {
             get {
-                return ((string)(this["button1Label"]));
+                return ((string)(this["button1Text"]));
             }
             set {
-                this["button1Label"] = value;
+                this["button1Text"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string button1Url {
+        public string button1URL {
             get {
-                return ((string)(this["button1Url"]));
+                return ((string)(this["button1URL"]));
             }
             set {
-                this["button1Url"] = value;
+                this["button1URL"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string button2Label {
+        public string button2Text {
             get {
-                return ((string)(this["button2Label"]));
+                return ((string)(this["button2Text"]));
             }
             set {
-                this["button2Label"] = value;
+                this["button2Text"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string button2Url {
+        public string button2URL {
             get {
-                return ((string)(this["button2Url"]));
+                return ((string)(this["button2URL"]));
             }
             set {
-                this["button2Url"] = value;
+                this["button2URL"] = value;
             }
         }
     }

@@ -158,4 +158,7 @@ You can open it any time by going to Help -&gt; Open the Manual or pressing F1.<
   <data name="statusError" xml:space="preserve">
     <value>Connection error (Wrong ID?)</value>
   </data>
+  <data name="errorInvalidURL" xml:space="preserve">
+    <value>Invalid URL specified for button(s)!</value>
+  </data>
 </root>
