@@ -43,24 +43,24 @@
             // 
             // buttonUpdate
             // 
+            resources.ApplyResources(this.buttonUpdate, "buttonUpdate");
             this.buttonUpdate.AutoEllipsis = true;
             this.buttonUpdate.DialogResult = System.Windows.Forms.DialogResult.Yes;
-            resources.ApplyResources(this.buttonUpdate, "buttonUpdate");
             this.buttonUpdate.Name = "buttonUpdate";
             this.buttonUpdate.UseVisualStyleBackColor = true;
             // 
             // pictureBoxLogo
             // 
-            this.pictureBoxLogo.Image = global::CustomRPC.Properties.Resources.logo;
             resources.ApplyResources(this.pictureBoxLogo, "pictureBoxLogo");
+            this.pictureBoxLogo.Image = global::CustomRPC.Properties.Resources.logo;
             this.pictureBoxLogo.Name = "pictureBoxLogo";
             this.pictureBoxLogo.TabStop = false;
             // 
             // buttonNotNow
             // 
+            resources.ApplyResources(this.buttonNotNow, "buttonNotNow");
             this.buttonNotNow.AutoEllipsis = true;
             this.buttonNotNow.DialogResult = System.Windows.Forms.DialogResult.No;
-            resources.ApplyResources(this.buttonNotNow, "buttonNotNow");
             this.buttonNotNow.Name = "buttonNotNow";
             this.buttonNotNow.UseVisualStyleBackColor = true;
             // 
@@ -88,9 +88,9 @@
             // 
             // buttonSkipUpdate
             // 
+            resources.ApplyResources(this.buttonSkipUpdate, "buttonSkipUpdate");
             this.buttonSkipUpdate.AutoEllipsis = true;
             this.buttonSkipUpdate.DialogResult = System.Windows.Forms.DialogResult.Ignore;
-            resources.ApplyResources(this.buttonSkipUpdate, "buttonSkipUpdate");
             this.buttonSkipUpdate.Name = "buttonSkipUpdate";
             this.buttonSkipUpdate.UseVisualStyleBackColor = true;
             // 

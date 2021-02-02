@@ -51,6 +51,16 @@
             this.startMinimizedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparatorSettings1 = new System.Windows.Forms.ToolStripSeparator();
             this.checkUpdatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.languageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.defaultToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openTheManualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gitHubPageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -58,8 +68,13 @@
             this.translatorsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.germanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ypsolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hebrewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.galaxy6430ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.italianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cubeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.djd320ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.portugeseBRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viniciotricolorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.russianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maximmax42ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparatorHelp2 = new System.Windows.Forms.ToolStripSeparator();
@@ -96,6 +111,10 @@
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabelPadding = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabelStatus = new System.Windows.Forms.ToolStripStatusLabel();
+            this.textBoxButton2Text = new System.Windows.Forms.TextBox();
+            this.textBoxButton2URL = new System.Windows.Forms.TextBox();
+            this.textBoxButton1URL = new System.Windows.Forms.TextBox();
+            this.textBoxButton1Text = new System.Windows.Forms.TextBox();
             this.numericUpDownPartySize = new System.Windows.Forms.NumericUpDown();
             this.numericUpDownPartyMax = new System.Windows.Forms.NumericUpDown();
             this.textBoxSmallKey = new System.Windows.Forms.TextBox();
@@ -105,10 +124,6 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.textBoxButton2Text = new System.Windows.Forms.TextBox();
-            this.textBoxButton2URL = new System.Windows.Forms.TextBox();
-            this.textBoxButton1URL = new System.Windows.Forms.TextBox();
-            this.textBoxButton1Text = new System.Windows.Forms.TextBox();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -215,7 +230,9 @@
             this.runOnStartupToolStripMenuItem,
             this.startMinimizedToolStripMenuItem,
             this.toolStripSeparatorSettings1,
-            this.checkUpdatesToolStripMenuItem});
+            this.checkUpdatesToolStripMenuItem,
+            this.toolStripSeparator1,
+            this.languageToolStripMenuItem});
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
             resources.ApplyResources(this.settingsToolStripMenuItem, "settingsToolStripMenuItem");
             // 
@@ -249,6 +266,86 @@
             this.checkUpdatesToolStripMenuItem.Name = "checkUpdatesToolStripMenuItem";
             resources.ApplyResources(this.checkUpdatesToolStripMenuItem, "checkUpdatesToolStripMenuItem");
             this.checkUpdatesToolStripMenuItem.CheckedChanged += new System.EventHandler(this.SaveSettings);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
+            // 
+            // languageToolStripMenuItem
+            // 
+            this.languageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.defaultToolStripMenuItem,
+            this.toolStripSeparator2,
+            this.toolStripMenuItem1,
+            this.englishToolStripMenuItem,
+            this.toolStripMenuItem2,
+            this.toolStripMenuItem3,
+            this.toolStripMenuItem4,
+            this.toolStripMenuItem5});
+            this.languageToolStripMenuItem.Name = "languageToolStripMenuItem";
+            resources.ApplyResources(this.languageToolStripMenuItem, "languageToolStripMenuItem");
+            // 
+            // defaultToolStripMenuItem
+            // 
+            this.defaultToolStripMenuItem.CheckOnClick = true;
+            this.defaultToolStripMenuItem.Name = "defaultToolStripMenuItem";
+            resources.ApplyResources(this.defaultToolStripMenuItem, "defaultToolStripMenuItem");
+            this.defaultToolStripMenuItem.Tag = "auto";
+            this.defaultToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.CheckOnClick = true;
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
+            this.toolStripMenuItem1.Tag = "de";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.ChangeLanguage);
+            // 
+            // englishToolStripMenuItem
+            // 
+            this.englishToolStripMenuItem.CheckOnClick = true;
+            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
+            resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
+            this.englishToolStripMenuItem.Tag = "en";
+            this.englishToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.CheckOnClick = true;
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
+            this.toolStripMenuItem2.Tag = "he";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.ChangeLanguage);
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.CheckOnClick = true;
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
+            this.toolStripMenuItem3.Tag = "it";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.ChangeLanguage);
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.CheckOnClick = true;
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            resources.ApplyResources(this.toolStripMenuItem4, "toolStripMenuItem4");
+            this.toolStripMenuItem4.Tag = "pt-br";
+            this.toolStripMenuItem4.Click += new System.EventHandler(this.ChangeLanguage);
+            // 
+            // toolStripMenuItem5
+            // 
+            this.toolStripMenuItem5.CheckOnClick = true;
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            resources.ApplyResources(this.toolStripMenuItem5, "toolStripMenuItem5");
+            this.toolStripMenuItem5.Tag = "ru";
+            this.toolStripMenuItem5.Click += new System.EventHandler(this.ChangeLanguage);
             // 
             // helpToolStripMenuItem
             // 
@@ -284,8 +381,13 @@
             this.translatorsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.germanToolStripMenuItem,
             this.ypsolToolStripMenuItem,
+            this.hebrewToolStripMenuItem,
+            this.galaxy6430ToolStripMenuItem,
             this.italianToolStripMenuItem,
+            this.cubeToolStripMenuItem,
             this.djd320ToolStripMenuItem,
+            this.portugeseBRToolStripMenuItem,
+            this.viniciotricolorToolStripMenuItem,
             this.russianToolStripMenuItem,
             this.maximmax42ToolStripMenuItem});
             this.translatorsToolStripMenuItem.Name = "translatorsToolStripMenuItem";
@@ -303,16 +405,48 @@
             this.ypsolToolStripMenuItem.Tag = "https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA";
             this.ypsolToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
+            // hebrewToolStripMenuItem
+            // 
+            resources.ApplyResources(this.hebrewToolStripMenuItem, "hebrewToolStripMenuItem");
+            this.hebrewToolStripMenuItem.Name = "hebrewToolStripMenuItem";
+            // 
+            // galaxy6430ToolStripMenuItem
+            // 
+            this.galaxy6430ToolStripMenuItem.Name = "galaxy6430ToolStripMenuItem";
+            resources.ApplyResources(this.galaxy6430ToolStripMenuItem, "galaxy6430ToolStripMenuItem");
+            this.galaxy6430ToolStripMenuItem.Tag = "https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg";
+            this.galaxy6430ToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
+            // 
             // italianToolStripMenuItem
             // 
             resources.ApplyResources(this.italianToolStripMenuItem, "italianToolStripMenuItem");
             this.italianToolStripMenuItem.Name = "italianToolStripMenuItem";
+            // 
+            // cubeToolStripMenuItem
+            // 
+            this.cubeToolStripMenuItem.Name = "cubeToolStripMenuItem";
+            resources.ApplyResources(this.cubeToolStripMenuItem, "cubeToolStripMenuItem");
+            this.cubeToolStripMenuItem.Tag = "https://mrcube.live/";
+            this.cubeToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // djd320ToolStripMenuItem
             // 
             this.djd320ToolStripMenuItem.Name = "djd320ToolStripMenuItem";
             resources.ApplyResources(this.djd320ToolStripMenuItem, "djd320ToolStripMenuItem");
             this.djd320ToolStripMenuItem.Tag = "";
+            this.djd320ToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
+            // 
+            // portugeseBRToolStripMenuItem
+            // 
+            resources.ApplyResources(this.portugeseBRToolStripMenuItem, "portugeseBRToolStripMenuItem");
+            this.portugeseBRToolStripMenuItem.Name = "portugeseBRToolStripMenuItem";
+            // 
+            // viniciotricolorToolStripMenuItem
+            // 
+            this.viniciotricolorToolStripMenuItem.Name = "viniciotricolorToolStripMenuItem";
+            resources.ApplyResources(this.viniciotricolorToolStripMenuItem, "viniciotricolorToolStripMenuItem");
+            this.viniciotricolorToolStripMenuItem.Tag = "";
+            this.viniciotricolorToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // russianToolStripMenuItem
             // 
@@ -559,6 +693,34 @@
             this.toolStripStatusLabelStatus.Name = "toolStripStatusLabelStatus";
             resources.ApplyResources(this.toolStripStatusLabelStatus, "toolStripStatusLabelStatus");
             // 
+            // textBoxButton2Text
+            // 
+            this.textBoxButton2Text.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "button2Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            resources.ApplyResources(this.textBoxButton2Text, "textBoxButton2Text");
+            this.textBoxButton2Text.Name = "textBoxButton2Text";
+            this.textBoxButton2Text.Text = global::CustomRPC.Properties.Settings.Default.button2Text;
+            // 
+            // textBoxButton2URL
+            // 
+            this.textBoxButton2URL.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "button2Url", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            resources.ApplyResources(this.textBoxButton2URL, "textBoxButton2URL");
+            this.textBoxButton2URL.Name = "textBoxButton2URL";
+            this.textBoxButton2URL.Text = global::CustomRPC.Properties.Settings.Default.button2URL;
+            // 
+            // textBoxButton1URL
+            // 
+            this.textBoxButton1URL.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "button1Url", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            resources.ApplyResources(this.textBoxButton1URL, "textBoxButton1URL");
+            this.textBoxButton1URL.Name = "textBoxButton1URL";
+            this.textBoxButton1URL.Text = global::CustomRPC.Properties.Settings.Default.button1URL;
+            // 
+            // textBoxButton1Text
+            // 
+            this.textBoxButton1Text.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "button1Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            resources.ApplyResources(this.textBoxButton1Text, "textBoxButton1Text");
+            this.textBoxButton1Text.Name = "textBoxButton1Text";
+            this.textBoxButton1Text.Text = global::CustomRPC.Properties.Settings.Default.button1Text;
+            // 
             // numericUpDownPartySize
             // 
             this.numericUpDownPartySize.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "partySize", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -634,34 +796,6 @@
             this.textBoxID.Name = "textBoxID";
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
-            // 
-            // textBoxButton2Text
-            // 
-            this.textBoxButton2Text.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "button2Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            resources.ApplyResources(this.textBoxButton2Text, "textBoxButton2Text");
-            this.textBoxButton2Text.Name = "textBoxButton2Text";
-            this.textBoxButton2Text.Text = global::CustomRPC.Properties.Settings.Default.button2Text;
-            // 
-            // textBoxButton2URL
-            // 
-            this.textBoxButton2URL.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "button2Url", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            resources.ApplyResources(this.textBoxButton2URL, "textBoxButton2URL");
-            this.textBoxButton2URL.Name = "textBoxButton2URL";
-            this.textBoxButton2URL.Text = global::CustomRPC.Properties.Settings.Default.button2URL;
-            // 
-            // textBoxButton1URL
-            // 
-            this.textBoxButton1URL.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "button1Url", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            resources.ApplyResources(this.textBoxButton1URL, "textBoxButton1URL");
-            this.textBoxButton1URL.Name = "textBoxButton1URL";
-            this.textBoxButton1URL.Text = global::CustomRPC.Properties.Settings.Default.button1URL;
-            // 
-            // textBoxButton1Text
-            // 
-            this.textBoxButton1Text.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "button1Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            resources.ApplyResources(this.textBoxButton1Text, "textBoxButton1Text");
-            this.textBoxButton1Text.Name = "textBoxButton1Text";
-            this.textBoxButton1Text.Text = global::CustomRPC.Properties.Settings.Default.button1Text;
             // 
             // MainForm
             // 
@@ -804,6 +938,21 @@
         private System.Windows.Forms.Label labelButton2URL;
         private System.Windows.Forms.Label labelButton1Text;
         private System.Windows.Forms.Label labelButton2Text;
+        private System.Windows.Forms.ToolStripMenuItem cubeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem portugeseBRToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viniciotricolorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hebrewToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem galaxy6430ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem languageToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem defaultToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
     }
 }
 

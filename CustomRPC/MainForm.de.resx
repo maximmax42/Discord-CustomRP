@@ -205,6 +205,12 @@
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>Nach Updates suchen</value>
   </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 6</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 22</value>
+  </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>Hilfe</value>
   </data>
@@ -245,7 +251,7 @@
     <value>Update runterladen</value>
   </data>
   <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
-    <value>180, 317</value>
+    <value>180, 433</value>
   </data>
   <data name="buttonUpdatePresence.Size" type="System.Drawing.Size, System.Drawing">
     <value>127, 24</value>
@@ -351,20 +357,17 @@ Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
     <value>Zeigt an, wie viel Zeit seit dem unten festgelegten Datum vergangen ist oder verbleibt.</value>
   </data>
-  <data name="labelPartyOf.Location" type="System.Drawing.Point, System.Drawing">
-    <value>337, 114</value>
-  </data>
-  <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
-    <value>27, 14</value>
-  </data>
-  <data name="labelPartyOf.Text" xml:space="preserve">
-    <value>von</value>
+  <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 14</value>
   </data>
   <data name="labelButton1.Text" xml:space="preserve">
     <value>Schaltflächen 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
     <value>Die erste der beiden Schaltflächen, die unter Ihrem Status in Ihrem Profil-Popup und auf der rechten Seite im vollständigen Profil angezeigt wird.</value>
+  </data>
+  <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 14</value>
   </data>
   <data name="labelButton2.Text" xml:space="preserve">
     <value>Schaltflächen 2</value>
@@ -383,5 +386,24 @@ Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
   </data>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
     <value>Beschriftung der zweiten Schaltfläche.</value>
+  </data>
+  <data name="labelPartyOf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>337, 114</value>
+  </data>
+  <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 14</value>
+  </data>
+  <data name="labelPartyOf.Text" xml:space="preserve">
+    <value>von</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sprache</value>
   </data>
 </root>

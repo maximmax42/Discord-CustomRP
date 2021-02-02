@@ -67,6 +67,20 @@ namespace CustomRPC
             // Setting up startup link for current user (enabled by default)
             StartupSetup();
 
+            // Checks the chosen language setting
+            foreach (var toolStripItemObj in languageToolStripMenuItem.DropDownItems)
+            {
+                if (toolStripItemObj is ToolStripSeparator) continue;
+
+                var langItem = (ToolStripMenuItem)toolStripItemObj;
+
+                if ((string)langItem.Tag == settings.language)
+                {
+                    langItem.Checked = true;
+                    break;
+                }
+            }
+
             // Checks the needed timestamp radiobuttons because settings binding can't do that
             switch (settings.timestamps)
             {
@@ -415,6 +429,7 @@ namespace CustomRPC
             settings.button1URL = preset.Button1URL;
             settings.button2Text = preset.Button2Text;
             settings.button2URL = preset.Button2URL;
+            settings.Save();
 
             switch (settings.timestamps)
             {
@@ -488,6 +503,17 @@ namespace CustomRPC
 
             StartupSetup();
             if (settings.checkUpdates) CheckForUpdates();
+        }
+
+        // Called when you change the language
+        private void ChangeLanguage(object sender, EventArgs e)
+        {
+            var lang = (ToolStripMenuItem)sender;
+
+            settings.language = (string)lang.Tag;
+            settings.Save();
+            Program.AppMutex.Close();
+            Application.Restart();
         }
 
         // Called when you press Open the Manual button

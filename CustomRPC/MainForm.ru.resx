@@ -199,6 +199,42 @@
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>Проверять обновления</value>
   </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 6</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>По умолчанию</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 6</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Язык</value>
+  </data>
   <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>79, 20</value>
   </data>
@@ -360,17 +396,29 @@
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
     <value>Показывает, сколько времени осталось до/прошло после выбранного времени.</value>
   </data>
-  <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
-    <value>19, 14</value>
-  </data>
-  <data name="labelPartyOf.Text" xml:space="preserve">
-    <value>из</value>
+  <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 14</value>
   </data>
   <data name="labelButton1.Text" xml:space="preserve">
     <value>Кнопка 1</value>
   </data>
+  <data name="labelButton1.ToolTip" xml:space="preserve">
+    <value>Первая из двух кнопок, показываемая под статусом в мини-профиле и справа от него в полном профиле.</value>
+  </data>
+  <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 14</value>
+  </data>
   <data name="labelButton2.Text" xml:space="preserve">
     <value>Кнопка 2</value>
+  </data>
+  <data name="labelButton2.ToolTip" xml:space="preserve">
+    <value>Вторая кнопка, которая показывается прямо под первой, или вместо неё, если первая кнопка не настроена.</value>
+  </data>
+  <data name="labelButton1URL.ToolTip" xml:space="preserve">
+    <value>Ссылка, по которой пользователь перейдёт при нажатии на кнопку.</value>
+  </data>
+  <data name="labelButton2URL.ToolTip" xml:space="preserve">
+    <value>Ссылка, по которой пользователь перейдёт при нажатии на кнопку.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
     <value>Название первой кнопки.
@@ -380,16 +428,10 @@
     <value>Название второй кнопки.
 Максимум 32 символа.</value>
   </data>
-  <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>Первая из двух кнопок, показываемая под статусом в мини-профиле и справа от него в полном профиле.</value>
+  <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 14</value>
   </data>
-  <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>Ссылка, по которой пользователь перейдёт при нажатии на кнопку.</value>
-  </data>
-  <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>Ссылка, по которой пользователь перейдёт при нажатии на кнопку.</value>
-  </data>
-  <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>Вторая кнопка, которая показывается прямо под первой, или вместо неё, если первая кнопка не настроена.</value>
+  <data name="labelPartyOf.Text" xml:space="preserve">
+    <value>из</value>
   </data>
 </root>
