@@ -1039,7 +1039,7 @@ Status timers have 24 hour limit, meaning that after 24 hours time will go back 
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
     <value>Amount of players in the current party that shows next to State field.
-To take effect, both fields shoild be more than 0.</value>
+To take effect, both fields should be more than 0.</value>
   </data>
   <data name="&gt;&gt;labelParty.Name" xml:space="preserve">
     <value>labelParty</value>
