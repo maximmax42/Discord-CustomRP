@@ -55,12 +55,12 @@
             this.languageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.defaultToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.deToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.enToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.heToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ItToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ptBRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ruToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openTheManualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gitHubPageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -71,8 +71,8 @@
             this.hebrewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.galaxy6430ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.italianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cubeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.djd320ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cubeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.portugeseBRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viniciotricolorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.russianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -124,6 +124,10 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
+            this.viToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.vietnameseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Phnthnhnm0612toolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MykmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -277,12 +281,13 @@
             this.languageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.defaultToolStripMenuItem,
             this.toolStripSeparator2,
-            this.toolStripMenuItem1,
-            this.englishToolStripMenuItem,
-            this.toolStripMenuItem2,
-            this.toolStripMenuItem3,
-            this.toolStripMenuItem4,
-            this.toolStripMenuItem5});
+            this.deToolStripMenuItem,
+            this.enToolStripMenuItem,
+            this.heToolStripMenuItem,
+            this.ItToolStripMenuItem,
+            this.ptBRToolStripMenuItem,
+            this.ruToolStripMenuItem,
+            this.viToolStripMenuItem});
             this.languageToolStripMenuItem.Name = "languageToolStripMenuItem";
             resources.ApplyResources(this.languageToolStripMenuItem, "languageToolStripMenuItem");
             // 
@@ -299,53 +304,53 @@
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             // 
-            // toolStripMenuItem1
+            // deToolStripMenuItem
             // 
-            this.toolStripMenuItem1.CheckOnClick = true;
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
-            this.toolStripMenuItem1.Tag = "de";
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.ChangeLanguage);
+            this.deToolStripMenuItem.CheckOnClick = true;
+            this.deToolStripMenuItem.Name = "deToolStripMenuItem";
+            resources.ApplyResources(this.deToolStripMenuItem, "deToolStripMenuItem");
+            this.deToolStripMenuItem.Tag = "de";
+            this.deToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
             // 
-            // englishToolStripMenuItem
+            // enToolStripMenuItem
             // 
-            this.englishToolStripMenuItem.CheckOnClick = true;
-            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
-            resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
-            this.englishToolStripMenuItem.Tag = "en";
-            this.englishToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
+            this.enToolStripMenuItem.CheckOnClick = true;
+            this.enToolStripMenuItem.Name = "enToolStripMenuItem";
+            resources.ApplyResources(this.enToolStripMenuItem, "enToolStripMenuItem");
+            this.enToolStripMenuItem.Tag = "en";
+            this.enToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
             // 
-            // toolStripMenuItem2
+            // heToolStripMenuItem
             // 
-            this.toolStripMenuItem2.CheckOnClick = true;
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
-            this.toolStripMenuItem2.Tag = "he";
-            this.toolStripMenuItem2.Click += new System.EventHandler(this.ChangeLanguage);
+            this.heToolStripMenuItem.CheckOnClick = true;
+            this.heToolStripMenuItem.Name = "heToolStripMenuItem";
+            resources.ApplyResources(this.heToolStripMenuItem, "heToolStripMenuItem");
+            this.heToolStripMenuItem.Tag = "he";
+            this.heToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
             // 
-            // toolStripMenuItem3
+            // ItToolStripMenuItem
             // 
-            this.toolStripMenuItem3.CheckOnClick = true;
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
-            this.toolStripMenuItem3.Tag = "it";
-            this.toolStripMenuItem3.Click += new System.EventHandler(this.ChangeLanguage);
+            this.ItToolStripMenuItem.CheckOnClick = true;
+            this.ItToolStripMenuItem.Name = "ItToolStripMenuItem";
+            resources.ApplyResources(this.ItToolStripMenuItem, "ItToolStripMenuItem");
+            this.ItToolStripMenuItem.Tag = "it";
+            this.ItToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
             // 
-            // toolStripMenuItem4
+            // ptBRToolStripMenuItem
             // 
-            this.toolStripMenuItem4.CheckOnClick = true;
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            resources.ApplyResources(this.toolStripMenuItem4, "toolStripMenuItem4");
-            this.toolStripMenuItem4.Tag = "pt-br";
-            this.toolStripMenuItem4.Click += new System.EventHandler(this.ChangeLanguage);
+            this.ptBRToolStripMenuItem.CheckOnClick = true;
+            this.ptBRToolStripMenuItem.Name = "ptBRToolStripMenuItem";
+            resources.ApplyResources(this.ptBRToolStripMenuItem, "ptBRToolStripMenuItem");
+            this.ptBRToolStripMenuItem.Tag = "pt-br";
+            this.ptBRToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
             // 
-            // toolStripMenuItem5
+            // ruToolStripMenuItem
             // 
-            this.toolStripMenuItem5.CheckOnClick = true;
-            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            resources.ApplyResources(this.toolStripMenuItem5, "toolStripMenuItem5");
-            this.toolStripMenuItem5.Tag = "ru";
-            this.toolStripMenuItem5.Click += new System.EventHandler(this.ChangeLanguage);
+            this.ruToolStripMenuItem.CheckOnClick = true;
+            this.ruToolStripMenuItem.Name = "ruToolStripMenuItem";
+            resources.ApplyResources(this.ruToolStripMenuItem, "ruToolStripMenuItem");
+            this.ruToolStripMenuItem.Tag = "ru";
+            this.ruToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
             // 
             // helpToolStripMenuItem
             // 
@@ -384,12 +389,15 @@
             this.hebrewToolStripMenuItem,
             this.galaxy6430ToolStripMenuItem,
             this.italianToolStripMenuItem,
-            this.cubeToolStripMenuItem,
             this.djd320ToolStripMenuItem,
+            this.cubeToolStripMenuItem,
             this.portugeseBRToolStripMenuItem,
             this.viniciotricolorToolStripMenuItem,
             this.russianToolStripMenuItem,
-            this.maximmax42ToolStripMenuItem});
+            this.maximmax42ToolStripMenuItem,
+            this.vietnameseToolStripMenuItem,
+            this.MykmToolStripMenuItem,
+            this.Phnthnhnm0612toolStripMenuItem});
             this.translatorsToolStripMenuItem.Name = "translatorsToolStripMenuItem";
             resources.ApplyResources(this.translatorsToolStripMenuItem, "translatorsToolStripMenuItem");
             // 
@@ -422,19 +430,19 @@
             resources.ApplyResources(this.italianToolStripMenuItem, "italianToolStripMenuItem");
             this.italianToolStripMenuItem.Name = "italianToolStripMenuItem";
             // 
-            // cubeToolStripMenuItem
-            // 
-            this.cubeToolStripMenuItem.Name = "cubeToolStripMenuItem";
-            resources.ApplyResources(this.cubeToolStripMenuItem, "cubeToolStripMenuItem");
-            this.cubeToolStripMenuItem.Tag = "https://mrcube.live/";
-            this.cubeToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
-            // 
             // djd320ToolStripMenuItem
             // 
             this.djd320ToolStripMenuItem.Name = "djd320ToolStripMenuItem";
             resources.ApplyResources(this.djd320ToolStripMenuItem, "djd320ToolStripMenuItem");
             this.djd320ToolStripMenuItem.Tag = "";
             this.djd320ToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
+            // 
+            // cubeToolStripMenuItem
+            // 
+            this.cubeToolStripMenuItem.Name = "cubeToolStripMenuItem";
+            resources.ApplyResources(this.cubeToolStripMenuItem, "cubeToolStripMenuItem");
+            this.cubeToolStripMenuItem.Tag = "https://mrcube.live/";
+            this.cubeToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // portugeseBRToolStripMenuItem
             // 
@@ -797,6 +805,30 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
+            // viToolStripMenuItem
+            // 
+            this.viToolStripMenuItem.Name = "viToolStripMenuItem";
+            resources.ApplyResources(this.viToolStripMenuItem, "viToolStripMenuItem");
+            this.viToolStripMenuItem.Tag = "vi";
+            this.viToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
+            // 
+            // vietnameseToolStripMenuItem
+            // 
+            resources.ApplyResources(this.vietnameseToolStripMenuItem, "vietnameseToolStripMenuItem");
+            this.vietnameseToolStripMenuItem.Name = "vietnameseToolStripMenuItem";
+            // 
+            // Phnthnhnm0612toolStripMenuItem
+            // 
+            this.Phnthnhnm0612toolStripMenuItem.Name = "Phnthnhnm0612toolStripMenuItem";
+            resources.ApplyResources(this.Phnthnhnm0612toolStripMenuItem, "Phnthnhnm0612toolStripMenuItem");
+            this.Phnthnhnm0612toolStripMenuItem.Tag = "";
+            // 
+            // MykmToolStripMenuItem
+            // 
+            this.MykmToolStripMenuItem.Name = "MykmToolStripMenuItem";
+            resources.ApplyResources(this.MykmToolStripMenuItem, "MykmToolStripMenuItem");
+            this.MykmToolStripMenuItem.Tag = "";
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -947,12 +979,16 @@
         private System.Windows.Forms.ToolStripMenuItem languageToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem defaultToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
+        private System.Windows.Forms.ToolStripMenuItem deToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem enToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem heToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ItToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ptBRToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ruToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem vietnameseToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem MykmToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem Phnthnhnm0612toolStripMenuItem;
     }
 }
 
