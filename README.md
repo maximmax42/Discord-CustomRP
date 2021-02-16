@@ -18,7 +18,9 @@ If you installed the app, updating is literally as easy as running the installer
 So far, the app supports these languages:
 * English
 * German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA))
-* Italian (thanks to DJD320)
+* Hebrew (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg))
+* Italian (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
+* Portugese-BR (thanks to viniciotricolor)
 * Russian
 
 If you want to help translate the app to your language, please go [here](https://poeditor.com/join/project?hash=2jq0i7ANr1).
