@@ -22,6 +22,7 @@ So far, the app supports these languages:
 * Italian (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
 * Portugese-BR (thanks to viniciotricolor)
 * Russian
+* Vietnamese (thanks to Mykm and Phnthnhnm0612)
 
 If you want to help translate the app to your language, please go [here](https://poeditor.com/join/project?hash=2jq0i7ANr1).
 
