@@ -266,7 +266,7 @@
     <value>Verbinden</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Verbindet das Programm mit der verwendeten ID mit festgelegter Präsenz.</value>
+    <value>Verbindet das Programm mit der verwendeten ID mit der festgelegten Präsenz.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
     <value>Trennen</value>
@@ -361,19 +361,19 @@ Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
     <value>90, 14</value>
   </data>
   <data name="labelButton1.Text" xml:space="preserve">
-    <value>Schaltflächen 1</value>
+    <value>Schaltfläche 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>Die erste der beiden Schaltflächen, die unter Ihrem Status in Ihrem Profil-Popup und auf der rechten Seite im vollständigen Profil angezeigt wird.</value>
+    <value>Die erste der beiden Schaltflächen, die unter deinem Status in deinem Profil-Popup und auf der rechten Seite im vollständigen Profil angezeigt wird.</value>
   </data>
   <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 14</value>
   </data>
   <data name="labelButton2.Text" xml:space="preserve">
-    <value>Schaltflächen 2</value>
+    <value>Schaltfläche 2</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>Zweite Schaltfläche, die direkt unter der ersten Schaltfläche erscheint oder an deren Stelle, wenn die erste nicht gesetzt ist.</value>
+    <value>Die zweite Schaltfläche, die direkt unter der ersten Schaltfläche erscheint oder an deren Stelle, wenn die erste nicht gesetzt ist.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
     <value>URL, zu der die Schaltfläche den Benutzer beim Anklicken führt.</value>

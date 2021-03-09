@@ -203,23 +203,36 @@ namespace CustomRPC
         {
             if (latestRelease == null) return; // Probably shouldn't happen, but just in case
 
+            // Check whether the application is installed or used as a portable app
+            int fileType = Application.StartupPath.EndsWith("Roaming\\CustomRP") ? 0 : 1; // 0 is exe, 1 is zip
+
             var wc = new WebClient();
-            var exec = Path.GetTempPath() + latestRelease.Assets[0].Name;
+            var exec = Path.GetTempPath() + latestRelease.Assets[fileType].Name;
 
-            try
+            while (true)
             {
-                if (!File.Exists(exec))
-                    await wc.DownloadFileTaskAsync(latestRelease.Assets[0].BrowserDownloadUrl, exec);
-                Process.Start(exec);
-            }
-            catch
-            {
-                var result = MessageBox.Show(this, Strings.errorUpdateFailed, Strings.error, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                try
+                {
+                    if (!File.Exists(exec))
+                        await wc.DownloadFileTaskAsync(latestRelease.Assets[fileType].BrowserDownloadUrl, exec);
+                    Process.Start(exec);
 
-                if (result == DialogResult.Yes)
-                    DownloadAndInstallUpdate(); // I dunno if it's a good idea
-                else if (result == DialogResult.No)
-                    Process.Start(latestRelease.Assets[0].BrowserDownloadUrl);
+                    break;
+                }
+                catch
+                {
+                    if (File.Exists(exec))
+                        File.Delete(exec);
+
+                    var result = MessageBox.Show(this, Strings.errorUpdateFailed, Strings.error, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+
+                    if (result == DialogResult.Yes)
+                        continue;
+                    else if (result == DialogResult.No)
+                        Process.Start(latestRelease.Assets[fileType].BrowserDownloadUrl);
+
+                    break;
+                }
             }
         }
 

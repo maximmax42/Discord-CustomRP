@@ -57,6 +57,7 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.deToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.enToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.frToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.heToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ItToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ptBRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -69,6 +70,8 @@
             this.translatorsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.germanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ypsolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.frenchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nicolasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hebrewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.galaxy6430ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.italianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -128,9 +131,7 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.frToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.frenchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nicolasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.binarynoiseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -324,6 +325,14 @@
             this.enToolStripMenuItem.Tag = "en";
             this.enToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
             // 
+            // frToolStripMenuItem
+            // 
+            this.frToolStripMenuItem.CheckOnClick = true;
+            this.frToolStripMenuItem.Name = "frToolStripMenuItem";
+            resources.ApplyResources(this.frToolStripMenuItem, "frToolStripMenuItem");
+            this.frToolStripMenuItem.Tag = "fr";
+            this.frToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
+            // 
             // heToolStripMenuItem
             // 
             this.heToolStripMenuItem.CheckOnClick = true;
@@ -397,6 +406,7 @@
             this.translatorsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.germanToolStripMenuItem,
             this.ypsolToolStripMenuItem,
+            this.binarynoiseToolStripMenuItem,
             this.frenchToolStripMenuItem,
             this.nicolasToolStripMenuItem,
             this.hebrewToolStripMenuItem,
@@ -425,6 +435,17 @@
             resources.ApplyResources(this.ypsolToolStripMenuItem, "ypsolToolStripMenuItem");
             this.ypsolToolStripMenuItem.Tag = "https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA";
             this.ypsolToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
+            // 
+            // frenchToolStripMenuItem
+            // 
+            resources.ApplyResources(this.frenchToolStripMenuItem, "frenchToolStripMenuItem");
+            this.frenchToolStripMenuItem.Name = "frenchToolStripMenuItem";
+            // 
+            // nicolasToolStripMenuItem
+            // 
+            this.nicolasToolStripMenuItem.Name = "nicolasToolStripMenuItem";
+            resources.ApplyResources(this.nicolasToolStripMenuItem, "nicolasToolStripMenuItem");
+            this.nicolasToolStripMenuItem.Tag = "";
             // 
             // hebrewToolStripMenuItem
             // 
@@ -835,24 +856,11 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
-            // frToolStripMenuItem
+            // binarynoiseToolStripMenuItem
             // 
-            this.frToolStripMenuItem.CheckOnClick = true;
-            this.frToolStripMenuItem.Name = "frToolStripMenuItem";
-            resources.ApplyResources(this.frToolStripMenuItem, "frToolStripMenuItem");
-            this.frToolStripMenuItem.Tag = "fr";
-            this.frToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
-            // 
-            // frenchToolStripMenuItem
-            // 
-            resources.ApplyResources(this.frenchToolStripMenuItem, "frenchToolStripMenuItem");
-            this.frenchToolStripMenuItem.Name = "frenchToolStripMenuItem";
-            // 
-            // nicolasToolStripMenuItem
-            // 
-            this.nicolasToolStripMenuItem.Name = "nicolasToolStripMenuItem";
-            resources.ApplyResources(this.nicolasToolStripMenuItem, "nicolasToolStripMenuItem");
-            this.nicolasToolStripMenuItem.Tag = "";
+            this.binarynoiseToolStripMenuItem.Name = "binarynoiseToolStripMenuItem";
+            resources.ApplyResources(this.binarynoiseToolStripMenuItem, "binarynoiseToolStripMenuItem");
+            this.binarynoiseToolStripMenuItem.Tag = "";
             // 
             // MainForm
             // 
@@ -1017,6 +1025,7 @@
         private System.Windows.Forms.ToolStripMenuItem frToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem frenchToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nicolasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem binarynoiseToolStripMenuItem;
     }
 }
 

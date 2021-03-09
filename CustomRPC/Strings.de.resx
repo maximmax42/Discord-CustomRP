@@ -141,7 +141,7 @@ Du kannst es jederzeit unter Hilfe -&gt; Öffne das Handbuch oder mit der F1-Tas
     <value>Verbunden</value>
   </data>
   <data name="statusConnecting" xml:space="preserve">
-    <value>Verbindend...</value>
+    <value>Verbinde...</value>
     <comment>`</comment>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
