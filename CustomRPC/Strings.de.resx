@@ -159,6 +159,6 @@ Du kannst es jederzeit unter Hilfe -&gt; Öffne das Handbuch oder mit der F1-Tas
 Bist du sicher, dass es läuft?</comment>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>Ungültige URL für Schaltfläche(n) angegeben!</value>
+    <value>Ungültige URL für Schaltfläche(n) angegeben oder der Text ist zu lang!</value>
   </data>
 </root>

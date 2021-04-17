@@ -153,6 +153,6 @@ Vous pouvez l'ouvrir à tout moment en accédant à Aide -&gt; Ouvrir le manuel 
     <value>Erreur de connexion (ID invalide?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>L'URL spécifié pour le(s) bouton(s) est invalide!</value>
+    <value>L'URL spécifiée pour le(s) bouton(s) est invalide ou bien le texte est trop long!</value>
   </data>
 </root>

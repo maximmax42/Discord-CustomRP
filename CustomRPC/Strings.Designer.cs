@@ -80,7 +80,7 @@ namespace CustomRPC {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Invalid URL specified for button(s)!.
+        ///   Ищет локализованную строку, похожую на Invalid URL specified for button(s) or the text is too long!.
         /// </summary>
         internal static string errorInvalidURL {
             get {

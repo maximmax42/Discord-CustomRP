@@ -120,11 +120,24 @@
   <data name="buttonUpdate.Text" xml:space="preserve">
     <value>Oui</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonNotNow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 326</value>
+  </data>
+  <data name="buttonNotNow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 23</value>
+  </data>
   <data name="buttonNotNow.Text" xml:space="preserve">
     <value>Pas maintenant</value>
   </data>
+  <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 14</value>
+  </data>
   <data name="labelQuestion.Text" xml:space="preserve">
     <value>Souhaitez-vous télécharger la mise à jour?</value>
+  </data>
+  <data name="checkBoxNeverNotify.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 18</value>
   </data>
   <data name="checkBoxNeverNotify.Text" xml:space="preserve">
     <value>Ne pas vérifier les mises à jour</value>
@@ -132,6 +145,9 @@
   <data name="labelVersionsText.Text" xml:space="preserve">
     <value>Version actuelle:
 Dernière version:</value>
+  </data>
+  <data name="buttonSkipUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 23</value>
   </data>
   <data name="buttonSkipUpdate.Text" xml:space="preserve">
     <value>Ignorer cette version</value>

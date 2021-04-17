@@ -123,8 +123,15 @@
   <data name="buttonNotNow.Text" xml:space="preserve">
     <value>Não Agora</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 14</value>
+  </data>
   <data name="labelQuestion.Text" xml:space="preserve">
     <value>Você gostaria de baixar esta atualização?</value>
+  </data>
+  <data name="checkBoxNeverNotify.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 18</value>
   </data>
   <data name="checkBoxNeverNotify.Text" xml:space="preserve">
     <value>Não verificar se há atualizações novamente</value>
@@ -132,6 +139,9 @@
   <data name="labelVersionsText.Text" xml:space="preserve">
     <value>Versão Atual:
 Última Versão:</value>
+  </data>
+  <data name="buttonSkipUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 23</value>
   </data>
   <data name="buttonSkipUpdate.Text" xml:space="preserve">
     <value>Pular Esta Versão</value>

@@ -159,6 +159,6 @@
 Вы уверены, что он запущен?</comment>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>Для кнопки (кнопок) указан неверный URL!</value>
+    <value>Для кнопки (кнопок) указан неверный URL или текст слишком длинный!</value>
   </data>
 </root>

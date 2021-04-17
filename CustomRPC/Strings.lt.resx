@@ -118,47 +118,41 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="error" xml:space="preserve">
-    <value>Error</value>
-  </data>
-  <data name="errorCannotConnect" xml:space="preserve">
-    <value>Can't connect to Discord client.
-Are you sure it's running?</value>
-    <comment>@Invariant Unused</comment>
+    <value>Klaida</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>No ID specified!</value>
+    <value>Nenurodytas ID!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
-    <value>There was an error downloading or installing an update.
-Press "Yes" to retry or "No" to download manually.</value>
+    <value>Atsisiunčiant ar diegiant atnaujinimą įvyko klaida.
+Paspauskite „Taip“, jei norite bandyti dar kartą, arba „Ne“, jei norite atsisiųsti rankiniu būdu.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>First Time Run</value>
+    <value>Paleidimas pirmą kartą</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
-    <value>Would you like to open a manual?
-You can open it any time by going to Help -&gt; Open the Manual or pressing F1.</value>
+    <value>Ar norėtumėte atidaryti instrukcijas?
+Galite jį atidaryti bet kuriuo metu, eidami į Pagalba -&gt; Atidaryti instrukcijas arba paspausdami F1.</value>
   </data>
   <data name="information" xml:space="preserve">
-    <value>Information</value>
+    <value>Informacija</value>
   </data>
   <data name="statusConnected" xml:space="preserve">
-    <value>Connected</value>
+    <value>Prisijungta</value>
   </data>
   <data name="statusConnecting" xml:space="preserve">
-    <value>Connecting...</value>
-    
+    <value>Jungiamasi...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Connection failed (Is Discord running?)</value>
+    <value>Prisijungimas ne sėkmingas (ar Discord veikia?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
-    <value>Disconnected</value>
+    <value>Atsijungta</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>Connection error (Wrong ID?)</value>
+    <value>Prisijungimo Klaida (Blogas ID?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>Invalid URL specified for button(s) or the text is too long!</value>
+    <value>Neteisingas URL nurodytas mygtukams arba tekstas per ilgas!</value>
   </data>
 </root>

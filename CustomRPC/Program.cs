@@ -14,7 +14,7 @@ namespace CustomRPC
         /// </summary>
         [STAThread]
         static void Main()
-       {
+        {
 #if DEBUG
             string mutexName = "CustomRP dev";
 #else
