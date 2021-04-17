@@ -140,6 +140,9 @@
     <value>הגרסה הנוכחית:
 הגרסה האחרונה:</value>
   </data>
+  <data name="buttonSkipUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 23</value>
+  </data>
   <data name="buttonSkipUpdate.Text" xml:space="preserve">
     <value>דלג על הגרסה הזאת</value>
   </data>
