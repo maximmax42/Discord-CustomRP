@@ -67,6 +67,11 @@ namespace CustomRPC
             // Setting up startup link for current user (enabled by default)
             StartupSetup();
 
+            // Setting up checkboxes because apparently property binding doesn't work
+            runOnStartupToolStripMenuItem.Checked = settings.runOnStartup;
+            startMinimizedToolStripMenuItem.Checked = settings.startMinimized;
+            checkUpdatesToolStripMenuItem.Checked = settings.checkUpdates;
+
             // Checks the chosen language setting
             foreach (var toolStripItemObj in languageToolStripMenuItem.DropDownItems)
             {
@@ -511,6 +516,11 @@ namespace CustomRPC
         private void SaveSettings(object sender, EventArgs e)
         {
             if (loading) return;
+
+            // Apparently property binding doesn't work either for checkboxes or for bool variables
+            settings.runOnStartup = runOnStartupToolStripMenuItem.Checked;
+            settings.startMinimized = startMinimizedToolStripMenuItem.Checked;
+            settings.checkUpdates = checkUpdatesToolStripMenuItem.Checked;
 
             settings.Save();
 

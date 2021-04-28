@@ -60,6 +60,7 @@
             this.frToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.heToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.itToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ltToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ptBRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ruToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -78,6 +79,8 @@
             this.italianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.djd320ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cubeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lithuanianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.psychonautToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.portugeseBRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viniciotricolorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.russianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -132,9 +135,6 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.psychonautToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lithuanianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ltToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -249,7 +249,7 @@
             // 
             // runOnStartupToolStripMenuItem
             // 
-            this.runOnStartupToolStripMenuItem.Checked = global::CustomRPC.Properties.Settings.Default.runOnStartup;
+            this.runOnStartupToolStripMenuItem.Checked = true;
             this.runOnStartupToolStripMenuItem.CheckOnClick = true;
             this.runOnStartupToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.runOnStartupToolStripMenuItem.Name = "runOnStartupToolStripMenuItem";
@@ -258,7 +258,6 @@
             // 
             // startMinimizedToolStripMenuItem
             // 
-            this.startMinimizedToolStripMenuItem.Checked = global::CustomRPC.Properties.Settings.Default.startMinimized;
             this.startMinimizedToolStripMenuItem.CheckOnClick = true;
             this.startMinimizedToolStripMenuItem.Name = "startMinimizedToolStripMenuItem";
             resources.ApplyResources(this.startMinimizedToolStripMenuItem, "startMinimizedToolStripMenuItem");
@@ -271,7 +270,7 @@
             // 
             // checkUpdatesToolStripMenuItem
             // 
-            this.checkUpdatesToolStripMenuItem.Checked = global::CustomRPC.Properties.Settings.Default.checkUpdates;
+            this.checkUpdatesToolStripMenuItem.Checked = true;
             this.checkUpdatesToolStripMenuItem.CheckOnClick = true;
             this.checkUpdatesToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkUpdatesToolStripMenuItem.Name = "checkUpdatesToolStripMenuItem";
@@ -352,6 +351,14 @@
             resources.ApplyResources(this.itToolStripMenuItem, "itToolStripMenuItem");
             this.itToolStripMenuItem.Tag = "it";
             this.itToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
+            // 
+            // ltToolStripMenuItem
+            // 
+            this.ltToolStripMenuItem.CheckOnClick = true;
+            this.ltToolStripMenuItem.Name = "ltToolStripMenuItem";
+            resources.ApplyResources(this.ltToolStripMenuItem, "ltToolStripMenuItem");
+            this.ltToolStripMenuItem.Tag = "lt";
+            this.ltToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
             // 
             // ptBRToolStripMenuItem
             // 
@@ -489,6 +496,17 @@
             resources.ApplyResources(this.cubeToolStripMenuItem, "cubeToolStripMenuItem");
             this.cubeToolStripMenuItem.Tag = "https://mrcube.live/";
             this.cubeToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
+            // 
+            // lithuanianToolStripMenuItem
+            // 
+            resources.ApplyResources(this.lithuanianToolStripMenuItem, "lithuanianToolStripMenuItem");
+            this.lithuanianToolStripMenuItem.Name = "lithuanianToolStripMenuItem";
+            // 
+            // psychonautToolStripMenuItem
+            // 
+            this.psychonautToolStripMenuItem.Name = "psychonautToolStripMenuItem";
+            resources.ApplyResources(this.psychonautToolStripMenuItem, "psychonautToolStripMenuItem");
+            this.psychonautToolStripMenuItem.Tag = "";
             // 
             // portugeseBRToolStripMenuItem
             // 
@@ -867,25 +885,6 @@
             this.textBoxID.Name = "textBoxID";
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
-            // 
-            // psychonautToolStripMenuItem
-            // 
-            this.psychonautToolStripMenuItem.Name = "psychonautToolStripMenuItem";
-            resources.ApplyResources(this.psychonautToolStripMenuItem, "psychonautToolStripMenuItem");
-            this.psychonautToolStripMenuItem.Tag = "";
-            // 
-            // lithuanianToolStripMenuItem
-            // 
-            resources.ApplyResources(this.lithuanianToolStripMenuItem, "lithuanianToolStripMenuItem");
-            this.lithuanianToolStripMenuItem.Name = "lithuanianToolStripMenuItem";
-            // 
-            // ltToolStripMenuItem
-            // 
-            this.ltToolStripMenuItem.CheckOnClick = true;
-            this.ltToolStripMenuItem.Name = "ltToolStripMenuItem";
-            resources.ApplyResources(this.ltToolStripMenuItem, "ltToolStripMenuItem");
-            this.ltToolStripMenuItem.Tag = "lt";
-            this.ltToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
             // 
             // MainForm
             // 
