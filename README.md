@@ -21,6 +21,7 @@ So far, the app supports these languages:
 * French (thanks to Nicolas. sarrazin. fr)
 * Hebrew (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg))
 * Italian (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
+* Lithuanian (thanks to Psychonaut)
 * Portugese-BR (thanks to viniciotricolor)
 * Russian
 * Vietnamese (thanks to Mykm and Phnthnhnm0612)
