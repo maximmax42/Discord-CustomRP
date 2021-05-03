@@ -15,7 +15,7 @@ namespace CustomRPC
 {
     /*
      * TODO: profiles not as external files
-    */
+     */
 
     // A struct for handling preset importing/exporting
     [Serializable]
@@ -148,7 +148,8 @@ namespace CustomRPC
             try
             {
                 latestRelease = await githubClient.Repository.Release.GetLatest("maximmax42", "Discord-CustomRP");
-            } catch
+            }
+            catch
             {
                 return; // If there's no internet or Github is down, do nothing
             }
@@ -271,7 +272,8 @@ namespace CustomRPC
         private void ClientOnPresenceUpdate(object sender, DiscordRPC.Message.PresenceMessage args)
         {
             connectionState = 1;
-            Invoke(new MethodInvoker(() => {
+            Invoke(new MethodInvoker(() =>
+            {
                 textBoxID.BackColor = System.Drawing.Color.FromArgb(192, 255, 192);
                 toolStripStatusLabelStatus.Text = Strings.statusConnected;
             }));
@@ -281,7 +283,8 @@ namespace CustomRPC
         private void ClientOnError(object sender, DiscordRPC.Message.ErrorMessage args)
         {
             connectionState = 2;
-            Invoke(new MethodInvoker(() => {
+            Invoke(new MethodInvoker(() =>
+            {
                 textBoxID.BackColor = System.Drawing.Color.FromArgb(255, 192, 192);
                 toolStripStatusLabelStatus.Text = Strings.statusError;
             }));
@@ -291,7 +294,8 @@ namespace CustomRPC
         private void ClientOnConnFailed(object sender, DiscordRPC.Message.ConnectionFailedMessage args)
         {
             connectionState = 2;
-            Invoke(new MethodInvoker(() => {
+            Invoke(new MethodInvoker(() =>
+            {
                 textBoxID.BackColor = System.Drawing.Color.FromArgb(255, 192, 192);
                 toolStripStatusLabelStatus.Text = Strings.statusConnectionFailed;
             }));
@@ -318,7 +322,7 @@ namespace CustomRPC
                     ID = (settings.partySize != 0) ? "CustomRP" : "",
                     Size = (int)settings.partySize,
                     Max = (int)settings.partyMax
-                }
+                },
             };
 
             buttonsList.Clear();

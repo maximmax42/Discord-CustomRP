@@ -127,7 +127,7 @@
     <value>Iš naujo</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
-    <value>Palikti</value>
+    <value>Išeiti</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>Failas</value>
@@ -142,7 +142,7 @@
     <value>Įkelti išsaugojimus</value>
   </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Palikti</value>
+    <value>Išeiti</value>
   </data>
   <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
     <value>Nustatymai</value>

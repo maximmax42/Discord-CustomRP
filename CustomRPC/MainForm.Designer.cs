@@ -506,7 +506,7 @@
             // 
             this.psychonautToolStripMenuItem.Name = "psychonautToolStripMenuItem";
             resources.ApplyResources(this.psychonautToolStripMenuItem, "psychonautToolStripMenuItem");
-            this.psychonautToolStripMenuItem.Tag = "";
+            this.psychonautToolStripMenuItem.Tag = "https://www.twitch.tv/psychonaut303";
             // 
             // portugeseBRToolStripMenuItem
             // 
