@@ -18,10 +18,10 @@ If you installed the app, updating is literally as easy as running the installer
 So far, the app supports these languages:
 * English
 * German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA) and binarynoise)
-* French (thanks to Nicolas. sarrazin. fr)
+* French (thanks to Nenaff)
 * Hebrew (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg))
 * Italian (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
-* Lithuanian (thanks to Psychonaut)
+* Lithuanian (thanks to [Psychonaut](https://www.twitch.tv/psychonaut303))
 * Portugese-BR (thanks to viniciotricolor)
 * Russian
 * Vietnamese (thanks to Mykm and Phnthnhnm0612)
