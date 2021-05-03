@@ -454,6 +454,7 @@
             this.binarynoiseToolStripMenuItem.Name = "binarynoiseToolStripMenuItem";
             resources.ApplyResources(this.binarynoiseToolStripMenuItem, "binarynoiseToolStripMenuItem");
             this.binarynoiseToolStripMenuItem.Tag = "";
+            this.binarynoiseToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // frenchToolStripMenuItem
             // 
@@ -465,6 +466,7 @@
             this.nicolasToolStripMenuItem.Name = "nicolasToolStripMenuItem";
             resources.ApplyResources(this.nicolasToolStripMenuItem, "nicolasToolStripMenuItem");
             this.nicolasToolStripMenuItem.Tag = "";
+            this.nicolasToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // hebrewToolStripMenuItem
             // 
@@ -507,6 +509,7 @@
             this.psychonautToolStripMenuItem.Name = "psychonautToolStripMenuItem";
             resources.ApplyResources(this.psychonautToolStripMenuItem, "psychonautToolStripMenuItem");
             this.psychonautToolStripMenuItem.Tag = "https://www.twitch.tv/psychonaut303";
+            this.psychonautToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // portugeseBRToolStripMenuItem
             // 
@@ -542,12 +545,14 @@
             this.MykmToolStripMenuItem.Name = "MykmToolStripMenuItem";
             resources.ApplyResources(this.MykmToolStripMenuItem, "MykmToolStripMenuItem");
             this.MykmToolStripMenuItem.Tag = "";
+            this.MykmToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // Phnthnhnm0612toolStripMenuItem
             // 
             this.Phnthnhnm0612toolStripMenuItem.Name = "Phnthnhnm0612toolStripMenuItem";
             resources.ApplyResources(this.Phnthnhnm0612toolStripMenuItem, "Phnthnhnm0612toolStripMenuItem");
             this.Phnthnhnm0612toolStripMenuItem.Tag = "";
+            this.Phnthnhnm0612toolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // toolStripSeparatorHelp2
             // 
