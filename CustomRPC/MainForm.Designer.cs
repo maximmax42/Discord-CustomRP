@@ -135,6 +135,9 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
+            this.plToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.polishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -293,6 +296,7 @@
             this.heToolStripMenuItem,
             this.itToolStripMenuItem,
             this.ltToolStripMenuItem,
+            this.plToolStripMenuItem,
             this.ptBRToolStripMenuItem,
             this.ruToolStripMenuItem,
             this.viToolStripMenuItem});
@@ -427,6 +431,8 @@
             this.cubeToolStripMenuItem,
             this.lithuanianToolStripMenuItem,
             this.psychonautToolStripMenuItem,
+            this.polishToolStripMenuItem,
+            this.lolToolStripMenuItem,
             this.portugeseBRToolStripMenuItem,
             this.viniciotricolorToolStripMenuItem,
             this.russianToolStripMenuItem,
@@ -891,6 +897,25 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
+            // plToolStripMenuItem
+            // 
+            this.plToolStripMenuItem.CheckOnClick = true;
+            this.plToolStripMenuItem.Name = "plToolStripMenuItem";
+            resources.ApplyResources(this.plToolStripMenuItem, "plToolStripMenuItem");
+            this.plToolStripMenuItem.Tag = "pl";
+            this.plToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
+            // 
+            // polishToolStripMenuItem
+            // 
+            resources.ApplyResources(this.polishToolStripMenuItem, "polishToolStripMenuItem");
+            this.polishToolStripMenuItem.Name = "polishToolStripMenuItem";
+            // 
+            // lolToolStripMenuItem
+            // 
+            this.lolToolStripMenuItem.Name = "lolToolStripMenuItem";
+            resources.ApplyResources(this.lolToolStripMenuItem, "lolToolStripMenuItem");
+            this.lolToolStripMenuItem.Tag = "";
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -1058,6 +1083,9 @@
         private System.Windows.Forms.ToolStripMenuItem ltToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem lithuanianToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem psychonautToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem plToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem polishToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lolToolStripMenuItem;
     }
 }
 

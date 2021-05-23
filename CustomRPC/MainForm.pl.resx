@@ -118,176 +118,297 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>Dukart spustelėkite piktogramą, kad ji vėl būtų rodoma, arba dešiniuoju pelės mygtuku spustelėkite, jei norite išeiti.</value>
+    <value>Kliknij ikonę dwa razy, aby pokazać program lub kliknij prawym aby wyjść.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>Programa veiks dėkle.</value>
+    <value>Aplikacja będzie działać w tle.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
   </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
-    <value>Iš naujo</value>
+    <value>Połącz ponownie</value>
+  </data>
+  <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 6</value>
+  </data>
+  <data name="trayMenuQuit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
-    <value>Išeiti</value>
+    <value>Wyjdź</value>
   </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Failas</value>
+  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 54</value>
+  </data>
+  <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Įkelti nustatymą</value>
+    <value>Otwórz szablon</value>
+  </data>
+  <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Išsaugoti nustatymą</value>
+    <value>Zapisz szablon</value>
+  </data>
+  <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 6</value>
+  </data>
+  <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Įkelti išsaugojimus</value>
+    <value>Udostępnij zdjęcie</value>
+  </data>
+  <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 6</value>
+  </data>
+  <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
   </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Išeiti</value>
+    <value>Wyjdź</value>
   </data>
-  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Nustatymai</value>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Plik</value>
+  </data>
+  <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Paleisti Windows pasileidus</value>
+    <value>Uruchom podczas startu</value>
+  </data>
+  <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Paleisti sumažinta</value>
+    <value>Uruchom zminimalizowane</value>
+  </data>
+  <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 6</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tikrinti naujinimus</value>
+    <value>Sprawdź aktualizacje</value>
   </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Pagalba</value>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 6</value>
   </data>
-  <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>Atidaryti instrukcijas</value>
-  </data>
-  <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>GitHub Puslapis</value>
-  </data>
-  <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Vertėjai</value>
-  </data>
-  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>Apie...</value>
-  </data>
-  <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Atsisiūsti atnaujinimą</value>
-  </data>
-  <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Atnaujinti Prezentaciją</value>
-  </data>
-  <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Atnaujinti prezentaciją.</value>
-  </data>
-  <data name="buttonConnect.Text" xml:space="preserve">
-    <value>Jungtis</value>
-  </data>
-  <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Susieja programą su nurodytu ID, su nustatyta prezentacija.</value>
-  </data>
-  <data name="buttonDisconnect.Text" xml:space="preserve">
-    <value>Atsijungti</value>
-  </data>
-  <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Atjungia programą nuo Discord. Prašome atkreipti dėmesį tai gali šiek tiek užtrukti.</value>
-  </data>
-  <data name="labelID.ToolTip" xml:space="preserve">
-    <value>ID programėlės iš Discord kūrėjo puslapio.</value>
-  </data>
-  <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>Pirmoji eilutė prezentacijoje.</value>
-  </data>
-  <data name="labelState.ToolTip" xml:space="preserve">
-    <value>Antroji eilutė prezentacijoje.</value>
-  </data>
-  <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Pavadinimas išsaugoto mažojo paveiksliuko.</value>
-  </data>
-  <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>Tekstas kai užvesite pelę ant mažojo paveiksliuko.</value>
-  </data>
-  <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>Tekstas kai užvesite pelę ant didžiojo paveiksliuko.</value>
-  </data>
-  <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Vardas išsaugoto didelio paveiksliuko.</value>
-  </data>
-  <data name="labelSmall.Text" xml:space="preserve">
-    <value>Mažas paveiksliukas</value>
-  </data>
-  <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>Paveiksliukas pasirodo apatiniame dešiniajame kampe didelio paveiksliuko.</value>
-  </data>
-  <data name="labelLarge.Text" xml:space="preserve">
-    <value>Didelis Paveiksliukas</value>
-  </data>
-  <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>Paveiksliukas, rodomas kairėje aukščiau nurodytam tekstui.</value>
-  </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>Nieko</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Neleidžiami laiko intarpai.</value>
-  </data>
-  <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>Nuo / Kai CustomRP paleistas</value>
-  </data>
-  <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>Rodo laiką nuo, kai programėlė pasileido.</value>
-  </data>
-  <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>Vietinis laikas</value>
-  </data>
-  <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>Rodo tavo dabartinį laiką 24 valandų formatu.</value>
-  </data>
-  <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Nustato būsenos laiko žymę, kuri rodoma po visu aukščiau esančiu tekstu.
-Būsenos laikmačiuose nustatytas 24 valandų apribojimas, tai reiškia, kad po 24 valandų laikas grįš į 0:00.</value>
-  </data>
-  <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>Žaidėjų skaičius dabartinėje partijoje, kuris rodomas šalia regiono laukelio.
-Kad abu laukai įsigaliotų, jie turėtų būti didesni nei 0.</value>
-  </data>
-  <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>Pasirinktinė laiko žymė</value>
-  </data>
-  <data name="radioButtonCustom.ToolTip" xml:space="preserve">
-    <value>Parodo, kiek laiko praėjo nuo toliau nurodytos datos arba kiek jos liko.</value>
-  </data>
-  <data name="labelButton1.Text" xml:space="preserve">
-    <value>Mygtukas 1</value>
-  </data>
-  <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>Pirmasis iš dviejų mygtukų, rodomų jūsų būsenoje jūsų profilio iššokančiajame kampe ir dešiniojoje pusėje visame profilyje.</value>
-  </data>
-  <data name="labelButton2.Text" xml:space="preserve">
-    <value>Mygtukas 2</value>
-  </data>
-  <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>Antrasis mygtukas, kuris rodomas tiesiai po pirmuoju mygtuku arba vietoj jo, jei pirmasis nenustatytas.</value>
-  </data>
-  <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>URL, kurį spustelės vartotojas.</value>
-  </data>
-  <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>URL, kurį spustelės vartotojas.</value>
-  </data>
-  <data name="labelButton1Text.ToolTip" xml:space="preserve">
-    <value>Pirmojo mygtuko etiketė.</value>
-  </data>
-  <data name="labelButton2Text.ToolTip" xml:space="preserve">
-    <value>Antrojo mygtuko etiketė.</value>
-  </data>
-  <data name="labelPartyOf.Text" xml:space="preserve">
-    <value>iš</value>
+  <data name="defaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
   <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
-    <value>Numatytasis</value>
+    <value>Domyślnie</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 6</value>
+  </data>
+  <data name="deToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="enToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="frToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="heToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="itToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ltToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ptBRToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ruToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="viToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Kalba</value>
+    <value>Język</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ustawienia</value>
+  </data>
+  <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
+    <value>Otwórz instrukcje</value>
+  </data>
+  <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Strona Github</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tłumaczący</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>O programie...</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pomoc</value>
+  </data>
+  <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 20</value>
+  </data>
+  <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pobierz aktualizacje</value>
+  </data>
+  <data name="buttonUpdatePresence.Text" xml:space="preserve">
+    <value>Zaktualizuj status</value>
+  </data>
+  <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
+    <value>Aktualizuje status.</value>
+  </data>
+  <data name="buttonConnect.Text" xml:space="preserve">
+    <value>Połącz</value>
+  </data>
+  <data name="buttonConnect.ToolTip" xml:space="preserve">
+    <value>Łączy aplikację z określonym identyfikatorem z ustawioną obecnością.</value>
+  </data>
+  <data name="buttonDisconnect.Text" xml:space="preserve">
+    <value>Rozłącz</value>
+  </data>
+  <data name="buttonDisconnect.ToolTip" xml:space="preserve">
+    <value>Rozłącza CustomRP od discorda (wyłączy status). Pamiętaj że to może chwilę zająć.</value>
+  </data>
+  <data name="labelID.ToolTip" xml:space="preserve">
+    <value>ID aplikacji ze strony dla deweloperów discorda.</value>
+  </data>
+  <data name="labelDetails.ToolTip" xml:space="preserve">
+    <value>Pierwsza linia w statusie.</value>
+  </data>
+  <data name="labelState.ToolTip" xml:space="preserve">
+    <value>Druga linia w Statusie.</value>
+  </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>Nazwa małego zdjęcia.</value>
+  </data>
+  <data name="labelSmallText.ToolTip" xml:space="preserve">
+    <value>Tekst pojawiający się najeżdżając na małe zdjęcie.</value>
+  </data>
+  <data name="labelLargeText.ToolTip" xml:space="preserve">
+    <value>Tekst pojawiający się najeżdżając na duże zdjęcie.</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>Nazwa dużego zdjęcia.</value>
+  </data>
+  <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 14</value>
+  </data>
+  <data name="labelSmall.Text" xml:space="preserve">
+    <value>Małe zdjęcie</value>
+  </data>
+  <data name="labelSmall.ToolTip" xml:space="preserve">
+    <value>Zdjęcie które pojawia się w prawym dolnym rogu dużego zdjęcia.</value>
+  </data>
+  <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 14</value>
+  </data>
+  <data name="labelLarge.Text" xml:space="preserve">
+    <value>Duże zdjęcie</value>
+  </data>
+  <data name="labelLarge.ToolTip" xml:space="preserve">
+    <value>Zdjęcie, które jest po lewej od strony tekstu ustawionego u góry.</value>
+  </data>
+  <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 18</value>
+  </data>
+  <data name="radioButtonNone.Text" xml:space="preserve">
+    <value>Brak</value>
+  </data>
+  <data name="radioButtonNone.ToolTip" xml:space="preserve">
+    <value>Nie pokazuje ile czasu upłynęło/pozostało.</value>
+  </data>
+  <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 18</value>
+  </data>
+  <data name="radioButtonStartTime.Text" xml:space="preserve">
+    <value>Od momentu kiedy CustromRP wystartowało</value>
+  </data>
+  <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
+    <value>Pokazuje ile czasu upłynęło od startu aplikacji.</value>
+  </data>
+  <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 18</value>
+  </data>
+  <data name="radioButtonLocalTime.Text" xml:space="preserve">
+    <value>Twój lokalny czas</value>
+  </data>
+  <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
+    <value>Pokazuje twój aktualny czas w formacie 24-godzinnym.</value>
+  </data>
+  <data name="labelTimestamp.ToolTip" xml:space="preserve">
+    <value>Ustawia ile czasu upłynęło lub pozostało, który pojawia się pod spodem całego tekstu u góry.
+Statusy mają limit 24 godzin, co znaczy że po 24 godzinach wrócą do 0:00.</value>
+  </data>
+  <data name="labelParty.ToolTip" xml:space="preserve">
+    <value>Ilość graczy w aktualnej grupie, pokazuje się obok pola status.
+Jeżeli ma mieć jakikolwiek efekt, obydwa pola muszą być większe od 0.</value>
+  </data>
+  <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 18</value>
+  </data>
+  <data name="radioButtonCustom.Text" xml:space="preserve">
+    <value>Niestandardowy</value>
+  </data>
+  <data name="radioButtonCustom.ToolTip" xml:space="preserve">
+    <value>Pokazuje ile czasu upłynęło lub ile pozostało do daty ustawionej pod spodem.</value>
+  </data>
+  <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 14</value>
+  </data>
+  <data name="labelButton1.Text" xml:space="preserve">
+    <value>Pierwszy przycisk</value>
+  </data>
+  <data name="labelButton1.ToolTip" xml:space="preserve">
+    <value>Pierwszy z przycisków, w małym okienku pojawia się pod spodem, a w statusie, który pokazuje się po wejściu w informacje o użytkowniku, pojawia się po prawej.</value>
+  </data>
+  <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 14</value>
+  </data>
+  <data name="labelButton2.Text" xml:space="preserve">
+    <value>Drugi przycisk</value>
+  </data>
+  <data name="labelButton2.ToolTip" xml:space="preserve">
+    <value>Drugi z przycisków, który pojawia się pod spodem pierwszego lub w zamian niego.</value>
+  </data>
+  <data name="labelButton1URL.ToolTip" xml:space="preserve">
+    <value>Link na który przeniesie użytkownika po kliknięciu przycisku.</value>
+  </data>
+  <data name="labelButton2URL.ToolTip" xml:space="preserve">
+    <value>Link na który przeniesie użytkownika po kliknięciu przycisku.</value>
+  </data>
+  <data name="labelButton1Text.ToolTip" xml:space="preserve">
+    <value>Napis na pierwszym przycisku.</value>
+  </data>
+  <data name="labelButton2Text.ToolTip" xml:space="preserve">
+    <value>Napis na drugim przycisku.</value>
+  </data>
+  <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 14</value>
+  </data>
+  <data name="labelPartyOf.Text" xml:space="preserve">
+    <value>z</value>
   </data>
 </root>

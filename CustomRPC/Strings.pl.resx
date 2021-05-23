@@ -118,41 +118,41 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="error" xml:space="preserve">
-    <value>Klaida</value>
+    <value>Błąd</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>Nenurodytas ID!</value>
+    <value>Nie podano ID!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
-    <value>Atsisiunčiant ar diegiant atnaujinimą įvyko klaida.
-Paspauskite „Taip“, jei norite bandyti dar kartą, arba „Ne“, jei norite atsisiųsti rankiniu būdu.</value>
+    <value>Wystąpił błąd podczas pobierania lub instalowania aktualizacji.
+Kliknij "Tak", aby powtórzyć lub "Nie", żeby pobrać manualnie.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Paleidimas pirma kartą</value>
+    <value>Pierwszy start</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
-    <value>Ar norėtumėte atidaryti instrukcijas?
-Galite jį atidaryti bet kuriuo metu, eidami į Pagalba -&gt; Atidaryti instrukcijas arba paspausdami F1.</value>
+    <value>Chciałbyś otworzyć instrukcje?
+Możesz ją otworzyć w dowolnym momencie przyciskając F1 lub wchodząc do karty Pomoc -&gt; Otwórz instrukcje.</value>
   </data>
   <data name="information" xml:space="preserve">
-    <value>Informacija</value>
+    <value>Informacja</value>
   </data>
   <data name="statusConnected" xml:space="preserve">
-    <value>Prisijungta</value>
+    <value>Połączono</value>
   </data>
   <data name="statusConnecting" xml:space="preserve">
-    <value>Jungiamasi...</value>
+    <value>Łączenie...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Prisijungimas ne sėkmingas (ar Discord veikia?)</value>
+    <value>Połączenie nieudane (Czy Discord jest uruchomiony?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
-    <value>Atsijungta</value>
+    <value>Rozłączono</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>Prisijungimo Klaida (Blogas ID?)</value>
+    <value>Błąd połączenia (Sprawdź ponownie ID?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>Neteisingas URL nurodytas mygtukams arba tekstas per ilgas!</value>
+    <value>Link podany dla przycisk(u, ów) jest niepoprawny lub jest za długi!</value>
   </data>
 </root>
