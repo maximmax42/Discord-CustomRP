@@ -113,7 +113,9 @@ namespace CustomRPC
 
             loading = false;
 
-            if (!settings.startMinimized) Show(); // Starts minimized to tray by default
+            if (settings.changedLanguage || !settings.startMinimized) Show(); // Starts minimized to tray by default, unless you just changed language
+
+            settings.changedLanguage = false;
 
             if (settings.id != "" && settings.firstStart) // That means user has upgraded from older version without that flag
             {
@@ -538,6 +540,7 @@ namespace CustomRPC
             var lang = (ToolStripMenuItem)sender;
 
             settings.language = (string)lang.Tag;
+            settings.changedLanguage = true;
             settings.Save();
             Program.AppMutex.Close();
             Application.Restart();

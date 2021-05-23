@@ -274,5 +274,17 @@ namespace CustomRPC.Properties {
                 this["language"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool changedLanguage {
+            get {
+                return ((bool)(this["changedLanguage"]));
+            }
+            set {
+                this["changedLanguage"] = value;
+            }
+        }
     }
 }

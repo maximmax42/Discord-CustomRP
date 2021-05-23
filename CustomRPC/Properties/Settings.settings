@@ -65,5 +65,8 @@
     <Setting Name="language" Type="System.String" Scope="User">
       <Value Profile="(Default)">auto</Value>
     </Setting>
+    <Setting Name="changedLanguage" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
