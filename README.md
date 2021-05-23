@@ -22,6 +22,7 @@ So far, the app supports these languages:
 * Hebrew (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg))
 * Italian (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
 * Lithuanian (thanks to [Psychonaut](https://www.twitch.tv/psychonaut303))
+* Polish (thanks to Lol1112345.lol12345)
 * Portugese-BR (thanks to viniciotricolor)
 * Russian
 * Vietnamese (thanks to Mykm and Phnthnhnm0612)
