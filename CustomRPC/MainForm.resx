@@ -286,6 +286,13 @@
     <value>Lietuvių</value>
     <comment>@Invariant</comment>
   </data>
+  <data name="nlToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="nlToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nederlands</value>
+    <comment>@Invariant</comment>
+  </data>
   <data name="plToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
@@ -312,6 +319,13 @@
   </data>
   <data name="viToolStripMenuItem.Text" xml:space="preserve">
     <value>Tiếng Việt</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="zhhansToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="zhhansToolStripMenuItem.Text" xml:space="preserve">
+    <value>汉语</value>
     <comment>@Invariant</comment>
   </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -443,6 +457,23 @@
     <value>Psychonaut</value>
     <comment>@Invariant</comment>
   </data>
+  <data name="dutchToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dutchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 22</value>
+  </data>
+  <data name="dutchToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dutch (Nederlands)</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="jeremyzijlemansToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 22</value>
+  </data>
+  <data name="jeremyzijlemansToolStripMenuItem.Text" xml:space="preserve">
+    <value>Jeremyzijlemans</value>
+    <comment>@Invariant</comment>
+  </data>
   <data name="polishToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -518,6 +549,23 @@
     <value>Phnthnhnm0612</value>
     <comment>@Invariant</comment>
   </data>
+  <data name="simplifiedchineseToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="simplifiedchineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 22</value>
+  </data>
+  <data name="simplifiedchineseToolStripMenuItem.Text" xml:space="preserve">
+    <value>汉语 (Simplified Chinese) | 63%</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="zjsunToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 22</value>
+  </data>
+  <data name="zjsunToolStripMenuItem.Text" xml:space="preserve">
+    <value>Zjsun.ca</value>
+    <comment>@Invariant</comment>
+  </data>
   <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 22</value>
   </data>
@@ -526,6 +574,12 @@
   </data>
   <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
     <value>182, 6</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Check for updates...</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 22</value>
@@ -1857,6 +1911,9 @@ To take effect, both fields should be more than 0.</value>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>41</value>
+  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 14</value>
   </data>
@@ -2032,6 +2089,18 @@ To take effect, both fields should be more than 0.</value>
   <data name="&gt;&gt;ltToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;nlToolStripMenuItem.Name" xml:space="preserve">
+    <value>nlToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;nlToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;plToolStripMenuItem.Name" xml:space="preserve">
+    <value>plToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;plToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;ptBRToolStripMenuItem.Name" xml:space="preserve">
     <value>ptBRToolStripMenuItem</value>
   </data>
@@ -2048,6 +2117,12 @@ To take effect, both fields should be more than 0.</value>
     <value>viToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;viToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;zhhansToolStripMenuItem.Name" xml:space="preserve">
+    <value>zhhansToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;zhhansToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
@@ -2152,6 +2227,30 @@ To take effect, both fields should be more than 0.</value>
   <data name="&gt;&gt;psychonautToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;dutchToolStripMenuItem.Name" xml:space="preserve">
+    <value>dutchToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;dutchToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;jeremyzijlemansToolStripMenuItem.Name" xml:space="preserve">
+    <value>jeremyzijlemansToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;jeremyzijlemansToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;polishToolStripMenuItem.Name" xml:space="preserve">
+    <value>polishToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;polishToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lolToolStripMenuItem.Name" xml:space="preserve">
+    <value>lolToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;lolToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;portugeseBRToolStripMenuItem.Name" xml:space="preserve">
     <value>portugeseBRToolStripMenuItem</value>
   </data>
@@ -2194,11 +2293,29 @@ To take effect, both fields should be more than 0.</value>
   <data name="&gt;&gt;Phnthnhnm0612toolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;simplifiedchineseToolStripMenuItem.Name" xml:space="preserve">
+    <value>simplifiedchineseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;simplifiedchineseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;zjsunToolStripMenuItem.Name" xml:space="preserve">
+    <value>zjsunToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;zjsunToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;toolStripSeparatorHelp2.Name" xml:space="preserve">
     <value>toolStripSeparatorHelp2</value>
   </data>
   <data name="&gt;&gt;toolStripSeparatorHelp2.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkForUpdatesToolStripMenuItem.Name" xml:space="preserve">
+    <value>checkForUpdatesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;checkForUpdatesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
     <value>aboutToolStripMenuItem</value>
@@ -2229,24 +2346,6 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="&gt;&gt;toolStripStatusLabelStatus.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;plToolStripMenuItem.Name" xml:space="preserve">
-    <value>plToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;plToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;polishToolStripMenuItem.Name" xml:space="preserve">
-    <value>polishToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;polishToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lolToolStripMenuItem.Name" xml:space="preserve">
-    <value>lolToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;lolToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>

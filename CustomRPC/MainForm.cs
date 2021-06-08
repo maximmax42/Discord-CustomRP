@@ -144,7 +144,7 @@ namespace CustomRPC
         }
 
         // Checking updates
-        private async void CheckForUpdates()
+        private async void CheckForUpdates(bool verbose = false)
         {
             // Fetching latest release and getting its version
             try
@@ -153,12 +153,17 @@ namespace CustomRPC
             }
             catch
             {
-                return; // If there's no internet or Github is down, do nothing
+                // If there's no internet or Github is down, do nothing, unless it's a user requested update check
+                if (verbose) MessageBox.Show(this, Strings.errorNoInternet, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                return;
             }
 
             string latestVersion = latestRelease.TagName;
 
-            if (latestVersion == settings.ignoreVersion) return; // The user ignored this version
+            if (latestVersion == settings.ignoreVersion && !verbose)
+            {
+                return; // The user ignored this version; this gets ignored if the user requested the update check manually, maybe they changed their mind?
+            }
 
             Version current = new Version(Application.ProductVersion.Substring(0, Application.ProductVersion.Length - 2)); // To not deal with revision number
             Version latest = new Version(latestVersion);
@@ -203,6 +208,10 @@ namespace CustomRPC
 
                 if (!settings.checkUpdates || messageBox == DialogResult.Ignore)
                     downloadUpdateToolStripMenuItem.Visible = false; // If user doesn't want update notifications, let's not bother them
+            }
+            else if (verbose) // If there's no update available and it was a user initiated update check, notify them about it
+            {
+                MessageBox.Show(this, Strings.noUpdatesFound, Strings.information, MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
             }
         }
 
@@ -556,6 +565,12 @@ namespace CustomRPC
         private void OpenGitHub(object sender, EventArgs e)
         {
             Process.Start("https://github.com/maximmax42/Discord-CustomRP");
+        }
+
+        // Called when you press Check for updates... button
+        private void CheckForUpdates(object sender, EventArgs e)
+        {
+            CheckForUpdates(true);
         }
 
         // Called when you press About... button

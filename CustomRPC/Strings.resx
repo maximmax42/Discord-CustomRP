@@ -147,7 +147,6 @@ You can open it any time by going to Help -&gt; Open the Manual or pressing F1.<
   </data>
   <data name="statusConnecting" xml:space="preserve">
     <value>Connecting...</value>
-    
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
     <value>Connection failed (Is Discord running?)</value>
@@ -160,5 +159,11 @@ You can open it any time by going to Help -&gt; Open the Manual or pressing F1.<
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
     <value>Invalid URL specified for button(s) or the text is too long!</value>
+  </data>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>Can't connect to the internet!</value>
+  </data>
+  <data name="noUpdatesFound" xml:space="preserve">
+    <value>No updates found!</value>
   </data>
 </root>

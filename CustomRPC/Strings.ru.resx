@@ -161,4 +161,10 @@
   <data name="errorInvalidURL" xml:space="preserve">
     <value>Для кнопки (кнопок) указан неверный URL или текст слишком длинный!</value>
   </data>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>Невозможно подключиться к интернету!</value>
+  </data>
+  <data name="noUpdatesFound" xml:space="preserve">
+    <value>Обновлений не найдено!</value>
+  </data>
 </root>

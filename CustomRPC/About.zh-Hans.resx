@@ -117,48 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="error" xml:space="preserve">
-    <value>Klaida</value>
+  <data name="labelMadeBy.Text" xml:space="preserve">
+    <value>创作者：maximmax42</value>
   </data>
-  <data name="errorNoID" xml:space="preserve">
-    <value>Nenurodytas ID!</value>
+  <data name="buttonClose.Text" xml:space="preserve">
+    <value>关闭</value>
   </data>
-  <data name="errorUpdateFailed" xml:space="preserve">
-    <value>Atsisiunčiant ar diegiant atnaujinimą įvyko klaida.
-Paspauskite „Taip“, jei norite bandyti dar kartą, arba „Ne“, jei norite atsisiųsti rankiniu būdu.</value>
-  </data>
-  <data name="firstTimeRun" xml:space="preserve">
-    <value>Paleidimas pirma kartą</value>
-  </data>
-  <data name="firstTimeRunText" xml:space="preserve">
-    <value>Ar norėtumėte atidaryti instrukcijas?
-Galite jį atidaryti bet kuriuo metu, eidami į Pagalba -&gt; Atidaryti instrukcijas arba paspausdami F1.</value>
-  </data>
-  <data name="information" xml:space="preserve">
-    <value>Informacija</value>
-  </data>
-  <data name="statusConnected" xml:space="preserve">
-    <value>Prisijungta</value>
-  </data>
-  <data name="statusConnecting" xml:space="preserve">
-    <value>Jungiamasi...</value>
-  </data>
-  <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Prisijungimas ne sėkmingas (ar Discord veikia?)</value>
-  </data>
-  <data name="statusDisconnected" xml:space="preserve">
-    <value>Atsijungta</value>
-  </data>
-  <data name="statusError" xml:space="preserve">
-    <value>Prisijungimo Klaida (Blogas ID?)</value>
-  </data>
-  <data name="errorInvalidURL" xml:space="preserve">
-    <value>Neteisingas URL nurodytas mygtukams arba tekstas per ilgas!</value>
-  </data>
-  <data name="errorNoInternet" xml:space="preserve">
-    <value>Neįmanoma prisijungti prie interneto!</value>
-  </data>
-  <data name="noUpdatesFound" xml:space="preserve">
-    <value>Naujinimų nerasta!</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>关于</value>
   </data>
 </root>

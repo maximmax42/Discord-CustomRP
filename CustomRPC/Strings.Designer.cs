@@ -98,6 +98,15 @@ namespace CustomRPC {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Can&apos;t connect to the internet!.
+        /// </summary>
+        internal static string errorNoInternet {
+            get {
+                return ResourceManager.GetString("errorNoInternet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на There was an error downloading or installing an update.
         ///Press &quot;Yes&quot; to retry or &quot;No&quot; to download manually..
         /// </summary>
@@ -132,6 +141,15 @@ namespace CustomRPC {
         internal static string information {
             get {
                 return ResourceManager.GetString("information", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на No updates found!.
+        /// </summary>
+        internal static string noUpdatesFound {
+            get {
+                return ResourceManager.GetString("noUpdatesFound", resourceCulture);
             }
         }
         

@@ -118,323 +118,324 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>Дважды кликните на иконку, чтобы открыть приложение, или нажмите ПКМ и выберите "Выйти".</value>
+    <value>Dubbel klik op het logo om het weer te laten zien of rechts clicken om te stoppen.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>Приложение остаётся запущенным.</value>
+    <value>De applicatie draait door in het dienblad.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 54</value>
+  </data>
   <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 22</value>
+    <value>178, 22</value>
   </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
-    <value>Переподключиться</value>
+    <value>Opnieuw verbinden</value>
   </data>
   <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 6</value>
+    <value>175, 6</value>
   </data>
   <data name="trayMenuQuit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 22</value>
+    <value>178, 22</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
-    <value>Выйти</value>
-  </data>
-  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 54</value>
-  </data>
-  <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 22</value>
-  </data>
-  <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Загрузить пресет</value>
-  </data>
-  <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 22</value>
-  </data>
-  <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Сохранить пресет</value>
-  </data>
-  <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 6</value>
-  </data>
-  <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 22</value>
-  </data>
-  <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Загрузить изображения</value>
-  </data>
-  <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 6</value>
-  </data>
-  <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 22</value>
-  </data>
-  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Выход</value>
+    <value>Stop</value>
   </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
+    <value>57, 20</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Файл</value>
+    <value>Dossier</value>
   </data>
-  <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 22</value>
+  <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
   </data>
-  <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Запускать c Windows</value>
+  <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Voorinstelling laden</value>
   </data>
-  <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 22</value>
+  <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
   </data>
-  <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Запускать свёрнутым</value>
+  <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Voorinstelling opslaan</value>
   </data>
-  <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 6</value>
+  <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 6</value>
   </data>
-  <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 22</value>
+  <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
   </data>
-  <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Проверять обновления</value>
+  <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Activa uploaden</value>
   </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 6</value>
+  <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 6</value>
   </data>
-  <data name="defaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 22</value>
+  <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
   </data>
-  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
-    <value>По умолчанию</value>
-  </data>
-  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 6</value>
-  </data>
-  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 22</value>
-  </data>
-  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 22</value>
-  </data>
-  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 22</value>
-  </data>
-  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 22</value>
-  </data>
-  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 22</value>
-  </data>
-  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 22</value>
-  </data>
-  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 22</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Язык</value>
+  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Stop</value>
   </data>
   <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 20</value>
+    <value>80, 20</value>
   </data>
   <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Настройки</value>
+    <value>Instellingen</value>
+  </data>
+  <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
+    <value>Uitvoeren bij het starten</value>
+  </data>
+  <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
+    <value>Begin klein</value>
+  </data>
+  <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 6</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Check updates</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 6</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Taal</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>Standaard</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 6</value>
+  </data>
+  <data name="deToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="enToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="frToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="heToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="itToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="ltToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="nlToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="plToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="ptBRToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="ruToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="viToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 22</value>
+    <value>204, 22</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>Открыть руководство</value>
+    <value>Open de handleiding</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 22</value>
+    <value>204, 22</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Страница на GitHub</value>
+    <value>GitHub-pagina</value>
   </data>
   <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 6</value>
+    <value>201, 6</value>
   </data>
   <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 22</value>
+    <value>204, 22</value>
   </data>
   <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Переводчики</value>
+    <value>Vertalers</value>
   </data>
   <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 6</value>
+    <value>201, 6</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 22</value>
+    <value>204, 22</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>О программе...</value>
+    <value>Over...</value>
   </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 20</value>
+  <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 433</value>
   </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Помощь</value>
-  </data>
-  <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 20</value>
-  </data>
-  <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Скачать обновление</value>
+  <data name="buttonUpdatePresence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 24</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Обновить статус</value>
+    <value>Aanwezigheid bijwerken</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Обновляет статус.</value>
-  </data>
-  <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>227, 49</value>
-  </data>
-  <data name="buttonConnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 24</value>
-  </data>
-  <data name="buttonConnect.Text" xml:space="preserve">
-    <value>Подключить</value>
+    <value>Aanwezigheid bijwerken.</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Связывает приложение с указанными ID и статусом.</value>
-  </data>
-  <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>327, 49</value>
-  </data>
-  <data name="buttonDisconnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 24</value>
-  </data>
-  <data name="buttonDisconnect.Text" xml:space="preserve">
-    <value>Отключить</value>
+    <value>Koppelt de applicatie aan de opgegeven ID met ingestelde aanwezigheid.</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Отключается от Discord. Может занять некоторое время.</value>
+    <value>Koppelt de app los van Discord. Houd er rekening mee dat het even kan duren.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>ID приложения с сайта разработчиков Discord.</value>
+    <value>ID van de applicatie van de Discord Developers-site.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>Первая строка в статусе.</value>
+    <value>Eerste lijn in aanwezigheid.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>Вторая строка в статусе.</value>
+    <value>Tweede lijn in aanwezigheid.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Название ассета маленького изображения.</value>
+    <value>Naam van het item voor de kleine afbeelding.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>Текст, отображаемый при наведении на маленькое изображение.</value>
+    <value>Tekst die wordt weergegeven wanneer u over de kleine afbeelding zweeft.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>Текст, отображаемый при наведении на большое изображение.</value>
+    <value>Tekst die wordt weergegeven wanneer u over de groote afbeelding zweeft.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Название ассета большого изображения.</value>
+    <value>Naam van het item voor de groote afbeelding.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 14</value>
+    <value>99, 14</value>
   </data>
   <data name="labelSmall.Text" xml:space="preserve">
-    <value>Маленькое изображение</value>
+    <value>Kleine afbeelding</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>Изображение, отображающееся в правом нижнем углу большого изображения.</value>
+    <value>Afbeelding die wordt weergegeven in de rechterbenedenhoek van de grote afbeelding.</value>
   </data>
   <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 14</value>
+    <value>105, 14</value>
   </data>
   <data name="labelLarge.Text" xml:space="preserve">
-    <value>Большое изображение</value>
+    <value>Groote afbeelding</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>Изображение, показываемое слева от установленного выше текста.</value>
-  </data>
-  <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 18</value>
+    <value>Afbeelding die links naar de bovenstaande tekst laat zien.</value>
   </data>
   <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>Нет</value>
+    <value>Geen</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Отключить строку со временем.</value>
+    <value>Geen tijdstempels ingeschakeld.</value>
   </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 18</value>
+    <value>166, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>С момента запуска Custom RP</value>
+    <value>Sinds CustomRP is gestart</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>Показывает время со старта данной программы.</value>
+    <value>Toont de tijd sinds de app is gestart.</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 18</value>
+    <value>98, 18</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>Время компьютера</value>
+    <value>Uw lokale tijd</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>Показывает текущее время на компьютере в 24-часовом формате.</value>
+    <value>Toont uw huidige tijd in 24-uurs formaat.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Настраивает время для статуса, показываемое под всем текстом, указанным выше.
-У времени в статусе есть 24-часовой лимит, то есть при достижении 24 часов время сбрасывается до 0:00.</value>
+    <value>Stelt een tijdstempel in voor de status, die wordt weergegeven onder alle bovenstaande tekst.
+Statustimers hebben een limiet van 24 uur, wat betekent dat de tijd na 24 uur teruggaat naar 0:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>Количество игроков в группе, показываемое рядом с полем State.
-Чтобы изменения применились, оба поля должны отличаться от нуля.</value>
+    <value>Aantal spelers in de huidige partij dat wordt weergegeven naast het veld Staat.
+Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 18</value>
+    <value>147, 18</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>Своё время</value>
+    <value>Aangepast tijdstempel</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
-    <value>Показывает, сколько времени осталось до/прошло после выбранного времени.</value>
+    <value>Toont hoeveel tijd is verstreken sinds of resteert tot de hieronder ingestelde datum.</value>
   </data>
   <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 14</value>
+    <value>46, 14</value>
   </data>
   <data name="labelButton1.Text" xml:space="preserve">
-    <value>Кнопка 1</value>
+    <value>Knop 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>Первая из двух кнопок, показываемая под статусом в мини-профиле и справа от него в полном профиле.</value>
+    <value>De eerste van de twee knoppen die verschijnen onder je status in de pop-up van je profiel en aan de rechterkant in het volledige profiel.</value>
   </data>
   <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 14</value>
+    <value>46, 14</value>
   </data>
   <data name="labelButton2.Text" xml:space="preserve">
-    <value>Кнопка 2</value>
+    <value>Knop 2</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>Вторая кнопка, которая показывается прямо под первой, или вместо неё, если первая кнопка не настроена.</value>
+    <value>Tweede knop, die direct onder de eerste knop verschijnt, of in plaats daarvan, als de eerste niet is ingesteld.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>Ссылка, по которой пользователь перейдёт при нажатии на кнопку.</value>
+    <value>URL waar de knop de gebruiker naartoe brengt na het klikken.</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>Ссылка, по которой пользователь перейдёт при нажатии на кнопку.</value>
+    <value>URL waar de knop de gebruiker naartoe brengt na het klikken.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
-    <value>Название первой кнопки.
-Максимум 32 символа.</value>
+    <value>Label van de eerste knop.</value>
   </data>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
-    <value>Название второй кнопки.
-Максимум 32 символа.</value>
+    <value>Label van de tweede knop.</value>
+  </data>
+  <data name="labelPartyOf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 114</value>
   </data>
   <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
-    <value>19, 14</value>
+    <value>26, 14</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
-    <value>из</value>
+    <value>van</value>
+  </data>
+  <data name="buttonConnect.Text" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="buttonDisconnect.Text" xml:space="preserve">
+    <value>Disconnect</value>
+  </data>
+  <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Download Update</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Help</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Проверить наличие обновлений...</value>
+    <value>Controleer voor updates...</value>
   </data>
 </root>

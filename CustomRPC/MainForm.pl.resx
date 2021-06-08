@@ -381,4 +381,7 @@ Jeżeli ma mieć jakikolwiek efekt, obydwa pola muszą być większe od 0.</valu
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>z</value>
   </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sprawdź aktualizacje...</value>
+  </data>
 </root>

@@ -155,4 +155,10 @@ Możesz ją otworzyć w dowolnym momencie przyciskając F1 lub wchodząc do kart
   <data name="errorInvalidURL" xml:space="preserve">
     <value>Link podany dla przycisk(u, ów) jest niepoprawny lub jest za długi!</value>
   </data>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>Nie można połączyć się z internetem!</value>
+  </data>
+  <data name="noUpdatesFound" xml:space="preserve">
+    <value>Nie znaleziono aktualizacji!</value>
+  </data>
 </root>
