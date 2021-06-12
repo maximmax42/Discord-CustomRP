@@ -27,7 +27,7 @@ So far, the app supports these languages:
 * Portugese-BR (thanks to viniciotricolor)
 * Russian
 * Vietnamese (thanks to Mykm and Phnthnhnm0612)
-* Simplified Chinese (thanks to Zjsun.ca) (60% done)
+* Simplified Chinese (thanks to Zjsun.ca and zozocha)
 
 If you want to help translate the app to your language, please go [here](https://poeditor.com/join/project?hash=2jq0i7ANr1).
 
