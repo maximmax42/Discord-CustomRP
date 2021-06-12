@@ -155,4 +155,10 @@
   <data name="errorInvalidURL" xml:space="preserve">
     <value>כתובת (URL) שגוי לכפתור/ים!</value>
   </data>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>אי אפשר להתחבר אינטרנט!</value>
+  </data>
+  <data name="noUpdatesFound" xml:space="preserve">
+    <value>לא נמצאו עדכונים!</value>
+  </data>
 </root>

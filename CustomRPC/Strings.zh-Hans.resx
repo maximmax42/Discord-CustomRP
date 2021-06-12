@@ -117,25 +117,48 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="labelMadeBy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 19</value>
+  <data name="error" xml:space="preserve">
+    <value>错误</value>
   </data>
-  <data name="labelMadeBy.Text" xml:space="preserve">
-    <value>נוצר על ידי: maximmax42</value>
+  <data name="errorNoID" xml:space="preserve">
+    <value>请指定ID！</value>
   </data>
-  <data name="buttonClose.Text" xml:space="preserve">
-    <value>סגור</value>
+  <data name="errorUpdateFailed" xml:space="preserve">
+    <value>下载或安装更新出错，
+按“是”重试或按“否”手动下载。</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
+  <data name="firstTimeRun" xml:space="preserve">
+    <value>第一次运行</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="firstTimeRunText" xml:space="preserve">
+    <value>你想打开手册吗？
+您可以随时通过转到“帮助”或”求助”-&gt;“打开手册”或按 F1 来打开它。</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>עלינו</value>
+  <data name="information" xml:space="preserve">
+    <value>资讯</value>
+  </data>
+  <data name="statusConnected" xml:space="preserve">
+    <value>已链接</value>
+  </data>
+  <data name="statusConnecting" xml:space="preserve">
+    <value>链接中。。。</value>
+  </data>
+  <data name="statusConnectionFailed" xml:space="preserve">
+    <value>链接</value>
+  </data>
+  <data name="statusDisconnected" xml:space="preserve">
+    <value>链接失败</value>
+  </data>
+  <data name="statusError" xml:space="preserve">
+    <value>链接错误（请查看ID？）</value>
+  </data>
+  <data name="errorInvalidURL" xml:space="preserve">
+    <value>为按钮指定的 URL 无效或文本太长！</value>
+  </data>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>无法连接到互联网！</value>
+  </data>
+  <data name="noUpdatesFound" xml:space="preserve">
+    <value>没有找到更新！</value>
   </data>
 </root>

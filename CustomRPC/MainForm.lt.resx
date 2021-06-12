@@ -175,10 +175,10 @@
     <value>Atsisiūsti atnaujinimą</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Atnaujinti Prezentaciją</value>
+    <value>Naujinti</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Atnaujinti prezentaciją.</value>
+    <value>Atnaujina prezentaciją.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>Jungtis</value>
@@ -270,10 +270,10 @@ Kad abu laukai įsigaliotų, jie turėtų būti didesni nei 0.</value>
     <value>Antrasis mygtukas, kuris rodomas tiesiai po pirmuoju mygtuku arba vietoj jo, jei pirmasis nenustatytas.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>URL, kurį spustelės vartotojas.</value>
+    <value>URL, kuris bus atidarytas paspaudus mygtuką.</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>URL, kurį spustelės vartotojas.</value>
+    <value>URL, kuris bus atidarytas paspaudus mygtuką.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
     <value>Pirmojo mygtuko etiketė.</value>
@@ -292,5 +292,8 @@ Kad abu laukai įsigaliotų, jie turėtų būti didesni nei 0.</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>Tikrinti atnaujinimus...</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Atidaryti</value>
   </data>
 </root>

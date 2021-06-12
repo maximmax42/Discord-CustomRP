@@ -396,4 +396,7 @@ Para ter efeito, ambos os campos devem ser maiores que 0.</value>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>Idioma</value>
   </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
 </root>

@@ -406,4 +406,7 @@ Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>Sprache</value>
   </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Offen</value>
+  </data>
 </root>

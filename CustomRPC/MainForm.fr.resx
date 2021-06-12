@@ -290,4 +290,10 @@ Pour prendre effet, les deux champs doivent être supérieurs à 0.</value>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>Langage</value>
   </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ouvrir</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Vérifier les mises à jour...</value>
+  </data>
 </root>

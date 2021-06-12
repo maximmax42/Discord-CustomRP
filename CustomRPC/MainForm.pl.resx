@@ -384,4 +384,7 @@ Jeżeli ma mieć jakikolwiek efekt, obydwa pola muszą być większe od 0.</valu
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>Sprawdź aktualizacje...</value>
   </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Otwórz</value>
+  </data>
 </root>

@@ -134,7 +134,7 @@
     <value>199, 18</value>
   </data>
   <data name="checkBoxNeverNotify.Text" xml:space="preserve">
-    <value>Ne ieškoti atnaujinimų kitą kartą</value>
+    <value>Neieškoti atnaujinimų kitą kartą</value>
   </data>
   <data name="labelVersionsText.Text" xml:space="preserve">
     <value>Dabartinė versija:

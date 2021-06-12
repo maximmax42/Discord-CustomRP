@@ -35,6 +35,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.trayIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.trayMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuReconnect = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparatorTray1 = new System.Windows.Forms.ToolStripSeparator();
             this.trayMenuQuit = new System.Windows.Forms.ToolStripMenuItem();
@@ -97,6 +98,7 @@
             this.Phnthnhnm0612toolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.simplifiedchineseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zjsunToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.zozochaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparatorHelp2 = new System.Windows.Forms.ToolStripSeparator();
             this.checkForUpdatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -165,11 +167,18 @@
             // trayMenuStrip
             // 
             this.trayMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.openToolStripMenuItem,
             this.trayMenuReconnect,
             this.toolStripSeparatorTray1,
             this.trayMenuQuit});
             this.trayMenuStrip.Name = "trayMenuStrip";
             resources.ApplyResources(this.trayMenuStrip, "trayMenuStrip");
+            // 
+            // openToolStripMenuItem
+            // 
+            this.openToolStripMenuItem.Name = "openToolStripMenuItem";
+            resources.ApplyResources(this.openToolStripMenuItem, "openToolStripMenuItem");
+            this.openToolStripMenuItem.Click += new System.EventHandler(this.MaximizeFromTray);
             // 
             // trayMenuReconnect
             // 
@@ -476,7 +485,8 @@
             this.MykmToolStripMenuItem,
             this.Phnthnhnm0612toolStripMenuItem,
             this.simplifiedchineseToolStripMenuItem,
-            this.zjsunToolStripMenuItem});
+            this.zjsunToolStripMenuItem,
+            this.zozochaToolStripMenuItem});
             this.translatorsToolStripMenuItem.Name = "translatorsToolStripMenuItem";
             resources.ApplyResources(this.translatorsToolStripMenuItem, "translatorsToolStripMenuItem");
             // 
@@ -632,6 +642,12 @@
             resources.ApplyResources(this.zjsunToolStripMenuItem, "zjsunToolStripMenuItem");
             this.zjsunToolStripMenuItem.Tag = "";
             this.zjsunToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
+            // 
+            // zozochaToolStripMenuItem
+            // 
+            this.zozochaToolStripMenuItem.Name = "zozochaToolStripMenuItem";
+            resources.ApplyResources(this.zozochaToolStripMenuItem, "zozochaToolStripMenuItem");
+            this.zozochaToolStripMenuItem.Tag = "";
             // 
             // toolStripSeparatorHelp2
             // 
@@ -1153,6 +1169,8 @@
         private System.Windows.Forms.ToolStripMenuItem simplifiedchineseToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem zjsunToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem checkForUpdatesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem zozochaToolStripMenuItem;
     }
 }
 

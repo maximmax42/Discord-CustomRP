@@ -128,7 +128,7 @@
 Paspauskite „Taip“, jei norite bandyti dar kartą, arba „Ne“, jei norite atsisiųsti rankiniu būdu.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Paleidimas pirma kartą</value>
+    <value>Paleidimas pirmą kartą</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Ar norėtumėte atidaryti instrukcijas?
@@ -144,7 +144,7 @@ Galite jį atidaryti bet kuriuo metu, eidami į Pagalba -&gt; Atidaryti instrukc
     <value>Jungiamasi...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Prisijungimas ne sėkmingas (ar Discord veikia?)</value>
+    <value>Prisijungimas nesėkmingas (ar Discord veikia?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>Atsijungta</value>
@@ -159,6 +159,6 @@ Galite jį atidaryti bet kuriuo metu, eidami į Pagalba -&gt; Atidaryti instrukc
     <value>Neįmanoma prisijungti prie interneto!</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
-    <value>Naujinimų nerasta!</value>
+    <value>Atnaujinimų nerasta!</value>
   </data>
 </root>

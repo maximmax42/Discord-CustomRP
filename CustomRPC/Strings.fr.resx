@@ -155,4 +155,10 @@ Vous pouvez l'ouvrir à tout moment en accédant à Aide -&gt; Ouvrir le manuel 
   <data name="errorInvalidURL" xml:space="preserve">
     <value>L'URL spécifiée pour le(s) bouton(s) est invalide ou bien le texte est trop long!</value>
   </data>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>Impossible de se connecter à Internet!</value>
+  </data>
+  <data name="noUpdatesFound" xml:space="preserve">
+    <value>Aucune mise à jour trouvé!</value>
+  </data>
 </root>

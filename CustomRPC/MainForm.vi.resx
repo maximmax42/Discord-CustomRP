@@ -420,4 +420,7 @@ Thời gian của trạng thái có giới hạn là 24 giờ, nghĩa là sau 24
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>của</value>
   </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mở</value>
+  </data>
 </root>

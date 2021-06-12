@@ -438,4 +438,7 @@ Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>Controleer voor updates...</value>
   </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open</value>
+  </data>
 </root>

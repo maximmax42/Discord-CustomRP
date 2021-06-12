@@ -422,4 +422,10 @@
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>שפה</value>
   </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>בדוק לעדכונים...</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>פתח</value>
+  </data>
 </root>

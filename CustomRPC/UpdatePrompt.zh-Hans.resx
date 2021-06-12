@@ -117,25 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="labelMadeBy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 19</value>
+  <data name="buttonUpdate.Text" xml:space="preserve">
+    <value>是的</value>
   </data>
-  <data name="labelMadeBy.Text" xml:space="preserve">
-    <value>נוצר על ידי: maximmax42</value>
+  <data name="buttonNotNow.Text" xml:space="preserve">
+    <value>请稍等</value>
   </data>
-  <data name="buttonClose.Text" xml:space="preserve">
-    <value>סגור</value>
+  <data name="labelQuestion.Text" xml:space="preserve">
+    <value>您要下载此更新吗？</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
+  <data name="checkBoxNeverNotify.Text" xml:space="preserve">
+    <value>不再检查更新</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="labelVersionsText.Text" xml:space="preserve">
+    <value>当前版本：
+最新版本：</value>
+  </data>
+  <data name="buttonSkipUpdate.Text" xml:space="preserve">
+    <value>跳过此版本</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>עלינו</value>
+    <value>请查看新更新</value>
   </data>
 </root>
