@@ -5,7 +5,7 @@
 </p>
 
 # Custom Discord Rich Presence Manager
-![App Banner](https://customrp.maximmax42.ru/assets/screenshot.png)
+![App Banner](https://www.customrp.xyz/assets/screenshot.png)
 
 Custom Discord Rich Presence Manager for Windows. Some of its features are run on startup and tray minimization. Uses [Lachee's DiscordRPC for C#](https://github.com/Lachee/discord-rpc-csharp).
 
@@ -22,10 +22,12 @@ So far, the app supports these languages:
 * Hebrew (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg))
 * Italian (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
 * Lithuanian (thanks to [Psychonaut](https://www.twitch.tv/psychonaut303))
+* Dutch (thanks to [Jeremyzijlemans](https://sionhub.co.uk/))
 * Polish (thanks to Lol1112345.lol12345)
 * Portugese-BR (thanks to viniciotricolor)
 * Russian
 * Vietnamese (thanks to Mykm and Phnthnhnm0612)
+* Simplified Chinese (thanks to Zjsun.ca and zozocha)
 
 If you want to help translate the app to your language, please go [here](https://poeditor.com/join/project?hash=2jq0i7ANr1).
 
