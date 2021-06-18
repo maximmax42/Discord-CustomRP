@@ -162,6 +162,7 @@
   </data>
   <data name="trayIcon.Text" xml:space="preserve">
     <value>Custom Rich Presence</value>
+    <comment>@Invariant</comment>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="trayIcon.Visible" type="System.Boolean, mscorlib">
@@ -235,7 +236,7 @@
     <value>157, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Check Updates</value>
+    <value>Check for Updates</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
     <value>154, 6</value>
@@ -254,72 +255,84 @@
   </data>
   <data name="deToolStripMenuItem.Text" xml:space="preserve">
     <value>Deutsche</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="enToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 22</value>
   </data>
   <data name="enToolStripMenuItem.Text" xml:space="preserve">
     <value>English</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="frToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 22</value>
   </data>
   <data name="frToolStripMenuItem.Text" xml:space="preserve">
     <value>Français</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="heToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 22</value>
   </data>
   <data name="heToolStripMenuItem.Text" xml:space="preserve">
     <value>עברית</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="itToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 22</value>
   </data>
   <data name="itToolStripMenuItem.Text" xml:space="preserve">
     <value>Italiano</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="ltToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 22</value>
   </data>
   <data name="ltToolStripMenuItem.Text" xml:space="preserve">
     <value>Lietuvių</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="nlToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 22</value>
   </data>
   <data name="nlToolStripMenuItem.Text" xml:space="preserve">
     <value>Nederlands</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="plToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 22</value>
   </data>
   <data name="plToolStripMenuItem.Text" xml:space="preserve">
     <value>Polski</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="ptBRToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 22</value>
   </data>
   <data name="ptBRToolStripMenuItem.Text" xml:space="preserve">
     <value>Português (BR)</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="ruToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 22</value>
   </data>
   <data name="ruToolStripMenuItem.Text" xml:space="preserve">
     <value>Русский</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="viToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 22</value>
   </data>
   <data name="viToolStripMenuItem.Text" xml:space="preserve">
     <value>Tiếng Việt</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="zhhansToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 22</value>
   </data>
   <data name="zhhansToolStripMenuItem.Text" xml:space="preserve">
     <value>汉语</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>157, 22</value>
@@ -359,18 +372,21 @@
   </data>
   <data name="germanToolStripMenuItem.Text" xml:space="preserve">
     <value>Deutsche (German)</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="ypsolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
   </data>
   <data name="ypsolToolStripMenuItem.Text" xml:space="preserve">
     <value>Ypsol</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="binarynoiseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
   </data>
   <data name="binarynoiseToolStripMenuItem.Text" xml:space="preserve">
     <value>binarynoise</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="frenchToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -380,12 +396,14 @@
   </data>
   <data name="frenchToolStripMenuItem.Text" xml:space="preserve">
     <value>Français (French)</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="nicolasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
   </data>
   <data name="nicolasToolStripMenuItem.Text" xml:space="preserve">
     <value>Nenaff</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="hebrewToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -395,12 +413,14 @@
   </data>
   <data name="hebrewToolStripMenuItem.Text" xml:space="preserve">
     <value>עברית (Hebrew)</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="galaxy6430ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
   </data>
   <data name="galaxy6430ToolStripMenuItem.Text" xml:space="preserve">
     <value>Galaxy6430</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="italianToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -410,18 +430,21 @@
   </data>
   <data name="italianToolStripMenuItem.Text" xml:space="preserve">
     <value>Italiano (Italian)</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="djd320ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
   </data>
   <data name="djd320ToolStripMenuItem.Text" xml:space="preserve">
     <value>DJD320</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cubeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
   </data>
   <data name="cubeToolStripMenuItem.Text" xml:space="preserve">
     <value>ItsMrCube</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="lithuanianToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -431,12 +454,14 @@
   </data>
   <data name="lithuanianToolStripMenuItem.Text" xml:space="preserve">
     <value>Lietuvių (Lithuanian)</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="psychonautToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
   </data>
   <data name="psychonautToolStripMenuItem.Text" xml:space="preserve">
     <value>Psychonaut</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="dutchToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -446,12 +471,14 @@
   </data>
   <data name="dutchToolStripMenuItem.Text" xml:space="preserve">
     <value>Dutch (Nederlands)</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="jeremyzijlemansToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
   </data>
   <data name="jeremyzijlemansToolStripMenuItem.Text" xml:space="preserve">
     <value>Jeremyzijlemans</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="polishToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -461,12 +488,14 @@
   </data>
   <data name="polishToolStripMenuItem.Text" xml:space="preserve">
     <value>Polski (Polish)</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="lolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
   </data>
   <data name="lolToolStripMenuItem.Text" xml:space="preserve">
     <value>Lol1112345.lol12345</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="portugeseBRToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -476,12 +505,14 @@
   </data>
   <data name="portugeseBRToolStripMenuItem.Text" xml:space="preserve">
     <value>Português (Portuguese) (BR)</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="viniciotricolorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
   </data>
   <data name="viniciotricolorToolStripMenuItem.Text" xml:space="preserve">
     <value>Vinicio Henrique (viniciotricolor)</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="russianToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -491,12 +522,14 @@
   </data>
   <data name="russianToolStripMenuItem.Text" xml:space="preserve">
     <value>Русский (Russian)</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="maximmax42ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
   </data>
   <data name="maximmax42ToolStripMenuItem.Text" xml:space="preserve">
     <value>maximmax42</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="vietnameseToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -506,18 +539,21 @@
   </data>
   <data name="vietnameseToolStripMenuItem.Text" xml:space="preserve">
     <value>Tiếng Việt (Vietnamese)</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="MykmToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
   </data>
   <data name="MykmToolStripMenuItem.Text" xml:space="preserve">
     <value>Mykm</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="Phnthnhnm0612toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
   </data>
   <data name="Phnthnhnm0612toolStripMenuItem.Text" xml:space="preserve">
     <value>Phnthnhnm0612</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="simplifiedchineseToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -527,18 +563,21 @@
   </data>
   <data name="simplifiedchineseToolStripMenuItem.Text" xml:space="preserve">
     <value>汉语 (Simplified Chinese)</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="zjsunToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
   </data>
   <data name="zjsunToolStripMenuItem.Text" xml:space="preserve">
     <value>Zjsun.ca</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="zozochaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
   </data>
   <data name="zozochaToolStripMenuItem.Text" xml:space="preserve">
     <value>zozocha</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 22</value>
@@ -553,7 +592,7 @@
     <value>185, 22</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Check for updates...</value>
+    <value>Check for Updates...</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 22</value>
@@ -590,6 +629,7 @@
   </data>
   <data name="menuStrip.Text" xml:space="preserve">
     <value>menuStrip1</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;menuStrip.Name" xml:space="preserve">
     <value>menuStrip</value>
@@ -731,6 +771,7 @@
   </data>
   <data name="labelID.Text" xml:space="preserve">
     <value>ID</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>ID of the application from Discord Developers site.</value>
@@ -764,6 +805,7 @@
   </data>
   <data name="labelDetails.Text" xml:space="preserve">
     <value>Details</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
     <value>First line in the presence.</value>
@@ -797,6 +839,7 @@
   </data>
   <data name="labelState.Text" xml:space="preserve">
     <value>State</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
     <value>Second line in the presence.</value>
@@ -830,6 +873,7 @@
   </data>
   <data name="labelSmallKey.Text" xml:space="preserve">
     <value>Key</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
     <value>Name of the asset for small image.</value>
@@ -863,6 +907,7 @@
   </data>
   <data name="labelSmallText.Text" xml:space="preserve">
     <value>Text</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Text displayed when hovering the small image.</value>
@@ -896,6 +941,7 @@
   </data>
   <data name="labelLargeText.Text" xml:space="preserve">
     <value>Text</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
     <value>Text displayed when hovering the large image.</value>
@@ -929,6 +975,7 @@
   </data>
   <data name="labelLargeKey.Text" xml:space="preserve">
     <value>Key</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>Name of the asset for large image.</value>
@@ -1127,6 +1174,7 @@
   </data>
   <data name="labelTimestamp.Text" xml:space="preserve">
     <value>Timestamp</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>Sets up timestamp for the status, which shows up under all the text above.
@@ -1161,6 +1209,7 @@ Status timers have 24 hour limit, meaning that after 24 hours time will go back 
   </data>
   <data name="labelParty.Text" xml:space="preserve">
     <value>Party</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
     <value>Amount of players in the current party that shows next to State field.
@@ -1294,6 +1343,7 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="labelButton1URL.Text" xml:space="preserve">
     <value>URL</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
     <value>URL the button will take user to upon clicking.</value>
@@ -1327,6 +1377,7 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="labelButton2URL.Text" xml:space="preserve">
     <value>URL</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
     <value>URL the button will take user to upon clicking.</value>
@@ -1360,6 +1411,7 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="labelButton1Text.Text" xml:space="preserve">
     <value>Text</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
     <value>Label of the first button.</value>
@@ -1393,6 +1445,7 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="labelButton2Text.Text" xml:space="preserve">
     <value>Text</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
     <value>Label of the second button.</value>
@@ -1411,6 +1464,7 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="dateTimePickerTimestamp.CustomFormat" xml:space="preserve">
     <value>dd.MM.yyyy hh:mm:ss</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="dateTimePickerTimestamp.DropDownAlign" type="System.Windows.Forms.LeftRightAlignment, System.Windows.Forms">
     <value>Right</value>
@@ -1495,12 +1549,14 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="toolStripStatusLabelPadding.Text" xml:space="preserve">
     <value> </value>
+    <comment>@Invariant</comment>
   </data>
   <data name="toolStripStatusLabelStatus.Size" type="System.Drawing.Size, System.Drawing">
     <value>79, 17</value>
   </data>
   <data name="toolStripStatusLabelStatus.Text" xml:space="preserve">
     <value>Disconnected</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 476</value>
@@ -1888,6 +1944,7 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Custom Rich Presence</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;trayIcon.Name" xml:space="preserve">
     <value>trayIcon</value>

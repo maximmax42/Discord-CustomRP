@@ -161,4 +161,10 @@ Bist du sicher, dass es läuft?</comment>
   <data name="errorInvalidURL" xml:space="preserve">
     <value>Ungültige URL für Schaltfläche(n) angegeben oder der Text ist zu lang!</value>
   </data>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>Keine Internetverbindung!</value>
+  </data>
+  <data name="noUpdatesFound" xml:space="preserve">
+    <value>Keine Updates gefunden!</value>
+  </data>
 </root>

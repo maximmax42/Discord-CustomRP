@@ -402,4 +402,7 @@ Per avere effetto, entrambi i valori devono essere superiori a 0.</value>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>Apri</value>
   </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verifica aggiornamenti...</value>
+  </data>
 </root>

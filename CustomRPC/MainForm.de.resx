@@ -152,13 +152,13 @@
     <value>208, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Preset laden</value>
+    <value>Vorlage laden</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>208, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Preset speichern</value>
+    <value>Vorlage speichern</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>205, 6</value>
@@ -188,7 +188,7 @@
     <value>189, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Beim Start öffnen</value>
+    <value>Beim Hochfahren starten</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>189, 22</value>
@@ -408,5 +408,8 @@ Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>Offen</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Suche nach Aktualisierungen...</value>
   </data>
 </root>

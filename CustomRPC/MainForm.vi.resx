@@ -423,4 +423,7 @@ Thời gian của trạng thái có giới hạn là 24 giờ, nghĩa là sau 24
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>Mở</value>
   </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Kiểm tra cập nhật...</value>
+  </data>
 </root>

@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Xml.Serialization;
 using Application = System.Windows.Forms.Application;
 using DButton = DiscordRPC.Button;
+using Timer = System.Timers.Timer;
 
 namespace CustomRPC
 {
@@ -52,6 +53,8 @@ namespace CustomRPC
 
         short connectionState = 0; // 0 - not connected/connecting, 1 - connected, 2 - error
 
+        Timer restartTimer = new Timer(5000); // A timer for automatic restart on connection error
+
         Properties.Settings settings = Properties.Settings.Default; // Settings
 
         string linkPath = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\CustomRP.lnk"; // Autorun file link
@@ -66,6 +69,10 @@ namespace CustomRPC
 
             // Setting up startup link for current user (enabled by default)
             StartupSetup();
+
+            // Setting up a restart timer
+            restartTimer.AutoReset = true;
+            restartTimer.Elapsed += RestartTimer_Elapsed;
 
             // Setting up checkboxes because apparently property binding doesn't work
             runOnStartupToolStripMenuItem.Checked = settings.runOnStartup;
@@ -141,6 +148,12 @@ namespace CustomRPC
             }
 
             if (settings.checkUpdates) CheckForUpdates();
+        }
+
+        // Will be called every 5 seconds to try and reconnect
+        private void RestartTimer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
+        {
+            Connect();
         }
 
         // Checking updates
@@ -288,6 +301,8 @@ namespace CustomRPC
                 textBoxID.BackColor = System.Drawing.Color.FromArgb(192, 255, 192);
                 toolStripStatusLabelStatus.Text = Strings.statusConnected;
             }));
+
+            restartTimer.Stop();
         }
 
         // Will be called if failed connecting (due to bad app id or anything else)
@@ -299,6 +314,8 @@ namespace CustomRPC
                 textBoxID.BackColor = System.Drawing.Color.FromArgb(255, 192, 192);
                 toolStripStatusLabelStatus.Text = Strings.statusError;
             }));
+
+            restartTimer.Start();
         }
 
         // Will be called if failed connecting (mostly due to Discord being closed)
@@ -310,6 +327,8 @@ namespace CustomRPC
                 textBoxID.BackColor = System.Drawing.Color.FromArgb(255, 192, 192);
                 toolStripStatusLabelStatus.Text = Strings.statusConnectionFailed;
             }));
+
+            restartTimer.Start();
         }
 
         // Sets up new presence from the settings
@@ -669,6 +688,8 @@ namespace CustomRPC
 
             textBoxID.BackColor = System.Drawing.Color.FromName("Window");
             connectionState = 0;
+
+            restartTimer.Stop();
 
             client.Dispose();
         }

@@ -399,4 +399,7 @@ Para ter efeito, ambos os campos devem ser maiores que 0.</value>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>Abrir</value>
   </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verificar Atualizações...</value>
+  </data>
 </root>
