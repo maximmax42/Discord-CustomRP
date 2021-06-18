@@ -29,7 +29,7 @@ So far, the app supports these languages:
 * Vietnamese (thanks to Mykm and Phnthnhnm0612)
 * Simplified Chinese (thanks to Zjsun.ca and zozocha)
 
-If you want to help translate the app to your language, please go [here](https://poeditor.com/join/project?hash=2jq0i7ANr1).
+If you want to help translate the app to your language, please go to the [POEditor project page](https://poeditor.com/join/project?hash=2jq0i7ANr1).
 
 ## Feedback
 If you have any problems with the app, or you have suggestions on making it more functional, you can open an issue ticket, or contact me on Discord - maximmax42#5572.
