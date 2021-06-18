@@ -365,7 +365,7 @@
     <value>194, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>С момента запуска Custom RP</value>
+    <value>С момента запуска CustomRP</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
     <value>Показывает время со старта данной программы.</value>
