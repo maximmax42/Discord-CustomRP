@@ -16,6 +16,7 @@ If you installed the app, updating is literally as easy as running the installer
 
 ## Translations
 So far, the app supports these languages:
+* Czech (thank to JayJake)
 * English
 * German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA) and binarynoise)
 * French (thanks to Nenaff)
@@ -26,8 +27,10 @@ So far, the app supports these languages:
 * Polish (thanks to Lol1112345.lol12345)
 * Portugese-BR (thanks to viniciotricolor)
 * Russian
+* Thai (thanks to Squishee Freshy)
 * Vietnamese (thanks to Mykm and Phnthnhnm0612)
 * Simplified Chinese (thanks to Zjsun.ca and zozocha)
+* Traditional Chinese (thanks to [westxlu](https://linktr.ee/westxlu))
 
 If you want to help translate the app to your language, please go to the [POEditor project page](https://poeditor.com/join/project?hash=2jq0i7ANr1).
 
