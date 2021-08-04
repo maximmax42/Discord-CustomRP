@@ -36,7 +36,7 @@ namespace CustomRPC
             // pipeNumericUpDown
             // 
             this.pipeNumericUpDown.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "pipe", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.pipeNumericUpDown.Location = new System.Drawing.Point(12, 12);
+            this.pipeNumericUpDown.Location = new System.Drawing.Point(39, 12);
             this.pipeNumericUpDown.Maximum = new decimal(new int[] {
             9,
             0,
@@ -57,7 +57,7 @@ namespace CustomRPC
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(66, 46);
+            this.ClientSize = new System.Drawing.Size(120, 46);
             this.Controls.Add(this.pipeNumericUpDown);
             this.Font = new System.Drawing.Font("Tahoma", 9F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
