@@ -155,4 +155,10 @@ Puoi aprirlo in qualsiasi momento andando su Help -&gt; Apri il manuale o premen
   <data name="errorInvalidURL" xml:space="preserve">
     <value>URL specificato per i pulsanti non valido!</value>
   </data>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>Non riesco a connettermi a internet!</value>
+  </data>
+  <data name="noUpdatesFound" xml:space="preserve">
+    <value>Nessun aggiornamento trovato!</value>
+  </data>
 </root>

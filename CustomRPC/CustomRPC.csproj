@@ -96,6 +96,12 @@
     <Compile Include="About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
+    <Compile Include="PipeSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PipeSelector.Designer.cs">
+      <DependentUpon>PipeSelector.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +121,9 @@
     <Compile Include="UpdatePrompt.Designer.cs">
       <DependentUpon>UpdatePrompt.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="About.cs.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="About.de.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -155,12 +164,24 @@
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="About.th.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="About.vi.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="About.zh-Hans.resx">
       <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="About.zh-Hant.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PipeSelector.resx">
+      <DependentUpon>PipeSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.cs.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.de.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -206,6 +227,9 @@
       <DependentUpon>MainForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.th.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.vi.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -213,6 +237,9 @@
     <EmbeddedResource Include="MainForm.zh-Hans.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.zh-Hant.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -224,6 +251,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Strings.cs.resx">
+      <LastGenOutput>Strings.de.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Strings.de.resx">
       <LastGenOutput>Strings.de.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
@@ -267,6 +299,11 @@
       <SubType>Designer</SubType>
       <DependentUpon>Strings.resx</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Strings.th.resx">
+      <LastGenOutput>Strings.de.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Strings.vi.resx">
       <DependentUpon>Strings.resx</DependentUpon>
       <SubType>Designer</SubType>
@@ -274,6 +311,13 @@
     <EmbeddedResource Include="Strings.zh-Hans.resx">
       <DependentUpon>Strings.resx</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.zh-Hant.resx">
+      <DependentUpon>Strings.resx</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdatePrompt.cs.resx">
+      <DependentUpon>UpdatePrompt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdatePrompt.de.resx">
       <DependentUpon>UpdatePrompt.cs</DependentUpon>
@@ -311,11 +355,17 @@
     <EmbeddedResource Include="UpdatePrompt.ru.resx">
       <DependentUpon>UpdatePrompt.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UpdatePrompt.th.resx">
+      <DependentUpon>UpdatePrompt.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UpdatePrompt.vi.resx">
       <DependentUpon>UpdatePrompt.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdatePrompt.zh-Hans.resx">
+      <DependentUpon>UpdatePrompt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdatePrompt.zh-Hant.resx">
       <DependentUpon>UpdatePrompt.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config">

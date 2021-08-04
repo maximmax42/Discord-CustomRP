@@ -117,48 +117,30 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="error" xml:space="preserve">
-    <value>Lỗi</value>
+  <data name="buttonUpdate.Text" xml:space="preserve">
+    <value>ใช่</value>
   </data>
-  <data name="errorNoID" xml:space="preserve">
-    <value>Không có ID được chỉ định!</value>
+  <data name="buttonNotNow.Text" xml:space="preserve">
+    <value>ไม่ใช่ตอนนี้</value>
   </data>
-  <data name="errorUpdateFailed" xml:space="preserve">
-    <value>Đã xảy ra lỗi khi tải xuống hoặc cài đặt bản cập nhật.
-Nhấn "Có" để thử lại hoặc "Không" để tải xuống theo cách thủ công.</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 14</value>
   </data>
-  <data name="firstTimeRun" xml:space="preserve">
-    <value>Lần chạy đầu tiên</value>
+  <data name="labelQuestion.Text" xml:space="preserve">
+    <value>คุณต้องการดาวน์โหลดการอัปเดตนี้หรือไม่?</value>
   </data>
-  <data name="firstTimeRunText" xml:space="preserve">
-    <value>Bạn muốn mở phần Hướng dẫn không?
-Bạn có thể mở nó bất cứ lúc nào bằng cách mở phần Trợ giúp -&gt; Hướng dẫn hoặc ấn F1.</value>
+  <data name="checkBoxNeverNotify.Text" xml:space="preserve">
+    <value>อย่าตรวจสอบสำหรับการอัพเดตอีก</value>
   </data>
-  <data name="information" xml:space="preserve">
-    <value>Thông tin</value>
+  <data name="labelVersionsText.Text" xml:space="preserve">
+    <value>เวอร์ชันปัจจุบัน:
+เวอร์ชันล่าสุด:</value>
   </data>
-  <data name="statusConnected" xml:space="preserve">
-    <value>Đã kết nối</value>
+  <data name="buttonSkipUpdate.Text" xml:space="preserve">
+    <value>ข้ามเวอร์ชันนี้</value>
   </data>
-  <data name="statusConnecting" xml:space="preserve">
-    <value>Đang kết nối...</value>
-  </data>
-  <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Kết nối thất bại (Bạn đã khởi động Discord chưa?)</value>
-  </data>
-  <data name="statusDisconnected" xml:space="preserve">
-    <value>Đã ngắt kết nối</value>
-  </data>
-  <data name="statusError" xml:space="preserve">
-    <value>Lỗi kết nối (ID sai?)</value>
-  </data>
-  <data name="errorInvalidURL" xml:space="preserve">
-    <value>URL được chỉ định cho (các) nút không hợp lệ!</value>
-  </data>
-  <data name="errorNoInternet" xml:space="preserve">
-    <value>Không thể kết nối internet!</value>
-  </data>
-  <data name="noUpdatesFound" xml:space="preserve">
-    <value>Không tìm thấy bản cập nhật nào!</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>พบการอัพเดต</value>
   </data>
 </root>

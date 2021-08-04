@@ -118,47 +118,47 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="error" xml:space="preserve">
-    <value>Lỗi</value>
+    <value>錯誤</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>Không có ID được chỉ định!</value>
+    <value>沒有指定ID！</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
-    <value>Đã xảy ra lỗi khi tải xuống hoặc cài đặt bản cập nhật.
-Nhấn "Có" để thử lại hoặc "Không" để tải xuống theo cách thủ công.</value>
+    <value>下載或安裝更新時出錯.
+按 “是” 重試 或按 “否” 手動下載。</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Lần chạy đầu tiên</value>
+    <value>第一次運行</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
-    <value>Bạn muốn mở phần Hướng dẫn không?
-Bạn có thể mở nó bất cứ lúc nào bằng cách mở phần Trợ giúp -&gt; Hướng dẫn hoặc ấn F1.</value>
+    <value>您想打開說明手冊嗎？
+您可以隨時點擊 “幫助”→“打開說明手冊” 或按F1來打開它。</value>
   </data>
   <data name="information" xml:space="preserve">
-    <value>Thông tin</value>
+    <value>資訊</value>
   </data>
   <data name="statusConnected" xml:space="preserve">
-    <value>Đã kết nối</value>
+    <value>已連線</value>
   </data>
   <data name="statusConnecting" xml:space="preserve">
-    <value>Đang kết nối...</value>
+    <value>連線中...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Kết nối thất bại (Bạn đã khởi động Discord chưa?)</value>
+    <value>連線失敗（Discord 有打開嗎？）</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
-    <value>Đã ngắt kết nối</value>
+    <value>已取消連線</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>Lỗi kết nối (ID sai?)</value>
+    <value>連線錯誤（錯誤的ID？）</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>URL được chỉ định cho (các) nút không hợp lệ!</value>
+    <value>為按鈕指定的連結無效或字數太長了！</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
-    <value>Không thể kết nối internet!</value>
+    <value>無法連接網路！</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
-    <value>Không tìm thấy bản cập nhật nào!</value>
+    <value>沒有新版本更新！</value>
   </data>
 </root>

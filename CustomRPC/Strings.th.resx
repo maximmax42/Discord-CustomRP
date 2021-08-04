@@ -118,47 +118,47 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="error" xml:space="preserve">
-    <value>Lỗi</value>
+    <value>ผิดพลาด</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>Không có ID được chỉ định!</value>
+    <value>ไม่ได้ระบุ ID!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
-    <value>Đã xảy ra lỗi khi tải xuống hoặc cài đặt bản cập nhật.
-Nhấn "Có" để thử lại hoặc "Không" để tải xuống theo cách thủ công.</value>
+    <value>เกิดข้อผิดพลาดในการดาวน์โหลดหรือติดตั้งการอัปเดต
+กด "ใช่" เพื่อลองใหม่ หรือ "ไม่ใช่" เพื่อดาวน์โหลดด้วยตนเอง</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Lần chạy đầu tiên</value>
+    <value>ทำงานครั้งแรก</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
-    <value>Bạn muốn mở phần Hướng dẫn không?
-Bạn có thể mở nó bất cứ lúc nào bằng cách mở phần Trợ giúp -&gt; Hướng dẫn hoặc ấn F1.</value>
+    <value>คุณต้องการเปิดคู่มือการใช้งานหรือไม่?
+คุณสามารถเปิดได้ตอนไหนก็ได้ โดยไปที่ Help -&gt; Open the Manual หรือกด F1</value>
   </data>
   <data name="information" xml:space="preserve">
-    <value>Thông tin</value>
+    <value>ข้อมูล</value>
   </data>
   <data name="statusConnected" xml:space="preserve">
-    <value>Đã kết nối</value>
+    <value>เชื่อมต่อแล้ว</value>
   </data>
   <data name="statusConnecting" xml:space="preserve">
-    <value>Đang kết nối...</value>
+    <value>กำลังเชื่อมต่อ...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Kết nối thất bại (Bạn đã khởi động Discord chưa?)</value>
+    <value>การเชื่อมต่อล้มเหลว (Discord ทำงานอยู่หรือเปล่า?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
-    <value>Đã ngắt kết nối</value>
+    <value>ตัดการเชื่อมต่อ</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>Lỗi kết nối (ID sai?)</value>
+    <value>พบข้อผิดพลาดในการเชื่อมต่อ (ID ผิด?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>URL được chỉ định cho (các) nút không hợp lệ!</value>
+    <value>URL ที่ระบุไม่ถูกต้องสำหรับปุ่มหรือข้อความยาวเกินไป!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
-    <value>Không thể kết nối internet!</value>
+    <value>ไม่สามารถเชื่อมต่ออินเทอร์เน็ตได้!</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
-    <value>Không tìm thấy bản cập nhật nào!</value>
+    <value>ไม่พบการอัพเดต!</value>
   </data>
 </root>

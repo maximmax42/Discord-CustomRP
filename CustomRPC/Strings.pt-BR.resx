@@ -154,4 +154,10 @@ Pressione "Sim" para tentar novamente ou "Não" para fazer o download manualment
   <data name="errorInvalidURL" xml:space="preserve">
     <value>URL inválido especificado para os botões(s)!</value>
   </data>
+  <data name="noUpdatesFound" xml:space="preserve">
+    <value>Nenhuma atualização encontrada!</value>
+  </data>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>Não consigo me conectar à internet!</value>
+  </data>
 </root>

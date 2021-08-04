@@ -141,8 +141,8 @@
   <data name="&gt;&gt;checkBoxNeverNotify.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="buttonSkipUpdate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 23</value>
+  <data name="buttonUpdate.Text" xml:space="preserve">
+    <value>Yes</value>
   </data>
   <data name="&gt;&gt;buttonSkipUpdate.Parent" xml:space="preserve">
     <value>$this</value>
@@ -169,14 +169,14 @@
   <data name="labelQuestion.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;labelVersionsText.Name" xml:space="preserve">
-    <value>labelVersionsText</value>
+  <data name="htmlPanelChangelog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 68</value>
   </data>
   <data name="&gt;&gt;labelVersions.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="pictureBoxLogo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
+  <data name="buttonNotNow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="checkBoxNeverNotify.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -193,9 +193,6 @@
   <data name="labelVersionsText.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 14.25pt</value>
   </data>
-  <data name="htmlPanelChangelog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 68</value>
-  </data>
   <data name="checkBoxNeverNotify.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
@@ -208,8 +205,8 @@
   <data name="htmlPanelChangelog.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="pictureBoxLogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+  <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 14</value>
   </data>
   <data name="&gt;&gt;labelQuestion.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -223,6 +220,9 @@
   <data name="labelVersionsText.Text" xml:space="preserve">
     <value>Current version:
 Latest version:</value>
+  </data>
+  <data name="pictureBoxLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
   </data>
   <data name="&gt;&gt;labelVersionsText.Parent" xml:space="preserve">
     <value>$this</value>
@@ -239,8 +239,8 @@ Latest version:</value>
   <data name="labelQuestion.Text" xml:space="preserve">
     <value>Would you like to download this update?</value>
   </data>
-  <data name="&gt;&gt;pictureBoxLogo.Name" xml:space="preserve">
-    <value>pictureBoxLogo</value>
+  <data name="&gt;&gt;buttonSkipUpdate.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 9pt</value>
@@ -284,37 +284,34 @@ Latest version:</value>
   <data name="&gt;&gt;labelVersions.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;labelVersions.Name" xml:space="preserve">
+    <value>labelVersions</value>
+  </data>
   <data name="&gt;&gt;buttonSkipUpdate.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;labelVersions.Name" xml:space="preserve">
-    <value>labelVersions</value>
+  <data name="&gt;&gt;checkBoxNeverNotify.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="labelQuestion.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 276</value>
   </data>
-  <data name="&gt;&gt;labelQuestion.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="labelVersionsText.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="buttonUpdate.Text" xml:space="preserve">
-    <value>Yes</value>
+  <data name="&gt;&gt;pictureBoxLogo.Name" xml:space="preserve">
+    <value>pictureBoxLogo</value>
   </data>
   <data name="&gt;&gt;buttonNotNow.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="labelVersionsText.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;checkBoxNeverNotify.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;htmlPanelChangelog.Type" xml:space="preserve">
+    <value>TheArtOfDev.HtmlRenderer.WinForms.HtmlPanel, HtmlRenderer.WinForms, Version=1.5.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="labelVersions.Text" xml:space="preserve">
     <value>1.0.0
 9.99.9</value>
     <comment>@Invariant Placeholder</comment>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;htmlPanelChangelog.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -325,11 +322,11 @@ Latest version:</value>
   <data name="&gt;&gt;buttonUpdate.Name" xml:space="preserve">
     <value>buttonUpdate</value>
   </data>
-  <data name="&gt;&gt;buttonSkipUpdate.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="checkBoxNeverNotify.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 18</value>
+  </data>
+  <data name="&gt;&gt;labelVersionsText.Name" xml:space="preserve">
+    <value>labelVersionsText</value>
   </data>
   <data name="buttonUpdate.Location" type="System.Drawing.Point, System.Drawing">
     <value>297, 326</value>
@@ -355,11 +352,11 @@ Latest version:</value>
   <data name="&gt;&gt;buttonSkipUpdate.Name" xml:space="preserve">
     <value>buttonSkipUpdate</value>
   </data>
+  <data name="&gt;&gt;labelQuestion.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Update Available</value>
-  </data>
-  <data name="&gt;&gt;htmlPanelChangelog.Type" xml:space="preserve">
-    <value>TheArtOfDev.HtmlRenderer.WinForms.HtmlPanel, HtmlRenderer.WinForms, Version=1.5.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;labelVersionsText.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -370,14 +367,14 @@ Latest version:</value>
   <data name="&gt;&gt;buttonNotNow.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelVersions.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="buttonSkipUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 23</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>384, 361</value>
   </data>
-  <data name="buttonNotNow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="labelQuestion.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -388,11 +385,14 @@ Latest version:</value>
   <data name="&gt;&gt;buttonUpdate.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 14</value>
+  <data name="labelVersions.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="checkBoxNeverNotify.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 302</value>
+  </data>
+  <data name="pictureBoxLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
   </data>
   <data name="pictureBoxLogo.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>

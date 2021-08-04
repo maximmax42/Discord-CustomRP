@@ -150,6 +150,16 @@ namespace CustomRPC
             if (settings.checkUpdates) CheckForUpdates();
         }
 
+        // If user launches second instance, this activates already running one
+        protected override void WndProc(ref Message message)
+        {
+            if (message.Msg == Program.WM_SHOWFIRSTINSTANCE)
+            {
+                MaximizeFromTray();
+            }
+            base.WndProc(ref message);
+        }
+
         // Will be called every 5 seconds to try and reconnect
         private void RestartTimer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
@@ -208,7 +218,7 @@ namespace CustomRPC
                 string changelog = changelogBuilder.ToString();
 
                 downloadUpdateToolStripMenuItem.Visible = true; // ...activate the "Download update" button...
-                Show(); // ...make sure the app window is shown if it was minimized...
+                MaximizeFromTray(); // ...make sure the app window is shown if it was minimized...
 
                 var messageBox = new UpdatePrompt(current, latest, changelog).ShowDialog(); // ...and show a dialog box telling there's an update
 
@@ -281,8 +291,8 @@ namespace CustomRPC
                 client.Dispose();
             }
 
-            client = new DiscordRpcClient(settings.id); // Assigning the ID
-            client.OnPresenceUpdate += ClientOnPresenceUpdate; // If the presence is sent successfully
+            client = new DiscordRpcClient(settings.id, (int)settings.pipe); // Assigning the ID
+            client.OnPresenceUpdate += ClientOnPresenceUpdate;
             client.OnError += ClientOnError;
             client.OnConnectionFailed += ClientOnConnFailed;
 
@@ -359,17 +369,19 @@ namespace CustomRPC
 
             try
             {
-                if (settings.button1Text != "" && settings.button1URL != "") buttonsList.Add(new DButton()
-                {
-                    Label = settings.button1Text,
-                    Url = settings.button1URL
-                });
+                if (settings.button1Text != "" && settings.button1URL != "")
+                    buttonsList.Add(new DButton()
+                    {
+                        Label = settings.button1Text,
+                        Url = settings.button1URL
+                    });
 
-                if (settings.button2Text != "" && settings.button2URL != "") buttonsList.Add(new DButton()
-                {
-                    Label = settings.button2Text,
-                    Url = settings.button2URL
-                });
+                if (settings.button2Text != "" && settings.button2URL != "")
+                    buttonsList.Add(new DButton()
+                    {
+                        Label = settings.button2Text,
+                        Url = settings.button2URL
+                    });
             }
             catch
             {
@@ -449,6 +461,12 @@ namespace CustomRPC
 
             Show();
             Activate();
+        }
+
+        // Same but as a function to use in code
+        private void MaximizeFromTray()
+        {
+            MaximizeFromTray(null, null);
         }
 
         // Called when you press Load Preset button
@@ -661,6 +679,13 @@ namespace CustomRPC
         private void Connect(object sender, EventArgs e)
         {
             settings.Save();
+
+            if (ModifierKeys == Keys.Control)
+            {
+                new PipeSelector().ShowDialog(this);
+                return;
+            }
+
             if (Init()) // If successfully connected...
             {
                 buttonConnect.Enabled = false; // ...disable Connect button...
@@ -674,7 +699,7 @@ namespace CustomRPC
         // Same but as a tidy function for using in code
         private void Connect()
         {
-            Connect(null, new EventArgs());
+            Connect(null, null);
         }
 
         // Called when you press the Disconnect button
@@ -697,7 +722,7 @@ namespace CustomRPC
         // Same but as a tidy function for using in code
         private void Disconnect()
         {
-            Disconnect(null, new EventArgs());
+            Disconnect(null, null);
         }
 
         // Called when you press the Update Presence button
