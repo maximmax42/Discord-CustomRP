@@ -27,6 +27,7 @@ So far, the app supports these languages:
 * Polish (thanks to Lol1112345.lol12345)
 * Portugese-BR (thanks to viniciotricolor)
 * Russian
+* Thai (thanks to Squishee Freshy)
 * Vietnamese (thanks to Mykm and Phnthnhnm0612)
 * Simplified Chinese (thanks to Zjsun.ca and zozocha)
 * Traditional Chinese (thanks to [westxlu](https://linktr.ee/westxlu))
