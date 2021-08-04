@@ -16,6 +16,7 @@ If you installed the app, updating is literally as easy as running the installer
 
 ## Translations
 So far, the app supports these languages:
+* Czech (thank to JayJake)
 * English
 * German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA) and binarynoise)
 * French (thanks to Nenaff)
