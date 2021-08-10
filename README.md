@@ -16,15 +16,17 @@ If you installed the app, updating is literally as easy as running the installer
 
 ## Translations
 So far, the app supports these languages:
-* Czech (thank to JayJake)
-* English
+* Arabic-EG (thanks to Shadowl)
+* Czech (thanks to JayJake)
 * German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA) and binarynoise)
+* English
+* Spanish (thanks to Vexot)
 * French (thanks to Nenaff)
 * Hebrew (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg))
 * Italian (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
 * Lithuanian (thanks to [Psychonaut](https://www.twitch.tv/psychonaut303))
 * Dutch (thanks to [Jeremyzijlemans](https://sionhub.co.uk/))
-* Polish (thanks to Lol1112345.lol12345)
+* Polish (thanks to Lol1112345.lol12345 and Liso)
 * Portugese-BR (thanks to viniciotricolor)
 * Russian
 * Thai (thanks to Squishee Freshy)
