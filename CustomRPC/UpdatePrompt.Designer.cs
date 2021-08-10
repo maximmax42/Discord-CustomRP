@@ -98,8 +98,9 @@
             // 
             resources.ApplyResources(this.htmlPanelChangelog, "htmlPanelChangelog");
             this.htmlPanelChangelog.BackColor = System.Drawing.SystemColors.Window;
-            this.htmlPanelChangelog.BaseStylesheet = "h3 {\r\nmargin: 0;\r\n}\r\n\r\nul {\r\nmargin-top: 0.5em;\r\nmargin-bottom: 0.5em;\r\nmargin-le" +
-    "ft: 1.5em;\r\nfont-size: 1em;\r\n}";
+            this.htmlPanelChangelog.BaseStylesheet = "* {\r\nfont: Tahoma, sans-serif;\r\n}\r\n\r\np {\r\nmargin-left: 0.5em\r\n}\r\n\r\nh3 {\r\nmargin: " +
+    "0;\r\nmargin-left: 0.25em\r\n}\r\n\r\nul {\r\nmargin-top: 0.5em;\r\nmargin-bottom: 0.5em;\r\nm" +
+    "argin-left: 1.5em;\r\nfont-size: 1em;\r\n}";
             this.htmlPanelChangelog.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.htmlPanelChangelog.Cursor = System.Windows.Forms.Cursors.Default;
             this.htmlPanelChangelog.Name = "htmlPanelChangelog";

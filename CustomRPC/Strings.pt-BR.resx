@@ -131,7 +131,8 @@ Pressione "Sim" para tentar novamente ou "Não" para fazer o download manualment
     <value>Primeira execução</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
-    <value>Você pode abri-lo a qualquer momento em Ajuda -&gt; Abrir o manual ou pressionando F1.</value>
+    <value>Você gostaria de abrir um manual?
+Você pode abri-lo a qualquer momento em Ajuda -&gt; Abrir o manual ou pressionando F1.</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>Informações</value>

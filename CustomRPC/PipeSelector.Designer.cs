@@ -29,14 +29,15 @@ namespace CustomRPC
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PipeSelector));
             this.pipeNumericUpDown = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.pipeNumericUpDown)).BeginInit();
             this.SuspendLayout();
             // 
             // pipeNumericUpDown
             // 
+            resources.ApplyResources(this.pipeNumericUpDown, "pipeNumericUpDown");
             this.pipeNumericUpDown.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "pipe", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.pipeNumericUpDown.Location = new System.Drawing.Point(39, 12);
             this.pipeNumericUpDown.Maximum = new decimal(new int[] {
             9,
             0,
@@ -48,25 +49,19 @@ namespace CustomRPC
             0,
             -2147483648});
             this.pipeNumericUpDown.Name = "pipeNumericUpDown";
-            this.pipeNumericUpDown.Size = new System.Drawing.Size(42, 22);
-            this.pipeNumericUpDown.TabIndex = 0;
             this.pipeNumericUpDown.Value = global::CustomRPC.Properties.Settings.Default.pipe;
             // 
             // PipeSelector
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(120, 46);
             this.Controls.Add(this.pipeNumericUpDown);
-            this.Font = new System.Drawing.Font("Tahoma", 9F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "PipeSelector";
             this.ShowIcon = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Pipe";
             ((System.ComponentModel.ISupportInitialize)(this.pipeNumericUpDown)).EndInit();
             this.ResumeLayout(false);
 

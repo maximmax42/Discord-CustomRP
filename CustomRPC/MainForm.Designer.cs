@@ -56,9 +56,11 @@
             this.languageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.defaultToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.agERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.csToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.enToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.esToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.frToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.heToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.itToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -76,11 +78,15 @@
             this.gitHubPageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparatorHelp1 = new System.Windows.Forms.ToolStripSeparator();
             this.translatorsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.arabicEGToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.shadowlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.czechToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jayJakeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.germanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ypsolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.binarynoiseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.spanishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.vexotToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.frenchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nicolasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hebrewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -94,6 +100,7 @@
             this.jeremyzijlemansToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.polishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lisoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.portugeseBRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viniciotricolorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.russianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -138,6 +145,7 @@
             this.labelButton1Text = new System.Windows.Forms.Label();
             this.labelButton2Text = new System.Windows.Forms.Label();
             this.panelTimestamps = new System.Windows.Forms.Panel();
+            this.dateTimePickerTimestamp = new System.Windows.Forms.DateTimePicker();
             this.labelPartyOf = new System.Windows.Forms.Label();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabelPadding = new System.Windows.Forms.ToolStripStatusLabel();
@@ -148,7 +156,6 @@
             this.textBoxButton1Text = new System.Windows.Forms.TextBox();
             this.numericUpDownPartySize = new System.Windows.Forms.NumericUpDown();
             this.numericUpDownPartyMax = new System.Windows.Forms.NumericUpDown();
-            this.dateTimePickerTimestamp = new System.Windows.Forms.DateTimePicker();
             this.textBoxSmallKey = new System.Windows.Forms.TextBox();
             this.textBoxSmallText = new System.Windows.Forms.TextBox();
             this.textBoxLargeText = new System.Windows.Forms.TextBox();
@@ -315,9 +322,11 @@
             this.languageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.defaultToolStripMenuItem,
             this.toolStripSeparator2,
+            this.agERToolStripMenuItem,
             this.csToolStripMenuItem,
             this.deToolStripMenuItem,
             this.enToolStripMenuItem,
+            this.esToolStripMenuItem,
             this.frToolStripMenuItem,
             this.heToolStripMenuItem,
             this.itToolStripMenuItem,
@@ -346,6 +355,14 @@
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             // 
+            // agERToolStripMenuItem
+            // 
+            this.agERToolStripMenuItem.CheckOnClick = true;
+            this.agERToolStripMenuItem.Name = "agERToolStripMenuItem";
+            resources.ApplyResources(this.agERToolStripMenuItem, "agERToolStripMenuItem");
+            this.agERToolStripMenuItem.Tag = "ar-EG";
+            this.agERToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
+            // 
             // csToolStripMenuItem
             // 
             this.csToolStripMenuItem.CheckOnClick = true;
@@ -369,6 +386,14 @@
             resources.ApplyResources(this.enToolStripMenuItem, "enToolStripMenuItem");
             this.enToolStripMenuItem.Tag = "en";
             this.enToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
+            // 
+            // esToolStripMenuItem
+            // 
+            this.esToolStripMenuItem.CheckOnClick = true;
+            this.esToolStripMenuItem.Name = "esToolStripMenuItem";
+            resources.ApplyResources(this.esToolStripMenuItem, "esToolStripMenuItem");
+            this.esToolStripMenuItem.Tag = "es";
+            this.esToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
             // 
             // frToolStripMenuItem
             // 
@@ -495,11 +520,15 @@
             // translatorsToolStripMenuItem
             // 
             this.translatorsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.arabicEGToolStripMenuItem,
+            this.shadowlToolStripMenuItem,
             this.czechToolStripMenuItem,
             this.jayJakeToolStripMenuItem,
             this.germanToolStripMenuItem,
             this.ypsolToolStripMenuItem,
             this.binarynoiseToolStripMenuItem,
+            this.spanishToolStripMenuItem,
+            this.vexotToolStripMenuItem,
             this.frenchToolStripMenuItem,
             this.nicolasToolStripMenuItem,
             this.hebrewToolStripMenuItem,
@@ -513,6 +542,7 @@
             this.jeremyzijlemansToolStripMenuItem,
             this.polishToolStripMenuItem,
             this.lolToolStripMenuItem,
+            this.lisoToolStripMenuItem,
             this.portugeseBRToolStripMenuItem,
             this.viniciotricolorToolStripMenuItem,
             this.russianToolStripMenuItem,
@@ -529,6 +559,18 @@
             this.westxluToolStripMenuItem});
             this.translatorsToolStripMenuItem.Name = "translatorsToolStripMenuItem";
             resources.ApplyResources(this.translatorsToolStripMenuItem, "translatorsToolStripMenuItem");
+            // 
+            // arabicEGToolStripMenuItem
+            // 
+            resources.ApplyResources(this.arabicEGToolStripMenuItem, "arabicEGToolStripMenuItem");
+            this.arabicEGToolStripMenuItem.Name = "arabicEGToolStripMenuItem";
+            // 
+            // shadowlToolStripMenuItem
+            // 
+            this.shadowlToolStripMenuItem.Name = "shadowlToolStripMenuItem";
+            resources.ApplyResources(this.shadowlToolStripMenuItem, "shadowlToolStripMenuItem");
+            this.shadowlToolStripMenuItem.Tag = "";
+            this.shadowlToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // czechToolStripMenuItem
             // 
@@ -560,6 +602,18 @@
             resources.ApplyResources(this.binarynoiseToolStripMenuItem, "binarynoiseToolStripMenuItem");
             this.binarynoiseToolStripMenuItem.Tag = "";
             this.binarynoiseToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
+            // 
+            // spanishToolStripMenuItem
+            // 
+            resources.ApplyResources(this.spanishToolStripMenuItem, "spanishToolStripMenuItem");
+            this.spanishToolStripMenuItem.Name = "spanishToolStripMenuItem";
+            // 
+            // vexotToolStripMenuItem
+            // 
+            this.vexotToolStripMenuItem.Name = "vexotToolStripMenuItem";
+            resources.ApplyResources(this.vexotToolStripMenuItem, "vexotToolStripMenuItem");
+            this.vexotToolStripMenuItem.Tag = "";
+            this.vexotToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // frenchToolStripMenuItem
             // 
@@ -639,6 +693,12 @@
             resources.ApplyResources(this.lolToolStripMenuItem, "lolToolStripMenuItem");
             this.lolToolStripMenuItem.Tag = "";
             this.lolToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
+            // 
+            // lisoToolStripMenuItem
+            // 
+            this.lisoToolStripMenuItem.Name = "lisoToolStripMenuItem";
+            resources.ApplyResources(this.lisoToolStripMenuItem, "lisoToolStripMenuItem");
+            this.lisoToolStripMenuItem.Tag = "";
             // 
             // portugeseBRToolStripMenuItem
             // 
@@ -931,6 +991,15 @@
             resources.ApplyResources(this.panelTimestamps, "panelTimestamps");
             this.panelTimestamps.Name = "panelTimestamps";
             // 
+            // dateTimePickerTimestamp
+            // 
+            resources.ApplyResources(this.dateTimePickerTimestamp, "dateTimePickerTimestamp");
+            this.dateTimePickerTimestamp.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "customTimestamp", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.dateTimePickerTimestamp.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerTimestamp.MinDate = new System.DateTime(1969, 1, 1, 0, 0, 0, 0);
+            this.dateTimePickerTimestamp.Name = "dateTimePickerTimestamp";
+            this.dateTimePickerTimestamp.Value = global::CustomRPC.Properties.Settings.Default.customTimestamp;
+            // 
             // labelPartyOf
             // 
             resources.ApplyResources(this.labelPartyOf, "labelPartyOf");
@@ -962,6 +1031,8 @@
             resources.ApplyResources(this.textBoxButton2Text, "textBoxButton2Text");
             this.textBoxButton2Text.Name = "textBoxButton2Text";
             this.textBoxButton2Text.Text = global::CustomRPC.Properties.Settings.Default.button2Text;
+            this.textBoxButton2Text.TextChanged += new System.EventHandler(this.LengthValidation);
+            this.textBoxButton2Text.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxButton2URL
             // 
@@ -969,6 +1040,8 @@
             resources.ApplyResources(this.textBoxButton2URL, "textBoxButton2URL");
             this.textBoxButton2URL.Name = "textBoxButton2URL";
             this.textBoxButton2URL.Text = global::CustomRPC.Properties.Settings.Default.button2URL;
+            this.textBoxButton2URL.TextChanged += new System.EventHandler(this.LengthValidation);
+            this.textBoxButton2URL.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxButton1URL
             // 
@@ -976,6 +1049,8 @@
             resources.ApplyResources(this.textBoxButton1URL, "textBoxButton1URL");
             this.textBoxButton1URL.Name = "textBoxButton1URL";
             this.textBoxButton1URL.Text = global::CustomRPC.Properties.Settings.Default.button1URL;
+            this.textBoxButton1URL.TextChanged += new System.EventHandler(this.LengthValidation);
+            this.textBoxButton1URL.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxButton1Text
             // 
@@ -983,6 +1058,8 @@
             resources.ApplyResources(this.textBoxButton1Text, "textBoxButton1Text");
             this.textBoxButton1Text.Name = "textBoxButton1Text";
             this.textBoxButton1Text.Text = global::CustomRPC.Properties.Settings.Default.button1Text;
+            this.textBoxButton1Text.TextChanged += new System.EventHandler(this.LengthValidation);
+            this.textBoxButton1Text.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // numericUpDownPartySize
             // 
@@ -1010,21 +1087,14 @@
             this.numericUpDownPartyMax.Name = "numericUpDownPartyMax";
             this.numericUpDownPartyMax.Value = global::CustomRPC.Properties.Settings.Default.partyMax;
             // 
-            // dateTimePickerTimestamp
-            // 
-            resources.ApplyResources(this.dateTimePickerTimestamp, "dateTimePickerTimestamp");
-            this.dateTimePickerTimestamp.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "customTimestamp", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.dateTimePickerTimestamp.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePickerTimestamp.MinDate = new System.DateTime(1969, 1, 1, 0, 0, 0, 0);
-            this.dateTimePickerTimestamp.Name = "dateTimePickerTimestamp";
-            this.dateTimePickerTimestamp.Value = global::CustomRPC.Properties.Settings.Default.customTimestamp;
-            // 
             // textBoxSmallKey
             // 
             this.textBoxSmallKey.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "smallKey", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             resources.ApplyResources(this.textBoxSmallKey, "textBoxSmallKey");
             this.textBoxSmallKey.Name = "textBoxSmallKey";
             this.textBoxSmallKey.Text = global::CustomRPC.Properties.Settings.Default.smallKey;
+            this.textBoxSmallKey.TextChanged += new System.EventHandler(this.LengthValidation);
+            this.textBoxSmallKey.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxSmallText
             // 
@@ -1032,6 +1102,8 @@
             resources.ApplyResources(this.textBoxSmallText, "textBoxSmallText");
             this.textBoxSmallText.Name = "textBoxSmallText";
             this.textBoxSmallText.Text = global::CustomRPC.Properties.Settings.Default.smallText;
+            this.textBoxSmallText.TextChanged += new System.EventHandler(this.LengthValidation);
+            this.textBoxSmallText.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxLargeText
             // 
@@ -1039,6 +1111,8 @@
             resources.ApplyResources(this.textBoxLargeText, "textBoxLargeText");
             this.textBoxLargeText.Name = "textBoxLargeText";
             this.textBoxLargeText.Text = global::CustomRPC.Properties.Settings.Default.largeText;
+            this.textBoxLargeText.TextChanged += new System.EventHandler(this.LengthValidation);
+            this.textBoxLargeText.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxLargeKey
             // 
@@ -1046,6 +1120,8 @@
             resources.ApplyResources(this.textBoxLargeKey, "textBoxLargeKey");
             this.textBoxLargeKey.Name = "textBoxLargeKey";
             this.textBoxLargeKey.Text = global::CustomRPC.Properties.Settings.Default.largeKey;
+            this.textBoxLargeKey.TextChanged += new System.EventHandler(this.LengthValidation);
+            this.textBoxLargeKey.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxState
             // 
@@ -1053,6 +1129,8 @@
             resources.ApplyResources(this.textBoxState, "textBoxState");
             this.textBoxState.Name = "textBoxState";
             this.textBoxState.Text = global::CustomRPC.Properties.Settings.Default.state;
+            this.textBoxState.TextChanged += new System.EventHandler(this.LengthValidation);
+            this.textBoxState.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxDetails
             // 
@@ -1060,6 +1138,8 @@
             resources.ApplyResources(this.textBoxDetails, "textBoxDetails");
             this.textBoxDetails.Name = "textBoxDetails";
             this.textBoxDetails.Text = global::CustomRPC.Properties.Settings.Default.details;
+            this.textBoxDetails.TextChanged += new System.EventHandler(this.LengthValidation);
+            this.textBoxDetails.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxID
             // 
@@ -1257,6 +1337,13 @@
         private System.Windows.Forms.ToolStripMenuItem thToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thaiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem squisheeFreshyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem agERToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem arabicEGToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem shadowlToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem esToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem spanishToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem vexotToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lisoToolStripMenuItem;
     }
 }
 

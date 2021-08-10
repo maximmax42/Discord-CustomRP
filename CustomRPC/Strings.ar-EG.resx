@@ -117,77 +117,48 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+  <data name="error" xml:space="preserve">
+    <value>خطا</value>
   </data>
-  <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+  <data name="errorNoID" xml:space="preserve">
+    <value>لا يوجد معرف محدد!</value>
   </data>
-  <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 6</value>
+  <data name="errorUpdateFailed" xml:space="preserve">
+    <value>هناك خطا اثناء تحميل او تصتيب التحديث.
+اضغط "نعم" للمحاولة مرا اخرا او "لا" للتحميل اليدوي.</value>
   </data>
-  <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+  <data name="firstTimeRun" xml:space="preserve">
+    <value>اول مرا يتم تشغيل</value>
   </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 6</value>
+  <data name="firstTimeRunText" xml:space="preserve">
+    <value>هل تود فتح يدوي؟
+تقدر تفتحه في اي وقت عن طريق الذهاب للمساعدة ثم افتح المينوال او اضغط F1.</value>
   </data>
-  <data name="defaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
+  <data name="information" xml:space="preserve">
+    <value>معلومات</value>
   </data>
-  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 6</value>
+  <data name="statusConnected" xml:space="preserve">
+    <value>متصل</value>
   </data>
-  <data name="agERToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
+  <data name="statusConnecting" xml:space="preserve">
+    <value>يتصل...</value>
   </data>
-  <data name="csToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
+  <data name="statusConnectionFailed" xml:space="preserve">
+    <value>فشل اتصال (هل الديسكورد شغال؟)</value>
   </data>
-  <data name="deToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
+  <data name="statusDisconnected" xml:space="preserve">
+    <value>غير متصل</value>
   </data>
-  <data name="enToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
+  <data name="statusError" xml:space="preserve">
+    <value>خطا فالاتصال (رقم معرف خطا؟)</value>
   </data>
-  <data name="frToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
+  <data name="errorInvalidURL" xml:space="preserve">
+    <value>رابط خطا للازرار او الكتابة طويلة جدا!</value>
   </data>
-  <data name="heToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>عدم القدرة علي الاتصال للانترنت!</value>
   </data>
-  <data name="itToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
-  </data>
-  <data name="ltToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
-  </data>
-  <data name="nlToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
-  </data>
-  <data name="plToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
-  </data>
-  <data name="ptBRToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
-  </data>
-  <data name="ruToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
-  </data>
-  <data name="thToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
-  </data>
-  <data name="viToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
-  </data>
-  <data name="zhhansToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
-  </data>
-  <data name="zhhantToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
-  </data>
-  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+  <data name="noUpdatesFound" xml:space="preserve">
+    <value>لا يوجد تحديثات!</value>
   </data>
 </root>

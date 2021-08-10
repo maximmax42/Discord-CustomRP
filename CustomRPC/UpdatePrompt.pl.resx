@@ -137,7 +137,7 @@
     <value>Nigdy nie sprawdzaj uaktualnień ponownie</value>
   </data>
   <data name="labelVersionsText.Text" xml:space="preserve">
-    <value>Aktualna wersja: 
+    <value>Aktualna wersja:
 Najnowsza wersja:</value>
   </data>
   <data name="buttonSkipUpdate.Size" type="System.Drawing.Size, System.Drawing">

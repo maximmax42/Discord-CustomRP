@@ -1,4 +1,5 @@
-﻿using DiscordRPC;
+﻿using CommonMark;
+using DiscordRPC;
 using Octokit;
 using System;
 using System.Collections.Generic;
@@ -61,6 +62,10 @@ namespace CustomRPC
 
         GitHubClient githubClient = new GitHubClient(new ProductHeaderValue("CustomRP")); // For getting updates
         Release latestRelease;
+
+        System.Drawing.Color defaultColor = System.Drawing.Color.FromName("Window");
+        System.Drawing.Color successColor = System.Drawing.Color.FromArgb(192, 255, 192);
+        System.Drawing.Color errorColor = System.Drawing.Color.FromArgb(255, 192, 192);
 
         // Constructor of the form
         public MainForm()
@@ -203,16 +208,18 @@ namespace CustomRPC
 
                     if (releaseVer.Equals(current)) break;
 
-                    var releaseBody = release.Body.Trim().Split("\r\n".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+                    var releaseBodyArr = release.Body.Split("\r\n".ToCharArray());
+                    var releaseBody = "";
 
-                    changelogBuilder.Append("<h3>" + release.Name + "</h3><ul>");
-
-                    for (int i = 1; i < releaseBody.Length - 2; i++)
+                    // Removing 1st ("Changes:") and 2 last lines (description to exe and zip files) from the changelog
+                    for (int i = 1; i < releaseBodyArr.Length - 3; i++)
                     {
-                        changelogBuilder.Append("<li>" + releaseBody[i].Substring(2) + "</li>");
+                        releaseBody += releaseBodyArr[i] + "\r\n";
                     }
 
-                    changelogBuilder.Append("</ul>");
+                    changelogBuilder
+                        .Append("<h3>" + release.Name + "</h3>")
+                        .Append(CommonMarkConverter.Convert(releaseBody.Trim()));
                 }
 
                 string changelog = changelogBuilder.ToString();
@@ -308,7 +315,7 @@ namespace CustomRPC
             connectionState = 1;
             Invoke(new MethodInvoker(() =>
             {
-                textBoxID.BackColor = System.Drawing.Color.FromArgb(192, 255, 192);
+                textBoxID.BackColor = successColor;
                 toolStripStatusLabelStatus.Text = Strings.statusConnected;
             }));
 
@@ -321,7 +328,7 @@ namespace CustomRPC
             connectionState = 2;
             Invoke(new MethodInvoker(() =>
             {
-                textBoxID.BackColor = System.Drawing.Color.FromArgb(255, 192, 192);
+                textBoxID.BackColor = errorColor;
                 toolStripStatusLabelStatus.Text = Strings.statusError;
             }));
 
@@ -334,7 +341,7 @@ namespace CustomRPC
             connectionState = 2;
             Invoke(new MethodInvoker(() =>
             {
-                textBoxID.BackColor = System.Drawing.Color.FromArgb(255, 192, 192);
+                textBoxID.BackColor = errorColor;
                 toolStripStatusLabelStatus.Text = Strings.statusConnectionFailed;
             }));
 
@@ -386,6 +393,7 @@ namespace CustomRPC
             catch
             {
                 MessageBox.Show(Strings.errorInvalidURL, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                return;
             }
 
             rp.Buttons = buttonsList.ToArray();
@@ -446,15 +454,15 @@ namespace CustomRPC
             switch (connectionState) // Because invoking doesn't work while the form is hidden
             {
                 case 0:
-                    textBoxID.BackColor = System.Drawing.Color.FromName("Window");
+                    textBoxID.BackColor = defaultColor;
                     toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
                     break;
                 case 1:
-                    textBoxID.BackColor = System.Drawing.Color.FromArgb(192, 255, 192);
+                    textBoxID.BackColor = successColor;
                     toolStripStatusLabelStatus.Text = Strings.statusConnected;
                     break;
                 case 2:
-                    textBoxID.BackColor = System.Drawing.Color.FromArgb(255, 192, 192);
+                    textBoxID.BackColor = errorColor;
                     toolStripStatusLabelStatus.Text = Strings.statusError;
                     break;
             }
@@ -660,6 +668,35 @@ namespace CustomRPC
             toAvoidRecursion = false;
         }
 
+        // Called on Validating event for all text fields except ID
+        private void LengthValidationFocus(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            var box = (TextBox)sender;
+            var length = System.Text.Encoding.UTF8.GetByteCount(box.Text);
+
+            if (length > box.MaxLength)
+            {
+                e.Cancel = true;
+                System.Media.SystemSounds.Beep.Play();
+            }
+        }
+
+        // Called on TextChanged event for all text fields except ID
+        private void LengthValidation(object sender, EventArgs e)
+        {
+            var box = (TextBox)sender;
+            var length = System.Text.Encoding.UTF8.GetByteCount(box.Text);
+
+            if (length > box.MaxLength)
+            {
+                box.BackColor = errorColor;
+            }
+            else
+            {
+                box.BackColor = defaultColor;
+            }
+        }
+
         // Called when a timestamp radiobutton changed
         private void TimestampsChanged(object sender, EventArgs e)
         {
@@ -711,7 +748,7 @@ namespace CustomRPC
             textBoxID.ReadOnly = false;
             toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
 
-            textBoxID.BackColor = System.Drawing.Color.FromName("Window");
+            textBoxID.BackColor = defaultColor;
             connectionState = 0;
 
             restartTimer.Stop();

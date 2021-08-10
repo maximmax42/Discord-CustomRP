@@ -47,7 +47,8 @@ namespace CustomRPC
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            new MainForm();
+            IntPtr _ = new MainForm().Handle; // Terrible, yet allows to fully initialize the form without showing it first
+
             Application.Run();
 
             GC.KeepAlive(AppMutex);
