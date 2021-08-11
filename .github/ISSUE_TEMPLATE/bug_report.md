@@ -7,6 +7,9 @@ assignees: ''
 
 ---
 
+**BEFORE POSTING**
+Please check https://github.com/maximmax42/Discord-CustomRP/wiki/FAQ for a possible solution. If it's not there, then carry on with creating an issue ticket.
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
