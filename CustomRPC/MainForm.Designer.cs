@@ -163,6 +163,9 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
+            this.kuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kurdishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.samTheNoobToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -330,6 +333,7 @@
             this.frToolStripMenuItem,
             this.heToolStripMenuItem,
             this.itToolStripMenuItem,
+            this.kuToolStripMenuItem,
             this.ltToolStripMenuItem,
             this.nlToolStripMenuItem,
             this.plToolStripMenuItem,
@@ -536,6 +540,8 @@
             this.italianToolStripMenuItem,
             this.djd320ToolStripMenuItem,
             this.cubeToolStripMenuItem,
+            this.kurdishToolStripMenuItem,
+            this.samTheNoobToolStripMenuItem,
             this.lithuanianToolStripMenuItem,
             this.psychonautToolStripMenuItem,
             this.dutchToolStripMenuItem,
@@ -1149,6 +1155,26 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
+            // kuToolStripMenuItem
+            // 
+            this.kuToolStripMenuItem.CheckOnClick = true;
+            this.kuToolStripMenuItem.Name = "kuToolStripMenuItem";
+            resources.ApplyResources(this.kuToolStripMenuItem, "kuToolStripMenuItem");
+            this.kuToolStripMenuItem.Tag = "ku";
+            this.kuToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
+            // 
+            // kurdishToolStripMenuItem
+            // 
+            resources.ApplyResources(this.kurdishToolStripMenuItem, "kurdishToolStripMenuItem");
+            this.kurdishToolStripMenuItem.Name = "kurdishToolStripMenuItem";
+            // 
+            // samTheNoobToolStripMenuItem
+            // 
+            this.samTheNoobToolStripMenuItem.Name = "samTheNoobToolStripMenuItem";
+            resources.ApplyResources(this.samTheNoobToolStripMenuItem, "samTheNoobToolStripMenuItem");
+            this.samTheNoobToolStripMenuItem.Tag = "https://discord.gg/stn69";
+            this.samTheNoobToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -1344,6 +1370,9 @@
         private System.Windows.Forms.ToolStripMenuItem spanishToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem vexotToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem lisoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem kuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem kurdishToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem samTheNoobToolStripMenuItem;
     }
 }
 

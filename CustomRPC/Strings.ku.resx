@@ -118,47 +118,47 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="error" xml:space="preserve">
-    <value>خطا</value>
+    <value>کێشە</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>لا يوجد معرف محدد!</value>
+    <value>هیچ ئایدیەک دانەنراوە!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
-    <value>هناك خطا اثناء تحميل او تصتيب التحديث.
-اضغط "نعم" للمحاولة مرا اخرا او "لا" للتحميل اليدوي.</value>
+    <value>کێشەیەک هەبوو لە کاتی دابەزاندن یاخود نوێکردنەوە، کلیک لە "بەڵێ" بکە بۆ دووبارە کردنەوە یاخود "نەخێر" بۆ دابزاندن بۆ شێوەی دەستی.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>اول مرا يتم تشغيل</value>
+    <value>یەکەم داگرسان</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
-    <value>هل تود فتح التطبيق يدويا؟
-تقدر تفتحه في اي وقت عن طريق الذهاب للمساعدة -&gt; افتح الارشادات او اضغط F1.</value>
+    <value>ئەتەوێت شێوازی بەکار هێنان بکەیتەوە؟
+هەر کاتێک بێت ئەتوانی بچیتە سەر "یارمەتی" دواتر کردنەوەی "شێوازی بەکارهێنان"
+یاخود پەنجە بنێ بە "F1".</value>
   </data>
   <data name="information" xml:space="preserve">
-    <value>معلومات</value>
+    <value>زانیاری</value>
   </data>
   <data name="statusConnected" xml:space="preserve">
-    <value>متصل</value>
+    <value>پەیوەندی کراوە</value>
   </data>
   <data name="statusConnecting" xml:space="preserve">
-    <value>يتصل...</value>
+    <value>پەیوەندی دەکرێ...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>فشل اتصال (هل الديسكورد شغال؟)</value>
+    <value>پەیوەندی نەکرا (ئایا دیسکۆرد داگرساوە؟)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
-    <value>غير متصل</value>
+    <value>پەیوەندیەکە پچڕا</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>خطا فالاتصال (رقم معرف خطا؟)</value>
+    <value>کێشەی پەیوەندی (ئایدیەکەی هەڵە دانراوە؟)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>رابط خطا للازرار او الكتابة طويلة جدا!</value>
+    <value>ڵێنکێکی هەڵە دانراوە بۆ دوگمە(کان) یاخوود نووسینەکە زۆر درێژە!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
-    <value>عدم القدرة علي الاتصال للانترنت!</value>
+    <value>ناتوانین پەیوەندی بە ئەنتەرنێتەوە بکەین!</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
-    <value>لا يوجد تحديثات!</value>
+    <value>هیچ نوێکردنەوەیەک نەدۆزرایەوە!</value>
   </data>
 </root>

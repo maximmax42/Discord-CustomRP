@@ -117,48 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="error" xml:space="preserve">
-    <value>خطا</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelMadeBy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 93</value>
   </data>
-  <data name="errorNoID" xml:space="preserve">
-    <value>لا يوجد معرف محدد!</value>
+  <data name="labelMadeBy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 19</value>
   </data>
-  <data name="errorUpdateFailed" xml:space="preserve">
-    <value>هناك خطا اثناء تحميل او تصتيب التحديث.
-اضغط "نعم" للمحاولة مرا اخرا او "لا" للتحميل اليدوي.</value>
+  <data name="labelMadeBy.Text" xml:space="preserve">
+    <value>درووست کراوە لە لایەن: maximmax42</value>
   </data>
-  <data name="firstTimeRun" xml:space="preserve">
-    <value>اول مرا يتم تشغيل</value>
+  <data name="buttonClose.Text" xml:space="preserve">
+    <value>داخستن</value>
   </data>
-  <data name="firstTimeRunText" xml:space="preserve">
-    <value>هل تود فتح التطبيق يدويا؟
-تقدر تفتحه في اي وقت عن طريق الذهاب للمساعدة -&gt; افتح الارشادات او اضغط F1.</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
   </data>
-  <data name="information" xml:space="preserve">
-    <value>معلومات</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="statusConnected" xml:space="preserve">
-    <value>متصل</value>
-  </data>
-  <data name="statusConnecting" xml:space="preserve">
-    <value>يتصل...</value>
-  </data>
-  <data name="statusConnectionFailed" xml:space="preserve">
-    <value>فشل اتصال (هل الديسكورد شغال؟)</value>
-  </data>
-  <data name="statusDisconnected" xml:space="preserve">
-    <value>غير متصل</value>
-  </data>
-  <data name="statusError" xml:space="preserve">
-    <value>خطا فالاتصال (رقم معرف خطا؟)</value>
-  </data>
-  <data name="errorInvalidURL" xml:space="preserve">
-    <value>رابط خطا للازرار او الكتابة طويلة جدا!</value>
-  </data>
-  <data name="errorNoInternet" xml:space="preserve">
-    <value>عدم القدرة علي الاتصال للانترنت!</value>
-  </data>
-  <data name="noUpdatesFound" xml:space="preserve">
-    <value>لا يوجد تحديثات!</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>دەربارە</value>
   </data>
 </root>
