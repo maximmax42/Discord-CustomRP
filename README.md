@@ -24,6 +24,7 @@ So far, the app supports these languages:
 * French (thanks to Nenaff)
 * Hebrew (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg))
 * Italian (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
+* Central Kurdish (thanks to [SamTheNoob](https://discord.gg/stn69))
 * Lithuanian (thanks to [Psychonaut](https://www.twitch.tv/psychonaut303))
 * Dutch (thanks to [Jeremyzijlemans](https://sionhub.co.uk/))
 * Polish (thanks to Lol1112345.lol12345 and Liso)
