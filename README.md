@@ -13,6 +13,9 @@ Custom Discord Rich Presence Manager for Windows. Some of its features are run o
 Download the latest version from [Releases](https://github.com/maximmax42/Discord-CustomRP/releases) page and run the .exe installer! Or, if you prefer the portable version, download the zip, unpack it somewhere, preferably in a separate folder, and start it up. Upon starting, you will be prompted to open a setup manual. You can open it later by pressing F1 or going Help -> Open Manual.
 ### Updating
 If you installed the app, updating is literally as easy as running the installer for the newer version. If you use a portable version, please make sure to extract updated files into the same folder as you did before to keep your settings.
+### Troubleshooting & Feedback
+If you have any problems with the app, please check out [FAQ](https://github.com/maximmax42/Discord-CustomRP/wiki/FAQ) first. If it doesn't help, or you have suggestions on making the app more functional, you can open an issue ticket, or contact me on Discord - maximmax42#5572.
+
 
 ## Translations
 So far, the app supports these languages:
@@ -36,6 +39,3 @@ So far, the app supports these languages:
 * Traditional Chinese (thanks to [westxlu](https://linktr.ee/westxlu))
 
 If you want to help translate the app to your language, please go to the [POEditor project page](https://poeditor.com/join/project?hash=2jq0i7ANr1).
-
-## Feedback
-If you have any problems with the app, please check out [FAQ](https://github.com/maximmax42/Discord-CustomRP/wiki/FAQ) first. If it doesn't help, or you have suggestions on making the app more functional, you can open an issue ticket, or contact me on Discord - maximmax42#5572.
