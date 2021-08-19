@@ -123,53 +123,150 @@
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
     <value>Programa veiks dėkle.</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Atidaryti</value>
+  </data>
+  <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
     <value>Iš naujo</value>
+  </data>
+  <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 6</value>
+  </data>
+  <data name="trayMenuQuit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
     <value>Išeiti</value>
   </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Failas</value>
+  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 76</value>
+  </data>
+  <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Įkelti nustatymą</value>
   </data>
+  <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 22</value>
+  </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Išsaugoti nustatymą</value>
+  </data>
+  <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 6</value>
+  </data>
+  <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
     <value>Įkelti išsaugojimus</value>
   </data>
+  <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 6</value>
+  </data>
+  <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 22</value>
+  </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
     <value>Išeiti</value>
   </data>
-  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Nustatymai</value>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Failas</value>
+  </data>
+  <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
     <value>Paleisti Windows pasileidus</value>
   </data>
+  <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 22</value>
+  </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
     <value>Paleisti sumažinta</value>
+  </data>
+  <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 6</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>Tikrinti naujinimus</value>
   </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Pagalba</value>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 6</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>Numatytasis</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Kalba</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 20</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nustatymai</value>
+  </data>
+  <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
     <value>Atidaryti instrukcijas</value>
   </data>
+  <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
     <value>GitHub Puslapis</value>
+  </data>
+  <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 6</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
   </data>
   <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
     <value>Vertėjai</value>
   </data>
+  <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 6</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tikrinti atnaujinimus...</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>Apie...</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pagalba</value>
+  </data>
+  <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
     <value>Atsisiūsti atnaujinimą</value>
@@ -213,11 +310,17 @@
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>Vardas išsaugoto didelio paveiksliuko.</value>
   </data>
+  <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 14</value>
+  </data>
   <data name="labelSmall.Text" xml:space="preserve">
     <value>Mažas paveiksliukas</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
     <value>Paveiksliukas pasirodo apatiniame dešiniajame kampe didelio paveiksliuko.</value>
+  </data>
+  <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 14</value>
   </data>
   <data name="labelLarge.Text" xml:space="preserve">
     <value>Didelis Paveiksliukas</value>
@@ -225,17 +328,26 @@
   <data name="labelLarge.ToolTip" xml:space="preserve">
     <value>Paveiksliukas, rodomas kairėje aukščiau nurodytam tekstui.</value>
   </data>
+  <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 18</value>
+  </data>
   <data name="radioButtonNone.Text" xml:space="preserve">
     <value>Nieko</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
     <value>Neleidžiami laiko intarpai.</value>
   </data>
+  <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 18</value>
+  </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
     <value>Nuo / Kai CustomRP paleistas</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
     <value>Rodo laiką nuo, kai programėlė pasileido.</value>
+  </data>
+  <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 18</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
     <value>Vietinis laikas</value>
@@ -251,17 +363,26 @@ Būsenos laikmačiuose nustatytas 24 valandų apribojimas, tai reiškia, kad po 
     <value>Žaidėjų skaičius dabartinėje partijoje, kuris rodomas šalia regiono laukelio.
 Kad abu laukai įsigaliotų, jie turėtų būti didesni nei 0.</value>
   </data>
+  <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 18</value>
+  </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
     <value>Pasirinktinė laiko žymė</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
     <value>Parodo, kiek laiko praėjo nuo toliau nurodytos datos arba kiek jos liko.</value>
   </data>
+  <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 14</value>
+  </data>
   <data name="labelButton1.Text" xml:space="preserve">
     <value>Mygtukas 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
     <value>Pirmasis iš dviejų mygtukų, rodomų jūsų būsenoje jūsų profilio iššokančiajame kampe ir dešiniojoje pusėje visame profilyje.</value>
+  </data>
+  <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 14</value>
   </data>
   <data name="labelButton2.Text" xml:space="preserve">
     <value>Mygtukas 2</value>
@@ -281,19 +402,10 @@ Kad abu laukai įsigaliotų, jie turėtų būti didesni nei 0.</value>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
     <value>Antrojo mygtuko etiketė.</value>
   </data>
+  <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 14</value>
+  </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>iš</value>
-  </data>
-  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
-    <value>Numatytasis</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Kalba</value>
-  </data>
-  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tikrinti atnaujinimus...</value>
-  </data>
-  <data name="openToolStripMenuItem.Text" xml:space="preserve">
-    <value>Atidaryti</value>
   </data>
 </root>

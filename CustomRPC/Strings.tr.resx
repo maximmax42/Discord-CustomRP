@@ -117,33 +117,48 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="buttonUpdate.Text" xml:space="preserve">
-    <value>是的</value>
+  <data name="error" xml:space="preserve">
+    <value>Hata</value>
   </data>
-  <data name="buttonNotNow.Text" xml:space="preserve">
-    <value>请稍等</value>
+  <data name="errorNoID" xml:space="preserve">
+    <value>Belirtilmiş Kimlik yok!</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 14</value>
+  <data name="errorUpdateFailed" xml:space="preserve">
+    <value>Bir güncelleme indirilirken veya yüklenirken bir hata oluştu.
+Yeniden denemek için "Evet"e veya manuel olarak indirmek için "Hayır"a basın.</value>
   </data>
-  <data name="labelQuestion.Text" xml:space="preserve">
-    <value>您要下载此更新吗？</value>
+  <data name="firstTimeRun" xml:space="preserve">
+    <value>İlk Çalıştırma</value>
   </data>
-  <data name="checkBoxNeverNotify.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 18</value>
+  <data name="firstTimeRunText" xml:space="preserve">
+    <value>Bir kılavuzu açmak ister misiniz?
+İstediğiniz zaman Yardım sekmesine giderek, Kılavuzu Aç'a giderek veya F1'e basarak açabilirsiniz.</value>
   </data>
-  <data name="checkBoxNeverNotify.Text" xml:space="preserve">
-    <value>不再检查更新</value>
+  <data name="information" xml:space="preserve">
+    <value>Bilgi</value>
   </data>
-  <data name="labelVersionsText.Text" xml:space="preserve">
-    <value>当前版本：
-最新版本：</value>
+  <data name="statusConnected" xml:space="preserve">
+    <value>Bağlandı</value>
   </data>
-  <data name="buttonSkipUpdate.Text" xml:space="preserve">
-    <value>跳过此版本</value>
+  <data name="statusConnecting" xml:space="preserve">
+    <value>Bağlanılıyor...</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>请查看新更新</value>
+  <data name="statusConnectionFailed" xml:space="preserve">
+    <value>Bağlantı başarısız (Discord halihazırda çalışıyor mu?)</value>
+  </data>
+  <data name="statusDisconnected" xml:space="preserve">
+    <value>Bağlantı kesildi</value>
+  </data>
+  <data name="statusError" xml:space="preserve">
+    <value>Bağlantı hatası (Yanlış Kimlik?)</value>
+  </data>
+  <data name="errorInvalidURL" xml:space="preserve">
+    <value>Düğme(ler) için geçersiz URL belirtildi veya metin çok uzun!</value>
+  </data>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>İnternete bağlanılamıyor!</value>
+  </data>
+  <data name="noUpdatesFound" xml:space="preserve">
+    <value>Güncelleme bulunamadı!</value>
   </data>
 </root>

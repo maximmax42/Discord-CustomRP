@@ -131,7 +131,7 @@
     <value>Ar norėtumėte atsisiūsti šį atnaujinimą?</value>
   </data>
   <data name="checkBoxNeverNotify.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 18</value>
+    <value>195, 18</value>
   </data>
   <data name="checkBoxNeverNotify.Text" xml:space="preserve">
     <value>Neieškoti atnaujinimų kitą kartą</value>

@@ -123,53 +123,150 @@
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
     <value>แอพพลิเคชั่นจะทำงานอยู่ใน Tray</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>เปิด</value>
+  </data>
+  <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
     <value>เชื่อมต่อใหม่</value>
+  </data>
+  <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 6</value>
+  </data>
+  <data name="trayMenuQuit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
     <value>ออก</value>
   </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>ไฟล์</value>
+  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 76</value>
+  </data>
+  <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>โหลดพรีเซ็ต</value>
   </data>
+  <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
     <value>บันทึกพรีเซ็ต</value>
+  </data>
+  <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 6</value>
+  </data>
+  <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
     <value>อัพโหลดเนื้อหา</value>
   </data>
+  <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 6</value>
+  </data>
+  <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
     <value>ออก</value>
   </data>
-  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>การตั้งค่า</value>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>ไฟล์</value>
+  </data>
+  <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
     <value>ให้เริ่มทำงานเมื่อเปิดเครื่อง</value>
   </data>
+  <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
     <value>ย่อหน้าต่าง</value>
+  </data>
+  <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 6</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>ตรวจสอบสำหรับการอัพเดต</value>
   </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>ช่วยเหลือ</value>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 6</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>ค่าเริ่มต้น</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>ภาษา</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>การตั้งค่า</value>
+  </data>
+  <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
     <value>เปิดคู่มือการใช้</value>
   </data>
+  <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
     <value>หน้า GitHub</value>
+  </data>
+  <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 6</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
   </data>
   <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
     <value>นักแปลภาษา</value>
   </data>
+  <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 6</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>ตรวจสอบสำหรับการอัพเดต...</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>เกี่ยวกับ...</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>ช่วยเหลือ</value>
+  </data>
+  <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
     <value>ดาวน์โหลดการอัปเดต</value>
@@ -180,11 +277,23 @@
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
     <value>อัพเดท Presence</value>
   </data>
+  <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 50</value>
+  </data>
+  <data name="buttonConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>เชื่อมต่อ</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
     <value>เชื่อมโยงแอปพลิเคชันกับ ID ที่ระบุพร้อมการตั้งค่าสถานะ</value>
+  </data>
+  <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 50</value>
+  </data>
+  <data name="buttonDisconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 24</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
     <value>ตัดการเชื่อมต่อ</value>
@@ -213,11 +322,17 @@
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>ชื่อของเนื้อหาสำหรับรูปภาพขนาดใหญ่</value>
   </data>
+  <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 14</value>
+  </data>
   <data name="labelSmall.Text" xml:space="preserve">
     <value>รูปภาพขนาดเล็ก</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
     <value>รูปภาพที่แสดงขึ้นที่มุมขวาล่างของรูปภาพขนาดใหญ่</value>
+  </data>
+  <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 14</value>
   </data>
   <data name="labelLarge.Text" xml:space="preserve">
     <value>รูปภาพขนาดใหญ่</value>
@@ -225,17 +340,26 @@
   <data name="labelLarge.ToolTip" xml:space="preserve">
     <value>รูปภาพที่แสดงอยู่ด้านซ้ายของข้อความที่ตั้งค่าไว้ด้านบน</value>
   </data>
+  <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 18</value>
+  </data>
   <data name="radioButtonNone.Text" xml:space="preserve">
     <value>ไม่มี</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
     <value>ไม่มีการเปิดใช้งาน Timestamps</value>
   </data>
+  <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 18</value>
+  </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
     <value>ตั้งแต่ CustomRP เริ่มทำงาน</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
     <value>แสดงเวลาตั้งแต่แอปพลิเคชันเริ่มทำงาน</value>
+  </data>
+  <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 18</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
     <value>เวลาท้องถิ่นของคุณ</value>
@@ -251,17 +375,26 @@
     <value>จำนวนผู้เล่นในปาร์ตี้ปัจจุบันที่แสดงถัดจากช่องสถานะ
 เพื่อให้มีผล ทั้งสองช่องควรมีค่ามากกว่า 0</value>
   </data>
+  <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 18</value>
+  </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
     <value>Timestamp กำหนดเอง</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
     <value>แสดงระยะเวลาที่ผ่านไปตั้งแต่หรือเหลือจนถึงวันที่ที่กำหนดไว้ด้านล่าง</value>
   </data>
+  <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 14</value>
+  </data>
   <data name="labelButton1.Text" xml:space="preserve">
     <value>ปุ่มที่หนึ่ง</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
     <value>ปุ่มแรกจากสองปุ่มที่แสดงขึ้นภายใต้สถานะของคุณในโปรไฟล์ของคุณจะปรากฏขึ้น และทางด้านขวาของโปรไฟล์แบบเต็ม</value>
+  </data>
+  <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 14</value>
   </data>
   <data name="labelButton2.Text" xml:space="preserve">
     <value>ปุ่มที่สอง</value>
@@ -281,19 +414,10 @@
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
     <value>ข้อความของปุ่มที่สอง</value>
   </data>
+  <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 14</value>
+  </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>ของ</value>
-  </data>
-  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
-    <value>ค่าเริ่มต้น</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>ภาษา</value>
-  </data>
-  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>ตรวจสอบสำหรับการอัพเดต...</value>
-  </data>
-  <data name="openToolStripMenuItem.Text" xml:space="preserve">
-    <value>เปิด</value>
   </data>
 </root>

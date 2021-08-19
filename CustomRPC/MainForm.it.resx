@@ -124,8 +124,11 @@
     <value>L'applicazione verrà eseguita nella tray.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 54</value>
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Apri</value>
   </data>
   <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
     <value>135, 22</value>
@@ -141,6 +144,9 @@
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
     <value>Esci</value>
+  </data>
+  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 76</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 22</value>
@@ -172,12 +178,6 @@
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
     <value>Esci</value>
   </data>
-  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 20</value>
-  </data>
-  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Impostazioni</value>
-  </data>
   <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>193, 22</value>
   </data>
@@ -202,44 +202,62 @@
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
     <value>190, 6</value>
   </data>
+  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>Predefinito</value>
+  </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>193, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Lingua</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 20</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Impostazioni</value>
+  </data>
+  <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 22</value>
+  </data>
+  <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
+    <value>Apri il manuale</value>
+  </data>
+  <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 22</value>
+  </data>
+  <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pagina GitHub</value>
+  </data>
+  <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 6</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 22</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Traduttori</value>
+  </data>
+  <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 6</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 22</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verifica aggiornamenti...</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Informazioni su...</value>
   </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 20</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>Aiuto</value>
-  </data>
-  <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>Apri il manuale</value>
-  </data>
-  <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Pagina GitHub</value>
-  </data>
-  <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 6</value>
-  </data>
-  <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Traduttori</value>
-  </data>
-  <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 6</value>
-  </data>
-  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>Informazioni su...</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>143, 20</value>
@@ -248,10 +266,10 @@
     <value>Scarica Aggiornamento</value>
   </data>
   <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
-    <value>202, 433</value>
+    <value>180, 433</value>
   </data>
   <data name="buttonUpdatePresence.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 24</value>
+    <value>127, 24</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
     <value>Aggiorna la presenza</value>
@@ -390,19 +408,7 @@ Per avere effetto, entrambi i valori devono essere superiori a 0.</value>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>su</value>
   </data>
-  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
-    <value>Predefinito</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Lingua</value>
-  </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>File</value>
-  </data>
-  <data name="openToolStripMenuItem.Text" xml:space="preserve">
-    <value>Apri</value>
-  </data>
-  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Verifica aggiornamenti...</value>
   </data>
 </root>

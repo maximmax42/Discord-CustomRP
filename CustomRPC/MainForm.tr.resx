@@ -118,303 +118,366 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>Dvou-klik na ikonu pro znovu-zobrazení, nebo klikni pravým pro ukončení.</value>
+    <value>Tekrar göstermek için ikona çift tıklayın, ya da çıkmak için sağ tıklayın.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>Aplikace poběží na pozadí.</value>
+    <value>Program görev çubuğunda çalışmaya devam edecek.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 76</value>
-  </data>
   <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 22</value>
+    <value>144, 22</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
-    <value>Otevřít</value>
+    <value>Aç</value>
   </data>
   <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 22</value>
+    <value>144, 22</value>
   </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
-    <value>Znovu připojit</value>
+    <value>Tekrar Bağlan</value>
   </data>
   <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 6</value>
+    <value>141, 6</value>
   </data>
   <data name="trayMenuQuit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 22</value>
+    <value>144, 22</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
-    <value>Ukončit</value>
+    <value>Çıkış</value>
   </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
-  </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Soubor</value>
+  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 76</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>199, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Načíst předvolbu</value>
+    <value>Ön Ayar Yükle</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>199, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Uložit předvolbu</value>
+    <value>Ön Ayarı Kaydet</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 6</value>
+    <value>196, 6</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>199, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Nahrát assety</value>
+    <value>Şemaları yükle</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 6</value>
+    <value>196, 6</value>
   </data>
   <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>199, 22</value>
   </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ukončit</value>
+    <value>Çıkış</value>
   </data>
-  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 20</value>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
   </data>
-  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Nastavení</value>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dosya</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 22</value>
+    <value>214, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Spustit při startu</value>
+    <value>Sistem açılışında çalıştır</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 22</value>
+    <value>214, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Spustit na liště</value>
+    <value>Küçültülmüş şekilde başlat</value>
   </data>
   <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 6</value>
+    <value>211, 6</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 22</value>
+    <value>214, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Vyhledat aktualizace</value>
+    <value>Güncellemeleri kontrol et</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 6</value>
+    <value>211, 6</value>
   </data>
-  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 22</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Jazyk</value>
+  <data name="defaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
   </data>
   <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
-    <value>Výchozí</value>
+    <value>Varsayılan</value>
   </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 6</value>
   </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Pomoc</value>
+  <data name="agERToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="csToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="deToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="enToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="esToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="frToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="heToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="itToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="kuToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="ltToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="nlToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="plToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="ptBRToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="ruToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="thToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="trToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="viToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="zhhansToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="zhhantToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ayarlar</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
+    <value>216, 22</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>Otevřít manuál</value>
+    <value>Kılavuzu Aç</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
+    <value>216, 22</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>GitHub Stránka</value>
+    <value>GitHub sayfası</value>
   </data>
   <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 6</value>
+    <value>213, 6</value>
   </data>
   <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
+    <value>216, 22</value>
   </data>
   <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Překladatelé</value>
+    <value>Çevirenler</value>
   </data>
   <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 6</value>
+    <value>213, 6</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
+    <value>216, 22</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Vyhledat aktualizace...</value>
+    <value>Güncellemeleri kontrol et...</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
+    <value>216, 22</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>Podobnosti...</value>
+    <value>Hakkında...</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Yardım</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 20</value>
+    <value>122, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Stáhnout aktualizace</value>
-  </data>
-  <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
-    <value>167, 433</value>
-  </data>
-  <data name="buttonUpdatePresence.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 24</value>
+    <value>Güncellemeyi yükle</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Aktualizovat přítomnost</value>
+    <value>Durumu güncelle</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Aktualizuje přítomnost.</value>
+    <value>Durum günceller.</value>
+  </data>
+  <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 50</value>
+  </data>
+  <data name="buttonConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 24</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
-    <value>Připojit</value>
+    <value>Bağlan</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Propojí aplikaci se zadaným ID s nastavenou přítomností.</value>
+    <value>Uygulamayı, ayarlanmış durum ile belirtilen kimliğe bağlar.</value>
+  </data>
+  <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 50</value>
+  </data>
+  <data name="buttonDisconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 24</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
-    <value>Odpojit</value>
+    <value>Bağlantıyı Kes</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Odpojí aplikaci od Discordu. Upozorňujeme, že to může chvíli trvat.</value>
+    <value>Uygulamanın Discord ile Bağlantısını Keser. Biraz zaman alabileceğini unutmayın.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>ID aplikace z webu Discord Developers.</value>
+    <value>Discord Developers sitesindeki uygulama kimliği.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>První řádek v přítomnosti.</value>
+    <value>Durumun İlk Satırı.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>Druhý řádek v přítomnosti.</value>
+    <value>Durumun İkinci Satırı.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Název souboru pro malý obrázek.</value>
+    <value>Küçük Resim için şemanın ismi.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>Text který se zobrazí při najetí na malý obrázek.</value>
+    <value>Küçük Resimin üstüne gelindiğinde çıkması istenen metin.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>Text který se zobrazí při najetí na velký obrázek.</value>
+    <value>Büyük Resimin üstüne gelindiğinde çıkması istenen metin.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Název souboru pro velký obrázek.</value>
+    <value>Büyük Resim için şemanın ismi.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 14</value>
+    <value>75, 14</value>
   </data>
   <data name="labelSmall.Text" xml:space="preserve">
-    <value>Malý obrázek</value>
+    <value>Küçük Resim</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>Obrázek, který se zobrazuje v pravém dolním rohu velkého obrázku.</value>
-  </data>
-  <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 14</value>
+    <value>Büyük Resimin sağ alt köşesinde gözükmesi istenen resim.</value>
   </data>
   <data name="labelLarge.Text" xml:space="preserve">
-    <value>Velký obrázek</value>
+    <value>Büyük Resim</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>Obrázek, který se zobrazuje vlevo od textu nastaveného výše.</value>
+    <value>Yukarıdaki metnin solunda gösterilen resim.</value>
   </data>
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 18</value>
+    <value>56, 18</value>
   </data>
   <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>Žádný</value>
+    <value>Hiçbiri</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Nejsou povolena žádná časová razítka.</value>
+    <value>Zaman damgası aktif değil.</value>
   </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 18</value>
+    <value>179, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>Od spuštění CustomRP</value>
+    <value>CustomRP başladığından beri</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>Zobrazuje čas od spuštění aplikace.</value>
+    <value>Uygulama başladığından beri geçen süreyi gösterir.</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 18</value>
+    <value>95, 18</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>Váš místní čas</value>
+    <value>Yerel saatiniz</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>Zobrazuje váš aktuální čas ve 24hodinovém formátu.</value>
+    <value>Yerel saatinizi 24 saat biçimde gösterir.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Nastaví časové razítko stavu, které se zobrazí pod veškerým textem výše.
-Časovače stavu mají 24hodinový limit, což znamená, že po 24 hodinách se čas vrátí na 0:00.</value>
+    <value>Yukarıdaki metinlerin altında gözüken durum için zaman damgasını ayarlar.
+Durum Zamanlayıcısının 24 saat sınırı vardır, yani 24 saatten sonra 0:00'a geri dönecektir.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>Počet hráčů v aktuální skupině, který se zobrazuje vedle pole Stát.
-Aby se projevily, obě pole by měla být větší než 0.</value>
+    <value>Durum alanının yanında gösterilen mevcut partideki oyuncu sayısı.
+Etkili olması için, İki alan da 0'dan büyük olmadılır.</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 18</value>
+    <value>133, 18</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>Vlastní časové razítko</value>
+    <value>Özel zaman damgası</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
-    <value>Ukazuje, kolik času uplynulo od nebo zbývá do data nastaveného níže.</value>
+    <value>Aşağıda ayarlanan tarihten bu yana ne kadar zaman geçtiğini veya geriye ne kadar kaldığını gösterir.</value>
   </data>
   <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 14</value>
+    <value>57, 14</value>
   </data>
   <data name="labelButton1.Text" xml:space="preserve">
-    <value>Tlačítko 1</value>
+    <value>Düğme 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>První ze dvou tlačítek, která se zobrazují pod vaším stavem ve vyskakovacím okně vašeho profilu a na pravé straně v úplném profilu.</value>
+    <value>Açılan küçük profilideki durumuzun sağ altında gözüken iki düğmeden ilki.</value>
   </data>
   <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 14</value>
+    <value>57, 14</value>
   </data>
   <data name="labelButton2.Text" xml:space="preserve">
-    <value>Tlačítko 2</value>
+    <value>Düğme 2</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>Druhé tlačítko, které se zobrazí přímo pod prvním tlačítkem nebo místo něj, pokud není nastaveno první.</value>
+    <value>İlk düğmenin hemen altında veya ilk düğme ayarlanmamışsa onun yerine görünen ikinci düğme.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>Adresa URL, na kterou se uživatel po kliknutí dostane.</value>
+    <value>URL, düğmeye tıkladıktan sonra kullanıcıda açılacaktır.</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>Adresa URL, na kterou se uživatel po kliknutí dostane.</value>
+    <value>URL, düğmeye tıkladıktan sonra kullanıcıda açılacaktır.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
-    <value>Název prvního tlačítka.</value>
+    <value>İlk düğmenin etiketi.</value>
   </data>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
-    <value>Název prvního tlačítka.</value>
-  </data>
-  <data name="labelPartyOf.Location" type="System.Drawing.Point, System.Drawing">
-    <value>344, 114</value>
+    <value>İkinci düğmenin etiketi.</value>
   </data>
   <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
-    <value>12, 14</value>
+    <value>23, 14</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
-    <value>z</value>
+    <value>nın</value>
   </data>
 </root>
