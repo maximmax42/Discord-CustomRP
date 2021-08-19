@@ -13,17 +13,21 @@ Custom Discord Rich Presence Manager for Windows. Some of its features are run o
 Download the latest version from [Releases](https://github.com/maximmax42/Discord-CustomRP/releases) page and run the .exe installer! Or, if you prefer the portable version, download the zip, unpack it somewhere, preferably in a separate folder, and start it up. Upon starting, you will be prompted to open a setup manual. You can open it later by pressing F1 or going Help -> Open Manual.
 ### Updating
 If you installed the app, updating is literally as easy as running the installer for the newer version. If you use a portable version, please make sure to extract updated files into the same folder as you did before to keep your settings.
+### Troubleshooting & Feedback
+If you have any problems with the app, please check out [FAQ](https://github.com/maximmax42/Discord-CustomRP/wiki/FAQ) first. If it doesn't help, or you have suggestions on making the app more functional, you can open an issue ticket, or contact me on Discord - maximmax42#5572.
+
 
 ## Translations
 So far, the app supports these languages:
 * Arabic-EG (thanks to Shadowl)
-* Czech (thanks to JayJake)
+* Czech (thanks to [JayJake](https://jayjake.eu/))
 * German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA) and binarynoise)
 * English
 * Spanish (thanks to Vexot)
 * French (thanks to Nenaff)
 * Hebrew (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg))
 * Italian (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
+* Central Kurdish (thanks to [SamTheNoob](https://discord.gg/stn69))
 * Lithuanian (thanks to [Psychonaut](https://www.twitch.tv/psychonaut303))
 * Dutch (thanks to [Jeremyzijlemans](https://sionhub.co.uk/))
 * Polish (thanks to Lol1112345.lol12345 and Liso)
@@ -35,6 +39,3 @@ So far, the app supports these languages:
 * Traditional Chinese (thanks to [westxlu](https://linktr.ee/westxlu))
 
 If you want to help translate the app to your language, please go to the [POEditor project page](https://poeditor.com/join/project?hash=2jq0i7ANr1).
-
-## Feedback
-If you have any problems with the app, or you have suggestions on making it more functional, you can open an issue ticket, or contact me on Discord - maximmax42#5572.
