@@ -148,9 +148,6 @@
   <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 76</value>
   </data>
-  <data name="trayMenuStrip.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>224, 22</value>
   </data>
