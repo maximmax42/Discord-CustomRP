@@ -34,6 +34,7 @@ So far, the app supports these languages:
 * Portugese-BR (thanks to viniciotricolor)
 * Russian
 * Thai (thanks to Squishee Freshy)
+* Turkish (thanks to Ozan Akyüz)
 * Vietnamese (thanks to Mykm and Phnthnhnm0612)
 * Simplified Chinese (thanks to Zjsun.ca and zozocha)
 * Traditional Chinese (thanks to [westxlu](https://linktr.ee/westxlu))
