@@ -152,7 +152,7 @@
     <value>224, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>اعدادات محدده مسبقا</value>
+    <value>اعدادات محدده مسبقآ</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>224, 22</value>
@@ -167,7 +167,7 @@
     <value>224, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>رفع المساعدات</value>
+    <value>رفع الصور المساعدة</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>221, 6</value>
@@ -194,7 +194,7 @@
     <value>174, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>البدء المصغر</value>
+    <value>البدء مصغرًا</value>
   </data>
   <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 6</value>
@@ -221,7 +221,7 @@
     <value>58, 20</value>
   </data>
   <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>اعدادات</value>
+    <value>الاعدادات</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>176, 22</value>
@@ -242,7 +242,7 @@
     <value>176, 22</value>
   </data>
   <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>المترجممين</value>
+    <value>المترجمين</value>
   </data>
   <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 6</value>
@@ -271,9 +271,6 @@
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
     <value>تحميل التحديث</value>
   </data>
-  <data name="menuStrip.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
     <value>تحديث الحالة</value>
   </data>
@@ -290,10 +287,10 @@
     <value>انقطاع</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>انقطاع اتصال التطبيق من الديسكورد. ملحوظه هذي العمليه من المحتمل ان تاخذ وقت.</value>
+    <value>قطع اتصال التطبيق من الديسكورد. ملحوظه هذي العمليه من المحتمل ان تاخذ وقت.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>رقم المعرف من التطبيق من موقع مبرمجين الديسكورد.</value>
+    <value>رقم المعرف للتطبيق من صفحة الديسكورد للمبرمجين.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
     <value>اول صف في الحالة.</value>
@@ -305,10 +302,10 @@
     <value>اسم المساعد التابع لصورة الصغيرة.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>الرساله مكتوبة عندما وضع الماوس علي الصورة الصغيرة.</value>
+    <value>الرساله مكتوبة عند وضع الماوس علي الصورة الصغيرة.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>الرسالة مكتوبة عندما وضع الماوس علي الصورة الكبيرة.</value>
+    <value>الرسالة مكتوبة عند وضع الماوس علي الصورة الكبيرة.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>اسم المساعد التابع لصورة الكبيرة.</value>
@@ -417,62 +414,11 @@
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
     <value>كتابة الزر الثاني.</value>
   </data>
-  <data name="dateTimePickerTimestamp.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="panelTimestamps.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
     <value>22, 14</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>من</value>
-  </data>
-  <data name="labelPartyOf.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="statusStrip.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxButton2Text.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxButton2URL.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxButton1URL.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxButton1Text.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="numericUpDownPartySize.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="numericUpDownPartyMax.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxSmallKey.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxSmallText.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxLargeText.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxLargeKey.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxState.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxDetails.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxID.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
@@ -481,8 +427,5 @@
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
   </data>
 </root>

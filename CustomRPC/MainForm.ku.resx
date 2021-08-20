@@ -296,7 +296,7 @@
     <value>88, 24</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
-    <value>انقطاع الاتصال</value>
+    <value>پچڕان</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
     <value>پەیوەندی بەرنامەکە دەپچڕێنێت لەگەڵ دیسکۆرد، تکایە ئاگەدار بە لەوانەیە کەمێکی پێ بچێت.</value>

@@ -125,10 +125,10 @@
     <value>240, 19</value>
   </data>
   <data name="labelMadeBy.Text" xml:space="preserve">
-    <value>تم انشائه بواسطه : maximmax42</value>
+    <value>تم انشائه بواسطة : maximmax42</value>
   </data>
   <data name="buttonClose.Text" xml:space="preserve">
-    <value>اغلاق</value>
+    <value>تصغير</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">

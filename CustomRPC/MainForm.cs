@@ -10,6 +10,7 @@ using System.Net;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 using Application = System.Windows.Forms.Application;
+using Button = System.Windows.Forms.Button;
 using DButton = DiscordRPC.Button;
 using Timer = System.Timers.Timer;
 
@@ -717,7 +718,7 @@ namespace CustomRPC
         {
             settings.Save();
 
-            if (ModifierKeys == Keys.Control)
+            if (ModifierKeys == (Keys.Control | Keys.Shift) && sender is Button)
             {
                 new PipeSelector().ShowDialog(this);
                 return;
