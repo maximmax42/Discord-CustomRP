@@ -1,5 +1,6 @@
 ﻿using CommonMark;
 using DiscordRPC;
+using DiscordRPC.Helper;
 using Octokit;
 using System;
 using System.Collections.Generic;
@@ -49,7 +50,6 @@ namespace CustomRPC
 
         DateTime started = DateTime.UtcNow; // Timestamp of when the app started.
 
-        bool wasTooltipShown = false; // When you minimize, tooltip shows once (that is if Start Minimized is disabled)
         bool loading = true; // To prevent some event handlers from executing while app is loading
         bool toAvoidRecursion = false; // ...This is stupid
 
@@ -83,6 +83,7 @@ namespace CustomRPC
             // Setting up checkboxes because apparently property binding doesn't work
             runOnStartupToolStripMenuItem.Checked = settings.runOnStartup;
             startMinimizedToolStripMenuItem.Checked = settings.startMinimized;
+            autoconnectToolStripMenuItem.Checked = settings.autoconnect;
             checkUpdatesToolStripMenuItem.Checked = settings.checkUpdates;
 
             // Checks the chosen language setting
@@ -126,11 +127,11 @@ namespace CustomRPC
 
             loading = false;
 
-            if (settings.changedLanguage || !settings.startMinimized) Show(); // Starts minimized to tray by default, unless you just changed language
+            // Starts minimized to tray by default, unless you just changed language
+            if (settings.changedLanguage || !settings.startMinimized) Show();
 
-            settings.changedLanguage = false;
-
-            if (settings.id != "" && settings.firstStart) // That means user has upgraded from older version without that flag
+            // That means user has upgraded from older version without that flag
+            if (settings.id != "" && settings.firstStart)
             {
                 settings.firstStart = false;
                 settings.Save();
@@ -148,12 +149,14 @@ namespace CustomRPC
                 settings.firstStart = false;
                 settings.Save();
             }
-            else if (settings.id != "")
+            else if (settings.id != "" && ((settings.changedLanguage && settings.wasConnected) || (settings.autoconnect && !settings.changedLanguage)))
             {
                 Connect();
             }
 
             if (settings.checkUpdates) CheckForUpdates();
+
+            settings.changedLanguage = false;
         }
 
         // If user launches second instance, this activates already running one
@@ -440,11 +443,11 @@ namespace CustomRPC
                 e.Cancel = true;
                 Hide();
 
-                if (!settings.startMinimized && !wasTooltipShown)
+                if (!(settings.startMinimized || settings.wasTooltipShown))
                 {
                     // Show a tooltip if it wasn't shown already and if the app doesn't start minimized 
                     trayIcon.ShowBalloonTip(500);
-                    wasTooltipShown = true;
+                    settings.wasTooltipShown = true;
                 }
             }
         }
@@ -493,6 +496,12 @@ namespace CustomRPC
 
             var preset = (Preset)xs.Deserialize(file);
 
+            file.Close();
+
+            bool wasConnected = buttonDisconnect.Enabled;
+
+            if (wasConnected) Disconnect();
+
             settings.id = preset.ID;
             settings.details = preset.Details;
             settings.state = preset.State;
@@ -518,7 +527,7 @@ namespace CustomRPC
                 case 3: radioButtonCustom.Checked = true; break;
             }
 
-            file.Close();
+            if (wasConnected) Connect();
         }
 
         // Called when you press Save Preset button
@@ -581,6 +590,7 @@ namespace CustomRPC
             // Apparently property binding doesn't work either for checkboxes or for bool variables
             settings.runOnStartup = runOnStartupToolStripMenuItem.Checked;
             settings.startMinimized = startMinimizedToolStripMenuItem.Checked;
+            settings.autoconnect = autoconnectToolStripMenuItem.Checked;
             settings.checkUpdates = checkUpdatesToolStripMenuItem.Checked;
 
             settings.Save();
@@ -596,6 +606,7 @@ namespace CustomRPC
 
             settings.language = (string)lang.Tag;
             settings.changedLanguage = true;
+            settings.wasConnected = buttonDisconnect.Enabled;
             settings.Save();
             Program.AppMutex.Close();
             Application.Restart();
@@ -673,9 +684,8 @@ namespace CustomRPC
         private void LengthValidationFocus(object sender, System.ComponentModel.CancelEventArgs e)
         {
             var box = (TextBox)sender;
-            var length = System.Text.Encoding.UTF8.GetByteCount(box.Text);
 
-            if (length > box.MaxLength)
+            if (!StringTools.WithinLength(box.Text, box.MaxLength))
             {
                 e.Cancel = true;
                 System.Media.SystemSounds.Beep.Play();
@@ -686,15 +696,14 @@ namespace CustomRPC
         private void LengthValidation(object sender, EventArgs e)
         {
             var box = (TextBox)sender;
-            var length = System.Text.Encoding.UTF8.GetByteCount(box.Text);
 
-            if (length > box.MaxLength)
+            if (StringTools.WithinLength(box.Text, box.MaxLength))
             {
-                box.BackColor = errorColor;
+                box.BackColor = defaultColor;
             }
             else
             {
-                box.BackColor = defaultColor;
+                box.BackColor = errorColor;
             }
         }
 

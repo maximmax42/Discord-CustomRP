@@ -479,4 +479,7 @@
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>из</value>
   </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Подключаться автоматически</value>
+  </data>
 </root>

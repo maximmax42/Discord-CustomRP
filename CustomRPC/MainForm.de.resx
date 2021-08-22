@@ -342,7 +342,7 @@
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>Setzt Zeitstempel für den Status, welcher unter dem obigen Text angezeigt wird. 
-Status Timer haben ein Limit von 24 Stunden. Das bedeutet, dass der Zeitstempel nach 24 Stunden auf 0:00 gesetzt wird.</value>
+Status Timer haben ein Limit von 24 Stunden, das bedeutet, dass der Zeitstempel nach 24 Stunden auf 0:00 gesetzt wird.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
     <value>Anzahl der Spieler in der aktuellen Gruppe, die neben dem Feld "State" angezeigt werden.
@@ -411,5 +411,8 @@ Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>Suche nach Aktualisierungen...</value>
+  </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Automatisch verbinden</value>
   </data>
 </root>

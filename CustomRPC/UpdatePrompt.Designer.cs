@@ -43,24 +43,24 @@
             // 
             // buttonUpdate
             // 
-            resources.ApplyResources(this.buttonUpdate, "buttonUpdate");
             this.buttonUpdate.AutoEllipsis = true;
             this.buttonUpdate.DialogResult = System.Windows.Forms.DialogResult.Yes;
+            resources.ApplyResources(this.buttonUpdate, "buttonUpdate");
             this.buttonUpdate.Name = "buttonUpdate";
             this.buttonUpdate.UseVisualStyleBackColor = true;
             // 
             // pictureBoxLogo
             // 
-            resources.ApplyResources(this.pictureBoxLogo, "pictureBoxLogo");
             this.pictureBoxLogo.Image = global::CustomRPC.Properties.Resources.logo;
+            resources.ApplyResources(this.pictureBoxLogo, "pictureBoxLogo");
             this.pictureBoxLogo.Name = "pictureBoxLogo";
             this.pictureBoxLogo.TabStop = false;
             // 
             // buttonNotNow
             // 
-            resources.ApplyResources(this.buttonNotNow, "buttonNotNow");
             this.buttonNotNow.AutoEllipsis = true;
             this.buttonNotNow.DialogResult = System.Windows.Forms.DialogResult.No;
+            resources.ApplyResources(this.buttonNotNow, "buttonNotNow");
             this.buttonNotNow.Name = "buttonNotNow";
             this.buttonNotNow.UseVisualStyleBackColor = true;
             // 
@@ -88,9 +88,9 @@
             // 
             // buttonSkipUpdate
             // 
-            resources.ApplyResources(this.buttonSkipUpdate, "buttonSkipUpdate");
             this.buttonSkipUpdate.AutoEllipsis = true;
             this.buttonSkipUpdate.DialogResult = System.Windows.Forms.DialogResult.Ignore;
+            resources.ApplyResources(this.buttonSkipUpdate, "buttonSkipUpdate");
             this.buttonSkipUpdate.Name = "buttonSkipUpdate";
             this.buttonSkipUpdate.UseVisualStyleBackColor = true;
             // 
@@ -98,12 +98,11 @@
             // 
             resources.ApplyResources(this.htmlPanelChangelog, "htmlPanelChangelog");
             this.htmlPanelChangelog.BackColor = System.Drawing.SystemColors.Window;
-            this.htmlPanelChangelog.BaseStylesheet = "* {\r\nfont: Tahoma, sans-serif;\r\n}\r\n\r\np {\r\nmargin-left: 0.5em\r\n}\r\n\r\nh3 {\r\nmargin: " +
-    "0;\r\nmargin-left: 0.25em\r\n}\r\n\r\nul {\r\nmargin-top: 0.5em;\r\nmargin-bottom: 0.5em;\r\nm" +
-    "argin-left: 1.5em;\r\nfont-size: 1em;\r\n}";
+            this.htmlPanelChangelog.BaseStylesheet = resources.GetString("htmlPanelChangelog.BaseStylesheet");
             this.htmlPanelChangelog.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.htmlPanelChangelog.Cursor = System.Windows.Forms.Cursors.Default;
             this.htmlPanelChangelog.Name = "htmlPanelChangelog";
+            this.htmlPanelChangelog.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.htmlPanelChangelog.UseGdiPlusTextRendering = true;
             // 
             // UpdatePrompt

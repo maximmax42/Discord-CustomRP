@@ -408,4 +408,7 @@ Kad abu laukai įsigaliotų, jie turėtų būti didesni nei 0.</value>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>iš</value>
   </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Automatinis prisijungimas</value>
+  </data>
 </root>

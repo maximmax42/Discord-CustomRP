@@ -150,7 +150,7 @@ Możesz ją otworzyć w dowolnym momencie przyciskając F1 lub wchodząc do kart
     <value>Rozłączono</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>Błąd połączenia (Sprawdź ponownie ID?)</value>
+    <value>Błąd połączenia (Złe ID?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
     <value>Link podany dla przycisk(u, ów) jest niepoprawny lub jest za długi!</value>

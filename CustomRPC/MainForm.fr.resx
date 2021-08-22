@@ -423,4 +423,7 @@ Pour prendre effet, les deux champs doivent être supérieurs à 0.</value>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>de</value>
   </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Se connecter automatiquement</value>
+  </data>
 </root>

@@ -71,5 +71,14 @@
     <Setting Name="pipe" Type="System.Decimal" Scope="User">
       <Value Profile="(Default)">-1</Value>
     </Setting>
+    <Setting Name="wasConnected" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="autoconnect" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="wasTooltipShown" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

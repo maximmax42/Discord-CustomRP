@@ -161,7 +161,7 @@
     <value>212, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Udostępnij zdjęcie</value>
+    <value>Wrzuć zdjęcie</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>209, 6</value>
@@ -239,7 +239,7 @@
     <value>122, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Pobierz aktualizacje</value>
+    <value>Pobierz aktualizację</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
     <value>Zaktualizuj status</value>
@@ -257,7 +257,7 @@
     <value>Rozłącz</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Rozłącza CustomRP od discorda (wyłączy status). Pamiętaj że to może chwilę potrwać.</value>
+    <value>Rozłącza CustomRP od discorda (wyłączy status). To może chwilę potrwać.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>ID aplikacji ze strony dla deweloperów discorda.</value>
@@ -320,7 +320,7 @@
     <value>119, 18</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>Twój lokalny czas</value>
+    <value>Aktualna godzina</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
     <value>Pokazuje twój aktualny czas w formacie 24-godzinnym.</value>
@@ -386,5 +386,8 @@ Jeżeli ma mieć jakikolwiek efekt, obydwa pola muszą być większe od 0.</valu
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>Otwórz</value>
+  </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Automatyczne łączenie</value>
   </data>
 </root>
