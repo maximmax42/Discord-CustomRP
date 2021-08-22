@@ -709,6 +709,13 @@
     <value>Squishee Freshy</value>
     <comment>@Invariant</comment>
   </data>
+  <data name="gameToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 22</value>
+  </data>
+  <data name="gameToolStripMenuItem.Text" xml:space="preserve">
+    <value>Game</value>
+    <comment>@Invariant</comment>
+  </data>
   <data name="turkishToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -2332,6 +2339,12 @@ To take effect, both fields should be more than 0.</value>
   <data name="&gt;&gt;heToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;idToolStripMenuItem.Name" xml:space="preserve">
+    <value>idToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;idToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;itToolStripMenuItem.Name" xml:space="preserve">
     <value>itToolStripMenuItem</value>
   </data>
@@ -2512,22 +2525,40 @@ To take effect, both fields should be more than 0.</value>
   <data name="&gt;&gt;galaxy6430ToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;indonesianToolStripMenuItem.Name" xml:space="preserve">
+    <value>indonesianToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;indonesianToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hapnanToolStripMenuItem.Name" xml:space="preserve">
+    <value>hapnanToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;hapnanToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;apolyciousToolStripMenuItem.Name" xml:space="preserve">
+    <value>apolyciousToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;apolyciousToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;italianToolStripMenuItem.Name" xml:space="preserve">
     <value>italianToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;italianToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;djd320ToolStripMenuItem.Name" xml:space="preserve">
-    <value>djd320ToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;djd320ToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;cubeToolStripMenuItem.Name" xml:space="preserve">
     <value>cubeToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;cubeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;djd320ToolStripMenuItem.Name" xml:space="preserve">
+    <value>djd320ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;djd320ToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;kurdishToolStripMenuItem.Name" xml:space="preserve">
@@ -2722,28 +2753,10 @@ To take effect, both fields should be more than 0.</value>
   <data name="&gt;&gt;toolStripStatusLabelStatus.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;idToolStripMenuItem.Name" xml:space="preserve">
-    <value>idToolStripMenuItem</value>
+  <data name="&gt;&gt;gameToolStripMenuItem.Name" xml:space="preserve">
+    <value>gameToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;idToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;indonesianToolStripMenuItem.Name" xml:space="preserve">
-    <value>indonesianToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;indonesianToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hapnanToolStripMenuItem.Name" xml:space="preserve">
-    <value>hapnanToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;hapnanToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;apolyciousToolStripMenuItem.Name" xml:space="preserve">
-    <value>apolyciousToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;apolyciousToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;gameToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

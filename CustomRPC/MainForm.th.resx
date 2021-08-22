@@ -420,4 +420,7 @@
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>ของ</value>
   </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>เชื่อมต่ออัตโนมัติ</value>
+  </data>
 </root>
