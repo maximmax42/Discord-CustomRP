@@ -14,7 +14,7 @@ Download the latest version from [Releases](https://github.com/maximmax42/Discor
 ### Updating
 If you installed the app, updating is literally as easy as running the installer for the newer version. If you use a portable version, please make sure to extract updated files into the same folder as you did before to keep your settings.
 ### Troubleshooting & Feedback
-If you have any problems with the app, please check out [FAQ](https://github.com/maximmax42/Discord-CustomRP/wiki/FAQ) first. If it doesn't help, or you have suggestions on making the app more functional, you can open an issue ticket, or contact me on Discord - maximmax42#5572.
+If you have any problems with the app, please check out [FAQ](https://github.com/maximmax42/Discord-CustomRP/wiki/FAQ) first. If it doesn't help, or you have suggestions on making the app more functional, you can open an issue ticket, use Discussions, or contact me on Discord - maximmax42#5572.
 
 
 ## Translations
