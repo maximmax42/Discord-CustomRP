@@ -368,7 +368,7 @@
     <value>แสดงเวลาปัจจุบันของคุณในรูปแบบ 24 ชั่วโมง</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>ตั้งค่าการประทับเวลาสำหรับสถานะ ซึ่งแสดงขึ้นใต้ข้อความด้านบนทั้งหมด
+    <value>ตั้งค่า Timestamp สำหรับสถานะ ซึ่งแสดงขึ้นใต้ข้อความด้านบนทั้งหมด
 ตัวจับเวลาสถานะมีขีดจำกัด 24 ชั่วโมง ซึ่งหมายความว่าหลังจาก 24 ชั่วโมงจะกลับไปเป็น 0:00 น.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
@@ -379,7 +379,7 @@
     <value>141, 18</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>Timestamp กำหนดเอง</value>
+    <value>Timestamp แบบกำหนดเอง</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
     <value>แสดงระยะเวลาที่ผ่านไปตั้งแต่หรือเหลือจนถึงวันที่ที่กำหนดไว้ด้านล่าง</value>

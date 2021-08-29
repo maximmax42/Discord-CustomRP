@@ -296,4 +296,7 @@
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>開啟</value>
   </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>自動連線</value>
+  </data>
 </root>

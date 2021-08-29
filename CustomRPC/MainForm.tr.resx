@@ -480,4 +480,7 @@ Etkili olması için, İki alan da 0'dan büyük olmadılır.</value>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>nın</value>
   </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Otomatik Bağlan</value>
+  </data>
 </root>

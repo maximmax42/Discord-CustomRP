@@ -488,4 +488,7 @@
   <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>חיבןר אוטומטי</value>
+  </data>
 </root>
