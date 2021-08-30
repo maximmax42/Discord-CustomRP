@@ -26,6 +26,7 @@ So far, the app supports these languages:
 * Spanish (thanks to Vexot)
 * French (thanks to Nenaff)
 * Hebrew (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg))
+* Hungarian (thanks to [Botond Balla](https://github.com/BallaBotond))
 * Indonesian (thanks to Hapnan and Apolycious)
 * Italian (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
 * Central Kurdish (thanks to [SamTheNoob](https://discord.gg/stn69))
@@ -36,7 +37,7 @@ So far, the app supports these languages:
 * Russian
 * Thai (thanks to Squishee Freshy)
 * Turkish (thanks to Ozan Akyüz)
-* Vietnamese (thanks to Mykm and Phnthnhnm0612)
+* Vietnamese (thanks to Mykm, Phnthnhnm0612 and dsbachle)
 * Simplified Chinese (thanks to Zjsun.ca and zozocha)
 * Traditional Chinese (thanks to [westxlu](https://linktr.ee/westxlu))
 
