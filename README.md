@@ -14,7 +14,7 @@ Download the latest version from [Releases](https://github.com/maximmax42/Discor
 ### Updating
 If you installed the app, updating is literally as easy as running the installer for the newer version. If you use a portable version, please make sure to extract updated files into the same folder as you did before to keep your settings.
 ### Troubleshooting & Feedback
-If you have any problems with the app, please check out [FAQ](https://github.com/maximmax42/Discord-CustomRP/wiki/FAQ) first. If it doesn't help, or you have suggestions on making the app more functional, you can open an issue ticket, or contact me on Discord - maximmax42#5572.
+If you have any problems with the app, please check out [FAQ](https://github.com/maximmax42/Discord-CustomRP/wiki/FAQ) first. If it doesn't help, or you have suggestions on making the app more functional, you can open an issue ticket, use Discussions, or contact me on Discord - maximmax42#5572.
 
 
 ## Translations
@@ -22,21 +22,23 @@ So far, the app supports these languages:
 * Arabic-EG (thanks to Shadowl)
 * Czech (thanks to [JayJake](https://jayjake.eu/))
 * German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA) and binarynoise)
+* Greek (thanks to Alex Grivas)
 * English
 * Spanish (thanks to Vexot)
 * French (thanks to Nenaff)
 * Hebrew (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg))
+* Hungarian (thanks to [Botond Balla](https://github.com/BallaBotond))
 * Indonesian (thanks to Hapnan and Apolycious)
 * Italian (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
 * Central Kurdish (thanks to [SamTheNoob](https://discord.gg/stn69))
-* Lithuanian (thanks to [Psychonaut](https://www.twitch.tv/psychonaut303))
+* Lithuanian (thanks to [White Rose](https://www.twitch.tv/psychonaut303))
 * Dutch (thanks to [Jeremyzijlemans](https://sionhub.co.uk/))
 * Polish (thanks to Lol1112345.lol12345 and Liso)
 * Portugese-BR (thanks to viniciotricolor)
 * Russian
 * Thai (thanks to Squishee Freshy)
 * Turkish (thanks to Ozan Akyüz)
-* Vietnamese (thanks to Mykm and Phnthnhnm0612)
+* Vietnamese (thanks to Mykm, Phnthnhnm0612 and dsbachle)
 * Simplified Chinese (thanks to Zjsun.ca and zozocha)
 * Traditional Chinese (thanks to [westxlu](https://linktr.ee/westxlu))
 
