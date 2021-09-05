@@ -22,6 +22,7 @@ So far, the app supports these languages:
 * Arabic-EG (thanks to Shadowl)
 * Czech (thanks to [JayJake](https://jayjake.eu/))
 * German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA) and binarynoise)
+* Greek (thanks to Alex Grivas)
 * English
 * Spanish (thanks to Vexot)
 * French (thanks to Nenaff)
