@@ -48,7 +48,7 @@ namespace CustomRPC
 
         List<DButton> buttonsList = new List<DButton>(); // List of custom buttons
 
-        DateTime started = DateTime.UtcNow; // Timestamp of when the app started.
+        DateTime timestampStarted = DateTime.UtcNow; // Timestamp of when the app started
 
         bool loading = true; // To prevent some event handlers from executing while app is loading
         bool toAvoidRecursion = false; // ...This is stupid
@@ -110,7 +110,7 @@ namespace CustomRPC
             }
 
             // Enable or disable the date and time picker depending on whether a custom timestamp setting is chosen
-            dateTimePickerTimestamp.Enabled = settings.timestamps == 3;
+            dateTimePickerTimestamp.Enabled = radioButtonCustom.Checked;
 
             // Change the date and time picker's format according to system's culture
             dateTimePickerTimestamp.CustomFormat = CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern + " " + CultureInfo.CurrentCulture.DateTimeFormat.LongTimePattern;
@@ -124,6 +124,9 @@ namespace CustomRPC
 
             // Localize the header of the tooltip because Visual Studio can't do that for some reason
             toolTipInfo.ToolTipTitle = Strings.information;
+
+            // Localize the Disconnect button in the tray menu
+            trayMenuDisconnect.Text = buttonDisconnect.Text;
 
             loading = false;
 
@@ -405,7 +408,7 @@ namespace CustomRPC
             switch (settings.timestamps)
             {
                 case 0: break;
-                case 1: rp.Timestamps = new Timestamps(started); break;
+                case 1: rp.Timestamps = new Timestamps(timestampStarted); break;
                 case 2: rp.Timestamps = new Timestamps(DateTime.UtcNow.Subtract(new TimeSpan(DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second))); break;
                 case 3:
                     DateTime customTimestamp = dateTimePickerTimestamp.Value.ToUniversalTime();
@@ -737,6 +740,7 @@ namespace CustomRPC
             {
                 buttonConnect.Enabled = false; // ...disable Connect button...
                 buttonDisconnect.Enabled = true; // ...enable Disconnect button...
+                trayMenuDisconnect.Enabled = true; // ...enable Disconnect button in tray menu...
                 textBoxID.ReadOnly = true; // ...make the ID field read only...
                 buttonUpdatePresence.Enabled = true; // ...enable Update Presence button...
                 toolStripStatusLabelStatus.Text = Strings.statusConnecting; // and update the connection status label
@@ -754,6 +758,7 @@ namespace CustomRPC
         {
             buttonConnect.Enabled = true;
             buttonDisconnect.Enabled = false;
+            trayMenuDisconnect.Enabled = false;
             buttonUpdatePresence.Enabled = false;
             textBoxID.ReadOnly = false;
             toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
