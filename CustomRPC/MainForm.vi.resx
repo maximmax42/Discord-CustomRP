@@ -431,6 +431,6 @@ Thời gian của trạng thái có giới hạn là 24 giờ, nghĩa là sau 24
     <value>NoControl</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tự động kêt nối</value>
+    <value>Tự động kết nối</value>
   </data>
 </root>
