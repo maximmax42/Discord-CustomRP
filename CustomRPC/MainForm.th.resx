@@ -287,7 +287,7 @@
     <value>เชื่อมต่อ</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>เชื่อมโยงแอปพลิเคชันกับ ID ที่ระบุพร้อมการตั้งค่าสถานะ</value>
+    <value>เชื่อมโยงแอปพลิเคชันกับ ID ที่ระบุไว้ พร้อมการตั้งค่าสถานะ</value>
   </data>
   <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>328, 50</value>
@@ -406,7 +406,7 @@
     <value>URL ปุ่มจะนำผู้ใช้ไป เมื่อคลิก</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>URL ปุ่มจะนำผู้ใช้ไปเมื่อคลิก</value>
+    <value>URL ปุ่มจะนำผู้ใช้ไป เมื่อคลิก</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
     <value>ข้อความของปุ่มที่หนึ่ง</value>
@@ -421,6 +421,6 @@
     <value>ของ</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>เชื่อมต่ออัตโนมัติ</value>
+    <value>เชื่อมต่อโดยอัตโนมัติ</value>
   </data>
 </root>

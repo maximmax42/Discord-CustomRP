@@ -156,7 +156,7 @@
     <value>URL ที่ระบุไม่ถูกต้องสำหรับปุ่มหรือข้อความยาวเกินไป!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
-    <value>ไม่สามารถเชื่อมต่ออินเทอร์เน็ตได้!</value>
+    <value>ไม่สามารถเชื่อมต่อกับอินเทอร์เน็ตได้!</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
     <value>ไม่พบการอัพเดต!</value>
