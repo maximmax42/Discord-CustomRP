@@ -153,10 +153,10 @@
     <value>שגיאת חיבור (ID שגוי?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>כתובת (URL) שגוי לכפתור/ים!</value>
+    <value>כתובת (URL) שגוי לכפתור/ים או שהטקסט ארוך מידי!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
-    <value>אי אפשר להתחבר אינטרנט!</value>
+    <value>אי אפשר להתחבר לאינטרנט!</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
     <value>לא נמצאו עדכונים!</value>

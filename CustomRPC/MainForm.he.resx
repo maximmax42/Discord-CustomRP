@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>לחיצה קפולה בסמל בשביל להראות אותו שוב, או לחיצה אחת כלי לצאת.</value>
+    <value>לחיצה כפולה בסמל בשביל להראות אותו שוב, או לחיצה אחת כלי לצאת.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
     <value>התוכנה תרוץ ברקע.</value>
@@ -188,7 +188,7 @@
     <value>188, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>הרץ בהפלעת המחשב</value>
+    <value>הרץ בהפעלת המחשב</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>188, 22</value>
@@ -305,7 +305,7 @@
     <value>180, 22</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>בדוק לעדכונים...</value>
+    <value>בדוק עדכונים זמינים...</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
@@ -341,10 +341,10 @@
     <value>התנתק</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>מנתח את התוכנה מהדיסקורד. זה יקח קמה רגעים.</value>
+    <value>מנתח את התוכנה מהדיסקורד. זה יקח כמה רגעים.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>הID מה"אפליקציה" מהDiscord Developers.</value>
+    <value>הID מה"אפליקציה" של Discord Developers.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
     <value>השורה הראשונה בסטטוס.</value>
@@ -416,7 +416,7 @@
     <value>הזמן המקומי שלך</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>מראה את השעה שלך בפורמט 23 שעות.</value>
+    <value>מראה את השעה הנוכחית שלך בפורמט 24 שעות.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>מגדיר את החותמת זמן של הסטטוס, שנראה מתחת לכל הטקסט שמתחת.
@@ -433,7 +433,7 @@
     <value>165, 18</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>חותמת זמן מותאם אישית</value>
+    <value>חותמת זמן מותאמת אישית</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
     <value>מראה כמה זמן עבר מאז או שנותר לתאריך שנקבע למטה.</value>
@@ -489,6 +489,6 @@
     <value>True</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>חיבןר אוטומטי</value>
+    <value>חיבור אוטומטי</value>
   </data>
 </root>
