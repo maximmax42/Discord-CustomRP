@@ -128,6 +128,9 @@ namespace CustomRPC
             // Localize the Disconnect button in the tray menu
             trayMenuDisconnect.Text = buttonDisconnect.Text;
 
+            // Localize the statusbar text in case the autoconnect is disabled
+            toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
+
             loading = false;
 
             // Starts minimized to tray by default, unless you just changed language
