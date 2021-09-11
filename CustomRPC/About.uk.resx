@@ -117,14 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="favicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\favicon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelMadeBy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 93</value>
   </data>
-  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="labelMadeBy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 19</value>
   </data>
-  <data name="globe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\globe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="labelMadeBy.Text" xml:space="preserve">
+    <value>Зроблено: maximmax42</value>
+  </data>
+  <data name="buttonClose.Text" xml:space="preserve">
+    <value>Закрити</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Про програму</value>
   </data>
 </root>

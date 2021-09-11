@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="trayIcon.BalloonTipText" xml:space="preserve">
+    <value>Натисніть двічі на іконку щоб відкрити, або натисніть правою кнопкою щоб закрити.</value>
+  </data>
+  <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
+    <value>Ця програма буде працювати в треї.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 104</value>
+  </data>
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Відкрити</value>
+  </data>
+  <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 6</value>
+  </data>
+  <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="trayMenuReconnect.Text" xml:space="preserve">
+    <value>Перепідключитися</value>
+  </data>
+  <data name="trayMenuDisconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 6</value>
+  </data>
+  <data name="trayMenuQuit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="trayMenuQuit.Text" xml:space="preserve">
+    <value>Вийти</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 22</value>
+  </data>
+  <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Завантажити налаштування</value>
+  </data>
+  <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 22</value>
+  </data>
+  <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Зберегти налаштування</value>
+  </data>
+  <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 6</value>
+  </data>
+  <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 22</value>
+  </data>
+  <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Завантажити колекцію ассетів</value>
+  </data>
+  <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 6</value>
+  </data>
+  <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 22</value>
+  </data>
+  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Вийти</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 20</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 22</value>
+  </data>
+  <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
+    <value>Запускати при запуску комп'ютера</value>
+  </data>
+  <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 22</value>
+  </data>
+  <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
+    <value>Запускати згорнутим</value>
+  </data>
+  <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 22</value>
+  </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Автопід'єднання</value>
+  </data>
+  <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 6</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 22</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Перевірити на наявність обновлень</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 6</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Мова</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>Стандартний</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Допомога</value>
+  </data>
+  <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 22</value>
+  </data>
+  <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
+    <value>Відкрити мануал</value>
+  </data>
+  <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 22</value>
+  </data>
+  <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сторінка GitHub</value>
+  </data>
+  <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 6</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 22</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Перекладачі</value>
+  </data>
+  <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 6</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 22</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Перевірити на оновлення...</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Про програму...</value>
+  </data>
+  <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 20</value>
+  </data>
+  <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Скачати оновлення</value>
+  </data>
+  <data name="buttonUpdatePresence.Text" xml:space="preserve">
+    <value>Оновити статус</value>
+  </data>
+  <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
+    <value>Оновлює статус.</value>
+  </data>
+  <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 50</value>
+  </data>
+  <data name="buttonConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 24</value>
+  </data>
+  <data name="buttonConnect.Text" xml:space="preserve">
+    <value>Підключити</value>
+  </data>
+  <data name="buttonConnect.ToolTip" xml:space="preserve">
+    <value>Підключити програму до ID щоб встановити статус.</value>
+  </data>
+  <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 50</value>
+  </data>
+  <data name="buttonDisconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="buttonDisconnect.Text" xml:space="preserve">
+    <value>Відключити</value>
+  </data>
+  <data name="buttonDisconnect.ToolTip" xml:space="preserve">
+    <value>Відключити облаштунок від Discord. Зважте, що це займає час.</value>
+  </data>
+  <data name="labelID.ToolTip" xml:space="preserve">
+    <value>ID облаштунка з сайту Discord Developers.</value>
+  </data>
+  <data name="labelDetails.ToolTip" xml:space="preserve">
+    <value>Перша строка статусу.</value>
+  </data>
+  <data name="labelState.ToolTip" xml:space="preserve">
+    <value>Друга строка статусу.</value>
+  </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>Назва ассету для маленького зображення.</value>
+  </data>
+  <data name="labelSmallText.ToolTip" xml:space="preserve">
+    <value>Текст над маленьким зображенням.</value>
+  </data>
+  <data name="labelLargeText.ToolTip" xml:space="preserve">
+    <value>Текст над великим зображенням.</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>Назва ассету для великого зображення.</value>
+  </data>
+  <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 14</value>
+  </data>
+  <data name="labelSmall.Text" xml:space="preserve">
+    <value>Маленьке зображеня</value>
+  </data>
+  <data name="labelSmall.ToolTip" xml:space="preserve">
+    <value>Зображення, яке відображаєьтся у нижньому правому куті великого зображення.</value>
+  </data>
+  <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 14</value>
+  </data>
+  <data name="labelLarge.Text" xml:space="preserve">
+    <value>Велике зображення</value>
+  </data>
+  <data name="labelLarge.ToolTip" xml:space="preserve">
+    <value>Зображення ліворуч від зазначенного тексту.</value>
+  </data>
+  <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 18</value>
+  </data>
+  <data name="radioButtonNone.Text" xml:space="preserve">
+    <value>Ні</value>
+  </data>
+  <data name="radioButtonNone.ToolTip" xml:space="preserve">
+    <value>Відмітки часу відключеі.</value>
+  </data>
+  <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 18</value>
+  </data>
+  <data name="radioButtonStartTime.Text" xml:space="preserve">
+    <value>З моменту, як CustomRP запущений</value>
+  </data>
+  <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
+    <value>Час з моменту запуска програми.</value>
+  </data>
+  <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 18</value>
+  </data>
+  <data name="radioButtonLocalTime.Text" xml:space="preserve">
+    <value>Твій місцевий час</value>
+  </data>
+  <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
+    <value>Твій місцевий час в 24-годинному форматі.</value>
+  </data>
+  <data name="labelTimestamp.ToolTip" xml:space="preserve">
+    <value>Задає мітку часу для статусу, яка відображається під усім текстом вище.
+Таймери статусу мають обмеження на 24 години, тобто через 24 години час повернеться до 0:00.</value>
+  </data>
+  <data name="labelParty.ToolTip" xml:space="preserve">
+    <value>Кількість гравців у поточній паті, що відображається біля поля State.
+Для того, щоб вступити в силу, обидва поля повинні бути більше 0.</value>
+  </data>
+  <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 18</value>
+  </data>
+  <data name="radioButtonCustom.Text" xml:space="preserve">
+    <value>Індивідуальні відмітки часу</value>
+  </data>
+  <data name="radioButtonCustom.ToolTip" xml:space="preserve">
+    <value>Відображати скільки часу пройшло з встановленої нижче дати, або залишилось до неї.</value>
+  </data>
+  <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 14</value>
+  </data>
+  <data name="labelButton1.Text" xml:space="preserve">
+    <value>Кнопка 1</value>
+  </data>
+  <data name="labelButton1.ToolTip" xml:space="preserve">
+    <value>Перша з двох кнопок, яка відображається під вашим статусом у спливаючому вікні вашого профілю, та праворуч у повному профілі.</value>
+  </data>
+  <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 14</value>
+  </data>
+  <data name="labelButton2.Text" xml:space="preserve">
+    <value>Кнопка 2</value>
+  </data>
+  <data name="labelButton2.ToolTip" xml:space="preserve">
+    <value>Друга кнопка, яка з'являється прямо під першою кнопкою, або замість неї, якщо перша не встановлена.</value>
+  </data>
+  <data name="labelButton1URL.ToolTip" xml:space="preserve">
+    <value>URL який відкриється за натисканням кнопки.</value>
+  </data>
+  <data name="labelButton2URL.ToolTip" xml:space="preserve">
+    <value>URL який відкриється за натисканням кнопки.</value>
+  </data>
+  <data name="labelButton1Text.ToolTip" xml:space="preserve">
+    <value>Надпис на першій кнопці.</value>
+  </data>
+  <data name="labelButton2Text.ToolTip" xml:space="preserve">
+    <value>Надпис на другій кнопці.</value>
+  </data>
+  <data name="labelPartyOf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 114</value>
+  </data>
+  <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 14</value>
+  </data>
+  <data name="labelPartyOf.Text" xml:space="preserve">
+    <value>з</value>
+  </data>
+</root>
