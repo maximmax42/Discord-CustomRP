@@ -24,9 +24,9 @@ So far, the app supports these languages:
 * German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA) and binarynoise)
 * Greek (thanks to Alex Grivas)
 * English
-* Spanish (thanks to Vexot)
+* Spanish (thanks to Vexot and Epic)
 * French (thanks to Nenaff)
-* Hebrew (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg))
+* Hebrew (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg) and Kahpot Vanilla)
 * Hungarian (thanks to [Botond Balla](https://github.com/BallaBotond))
 * Indonesian (thanks to Hapnan and Apolycious)
 * Italian (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
@@ -38,6 +38,7 @@ So far, the app supports these languages:
 * Russian
 * Thai (thanks to Squishee Freshy)
 * Turkish (thanks to Ozan Akyüz)
+* Ukrainian (thanks to MechaniX and Dmitromintenko)
 * Vietnamese (thanks to Mykm, Phnthnhnm0612 and dsbachle)
 * Simplified Chinese (thanks to Zjsun.ca and zozocha)
 * Traditional Chinese (thanks to [westxlu](https://linktr.ee/westxlu))
