@@ -179,7 +179,7 @@
     <value>283, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Завантажити колекцію ассетів</value>
+    <value>Завантажити колекцію</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>280, 6</value>
@@ -384,7 +384,7 @@
 Таймери статусу мають обмеження на 24 години, тобто через 24 години час повернеться до 0:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>Кількість гравців у поточній паті, що відображається біля поля State.
+    <value>Кількість гравців у поточній групі, що відображається біля поля State.
 Для того, щоб вступити в силу, обидва поля повинні бути більше 0.</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
