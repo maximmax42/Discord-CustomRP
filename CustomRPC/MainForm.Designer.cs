@@ -110,8 +110,8 @@
             this.hapnanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.apolyciousToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.italianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cubeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.djd320ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cubeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kurdishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.samTheNoobToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lithuanianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -767,9 +767,10 @@
             // 
             // kahpotVanillaToolStripMenuItem
             // 
+            this.kahpotVanillaToolStripMenuItem.Image = global::CustomRPC.Properties.Resources.globe;
             this.kahpotVanillaToolStripMenuItem.Name = "kahpotVanillaToolStripMenuItem";
             resources.ApplyResources(this.kahpotVanillaToolStripMenuItem, "kahpotVanillaToolStripMenuItem");
-            this.kahpotVanillaToolStripMenuItem.Tag = "";
+            this.kahpotVanillaToolStripMenuItem.Tag = "https://linktr.ee/KahpotVanilla";
             this.kahpotVanillaToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // hungarianToolStripMenuItem
@@ -815,6 +816,13 @@
             this.italianToolStripMenuItem.Name = "italianToolStripMenuItem";
             resources.ApplyResources(this.italianToolStripMenuItem, "italianToolStripMenuItem");
             // 
+            // djd320ToolStripMenuItem
+            // 
+            this.djd320ToolStripMenuItem.Name = "djd320ToolStripMenuItem";
+            resources.ApplyResources(this.djd320ToolStripMenuItem, "djd320ToolStripMenuItem");
+            this.djd320ToolStripMenuItem.Tag = "";
+            this.djd320ToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
+            // 
             // cubeToolStripMenuItem
             // 
             this.cubeToolStripMenuItem.Image = global::CustomRPC.Properties.Resources.globe;
@@ -822,13 +830,6 @@
             resources.ApplyResources(this.cubeToolStripMenuItem, "cubeToolStripMenuItem");
             this.cubeToolStripMenuItem.Tag = "https://mrcube.live/";
             this.cubeToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
-            // 
-            // djd320ToolStripMenuItem
-            // 
-            this.djd320ToolStripMenuItem.Name = "djd320ToolStripMenuItem";
-            resources.ApplyResources(this.djd320ToolStripMenuItem, "djd320ToolStripMenuItem");
-            this.djd320ToolStripMenuItem.Tag = "";
-            this.djd320ToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // kurdishToolStripMenuItem
             // 
