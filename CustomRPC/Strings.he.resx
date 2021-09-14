@@ -125,7 +125,7 @@
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
     <value>יש שגיאה בהורדה או ההתקנה של העדכון.
-לחץ "כן" כדי לנסות, או "לא" כדי להתקין ידני.</value>
+לחץ "כן" כדי לנסות שוב, או "לא" כדי להתקין ידני.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
     <value>התוכנה רצה בפעם הראשונה</value>
@@ -144,7 +144,7 @@
     <value>מתחבר...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>החיבור נכשל (הדיסקורד פתוח?)</value>
+    <value>החיבור נכשל (האם ה-Discord פתוח?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>התנתק</value>
