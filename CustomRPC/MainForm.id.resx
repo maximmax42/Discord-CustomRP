@@ -413,7 +413,7 @@
     <value>Tidak ada</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>tidak ada timestamps yang aktif.</value>
+    <value>Tidak ada timestamps yang aktif.</value>
   </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 18</value>
