@@ -21,12 +21,12 @@ If you have any problems with the app, please check out [FAQ](https://github.com
 So far, the app supports these languages:
 * Arabic-EG (thanks to Shadowl)
 * Czech (thanks to [JayJake](https://jayjake.eu/))
-* German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA) and binarynoise)
+* German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), ahmad and binarynoise)
 * Greek (thanks to Alex Grivas)
 * English
 * Spanish (thanks to Vexot and Epic)
 * French (thanks to Nenaff)
-* Hebrew (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg) and Kahpot Vanilla)
+* Hebrew (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg) and [Kahpot Vanilla](https://linktr.ee/KahpotVanilla))
 * Hungarian (thanks to [Botond Balla](https://github.com/BallaBotond))
 * Indonesian (thanks to Hapnan and Apolycious)
 * Italian (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
