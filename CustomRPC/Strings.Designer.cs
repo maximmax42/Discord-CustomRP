@@ -80,6 +80,16 @@ namespace CustomRPC {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Settings file is corrupted.
+        ///Press Yes to reset the settings, press No to quit..
+        /// </summary>
+        internal static string errorCorruptSettings {
+            get {
+                return ResourceManager.GetString("errorCorruptSettings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Invalid URL specified for button(s) or the text is too long!.
         /// </summary>
         internal static string errorInvalidURL {

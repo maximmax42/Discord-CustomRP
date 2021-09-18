@@ -167,4 +167,8 @@
   <data name="noUpdatesFound" xml:space="preserve">
     <value>Обновлений не найдено!</value>
   </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>Файл с настройками повреждён.
+Нажмите Да, чтобы сбросить настройки, или нажмите Нет, чтобы выйти.</value>
+  </data>
 </root>

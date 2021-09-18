@@ -42,7 +42,30 @@ namespace CustomRPC
                 return;
             }
 
-            string culture = Properties.Settings.Default.language;
+            string culture = "auto";
+
+            var settings = Properties.Settings.Default;
+
+            try
+            {
+                // In case the settings file goes corrupt, trying to read any property will throw an exception.
+                culture = settings.language;
+            }
+            catch (System.Configuration.ConfigurationErrorsException e)
+            {
+                var result = MessageBox.Show(Strings.errorCorruptSettings, Strings.error, MessageBoxButtons.YesNo, MessageBoxIcon.Error);
+
+                if (result == DialogResult.Yes)
+                {
+                    // I can't just do settings.Reset() since it will throw the same exception, so instead I have to delete the config file.
+                    string filename = ((System.Configuration.ConfigurationErrorsException)e.InnerException).Filename;
+                    System.IO.File.Delete(filename);
+                    AppMutex.Close();
+                    Application.Restart(); 
+                }
+                return;
+            }
+
             if (culture != "auto") CultureInfo.DefaultThreadCurrentUICulture = CultureInfo.GetCultureInfo(culture);
 
             Application.EnableVisualStyles();
