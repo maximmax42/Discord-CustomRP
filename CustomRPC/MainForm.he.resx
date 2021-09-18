@@ -287,13 +287,13 @@
     <value>עדכן סטטוס</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>מעדכן את הסטטוס.</value>
+    <value>מעדכן את הסטטוס הנוכחי שערכת</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>התחבר</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>מחבר את האפליקציה עם הID שצוין.</value>
+    <value>מחבר את האפליקציה עם ה-ID שצוין.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
     <value>התנתק</value>
@@ -302,7 +302,7 @@
     <value>מנתק את האפליקציה מ-Discord. אנא שימו לב כי ייתכן שזה ייקח זמן.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>הID מה"אפליקציה" של Discord Developers.</value>
+    <value>ה-ID מהאפליקציה (אתר) של Discord Developers.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
     <value>השורה הראשונה בסטטוס.</value>

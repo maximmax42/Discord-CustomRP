@@ -161,4 +161,8 @@ Puoi aprirlo in qualsiasi momento andando su Help -&gt; Apri il manuale o premen
   <data name="noUpdatesFound" xml:space="preserve">
     <value>Nessun aggiornamento trovato!</value>
   </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>Il file delle impostazioni è corrotto.
+Premi Sì per resettare le impostazioni oppure premi No per uscire.</value>
+  </data>
 </root>

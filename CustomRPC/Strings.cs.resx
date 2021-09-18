@@ -161,4 +161,8 @@ Můžete jej kdykoli otevřít v nabídce Nápověda -&gt; Otevřít příručku
   <data name="noUpdatesFound" xml:space="preserve">
     <value>Nebyly nalezeny žádné aktualizace!</value>
   </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>Soubor je poškozen.
+Klikněte Ano pro reset nastavení, klikněte Ne pro opuštění.</value>
+  </data>
 </root>

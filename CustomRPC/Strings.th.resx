@@ -161,4 +161,8 @@
   <data name="noUpdatesFound" xml:space="preserve">
     <value>ไม่พบการอัพเดต!</value>
   </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>ไฟล์การตั้งค่าของโปรแกรมเสียหาย 
+กด ใช่ เพื่อรีเซ็ตการตั้งค่า กด ไม่ใช่ เพื่อออก</value>
+  </data>
 </root>

@@ -341,7 +341,7 @@
     <value>Zeigt deine momentane Zeit im 24-Stunden Format an.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Setzt Zeitstempel für den Status, welcher unter dem obigen Text angezeigt wird. 
+    <value>Setzt einen Zeitstempel für den Status, welcher unter dem obigen Text angezeigt wird. 
 Status Timer haben ein Limit von 24 Stunden, das bedeutet, dass der Zeitstempel nach 24 Stunden auf 0:00 gesetzt wird.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
@@ -361,7 +361,7 @@ Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
     <value>90, 14</value>
   </data>
   <data name="labelButton1.Text" xml:space="preserve">
-    <value>Schaltfläche 1</value>
+    <value>Knopf 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
     <value>Die erste der beiden Schaltflächen, die unter deinem Status in deinem Profil-Popup und auf der rechten Seite im vollständigen Profil angezeigt wird.</value>
@@ -370,22 +370,22 @@ Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
     <value>90, 14</value>
   </data>
   <data name="labelButton2.Text" xml:space="preserve">
-    <value>Schaltfläche 2</value>
+    <value>Knopf 2</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>Die zweite Schaltfläche, die direkt unter der ersten Schaltfläche erscheint oder an deren Stelle, wenn die erste nicht gesetzt ist.</value>
+    <value>Die zweite Knopf, der direkt unter dem ersten Knopf erscheint oder an deren Stelle, wenn die erste nicht gesetzt ist.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>URL, zu der die Schaltfläche den Benutzer beim Anklicken führt.</value>
+    <value>URL, zu dem der Benutzer weitergeleitet wird nachdem der Knopf gedrückt wird</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>URL, zu der die Schaltfläche den Benutzer beim Anklicken führt.</value>
+    <value>URL, zu dem der Benutzer weitergeleitet wird nachdem der Knopf gedrückt wird</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
-    <value>Beschriftung der ersten Schaltfläche.</value>
+    <value>Beschriftung des ersten Knopfs</value>
   </data>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
-    <value>Beschriftung der zweiten Schaltfläche.</value>
+    <value>Beschriftung des zweiten Knopfs</value>
   </data>
   <data name="labelPartyOf.Location" type="System.Drawing.Point, System.Drawing">
     <value>337, 114</value>
@@ -407,10 +407,10 @@ Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
     <value>Sprache</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
-    <value>Offen</value>
+    <value>Öffnen</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Suche nach Aktualisierungen...</value>
+    <value>Suche nach Updates...</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>Automatisch verbinden</value>

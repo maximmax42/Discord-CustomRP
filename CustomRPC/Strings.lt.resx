@@ -161,4 +161,8 @@ Galite jį atidaryti bet kuriuo metu, eidami į Pagalba -&gt; Atidaryti instrukc
   <data name="noUpdatesFound" xml:space="preserve">
     <value>Atnaujinimų nerasta!</value>
   </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>Nustatymų failas prarastas.
+Paspauskite Taip kad atstatyti nustatymus, paspauskite Ne kad išeiti.</value>
+  </data>
 </root>

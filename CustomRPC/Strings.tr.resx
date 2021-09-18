@@ -161,4 +161,8 @@ Yeniden denemek için "Evet"e veya manuel olarak indirmek için "Hayır"a basın
   <data name="noUpdatesFound" xml:space="preserve">
     <value>Güncelleme bulunamadı!</value>
   </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>Ayarlar dosyası bozuk.
+Ayarları sıfırlamak için Evet'e, çıkmak için Hayır'a basın.</value>
+  </data>
 </root>

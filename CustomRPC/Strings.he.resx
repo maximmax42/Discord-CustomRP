@@ -161,4 +161,8 @@
   <data name="noUpdatesFound" xml:space="preserve">
     <value>לא נמצאו עדכונים!</value>
   </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>קובץ הגדרות זה פגום.
+לחץ על כן כדי לאפס את ההגדרות, לחץ על לא כדי לסיים.</value>
+  </data>
 </root>

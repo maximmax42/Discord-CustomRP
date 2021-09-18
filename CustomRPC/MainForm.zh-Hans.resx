@@ -435,4 +435,7 @@
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>查看新更新。。。</value>
   </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>自动连接</value>
+  </data>
 </root>

@@ -411,4 +411,7 @@ Per avere effetto, entrambi i valori devono essere superiori a 0.</value>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>File</value>
   </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Auto Connessione</value>
+  </data>
 </root>

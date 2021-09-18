@@ -161,4 +161,8 @@ Bạn có thể mở nó bất cứ lúc nào bằng cách mở phần Trợ gi�
   <data name="noUpdatesFound" xml:space="preserve">
     <value>Không tìm thấy bản cập nhật nào!</value>
   </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>Tệp thiết lập đã bị hỏng.
+Chọn Có để đặt lại thiết lập, chọn Không để thoát.</value>
+  </data>
 </root>
