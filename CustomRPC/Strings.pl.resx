@@ -161,4 +161,8 @@ Możesz ją otworzyć w dowolnym momencie przyciskając F1 lub wchodząc do kart
   <data name="noUpdatesFound" xml:space="preserve">
     <value>Nie znaleziono aktualizacji!</value>
   </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>Plik ustawień jest popsuty.
+Aby go zresetować kliknij Tak, lub Nie żeby wyjść.</value>
+  </data>
 </root>
