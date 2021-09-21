@@ -161,4 +161,8 @@ Vous pouvez l'ouvrir à tout moment en accédant à Aide -&gt; Ouvrir le manuel 
   <data name="noUpdatesFound" xml:space="preserve">
     <value>Aucune mise à jour trouvé!</value>
   </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>Le fichier de configuration est corrompu.
+Cliquez sur "oui" pour réinitialiser la configuration, cliquez sur "non" pour quitter.</value>
+  </data>
 </root>

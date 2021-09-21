@@ -356,7 +356,7 @@
     <value>219, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>Depuis que CustomRP a commencé</value>
+    <value>Depuis que CustomRP est lancé</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
     <value>Montre le temps qui s'est écoulé depuis le démarrage de l'app.</value>
@@ -371,7 +371,7 @@
     <value>Montre votre temps actuel dans un format de 24 heures.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Définis l'horodotage pour le status, qui se montre en dessus de tout le texte au dessus.
+    <value>Définis l'horodotage pour le status, qui se montre en dessus de tout le texte ci-dessus.
 Les timers de status ont une limite de 24h, ce qui signifie que après 24h, le temps reviendra à 00:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
