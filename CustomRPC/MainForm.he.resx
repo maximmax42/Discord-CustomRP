@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>לחיצה כפולה בסמל בכדי להראות אותו שוב, או לחיצה ימנית בעכבר בכדי לצאת.</value>
+    <value>לחיצה כפולה בסמל (אייקון) בכדי להראות אותו שוב, או לחיצה ימנית בעכבר בכדי לצאת.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
     <value>התוכנה תרוץ ברקע.</value>
@@ -287,7 +287,7 @@
     <value>עדכן סטטוס</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>מעדכן את הסטטוס הנוכחי שערכת</value>
+    <value>מעדכן את הסטטוס הנוכחי שערכת.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>התחבר</value>
@@ -362,7 +362,7 @@
     <value>מאז הפעלת האפליקציה CustomRP</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>הצגת הזמן מאז הפעלת האפליקציה.</value>
+    <value>הצגת הזמן מאז שהאפליקציה נפתחה בפעם הראשונה</value>
   </data>
   <data name="radioButtonLocalTime.Location" type="System.Drawing.Point, System.Drawing">
     <value>216, 52</value>
@@ -374,11 +374,11 @@
     <value>הזמן המקומי שלך</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>מראה את השעה הנוכחית שלך בפורמט 24 שעות.</value>
+    <value>מראה את הזמן הנוכחי שלך בפורמט 24 שעות.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>אופציה זו מגדירה את חותמת הזמן של הסטטוס, שנראה מתחת לכל הטקסט שמתחת.
-לטיימרים של הסטטוס יש הגבלה של 24 שעות, המשמעות אחרי 24 שעות השעון יתאפס (יחזור ל 0:00).</value>
+לטיימרים של הסטטוס יש הגבלה של 24 שעות, אחרי 24 שעות השעון יתאפס (יחזור ל 0:00).</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
     <value>כמות השחקנים במפלגה (Party) הנוכחית המופיעה ליד הסטטוס.
@@ -394,7 +394,7 @@
     <value>חותמת זמן מותאמת אישית</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
-    <value>מראה כמה זמן עבר מאז או שנותר לתאריך שנקבע למטה.</value>
+    <value>מראה כמה זמן עבר מאז או נותר לתאריך שנקבע למטה.</value>
   </data>
   <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 14</value>
@@ -403,7 +403,7 @@
     <value>כפתור 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>כפתור ראשון, הראשון משני הכפתורים שמופיעים תחת הסטטוס שלך בחלון הקופץ שלך בפרופיל ובצד ימין בפרופיל המלא.</value>
+    <value>כפתור 1, הראשון משני הכפתורים שמופיעים תחת הסטטוס שלך בחלון הקופץ שלך בפרופיל ובצד ימין בפרופיל המלא.</value>
   </data>
   <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 14</value>
@@ -412,13 +412,13 @@
     <value>כפתור 2</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>הכפתור שני, שמופיע ממש מתחת לכפתור הראשון, או במקום אותו, אם הראשון אינו מוגדר.</value>
+    <value>כפתור 2, שמופיע ממש מתחת לכפתור הראשון, או במקום אותו, אם הראשון אינו מוגדר.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>הכתובת (URL) תיקח את המשתמש בלחיצה על הכפתור הראשון.</value>
+    <value>הכתובת (URL) תיקח את המשתמש לאתר שהכתובת משוייכת אליו בלחיצה על הכפתור הראשון.</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>הכתובת (URL) תיקח את המשתמש בלחיצה על הכפתור השני.</value>
+    <value>הכתובת (URL) תיקח את המשתמש לאתר שהכתובת משוייכת אליו בלחיצה על הכפתור השני.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
     <value>הטקסט שיופיע בכפתור הראשון.</value>
