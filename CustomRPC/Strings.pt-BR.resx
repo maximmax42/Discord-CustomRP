@@ -161,4 +161,8 @@ Você pode abri-lo a qualquer momento em Ajuda -&gt; Abrir o manual ou pressiona
   <data name="errorNoInternet" xml:space="preserve">
     <value>Não consigo me conectar à internet!</value>
   </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>O arquivo de configurações está corrompido.
+Pressione Sim para redefinir as configurações, pressione Não para sair.</value>
+  </data>
 </root>

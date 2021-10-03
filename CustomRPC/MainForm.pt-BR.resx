@@ -167,7 +167,7 @@
     <value>231, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Enviar Predefinição</value>
+    <value>Enviar Imagens personalizada</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>228, 6</value>
@@ -257,7 +257,7 @@
     <value>194, 22</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sobre...</value>
+    <value>Sobre…</value>
   </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 20</value>
