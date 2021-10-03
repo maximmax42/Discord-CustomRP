@@ -161,4 +161,8 @@
   <data name="noUpdatesFound" xml:space="preserve">
     <value>没有找到更新！</value>
   </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>设定档已损毁。
+按「是」重设，按「否」离开。</value>
+  </data>
 </root>
