@@ -32,7 +32,12 @@ namespace CustomRPC
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PipeSelector));
             this.numericUpDownPipe = new System.Windows.Forms.NumericUpDown();
             this.labelDefault = new System.Windows.Forms.Label();
+            this.pictureBoxAvatar = new System.Windows.Forms.PictureBox();
+            this.labelUsername = new System.Windows.Forms.Label();
+            this.buttonOK = new System.Windows.Forms.Button();
+            this.labelPipe = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPipe)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAvatar)).BeginInit();
             this.SuspendLayout();
             // 
             // numericUpDownPipe
@@ -50,18 +55,48 @@ namespace CustomRPC
             0,
             -2147483648});
             this.numericUpDownPipe.Name = "numericUpDownPipe";
+            this.numericUpDownPipe.ReadOnly = true;
             this.numericUpDownPipe.Value = global::CustomRPC.Properties.Settings.Default.pipe;
+            this.numericUpDownPipe.ValueChanged += new System.EventHandler(this.PipeChanged);
             // 
             // labelDefault
             // 
             resources.ApplyResources(this.labelDefault, "labelDefault");
             this.labelDefault.Name = "labelDefault";
             // 
+            // pictureBoxAvatar
+            // 
+            resources.ApplyResources(this.pictureBoxAvatar, "pictureBoxAvatar");
+            this.pictureBoxAvatar.Name = "pictureBoxAvatar";
+            this.pictureBoxAvatar.TabStop = false;
+            // 
+            // labelUsername
+            // 
+            resources.ApplyResources(this.labelUsername, "labelUsername");
+            this.labelUsername.Name = "labelUsername";
+            // 
+            // buttonOK
+            // 
+            resources.ApplyResources(this.buttonOK, "buttonOK");
+            this.buttonOK.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.buttonOK.Name = "buttonOK";
+            this.buttonOK.UseVisualStyleBackColor = true;
+            // 
+            // labelPipe
+            // 
+            resources.ApplyResources(this.labelPipe, "labelPipe");
+            this.labelPipe.Name = "labelPipe";
+            // 
             // PipeSelector
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.CancelButton = this.buttonOK;
+            this.Controls.Add(this.labelPipe);
+            this.Controls.Add(this.buttonOK);
+            this.Controls.Add(this.labelUsername);
+            this.Controls.Add(this.pictureBoxAvatar);
             this.Controls.Add(this.labelDefault);
             this.Controls.Add(this.numericUpDownPipe);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -70,7 +105,9 @@ namespace CustomRPC
             this.Name = "PipeSelector";
             this.ShowIcon = false;
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPipe)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAvatar)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -78,5 +115,9 @@ namespace CustomRPC
 
         private System.Windows.Forms.NumericUpDown numericUpDownPipe;
         private System.Windows.Forms.Label labelDefault;
+        private System.Windows.Forms.PictureBox pictureBoxAvatar;
+        private System.Windows.Forms.Label labelUsername;
+        private System.Windows.Forms.Button buttonOK;
+        private System.Windows.Forms.Label labelPipe;
     }
 }
