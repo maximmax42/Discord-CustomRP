@@ -161,4 +161,8 @@ Anda dapat membukanya kapan saja dengan masuk ke Bantuan -&gt; Buka Manual atau 
   <data name="noUpdatesFound" xml:space="preserve">
     <value>Tidak ada perbaharuan!</value>
   </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>Berkas pengaturan rusak.
+Tekan Ya untuk mereset pengaturan, tekan Tidak untuk berhenti.</value>
+  </data>
 </root>

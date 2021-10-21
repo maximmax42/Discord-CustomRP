@@ -161,4 +161,8 @@
   <data name="noUpdatesFound" xml:space="preserve">
     <value>لا يوجد تحديثات!</value>
   </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>ملف الإعدادات تالف.
+اضغط نعم لإعادة ضبط الإعدادات، اضغط على لا لإنهاء.</value>
+  </data>
 </root>

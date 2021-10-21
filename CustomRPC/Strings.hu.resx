@@ -161,4 +161,8 @@ Bármikor megteheted ha a Segítség -&gt; Használati Utasítás megnyitására
   <data name="noUpdatesFound" xml:space="preserve">
     <value>Nem találtam frissítéseket!</value>
   </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>Fajlǎt s nastrojkite e povreden.
+Natisnete Da, za da vǎzstanovite nastrojkite, ili Ne, za da izlezete.</value>
+  </data>
 </root>

@@ -161,4 +161,8 @@ Lo puedes abrir en cualquier momento en Ayuda -&gt; Abrir el Manual o presionand
   <data name="noUpdatesFound" xml:space="preserve">
     <value>¡No se han encontrado actualizaciones!</value>
   </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>El archivo de configuración está dañado.
+Pulse Sí para restablecer la configuración, pulse No para salir.</value>
+  </data>
 </root>

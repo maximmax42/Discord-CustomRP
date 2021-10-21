@@ -161,4 +161,8 @@
   <data name="noUpdatesFound" xml:space="preserve">
     <value>Δεν βρέθηκαν ενημερώσεις!</value>
   </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>Το αρχείο ρυθμίσεων έχει καταστραφεί.
+Πατήστε Ναι για να επαναφέρετε τις ρυθμίσεις, πατήστε Όχι για να τερματίσετε.</value>
+  </data>
 </root>
