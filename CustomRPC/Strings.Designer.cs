@@ -90,6 +90,15 @@ namespace CustomRPC {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Failed to import preset; the file is either missing, corrupted, or not properly formatted..
+        /// </summary>
+        internal static string errorInvalidPresetFile {
+            get {
+                return ResourceManager.GetString("errorInvalidPresetFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Invalid URL specified for button(s) or the text is too long!.
         /// </summary>
         internal static string errorInvalidURL {

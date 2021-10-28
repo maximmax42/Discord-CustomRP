@@ -169,6 +169,8 @@ You can open it any time by going to Help -&gt; Open the Manual or pressing F1.<
   <data name="errorCorruptSettings" xml:space="preserve">
     <value>Settings file is corrupted.
 Press Yes to reset the settings, press No to quit.</value>
-    
+  </data>
+  <data name="errorInvalidPresetFile" xml:space="preserve">
+    <value>Failed to import preset; the file is either missing, corrupted, or not properly formatted.</value>
   </data>
 </root>

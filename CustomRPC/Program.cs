@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using System.IO;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
@@ -21,12 +22,13 @@ namespace CustomRPC
         public static Mutex AppMutex;
 
         public static int WM_SHOWFIRSTINSTANCE;
+        public static int WM_IMPORTPRESET;
 
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
         [STAThread]
-        static void Main()
+        static void Main(string[] args)
         {
 #if DEBUG
             string mutexName = "CustomRP dev";
@@ -34,17 +36,33 @@ namespace CustomRPC
             string mutexName = "CustomRP";
 #endif
             WM_SHOWFIRSTINSTANCE = WinApi.RegisterWindowMessage("WM_SHOWFIRSTINSTANCE|" + mutexName);
+            WM_IMPORTPRESET = WinApi.RegisterWindowMessage("WM_IMPORTPRESET|" + mutexName);
+
             AppMutex = new Mutex(true, mutexName, out bool createdNew);
+
+            var settings = Properties.Settings.Default;
 
             if (!createdNew)
             {
                 WinApi.PostMessage(new IntPtr(0xffff), WM_SHOWFIRSTINSTANCE, IntPtr.Zero, IntPtr.Zero);
+
+                if (args.Length > 0)
+                {
+                    try
+                    {
+                        File.Copy(args[0], Path.GetTempPath() + "preset.crp", true);
+                        WinApi.PostMessage(new IntPtr(0xffff), WM_IMPORTPRESET, IntPtr.Zero, IntPtr.Zero);
+                    }
+                    catch
+                    {
+                        // Do nothing
+                    }
+                }
+
                 return;
             }
 
             string culture = "auto";
-
-            var settings = Properties.Settings.Default;
 
             try
             {
@@ -70,7 +88,7 @@ namespace CustomRPC
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            IntPtr _ = new MainForm().Handle; // Terrible, yet allows to fully initialize the form without showing it first
+            IntPtr _ = new MainForm(args.Length > 0 ? args[0] : "none").Handle; // Terrible, yet allows to fully initialize the form without showing it first
 
             Application.Run();
 

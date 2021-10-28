@@ -69,7 +69,7 @@ namespace CustomRPC
         System.Drawing.Color errorColor = System.Drawing.Color.FromArgb(255, 192, 192);
 
         // Constructor of the form
-        public MainForm()
+        public MainForm(string preset)
         {
             InitializeComponent();
 
@@ -79,6 +79,10 @@ namespace CustomRPC
             // Setting up a restart timer
             restartTimer.AutoReset = true;
             restartTimer.Elapsed += RestartTimer_Elapsed;
+
+            // If we supply a preset file to import on load, load it right away
+            if (preset != "none")
+                LoadPreset(preset);
 
             // Setting up checkboxes because apparently property binding doesn't work
             runOnStartupToolStripMenuItem.Checked = settings.runOnStartup;
@@ -172,6 +176,12 @@ namespace CustomRPC
             {
                 MaximizeFromTray();
             }
+            else if (message.Msg == Program.WM_IMPORTPRESET)
+            {
+                LoadPreset(Path.GetTempPath() + "preset.crp");
+                MaximizeFromTray();
+            }
+
             base.WndProc(ref message);
         }
 
@@ -192,7 +202,7 @@ namespace CustomRPC
             catch
             {
                 // If there's no internet or Github is down, do nothing, unless it's a user requested update check
-                if (verbose) MessageBox.Show(this, Strings.errorNoInternet, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                if (verbose) MessageBox.Show(this, Strings.errorNoInternet, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -487,10 +497,56 @@ namespace CustomRPC
             MaximizeFromTray(null, null);
         }
 
+        // Base function for loading a preset
+        private void LoadPreset(Stream file)
+        {
+            try
+            {
+                var xs = new XmlSerializer(typeof(Preset)); // Using XML here because... why not? Settings are already saved in XML
+                var preset = (Preset)xs.Deserialize(file);
+
+                bool wasConnected = buttonDisconnect.Enabled;
+
+                if (wasConnected) Disconnect();
+
+                settings.id = preset.ID;
+                settings.details = preset.Details;
+                settings.state = preset.State;
+                settings.partySize = preset.PartySize;
+                settings.partyMax = preset.PartyMax;
+                settings.timestamps = preset.Timestamps;
+                settings.customTimestamp = preset.CustomTimestamp;
+                settings.largeKey = preset.LargeKey;
+                settings.largeText = preset.LargeText;
+                settings.smallKey = preset.SmallKey;
+                settings.smallText = preset.SmallText;
+                settings.button1Text = preset.Button1Text;
+                settings.button1URL = preset.Button1URL;
+                settings.button2Text = preset.Button2Text;
+                settings.button2URL = preset.Button2URL;
+                settings.Save();
+
+                switch (settings.timestamps)
+                {
+                    case 0: radioButtonNone.Checked = true; break;
+                    case 1: radioButtonStartTime.Checked = true; break;
+                    case 2: radioButtonLocalTime.Checked = true; break;
+                    case 3: radioButtonCustom.Checked = true; break;
+                }
+
+                if (wasConnected) Connect();
+            }
+            catch
+            {
+                MessageBox.Show(Strings.errorInvalidPresetFile, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            file.Close();
+        }
+
         // Called when you press Load Preset button
         private void LoadPreset(object sender, EventArgs e)
         {
-            var xs = new XmlSerializer(typeof(Preset)); // Using XML here because... why not? Settings are already saved in XML
             var presetFile = new OpenFileDialog()
             {
                 Filter = "CustomRP Preset|*.crp"
@@ -498,42 +554,13 @@ namespace CustomRPC
 
             if (presetFile.ShowDialog() != DialogResult.OK) return;
 
-            var file = presetFile.OpenFile();
+            LoadPreset(presetFile.OpenFile());
+        }
 
-            var preset = (Preset)xs.Deserialize(file);
-
-            file.Close();
-
-            bool wasConnected = buttonDisconnect.Enabled;
-
-            if (wasConnected) Disconnect();
-
-            settings.id = preset.ID;
-            settings.details = preset.Details;
-            settings.state = preset.State;
-            settings.partySize = preset.PartySize;
-            settings.partyMax = preset.PartyMax;
-            settings.timestamps = preset.Timestamps;
-            settings.customTimestamp = preset.CustomTimestamp;
-            settings.largeKey = preset.LargeKey;
-            settings.largeText = preset.LargeText;
-            settings.smallKey = preset.SmallKey;
-            settings.smallText = preset.SmallText;
-            settings.button1Text = preset.Button1Text;
-            settings.button1URL = preset.Button1URL;
-            settings.button2Text = preset.Button2Text;
-            settings.button2URL = preset.Button2URL;
-            settings.Save();
-
-            switch (settings.timestamps)
-            {
-                case 0: radioButtonNone.Checked = true; break;
-                case 1: radioButtonStartTime.Checked = true; break;
-                case 2: radioButtonLocalTime.Checked = true; break;
-                case 3: radioButtonCustom.Checked = true; break;
-            }
-
-            if (wasConnected) Connect();
+        // Same function but for use in code
+        private void LoadPreset(string filePath)
+        {
+            LoadPreset(File.OpenRead(filePath));
         }
 
         // Called when you press Save Preset button
@@ -547,28 +574,27 @@ namespace CustomRPC
 
             if (presetFile.ShowDialog() != DialogResult.OK) return;
 
-            var file = presetFile.OpenFile();
-
-            xs.Serialize(file, new Preset()
+            using (var file = presetFile.OpenFile())
             {
-                ID = settings.id,
-                Details = settings.details,
-                State = settings.state,
-                PartySize = (int)settings.partySize,
-                PartyMax = (int)settings.partyMax,
-                Timestamps = settings.timestamps,
-                CustomTimestamp = settings.customTimestamp,
-                LargeKey = settings.largeKey,
-                LargeText = settings.largeText,
-                SmallKey = settings.smallKey,
-                SmallText = settings.smallText,
-                Button1Text = settings.button1Text,
-                Button1URL = settings.button1URL,
-                Button2Text = settings.button2Text,
-                Button2URL = settings.button2URL,
-            });
-
-            file.Close();
+                xs.Serialize(file, new Preset()
+                {
+                    ID = settings.id,
+                    Details = settings.details,
+                    State = settings.state,
+                    PartySize = (int)settings.partySize,
+                    PartyMax = (int)settings.partyMax,
+                    Timestamps = settings.timestamps,
+                    CustomTimestamp = settings.customTimestamp,
+                    LargeKey = settings.largeKey,
+                    LargeText = settings.largeText,
+                    SmallKey = settings.smallKey,
+                    SmallText = settings.smallText,
+                    Button1Text = settings.button1Text,
+                    Button1URL = settings.button1URL,
+                    Button2Text = settings.button2Text,
+                    Button2URL = settings.button2URL,
+                });
+            }
         }
 
         // Called when you press Upload Assets button
