@@ -549,4 +549,7 @@
     <None Include="Resources\globe.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>"$(ProjectDir)bin\InsertIcons.exe" "$(TargetPath)" "$(ProjectDir)Resources\preset.ico"</PostBuildEvent>
+  </PropertyGroup>
 </Project>
