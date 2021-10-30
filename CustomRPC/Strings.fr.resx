@@ -165,4 +165,7 @@ Vous pouvez l'ouvrir à tout moment en accédant à Aide -&gt; Ouvrir le manuel 
     <value>Le fichier de configuration est corrompu.
 Cliquez sur "oui" pour réinitialiser la configuration, cliquez sur "non" pour quitter.</value>
   </data>
+  <data name="errorInvalidPresetFile" xml:space="preserve">
+    <value>Échec d'importation de la configuration ; le fichier est peut-être manquant, corrompu, ou formaté de la mauvaise façon.</value>
+  </data>
 </root>

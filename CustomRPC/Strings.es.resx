@@ -165,4 +165,7 @@ Lo puedes abrir en cualquier momento en Ayuda -&gt; Abrir el Manual o presionand
     <value>El archivo de configuración está dañado.
 Pulse Sí para restablecer la configuración, pulse No para salir.</value>
   </data>
+  <data name="errorInvalidPresetFile" xml:space="preserve">
+    <value>Fallo al importar el preajuste; el archivo no se encuentra, está dañado, o formateado de forma errónea.</value>
+  </data>
 </root>

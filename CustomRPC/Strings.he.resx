@@ -165,4 +165,7 @@
     <value>קובץ הגדרות זה פגום.
 לחץ על כן כדי לאפס את ההגדרות, לחץ על לא כדי לסיים.</value>
   </data>
+  <data name="errorInvalidPresetFile" xml:space="preserve">
+    <value>הייבוא של קובץ ההגדרות נכשל; הקובץ חסר, פגום או לא מעוצב כהלכה.</value>
+  </data>
 </root>

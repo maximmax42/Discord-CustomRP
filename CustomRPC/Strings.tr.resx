@@ -165,4 +165,7 @@ Yeniden denemek için "Evet"e veya manuel olarak indirmek için "Hayır"a basın
     <value>Ayarlar dosyası bozuk.
 Ayarları sıfırlamak için Evet'e, çıkmak için Hayır'a basın.</value>
   </data>
+  <data name="errorInvalidPresetFile" xml:space="preserve">
+    <value>Ön ayar içe aktarılamadı; dosya eksik, bozuk veya düzgün biçimlendirilmemiş.</value>
+  </data>
 </root>

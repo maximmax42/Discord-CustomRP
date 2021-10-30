@@ -165,4 +165,7 @@ Galite jį atidaryti bet kuriuo metu, eidami į Pagalba -&gt; Atidaryti instrukc
     <value>Nustatymų failas prarastas.
 Paspauskite Taip kad atstatyti nustatymus, paspauskite Ne kad išeiti.</value>
   </data>
+  <data name="errorInvalidPresetFile" xml:space="preserve">
+    <value>Nepavyko importuoti išsaugoto nustatymo; failas prarastas arba jis sugadintas bei netinkamas formatas.</value>
+  </data>
 </root>

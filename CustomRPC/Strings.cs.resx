@@ -165,4 +165,7 @@ Můžete jej kdykoli otevřít v nabídce Nápověda -&gt; Otevřít příručku
     <value>Soubor je poškozen.
 Klikněte Ano pro reset nastavení, klikněte Ne pro opuštění.</value>
   </data>
+  <data name="errorInvalidPresetFile" xml:space="preserve">
+    <value>Chyba při nahrávání; soubor chybí, je poškozen, nebo není platně zformátován.</value>
+  </data>
 </root>
