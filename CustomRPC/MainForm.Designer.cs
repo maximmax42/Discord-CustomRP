@@ -1465,6 +1465,7 @@
             // 
             // MainForm
             // 
+            this.AllowDrop = true;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -1512,6 +1513,8 @@
             this.MinimizeBox = false;
             this.Name = "MainForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MinimizeToTray);
+            this.DragDrop += new System.Windows.Forms.DragEventHandler(this.DragDropHandler);
+            this.DragEnter += new System.Windows.Forms.DragEventHandler(this.DragDropEnter);
             this.trayMenuStrip.ResumeLayout(false);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();

@@ -450,6 +450,23 @@ namespace CustomRPC
             }
         }
 
+        // Called when you drag a file into app's window
+        private void DragDropEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.FileDrop))
+                e.Effect = DragDropEffects.All;
+            else
+                e.Effect = DragDropEffects.None;
+        }
+
+        // Called upon dropping a file
+        private void DragDropHandler(object sender, DragEventArgs e)
+        {
+            string[] files = e.Data.GetData(DataFormats.FileDrop) as string[];
+
+            if (files != null && files.Length > 0) LoadPreset(files[0]); // If multiple files are passed, only the first one gets imported
+        }
+
         // Called when you close the main window with the X button
         private void MinimizeToTray(object sender, FormClosingEventArgs e)
         {
