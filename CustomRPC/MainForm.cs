@@ -673,6 +673,16 @@ namespace CustomRPC
             Process.Start("https://github.com/maximmax42/Discord-CustomRP");
         }
 
+        // Called when you press on a translator's nickname
+        private void OpenTranslatorPage(object sender, EventArgs e)
+        {
+            var translator = (ToolStripMenuItem)sender;
+
+            if (String.IsNullOrWhiteSpace((string)translator.Tag)) return;
+
+            Process.Start((string)translator.Tag); // Tags contain URLs
+        }
+
         // Called when you press Check for updates... button
         private void CheckForUpdates(object sender, EventArgs e)
         {
@@ -683,16 +693,6 @@ namespace CustomRPC
         private void ShowAbout(object sender, EventArgs e)
         {
             new About().ShowDialog(this);
-        }
-
-        // Called when you press on a translator's nickname
-        private void OpenTranslatorPage(object sender, EventArgs e)
-        {
-            var translator = (ToolStripMenuItem)sender;
-
-            if (String.IsNullOrWhiteSpace((string)translator.Tag)) return;
-
-            Process.Start((string)translator.Tag); // Tags contain URLs
         }
 
         // Called when you press Download Update button
@@ -727,48 +727,6 @@ namespace CustomRPC
 
             textBoxID.ReadOnly = false;
             toAvoidRecursion = false;
-        }
-
-        // Called on Validating event for all text fields except ID
-        private void LengthValidationFocus(object sender, System.ComponentModel.CancelEventArgs e)
-        {
-            var box = (TextBox)sender;
-
-            if (!StringTools.WithinLength(box.Text, box.MaxLength))
-            {
-                e.Cancel = true;
-                System.Media.SystemSounds.Beep.Play();
-            }
-        }
-
-        // Called on TextChanged event for all text fields except ID
-        private void LengthValidation(object sender, EventArgs e)
-        {
-            var box = (TextBox)sender;
-
-            if (StringTools.WithinLength(box.Text, box.MaxLength))
-            {
-                box.BackColor = defaultColor;
-            }
-            else
-            {
-                box.BackColor = errorColor;
-            }
-        }
-
-        // Called when a timestamp radiobutton changed
-        private void TimestampsChanged(object sender, EventArgs e)
-        {
-            if (loading) return;
-
-            RadioButton btn = (RadioButton)sender;
-
-            if (!btn.Checked) return;
-
-            settings.timestamps = btn.TabIndex; // I mean... it's a great container for int values
-            settings.Save();
-
-            dateTimePickerTimestamp.Enabled = settings.timestamps == 3;
         }
 
         // Called when you press the Connect button or right-click on the tray icon and choose Reconnect
@@ -821,6 +779,61 @@ namespace CustomRPC
         private void Disconnect()
         {
             Disconnect(null, null);
+        }
+
+        // Called on Validating event for all text fields except ID
+        private void LengthValidationFocus(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            var box = (TextBox)sender;
+
+            if (!StringTools.WithinLength(box.Text, box.MaxLength))
+            {
+                e.Cancel = true;
+                System.Media.SystemSounds.Beep.Play();
+            }
+        }
+
+        // Called on TextChanged event for all text fields except ID
+        private void LengthValidation(object sender, EventArgs e)
+        {
+            var box = (TextBox)sender;
+
+            if (StringTools.WithinLength(box.Text, box.MaxLength))
+            {
+                box.BackColor = defaultColor;
+            }
+            else
+            {
+                box.BackColor = errorColor;
+            }
+        }
+
+        // Called on Validating event to validate party size values
+        private void PartySizeValidation(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            if (sender == numericUpDownPartyMax && numericUpDownPartyMax.Value == 0 && numericUpDownPartySize.Value > 0)
+                numericUpDownPartySize.Value = 0;
+            else if (numericUpDownPartySize.Value > numericUpDownPartyMax.Value)
+            {
+                numericUpDownPartyMax.Value = numericUpDownPartySize.Value;
+                // If user sets max value less than current value, play error sound, but not if user sets current value more than max
+                if (sender == numericUpDownPartyMax) System.Media.SystemSounds.Beep.Play();
+            }
+        }
+
+        // Called when a timestamp radiobutton changed
+        private void TimestampsChanged(object sender, EventArgs e)
+        {
+            if (loading) return;
+
+            RadioButton btn = (RadioButton)sender;
+
+            if (!btn.Checked) return;
+
+            settings.timestamps = btn.TabIndex; // I mean... it's a great container for int values
+            settings.Save();
+
+            dateTimePickerTimestamp.Enabled = settings.timestamps == 3;
         }
 
         // Called when you press the Update Presence button

@@ -1386,20 +1386,20 @@
             0});
             this.numericUpDownPartySize.Name = "numericUpDownPartySize";
             this.numericUpDownPartySize.Value = global::CustomRPC.Properties.Settings.Default.partySize;
+            this.numericUpDownPartySize.Validating += new System.ComponentModel.CancelEventHandler(this.PartySizeValidation);
             // 
             // numericUpDownPartyMax
             // 
             this.numericUpDownPartyMax.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "partyMax", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.numericUpDownPartyMax.DataBindings.Add(new System.Windows.Forms.Binding("Minimum", global::CustomRPC.Properties.Settings.Default, "partySize", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             resources.ApplyResources(this.numericUpDownPartyMax, "numericUpDownPartyMax");
             this.numericUpDownPartyMax.Maximum = new decimal(new int[] {
             2147483647,
             0,
             0,
             0});
-            this.numericUpDownPartyMax.Minimum = global::CustomRPC.Properties.Settings.Default.partySize;
             this.numericUpDownPartyMax.Name = "numericUpDownPartyMax";
             this.numericUpDownPartyMax.Value = global::CustomRPC.Properties.Settings.Default.partyMax;
+            this.numericUpDownPartyMax.Validating += new System.ComponentModel.CancelEventHandler(this.PartySizeValidation);
             // 
             // textBoxSmallKey
             // 
