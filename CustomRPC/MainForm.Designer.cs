@@ -1041,9 +1041,10 @@
             // 
             // MykmToolStripMenuItem
             // 
+            this.MykmToolStripMenuItem.Image = global::CustomRPC.Properties.Resources.globe;
             this.MykmToolStripMenuItem.Name = "MykmToolStripMenuItem";
             resources.ApplyResources(this.MykmToolStripMenuItem, "MykmToolStripMenuItem");
-            this.MykmToolStripMenuItem.Tag = "";
+            this.MykmToolStripMenuItem.Tag = "https://github.com/yumiruuwu";
             this.MykmToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // Phnthnhnm0612toolStripMenuItem
