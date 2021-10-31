@@ -1152,54 +1152,63 @@
             // labelID
             // 
             resources.ApplyResources(this.labelID, "labelID");
+            this.labelID.Cursor = System.Windows.Forms.Cursors.Help;
             this.labelID.Name = "labelID";
             this.toolTipInfo.SetToolTip(this.labelID, resources.GetString("labelID.ToolTip"));
             // 
             // labelDetails
             // 
             resources.ApplyResources(this.labelDetails, "labelDetails");
+            this.labelDetails.Cursor = System.Windows.Forms.Cursors.Help;
             this.labelDetails.Name = "labelDetails";
             this.toolTipInfo.SetToolTip(this.labelDetails, resources.GetString("labelDetails.ToolTip"));
             // 
             // labelState
             // 
             resources.ApplyResources(this.labelState, "labelState");
+            this.labelState.Cursor = System.Windows.Forms.Cursors.Help;
             this.labelState.Name = "labelState";
             this.toolTipInfo.SetToolTip(this.labelState, resources.GetString("labelState.ToolTip"));
             // 
             // labelSmallKey
             // 
             resources.ApplyResources(this.labelSmallKey, "labelSmallKey");
+            this.labelSmallKey.Cursor = System.Windows.Forms.Cursors.Help;
             this.labelSmallKey.Name = "labelSmallKey";
             this.toolTipInfo.SetToolTip(this.labelSmallKey, resources.GetString("labelSmallKey.ToolTip"));
             // 
             // labelSmallText
             // 
             resources.ApplyResources(this.labelSmallText, "labelSmallText");
+            this.labelSmallText.Cursor = System.Windows.Forms.Cursors.Help;
             this.labelSmallText.Name = "labelSmallText";
             this.toolTipInfo.SetToolTip(this.labelSmallText, resources.GetString("labelSmallText.ToolTip"));
             // 
             // labelLargeText
             // 
             resources.ApplyResources(this.labelLargeText, "labelLargeText");
+            this.labelLargeText.Cursor = System.Windows.Forms.Cursors.Help;
             this.labelLargeText.Name = "labelLargeText";
             this.toolTipInfo.SetToolTip(this.labelLargeText, resources.GetString("labelLargeText.ToolTip"));
             // 
             // labelLargeKey
             // 
             resources.ApplyResources(this.labelLargeKey, "labelLargeKey");
+            this.labelLargeKey.Cursor = System.Windows.Forms.Cursors.Help;
             this.labelLargeKey.Name = "labelLargeKey";
             this.toolTipInfo.SetToolTip(this.labelLargeKey, resources.GetString("labelLargeKey.ToolTip"));
             // 
             // labelSmall
             // 
             resources.ApplyResources(this.labelSmall, "labelSmall");
+            this.labelSmall.Cursor = System.Windows.Forms.Cursors.Help;
             this.labelSmall.Name = "labelSmall";
             this.toolTipInfo.SetToolTip(this.labelSmall, resources.GetString("labelSmall.ToolTip"));
             // 
             // labelLarge
             // 
             resources.ApplyResources(this.labelLarge, "labelLarge");
+            this.labelLarge.Cursor = System.Windows.Forms.Cursors.Help;
             this.labelLarge.Name = "labelLarge";
             this.toolTipInfo.SetToolTip(this.labelLarge, resources.GetString("labelLarge.ToolTip"));
             // 
@@ -1241,12 +1250,14 @@
             // labelTimestamp
             // 
             resources.ApplyResources(this.labelTimestamp, "labelTimestamp");
+            this.labelTimestamp.Cursor = System.Windows.Forms.Cursors.Help;
             this.labelTimestamp.Name = "labelTimestamp";
             this.toolTipInfo.SetToolTip(this.labelTimestamp, resources.GetString("labelTimestamp.ToolTip"));
             // 
             // labelParty
             // 
             resources.ApplyResources(this.labelParty, "labelParty");
+            this.labelParty.Cursor = System.Windows.Forms.Cursors.Help;
             this.labelParty.Name = "labelParty";
             this.toolTipInfo.SetToolTip(this.labelParty, resources.GetString("labelParty.ToolTip"));
             // 
@@ -1262,36 +1273,42 @@
             // labelButton1
             // 
             resources.ApplyResources(this.labelButton1, "labelButton1");
+            this.labelButton1.Cursor = System.Windows.Forms.Cursors.Help;
             this.labelButton1.Name = "labelButton1";
             this.toolTipInfo.SetToolTip(this.labelButton1, resources.GetString("labelButton1.ToolTip"));
             // 
             // labelButton2
             // 
             resources.ApplyResources(this.labelButton2, "labelButton2");
+            this.labelButton2.Cursor = System.Windows.Forms.Cursors.Help;
             this.labelButton2.Name = "labelButton2";
             this.toolTipInfo.SetToolTip(this.labelButton2, resources.GetString("labelButton2.ToolTip"));
             // 
             // labelButton1URL
             // 
             resources.ApplyResources(this.labelButton1URL, "labelButton1URL");
+            this.labelButton1URL.Cursor = System.Windows.Forms.Cursors.Help;
             this.labelButton1URL.Name = "labelButton1URL";
             this.toolTipInfo.SetToolTip(this.labelButton1URL, resources.GetString("labelButton1URL.ToolTip"));
             // 
             // labelButton2URL
             // 
             resources.ApplyResources(this.labelButton2URL, "labelButton2URL");
+            this.labelButton2URL.Cursor = System.Windows.Forms.Cursors.Help;
             this.labelButton2URL.Name = "labelButton2URL";
             this.toolTipInfo.SetToolTip(this.labelButton2URL, resources.GetString("labelButton2URL.ToolTip"));
             // 
             // labelButton1Text
             // 
             resources.ApplyResources(this.labelButton1Text, "labelButton1Text");
+            this.labelButton1Text.Cursor = System.Windows.Forms.Cursors.Help;
             this.labelButton1Text.Name = "labelButton1Text";
             this.toolTipInfo.SetToolTip(this.labelButton1Text, resources.GetString("labelButton1Text.ToolTip"));
             // 
             // labelButton2Text
             // 
             resources.ApplyResources(this.labelButton2Text, "labelButton2Text");
+            this.labelButton2Text.Cursor = System.Windows.Forms.Cursors.Help;
             this.labelButton2Text.Name = "labelButton2Text";
             this.toolTipInfo.SetToolTip(this.labelButton2Text, resources.GetString("labelButton2Text.ToolTip"));
             // 
