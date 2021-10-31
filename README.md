@@ -40,7 +40,7 @@ So far, the app supports these languages:
 * Thai (thanks to Squishee Freshy)
 * Turkish (thanks to Ozan Akyüz)
 * Ukrainian (thanks to MechaniX and Dmitromintenko)
-* Vietnamese (thanks to Mykm, Phnthnhnm0612 and dsbachle)
+* Vietnamese (thanks to [Mykm](https://github.com/yumiruuwu), Phnthnhnm0612 and dsbachle)
 * Simplified Chinese (thanks to Zjsun.ca and zozocha)
 * Traditional Chinese (thanks to [westxlu](https://linktr.ee/westxlu))
 
