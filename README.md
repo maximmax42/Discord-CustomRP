@@ -19,7 +19,7 @@ If you have any problems with the app, please check out [FAQ](https://github.com
 
 ## Translations
 So far, the app supports these languages:
-* Arabic-EG (thanks to Shadowl and FiberAhmed)
+* Arabic-EG (thanks to ShadowlGamer and FiberAhmed)
 * Czech (thanks to [JayJake](https://jayjake.eu/))
 * Danish (thanks to Sebastian Hviid and Tobias)
 * German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), ahmad and binarynoise)
