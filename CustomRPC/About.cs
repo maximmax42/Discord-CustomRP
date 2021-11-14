@@ -13,7 +13,7 @@ namespace CustomRPC
             labelVersion.Text = "v" + versionSplit[0] + "." + versionSplit[1];
             if (versionSplit[2] != "0") labelVersion.Text += "." + versionSplit[2];
 #if DEBUG
-            labelVersion.Text += " debug";
+            labelVersion.Text += " (DEV)";
 #endif
         }
     }
