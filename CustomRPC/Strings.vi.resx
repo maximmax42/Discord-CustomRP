@@ -132,7 +132,7 @@ Nhấn "Có" để thử lại hoặc "Không" để tải xuống theo cách th
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Bạn muốn mở phần Hướng dẫn không?
-Bạn có thể mở nó bất cứ lúc nào bằng cách mở phần Trợ giúp -&gt; Hướng dẫn hoặc ấn F1.</value>
+Bạn có thể mở nó bất cứ lúc nào bằng cách vào phần Trợ giúp -&gt; Hướng dẫn hoặc nhấn F1.</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>Thông tin</value>
@@ -164,5 +164,8 @@ Bạn có thể mở nó bất cứ lúc nào bằng cách mở phần Trợ gi�
   <data name="errorCorruptSettings" xml:space="preserve">
     <value>Tệp thiết lập đã bị hỏng.
 Chọn Có để đặt lại thiết lập, chọn Không để thoát.</value>
+  </data>
+  <data name="errorInvalidPresetFile" xml:space="preserve">
+    <value>Không thể nhập các thiết lập trước đó; tệp có thể đã bị thiếu, bị hỏng hoặc định dạng không đúng.</value>
   </data>
 </root>

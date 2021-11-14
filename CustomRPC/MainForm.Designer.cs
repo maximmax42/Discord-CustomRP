@@ -196,6 +196,7 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
+            this.fiberAhmedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -666,7 +667,8 @@
             // arabicEGToolStripMenuItem
             // 
             this.arabicEGToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.shadowlToolStripMenuItem});
+            this.shadowlToolStripMenuItem,
+            this.fiberAhmedToolStripMenuItem});
             this.arabicEGToolStripMenuItem.Name = "arabicEGToolStripMenuItem";
             resources.ApplyResources(this.arabicEGToolStripMenuItem, "arabicEGToolStripMenuItem");
             // 
@@ -905,7 +907,7 @@
             this.psychonautToolStripMenuItem.Image = global::CustomRPC.Properties.Resources.globe;
             this.psychonautToolStripMenuItem.Name = "psychonautToolStripMenuItem";
             resources.ApplyResources(this.psychonautToolStripMenuItem, "psychonautToolStripMenuItem");
-            this.psychonautToolStripMenuItem.Tag = "https://www.twitch.tv/psychonaut303";
+            this.psychonautToolStripMenuItem.Tag = "https://www.twitch.tv/white_rose_lt";
             this.psychonautToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // dutchToolStripMenuItem
@@ -1481,6 +1483,11 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
+            // fiberAhmedToolStripMenuItem
+            // 
+            this.fiberAhmedToolStripMenuItem.Name = "fiberAhmedToolStripMenuItem";
+            resources.ApplyResources(this.fiberAhmedToolStripMenuItem, "fiberAhmedToolStripMenuItem");
+            // 
             // MainForm
             // 
             this.AllowDrop = true;
@@ -1712,6 +1719,7 @@
         private System.Windows.Forms.ToolStripMenuItem sebastianHviidToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tobiasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pabloToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fiberAhmedToolStripMenuItem;
     }
 }
 

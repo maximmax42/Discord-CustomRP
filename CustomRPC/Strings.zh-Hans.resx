@@ -165,4 +165,7 @@
     <value>设定档已损毁。
 按「是」重设，按「否」离开。</value>
   </data>
+  <data name="errorInvalidPresetFile" xml:space="preserve">
+    <value>预设档案导入失败；可能是文件丢失、损坏或格式错误。</value>
+  </data>
 </root>

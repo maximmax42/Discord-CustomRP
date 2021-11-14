@@ -146,7 +146,7 @@
     <value>185, 18</value>
   </data>
   <data name="checkBoxNeverNotify.Text" xml:space="preserve">
-    <value>Không kiểm tra bản cập nhật</value>
+    <value>Không kiểm tra lại các bản cập nhật</value>
   </data>
   <data name="labelVersionsText.Text" xml:space="preserve">
     <value>Phiên bản hiện tại:
