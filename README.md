@@ -10,7 +10,7 @@
 Custom Discord Rich Presence Manager for Windows. Some of its features are run on startup and tray minimization. Uses [Lachee's DiscordRPC for C#](https://github.com/Lachee/discord-rpc-csharp).
 
 ## Downloading and setting up
-Download the latest version from [Releases](https://github.com/maximmax42/Discord-CustomRP/releases) page and run the .exe installer! Or, if you prefer the portable version, download the zip, unpack it somewhere, preferably in a separate folder, and start it up. Upon starting, you will be prompted to open a setup manual. You can open it later by pressing F1 or going Help -> Open Manual.
+Download the latest version from [Releases](https://github.com/maximmax42/Discord-CustomRP/releases) page and run the .exe installer! You can also use Windows Package Manager to install the program (`winget install maximmax42.CustomRP`). Or, if you prefer the portable version, download the zip, unpack it somewhere, preferably in a separate folder, and start it up. Upon starting, you will be prompted to open a setup manual. You can open it later by pressing F1 or going Help -> Open Manual.
 ### Updating
 If you installed the app, updating is literally as easy as running the installer for the newer version. If you use a portable version, please make sure to extract updated files into the same folder as you did before to keep your settings.
 ### Troubleshooting & Feedback
@@ -19,7 +19,7 @@ If you have any problems with the app, please check out [FAQ](https://github.com
 
 ## Translations
 So far, the app supports these languages:
-* Arabic-EG (thanks to Shadowl)
+* Arabic-EG (thanks to ShadowlGamer and FiberAhmed)
 * Czech (thanks to [JayJake](https://jayjake.eu/))
 * Danish (thanks to Sebastian Hviid and Tobias)
 * German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), ahmad and binarynoise)
@@ -40,7 +40,7 @@ So far, the app supports these languages:
 * Thai (thanks to Squishee Freshy)
 * Turkish (thanks to Ozan Akyüz)
 * Ukrainian (thanks to MechaniX and Dmitromintenko)
-* Vietnamese (thanks to Mykm, Phnthnhnm0612 and dsbachle)
+* Vietnamese (thanks to [Mykm](https://github.com/yumiruuwu), Phnthnhnm0612 and dsbachle)
 * Simplified Chinese (thanks to Zjsun.ca and zozocha)
 * Traditional Chinese (thanks to [westxlu](https://linktr.ee/westxlu))
 
