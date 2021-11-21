@@ -168,4 +168,8 @@ Cliquez sur "oui" pour réinitialiser la configuration, cliquez sur "non" pour q
   <data name="errorInvalidPresetFile" xml:space="preserve">
     <value>Échec d'importation de la configuration ; le fichier est peut-être manquant, corrompu, ou formaté de la mauvaise façon.</value>
   </data>
+  <data name="askAnalyticsConsent" xml:space="preserve">
+    <value>Autorisez-vous CustomRP à envoyer vos données analytiques au développeur ?
+(Toutes vos données sont anonymes.)</value>
+  </data>
 </root>

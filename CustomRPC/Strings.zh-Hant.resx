@@ -168,4 +168,8 @@
   <data name="errorInvalidPresetFile" xml:space="preserve">
     <value>預設檔案導入失敗；可能是文件丟失、損壞或格式錯誤。</value>
   </data>
+  <data name="askAnalyticsConsent" xml:space="preserve">
+    <value>您是否允許 CustomRP 將您的使用情況分析發送給開發人員？
+（所有數據都是非個人化的。）</value>
+  </data>
 </root>

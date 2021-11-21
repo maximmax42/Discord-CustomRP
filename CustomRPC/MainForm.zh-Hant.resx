@@ -299,4 +299,7 @@
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>自動連線</value>
   </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>允許分析</value>
+  </data>
 </root>

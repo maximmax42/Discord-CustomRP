@@ -438,4 +438,7 @@
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>自动连接</value>
   </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>允许分析</value>
+  </data>
 </root>
