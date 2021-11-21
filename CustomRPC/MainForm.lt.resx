@@ -411,4 +411,7 @@ Kad abu laukai įsigaliotų, jie turėtų būti didesni nei 0.</value>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>Automatinis prisijungimas</value>
   </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Leisti analitiką</value>
+  </data>
 </root>

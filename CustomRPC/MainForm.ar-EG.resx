@@ -118,23 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>اضغط ضغطتين علي ايقونة لاظهارها مجددا او زر فارة الايمن للخروج.</value>
+    <value>انقر ضغطتين فوق الرمز لإظهاره مرة أخرى، أو انقر بزر الفأرة الأيمن للإنهاء.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>هذا التطبيق سيعمل في الخلفيه.</value>
+    <value>سيتم تشغيل التطبيق في الخلفية.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>139, 22</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
-    <value>قتح</value>
+    <value>افتح</value>
   </data>
   <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
     <value>139, 22</value>
   </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
-    <value>اعادة الاتصال</value>
+    <value>إعادة الإتصال</value>
   </data>
   <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
     <value>136, 6</value>
@@ -143,7 +143,7 @@
     <value>139, 22</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
-    <value>اغلاق</value>
+    <value>إغلاق</value>
   </data>
   <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 76</value>
@@ -152,13 +152,13 @@
     <value>224, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>اعدادات محدده مسبقآ</value>
+    <value>تحميل الإعداد المُسبق</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>224, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>حفظ اعدادات محدده</value>
+    <value>حفظ الإعداد المسبق</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>221, 6</value>
@@ -167,7 +167,7 @@
     <value>224, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>رفع الصور المساعدة</value>
+    <value>رفع الأصول</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>221, 6</value>
@@ -176,7 +176,7 @@
     <value>224, 22</value>
   </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>خروج</value>
+    <value>إنهاء</value>
   </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>42, 20</value>
@@ -188,13 +188,13 @@
     <value>174, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>تشغيل عند البدء</value>
+    <value>تشغيل عند بدء التشغيل</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>174, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>البدء مصغرًا</value>
+    <value>البدء مُصغرًا</value>
   </data>
   <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 6</value>
@@ -209,7 +209,7 @@
     <value>171, 6</value>
   </data>
   <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
-    <value>الطبيعي</value>
+    <value>الإفتراضي</value>
   </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>174, 22</value>
@@ -227,13 +227,13 @@
     <value>176, 22</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>فتح الارشادات</value>
+    <value>افتح الإرشادات</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>176, 22</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>صفحه GitHub</value>
+    <value>صفحة Github</value>
   </data>
   <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 6</value>
@@ -242,7 +242,7 @@
     <value>176, 22</value>
   </data>
   <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>المترجمين</value>
+    <value>المُترجمين</value>
   </data>
   <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 6</value>
@@ -251,7 +251,7 @@
     <value>176, 22</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>تحقق من التحديثات...</value>
+    <value>التحقق من التحديثات...</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>176, 22</value>
@@ -263,70 +263,70 @@
     <value>65, 20</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>المساعدة</value>
+    <value>المُساعدة</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>91, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>تحميل التحديث</value>
+    <value>حمِّل التحديث</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
     <value>تحديث الحالة</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>يحدث الحالة.</value>
+    <value>يُحدِّث الحالة.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
-    <value>اتصال</value>
+    <value>إتصال</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>ربط التطبيق برقم هويه محدد مع الحالة.</value>
+    <value>ربط التطبيق بِرقم هوية محدد مع الحالة.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
-    <value>انقطاع</value>
+    <value>انقطع الإتصال</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>قطع اتصال التطبيق من الديسكورد. ملحوظه هذي العمليه من المحتمل ان تاخذ وقت.</value>
+    <value>قطع اتصال التطبيق من الديسكورد. يرجى ملاحظة أنه قد يستغرق بعض الوقت.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>رقم المعرف للتطبيق من صفحة الديسكورد للمبرمجين.</value>
+    <value>رقم المعرف التطبيق من موقع ديسكورد للمُطوِّرين.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>اول صف في الحالة.</value>
+    <value>السطر الأول في الحالة.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>ثاني صف في الحالة.</value>
+    <value>السطر الثاني في الحالة.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>اسم المساعد التابع لصورة الصغيرة.</value>
+    <value>اسم الأصل للصورة الصغيرة.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>الرساله مكتوبة عند وضع الماوس علي الصورة الصغيرة.</value>
+    <value>النص المعروض عند التمرير فوق الصورة الصغيرة.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>الرسالة مكتوبة عند وضع الماوس علي الصورة الكبيرة.</value>
+    <value>النص المعروض عند التمرير فوق الصورة الكبيرة.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>اسم المساعد التابع لصورة الكبيرة.</value>
+    <value>اسم الأصل للصورة الكبيرة.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 14</value>
   </data>
   <data name="labelSmall.Text" xml:space="preserve">
-    <value>صورة صغيرة</value>
+    <value>الصورة الصغيرة</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>الصورة التي تظهر في الجزء الاسفل الايمن لزاوية الصورة الكبيرة.</value>
+    <value>الصورة التي تظهر في الركن الأيمن السفلي من الصورة الكبيرة.</value>
   </data>
   <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 14</value>
   </data>
   <data name="labelLarge.Text" xml:space="preserve">
-    <value>صورة كبيرة</value>
+    <value>الصورة الكبيرة</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>الصورة التي تظهر علي شمال الكتابة في الاعلي.</value>
+    <value>الصورة التي تظهر في الركن الأيمن السفلي من الصورة الكبيرة.</value>
   </data>
   <data name="radioButtonNone.Location" type="System.Drawing.Point, System.Drawing">
     <value>277, 4</value>
@@ -335,10 +335,10 @@
     <value>60, 18</value>
   </data>
   <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>لا شي</value>
+    <value>لا شيء</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>ايقاف الوقت الفعلي.</value>
+    <value>لم يتم تمكين الوقت الفعلي.</value>
   </data>
   <data name="radioButtonStartTime.Location" type="System.Drawing.Point, System.Drawing">
     <value>209, 28</value>
@@ -350,7 +350,7 @@
     <value>منذ بداية CustomRP</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>اظهار الوقت منذ بداية التطبيق.</value>
+    <value>يظهر الوقت منذ بدء تشغيل التطبيق.</value>
   </data>
   <data name="radioButtonLocalTime.Location" type="System.Drawing.Point, System.Drawing">
     <value>247, 52</value>
@@ -359,18 +359,18 @@
     <value>90, 18</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>وقتك المحلي</value>
+    <value>توقيتك المحلي</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>اظهار وقتك الحالي بصيغة 24.</value>
+    <value>يظهر الوقت الحالي بتنسيق 24 ساعة.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>اعداد صيغة الوقت للحالة التي تظهر اسفل الكتابة ف اعلي.
-وقت الحالة في الديسكورد يستخدم صيغة 24 ساعه بمعني عند انتهاء 24 ساعه سيعود الوقت الى 0:00.</value>
+    <value>يقوم بإعداد الوقت الفعلي للحالة، والذي يظهر تحت كل النص أعلاه.
+مؤقتات الحالة لها حد 24 ساعة، مما يعني أنه بعد 24 ساعة سيعود الوقت إلى 0:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>عدد اللاعبين في البارتي الحالي الذي يظهر بجانب حقل State.
-لاخذ تاثير كلا الحقلين يجب ان يكونوا الحقلين اكثر من 0.</value>
+    <value>عدد اللاعبين في الردهة الحالية الذي يظهر بجانب حقل الولاية.
+لكي تصبح سارية المفعول، يجب أن يكون كلا الحقلين أكثر من 0.</value>
   </data>
   <data name="radioButtonCustom.Location" type="System.Drawing.Point, System.Drawing">
     <value>218, 75</value>
@@ -379,40 +379,40 @@
     <value>119, 18</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>صيغه وقت مخصصة</value>
+    <value>الوقت الفعلي المُخصص</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
-    <value>اظهار كمية الوقت التي مرت او باقي من التاريخ في الاسفل.</value>
+    <value>يُظهر مقدار الوقت المنقضي منذ التاريخ المحدد أدناه أو المتبقي عليه.</value>
   </data>
   <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>33, 14</value>
   </data>
   <data name="labelButton1.Text" xml:space="preserve">
-    <value>الزر 1</value>
+    <value>الزر الأول</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>اول زر من الزررين الذي يظهر اسفل حالتك في صفحتك يظهر علي اليمين في الصفحة المكتملة.</value>
+    <value>أول زر من الزرين اللذين يظهران تحت حالتك في نافذة ملفك الشخصي وعلى الجانب الأيمن في الملف الشخصي الكامل.</value>
   </data>
   <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>33, 14</value>
   </data>
   <data name="labelButton2.Text" xml:space="preserve">
-    <value>الزر 2</value>
+    <value>الزر الثاني</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>الزر الثاني الذي يظهر اسفل الزر الاول او بدلا منه اذا الزر اول لم ينوجد.</value>
+    <value>الزر الثاني، الذي يظهر مباشرة أسفل الزر الأول، أو بدلًا مِنه، إذا لم يتم تعيين الزر الأول.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>رابط الصفحة الموضوع علي الزر الذي سياخذ المستخدم الى الصفحة بالضغظ عليه.</value>
+    <value>الرابط الذي سيأخذ الزر المستخدم إليه عند النقر عليه.</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>رابط الصفحة الموضوع علي الزر الذي سياخذ المستخدم الى الصفحة بالضغظ عليه.</value>
+    <value>الرابط الذي سيأخذ الزر المستخدم إليه عند النقر عليه.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
-    <value>كتابة الزر الاول.</value>
+    <value>كِتابة الزر الاول.</value>
   </data>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
-    <value>كتابة الزر الثاني.</value>
+    <value>كِتابة الزر الثاني.</value>
   </data>
   <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
     <value>22, 14</value>
@@ -429,6 +429,6 @@
     <value>True</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>اعادة الاتصال</value>
+    <value>إتصال تلقائي</value>
   </data>
 </root>

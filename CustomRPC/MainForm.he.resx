@@ -449,4 +449,7 @@
   <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>הרשה ניתוח</value>
+  </data>
 </root>

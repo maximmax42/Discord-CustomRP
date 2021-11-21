@@ -118,51 +118,54 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="error" xml:space="preserve">
-    <value>خطا</value>
+    <value>خلل</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>لا يوجد معرف محدد!</value>
+    <value>لا يوجد معرف مُحدد!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
-    <value>هناك خطا اثناء تحميل او تصتيب التحديث.
-اضغط "نعم" للمحاولة مرا اخرا او "لا" للتحميل اليدوي.</value>
+    <value>حدث خطأ أثناء تنزيل التحديث أو تثبيته.
+اضغط على "نعم" لإعادة المحاولة أو "لا" للتنزيل يدويًا.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>اول مرا يتم تشغيل</value>
+    <value>أول مرة يتم تشغيل</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
-    <value>هل تود فتح التطبيق يدويا؟
-تقدر تفتحه في اي وقت عن طريق الذهاب للمساعدة -&gt; افتح الارشادات او اضغط F1.</value>
+    <value>هل تود فتح التطبيق يدويًا؟
+يمكنك فتحه في أي وقت عن طريق الذهاب للمساعدة -&gt; افتح الإرشادات أو اضغط F1.</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>معلومات</value>
   </data>
   <data name="statusConnected" xml:space="preserve">
-    <value>متصل</value>
+    <value>مُتصل</value>
   </data>
   <data name="statusConnecting" xml:space="preserve">
     <value>يتصل...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>فشل اتصال (هل الديسكورد شغال؟)</value>
+    <value>فشل الإتصال (هل الديسكورد يعمل؟)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
-    <value>غير متصل</value>
+    <value>انقطع الإتصال</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>خطا فالاتصال (رقم معرف خطا؟)</value>
+    <value>خطا فاِلإتصال (رقم معرف خاطئ؟)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>رابط خطا للازرار او الكتابة طويلة جدا!</value>
+    <value>رابط خاطئ للأزرار او الكتابة طويلة جدًا!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
-    <value>عدم القدرة علي الاتصال للانترنت!</value>
+    <value>لا يُمكن الاتصال بالإنترنت!</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
     <value>لا يوجد تحديثات!</value>
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
-    <value>ملف الإعدادات تالف.
-اضغط نعم لإعادة ضبط الإعدادات، اضغط على لا لإنهاء.</value>
+    <value>ملف الإعدادات تالِف.
+اضغط على "نعم" لإعادة ضبط الإعدادات، اضغط على "لا" للإنهاء.</value>
+  </data>
+  <data name="errorInvalidPresetFile" xml:space="preserve">
+    <value>فشل استيراد الإعداد المسبق؛ الملف إما مفقود أو تالف أو غير منسق بشكلٍ صحيح.</value>
   </data>
 </root>

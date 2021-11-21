@@ -121,7 +121,7 @@
     <value>نعم</value>
   </data>
   <data name="buttonNotNow.Text" xml:space="preserve">
-    <value>ليس الان</value>
+    <value>ليس الآن</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
@@ -134,14 +134,14 @@
     <value>156, 18</value>
   </data>
   <data name="checkBoxNeverNotify.Text" xml:space="preserve">
-    <value>لا تبحث عن تحديثات اخرى</value>
+    <value>لا تتحقق عن التحديثات مرة أخرى</value>
   </data>
   <data name="labelVersionsText.Text" xml:space="preserve">
-    <value>الاصدار الحالي:
-اخر اصدار:</value>
+    <value>الإصدار الحالي:
+آخر إصدار:</value>
   </data>
   <data name="buttonSkipUpdate.Text" xml:space="preserve">
-    <value>تخطي الاصدار</value>
+    <value>تخطي هذا الإصدار</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
