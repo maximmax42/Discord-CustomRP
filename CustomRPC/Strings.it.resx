@@ -165,4 +165,7 @@ Puoi aprirlo in qualsiasi momento andando su Help -&gt; Apri il manuale o premen
     <value>Il file delle impostazioni è corrotto.
 Premi Sì per resettare le impostazioni oppure premi No per uscire.</value>
   </data>
+  <data name="errorInvalidPresetFile" xml:space="preserve">
+    <value>Non ho potuto importare il preset; il file è mancante, corrotto o non formattato.</value>
+  </data>
 </root>
