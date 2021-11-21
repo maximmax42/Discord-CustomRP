@@ -633,13 +633,15 @@
             // 
             this.openTheManualToolStripMenuItem.Name = "openTheManualToolStripMenuItem";
             resources.ApplyResources(this.openTheManualToolStripMenuItem, "openTheManualToolStripMenuItem");
-            this.openTheManualToolStripMenuItem.Click += new System.EventHandler(this.OpenManual);
+            this.openTheManualToolStripMenuItem.Tag = "https://github.com/maximmax42/Discord-CustomRP/wiki/Setting-Up";
+            this.openTheManualToolStripMenuItem.Click += new System.EventHandler(this.OpenSite);
             // 
             // gitHubPageToolStripMenuItem
             // 
             this.gitHubPageToolStripMenuItem.Name = "gitHubPageToolStripMenuItem";
             resources.ApplyResources(this.gitHubPageToolStripMenuItem, "gitHubPageToolStripMenuItem");
-            this.gitHubPageToolStripMenuItem.Click += new System.EventHandler(this.OpenGitHub);
+            this.gitHubPageToolStripMenuItem.Tag = "https://github.com/maximmax42/Discord-CustomRP";
+            this.gitHubPageToolStripMenuItem.Click += new System.EventHandler(this.OpenSite);
             // 
             // toolStripSeparatorHelp1
             // 

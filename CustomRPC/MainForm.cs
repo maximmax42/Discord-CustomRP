@@ -697,16 +697,11 @@ namespace CustomRPC
             Application.Restart();
         }
 
-        // Called when you press Open the Manual button
-        private void OpenManual(object sender, EventArgs e)
+        // Called when you press on menu items that open websites
+        private void OpenSite(object sender, EventArgs e)
         {
-            Process.Start("https://github.com/maximmax42/Discord-CustomRP/wiki/Setting-Up");
-        }
-
-        // Called when you press GitHub Page button
-        private void OpenGitHub(object sender, EventArgs e)
-        {
-            Process.Start("https://github.com/maximmax42/Discord-CustomRP");
+            var item = (ToolStripMenuItem)sender;
+            Process.Start((string)item.Tag);
         }
 
         // Called when you press on a translator's nickname
@@ -714,7 +709,7 @@ namespace CustomRPC
         {
             var translator = (ToolStripMenuItem)sender;
 
-            if (String.IsNullOrWhiteSpace((string)translator.Tag))
+            if (string.IsNullOrWhiteSpace((string)translator.Tag))
                 return;
 
             Analytics.TrackEvent("Clicked on a translator", new Dictionary<string, string> {
