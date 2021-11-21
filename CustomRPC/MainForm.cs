@@ -1,6 +1,7 @@
 ﻿using CommonMark;
 using DiscordRPC;
 using DiscordRPC.Helper;
+using Microsoft.AppCenter.Analytics;
 using Octokit;
 using System;
 using System.Collections.Generic;
@@ -48,8 +49,6 @@ namespace CustomRPC
 
         List<DButton> buttonsList = new List<DButton>(); // List of custom buttons
 
-        DateTime timestampStarted = DateTime.UtcNow; // Timestamp of when the app started
-
         bool loading = true; // To prevent some event handlers from executing while app is loading
         bool toAvoidRecursion = false; // ...This is stupid
 
@@ -59,14 +58,16 @@ namespace CustomRPC
 
         Properties.Settings settings = Properties.Settings.Default; // Settings
 
-        string linkPath = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\CustomRP.lnk"; // Autorun file link
-
         GitHubClient githubClient = new GitHubClient(new ProductHeaderValue("CustomRP")); // For getting updates
         Release latestRelease;
 
-        System.Drawing.Color defaultColor = System.Drawing.Color.FromName("Window");
-        System.Drawing.Color successColor = System.Drawing.Color.FromArgb(192, 255, 192);
-        System.Drawing.Color errorColor = System.Drawing.Color.FromArgb(255, 192, 192);
+        readonly DateTime timestampStarted = DateTime.UtcNow; // Timestamp of when the app started
+
+        readonly string linkPath = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\CustomRP.lnk"; // Autorun file link
+
+        readonly System.Drawing.Color defaultColor = System.Drawing.Color.FromName("Window");
+        readonly System.Drawing.Color successColor = System.Drawing.Color.FromArgb(192, 255, 192);
+        readonly System.Drawing.Color errorColor = System.Drawing.Color.FromArgb(255, 192, 192);
 
         // Constructor of the form
         public MainForm(string preset)
@@ -89,11 +90,13 @@ namespace CustomRPC
             startMinimizedToolStripMenuItem.Checked = settings.startMinimized;
             autoconnectToolStripMenuItem.Checked = settings.autoconnect;
             checkUpdatesToolStripMenuItem.Checked = settings.checkUpdates;
+            allowAnalyticsToolStripMenuItem.Checked = Analytics.IsEnabledAsync().Result;
 
             // Checks the chosen language setting
             foreach (var toolStripItemObj in languageToolStripMenuItem.DropDownItems)
             {
-                if (toolStripItemObj is ToolStripSeparator) continue;
+                if (toolStripItemObj is ToolStripSeparator)
+                    continue;
 
                 var langItem = (ToolStripMenuItem)toolStripItemObj;
 
@@ -119,12 +122,12 @@ namespace CustomRPC
             // Change the date and time picker's format according to system's culture
             dateTimePickerTimestamp.CustomFormat = CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern + " " + CultureInfo.CurrentCulture.DateTimeFormat.LongTimePattern;
 
-            // Change the earliest date user can choose according to user's timezone
-            dateTimePickerTimestamp.MinDate = new DateTime(1970, 1, 1, 0, 0, 0).ToLocalTime();
-
             // If the app was launched for the first time (including since update), set the default time to current one
             if (settings.customTimestamp.CompareTo(new DateTime(1969, 1, 1, 0, 0, 0)) == 0)
                 settings.customTimestamp = DateTime.Now;
+
+            // Change the earliest date user can choose according to user's timezone
+            dateTimePickerTimestamp.MinDate = new DateTime(1970, 1, 1, 0, 0, 0).ToLocalTime();
 
             // Localize the header of the tooltip because Visual Studio can't do that for some reason
             toolTipInfo.ToolTipTitle = Strings.information;
@@ -138,7 +141,8 @@ namespace CustomRPC
             loading = false;
 
             // Starts minimized to tray by default, unless you just changed language
-            if (settings.changedLanguage || !settings.startMinimized) Show();
+            if (settings.changedLanguage || !settings.startMinimized)
+                Show();
 
             // That means user has upgraded from older version without that flag
             if (settings.id != "" && settings.firstStart)
@@ -160,11 +164,10 @@ namespace CustomRPC
                 settings.Save();
             }
             else if (settings.id != "" && ((settings.changedLanguage && settings.wasConnected) || (settings.autoconnect && !settings.changedLanguage)))
-            {
                 Connect();
-            }
 
-            if (settings.checkUpdates) CheckForUpdates();
+            if (settings.checkUpdates)
+                CheckForUpdates();
 
             settings.changedLanguage = false;
         }
@@ -202,16 +205,15 @@ namespace CustomRPC
             catch
             {
                 // If there's no internet or Github is down, do nothing, unless it's a user requested update check
-                if (verbose) MessageBox.Show(this, Strings.errorNoInternet, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if (verbose)
+                    MessageBox.Show(this, Strings.errorNoInternet, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             string latestVersion = latestRelease.TagName;
 
             if (latestVersion == settings.ignoreVersion && !verbose)
-            {
                 return; // The user ignored this version; this gets ignored if the user requested the update check manually, maybe they changed their mind?
-            }
 
             Version current = new Version(Application.ProductVersion.Substring(0, Application.ProductVersion.Length - 2)); // To not deal with revision number
             Version latest = new Version(latestVersion);
@@ -224,9 +226,11 @@ namespace CustomRPC
                 foreach (var release in releases)
                 {
                     Version releaseVer = new Version(release.TagName);
-                    if (releaseVer.Build == -1) releaseVer = new Version(releaseVer.Major, releaseVer.Minor, 0); // Because 1.3 != 1.3.0
+                    if (releaseVer.Build == -1)
+                        releaseVer = new Version(releaseVer.Major, releaseVer.Minor, 0); // Because 1.3 != 1.3.0
 
-                    if (releaseVer.Equals(current)) break;
+                    if (releaseVer.Equals(current))
+                        break;
 
                     var releaseBodyArr = release.Body.Split("\r\n".ToCharArray());
                     var releaseBody = "";
@@ -252,7 +256,12 @@ namespace CustomRPC
                 if (messageBox == DialogResult.Yes)
                     DownloadAndInstallUpdate();
                 else if (messageBox == DialogResult.Ignore)
+                {
                     settings.ignoreVersion = latestVersion;
+                    Analytics.TrackEvent("Ignored an update", new Dictionary<string, string> {
+                        { "Version", latestVersion }
+                    });
+                }
 
                 checkUpdatesToolStripMenuItem.Checked = settings.checkUpdates;
 
@@ -260,15 +269,14 @@ namespace CustomRPC
                     downloadUpdateToolStripMenuItem.Visible = false; // If user doesn't want update notifications, let's not bother them
             }
             else if (verbose) // If there's no update available and it was a user initiated update check, notify them about it
-            {
                 MessageBox.Show(this, Strings.noUpdatesFound, Strings.information, MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
-            }
         }
 
         // Downloading and installing latest update from GitHub
         public async void DownloadAndInstallUpdate()
         {
-            if (latestRelease == null) return; // Probably shouldn't happen, but just in case
+            if (latestRelease == null)
+                return; // Probably shouldn't happen, but just in case
 
             // Check whether the application is installed or used as a portable app
             int fileType = Application.StartupPath.EndsWith("Roaming\\CustomRP") ? 0 : 1; // 0 is exe, 1 is zip
@@ -313,10 +321,7 @@ namespace CustomRPC
             }
 
             if (client != null && !client.IsDisposed)
-            {
-                // This stuff needs proper disposal
-                client.Dispose();
-            }
+                client.Dispose(); // This stuff needs proper disposal
 
             client = new DiscordRpcClient(settings.id, (int)settings.pipe); // Assigning the ID
             client.OnPresenceUpdate += ClientOnPresenceUpdate;
@@ -326,18 +331,29 @@ namespace CustomRPC
             client.Initialize();
 
             SetPresence();
+
             return true;
         }
 
         // Will be called if successfully connected and sent the presence payload
         private void ClientOnPresenceUpdate(object sender, DiscordRPC.Message.PresenceMessage args)
         {
+            var presence = client.CurrentPresence;
             connectionState = 1;
             Invoke(new MethodInvoker(() =>
             {
                 textBoxID.BackColor = successColor;
                 toolStripStatusLabelStatus.Text = Strings.statusConnected;
             }));
+
+            // This only tracks whether or not the presence has those parameters set, not their content
+            Analytics.TrackEvent("Updated presence", new Dictionary<string, string> {
+                { "Party", presence.HasParty().ToString() },
+                { "Timestamp", settings.timestamps.ToString() },
+                { "Big image", presence.Assets.LargeImageID.HasValue.ToString() },
+                { "Small image", presence.Assets.SmallImageID.HasValue.ToString() },
+                { "Buttons", buttonsList.Count.ToString() }
+            });
 
             restartTimer.Stop();
         }
@@ -352,6 +368,8 @@ namespace CustomRPC
                 toolStripStatusLabelStatus.Text = Strings.statusError;
             }));
 
+            Analytics.TrackEvent("Connection error");
+
             restartTimer.Start();
         }
 
@@ -365,13 +383,16 @@ namespace CustomRPC
                 toolStripStatusLabelStatus.Text = Strings.statusConnectionFailed;
             }));
 
+            Analytics.TrackEvent("Connection failed");
+
             restartTimer.Start();
         }
 
         // Sets up new presence from the settings
         private void SetPresence()
         {
-            if (client == null) return;
+            if (client == null)
+                return;
 
             var rp = new RichPresence()
             {
@@ -445,9 +466,7 @@ namespace CustomRPC
                 shortcut.Save();
             }
             else if (!settings.runOnStartup && File.Exists(linkPath)) // If run on startup is disabled and the link is in the Startup folder
-            {
                 File.Delete(linkPath);
-            }
         }
 
         // Called when you drag a file into app's window
@@ -464,7 +483,8 @@ namespace CustomRPC
         {
             string[] files = e.Data.GetData(DataFormats.FileDrop) as string[];
 
-            if (files != null && files.Length > 0) LoadPreset(files[0]); // If multiple files are passed, only the first one gets imported
+            if (files != null && files.Length > 0)
+                LoadPreset(files[0]); // If multiple files are passed, only the first one gets imported
         }
 
         // Called when you close the main window with the X button
@@ -524,7 +544,8 @@ namespace CustomRPC
 
                 bool wasConnected = buttonDisconnect.Enabled;
 
-                if (wasConnected) Disconnect();
+                if (wasConnected)
+                    Disconnect();
 
                 settings.id = preset.ID;
                 settings.details = preset.Details;
@@ -551,7 +572,10 @@ namespace CustomRPC
                     case 3: radioButtonCustom.Checked = true; break;
                 }
 
-                if (wasConnected) Connect();
+                if (wasConnected)
+                    Connect();
+
+                Analytics.TrackEvent("Loaded a preset");
             }
             catch
             {
@@ -569,7 +593,8 @@ namespace CustomRPC
                 Filter = "CustomRP Preset|*.crp"
             };
 
-            if (presetFile.ShowDialog() != DialogResult.OK) return;
+            if (presetFile.ShowDialog() != DialogResult.OK)
+                return;
 
             LoadPreset(presetFile.OpenFile());
         }
@@ -589,7 +614,8 @@ namespace CustomRPC
                 Filter = "CustomRP Preset|*.crp"
             };
 
-            if (presetFile.ShowDialog() != DialogResult.OK) return;
+            if (presetFile.ShowDialog() != DialogResult.OK)
+                return;
 
             using (var file = presetFile.OpenFile())
             {
@@ -612,12 +638,15 @@ namespace CustomRPC
                     Button2URL = settings.button2URL,
                 });
             }
+
+            Analytics.TrackEvent("Saved a preset");
         }
 
         // Called when you press Upload Assets button
         private void OpenDiscordSite(object sender, EventArgs e)
         {
-            if (settings.id == "") return;
+            if (settings.id == "")
+                return;
 
             Process.Start("https://discord.com/developers/applications/" + settings.id + "/rich-presence/assets");
         }
@@ -625,7 +654,8 @@ namespace CustomRPC
         // Called when you click File -> Quit or right-click on the tray icon and choose Quit
         private void Quit(object sender, EventArgs e)
         {
-            if (client != null) client.Dispose();
+            if (client != null)
+                client.Dispose();
 
             settings.Save();
             Application.Exit();
@@ -634,18 +664,24 @@ namespace CustomRPC
         // Called when you press anything in Settings submenu of menu strip
         private void SaveSettings(object sender, EventArgs e)
         {
-            if (loading) return;
+            if (loading)
+                return;
 
             // Apparently property binding doesn't work either for checkboxes or for bool variables
             settings.runOnStartup = runOnStartupToolStripMenuItem.Checked;
             settings.startMinimized = startMinimizedToolStripMenuItem.Checked;
             settings.autoconnect = autoconnectToolStripMenuItem.Checked;
             settings.checkUpdates = checkUpdatesToolStripMenuItem.Checked;
+            settings.analytics = allowAnalyticsToolStripMenuItem.Checked;
+
+            Analytics.SetEnabledAsync(settings.analytics);
 
             settings.Save();
 
             StartupSetup();
-            if (settings.checkUpdates) CheckForUpdates();
+
+            if (settings.checkUpdates)
+                CheckForUpdates();
         }
 
         // Called when you change the language
@@ -678,7 +714,13 @@ namespace CustomRPC
         {
             var translator = (ToolStripMenuItem)sender;
 
-            if (String.IsNullOrWhiteSpace((string)translator.Tag)) return;
+            if (String.IsNullOrWhiteSpace((string)translator.Tag))
+                return;
+
+            Analytics.TrackEvent("Clicked on a translator", new Dictionary<string, string> {
+                { "Name", translator.Text },
+                { "URL", (string)translator.Tag }
+            });
 
             Process.Start((string)translator.Tag); // Tags contain URLs
         }
@@ -692,6 +734,7 @@ namespace CustomRPC
         // Called when you press About... button
         private void ShowAbout(object sender, EventArgs e)
         {
+            Analytics.TrackEvent("Opened about window");
             new About().ShowDialog(this);
         }
 
@@ -705,7 +748,8 @@ namespace CustomRPC
         // This is overcomplicated isn't it, but hey, at least it works with pasting as well!
         private void OnlyNumbers(object sender, EventArgs e)
         {
-            if (toAvoidRecursion || textBoxID.Text == "") return;
+            if (toAvoidRecursion || textBoxID.Text == "")
+                return;
 
             textBoxID.ReadOnly = true; // Not sure if I need it?
             toAvoidRecursion = true; // Just so this handler doesn't get called again on...
@@ -717,8 +761,10 @@ namespace CustomRPC
 
             foreach (var symbol in textBoxID.Text)
             {
-                if (char.IsDigit(symbol)) newline += symbol;
-                else changed++;
+                if (char.IsDigit(symbol))
+                    newline += symbol;
+                else
+                    changed++;
             }
 
             textBoxID.Text = newline; // ...this line
@@ -736,12 +782,16 @@ namespace CustomRPC
 
             if (ModifierKeys == (Keys.Control | Keys.Shift) && sender is Button)
             {
+                Analytics.TrackEvent("Opened pipe selector window");
+
                 new PipeSelector().ShowDialog(this);
                 return;
             }
 
             if (Init()) // If successfully connected...
             {
+                Analytics.TrackEvent("Connected");
+
                 buttonConnect.Enabled = false; // ...disable Connect button...
                 buttonDisconnect.Enabled = true; // ...enable Disconnect button...
                 trayMenuDisconnect.Enabled = true; // ...enable Disconnect button in tray menu...
@@ -773,6 +823,8 @@ namespace CustomRPC
             restartTimer.Stop();
 
             client.Dispose();
+
+            Analytics.TrackEvent("Disconnected");
         }
 
         // Same but as a tidy function for using in code
@@ -799,13 +851,9 @@ namespace CustomRPC
             var box = (TextBox)sender;
 
             if (StringTools.WithinLength(box.Text, box.MaxLength))
-            {
                 box.BackColor = defaultColor;
-            }
             else
-            {
                 box.BackColor = errorColor;
-            }
         }
 
         // Called on Validating event to validate party size values
@@ -824,11 +872,13 @@ namespace CustomRPC
         // Called when a timestamp radiobutton changed
         private void TimestampsChanged(object sender, EventArgs e)
         {
-            if (loading) return;
+            if (loading)
+                return;
 
             RadioButton btn = (RadioButton)sender;
 
-            if (!btn.Checked) return;
+            if (!btn.Checked)
+                return;
 
             settings.timestamps = btn.TabIndex; // I mean... it's a great container for int values
             settings.Save();

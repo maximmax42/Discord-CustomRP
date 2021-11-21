@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+using System;
 using System.Globalization;
 using System.IO;
 using System.Runtime.InteropServices;
@@ -77,10 +80,11 @@ namespace CustomRPC
                 {
                     // I can't just do settings.Reset() since it will throw the same exception, so instead I have to delete the config file.
                     string filename = ((System.Configuration.ConfigurationErrorsException)e.InnerException).Filename;
-                    System.IO.File.Delete(filename);
+                    File.Delete(filename);
                     AppMutex.Close();
                     Application.Restart(); 
                 }
+
                 return;
             }
 
@@ -88,8 +92,13 @@ namespace CustomRPC
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            IntPtr _ = new MainForm(args.Length > 0 ? args[0] : "none").Handle; // Terrible, yet allows to fully initialize the form without showing it first
+            Application.SetUnhandledExceptionMode(UnhandledExceptionMode.ThrowException);
 
+            // Analytics
+            AppCenter.SetCountryCode(RegionInfo.CurrentRegion.TwoLetterISORegionName);
+            AppCenter.Start("141506f2-5a6b-46c5-a70e-693831ee131a", typeof(Analytics), typeof(Crashes));
+
+            IntPtr _ = new MainForm(args.Length > 0 ? args[0] : "none").Handle; // Terrible, yet allows to fully initialize the form without showing it first
             Application.Run();
 
             GC.KeepAlive(AppMutex);

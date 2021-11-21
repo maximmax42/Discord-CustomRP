@@ -55,6 +55,7 @@
             this.autoconnectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparatorSettings1 = new System.Windows.Forms.ToolStripSeparator();
             this.checkUpdatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allowAnalyticsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.languageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.defaultToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -90,6 +91,7 @@
             this.translatorsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.arabicEGToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.shadowlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fiberAhmedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.czechToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jayJakeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.danishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -196,7 +198,6 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.fiberAhmedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -325,6 +326,7 @@
             this.autoconnectToolStripMenuItem,
             this.toolStripSeparatorSettings1,
             this.checkUpdatesToolStripMenuItem,
+            this.allowAnalyticsToolStripMenuItem,
             this.toolStripSeparator1,
             this.languageToolStripMenuItem});
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
@@ -368,6 +370,15 @@
             this.checkUpdatesToolStripMenuItem.Name = "checkUpdatesToolStripMenuItem";
             resources.ApplyResources(this.checkUpdatesToolStripMenuItem, "checkUpdatesToolStripMenuItem");
             this.checkUpdatesToolStripMenuItem.CheckedChanged += new System.EventHandler(this.SaveSettings);
+            // 
+            // allowAnalyticsToolStripMenuItem
+            // 
+            this.allowAnalyticsToolStripMenuItem.Checked = true;
+            this.allowAnalyticsToolStripMenuItem.CheckOnClick = true;
+            this.allowAnalyticsToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.allowAnalyticsToolStripMenuItem.Name = "allowAnalyticsToolStripMenuItem";
+            resources.ApplyResources(this.allowAnalyticsToolStripMenuItem, "allowAnalyticsToolStripMenuItem");
+            this.allowAnalyticsToolStripMenuItem.CheckedChanged += new System.EventHandler(this.SaveSettings);
             // 
             // toolStripSeparator1
             // 
@@ -678,6 +689,11 @@
             resources.ApplyResources(this.shadowlToolStripMenuItem, "shadowlToolStripMenuItem");
             this.shadowlToolStripMenuItem.Tag = "";
             this.shadowlToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
+            // 
+            // fiberAhmedToolStripMenuItem
+            // 
+            this.fiberAhmedToolStripMenuItem.Name = "fiberAhmedToolStripMenuItem";
+            resources.ApplyResources(this.fiberAhmedToolStripMenuItem, "fiberAhmedToolStripMenuItem");
             // 
             // czechToolStripMenuItem
             // 
@@ -1483,11 +1499,6 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
-            // fiberAhmedToolStripMenuItem
-            // 
-            this.fiberAhmedToolStripMenuItem.Name = "fiberAhmedToolStripMenuItem";
-            resources.ApplyResources(this.fiberAhmedToolStripMenuItem, "fiberAhmedToolStripMenuItem");
-            // 
             // MainForm
             // 
             this.AllowDrop = true;
@@ -1720,6 +1731,7 @@
         private System.Windows.Forms.ToolStripMenuItem tobiasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pabloToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fiberAhmedToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem allowAnalyticsToolStripMenuItem;
     }
 }
 

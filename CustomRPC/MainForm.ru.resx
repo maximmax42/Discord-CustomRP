@@ -482,4 +482,7 @@
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>Подключаться автоматически</value>
   </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Разрешить аналитику</value>
+  </data>
 </root>
