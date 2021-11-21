@@ -1,12 +1,12 @@
 # Privacy Policy
-CustomRP collects certain non-personal information during the usage of the app:
+CustomRP collects this non-personal information during the usage of the app:
 - OS Version
 - OS Language
 - Device Model (laptop or motherboard)
 - Country based on OS settings (does not use geolocation)
 - App Version
 
-And these user interactions:
+As well as these user interactions:
 - Connected to Discord
 - Disconnected from Discord
 - Connection error (wrong ID, etc)
