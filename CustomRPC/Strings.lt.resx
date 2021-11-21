@@ -168,4 +168,8 @@ Paspauskite Taip kad atstatyti nustatymus, paspauskite Ne kad išeiti.</value>
   <data name="errorInvalidPresetFile" xml:space="preserve">
     <value>Nepavyko importuoti išsaugoto nustatymo; failas prarastas arba jis sugadintas bei netinkamas formatas.</value>
   </data>
+  <data name="askAnalyticsConsent" xml:space="preserve">
+    <value>Ar leidžiate „CustomRP“ siųsti jūsų naudojimo analitiką "Duomenis" kūrėjui?
+(Visi duomenys yra nuasmeninti.)</value>
+  </data>
 </root>

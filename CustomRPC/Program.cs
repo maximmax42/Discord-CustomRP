@@ -94,6 +94,18 @@ namespace CustomRPC
             Application.SetCompatibleTextRenderingDefault(false);
             Application.SetUnhandledExceptionMode(UnhandledExceptionMode.ThrowException);
 
+            if (!settings.analyticsAskedConsent) // First time launching the app since the analytics integration
+            {
+                var result = MessageBox.Show(Strings.askAnalyticsConsent, Strings.information, MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+
+                var allowAnalytics = result == DialogResult.Yes;
+
+                Analytics.SetEnabledAsync(allowAnalytics);
+                settings.analytics = allowAnalytics;
+                settings.analyticsAskedConsent = true;
+                settings.Save();
+            }
+
             // Analytics
             AppCenter.SetCountryCode(RegionInfo.CurrentRegion.TwoLetterISORegionName);
             AppCenter.Start("141506f2-5a6b-46c5-a70e-693831ee131a", typeof(Analytics), typeof(Crashes));

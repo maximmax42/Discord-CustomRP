@@ -61,6 +61,16 @@ namespace CustomRPC {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Do you allow CustomRP to send your usage analytics to the developer?
+        ///(All the data is depersonalized.).
+        /// </summary>
+        internal static string askAnalyticsConsent {
+            get {
+                return ResourceManager.GetString("askAnalyticsConsent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Error.
         /// </summary>
         internal static string error {

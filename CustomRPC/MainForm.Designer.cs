@@ -680,8 +680,8 @@
             // arabicEGToolStripMenuItem
             // 
             this.arabicEGToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.shadowlToolStripMenuItem,
-            this.fiberAhmedToolStripMenuItem});
+            this.fiberAhmedToolStripMenuItem,
+            this.shadowlToolStripMenuItem});
             this.arabicEGToolStripMenuItem.Name = "arabicEGToolStripMenuItem";
             resources.ApplyResources(this.arabicEGToolStripMenuItem, "arabicEGToolStripMenuItem");
             // 

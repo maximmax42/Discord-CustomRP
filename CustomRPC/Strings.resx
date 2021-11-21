@@ -173,4 +173,8 @@ Press Yes to reset the settings, press No to quit.</value>
   <data name="errorInvalidPresetFile" xml:space="preserve">
     <value>Failed to import preset; the file is either missing, corrupted, or not properly formatted.</value>
   </data>
+  <data name="askAnalyticsConsent" xml:space="preserve">
+    <value>Do you allow CustomRP to send your usage analytics to the developer?
+(All the data is depersonalized.)</value>
+  </data>
 </root>

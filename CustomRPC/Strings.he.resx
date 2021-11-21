@@ -168,4 +168,9 @@
   <data name="errorInvalidPresetFile" xml:space="preserve">
     <value>הייבוא של קובץ ההגדרות נכשל; הקובץ חסר, פגום או לא מעוצב כהלכה.</value>
   </data>
+  <data name="askAnalyticsConsent" xml:space="preserve">
+    <value>האם אתם מאפשרים ל-CustomRP לשלוח את ניתוח השימוש שלכם למפתח?
+תוכלו לעזור למתכנת במציאת באגים באפליקציה.
+ (כל הנתונים אינם מותאמים אישית.)</value>
+  </data>
 </root>

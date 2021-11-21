@@ -174,4 +174,8 @@
   <data name="errorInvalidPresetFile" xml:space="preserve">
     <value>Не удалось импортировать пресет: файл отсутствует, повреждён, или имеет неверный формат.</value>
   </data>
+  <data name="askAnalyticsConsent" xml:space="preserve">
+    <value>Даёте ли вы согласие на отправку разработчику аналитических данных по использованию приложения?
+(Все данные обезличены.)</value>
+  </data>
 </root>

@@ -406,6 +406,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UpdatePrompt.ar-EG.resx">
       <DependentUpon>UpdatePrompt.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdatePrompt.cs.resx">
       <DependentUpon>UpdatePrompt.cs</DependentUpon>

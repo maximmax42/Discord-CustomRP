@@ -346,5 +346,17 @@ namespace CustomRPC.Properties {
                 this["analytics"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool analyticsAskedConsent {
+            get {
+                return ((bool)(this["analyticsAskedConsent"]));
+            }
+            set {
+                this["analyticsAskedConsent"] = value;
+            }
+        }
     }
 }
