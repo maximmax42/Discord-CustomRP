@@ -423,4 +423,7 @@
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>เชื่อมต่อโดยอัตโนมัติ</value>
   </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>อนุญาตให้ทำการวิเคราะห์</value>
+  </data>
 </root>

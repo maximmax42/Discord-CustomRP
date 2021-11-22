@@ -299,7 +299,7 @@
     <value>190, 22</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Laman GitHub</value>
+    <value>Halaman GitHub</value>
   </data>
   <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
     <value>187, 6</value>
@@ -368,7 +368,7 @@
     <value>Putuskan aplikasi dari Discord. Tolong dicatat bahwa mungkin membutuhkan waktu beberapa saat.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>ID dari aplikasi dari laman Discord Developers.</value>
+    <value>ID dari aplikasi dari halaman Discord Developers.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
     <value>Baris pertama dari presence.</value>
@@ -380,10 +380,10 @@
     <value>Nama aset untuk gambar yang kecil.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>Teks ditampilkan saat mengarahkan gambar kecil.</value>
+    <value>Teks yang ditampilkan saat mengarahkan gambar kecil.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>Teks ditampilkan saat mengarahkan gambar besar.</value>
+    <value>Teks yang ditampilkan saat mengarahkan gambar besar.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>Nama aset untuk gambar yang besar.</value>
@@ -413,7 +413,7 @@
     <value>Tidak ada</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Tidak ada timestamps yang aktif.</value>
+    <value>Tidak ada timestamp yang aktif.</value>
   </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 18</value>
@@ -422,16 +422,16 @@
     <value>Sejak CustomRP dimulai</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>menampilkan waktu sejak aplikasi dimulai.</value>
+    <value>Menampilkan waktu sejak aplikasi dimulai.</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 18</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>Waktu lokal kamu</value>
+    <value>Waktu lokal anda</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>Menampilkan waktu kamu saat ini dalam format 24-jam.</value>
+    <value>Menampilkan waktu anda saat ini dalam format 24-jam.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>Mengatur timestamps untuk status, yang muncul di bawah semua teks di atas.
@@ -488,5 +488,8 @@ agar bekerja, kedua bidang harus lebih dari 0.</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>Autoconnect</value>
+  </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Izinkan Analisa</value>
   </data>
 </root>

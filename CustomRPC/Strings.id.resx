@@ -163,6 +163,13 @@ Anda dapat membukanya kapan saja dengan masuk ke Bantuan -&gt; Buka Manual atau 
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
     <value>Berkas pengaturan rusak.
-Tekan Ya untuk mereset pengaturan, tekan Tidak untuk berhenti.</value>
+Tekan Ya untuk mereset pengaturan, tekan Tidak untuk keluar.</value>
+  </data>
+  <data name="errorInvalidPresetFile" xml:space="preserve">
+    <value>Gagal mengimpor setelan; file hilang, rusak, atau tidak diformat dengan benar.</value>
+  </data>
+  <data name="askAnalyticsConsent" xml:space="preserve">
+    <value>Apakah Anda mengizinkan CustomRP untuk mengirim analitik penggunaan anda ke pengembang?
+(Semua data didepersonalisasi.)</value>
   </data>
 </root>

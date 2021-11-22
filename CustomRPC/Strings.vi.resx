@@ -168,4 +168,8 @@ Chọn Có để đặt lại thiết lập, chọn Không để thoát.</value>
   <data name="errorInvalidPresetFile" xml:space="preserve">
     <value>Không thể nhập các thiết lập trước đó; tệp có thể đã bị thiếu, bị hỏng hoặc định dạng không đúng.</value>
   </data>
+  <data name="askAnalyticsConsent" xml:space="preserve">
+    <value>Bạn có muốn cho phép CustomRP gửi dữ liệu phân tích của bạn đến nhà phát triển không?
+(Toàn bộ dữ liệu đều được cá nhân hoá.)</value>
+  </data>
 </root>

@@ -405,4 +405,7 @@ For at virke, skal begge felter være mere end 0.</value>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>Af</value>
   </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tillad analyse</value>
+  </data>
 </root>

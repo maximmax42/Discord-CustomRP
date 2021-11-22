@@ -433,4 +433,7 @@ Thời gian của trạng thái có giới hạn là 24 giờ, nghĩa là sau 24
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>Tự động kết nối</value>
   </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cho phép phân tích</value>
+  </data>
 </root>
