@@ -28,7 +28,7 @@ So far, the app supports these languages:
 * French (thanks to Nenaff)
 * Hebrew (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg) and [Kahpot Vanilla](https://linktr.ee/KahpotVanilla))
 * Hungarian (thanks to [Botond Balla](https://github.com/BallaBotond))
-* Indonesian (thanks to Hapnan and Apolycious)
+* Indonesian (thanks to Hapnan, Apolycious and Bayu Sopwan)
 * Italian (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
 * Central Kurdish (thanks to [SamTheNoob](https://discord.gg/stn69))
 * Lithuanian (thanks to [White Rose](https://www.twitch.tv/psychonaut303))

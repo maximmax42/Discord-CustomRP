@@ -28,4 +28,5 @@ As well as these user interactions:
 - Opened about window
 
 This information is collected to understand how the application is used, improve features and catch unexpected crashes as soon as they appear. The information is stored in the Microsoft App Center for 90 days and is not shared with any third parties.
+
 **Users can opt out at any time in the Settings menu.**
