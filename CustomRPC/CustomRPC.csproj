@@ -86,6 +86,7 @@
     <Compile Include="About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConnectionState.cs" />
     <Compile Include="PipeSelector.cs">
       <SubType>Form</SubType>
     </Compile>

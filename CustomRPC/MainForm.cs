@@ -52,9 +52,11 @@ namespace CustomRPC
         bool loading = true; // To prevent some event handlers from executing while app is loading
         bool toAvoidRecursion = false; // ...This is stupid
 
-        short connectionState = 0; // 0 - not connected/connecting, 1 - connected, 2 - error
+        ConnectionState connectionState = new ConnectionState();
 
-        Timer restartTimer = new Timer(5000); // A timer for automatic restart on connection error
+        Timer restartTimer = new Timer(10 * 1000); // A timer for automatic restart on connection error
+        int restartAttempts = 30; // Limit the amount of restart tries
+        int restartAttemptsLeft = -1;
 
         Properties.Settings settings = Properties.Settings.Default; // Settings
 
@@ -78,7 +80,7 @@ namespace CustomRPC
             StartupSetup();
 
             // Setting up a restart timer
-            restartTimer.AutoReset = true;
+            restartTimer.AutoReset = false;
             restartTimer.Elapsed += RestartTimer_Elapsed;
 
             // If we supply a preset file to import on load, load it right away
@@ -188,10 +190,22 @@ namespace CustomRPC
             base.WndProc(ref message);
         }
 
-        // Will be called every 5 seconds to try and reconnect
+        // Will be called 10 seconds after a failed connection to try and reconnect
         private void RestartTimer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
-            Connect();
+            if (restartAttemptsLeft == 0)
+            {
+                restartAttemptsLeft = -1;
+                Invoke(new MethodInvoker(() => Disconnect()));
+                return;
+            }
+
+            if (restartAttemptsLeft == -1)
+                restartAttemptsLeft = restartAttempts;
+
+            restartAttemptsLeft--;
+
+            Invoke(new MethodInvoker(() => Connect()));
         }
 
         // Checking updates
@@ -311,7 +325,7 @@ namespace CustomRPC
             }
         }
 
-        // Connecting to the Discord API
+        // Initializing connection to the Discord API
         private bool Init()
         {
             if (settings.id == "")
@@ -339,7 +353,9 @@ namespace CustomRPC
         private void ClientOnPresenceUpdate(object sender, DiscordRPC.Message.PresenceMessage args)
         {
             var presence = client.CurrentPresence;
-            connectionState = 1;
+
+            connectionState.State = ConnectionType.Connected;
+
             Invoke(new MethodInvoker(() =>
             {
                 textBoxID.BackColor = successColor;
@@ -361,14 +377,19 @@ namespace CustomRPC
         // Will be called if failed connecting (due to bad app id or anything else)
         private void ClientOnError(object sender, DiscordRPC.Message.ErrorMessage args)
         {
-            connectionState = 2;
+            connectionState.State = ConnectionType.Error;
+
             Invoke(new MethodInvoker(() =>
             {
+                if (buttonConnect.Enabled) // Ignore if the user disconnected before connection was established
+                    return;
+
                 textBoxID.BackColor = errorColor;
                 toolStripStatusLabelStatus.Text = Strings.statusError;
             }));
 
-            Analytics.TrackEvent("Connection error");
+            if (connectionState.HasChanged()) // Ignore repeated calls caused by auto reconnect
+                Analytics.TrackEvent("Connection error"); 
 
             restartTimer.Start();
         }
@@ -376,14 +397,19 @@ namespace CustomRPC
         // Will be called if failed connecting (mostly due to Discord being closed)
         private void ClientOnConnFailed(object sender, DiscordRPC.Message.ConnectionFailedMessage args)
         {
-            connectionState = 2;
+            connectionState.State = ConnectionType.Error;
+
             Invoke(new MethodInvoker(() =>
             {
+                if (buttonConnect.Enabled) // Ignore if the user disconnected before connection was established
+                    return;
+
                 textBoxID.BackColor = errorColor;
                 toolStripStatusLabelStatus.Text = Strings.statusConnectionFailed;
             }));
 
-            Analytics.TrackEvent("Connection failed");
+            if (connectionState.HasChanged()) // Ignore repeated calls caused by auto reconnect
+                Analytics.TrackEvent("Connection failed");
 
             restartTimer.Start();
         }
@@ -508,19 +534,24 @@ namespace CustomRPC
         // Called when you double click the tray icon
         private void MaximizeFromTray(object sender, EventArgs e)
         {
-            switch (connectionState) // Because invoking doesn't work while the form is hidden
+            switch (connectionState.State) // Because invoking doesn't work while the form is hidden
             {
-                case 0:
+                case ConnectionType.Disconnected:
                     textBoxID.BackColor = defaultColor;
                     toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
                     break;
-                case 1:
+                case ConnectionType.Connected:
                     textBoxID.BackColor = successColor;
                     toolStripStatusLabelStatus.Text = Strings.statusConnected;
                     break;
-                case 2:
+                case ConnectionType.Error:
                     textBoxID.BackColor = errorColor;
                     toolStripStatusLabelStatus.Text = Strings.statusError;
+                    break;
+                case ConnectionType.Unknown: // This should never happen, but just in case
+                    textBoxID.BackColor = System.Drawing.Color.FromArgb(69420);
+                    toolStripStatusLabelStatus.Text = "pipis";
+                    Analytics.TrackEvent("You've set ConnectionState.State to ConnectionType.Unknown");
                     break;
             }
 
@@ -783,9 +814,10 @@ namespace CustomRPC
                 return;
             }
 
-            if (Init()) // If successfully connected...
+            if (Init()) // If successfully initialized...
             {
-                Analytics.TrackEvent("Connected");
+                if (connectionState.State == ConnectionType.Disconnected)
+                    Analytics.TrackEvent("Connected"); // Only send analytics if connect function was called from disconnected state
 
                 buttonConnect.Enabled = false; // ...disable Connect button...
                 buttonDisconnect.Enabled = true; // ...enable Disconnect button...
@@ -813,7 +845,7 @@ namespace CustomRPC
             toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
 
             textBoxID.BackColor = defaultColor;
-            connectionState = 0;
+            connectionState.State = ConnectionType.Disconnected;
 
             restartTimer.Stop();
 
