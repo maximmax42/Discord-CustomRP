@@ -305,7 +305,7 @@ namespace CustomRPC
                     if (!File.Exists(exec))
                         await wc.DownloadFileTaskAsync(latestRelease.Assets[fileType].BrowserDownloadUrl, exec);
                     Process.Start(exec);
-
+                    Application.Exit();
                     break;
                 }
                 catch
