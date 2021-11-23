@@ -168,4 +168,8 @@ Pulse Sí para restablecer la configuración, pulse No para salir.</value>
   <data name="errorInvalidPresetFile" xml:space="preserve">
     <value>Fallo al importar el preajuste; el archivo no se encuentra, está dañado, o formateado de forma errónea.</value>
   </data>
+  <data name="askAnalyticsConsent" xml:space="preserve">
+    <value>Autoriza a CustomRP a enviar analíticas de uso al desarrollador?
+(Toda la información es despersonalizada.)</value>
+  </data>
 </root>

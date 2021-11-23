@@ -426,4 +426,7 @@ Para que tome efecto, ambos campos deben ser mayores que 0.</value>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>Autoconectar</value>
   </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Permitir analíticas</value>
+  </data>
 </root>
