@@ -320,6 +320,7 @@ namespace CustomRPC
                     else if (result == DialogResult.No)
                         Process.Start(latestRelease.Assets[fileType].BrowserDownloadUrl);
 
+                    downloadUpdateToolStripMenuItem.Enabled = true;
                     break;
                 }
             }
@@ -767,6 +768,7 @@ namespace CustomRPC
         // Called when you press Download Update button
         private void DownloadUpdate(object sender, EventArgs e)
         {
+            downloadUpdateToolStripMenuItem.Enabled = false;
             DownloadAndInstallUpdate();
         }
 
