@@ -30,6 +30,7 @@ So far, the app supports these languages:
 * Hungarian (thanks to [Botond Balla](https://github.com/BallaBotond))
 * Indonesian (thanks to Hapnan, Apolycious and Bayu Sopwan)
 * Italian (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
+* Japanese (thanks to KABIKIRA000) (coming in 1.12.4)
 * Central Kurdish (thanks to [SamTheNoob](https://discord.gg/stn69))
 * Lithuanian (thanks to [White Rose](https://www.twitch.tv/psychonaut303))
 * Dutch (thanks to [Jeremyzijlemans](https://sionhub.co.uk/))
