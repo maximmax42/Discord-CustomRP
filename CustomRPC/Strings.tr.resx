@@ -168,4 +168,8 @@ Ayarları sıfırlamak için Evet'e, çıkmak için Hayır'a basın.</value>
   <data name="errorInvalidPresetFile" xml:space="preserve">
     <value>Ön ayar içe aktarılamadı; dosya eksik, bozuk veya düzgün biçimlendirilmemiş.</value>
   </data>
+  <data name="askAnalyticsConsent" xml:space="preserve">
+    <value>CustomRP'nin kullanım analizlerinizi geliştiriciye göndermesine izin veriyor musunuz?
+(Tüm veriler kişiselleştirilmemiştir.)</value>
+  </data>
 </root>

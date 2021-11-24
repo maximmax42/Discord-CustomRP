@@ -483,4 +483,7 @@ Etkili olması için, İki alan da 0'dan büyük olmadılır.</value>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>Otomatik Bağlan</value>
   </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Analizlere izin ver</value>
+  </data>
 </root>

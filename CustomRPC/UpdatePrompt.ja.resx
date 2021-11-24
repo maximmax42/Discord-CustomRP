@@ -143,8 +143,8 @@
     <value>アップデートを再度確認しないでください</value>
   </data>
   <data name="labelVersionsText.Text" xml:space="preserve">
-    <value>現在のバージョン：
-最新バージョン：</value>
+    <value>現在のバージョン:
+最新のバージョン:</value>
   </data>
   <data name="buttonSkipUpdate.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 23</value>

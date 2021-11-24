@@ -153,13 +153,13 @@
     <value>接続エラー（IDにお間違いないはでしょうか？）</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>(ボタン)に無効なURLが指定されているか、テキストが長すぎます!</value>
+    <value>(ボタン)に無効なURLが指定されているか、テキストが長すぎます！</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
     <value>インターネットに接続できません！</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
-    <value>更新はありません!</value>
+    <value>更新はありません！</value>
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
     <value>設定ファイルが壊れています。
