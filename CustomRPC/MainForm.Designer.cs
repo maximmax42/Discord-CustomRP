@@ -72,6 +72,7 @@
             this.huToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.idToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.itToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.jaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ltToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -117,9 +118,12 @@
             this.indonesianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hapnanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.apolyciousToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bayuSopwanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.italianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.djd320ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cubeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.japaneseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kabikira000ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kurdishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.samTheNoobToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lithuanianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -198,7 +202,6 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.bayuSopwanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -403,6 +406,7 @@
             this.huToolStripMenuItem,
             this.idToolStripMenuItem,
             this.itToolStripMenuItem,
+            this.jaToolStripMenuItem,
             this.kuToolStripMenuItem,
             this.ltToolStripMenuItem,
             this.nlToolStripMenuItem,
@@ -526,6 +530,14 @@
             resources.ApplyResources(this.itToolStripMenuItem, "itToolStripMenuItem");
             this.itToolStripMenuItem.Tag = "it";
             this.itToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
+            // 
+            // jaToolStripMenuItem
+            // 
+            this.jaToolStripMenuItem.CheckOnClick = true;
+            this.jaToolStripMenuItem.Name = "jaToolStripMenuItem";
+            resources.ApplyResources(this.jaToolStripMenuItem, "jaToolStripMenuItem");
+            this.jaToolStripMenuItem.Tag = "ja";
+            this.jaToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
             // 
             // kuToolStripMenuItem
             // 
@@ -663,6 +675,7 @@
             this.hungarianToolStripMenuItem,
             this.indonesianToolStripMenuItem,
             this.italianToolStripMenuItem,
+            this.japaneseToolStripMenuItem,
             this.kurdishToolStripMenuItem,
             this.lithuanianToolStripMenuItem,
             this.dutchToolStripMenuItem,
@@ -877,6 +890,11 @@
             resources.ApplyResources(this.apolyciousToolStripMenuItem, "apolyciousToolStripMenuItem");
             this.apolyciousToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
+            // bayuSopwanToolStripMenuItem
+            // 
+            this.bayuSopwanToolStripMenuItem.Name = "bayuSopwanToolStripMenuItem";
+            resources.ApplyResources(this.bayuSopwanToolStripMenuItem, "bayuSopwanToolStripMenuItem");
+            // 
             // italianToolStripMenuItem
             // 
             this.italianToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -899,6 +917,18 @@
             resources.ApplyResources(this.cubeToolStripMenuItem, "cubeToolStripMenuItem");
             this.cubeToolStripMenuItem.Tag = "https://mrcube.live/";
             this.cubeToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
+            // 
+            // japaneseToolStripMenuItem
+            // 
+            this.japaneseToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.kabikira000ToolStripMenuItem});
+            this.japaneseToolStripMenuItem.Name = "japaneseToolStripMenuItem";
+            resources.ApplyResources(this.japaneseToolStripMenuItem, "japaneseToolStripMenuItem");
+            // 
+            // kabikira000ToolStripMenuItem
+            // 
+            this.kabikira000ToolStripMenuItem.Name = "kabikira000ToolStripMenuItem";
+            resources.ApplyResources(this.kabikira000ToolStripMenuItem, "kabikira000ToolStripMenuItem");
             // 
             // kurdishToolStripMenuItem
             // 
@@ -1503,11 +1533,6 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
-            // bayuSopwanToolStripMenuItem
-            // 
-            this.bayuSopwanToolStripMenuItem.Name = "bayuSopwanToolStripMenuItem";
-            resources.ApplyResources(this.bayuSopwanToolStripMenuItem, "bayuSopwanToolStripMenuItem");
-            // 
             // MainForm
             // 
             this.AllowDrop = true;
@@ -1742,6 +1767,9 @@
         private System.Windows.Forms.ToolStripMenuItem fiberAhmedToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem allowAnalyticsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bayuSopwanToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem jaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem japaneseToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem kabikira000ToolStripMenuItem;
     }
 }
 

@@ -118,304 +118,369 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>Klicke zweimal auf das Icon, um es nochmal anzuzeigen, oder Rechtsklick zum Beenden.</value>
+    <value>アイコンをダブルクリックすると再度表示され、右クリックすると終了します。</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>Das Programm wird in der Taskleiste laufen.</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 54</value>
-  </data>
-  <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="trayMenuReconnect.Text" xml:space="preserve">
-    <value>Neu verbinden</value>
-  </data>
-  <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 6</value>
-  </data>
-  <data name="trayMenuQuit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="trayMenuQuit.Text" xml:space="preserve">
-    <value>Beenden</value>
-  </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 20</value>
-  </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Datei</value>
-  </data>
-  <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
-  </data>
-  <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Vorlage laden</value>
-  </data>
-  <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
-  </data>
-  <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Vorlage speichern</value>
-  </data>
-  <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 6</value>
-  </data>
-  <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
-  </data>
-  <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Assets hochladen</value>
-  </data>
-  <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 6</value>
-  </data>
-  <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
-  </data>
-  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Beenden</value>
-  </data>
-  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 20</value>
-  </data>
-  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Einstellungen</value>
-  </data>
-  <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Beim Hochfahren starten</value>
-  </data>
-  <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Minimiert starten</value>
-  </data>
-  <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 6</value>
-  </data>
-  <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Nach Updates suchen</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 6</value>
-  </data>
-  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Hilfe</value>
-  </data>
-  <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 22</value>
-  </data>
-  <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>Öffne die Anleitung</value>
-  </data>
-  <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 22</value>
-  </data>
-  <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>GitHub Seite</value>
-  </data>
-  <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 6</value>
-  </data>
-  <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 22</value>
-  </data>
-  <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Übersetzer</value>
-  </data>
-  <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 6</value>
-  </data>
-  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 22</value>
-  </data>
-  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>Über...</value>
-  </data>
-  <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 20</value>
-  </data>
-  <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Update runterladen</value>
-  </data>
-  <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
-    <value>180, 433</value>
-  </data>
-  <data name="buttonUpdatePresence.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 24</value>
-  </data>
-  <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Aktualisiere Präsenz</value>
-  </data>
-  <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Aktualisiert die Präsenz.</value>
-  </data>
-  <data name="buttonConnect.Text" xml:space="preserve">
-    <value>Verbinden</value>
-  </data>
-  <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Verbindet das Programm mit der verwendeten ID mit der festgelegten Präsenz.</value>
-  </data>
-  <data name="buttonDisconnect.Text" xml:space="preserve">
-    <value>Trennen</value>
-  </data>
-  <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Trennt das Programm von Discord. Dies kann eine Weile dauern.</value>
-  </data>
-  <data name="labelID.ToolTip" xml:space="preserve">
-    <value>ID des Programms von der Discord Developers Seite.</value>
-  </data>
-  <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>Erste Zeile der Präsenz.</value>
-  </data>
-  <data name="labelState.ToolTip" xml:space="preserve">
-    <value>Zweite Zeile der Präsenz.</value>
-  </data>
-  <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Name des Assets für das kleine Bild.</value>
-  </data>
-  <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>Text, der angezeigt wird, wenn man die Maus über das kleine Bild bewegt.</value>
-  </data>
-  <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>Text, der angezeigt wird, wenn man die Maus über das große Bild bewegt.</value>
-  </data>
-  <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Name des Assets für das große Bild.</value>
-  </data>
-  <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 14</value>
-  </data>
-  <data name="labelSmall.Text" xml:space="preserve">
-    <value>Kleines Bild</value>
-  </data>
-  <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>Bild, das rechts unten vom großen Bild angezeigt wird.</value>
-  </data>
-  <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 14</value>
-  </data>
-  <data name="labelLarge.Text" xml:space="preserve">
-    <value>Großes Bild</value>
-  </data>
-  <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>Bild, das links neben dem oben festgelegten Text angezeigt wird.</value>
-  </data>
-  <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 18</value>
-  </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>Keine</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Keine Zeitstempel aktiviert.</value>
-  </data>
-  <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 18</value>
-  </data>
-  <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>Seit Custom RP gestartet wurde</value>
-  </data>
-  <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>Zeigt die Zeit an, die seit dem Start des Programms vergangen ist.</value>
-  </data>
-  <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 18</value>
-  </data>
-  <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>Deine lokale Zeit</value>
-  </data>
-  <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>Zeigt deine momentane Zeit im 24-Stunden Format an.</value>
-  </data>
-  <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Setzt einen Zeitstempel für den Status, welcher unter dem obigen Text angezeigt wird. 
-Status Timer haben ein Limit von 24 Stunden, das bedeutet, dass der Zeitstempel nach 24 Stunden auf 0:00 gesetzt wird.</value>
-  </data>
-  <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>Anzahl der Spieler in der aktuellen Gruppe, die neben dem Feld "State" angezeigt werden.
-Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
-  </data>
-  <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 18</value>
-  </data>
-  <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>Benutzerdefinierter Zeitstempel</value>
-  </data>
-  <data name="radioButtonCustom.ToolTip" xml:space="preserve">
-    <value>Zeigt an, wie viel Zeit seit dem unten festgelegten Datum vergangen ist oder verbleibt.</value>
-  </data>
-  <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 14</value>
-  </data>
-  <data name="labelButton1.Text" xml:space="preserve">
-    <value>Knopf 1</value>
-  </data>
-  <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>Die erste der beiden Schaltflächen, die unter deinem Status in deinem Profil-Popup und auf der rechten Seite im vollständigen Profil angezeigt wird.</value>
-  </data>
-  <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 14</value>
-  </data>
-  <data name="labelButton2.Text" xml:space="preserve">
-    <value>Knopf 2</value>
-  </data>
-  <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>Die zweite Knopf, der direkt unter dem ersten Knopf erscheint oder an deren Stelle, wenn die erste nicht gesetzt ist.</value>
-  </data>
-  <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>URL, zu dem der Benutzer weitergeleitet wird nachdem der Knopf gedrückt wird</value>
-  </data>
-  <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>URL, zu dem der Benutzer weitergeleitet wird nachdem der Knopf gedrückt wird</value>
-  </data>
-  <data name="labelButton1Text.ToolTip" xml:space="preserve">
-    <value>Beschriftung des ersten Knopfs</value>
-  </data>
-  <data name="labelButton2Text.ToolTip" xml:space="preserve">
-    <value>Beschriftung des zweiten Knopfs</value>
-  </data>
-  <data name="labelPartyOf.Location" type="System.Drawing.Point, System.Drawing">
-    <value>337, 114</value>
-  </data>
-  <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
-    <value>27, 14</value>
-  </data>
-  <data name="labelPartyOf.Text" xml:space="preserve">
-    <value>von</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
-    <value>Standard</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sprache</value>
+    <value>このアプリはトレイで実行されます。</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
-    <value>Öffnen</value>
+    <value>開く</value>
   </data>
-  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Suche nach Updates...</value>
+  <data name="trayMenuReconnect.Text" xml:space="preserve">
+    <value>再接続</value>
+  </data>
+  <data name="trayMenuQuit.Text" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>プリセットをロード</value>
+  </data>
+  <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>プリセットを保存</value>
+  </data>
+  <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 6</value>
+  </data>
+  <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
+    <value>アセットのアップロード</value>
+  </data>
+  <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 6</value>
+  </data>
+  <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
+    <value>起動時に実行する</value>
+  </data>
+  <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
+    <value>起動時に最小化する</value>
+  </data>
+  <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>Automatisch verbinden</value>
+    <value>自動接続</value>
+  </data>
+  <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 6</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>更新をチェックする</value>
+  </data>
+  <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Analyse erlauben</value>
+    <value>アナリティクスの許可</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 6</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>デフォルト</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 6</value>
+  </data>
+  <data name="agERToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="csToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="daToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="deToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="elToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="enToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="esToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="frToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="heToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="huToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="idToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="itToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="kuToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ltToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="nlToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="plToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ptBRToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ruToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="thToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="trToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ukToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="viToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="zhhansToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="zhhantToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
+    <value>マニュアルを見る</value>
+  </data>
+  <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>GitHubページ</value>
+  </data>
+  <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 6</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
+    <value>翻訳者</value>
+  </data>
+  <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 6</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>アップデートをチェックする。。。</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>CustomRPについて。。。</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 20</value>
+  </data>
+  <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
+    <value>アップデートをダウンロードする</value>
+  </data>
+  <data name="buttonUpdatePresence.Text" xml:space="preserve">
+    <value>プレゼンスを更新する</value>
+  </data>
+  <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
+    <value>プレゼンスを更新します。</value>
+  </data>
+  <data name="buttonConnect.Text" xml:space="preserve">
+    <value>接続</value>
+  </data>
+  <data name="buttonConnect.ToolTip" xml:space="preserve">
+    <value>指定したIDのアプリケーションにプレゼンスを設定してリンクする。</value>
+  </data>
+  <data name="buttonDisconnect.Text" xml:space="preserve">
+    <value>切断</value>
+  </data>
+  <data name="buttonDisconnect.ToolTip" xml:space="preserve">
+    <value>アプリとDiscordの接続を解除します。時間がかかる場合があります。</value>
+  </data>
+  <data name="labelID.ToolTip" xml:space="preserve">
+    <value>Discord DevelopersサイトのアプリケーションID</value>
+  </data>
+  <data name="labelDetails.ToolTip" xml:space="preserve">
+    <value>プレセンスの最初の行。</value>
+  </data>
+  <data name="labelState.ToolTip" xml:space="preserve">
+    <value>プレセンスの二行目。</value>
+  </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>小さい画像のアセット名。</value>
+  </data>
+  <data name="labelSmallText.ToolTip" xml:space="preserve">
+    <value>小さい画像にカーソルを合わせると表示されるテキスト</value>
+  </data>
+  <data name="labelLargeText.ToolTip" xml:space="preserve">
+    <value>大きい画像にカーソルを合わせると表示されるテキスト</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>大きい画像のアセット名。</value>
+  </data>
+  <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 14</value>
+  </data>
+  <data name="labelSmall.Text" xml:space="preserve">
+    <value>小さい画像</value>
+  </data>
+  <data name="labelSmall.ToolTip" xml:space="preserve">
+    <value>大きい画像の右下に表示される画像。</value>
+  </data>
+  <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 14</value>
+  </data>
+  <data name="labelLarge.Text" xml:space="preserve">
+    <value>大きい画像</value>
+  </data>
+  <data name="labelLarge.ToolTip" xml:space="preserve">
+    <value>上記で設定したテキストと一致する画像。</value>
+  </data>
+  <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 18</value>
+  </data>
+  <data name="radioButtonNone.Text" xml:space="preserve">
+    <value>無し</value>
+  </data>
+  <data name="radioButtonNone.ToolTip" xml:space="preserve">
+    <value>タイムスタンプが有効になっていません。</value>
+  </data>
+  <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 18</value>
+  </data>
+  <data name="radioButtonStartTime.Text" xml:space="preserve">
+    <value>CustomRPを実行してからの経過時間</value>
+  </data>
+  <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
+    <value>アプリを起動してからの経過時間を表示します。</value>
+  </data>
+  <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 18</value>
+  </data>
+  <data name="radioButtonLocalTime.Text" xml:space="preserve">
+    <value>あなたの現在遅刻</value>
+  </data>
+  <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
+    <value>現在の時刻を24時間形式で表示します</value>
+  </data>
+  <data name="labelTimestamp.ToolTip" xml:space="preserve">
+    <value>ステータスのタイムスタンプを設定すると、上のテキストの下に表示されます。
+ステータスタイマーには24時間の制限があり、24時間が経過すると0:00に戻ってしまいます。</value>
+  </data>
+  <data name="labelParty.ToolTip" xml:space="preserve">
+    <value>Stateの隣に表示される、現在パーティーに参加しているプレーヤーの数。
+有効にするには、両方のフィールドを0以上にする必要があります。</value>
+  </data>
+  <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 18</value>
+  </data>
+  <data name="radioButtonCustom.Text" xml:space="preserve">
+    <value>時間をカスタム</value>
+  </data>
+  <data name="radioButtonCustom.ToolTip" xml:space="preserve">
+    <value>下記の日付から経過した、または残っている時間を表示</value>
+  </data>
+  <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 14</value>
+  </data>
+  <data name="labelButton1.Text" xml:space="preserve">
+    <value>ボタン1</value>
+  </data>
+  <data name="labelButton1.ToolTip" xml:space="preserve">
+    <value>2つのボタンのうち1つは、プロフィールのポップアップではステータスの下に表示され、フルプロフィールでは右側に表示されます。</value>
+  </data>
+  <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 14</value>
+  </data>
+  <data name="labelButton2.Text" xml:space="preserve">
+    <value>ボタン2</value>
+  </data>
+  <data name="labelButton2.ToolTip" xml:space="preserve">
+    <value>ボタン2は、ボタン1のすぐ下に表示され、第1ボタンが設定されていない場合は、代わりにボタン2が表示されます。</value>
+  </data>
+  <data name="labelButton1URL.ToolTip" xml:space="preserve">
+    <value>ボタンをクリックするとユーザーが移動するURL</value>
+  </data>
+  <data name="labelButton2URL.ToolTip" xml:space="preserve">
+    <value>ボタンをクリックするとユーザーが移動するURL</value>
+  </data>
+  <data name="labelButton1Text.ToolTip" xml:space="preserve">
+    <value>ボタン1に表示するテキスト</value>
+  </data>
+  <data name="labelButton2Text.ToolTip" xml:space="preserve">
+    <value>ボタン2に表示するテキスト</value>
+  </data>
+  <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 14</value>
+  </data>
+  <data name="labelPartyOf.Text" xml:space="preserve">
+    <value>／</value>
   </data>
 </root>

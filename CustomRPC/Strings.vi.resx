@@ -169,7 +169,7 @@ Chọn Có để đặt lại thiết lập, chọn Không để thoát.</value>
     <value>Không thể nhập các thiết lập trước đó; tệp có thể đã bị thiếu, bị hỏng hoặc định dạng không đúng.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>Bạn có muốn cho phép CustomRP gửi dữ liệu phân tích của bạn đến nhà phát triển không?
-(Toàn bộ dữ liệu đều được cá nhân hoá.)</value>
+    <value>Bạn có muốn cho phép CustomRP gửi dữ liệu sử dụng của bạn đến nhà phát triển không?
+(Toàn bộ dữ liệu đều được mã hoá.)</value>
   </data>
 </root>

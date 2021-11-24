@@ -118,64 +118,58 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="error" xml:space="preserve">
-    <value>Fehler</value>
+    <value>エラー</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>Keine ID wurde festgelegt!</value>
+    <value>IDが指定されていません！</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
-    <value>Fehler beim herunterladen oder installieren eines Updates.
-Drücke "Ja" zum Wiederholen oder "Nein" um es manuell herunterzuladen.</value>
+    <value>アップデートのダウンロードまたはインストール中にエラーが発生しました。
+"はい"を押して再試行するか、"いいえ"を押して手動でダウンロードします。</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Erster Start</value>
+    <value>初回起動</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
-    <value>Möchtest du die Anleitung öffnen?
-Du kannst es jederzeit unter Hilfe -&gt; Öffne das Handbuch oder mit der F1-Taste aufrufen.</value>
+    <value>マニュアルを開きますか？
+ヘルプ&gt; マニュアルを開くに移動するか、F1キーを押すと、いつでも開くことができます。</value>
   </data>
   <data name="information" xml:space="preserve">
-    <value>Information</value>
+    <value>情報</value>
   </data>
   <data name="statusConnected" xml:space="preserve">
-    <value>Verbunden</value>
+    <value>接続完了</value>
   </data>
   <data name="statusConnecting" xml:space="preserve">
-    <value>Verbinde...</value>
-    <comment>`</comment>
+    <value>接続中...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Verbindung fehlgeschlagen (Läuft Discord?)</value>
+    <value>接続に失敗しました（Discordは起動していますか？）</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
-    <value>Getrennt</value>
+    <value>接続解除</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>Verbindungsfehler (Falsche ID?)</value>
-  </data>
-  <data name="errorCannotConnect" xml:space="preserve">
-    <value></value>
-    <comment>Es kann keine Verbindung zum Discord-Client hergestellt werden.
-Bist du sicher, dass es läuft?</comment>
+    <value>接続エラー（IDにお間違いないはでしょうか？）</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>Ungültige URL für die Knöpfe angegeben oder der Text ist zu lang!</value>
+    <value>(ボタン)に無効なURLが指定されているか、テキストが長すぎます!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
-    <value>Keine Internetverbindung!</value>
+    <value>インターネットに接続できません！</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
-    <value>Keine Updates gefunden!</value>
+    <value>更新はありません!</value>
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
-    <value>Einstellungen Datei ist Beschädigt.
-Drücke "Ja" um sie zurückzusetzen oder "Nein" um zu verlassen.</value>
+    <value>設定ファイルが壊れています。
+はい を押して設定をリセットするか、いいえ を押して終了します。</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Das importieren des Presetd ist fehlgeschlagen, die datei ist fehlerhaft, fehlt oder wurde nicht korrekt formatiert.</value>
+    <value>プリセットの読み込みに失敗しました。ファイルが見つからないか、破損しているか、正しくフォーマットされていません。</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>Erlaubst du das CustomRP deine Benutzungs Analyse and den Developer sendet?
-(Alle daten sind nicht Personalisiert.)</value>
+    <value>CustomRPがあなたの使用状況の分析を開発者に送ることを許可しますか？
+(すべてのデータは非個人化されています。)</value>
   </data>
 </root>
