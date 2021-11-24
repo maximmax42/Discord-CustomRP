@@ -88,7 +88,8 @@ namespace CustomRPC
                 return;
             }
 
-            if (culture != "auto") CultureInfo.DefaultThreadCurrentUICulture = CultureInfo.GetCultureInfo(culture);
+            if (culture != "auto")
+                CultureInfo.DefaultThreadCurrentUICulture = CultureInfo.GetCultureInfo(culture);
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
