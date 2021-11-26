@@ -43,8 +43,6 @@ namespace CustomRPC
 
             AppMutex = new Mutex(true, mutexName, out bool createdNew);
 
-            var settings = Properties.Settings.Default;
-
             if (!createdNew)
             {
                 WinApi.PostMessage(new IntPtr(0xffff), WM_SHOWFIRSTINSTANCE, IntPtr.Zero, IntPtr.Zero);
@@ -65,6 +63,8 @@ namespace CustomRPC
                 return;
             }
 
+            var settings = Properties.Settings.Default;
+
             string culture = "auto";
 
             try
@@ -82,7 +82,7 @@ namespace CustomRPC
                     string filename = ((System.Configuration.ConfigurationErrorsException)e.InnerException).Filename;
                     File.Delete(filename);
                     AppMutex.Close();
-                    Application.Restart(); 
+                    Application.Restart();
                 }
 
                 return;
