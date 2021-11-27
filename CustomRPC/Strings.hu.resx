@@ -165,4 +165,11 @@ Bármikor megteheted ha a Segítség -&gt; Használati Utasítás megnyitására
     <value>Fajlǎt s nastrojkite e povreden.
 Natisnete Da, za da vǎzstanovite nastrojkite, ili Ne, za da izlezete.</value>
   </data>
+  <data name="errorInvalidPresetFile" xml:space="preserve">
+    <value>Nem sikerült betölteni a sémát. Lehet, hogy a fájl hiányzik, károsodott vagy rossz a formátuma.</value>
+  </data>
+  <data name="askAnalyticsConsent" xml:space="preserve">
+    <value>Engedélyezed hogy a CustomRP errőforráshasználati statisztikai adatokat küldjön a fejlesztőnek?
+(Az adatok nem személyesek.)</value>
+  </data>
 </root>

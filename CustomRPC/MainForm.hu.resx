@@ -492,4 +492,7 @@ A működéshez mindkét mezőnek 0-nál nagyobbnak kell lennie.</value>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>/</value>
   </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Statisztikák küldése a fejlesztőnek</value>
+  </data>
 </root>

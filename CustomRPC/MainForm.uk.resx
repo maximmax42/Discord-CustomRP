@@ -435,4 +435,7 @@
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>з</value>
   </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Дозволити аналітику</value>
+  </data>
 </root>

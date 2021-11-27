@@ -168,4 +168,8 @@
   <data name="errorInvalidPresetFile" xml:space="preserve">
     <value>Не вдалося імпортувати пресет; файл відсутній, пошкоджений або неправильно відформатований.</value>
   </data>
+  <data name="askAnalyticsConsent" xml:space="preserve">
+    <value>Дозволити CustomRP надсилати розробнику вашу аналітику використання?
+(Усі дані знеособлені.)</value>
+  </data>
 </root>
