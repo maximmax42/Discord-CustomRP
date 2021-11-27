@@ -2,6 +2,7 @@
 using DiscordRPC;
 using DiscordRPC.Helper;
 using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 using Octokit;
 using System;
 using System.Collections.Generic;
@@ -168,6 +169,8 @@ namespace CustomRPC
             else if (settings.id != "" && ((settings.changedLanguage && settings.wasConnected) || (settings.autoconnect && !settings.changedLanguage)))
                 Connect();
 
+            CheckIfCrashed();
+
             if (settings.checkUpdates)
                 CheckForUpdates();
 
@@ -206,6 +209,17 @@ namespace CustomRPC
             restartAttemptsLeft--;
 
             Invoke(new MethodInvoker(() => Connect()));
+        }
+
+        // Checks if the app has crashed in the previous session
+        private async void CheckIfCrashed()
+        {
+            if (!await Crashes.HasCrashedInLastSessionAsync())
+                return;
+
+            var report = await Crashes.GetLastSessionCrashReportAsync();
+
+            new ErrorReportViewer(report.StackTrace).ShowDialog();
         }
 
         // Checking updates
@@ -390,7 +404,7 @@ namespace CustomRPC
             }));
 
             if (connectionState.HasChanged()) // Ignore repeated calls caused by auto reconnect
-                Analytics.TrackEvent("Connection error"); 
+                Analytics.TrackEvent("Connection error");
 
             restartTimer.Start();
         }
@@ -480,17 +494,26 @@ namespace CustomRPC
             client.SetPresence(rp);
         }
 
-        // Sets up the startup link for the app.
+        // Sets up the startup link for the app
         private void StartupSetup()
         {
             if (settings.runOnStartup && !File.Exists(linkPath)) // If run on startup is enabled and the link isn't in the Startup folder
             {
-                IWshRuntimeLibrary.WshShell wsh = new IWshRuntimeLibrary.WshShell();
-                IWshRuntimeLibrary.IWshShortcut shortcut = wsh.CreateShortcut(linkPath) as IWshRuntimeLibrary.IWshShortcut;
-                shortcut.Description = "Discord Custom Rich Presence Manager";
-                shortcut.TargetPath = Environment.CurrentDirectory + @"\CustomRP.exe";
-                shortcut.WorkingDirectory = Environment.CurrentDirectory + @"\";
-                shortcut.Save();
+                try
+                {
+                    IWshRuntimeLibrary.WshShell wsh = new IWshRuntimeLibrary.WshShell();
+                    IWshRuntimeLibrary.IWshShortcut shortcut = wsh.CreateShortcut(linkPath) as IWshRuntimeLibrary.IWshShortcut;
+                    shortcut.Description = "Discord Custom Rich Presence Manager";
+                    shortcut.TargetPath = Environment.CurrentDirectory + @"\CustomRP.exe";
+                    shortcut.WorkingDirectory = Environment.CurrentDirectory + @"\";
+                    shortcut.Save();
+                }
+                catch
+                {
+                    // I *think* this would only happen if an antivirus would intervene saving a file in a user folder,
+                    // therefore I'm just allowing the user to quickly try enabling the option again
+                    runOnStartupToolStripMenuItem.Checked = false;
+                }
             }
             else if (!settings.runOnStartup && File.Exists(linkPath)) // If run on startup is disabled and the link is in the Startup folder
                 File.Delete(linkPath);
@@ -508,9 +531,7 @@ namespace CustomRPC
         // Called upon dropping a file
         private void DragDropHandler(object sender, DragEventArgs e)
         {
-            string[] files = e.Data.GetData(DataFormats.FileDrop) as string[];
-
-            if (files != null && files.Length > 0)
+            if (e.Data.GetData(DataFormats.FileDrop) is string[] files && files.Length > 0)
                 LoadPreset(files[0]); // If multiple files are passed, only the first one gets imported
         }
 
@@ -807,7 +828,10 @@ namespace CustomRPC
         private void Connect(object sender, EventArgs e)
         {
             settings.Save();
-
+#if DEBUG
+            if (ModifierKeys == (Keys.Control | Keys.Alt) && sender is Button)
+                Crashes.GenerateTestCrash();
+#endif
             if (ModifierKeys == (Keys.Control | Keys.Shift) && sender is Button)
             {
                 Analytics.TrackEvent("Opened pipe selector window");

@@ -108,6 +108,13 @@ namespace CustomRPC
             }
 
             // Analytics
+            Crashes.ShouldProcessErrorReport = (ErrorReport report) =>
+            {
+                if (report.StackTrace.StartsWith("Microsoft.AppCenter.Crashes.TestCrashException"))
+                    return false;
+
+                return true;
+            };
             AppCenter.SetCountryCode(RegionInfo.CurrentRegion.TwoLetterISORegionName);
             AppCenter.Start("141506f2-5a6b-46c5-a70e-693831ee131a", typeof(Analytics), typeof(Crashes));
 

@@ -87,6 +87,12 @@
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
     <Compile Include="ConnectionState.cs" />
+    <Compile Include="ErrorReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorReportViewer.Designer.cs">
+      <DependentUpon>ErrorReportViewer.cs</DependentUpon>
+    </Compile>
     <Compile Include="PipeSelector.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,6 +203,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="About.zh-Hant.resx">
       <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorReportViewer.resx">
+      <DependentUpon>ErrorReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorReportViewer.ru.resx">
+      <DependentUpon>ErrorReportViewer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.ar-EG.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
