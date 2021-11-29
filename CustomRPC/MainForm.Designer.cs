@@ -892,8 +892,11 @@
             // 
             // bayuSopwanToolStripMenuItem
             // 
+            this.bayuSopwanToolStripMenuItem.Image = global::CustomRPC.Properties.Resources.globe;
             this.bayuSopwanToolStripMenuItem.Name = "bayuSopwanToolStripMenuItem";
             resources.ApplyResources(this.bayuSopwanToolStripMenuItem, "bayuSopwanToolStripMenuItem");
+            this.bayuSopwanToolStripMenuItem.Tag = "https://bayusopwan.github.io/";
+            this.bayuSopwanToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // italianToolStripMenuItem
             // 
