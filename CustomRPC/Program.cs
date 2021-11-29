@@ -107,7 +107,7 @@ namespace CustomRPC
                 settings.Save();
             }
 
-            // Analytics
+            // Analytics and crashes
             Crashes.ShouldProcessErrorReport = (ErrorReport report) =>
             {
                 if (report.StackTrace.StartsWith("Microsoft.AppCenter.Crashes.TestCrashException"))
@@ -115,10 +115,23 @@ namespace CustomRPC
 
                 return true;
             };
+            Crashes.GetErrorAttachments = (ErrorReport report) =>
+            {
+                string result = "";
+                foreach (System.Configuration.SettingsPropertyValue setting in settings.PropertyValues)
+                {
+                    result += setting.Name + " = " + setting.SerializedValue + "\n";
+                }
+
+                return new ErrorAttachmentLog[]
+                {
+                    ErrorAttachmentLog.AttachmentWithText(result, "settings.txt")
+                };
+            };
             AppCenter.SetCountryCode(RegionInfo.CurrentRegion.TwoLetterISORegionName);
             AppCenter.Start("141506f2-5a6b-46c5-a70e-693831ee131a", typeof(Analytics), typeof(Crashes));
 
-            IntPtr _ = new MainForm(args.Length > 0 ? args[0] : "none").Handle; // Terrible, yet allows to fully initialize the form without showing it first
+            IntPtr _ = new MainForm(args.Length > 0 ? args[0] : null).Handle; // Terrible, yet allows to fully initialize the form without showing it first
             Application.Run();
 
             GC.KeepAlive(AppMutex);

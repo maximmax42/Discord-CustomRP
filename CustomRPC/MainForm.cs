@@ -85,7 +85,7 @@ namespace CustomRPC
             restartTimer.Elapsed += RestartTimer_Elapsed;
 
             // If we supply a preset file to import on load, load it right away
-            if (preset != "none")
+            if (preset is string)
                 LoadPreset(preset);
 
             // Setting up checkboxes because apparently property binding doesn't work
@@ -437,6 +437,9 @@ namespace CustomRPC
         {
             if (client == null)
                 return;
+
+            if (settings.partySize > settings.partyMax)
+                numericUpDownPartyMax.Value = settings.partySize;
 
             var rp = new RichPresence()
             {
@@ -915,7 +918,7 @@ namespace CustomRPC
         // Called on Validating event to validate party size values
         private void PartySizeValidation(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            if (sender == numericUpDownPartyMax && numericUpDownPartyMax.Value == 0 && numericUpDownPartySize.Value > 0)
+            if (sender == numericUpDownPartyMax && numericUpDownPartyMax.Value == 0)
                 numericUpDownPartySize.Value = 0;
             else if (numericUpDownPartySize.Value > numericUpDownPartyMax.Value)
             {
