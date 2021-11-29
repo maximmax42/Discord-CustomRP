@@ -73,6 +73,7 @@
             this.idToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.itToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.koToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ltToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -95,6 +96,7 @@
             this.shadowlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.czechToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jayJakeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tobiasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.danishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sebastianHviidToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tobiasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -124,6 +126,8 @@
             this.cubeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.japaneseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kabikira000ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.koreanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.yeongaoriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kurdishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.samTheNoobToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lithuanianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -202,7 +206,6 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.tobiasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -408,6 +411,7 @@
             this.idToolStripMenuItem,
             this.itToolStripMenuItem,
             this.jaToolStripMenuItem,
+            this.koToolStripMenuItem,
             this.kuToolStripMenuItem,
             this.ltToolStripMenuItem,
             this.nlToolStripMenuItem,
@@ -539,6 +543,13 @@
             resources.ApplyResources(this.jaToolStripMenuItem, "jaToolStripMenuItem");
             this.jaToolStripMenuItem.Tag = "ja";
             this.jaToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
+            // 
+            // koToolStripMenuItem
+            // 
+            this.koToolStripMenuItem.Name = "koToolStripMenuItem";
+            resources.ApplyResources(this.koToolStripMenuItem, "koToolStripMenuItem");
+            this.koToolStripMenuItem.Tag = "ko";
+            this.koToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
             // 
             // kuToolStripMenuItem
             // 
@@ -677,6 +688,7 @@
             this.indonesianToolStripMenuItem,
             this.italianToolStripMenuItem,
             this.japaneseToolStripMenuItem,
+            this.koreanToolStripMenuItem,
             this.kurdishToolStripMenuItem,
             this.lithuanianToolStripMenuItem,
             this.dutchToolStripMenuItem,
@@ -727,6 +739,11 @@
             resources.ApplyResources(this.jayJakeToolStripMenuItem, "jayJakeToolStripMenuItem");
             this.jayJakeToolStripMenuItem.Tag = "https://jayjake.eu/";
             this.jayJakeToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
+            // 
+            // tobiasToolStripMenuItem1
+            // 
+            this.tobiasToolStripMenuItem1.Name = "tobiasToolStripMenuItem1";
+            resources.ApplyResources(this.tobiasToolStripMenuItem1, "tobiasToolStripMenuItem1");
             // 
             // danishToolStripMenuItem
             // 
@@ -934,6 +951,18 @@
             // 
             this.kabikira000ToolStripMenuItem.Name = "kabikira000ToolStripMenuItem";
             resources.ApplyResources(this.kabikira000ToolStripMenuItem, "kabikira000ToolStripMenuItem");
+            // 
+            // koreanToolStripMenuItem
+            // 
+            this.koreanToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.yeongaoriToolStripMenuItem});
+            this.koreanToolStripMenuItem.Name = "koreanToolStripMenuItem";
+            resources.ApplyResources(this.koreanToolStripMenuItem, "koreanToolStripMenuItem");
+            // 
+            // yeongaoriToolStripMenuItem
+            // 
+            this.yeongaoriToolStripMenuItem.Name = "yeongaoriToolStripMenuItem";
+            resources.ApplyResources(this.yeongaoriToolStripMenuItem, "yeongaoriToolStripMenuItem");
             // 
             // kurdishToolStripMenuItem
             // 
@@ -1538,11 +1567,6 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
-            // tobiasToolStripMenuItem1
-            // 
-            this.tobiasToolStripMenuItem1.Name = "tobiasToolStripMenuItem1";
-            resources.ApplyResources(this.tobiasToolStripMenuItem1, "tobiasToolStripMenuItem1");
-            // 
             // MainForm
             // 
             this.AllowDrop = true;
@@ -1781,6 +1805,9 @@
         private System.Windows.Forms.ToolStripMenuItem japaneseToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem kabikira000ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tobiasToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem koToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem koreanToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem yeongaoriToolStripMenuItem;
     }
 }
 
