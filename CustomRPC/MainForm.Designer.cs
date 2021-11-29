@@ -202,6 +202,7 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
+            this.tobiasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -714,7 +715,8 @@
             // czechToolStripMenuItem
             // 
             this.czechToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.jayJakeToolStripMenuItem});
+            this.jayJakeToolStripMenuItem,
+            this.tobiasToolStripMenuItem1});
             this.czechToolStripMenuItem.Name = "czechToolStripMenuItem";
             resources.ApplyResources(this.czechToolStripMenuItem, "czechToolStripMenuItem");
             // 
@@ -1536,6 +1538,11 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
+            // tobiasToolStripMenuItem1
+            // 
+            this.tobiasToolStripMenuItem1.Name = "tobiasToolStripMenuItem1";
+            resources.ApplyResources(this.tobiasToolStripMenuItem1, "tobiasToolStripMenuItem1");
+            // 
             // MainForm
             // 
             this.AllowDrop = true;
@@ -1773,6 +1780,7 @@
         private System.Windows.Forms.ToolStripMenuItem jaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem japaneseToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem kabikira000ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tobiasToolStripMenuItem1;
     }
 }
 

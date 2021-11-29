@@ -502,11 +502,17 @@
     <comment>@Invariant</comment>
   </data>
   <data name="jayJakeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="jayJakeToolStripMenuItem.Text" xml:space="preserve">
     <value>JayJake</value>
     <comment>@Invariant</comment>
+  </data>
+  <data name="tobiasToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="tobiasToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Tobias</value>
   </data>
   <data name="czechToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>237, 22</value>
@@ -656,21 +662,21 @@
     <comment>@Invariant</comment>
   </data>
   <data name="hapnanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>145, 22</value>
   </data>
   <data name="hapnanToolStripMenuItem.Text" xml:space="preserve">
     <value>Hapnan</value>
     <comment>@Invariant</comment>
   </data>
   <data name="apolyciousToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>145, 22</value>
   </data>
   <data name="apolyciousToolStripMenuItem.Text" xml:space="preserve">
     <value>Apolycious</value>
     <comment>@Invariant</comment>
   </data>
   <data name="bayuSopwanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>145, 22</value>
   </data>
   <data name="bayuSopwanToolStripMenuItem.Text" xml:space="preserve">
     <value>Bayu Sopwan</value>
@@ -3050,6 +3056,12 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="&gt;&gt;toolStripStatusLabelStatus.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tobiasToolStripMenuItem1.Name" xml:space="preserve">
+    <value>tobiasToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;tobiasToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>

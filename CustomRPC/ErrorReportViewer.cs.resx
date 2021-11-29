@@ -117,59 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="error" xml:space="preserve">
-    <value>Chyba</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Nahlásit chybu</value>
   </data>
-  <data name="errorNoID" xml:space="preserve">
-    <value>Nebylo zadáno ID!</value>
+  <data name="buttonOK.Text" xml:space="preserve">
+    <value>OK</value>
   </data>
-  <data name="errorUpdateFailed" xml:space="preserve">
-    <value>Při stahování nebo instalaci aktualizace došlo k chybě.
-Chcete-li to zkusit znovu, stiskněte "Ano", nebo "Ne" pro ruční stažení.</value>
-  </data>
-  <data name="firstTimeRun" xml:space="preserve">
-    <value>První spuštění</value>
-  </data>
-  <data name="firstTimeRunText" xml:space="preserve">
-    <value>Chcete otevřít manuál?
-Můžete jej kdykoli otevřít v nabídce Nápověda -&gt; Otevřít příručku nebo stisknutím klávesy F1.</value>
-  </data>
-  <data name="information" xml:space="preserve">
-    <value>Informace</value>
-  </data>
-  <data name="statusConnected" xml:space="preserve">
-    <value>Připojeno</value>
-  </data>
-  <data name="statusConnecting" xml:space="preserve">
-    <value>Připojování...</value>
-  </data>
-  <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Připojení se nezdařilo (běží Discord?)</value>
-  </data>
-  <data name="statusDisconnected" xml:space="preserve">
-    <value>Odpojeno</value>
-  </data>
-  <data name="statusError" xml:space="preserve">
-    <value>Chyba připojení (Špatné ID?)</value>
-  </data>
-  <data name="errorInvalidURL" xml:space="preserve">
-    <value>Pro tlačítko/a byla zadána neplatná adresa URL nebo je text příliš dlouhý!</value>
-  </data>
-  <data name="errorNoInternet" xml:space="preserve">
-    <value>Nelze se připojit k internetu!</value>
-  </data>
-  <data name="noUpdatesFound" xml:space="preserve">
-    <value>Nebyly nalezeny žádné aktualizace!</value>
-  </data>
-  <data name="errorCorruptSettings" xml:space="preserve">
-    <value>Soubor je poškozen.
-Klikněte Ano pro reset nastavení, klikněte Ne pro opuštění.</value>
-  </data>
-  <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Chyba při nahrávání; soubor chybí, je poškozen, nebo není platně zformátován.</value>
-  </data>
-  <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>Povolujete CustomRP odesílat analýzy vašeho používání vývojáři?
-(Všechna data jsou depersonalizovaná.)</value>
+  <data name="labelInfo.Text" xml:space="preserve">
+    <value>CustomRP neočekávaně selkal relaci kvůli následující situaci:</value>
   </data>
 </root>
