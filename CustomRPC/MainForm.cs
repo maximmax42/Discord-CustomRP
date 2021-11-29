@@ -223,24 +223,28 @@ namespace CustomRPC
         }
 
         // Checking updates
-        private async void CheckForUpdates(bool verbose = false)
+        private async void CheckForUpdates(bool manual = false)
         {
+            IReadOnlyList<Release> releases;
+
             // Fetching latest release and getting its version
             try
             {
-                latestRelease = await githubClient.Repository.Release.GetLatest("maximmax42", "Discord-CustomRP");
+                releases = await githubClient.Repository.Release.GetAll("maximmax42", "Discord-CustomRP"); // Get all Releases of the app
             }
             catch
             {
                 // If there's no internet or Github is down, do nothing, unless it's a user requested update check
-                if (verbose)
+                if (manual)
                     MessageBox.Show(this, Strings.errorNoInternet, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
+            latestRelease = releases[0];
+
             string latestVersion = latestRelease.TagName;
 
-            if (latestVersion == settings.ignoreVersion && !verbose)
+            if (latestVersion == settings.ignoreVersion && !manual)
                 return; // The user ignored this version; this gets ignored if the user requested the update check manually, maybe they changed their mind?
 
             Version current = new Version(Application.ProductVersion.Substring(0, Application.ProductVersion.Length - 2)); // To not deal with revision number
@@ -250,7 +254,6 @@ namespace CustomRPC
             {
                 var changelogBuilder = new System.Text.StringBuilder(); // ...build the changelog...
 
-                var releases = await githubClient.Repository.Release.GetAll("maximmax42", "Discord-CustomRP"); // Get all Releases of the app
                 foreach (var release in releases)
                 {
                     Version releaseVer = new Version(release.TagName);
@@ -296,7 +299,7 @@ namespace CustomRPC
                 if (!settings.checkUpdates || messageBox == DialogResult.Ignore)
                     downloadUpdateToolStripMenuItem.Visible = false; // If user doesn't want update notifications, let's not bother them
             }
-            else if (verbose) // If there's no update available and it was a user initiated update check, notify them about it
+            else if (manual) // If there's no update available and it was a user initiated update check, notify them about it
                 MessageBox.Show(this, Strings.noUpdatesFound, Strings.information, MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
         }
 
