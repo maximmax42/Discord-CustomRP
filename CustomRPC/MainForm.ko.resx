@@ -196,10 +196,10 @@
     <value>Discord 개발자 사이트에 있는 응용프로그램의 ID입니다.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>활동 상태의 첫번째 줄입니다.</value>
+    <value>활동 상태의 첫 번째 줄입니다.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>활동 상태의 두번째 줄입니다.</value>
+    <value>활동 상태의 두 번째 줄입니다.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
     <value>작은 이미지를 위한 에셋의 이름입니다.</value>
@@ -259,10 +259,10 @@
     <value>사용자가 버튼을 클릭했을 때 여는 URL입니다.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
-    <value>첫번째 버튼의 라벨입니다.</value>
+    <value>첫 번째 버튼의 라벨입니다.</value>
   </data>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
-    <value>두번째 버튼의 라벨입니다.</value>
+    <value>두 번째 버튼의 라벨입니다.</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>/</value>
@@ -284,5 +284,22 @@
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
     <value>정보 수집 허용</value>
+  </data>
+  <data name="labelTimestamp.ToolTip" xml:space="preserve">
+    <value>위의 모든 텍스트 아래에 나타나는 상태에 대한 타임스탬프를 설정합니다.
+상태 타이머는 24시간 제한이 있으며, 24시간이 지나면 0:00으로 돌아갑니다.</value>
+  </data>
+  <data name="labelParty.ToolTip" xml:space="preserve">
+    <value>현재 파티의 플레이어 수는 상태 필드 옆에 표시됩니다.
+효과를 적용하려면, 두 필드 모두 0 이상이어야 합니다.</value>
+  </data>
+  <data name="radioButtonCustom.ToolTip" xml:space="preserve">
+    <value>아래에 설정한 날짜 이후 또는 남은 시간이 얼마나 지났는지 표시합니다.</value>
+  </data>
+  <data name="labelButton1.ToolTip" xml:space="preserve">
+    <value>프로필 팝업에서 상태 아래에 나타나고 전체 프로필에서 오른쪽에 나타나는 두 개의 버튼 중 첫 번째 버튼입니다.</value>
+  </data>
+  <data name="labelButton2.ToolTip" xml:space="preserve">
+    <value>첫 번째 버튼이 설정되지 않은 경우에 첫 번째 버튼 바로 아래 또는 대신 나타나는 두 번째 버튼입니다.</value>
   </data>
 </root>

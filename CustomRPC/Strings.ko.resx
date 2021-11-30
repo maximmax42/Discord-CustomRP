@@ -168,4 +168,8 @@
     <value>CustomRP에서 사용 분석 결과를 개발자에게 보내도록 허용하시겠습니까?
 (모든 데이터는 개인화되지 않습니다.)</value>
   </data>
+  <data name="errorUpdateFailed" xml:space="preserve">
+    <value>업데이트를 다운로드하거나 설치하는 동안 오류가 발생했습니다.
+다시 시도하려면 "확인"을 누르거나 수동으로 다운로드하려면 "취소"를 누르십시오.</value>
+  </data>
 </root>
