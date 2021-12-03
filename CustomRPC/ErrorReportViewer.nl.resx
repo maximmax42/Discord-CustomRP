@@ -117,59 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="error" xml:space="preserve">
-    <value>Fout</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Foutenrapport</value>
   </data>
-  <data name="errorNoID" xml:space="preserve">
-    <value>Geen ID opgegeven!</value>
+  <data name="buttonOK.Text" xml:space="preserve">
+    <value>Oke</value>
   </data>
-  <data name="errorUpdateFailed" xml:space="preserve">
-    <value>Er is een fout opgetreden bij het downloaden of installeren van een update.
-Druk op "Ja" om het opnieuw te proberen of op "Nee" om handmatig te downloaden.</value>
-  </data>
-  <data name="firstTimeRun" xml:space="preserve">
-    <value>Eerste keer geopend</value>
-  </data>
-  <data name="firstTimeRunText" xml:space="preserve">
-    <value>Wilt u een handleiding openen?
-Je kunt het op elk moment openen door naar Help -&gt; Open de handleiding te gaan of op F1 te drukken.</value>
-  </data>
-  <data name="information" xml:space="preserve">
-    <value>Informatie</value>
-  </data>
-  <data name="statusConnected" xml:space="preserve">
-    <value>Verbonden</value>
-  </data>
-  <data name="statusConnecting" xml:space="preserve">
-    <value>Verbinden...</value>
-  </data>
-  <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Verbinding mislukt (Is Discord actief?)</value>
-  </data>
-  <data name="statusDisconnected" xml:space="preserve">
-    <value>Verbinding verbroken</value>
-  </data>
-  <data name="statusError" xml:space="preserve">
-    <value>Verbindingsfout (verkeerde ID?)</value>
-  </data>
-  <data name="errorInvalidURL" xml:space="preserve">
-    <value>Ongeldige URL opgegeven voor knop(pen) of de tekst is te lang!</value>
-  </data>
-  <data name="errorNoInternet" xml:space="preserve">
-    <value>Kan geen verbinding maken met het internet!</value>
-  </data>
-  <data name="noUpdatesFound" xml:space="preserve">
-    <value>Geen updates gevonden!</value>
-  </data>
-  <data name="errorCorruptSettings" xml:space="preserve">
-    <value>Het instellingenbestand is beschadigd.
-Druk op Ja om de instellingen te resetten, druk op Nee om te stoppen.</value>
-  </data>
-  <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Kan voorinstelling niet importeren; het bestand ontbreekt, is beschadigd of is niet correct geformatteerd.</value>
-  </data>
-  <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>Staat u toe dat CustomRP uw gebruiksanalyses naar de ontwikkelaar stuurt?
-(Alle gegevens zijn gedepersonaliseerd.)</value>
+  <data name="labelInfo.Text" xml:space="preserve">
+    <value>CustomRP is in de vorige sessie gecrasht vanwege de volgende onverwerkte uitzondering:</value>
   </data>
 </root>

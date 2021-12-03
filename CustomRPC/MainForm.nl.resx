@@ -444,4 +444,7 @@ Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>Automatisch verbinden</value>
   </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sta analyse toe</value>
+  </data>
 </root>
