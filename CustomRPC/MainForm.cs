@@ -324,7 +324,11 @@ namespace CustomRPC
                 {
                     if (!File.Exists(exec))
                         await wc.DownloadFileTaskAsync(latestRelease.Assets[fileType].BrowserDownloadUrl, exec);
+
+                    if (fileType == 1) // Open up app's folder for ease of manual update
+                        Process.Start(Application.StartupPath);
                     Process.Start(exec);
+
                     Application.Exit();
                     break;
                 }
