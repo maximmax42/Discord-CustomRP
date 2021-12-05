@@ -438,7 +438,7 @@ namespace CustomRPC
         // Sets up new presence from the settings
         private void SetPresence()
         {
-            if (client == null)
+            if (client == null || client.IsDisposed)
                 return;
 
             if (settings.partySize > settings.partyMax)
