@@ -285,7 +285,10 @@ namespace CustomRPC
                 var messageBox = new UpdatePrompt(current, latest, changelog).ShowDialog(); // ...and show a dialog box telling there's an update
 
                 if (messageBox == DialogResult.Yes)
+                {
                     DownloadAndInstallUpdate();
+                    downloadUpdateToolStripMenuItem.Enabled = false;
+                }
                 else if (messageBox == DialogResult.Ignore)
                 {
                     settings.ignoreVersion = latestVersion;
