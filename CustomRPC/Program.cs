@@ -5,6 +5,7 @@ using System;
 using System.Globalization;
 using System.IO;
 using System.Runtime.InteropServices;
+using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 
@@ -117,15 +118,19 @@ namespace CustomRPC
             };
             Crashes.GetErrorAttachments = (ErrorReport report) =>
             {
-                string result = "";
+                StringBuilder result = new StringBuilder();
+
                 foreach (System.Configuration.SettingsPropertyValue setting in settings.PropertyValues)
                 {
-                    result += setting.Name + " = " + setting.SerializedValue + "\n";
+                    if (setting.Name == "id")
+                        continue;
+
+                    result.AppendLine(setting.Name + " = " + setting.SerializedValue);
                 }
 
                 return new ErrorAttachmentLog[]
                 {
-                    ErrorAttachmentLog.AttachmentWithText(result, "settings.txt")
+                    ErrorAttachmentLog.AttachmentWithText(result.ToString(), "settings.txt")
                 };
             };
             AppCenter.SetCountryCode(RegionInfo.CurrentRegion.TwoLetterISORegionName);
