@@ -19,7 +19,7 @@ If you have any problems with the app, please check out [FAQ](https://github.com
 ## Translations
 So far, the app supports these languages:
 * Arabic-EG (thanks to FiberAhmed and ShadowlGamer)
-* Czech (thanks to [JayJake](https://jayjake.eu/))
+* Czech (thanks to [JayJake](https://jayjake.eu/) and Tobias)
 * Danish (thanks to Sebastian Hviid and Tobias)
 * German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), ahmad and binarynoise)
 * Greek (thanks to Alex Grivas)
@@ -28,9 +28,10 @@ So far, the app supports these languages:
 * French (thanks to Nenaff)
 * Hebrew (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg) and [Kahpot Vanilla](https://linktr.ee/KahpotVanilla))
 * Hungarian (thanks to [Botond Balla](https://github.com/BallaBotond))
-* Indonesian (thanks to Hapnan, Apolycious and Bayu Sopwan)
+* Indonesian (thanks to Hapnan, Apolycious and [Bayu Sopwan](https://bayusopwan.github.io))
 * Italian (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
 * Japanese (thanks to KABIKIRA000)
+* Korean (thanks to Yeongaori) (coming)
 * Central Kurdish (thanks to [SamTheNoob](https://discord.gg/stn69))
 * Lithuanian (thanks to [White Rose](https://www.twitch.tv/psychonaut303))
 * Dutch (thanks to [Jeremyzijlemans](https://sionhub.co.uk/))
