@@ -43,7 +43,7 @@ So far, the app supports these languages:
 * Ukrainian (thanks to MechaniX and Dmitromintenko)
 * Vietnamese (thanks to [Mykm](https://github.com/yumiruuwu), Phnthnhnm0612 and dsbachle)
 * Simplified Chinese (thanks to Zjsun.ca and zozocha)
-* Traditional Chinese (thanks to [westxlu](https://linktr.ee/westxlu))
+* Traditional Chinese (thanks to [蘆筍/westxlu](https://linktr.ee/westxlu))
 
 If you want to help translate the app to your language, please go to the [POEditor project page](https://poeditor.com/join/project?hash=2jq0i7ANr1). If you're already part of the project, [click here](https://poeditor.com/projects/view?id=409229).
 
