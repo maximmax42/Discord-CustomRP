@@ -488,14 +488,14 @@
     <value>182, 6</value>
   </data>
   <data name="fiberAhmedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="fiberAhmedToolStripMenuItem.Text" xml:space="preserve">
     <value>FiberAhmed</value>
     <comment>@Invariant</comment>
   </data>
   <data name="shadowlToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="shadowlToolStripMenuItem.Text" xml:space="preserve">
     <value>ShadowlGamer</value>
@@ -733,7 +733,7 @@
     <comment>@Invariant</comment>
   </data>
   <data name="yeongaoriToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>127, 22</value>
   </data>
   <data name="yeongaoriToolStripMenuItem.Text" xml:space="preserve">
     <value>Yeongaori</value>
@@ -747,7 +747,7 @@
     <comment>@Invariant</comment>
   </data>
   <data name="samTheNoobToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="samTheNoobToolStripMenuItem.Text" xml:space="preserve">
     <value>SamTheNoob</value>

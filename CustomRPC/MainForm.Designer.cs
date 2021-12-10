@@ -714,8 +714,11 @@
             // 
             // fiberAhmedToolStripMenuItem
             // 
+            this.fiberAhmedToolStripMenuItem.Image = global::CustomRPC.Properties.Resources.globe;
             this.fiberAhmedToolStripMenuItem.Name = "fiberAhmedToolStripMenuItem";
             resources.ApplyResources(this.fiberAhmedToolStripMenuItem, "fiberAhmedToolStripMenuItem");
+            this.fiberAhmedToolStripMenuItem.Tag = "https://github.com/FiberAhmed";
+            this.fiberAhmedToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // shadowlToolStripMenuItem
             // 
