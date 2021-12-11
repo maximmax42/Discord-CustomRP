@@ -168,4 +168,8 @@
   <data name="errorInvalidPresetFile" xml:space="preserve">
     <value>فشل استيراد الإعداد المسبق؛ الملف إما مفقود أو تالف أو غير منسق بشكلٍ صحيح.</value>
   </data>
+  <data name="askAnalyticsConsent" xml:space="preserve">
+    <value>هل تسمح لـCustomRP بإرسال تحليلات الاستخدام الخاصة بك إلى المطور؟
+(جميع البيانات غير شخصية.)</value>
+  </data>
 </root>
