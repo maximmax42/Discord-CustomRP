@@ -18,7 +18,7 @@ If you have any problems with the app, please check out [FAQ](https://github.com
 
 ## Translations
 So far, the app supports these languages:
-* Arabic-EG (thanks to FiberAhmed and ShadowlGamer)
+* Arabic-EG (thanks to [FiberAhmed](https://github.com/FiberAhmed) and ShadowlGamer)
 * Czech (thanks to [JayJake](https://jayjake.eu/) and Tobias)
 * Danish (thanks to Sebastian Hviid and Tobias)
 * German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), ahmad and binarynoise)
@@ -31,7 +31,7 @@ So far, the app supports these languages:
 * Indonesian (thanks to Hapnan, Apolycious and [Bayu Sopwan](https://bayusopwan.github.io))
 * Italian (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
 * Japanese (thanks to KABIKIRA000)
-* Korean (thanks to Yeongaori) (coming)
+* Korean (thanks to Yeongaori)
 * Central Kurdish (thanks to [SamTheNoob](https://discord.gg/stn69))
 * Lithuanian (thanks to [White Rose](https://www.twitch.tv/psychonaut303))
 * Dutch (thanks to [Jeremyzijlemans](https://sionhub.co.uk/))
@@ -43,7 +43,7 @@ So far, the app supports these languages:
 * Ukrainian (thanks to MechaniX and Dmitromintenko)
 * Vietnamese (thanks to [Mykm](https://github.com/yumiruuwu), Phnthnhnm0612 and dsbachle)
 * Simplified Chinese (thanks to Zjsun.ca and zozocha)
-* Traditional Chinese (thanks to [westxlu](https://linktr.ee/westxlu))
+* Traditional Chinese (thanks to [蘆筍/westxlu](https://linktr.ee/westxlu))
 
 If you want to help translate the app to your language, please go to the [POEditor project page](https://poeditor.com/join/project?hash=2jq0i7ANr1). If you're already part of the project, [click here](https://poeditor.com/projects/view?id=409229).
 
