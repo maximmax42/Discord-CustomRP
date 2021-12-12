@@ -237,6 +237,9 @@
     <EmbeddedResource Include="ErrorReportViewer.nl.resx">
       <DependentUpon>ErrorReportViewer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ErrorReportViewer.pl.resx">
+      <DependentUpon>ErrorReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ErrorReportViewer.resx">
       <DependentUpon>ErrorReportViewer.cs</DependentUpon>
       <SubType>Designer</SubType>

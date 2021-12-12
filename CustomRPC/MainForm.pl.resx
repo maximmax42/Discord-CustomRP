@@ -390,4 +390,7 @@ Jeżeli ma mieć jakikolwiek efekt, obydwa pola muszą być większe od 0.</valu
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>Automatyczne łączenie</value>
   </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pozwól na analityki</value>
+  </data>
 </root>

@@ -117,59 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="error" xml:space="preserve">
-    <value>Błąd</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Zgłoszenie błędu</value>
   </data>
-  <data name="errorNoID" xml:space="preserve">
-    <value>Nie podano ID!</value>
+  <data name="buttonOK.Text" xml:space="preserve">
+    <value>OK</value>
   </data>
-  <data name="errorUpdateFailed" xml:space="preserve">
-    <value>Wystąpił błąd podczas pobierania lub instalowania aktualizacji.
-Kliknij "Tak", aby powtórzyć lub "Nie", żeby pobrać manualnie.</value>
-  </data>
-  <data name="firstTimeRun" xml:space="preserve">
-    <value>Pierwszy start</value>
-  </data>
-  <data name="firstTimeRunText" xml:space="preserve">
-    <value>Chciałbyś otworzyć instrukcje?
-Możesz ją otworzyć w dowolnym momencie przyciskając F1 lub wchodząc do karty Pomoc -&gt; Otwórz instrukcje.</value>
-  </data>
-  <data name="information" xml:space="preserve">
-    <value>Informacja</value>
-  </data>
-  <data name="statusConnected" xml:space="preserve">
-    <value>Połączono</value>
-  </data>
-  <data name="statusConnecting" xml:space="preserve">
-    <value>Łączenie...</value>
-  </data>
-  <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Połączenie nieudane (Czy Discord jest uruchomiony?)</value>
-  </data>
-  <data name="statusDisconnected" xml:space="preserve">
-    <value>Rozłączono</value>
-  </data>
-  <data name="statusError" xml:space="preserve">
-    <value>Błąd połączenia (Złe ID?)</value>
-  </data>
-  <data name="errorInvalidURL" xml:space="preserve">
-    <value>Link podany dla przycisk(u, ów) jest niepoprawny lub jest za długi!</value>
-  </data>
-  <data name="errorNoInternet" xml:space="preserve">
-    <value>Nie można połączyć się z internetem!</value>
-  </data>
-  <data name="noUpdatesFound" xml:space="preserve">
-    <value>Nie znaleziono aktualizacji!</value>
-  </data>
-  <data name="errorCorruptSettings" xml:space="preserve">
-    <value>Plik ustawień jest popsuty.
-Aby go zresetować kliknij Tak, lub Nie żeby wyjść.</value>
-  </data>
-  <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Nie można zimportować szablonu; pliku brakuje, jest popsuty lub źle sformatowany.</value>
-  </data>
-  <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>Pozwalasz aplikacji CustomRP wysyłać analitykę używania do jej dewelopera?
-(Wszystkie dane są zdepersonalizowane.)</value>
+  <data name="labelInfo.Text" xml:space="preserve">
+    <value>CustomRP niespodziewanie wyłączył się w poprzedniej sesji z powodu:</value>
   </data>
 </root>
