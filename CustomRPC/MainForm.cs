@@ -227,10 +227,10 @@ namespace CustomRPC
         {
             IReadOnlyList<Release> releases;
 
-            // Fetching latest release and getting its version
+            // Fetching all releases
             try
             {
-                releases = await githubClient.Repository.Release.GetAll("maximmax42", "Discord-CustomRP"); // Get all Releases of the app
+                releases = await githubClient.Repository.Release.GetAll("maximmax42", "Discord-CustomRP");
             }
             catch
             {
@@ -247,7 +247,7 @@ namespace CustomRPC
             if (latestVersion == settings.ignoreVersion && !manual)
                 return; // The user ignored this version; this gets ignored if the user requested the update check manually, maybe they changed their mind?
 
-            Version current = new Version(Application.ProductVersion.Substring(0, Application.ProductVersion.Length - 2)); // To not deal with revision number
+            Version current = new Version(Application.ProductVersion); 
             Version latest = new Version(latestVersion);
 
             if (current.CompareTo(latest) < 0) // If update is available...
@@ -257,8 +257,9 @@ namespace CustomRPC
                 foreach (var release in releases)
                 {
                     Version releaseVer = new Version(release.TagName);
-                    if (releaseVer.Build == -1)
-                        releaseVer = new Version(releaseVer.Major, releaseVer.Minor, 0); // Because 1.3 != 1.3.0
+                    releaseVer = new Version(releaseVer.Major, releaseVer.Minor,
+                                             releaseVer.Build == -1 ? 0 : releaseVer.Build,
+                                             releaseVer.Revision == -1 ? 0 : releaseVer.Revision); // Because 1.3 != 1.3.0.0
 
                     if (releaseVer.Equals(current))
                         break;
