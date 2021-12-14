@@ -511,9 +511,9 @@ namespace CustomRPC
         // Sets up the startup link for the app
         private void StartupSetup()
         {
-            if (settings.runOnStartup && !File.Exists(linkPath)) // If run on startup is enabled and the link isn't in the Startup folder
+            try
             {
-                try
+                if (settings.runOnStartup && !File.Exists(linkPath)) // If run on startup is enabled and the link isn't in the Startup folder
                 {
                     IWshRuntimeLibrary.WshShell wsh = new IWshRuntimeLibrary.WshShell();
                     IWshRuntimeLibrary.IWshShortcut shortcut = wsh.CreateShortcut(linkPath) as IWshRuntimeLibrary.IWshShortcut;
@@ -521,16 +521,18 @@ namespace CustomRPC
                     shortcut.TargetPath = Environment.CurrentDirectory + @"\CustomRP.exe";
                     shortcut.WorkingDirectory = Environment.CurrentDirectory + @"\";
                     shortcut.Save();
+
                 }
-                catch
-                {
-                    // I *think* this would only happen if an antivirus would intervene saving a file in a user folder,
-                    // therefore I'm just allowing the user to quickly try enabling the option again
-                    runOnStartupToolStripMenuItem.Checked = false;
-                }
+                else if (!settings.runOnStartup && File.Exists(linkPath)) // If run on startup is disabled and the link is in the Startup folder
+                    File.Delete(linkPath);
             }
-            else if (!settings.runOnStartup && File.Exists(linkPath)) // If run on startup is disabled and the link is in the Startup folder
-                File.Delete(linkPath);
+            catch (Exception e)
+            {
+                // I *think* this would only happen if an antivirus would intervene saving/deleting a file in a user folder,
+                // therefore I'm just allowing the user to quickly try changing the option again
+                runOnStartupToolStripMenuItem.Checked = !settings.runOnStartup;
+                MessageBox.Show(e.Message, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         // Called when you drag a file into app's window
