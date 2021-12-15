@@ -222,6 +222,26 @@ namespace CustomRPC
             new ErrorReportViewer(report.StackTrace).ShowDialog();
         }
 
+        // Helper class to get a proper version object
+        private Version GetVersion(string version)
+        {
+            if (string.IsNullOrEmpty(version))
+                throw new ArgumentNullException("version");
+
+            var array = version.Split('.');
+
+            if (array.Length < 2 || array.Length > 4)
+                throw new ArgumentException($"Version has {array.Length} part(s)!");
+
+            switch (array.Length)
+            {
+                case 2: return new Version(version + ".0.0");
+                case 3: return new Version(version + ".0");
+            }
+
+            return new Version(version);
+        }
+
         // Checking updates
         private async void CheckForUpdates(bool manual = false)
         {
@@ -242,13 +262,13 @@ namespace CustomRPC
 
             latestRelease = releases[0];
 
-            string latestVersion = latestRelease.TagName;
+            string latestStr = latestRelease.TagName;
 
-            if (latestVersion == settings.ignoreVersion && !manual)
+            if (latestStr == settings.ignoreVersion && !manual)
                 return; // The user ignored this version; this gets ignored if the user requested the update check manually, maybe they changed their mind?
 
-            Version current = new Version(Application.ProductVersion); 
-            Version latest = new Version(latestVersion);
+            Version current = GetVersion(Application.ProductVersion); 
+            Version latest = GetVersion(latestStr);
 
             if (current.CompareTo(latest) < 0) // If update is available...
             {
@@ -256,10 +276,7 @@ namespace CustomRPC
 
                 foreach (var release in releases)
                 {
-                    Version releaseVer = new Version(release.TagName);
-                    releaseVer = new Version(releaseVer.Major, releaseVer.Minor,
-                                             releaseVer.Build == -1 ? 0 : releaseVer.Build,
-                                             releaseVer.Revision == -1 ? 0 : releaseVer.Revision); // Because 1.3 != 1.3.0.0
+                    Version releaseVer = GetVersion(release.TagName);
 
                     if (releaseVer.Equals(current))
                         break;
@@ -292,9 +309,9 @@ namespace CustomRPC
                 }
                 else if (messageBox == DialogResult.Ignore)
                 {
-                    settings.ignoreVersion = latestVersion;
+                    settings.ignoreVersion = latestStr;
                     Analytics.TrackEvent("Ignored an update", new Dictionary<string, string> {
-                        { "Version", latestVersion }
+                        { "Version", latestStr }
                     });
                 }
 
