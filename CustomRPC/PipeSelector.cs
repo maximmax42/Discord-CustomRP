@@ -1,6 +1,6 @@
-﻿using System;
+﻿using DiscordRPC;
+using System;
 using System.Windows.Forms;
-using DiscordRPC;
 
 namespace CustomRPC
 {

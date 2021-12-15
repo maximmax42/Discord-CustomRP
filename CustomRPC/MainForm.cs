@@ -267,7 +267,7 @@ namespace CustomRPC
             if (latestStr == settings.ignoreVersion && !manual)
                 return; // The user ignored this version; this gets ignored if the user requested the update check manually, maybe they changed their mind?
 
-            Version current = GetVersion(Application.ProductVersion); 
+            Version current = GetVersion(Application.ProductVersion);
             Version latest = GetVersion(latestStr);
 
             if (current.CompareTo(latest) < 0) // If update is available...
