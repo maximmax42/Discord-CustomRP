@@ -1484,7 +1484,7 @@
     <value>1</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>Since Custom RP started</value>
+    <value>Since CustomRP started</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
     <value>Shows time since the app was started.</value>

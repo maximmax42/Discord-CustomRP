@@ -326,7 +326,7 @@
     <value>203, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>Seit Custom RP gestartet wurde</value>
+    <value>Seit CustomRP gestartet wurde</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
     <value>Zeigt die Zeit an, die seit dem Start des Programms vergangen ist.</value>

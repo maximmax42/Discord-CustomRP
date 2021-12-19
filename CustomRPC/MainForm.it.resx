@@ -341,7 +341,7 @@
     <value>232, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>Da quando Custom RP è stato avviato</value>
+    <value>Da quando CustomRP è stato avviato</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
     <value>Mostra il tempo trascorso dall'avvio dell'applicazione.</value>
