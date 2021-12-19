@@ -4,8 +4,8 @@
 <a href="https://ko-fi.com/maximmax42"><img alt="Support on Ko-fi" src="https://img.shields.io/badge/support%20on-ko--fi-19e2e2?logo=ko-fi"></a>
 </p>
 
-# Custom Discord Rich Presence Manager
-![App Banner](https://www.customrp.xyz/assets/screenshot.png)
+# <img src=https://www.customrp.xyz/assets/logo.png style="height:1em;"/> Custom Discord Rich Presence Manager
+![App Screenshot](https://www.customrp.xyz/assets/screenshot.png)
 
 Custom Discord Rich Presence Manager for Windows. Some of its features are run on startup and tray minimization. Uses [Lachee's DiscordRPC for C#](https://github.com/Lachee/discord-rpc-csharp).
 
