@@ -235,8 +235,10 @@ namespace CustomRPC
 
             switch (array.Length)
             {
-                case 2: return new Version(version + ".0.0");
-                case 3: return new Version(version + ".0");
+                case 2:
+                    return new Version(version + ".0.0");
+                case 3:
+                    return new Version(version + ".0");
             }
 
             return new Version(version);
@@ -753,21 +755,35 @@ namespace CustomRPC
             if (loading)
                 return;
 
-            // Apparently property binding doesn't work either for checkboxes or for bool variables
-            settings.runOnStartup = runOnStartupToolStripMenuItem.Checked;
-            settings.startMinimized = startMinimizedToolStripMenuItem.Checked;
-            settings.autoconnect = autoconnectToolStripMenuItem.Checked;
-            settings.checkUpdates = checkUpdatesToolStripMenuItem.Checked;
-            settings.analytics = allowAnalyticsToolStripMenuItem.Checked;
+            var setting = (ToolStripMenuItem)sender;
 
-            Analytics.SetEnabledAsync(settings.analytics);
+            switch (setting.Name)
+            {
+                case "runOnStartupToolStripMenuItem":
+                    // Apparently property binding doesn't work either for checkboxes or for bool variables
+                    settings.runOnStartup = setting.Checked;
+                    StartupSetup();
+                    break;
+                case "startMinimizedToolStripMenuItem":
+                    settings.startMinimized = setting.Checked;
+                    break;
+                case "autoconnectToolStripMenuItem":
+                    settings.autoconnect = setting.Checked;
+                    break;
+                case "checkUpdatesToolStripMenuItem":
+                    settings.checkUpdates = setting.Checked;
+                    if (setting.Checked)
+                        CheckForUpdates();
+                    break;
+                case "allowAnalyticsToolStripMenuItem":
+                    settings.analytics = setting.Checked;
+                    Analytics.SetEnabledAsync(setting.Checked);
+                    break;
+                default:
+                    throw new NotImplementedException(setting.Name);
+            }
 
             settings.Save();
-
-            StartupSetup();
-
-            if (settings.checkUpdates)
-                CheckForUpdates();
         }
 
         // Called when you change the language
@@ -936,10 +952,7 @@ namespace CustomRPC
         {
             var box = (TextBox)sender;
 
-            if (StringTools.WithinLength(box.Text, box.MaxLength))
-                box.BackColor = defaultColor;
-            else
-                box.BackColor = errorColor;
+            box.BackColor = StringTools.WithinLength(box.Text, box.MaxLength) ? defaultColor : errorColor;
         }
 
         // Called on Validating event to validate party size values
