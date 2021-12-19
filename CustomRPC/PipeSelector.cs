@@ -17,9 +17,10 @@ namespace CustomRPC
 
         private void TestConnection()
         {
-            if (client != null && !client.IsDisposed) client.Dispose();
+            if (client != null && !client.IsDisposed)
+                client.Dispose();
 
-            client = new DiscordRpcClient(Properties.Settings.Default.id ?? "896771305108553788", (int)numericUpDownPipe.Value);
+            client = new DiscordRpcClient("896771305108553788", (int)numericUpDownPipe.Value);
             client.OnReady += ConnectionSuccessful;
             client.OnConnectionFailed += ConnectionFailed;
             client.Initialize();
