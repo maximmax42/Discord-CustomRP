@@ -206,6 +206,7 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
+            this.floxiiiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -771,7 +772,8 @@
             this.germanToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ypsolToolStripMenuItem,
             this.ahmadToolStripMenuItem,
-            this.binarynoiseToolStripMenuItem});
+            this.binarynoiseToolStripMenuItem,
+            this.floxiiiToolStripMenuItem});
             this.germanToolStripMenuItem.Name = "germanToolStripMenuItem";
             resources.ApplyResources(this.germanToolStripMenuItem, "germanToolStripMenuItem");
             // 
@@ -1570,6 +1572,11 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
+            // floxiiiToolStripMenuItem
+            // 
+            this.floxiiiToolStripMenuItem.Name = "floxiiiToolStripMenuItem";
+            resources.ApplyResources(this.floxiiiToolStripMenuItem, "floxiiiToolStripMenuItem");
+            // 
             // MainForm
             // 
             this.AllowDrop = true;
@@ -1811,6 +1818,7 @@
         private System.Windows.Forms.ToolStripMenuItem koToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem koreanToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem yeongaoriToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem floxiiiToolStripMenuItem;
     }
 }
 

@@ -488,14 +488,14 @@
     <value>182, 6</value>
   </data>
   <data name="fiberAhmedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>154, 22</value>
   </data>
   <data name="fiberAhmedToolStripMenuItem.Text" xml:space="preserve">
     <value>FiberAhmed</value>
     <comment>@Invariant</comment>
   </data>
   <data name="shadowlToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>154, 22</value>
   </data>
   <data name="shadowlToolStripMenuItem.Text" xml:space="preserve">
     <value>ShadowlGamer</value>
@@ -551,24 +551,31 @@
     <comment>@Invariant</comment>
   </data>
   <data name="ypsolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="ypsolToolStripMenuItem.Text" xml:space="preserve">
     <value>Ypsol</value>
     <comment>@Invariant</comment>
   </data>
   <data name="ahmadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="ahmadToolStripMenuItem.Text" xml:space="preserve">
     <value>ahmad</value>
     <comment>@Invariant</comment>
   </data>
   <data name="binarynoiseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="binarynoiseToolStripMenuItem.Text" xml:space="preserve">
     <value>binarynoise</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="floxiiiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="floxiiiToolStripMenuItem.Text" xml:space="preserve">
+    <value>Floxiii</value>
     <comment>@Invariant</comment>
   </data>
   <data name="germanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -1478,7 +1485,7 @@
     <value>3, 28</value>
   </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 18</value>
+    <value>156, 18</value>
   </data>
   <data name="radioButtonStartTime.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -3102,6 +3109,12 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="&gt;&gt;toolStripStatusLabelStatus.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;floxiiiToolStripMenuItem.Name" xml:space="preserve">
+    <value>floxiiiToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;floxiiiToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>
