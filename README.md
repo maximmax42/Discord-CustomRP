@@ -21,7 +21,7 @@ So far, the app supports these languages:
 * Arabic-EG (thanks to [FiberAhmed](https://github.com/FiberAhmed) and ShadowlGamer)
 * Czech (thanks to [JayJake](https://jayjake.eu/) and Tobias)
 * Danish (thanks to Sebastian Hviid and Tobias)
-* German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), ahmad, binarynoise and Floxiii)
+* German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), ahmad, binarynoise and [Felix](https://github.com/fbrettnich))
 * Greek (thanks to Alex Grivas)
 * English
 * Spanish (thanks to Vexot, Epic and Pablo)
