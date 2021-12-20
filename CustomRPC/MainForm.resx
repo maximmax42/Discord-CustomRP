@@ -571,11 +571,11 @@
     <value>binarynoise</value>
     <comment>@Invariant</comment>
   </data>
-  <data name="floxiiiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="felixToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  <data name="floxiiiToolStripMenuItem.Text" xml:space="preserve">
-    <value>Floxiii</value>
+  <data name="felixToolStripMenuItem.Text" xml:space="preserve">
+    <value>Felix</value>
     <comment>@Invariant</comment>
   </data>
   <data name="germanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -2744,6 +2744,12 @@ To take effect, both fields should be more than 0.</value>
   <data name="&gt;&gt;binarynoiseToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;felixToolStripMenuItem.Name" xml:space="preserve">
+    <value>felixToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;felixToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;greekToolStripMenuItem.Name" xml:space="preserve">
     <value>greekToolStripMenuItem</value>
   </data>
@@ -3109,12 +3115,6 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="&gt;&gt;toolStripStatusLabelStatus.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;floxiiiToolStripMenuItem.Name" xml:space="preserve">
-    <value>floxiiiToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;floxiiiToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>

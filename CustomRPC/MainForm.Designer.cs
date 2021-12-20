@@ -104,6 +104,7 @@
             this.ypsolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ahmadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.binarynoiseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.felixToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.greekToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.alexGrivasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.spanishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -206,7 +207,6 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.floxiiiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -773,7 +773,7 @@
             this.ypsolToolStripMenuItem,
             this.ahmadToolStripMenuItem,
             this.binarynoiseToolStripMenuItem,
-            this.floxiiiToolStripMenuItem});
+            this.felixToolStripMenuItem});
             this.germanToolStripMenuItem.Name = "germanToolStripMenuItem";
             resources.ApplyResources(this.germanToolStripMenuItem, "germanToolStripMenuItem");
             // 
@@ -797,6 +797,13 @@
             resources.ApplyResources(this.binarynoiseToolStripMenuItem, "binarynoiseToolStripMenuItem");
             this.binarynoiseToolStripMenuItem.Tag = "";
             this.binarynoiseToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
+            // 
+            // felixToolStripMenuItem
+            // 
+            this.felixToolStripMenuItem.Image = global::CustomRPC.Properties.Resources.globe;
+            this.felixToolStripMenuItem.Name = "felixToolStripMenuItem";
+            resources.ApplyResources(this.felixToolStripMenuItem, "felixToolStripMenuItem");
+            this.felixToolStripMenuItem.Tag = "https://github.com/fbrettnich";
             // 
             // greekToolStripMenuItem
             // 
@@ -1572,11 +1579,6 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
-            // floxiiiToolStripMenuItem
-            // 
-            this.floxiiiToolStripMenuItem.Name = "floxiiiToolStripMenuItem";
-            resources.ApplyResources(this.floxiiiToolStripMenuItem, "floxiiiToolStripMenuItem");
-            // 
             // MainForm
             // 
             this.AllowDrop = true;
@@ -1818,7 +1820,7 @@
         private System.Windows.Forms.ToolStripMenuItem koToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem koreanToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem yeongaoriToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem floxiiiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem felixToolStripMenuItem;
     }
 }
 
