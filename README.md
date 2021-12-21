@@ -18,6 +18,8 @@ If you have any problems with the app, please check out [FAQ](https://github.com
 
 ## Translations
 
+<a href="https://poeditor.com/join/project?hash=2jq0i7ANr1"><img alt="POEditor Translation Progress" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor.json"></a>
+
 So far, the app supports these languages:
 * Arabic-EG (thanks to [FiberAhmed](https://github.com/FiberAhmed) and ShadowlGamer)
 * Czech (thanks to [JayJake](https://jayjake.eu/) and Tobias)
@@ -45,8 +47,6 @@ So far, the app supports these languages:
 * Vietnamese (thanks to [Mykm](https://github.com/yumiruuwu), Phnthnhnm0612 and dsbachle)
 * Simplified Chinese (thanks to Zjsun.ca and zozocha)
 * Traditional Chinese (thanks to [蘆筍/westxlu](https://linktr.ee/westxlu))
-
-<a href="https://poeditor.com/join/project?hash=2jq0i7ANr1"><img alt="POEditor Translation Progress" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor.json"></a>
 
 If you want to help translate the app to your language, please go to the [POEditor project page](https://poeditor.com/join/project?hash=2jq0i7ANr1). If you're already part of the project, [click here](https://poeditor.com/projects/view?id=409229).
 
