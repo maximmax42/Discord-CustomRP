@@ -18,35 +18,35 @@ If you have any problems with the app, please check out [FAQ](https://github.com
 
 ## Translations
 
-<a href="https://poeditor.com/join/project?hash=2jq0i7ANr1"><img alt="POEditor Translation Progress" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor.json"></a>
+<a href="https://poeditor.com/join/project?hash=2jq0i7ANr1"><img alt="POEditor Translation Progress" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fall.json"></a>
 
 So far, the app supports these languages:
-* Arabic-EG (thanks to [FiberAhmed](https://github.com/FiberAhmed) and ShadowlGamer)
-* Czech (thanks to [JayJake](https://jayjake.eu/) and Tobias)
-* Danish (thanks to Sebastian Hviid and Tobias)
-* German (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), ahmad, binarynoise and [Felix](https://github.com/fbrettnich))
-* Greek (thanks to Alex Grivas)
-* English
-* Spanish (thanks to Vexot, Epic and Pablo)
-* French (thanks to Nenaff)
-* Hebrew (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg) and [Kahpot Vanilla](https://linktr.ee/KahpotVanilla))
-* Hungarian (thanks to [Botond Balla](https://github.com/BallaBotond))
-* Indonesian (thanks to Hapnan, Apolycious and [Bayu Sopwan](https://bayusopwan.github.io))
-* Italian (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
-* Japanese (thanks to KABIKIRA000)
-* Korean (thanks to Yeongaori)
-* Central Kurdish (thanks to [SamTheNoob](https://discord.gg/stn69))
-* Lithuanian (thanks to [White Rose](https://www.twitch.tv/psychonaut303))
-* Dutch (thanks to [Jeremyzijlemans](https://sionhub.co.uk/))
-* Polish (thanks to Lol1112345.lol12345 and Liso)
-* Portugese-BR (thanks to viniciotricolor)
-* Russian
-* Thai (thanks to Squishee Freshy)
-* Turkish (thanks to Ozan Akyüz)
-* Ukrainian (thanks to MechaniX and Dmitromintenko)
-* Vietnamese (thanks to [Mykm](https://github.com/yumiruuwu), Phnthnhnm0612 and dsbachle)
-* Simplified Chinese (thanks to Zjsun.ca and zozocha)
-* Traditional Chinese (thanks to [蘆筍/westxlu](https://linktr.ee/westxlu))
+* ![Arabic (EG)](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Far-eg.json) (thanks to [FiberAhmed](https://github.com/FiberAhmed) and ShadowlGamer)
+* ![Czech](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fcs.json) (thanks to [JayJake](https://jayjake.eu/) and Tobias)
+* ![Danish](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fda.json) (thanks to Sebastian Hviid and Tobias)
+* ![German](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fde.json) (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), ahmad, binarynoise and [Felix](https://github.com/fbrettnich))
+* ![Greek](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fel.json) (thanks to Alex Grivas)
+* ![English](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fen.json)
+* ![Spanish](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fes.json) (thanks to Vexot, Epic and Pablo)
+* ![French](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Ffr.json) (thanks to Nenaff)
+* ![Hebrew](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fhe.json) (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg) and [Kahpot Vanilla](https://linktr.ee/KahpotVanilla))
+* ![Hungarian](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fhu.json) (thanks to [Botond Balla](https://github.com/BallaBotond))
+* ![Indonesian](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fid.json) (thanks to Hapnan, Apolycious and [Bayu Sopwan](https://bayusopwan.github.io))
+* ![Italian](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fit.json) (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
+* ![Japanese](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fja.json) (thanks to KABIKIRA000)
+* ![Korean](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fko.json) (thanks to Yeongaori)
+* ![Kurdish](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fku.json) (thanks to [SamTheNoob](https://discord.gg/stn69))
+* ![Lithuanian](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Flt.json) (thanks to [White Rose](https://www.twitch.tv/psychonaut303))
+* ![Dutch](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fnl.json) (thanks to [Jeremyzijlemans](https://sionhub.co.uk/))
+* ![Polish](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fpl.json) (thanks to Lol1112345.lol12345 and Liso)
+* ![Portugese (BR)](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fpt-br.json) (thanks to viniciotricolor)
+* ![Russian](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fru.json)
+* ![Thai](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fth.json) (thanks to Squishee Freshy)
+* ![Turkish](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Ftr.json) (thanks to Ozan Akyüz)
+* ![Ukrainian](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fuk.json) (thanks to MechaniX and Dmitromintenko)
+* ![Vietnamese](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fvi.json) (thanks to [Mykm](https://github.com/yumiruuwu), Phnthnhnm0612 and dsbachle)
+* ![Chinese (Simplified)](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fzh-Hans.json) (thanks to Zjsun.ca and zozocha)
+* ![Chinese (Traditional)](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fzh-Hant.json) (thanks to [蘆筍/westxlu](https://linktr.ee/westxlu))
 
 If you want to help translate the app to your language, please go to the [POEditor project page](https://poeditor.com/join/project?hash=2jq0i7ANr1). If you're already part of the project, [click here](https://poeditor.com/projects/view?id=409229).
 
