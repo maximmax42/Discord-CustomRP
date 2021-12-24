@@ -177,7 +177,7 @@ namespace CustomRPC
             settings.changedLanguage = false;
         }
 
-        // If user launches second instance, this activates already running one
+        // Handles communication between instances
         protected override void WndProc(ref Message message)
         {
             if (message.Msg == Program.WM_SHOWFIRSTINSTANCE)
@@ -187,7 +187,6 @@ namespace CustomRPC
             else if (message.Msg == Program.WM_IMPORTPRESET)
             {
                 LoadPreset(Path.GetTempPath() + "preset.crp");
-                MaximizeFromTray();
             }
 
             base.WndProc(ref message);
@@ -690,7 +689,14 @@ namespace CustomRPC
         // Same function but for use in code
         private void LoadPreset(string filePath)
         {
-            LoadPreset(File.OpenRead(filePath));
+            try
+            {
+                LoadPreset(File.OpenRead(filePath));
+            }
+            catch
+            {
+                MessageBox.Show(Strings.errorInvalidPresetFile, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         // Called when you press Save Preset button
