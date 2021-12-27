@@ -166,7 +166,7 @@ Możesz ją otworzyć w dowolnym momencie przyciskając F1 lub wchodząc do kart
 Aby go zresetować kliknij Tak, lub Nie żeby wyjść.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Nie można zimportować szablonu; pliku brakuje, jest popsuty lub źle sformatowany.</value>
+    <value>Nie można zaimportować szablonu; pliku brakuje, jest popsuty lub źle sformatowany.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
     <value>Pozwalasz aplikacji CustomRP wysyłać analitykę używania do jej dewelopera?

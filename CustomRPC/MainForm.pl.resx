@@ -218,7 +218,7 @@
     <value>Ustawienia</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>Otwórz instrukcje</value>
+    <value>Otwórz instrukcję</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
     <value>Strona Github</value>
@@ -358,7 +358,7 @@ Jeżeli ma mieć jakikolwiek efekt, obydwa pola muszą być większe od 0.</valu
     <value>Drugi przycisk</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>Drugi z przycisków, który pojawia się pod spodem pierwszego lub w zamian niego.</value>
+    <value>Drugi z przycisków, który pojawia się pod spodem pierwszego lub zamiast niego.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
     <value>Link na który przeniesie użytkownika po kliknięciu przycisku.</value>
@@ -391,6 +391,6 @@ Jeżeli ma mieć jakikolwiek efekt, obydwa pola muszą być większe od 0.</valu
     <value>Automatyczne łączenie</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Pozwól na analityki</value>
+    <value>Pozwól na analitykę</value>
   </data>
 </root>

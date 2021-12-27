@@ -207,6 +207,7 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
+            this.piterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -1025,7 +1026,8 @@
             // 
             this.polishToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lolToolStripMenuItem,
-            this.lisoToolStripMenuItem});
+            this.lisoToolStripMenuItem,
+            this.piterToolStripMenuItem});
             this.polishToolStripMenuItem.Name = "polishToolStripMenuItem";
             resources.ApplyResources(this.polishToolStripMenuItem, "polishToolStripMenuItem");
             // 
@@ -1579,6 +1581,11 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
+            // piterToolStripMenuItem
+            // 
+            this.piterToolStripMenuItem.Name = "piterToolStripMenuItem";
+            resources.ApplyResources(this.piterToolStripMenuItem, "piterToolStripMenuItem");
+            // 
             // MainForm
             // 
             this.AllowDrop = true;
@@ -1821,6 +1828,7 @@
         private System.Windows.Forms.ToolStripMenuItem koreanToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem yeongaoriToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem felixToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem piterToolStripMenuItem;
     }
 }
 

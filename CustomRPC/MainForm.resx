@@ -551,28 +551,28 @@
     <comment>@Invariant</comment>
   </data>
   <data name="ypsolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>135, 22</value>
   </data>
   <data name="ypsolToolStripMenuItem.Text" xml:space="preserve">
     <value>Ypsol</value>
     <comment>@Invariant</comment>
   </data>
   <data name="ahmadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>135, 22</value>
   </data>
   <data name="ahmadToolStripMenuItem.Text" xml:space="preserve">
     <value>ahmad</value>
     <comment>@Invariant</comment>
   </data>
   <data name="binarynoiseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>135, 22</value>
   </data>
   <data name="binarynoiseToolStripMenuItem.Text" xml:space="preserve">
     <value>binarynoise</value>
     <comment>@Invariant</comment>
   </data>
   <data name="felixToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>135, 22</value>
   </data>
   <data name="felixToolStripMenuItem.Text" xml:space="preserve">
     <value>Felix</value>
@@ -796,17 +796,24 @@
     <comment>@Invariant</comment>
   </data>
   <data name="lolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="lolToolStripMenuItem.Text" xml:space="preserve">
     <value>Lol1112345.lol12345</value>
     <comment>@Invariant</comment>
   </data>
   <data name="lisoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="lisoToolStripMenuItem.Text" xml:space="preserve">
     <value>Liso</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="piterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="piterToolStripMenuItem.Text" xml:space="preserve">
+    <value>Piter</value>
     <comment>@Invariant</comment>
   </data>
   <data name="polishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -3115,6 +3122,12 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="&gt;&gt;toolStripStatusLabelStatus.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;piterToolStripMenuItem.Name" xml:space="preserve">
+    <value>piterToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;piterToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>
