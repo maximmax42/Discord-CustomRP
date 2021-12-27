@@ -86,7 +86,7 @@
     <Compile Include="About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConnectionState.cs" />
+    <Compile Include="ConnectionManager.cs" />
     <Compile Include="ErrorReportViewer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -421,7 +421,10 @@
       <DependentUpon>Strings.resx</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Strings.hr.resx" />
+    <EmbeddedResource Include="Strings.hr.resx">
+      <DependentUpon>Strings.resx</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Strings.hu.resx">
       <DependentUpon>Strings.resx</DependentUpon>
       <SubType>Designer</SubType>

@@ -9,12 +9,12 @@
     }
 
     // A class that stores current and previous connection states
-    public class ConnectionState
+    public static class ConnectionManager
     {
-        ConnectionType current;
-        ConnectionType previous;
+        static ConnectionType current = ConnectionType.Disconnected;
+        static ConnectionType previous = ConnectionType.Unknown;
 
-        public ConnectionType State
+        public static ConnectionType State
         {
             get
             {
@@ -27,13 +27,7 @@
             }
         }
 
-        public ConnectionState()
-        {
-            previous = ConnectionType.Unknown;
-            current = ConnectionType.Disconnected;
-        }
-
-        public bool HasChanged()
+        public static bool HasChanged()
         {
             return current != previous;
         }
