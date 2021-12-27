@@ -38,7 +38,7 @@ So far, the app supports these languages:
 * ![Kurdish](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fku.json) (thanks to [SamTheNoob](https://discord.gg/stn69))
 * ![Lithuanian](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Flt.json) (thanks to [White Rose](https://www.twitch.tv/psychonaut303))
 * ![Dutch](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fnl.json) (thanks to [Jeremyzijlemans](https://sionhub.co.uk/))
-* ![Polish](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fpl.json) (thanks to Lol1112345.lol12345 and Liso)
+* ![Polish](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fpl.json) (thanks to Lol1112345.lol12345, Liso and Piter)
 * ![Portugese (BR)](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fpt-br.json) (thanks to viniciotricolor)
 * ![Russian](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fru.json)
 * ![Thai](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fth.json) (thanks to Squishee Freshy)
