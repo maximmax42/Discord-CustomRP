@@ -178,8 +178,8 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="labelVersions.Text" xml:space="preserve">
-    <value>1.0.0
-9.99.99</value>
+    <value>1.0.0.0
+9.99.99.9</value>
     <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;labelQuestion.Type" xml:space="preserve">
@@ -194,11 +194,14 @@
   <data name="&gt;&gt;buttonUpdate.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <data name="labelVersions.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Update Available</value>
   </data>
   <data name="labelVersions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
+    <value>89, 50</value>
   </data>
   <data name="labelQuestion.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 276</value>
@@ -209,8 +212,8 @@
   <data name="checkBoxNeverNotify.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 302</value>
   </data>
-  <data name="labelVersions.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;checkBoxNeverNotify.Name" xml:space="preserve">
+    <value>checkBoxNeverNotify</value>
   </data>
   <data name="htmlPanelChangelog.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 68</value>
@@ -223,9 +226,6 @@
   </data>
   <data name="labelVersions.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;buttonSkipUpdate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="buttonUpdate.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -258,13 +258,10 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="labelVersionsText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 50</value>
+    <value>209, 50</value>
   </data>
   <data name="&gt;&gt;labelVersions.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelVersions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;htmlPanelChangelog.Name" xml:space="preserve">
     <value>htmlPanelChangelog</value>
@@ -303,11 +300,14 @@
   <data name="labelQuestion.Text" xml:space="preserve">
     <value>Would you like to download this update?</value>
   </data>
+  <data name="&gt;&gt;checkBoxNeverNotify.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="&gt;&gt;buttonUpdate.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBoxLogo.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;buttonSkipUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="pictureBoxLogo.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 50</value>
@@ -321,6 +321,9 @@
   <data name="pictureBoxLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
   </data>
+  <data name="&gt;&gt;pictureBoxLogo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="&gt;&gt;labelVersions.Name" xml:space="preserve">
     <value>labelVersions</value>
   </data>
@@ -333,8 +336,8 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>UpdatePrompt</value>
   </data>
-  <data name="&gt;&gt;checkBoxNeverNotify.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;buttonNotNow.Name" xml:space="preserve">
+    <value>buttonNotNow</value>
   </data>
   <data name="htmlPanelChangelog.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
@@ -377,10 +380,7 @@ display: inline;
     <value>216, 326</value>
   </data>
   <data name="labelVersions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>297, 12</value>
-  </data>
-  <data name="&gt;&gt;htmlPanelChangelog.Type" xml:space="preserve">
-    <value>TheArtOfDev.HtmlRenderer.WinForms.HtmlPanel, HtmlRenderer.WinForms, Version=1.5.0.6, Culture=neutral, PublicKeyToken=null</value>
+    <value>283, 12</value>
   </data>
   <data name="htmlPanelChangelog.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -407,8 +407,8 @@ Latest version:</value>
   <data name="&gt;&gt;labelVersionsText.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;buttonNotNow.Name" xml:space="preserve">
-    <value>buttonNotNow</value>
+  <data name="&gt;&gt;htmlPanelChangelog.Type" xml:space="preserve">
+    <value>TheArtOfDev.HtmlRenderer.WinForms.HtmlPanel, HtmlRenderer.WinForms, Version=1.5.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;labelQuestion.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -419,8 +419,8 @@ Latest version:</value>
   <data name="buttonNotNow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;checkBoxNeverNotify.Name" xml:space="preserve">
-    <value>checkBoxNeverNotify</value>
+  <data name="&gt;&gt;labelVersions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

@@ -9,8 +9,8 @@ namespace CustomRPC
         {
             InitializeComponent();
 
-            string currentStr = $"{current.Major}.{current.Minor}.{current.Build}";
-            string latestStr = $"{latest.Major}.{latest.Minor}.{(latest.Build == -1 ? 0 : latest.Build)}";
+            string currentStr = current.ToString();
+            string latestStr = latest.ToString();
 
             labelVersions.Text = currentStr + "\r\n" + latestStr;
 

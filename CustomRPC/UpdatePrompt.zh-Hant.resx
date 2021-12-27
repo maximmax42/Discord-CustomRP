@@ -123,8 +123,15 @@
   <data name="buttonNotNow.Text" xml:space="preserve">
     <value>現在不要</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 14</value>
+  </data>
   <data name="labelQuestion.Text" xml:space="preserve">
     <value>您要下載此更新嗎?</value>
+  </data>
+  <data name="checkBoxNeverNotify.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 18</value>
   </data>
   <data name="checkBoxNeverNotify.Text" xml:space="preserve">
     <value>不再檢查更新</value>
