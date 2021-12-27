@@ -335,6 +335,8 @@ namespace CustomRPC
             var wc = new WebClient();
             var exec = Path.GetTempPath() + latestRelease.Assets[fileType].Name;
 
+            wc.DownloadProgressChanged += DownloadProgress;
+
             while (true)
             {
                 try
@@ -365,6 +367,12 @@ namespace CustomRPC
                     break;
                 }
             }
+        }
+
+        // Visual feedback for downloading
+        private void DownloadProgress(object sender, DownloadProgressChangedEventArgs e)
+        {
+            downloadUpdateToolStripMenuItem.Text = e.ProgressPercentage.ToString() + "%";
         }
 
         // Initializing connection to the Discord API
