@@ -364,6 +364,8 @@ namespace CustomRPC
                         Process.Start(latestRelease.Assets[fileType].BrowserDownloadUrl);
 
                     downloadUpdateToolStripMenuItem.Enabled = true;
+                    downloadUpdateToolStripMenuItem.Text = resources.GetString("downloadUpdateToolStripMenuItem.Text");
+
                     break;
                 }
             }
