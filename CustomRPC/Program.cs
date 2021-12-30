@@ -11,7 +11,9 @@ using System.Windows.Forms;
 
 namespace CustomRPC
 {
-    // https://www.codeproject.com/Articles/32908/C-Single-Instance-App-With-the-Ability-To-Restore
+    /// <summary>
+    /// Native Windows functions. Taken from <see href="https://www.codeproject.com/Articles/32908/C-Single-Instance-App-With-the-Ability-To-Restore"/>
+    /// </summary>
     static public class WinApi
     {
         [DllImport("user32")]
@@ -29,7 +31,7 @@ namespace CustomRPC
         public static int WM_IMPORTPRESET;
 
         /// <summary>
-        /// Главная точка входа для приложения.
+        /// Main entry point for the application.
         /// </summary>
         [STAThread]
         static void Main(string[] args)

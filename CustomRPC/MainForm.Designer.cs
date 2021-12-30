@@ -354,14 +354,14 @@
             this.runOnStartupToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.runOnStartupToolStripMenuItem.Name = "runOnStartupToolStripMenuItem";
             resources.ApplyResources(this.runOnStartupToolStripMenuItem, "runOnStartupToolStripMenuItem");
-            this.runOnStartupToolStripMenuItem.CheckedChanged += new System.EventHandler(this.SaveSettings);
+            this.runOnStartupToolStripMenuItem.CheckedChanged += new System.EventHandler(this.SaveMenuSettings);
             // 
             // startMinimizedToolStripMenuItem
             // 
             this.startMinimizedToolStripMenuItem.CheckOnClick = true;
             this.startMinimizedToolStripMenuItem.Name = "startMinimizedToolStripMenuItem";
             resources.ApplyResources(this.startMinimizedToolStripMenuItem, "startMinimizedToolStripMenuItem");
-            this.startMinimizedToolStripMenuItem.CheckedChanged += new System.EventHandler(this.SaveSettings);
+            this.startMinimizedToolStripMenuItem.CheckedChanged += new System.EventHandler(this.SaveMenuSettings);
             // 
             // autoconnectToolStripMenuItem
             // 
@@ -370,7 +370,7 @@
             this.autoconnectToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.autoconnectToolStripMenuItem.Name = "autoconnectToolStripMenuItem";
             resources.ApplyResources(this.autoconnectToolStripMenuItem, "autoconnectToolStripMenuItem");
-            this.autoconnectToolStripMenuItem.CheckedChanged += new System.EventHandler(this.SaveSettings);
+            this.autoconnectToolStripMenuItem.CheckedChanged += new System.EventHandler(this.SaveMenuSettings);
             // 
             // toolStripSeparatorSettings1
             // 
@@ -384,7 +384,7 @@
             this.checkUpdatesToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkUpdatesToolStripMenuItem.Name = "checkUpdatesToolStripMenuItem";
             resources.ApplyResources(this.checkUpdatesToolStripMenuItem, "checkUpdatesToolStripMenuItem");
-            this.checkUpdatesToolStripMenuItem.CheckedChanged += new System.EventHandler(this.SaveSettings);
+            this.checkUpdatesToolStripMenuItem.CheckedChanged += new System.EventHandler(this.SaveMenuSettings);
             // 
             // allowAnalyticsToolStripMenuItem
             // 
@@ -393,7 +393,7 @@
             this.allowAnalyticsToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.allowAnalyticsToolStripMenuItem.Name = "allowAnalyticsToolStripMenuItem";
             resources.ApplyResources(this.allowAnalyticsToolStripMenuItem, "allowAnalyticsToolStripMenuItem");
-            this.allowAnalyticsToolStripMenuItem.CheckedChanged += new System.EventHandler(this.SaveSettings);
+            this.allowAnalyticsToolStripMenuItem.CheckedChanged += new System.EventHandler(this.SaveMenuSettings);
             // 
             // toolStripSeparator1
             // 

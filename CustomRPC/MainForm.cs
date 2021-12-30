@@ -23,7 +23,10 @@ namespace CustomRPC
      * TODO: profiles not as external files
      */
 
-    // A struct for handling preset importing/exporting
+
+    /// <summary>
+    /// A struct for handling preset importing/exporting.
+    /// </summary>
     [Serializable]
     public struct Preset
     {
@@ -46,31 +49,82 @@ namespace CustomRPC
 
     public partial class MainForm : Form
     {
-        DiscordRpcClient client; // RPC Client
+        /// <summary>
+        /// Discord RPC Client.
+        /// </summary>
+        DiscordRpcClient client;
 
-        List<DButton> buttonsList = new List<DButton>(); // List of custom buttons
+        /// <summary>
+        /// List of presence buttons.
+        /// </summary>
+        List<DButton> buttonsList = new List<DButton>();
 
-        bool loading = true; // To prevent some event handlers from executing while app is loading
-        bool toAvoidRecursion = false; // ...This is stupid
+        /// <summary>
+        /// Prevents some event handlers from executing while the app is loading.
+        /// </summary>
+        bool loading = true;
+        /// <summary>
+        /// Avoids recursion in <see cref="OnlyNumbers"/>.
+        /// </summary>
+        /// <remarks>
+        /// ...This is stupid.
+        /// </remarks>
+        bool toAvoidRecursion = false;
 
-        Timer restartTimer = new Timer(10 * 1000); // A timer for automatic restart on connection error
-        int restartAttempts = 30; // Limit the amount of restart tries
+        /// <summary>
+        /// A timer for automatic restart on connection error. Currently set to 10 seconds.
+        /// </summary>
+        Timer restartTimer = new Timer(10 * 1000);
+        /// <summary>
+        /// Limit for the amount of restart tries.
+        /// </summary>
+        int restartAttempts = 30;
+        /// <summary>
+        /// Counter for restart attempts left.
+        /// </summary>
         int restartAttemptsLeft = -1;
 
-        Properties.Settings settings = Properties.Settings.Default; // Settings
+        /// <summary>
+        /// Settings of the application. Self-explanatory.
+        /// </summary>
+        Properties.Settings settings = Properties.Settings.Default;
 
-        GitHubClient githubClient = new GitHubClient(new ProductHeaderValue("CustomRP")); // For getting updates
+        /// <summary>
+        /// GitHub client used for fetching all the releases of the app.
+        /// </summary>
+        GitHubClient githubClient = new GitHubClient(new ProductHeaderValue("CustomRP"));
+        /// <summary>
+        /// Latest release of the app available for downloading.
+        /// </summary>
         Release latestRelease;
 
-        readonly DateTime timestampStarted = DateTime.UtcNow; // Timestamp of when the app started
+        /// <summary>
+        /// Timestamp of when the app started.
+        /// </summary>
+        readonly DateTime timestampStarted = DateTime.UtcNow;
 
-        readonly string linkPath = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\CustomRP.lnk"; // Autorun file link
+        /// <summary>
+        /// Path to the autorun link file.
+        /// </summary>
+        readonly string linkPath = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\CustomRP.lnk";
 
+        /// <summary>
+        /// Off-white color.
+        /// </summary>
         readonly System.Drawing.Color defaultColor = System.Drawing.Color.FromName("Window");
+        /// <summary>
+        /// Green color.
+        /// </summary>
         readonly System.Drawing.Color successColor = System.Drawing.Color.FromArgb(192, 255, 192);
+        /// <summary>
+        /// Red color.
+        /// </summary>
         readonly System.Drawing.Color errorColor = System.Drawing.Color.FromArgb(255, 192, 192);
 
-        // Constructor of the form
+        /// <summary>
+        /// The constructor of the form.
+        /// </summary>
+        /// <param name="preset">File location of a preset to load on startup or <see langword="null"/>.</param>
         public MainForm(string preset)
         {
             InitializeComponent();
@@ -149,7 +203,7 @@ namespace CustomRPC
             if (settings.id != "" && settings.firstStart)
             {
                 settings.firstStart = false;
-                settings.Save();
+                SaveSettings();
             }
 
             if (settings.firstStart)
@@ -162,7 +216,7 @@ namespace CustomRPC
                     Process.Start("https://github.com/maximmax42/Discord-CustomRP/wiki/Setting-Up");
 
                 settings.firstStart = false;
-                settings.Save();
+                SaveSettings();
             }
             else if (settings.id != "" && ((settings.changedLanguage && settings.wasConnected) || (settings.autoconnect && !settings.changedLanguage)))
                 Connect();
@@ -175,7 +229,9 @@ namespace CustomRPC
             settings.changedLanguage = false;
         }
 
-        // Handles communication between instances
+        /// <summary>
+        /// Handles communication between instances.
+        /// </summary>
         protected override void WndProc(ref Message message)
         {
             if (message.Msg == Program.WM_SHOWFIRSTINSTANCE)
@@ -190,7 +246,28 @@ namespace CustomRPC
             base.WndProc(ref message);
         }
 
-        // Will be called 10 seconds after a failed connection to try and reconnect
+        /// <summary>
+        /// A try-catch wrapper function for settings.Save().
+        /// </summary>
+        /// <returns><see langword="True"/> if settings were saved properly, <see langword="false"/> otherwise.</returns>
+        private bool SaveSettings()
+        {
+            try
+            {
+                //throw new NotImplementedException("pipis");
+                settings.Save();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(this, $"{Strings.errorSavingSettings} {ex.Message}", Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Will be called 10 seconds after a failed connection to try and reconnect.
+        /// </summary>
         private void RestartTimer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
             if (restartAttemptsLeft == 0)
@@ -208,7 +285,9 @@ namespace CustomRPC
             Invoke(new MethodInvoker(() => Connect()));
         }
 
-        // Checks if the app has crashed in the previous session
+        /// <summary>
+        /// Checks if the app has crashed in the previous session.
+        /// </summary>
         private async void CheckIfCrashed()
         {
             if (!await Crashes.HasCrashedInLastSessionAsync())
@@ -219,7 +298,13 @@ namespace CustomRPC
             new ErrorReportViewer(report.StackTrace).ShowDialog();
         }
 
-        // Helper class to get a proper version object
+        /// <summary>
+        /// Helper class to get a proper version object.
+        /// </summary>
+        /// <param name="version">A string representing version.</param>
+        /// <returns>A <see cref="Version"/> object with no fields set to -1.</returns>
+        /// <exception cref="ArgumentNullException"></exception>
+        /// <exception cref="ArgumentException"></exception>
         private Version GetVersion(string version)
         {
             if (string.IsNullOrEmpty(version))
@@ -241,7 +326,10 @@ namespace CustomRPC
             return new Version(version);
         }
 
-        // Checking updates
+        /// <summary>
+        /// Checks for updates.
+        /// </summary>
+        /// <param name="manual"><see langword="True"/> if the user requested the check, <see langword="false"/> otherwise.</param>
         private async void CheckForUpdates(bool manual = false)
         {
             IReadOnlyList<Release> releases;
@@ -323,7 +411,9 @@ namespace CustomRPC
                 MessageBox.Show(this, Strings.noUpdatesFound, Strings.information, MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
         }
 
-        // Downloading and installing latest update from GitHub
+        /// <summary>
+        /// Downloading and installing latest update from GitHub.
+        /// </summary>
         public async void DownloadAndInstallUpdate()
         {
             if (latestRelease == null)
@@ -371,13 +461,18 @@ namespace CustomRPC
             }
         }
 
-        // Visual feedback for downloading
+        /// <summary>
+        /// Provides visual feedback for downloading.
+        /// </summary>
         private void DownloadProgress(object sender, DownloadProgressChangedEventArgs e)
         {
             downloadUpdateToolStripMenuItem.Text = e.ProgressPercentage.ToString() + "%";
         }
 
-        // Initializing connection to the Discord API
+        /// <summary>
+        /// Initializes connection to the Discord API.
+        /// </summary>
+        /// <returns><see langword="False"/> if ID isn't set, otherwise <see langword="true"/>.</returns>
         private bool Init()
         {
             if (settings.id == "")
@@ -401,7 +496,9 @@ namespace CustomRPC
             return true;
         }
 
-        // Will be called if successfully connected and sent the presence payload
+        /// <summary>
+        /// Will be called if successfully connected and sent the presence payload.
+        /// </summary>
         private void ClientOnPresenceUpdate(object sender, DiscordRPC.Message.PresenceMessage args)
         {
             var presence = client.CurrentPresence;
@@ -426,7 +523,9 @@ namespace CustomRPC
             restartTimer.Stop();
         }
 
-        // Will be called if failed connecting (due to bad app id or anything else)
+        /// <summary>
+        /// Will be called if failed connecting (due to bad app id or anything else).
+        /// </summary>
         private void ClientOnError(object sender, DiscordRPC.Message.ErrorMessage args)
         {
             ConnectionManager.State = ConnectionType.Error;
@@ -446,7 +545,9 @@ namespace CustomRPC
             restartTimer.Start();
         }
 
-        // Will be called if failed connecting (mostly due to Discord being closed)
+        /// <summary>
+        /// Will be called if failed connecting (mostly due to Discord being closed).
+        /// </summary>
         private void ClientOnConnFailed(object sender, DiscordRPC.Message.ConnectionFailedMessage args)
         {
             ConnectionManager.State = ConnectionType.Error;
@@ -466,7 +567,9 @@ namespace CustomRPC
             restartTimer.Start();
         }
 
-        // Sets up new presence from the settings
+        /// <summary>
+        /// Sets up new presence from the settings.
+        /// </summary>
         private void SetPresence()
         {
             if (client == null || client.IsDisposed)
@@ -495,6 +598,7 @@ namespace CustomRPC
             };
 
             buttonsList.Clear();
+
 
             try
             {
@@ -534,7 +638,9 @@ namespace CustomRPC
             client.SetPresence(rp);
         }
 
-        // Sets up the startup link for the app
+        /// <summary>
+        /// Sets up the startup link for the app.
+        /// </summary>
         private void StartupSetup()
         {
             try
@@ -561,7 +667,9 @@ namespace CustomRPC
             }
         }
 
-        // Called when you drag a file into app's window
+        /// <summary>
+        /// Called when you drag a file into app's window.
+        /// </summary>
         private void DragDropEnter(object sender, DragEventArgs e)
         {
             if (e.Data.GetDataPresent(DataFormats.FileDrop))
@@ -570,14 +678,18 @@ namespace CustomRPC
                 e.Effect = DragDropEffects.None;
         }
 
-        // Called upon dropping a file
+        /// <summary>
+        /// Called upon dropping a file.
+        /// </summary>
         private void DragDropHandler(object sender, DragEventArgs e)
         {
             if (e.Data.GetData(DataFormats.FileDrop) is string[] files && files.Length > 0)
                 LoadPreset(files[0]); // If multiple files are passed, only the first one gets imported
         }
 
-        // Called when you close the main window with the X button
+        /// <summary>
+        /// Called when you close the main window with the X button.
+        /// </summary>
         private void MinimizeToTray(object sender, FormClosingEventArgs e)
         {
             if (e.CloseReason == CloseReason.UserClosing) // Checks if it was closed by user and not by system in a shutdown, for example
@@ -595,8 +707,18 @@ namespace CustomRPC
             }
         }
 
-        // Called when you double click the tray icon
+        /// <summary>
+        /// Called when you double click the tray icon.
+        /// </summary>
         private void MaximizeFromTray(object sender, EventArgs e)
+        {
+            MaximizeFromTray();
+        }
+
+        /// <summary>
+        /// Maximizes the window.
+        /// </summary>
+        private void MaximizeFromTray()
         {
             switch (ConnectionManager.State) // Because invoking doesn't work while the form is hidden
             {
@@ -612,10 +734,10 @@ namespace CustomRPC
                     textBoxID.BackColor = errorColor;
                     toolStripStatusLabelStatus.Text = Strings.statusError;
                     break;
-                case ConnectionType.Unknown: // This should never happen, but just in case
+                case ConnectionType.None: // This should never happen, but just in case
                     textBoxID.BackColor = System.Drawing.Color.FromArgb(69420);
                     toolStripStatusLabelStatus.Text = "pipis";
-                    Analytics.TrackEvent("You've set ConnectionState.State to ConnectionType.Unknown");
+                    Analytics.TrackEvent("You've set ConnectionState.State to ConnectionType.None");
                     break;
             }
 
@@ -623,13 +745,10 @@ namespace CustomRPC
             Activate();
         }
 
-        // Same but as a function to use in code
-        private void MaximizeFromTray()
-        {
-            MaximizeFromTray(null, null);
-        }
-
-        // Base function for loading a preset
+        /// <summary>
+        /// Base function for loading a preset.
+        /// </summary>
+        /// <param name="file">A file stream of the preset file.</param>
         private void LoadPreset(Stream file)
         {
             try
@@ -657,7 +776,7 @@ namespace CustomRPC
                 settings.button1URL = preset.Button1URL;
                 settings.button2Text = preset.Button2Text;
                 settings.button2URL = preset.Button2URL;
-                settings.Save();
+                SaveSettings();
 
                 switch (settings.timestamps)
                 {
@@ -680,7 +799,9 @@ namespace CustomRPC
             file.Close();
         }
 
-        // Called when you press Load Preset button
+        /// <summary>
+        /// Called when you press Load Preset button.
+        /// </summary>
         private void LoadPreset(object sender, EventArgs e)
         {
             var presetFile = new OpenFileDialog()
@@ -694,7 +815,10 @@ namespace CustomRPC
             LoadPreset(presetFile.OpenFile());
         }
 
-        // Same function but for use in code
+        /// <summary>
+        /// Loads preset from a file.
+        /// </summary>
+        /// <param name="filePath">The path to the preset file.</param>
         private void LoadPreset(string filePath)
         {
             try
@@ -707,7 +831,9 @@ namespace CustomRPC
             }
         }
 
-        // Called when you press Save Preset button
+        /// <summary>
+        /// Called when you press Save Preset button.
+        /// </summary>
         private void SavePreset(object sender, EventArgs e)
         {
             var xs = new XmlSerializer(typeof(Preset));
@@ -744,7 +870,9 @@ namespace CustomRPC
             Analytics.TrackEvent("Saved a preset");
         }
 
-        // Called when you press Upload Assets button
+        /// <summary>
+        /// Called when you press Upload Assets button.
+        /// </summary>
         private void OpenDiscordSite(object sender, EventArgs e)
         {
             if (settings.id == "")
@@ -753,18 +881,23 @@ namespace CustomRPC
             Process.Start("https://discord.com/developers/applications/" + settings.id + "/rich-presence/assets");
         }
 
-        // Called when you click File -> Quit or right-click on the tray icon and choose Quit
+        /// <summary>
+        /// Called when you click File -> Quit or right-click on the tray icon and choose Quit.
+        /// </summary>
         private void Quit(object sender, EventArgs e)
         {
             if (client != null)
                 client.Dispose();
 
-            settings.Save();
-            Application.Exit();
+            if (SaveSettings())
+                Application.Exit();
         }
 
-        // Called when you press anything in Settings submenu of menu strip
-        private void SaveSettings(object sender, EventArgs e)
+        /// <summary>
+        /// Called when you press anything in Settings submenu of menu strip.
+        /// </summary>
+        /// <exception cref="NotImplementedException">In case I forgot something.</exception>
+        private void SaveMenuSettings(object sender, EventArgs e)
         {
             if (loading)
                 return;
@@ -797,10 +930,12 @@ namespace CustomRPC
                     throw new NotImplementedException(setting.Name);
             }
 
-            settings.Save();
+            SaveSettings();
         }
 
-        // Called when you change the language
+        /// <summary>
+        /// Called when you change the language.
+        /// </summary>
         private void ChangeLanguage(object sender, EventArgs e)
         {
             var lang = (ToolStripMenuItem)sender;
@@ -808,19 +943,25 @@ namespace CustomRPC
             settings.language = (string)lang.Tag;
             settings.changedLanguage = true;
             settings.wasConnected = buttonDisconnect.Enabled;
-            settings.Save();
+            SaveSettings();
             Program.AppMutex.Close();
             Application.Restart();
         }
 
-        // Called when you press on menu items that open websites
+        /// <summary>
+        /// Called when you press on menu items that open websites.
+        /// </summary>
         private void OpenSite(object sender, EventArgs e)
         {
             var item = (ToolStripMenuItem)sender;
             Process.Start((string)item.Tag);
         }
 
-        // Called when you press on a translator's nickname
+        /// <summary>
+        /// Called when you press on a translator's nickname.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void OpenTranslatorPage(object sender, EventArgs e)
         {
             var translator = (ToolStripMenuItem)sender;
@@ -836,28 +977,38 @@ namespace CustomRPC
             Process.Start((string)translator.Tag); // Tags contain URLs
         }
 
-        // Called when you press Check for updates... button
+        /// <summary>
+        /// Called when you press Check for updates... button.
+        /// </summary>
         private void CheckForUpdates(object sender, EventArgs e)
         {
             CheckForUpdates(true);
         }
 
-        // Called when you press About... button
+        /// <summary>
+        /// Called when you press About... button.
+        /// </summary>
         private void ShowAbout(object sender, EventArgs e)
         {
             Analytics.TrackEvent("Opened about window");
             new About().ShowDialog(this);
         }
 
-        // Called when you press Download Update button
+        /// <summary>
+        /// Called when you press Download Update button.
+        /// </summary>
         private void DownloadUpdate(object sender, EventArgs e)
         {
             downloadUpdateToolStripMenuItem.Enabled = false;
             DownloadAndInstallUpdate();
         }
 
-        // Called when you input into the ID textbox
-        // This is overcomplicated isn't it, but hey, at least it works with pasting as well!
+        /// <summary>
+        /// Called when you input into the ID textbox.
+        /// </summary>
+        /// <remarks>
+        /// This is overcomplicated isn't it, but hey, at least it works with pasting as well!
+        /// </remarks>
         private void OnlyNumbers(object sender, EventArgs e)
         {
             if (toAvoidRecursion || textBoxID.Text == "")
@@ -887,10 +1038,11 @@ namespace CustomRPC
             toAvoidRecursion = false;
         }
 
-        // Called when you press the Connect button or right-click on the tray icon and choose Reconnect
+        /// <summary>
+        /// Called when you press the Connect button or right-click on the tray icon and choose Reconnect.
+        /// </summary>
         private void Connect(object sender, EventArgs e)
         {
-            settings.Save();
 #if DEBUG
             if (ModifierKeys == (Keys.Control | Keys.Alt) && sender is Button)
                 Crashes.GenerateTestCrash();
@@ -902,6 +1054,16 @@ namespace CustomRPC
                 new PipeSelector().ShowDialog(this);
                 return;
             }
+
+            Connect();
+        }
+
+        /// <summary>
+        /// Connects to Discord and makes UI changes.
+        /// </summary>
+        private void Connect()
+        {
+            SaveSettings();
 
             if (Init()) // If successfully initialized...
             {
@@ -917,14 +1079,18 @@ namespace CustomRPC
             }
         }
 
-        // Same but as a tidy function for using in code
-        private void Connect()
+        /// <summary>
+        /// Called when you press the Disconnect button.
+        /// </summary>
+        private void Disconnect(object sender, EventArgs e)
         {
-            Connect(null, null);
+            Disconnect();
         }
 
-        // Called when you press the Disconnect button
-        private void Disconnect(object sender, EventArgs e)
+        /// <summary>
+        /// Disconnects from Discord and makes UI changes.
+        /// </summary>
+        private void Disconnect()
         {
             buttonConnect.Enabled = true;
             buttonDisconnect.Enabled = false;
@@ -943,13 +1109,9 @@ namespace CustomRPC
             Analytics.TrackEvent("Disconnected");
         }
 
-        // Same but as a tidy function for using in code
-        private void Disconnect()
-        {
-            Disconnect(null, null);
-        }
-
-        // Called on Validating event for all text fields except ID
+        /// <summary>
+        /// Called on Validating event for all text fields except ID.
+        /// </summary>
         private void LengthValidationFocus(object sender, System.ComponentModel.CancelEventArgs e)
         {
             var box = (TextBox)sender;
@@ -961,7 +1123,9 @@ namespace CustomRPC
             }
         }
 
-        // Called on TextChanged event for all text fields except ID
+        /// <summary>
+        /// Called on TextChanged event for all text fields except ID.
+        /// </summary>
         private void LengthValidation(object sender, EventArgs e)
         {
             var box = (TextBox)sender;
@@ -969,7 +1133,9 @@ namespace CustomRPC
             box.BackColor = StringTools.WithinLength(box.Text, box.MaxLength) ? defaultColor : errorColor;
         }
 
-        // Called on Validating event to validate party size values
+        /// <summary>
+        /// Called on Validating event to validate party size values.
+        /// </summary>
         private void PartySizeValidation(object sender, System.ComponentModel.CancelEventArgs e)
         {
             if (sender == numericUpDownPartyMax && numericUpDownPartyMax.Value == 0)
@@ -982,7 +1148,11 @@ namespace CustomRPC
             }
         }
 
-        // Called when a timestamp radiobutton changed
+        /// <summary>
+        /// Called when a timestamp radiobutton changed.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void TimestampsChanged(object sender, EventArgs e)
         {
             if (loading)
@@ -994,15 +1164,17 @@ namespace CustomRPC
                 return;
 
             settings.timestamps = btn.TabIndex; // I mean... it's a great container for int values
-            settings.Save();
+            SaveSettings();
 
             dateTimePickerTimestamp.Enabled = settings.timestamps == 3;
         }
 
-        // Called when you press the Update Presence button
+        /// <summary>
+        /// Called when you press the Update Presence button.
+        /// </summary>
         private void Update(object sender, EventArgs e)
         {
-            settings.Save();
+            SaveSettings();
             SetPresence();
         }
     }

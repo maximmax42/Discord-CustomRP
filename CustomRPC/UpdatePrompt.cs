@@ -20,7 +20,9 @@ namespace CustomRPC
             Activate();
         }
 
-        // Called when changing the state of the changebox
+        /// <summary>
+        /// Called when changing the state of <see cref="checkBoxNeverNotify"/>.
+        /// </summary>
         private void ToggleUpdates(object sender, EventArgs e)
         {
             var settings = Properties.Settings.Default;

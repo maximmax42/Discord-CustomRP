@@ -15,6 +15,9 @@ namespace CustomRPC
             TestConnection();
         }
 
+        /// <summary>
+        /// Tests the connection with the chosen pipe.
+        /// </summary>
         private void TestConnection()
         {
             if (client != null && !client.IsDisposed)
@@ -26,6 +29,9 @@ namespace CustomRPC
             client.Initialize();
         }
 
+        /// <summary>
+        /// Called on successful connection to Discord.
+        /// </summary>
         private void ConnectionSuccessful(object sender, DiscordRPC.Message.ReadyMessage args)
         {
             try
@@ -44,6 +50,9 @@ namespace CustomRPC
             client.Dispose();
         }
 
+        /// <summary>
+        /// Called on unsuccessful connection to Discord.
+        /// </summary>
         private void ConnectionFailed(object sender, DiscordRPC.Message.ConnectionFailedMessage args)
         {
             try
@@ -62,6 +71,9 @@ namespace CustomRPC
             client.Dispose();
         }
 
+        /// <summary>
+        /// Called when pipe number is changed via <see cref="numericUpDownPipe"/>.
+        /// </summary>
         private void PipeChanged(object sender, EventArgs e)
         {
             TestConnection();

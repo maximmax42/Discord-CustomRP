@@ -136,6 +136,15 @@ namespace CustomRPC {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на An error occurred while saving the settings:.
+        /// </summary>
+        internal static string errorSavingSettings {
+            get {
+                return ResourceManager.GetString("errorSavingSettings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на There was an error downloading or installing an update.
         ///Press &quot;Yes&quot; to retry or &quot;No&quot; to download manually..
         /// </summary>

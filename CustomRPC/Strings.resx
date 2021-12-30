@@ -177,4 +177,7 @@ Press Yes to reset the settings, press No to quit.</value>
     <value>Do you allow CustomRP to send your usage analytics to the developer?
 (All the data is depersonalized.)</value>
   </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>An error occurred while saving the settings:</value>
+  </data>
 </root>
