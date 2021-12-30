@@ -49,7 +49,7 @@ So far, the app supports these languages:
 * <a href="https://poeditor.com/projects/po_edit?id_language=274&per_page=100&id=409229"><img alt="Chinese (Simplified)" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fzh-Hans.json"></a> (thanks to Zjsun.ca and zozocha)
 * <a href="https://poeditor.com/projects/po_edit?id_language=275&per_page=100&id=409229"><img alt="Chinese (Traditional)" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fzh-Hant.json"></a> (thanks to [蘆筍/westxlu](https://linktr.ee/westxlu))
 
-If you want to help translate the app to your language, please go to the [POEditor project page](https://poeditor.com/join/project?hash=2jq0i7ANr1). If you're already part of the project, click on the badge with yopur language's progress.
+If you want to help translate the app to your language, please go to the [POEditor project page](https://poeditor.com/join/project?hash=2jq0i7ANr1). If you're already part of the project, click on the badge with your language's progress.
 
 # Privacy Policy
 Privacy policy is listed [here](https://github.com/maximmax42/Discord-CustomRP/blob/master/PRIVACY.md).
