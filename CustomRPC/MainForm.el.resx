@@ -510,4 +510,7 @@
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>απο</value>
   </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Να επιτραπούν οι αναλύσεις</value>
+  </data>
 </root>

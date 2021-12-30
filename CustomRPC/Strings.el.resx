@@ -165,4 +165,14 @@
     <value>Το αρχείο ρυθμίσεων έχει καταστραφεί.
 Πατήστε Ναι για να επαναφέρετε τις ρυθμίσεις, πατήστε Όχι για να τερματίσετε.</value>
   </data>
+  <data name="errorInvalidPresetFile" xml:space="preserve">
+    <value>Αποτυχία εισαγωγής προκαθορισμένης ρύθμισης; το αρχείο είτε λείπει, είτε είναι κατεστραμμένο ή δεν έχει μορφοποιηθεί σωστά.</value>
+  </data>
+  <data name="askAnalyticsConsent" xml:space="preserve">
+    <value>Επιτρέπετε στο CustomRP να στέλνει τα αναλυτικά στοιχεία χρήσης σας στον προγραμματιστή;
+(Όλα τα δεδομένα είναι αποπροσωποποιημένα.)</value>
+  </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>Προέκυψε ένα πρόβλημα κατά την διάρκεια αποθήκευσης των ρυθμίσεων:</value>
+  </data>
 </root>
