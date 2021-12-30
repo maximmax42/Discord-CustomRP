@@ -179,6 +179,6 @@ Drücke "Ja" um sie zurückzusetzen oder "Nein" um zu verlassen.</value>
 (Alle daten sind nicht Personalisiert.)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
-    <value>Ein fehler ist aufgetreten während dem Speichern der Einstellungen:</value>
+    <value>Ein Fehler ist aufgetreten während dem Speichern der Einstellungen:</value>
   </data>
 </root>
