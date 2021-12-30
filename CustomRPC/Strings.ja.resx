@@ -172,4 +172,7 @@
     <value>CustomRPがあなたの使用状況の分析を開発者に送ることを許可しますか？
 (すべてのデータは非個人化されています。)</value>
   </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>設定の保存中にエラーが発生しました:</value>
+  </data>
 </root>

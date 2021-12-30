@@ -172,4 +172,7 @@ Chọn Có để đặt lại thiết lập, chọn Không để thoát.</value>
     <value>Bạn có muốn cho phép CustomRP gửi dữ liệu sử dụng của bạn đến nhà phát triển không?
 (Toàn bộ dữ liệu đều được mã hoá.)</value>
   </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>Đã xảy ra lỗi khi lưu các thiết lập:</value>
+  </data>
 </root>

@@ -431,8 +431,8 @@
     <value>現在の時刻を24時間形式で表示します</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>ステータスのタイムスタンプを設定すると、上のテキストの下に表示されます。
-ステータスタイマーには24時間の制限があり、24時間が経過すると0:00に戻ってしまいます。</value>
+    <value>ステータスのタイムスタンプを設定。
+	ステータスタイマーには24時間の制限があり、24時間が経過すると0:00に戻ってしまいます。</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
     <value>Stateの隣に表示される、現在パーティーに参加しているプレーヤーの数。

@@ -172,4 +172,7 @@ Paspauskite Taip kad atstatyti nustatymus, paspauskite Ne kad išeiti.</value>
     <value>Ar leidžiate „CustomRP“ siųsti jūsų naudojimo analitiką "Duomenis" kūrėjui?
 (Visi duomenys yra nuasmeninti.)</value>
   </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>Išsaugant nustatymus įvyko klaida:</value>
+  </data>
 </root>
