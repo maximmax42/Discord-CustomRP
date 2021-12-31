@@ -121,7 +121,7 @@
     <value>انقر ضغطتين فوق الرمز لإظهاره مرة أخرى، أو انقر بزر الفأرة الأيمن للإنهاء.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>سيتم تشغيل التطبيق في الخلفية.</value>
+    <value>سيتم تشغيل التّطبيق في الخلفية.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -134,7 +134,7 @@
     <value>139, 22</value>
   </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
-    <value>إعادة الإتصال</value>
+    <value>إعادة الاتصال</value>
   </data>
   <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
     <value>136, 6</value>
@@ -242,7 +242,7 @@
     <value>176, 22</value>
   </data>
   <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>المُترجمين</value>
+    <value>المترجمين</value>
   </data>
   <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 6</value>
@@ -263,7 +263,7 @@
     <value>65, 20</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>المُساعدة</value>
+    <value>المساعدة</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>91, 20</value>
@@ -272,31 +272,31 @@
     <value>حمِّل التحديث</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>تحديث الحالة</value>
+    <value>تحديث الـPresence</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>يُحدِّث الحالة.</value>
+    <value>يُحدِّث الـPresence.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>إتصال</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>ربط التطبيق بمعرف محدد مع الحالة.</value>
+    <value>ربط التطبيق بمعرف محدد مع الـPresence.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
     <value>انقطع الإتصال</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>قطع اتصال التطبيق من الديسكورد. يرجى ملاحظة أنه قد يستغرق بعض الوقت.</value>
+    <value>قطع اتصال التطبيق من الـDiscord. يرجى ملاحظة أنه قد يستغرق بعض الوقت.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>رقم معرف التطبيق من موقع ديسكورد للمُطوِّرين.</value>
+    <value>رقم معرف التطبيق من موقع Discord للمُطوِّرين.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>السطر الأول في الحالة.</value>
+    <value>السطر الأول في الـPresence.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>السطر الثاني في الحالة.</value>
+    <value>السطر الثاني في الـPresence.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
     <value>اسم الأصل للصورة الصغيرة.</value>
@@ -365,7 +365,7 @@
     <value>يظهر الوقت الحالي بتنسيق 24 ساعة.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>يقوم بإعداد الوقت الفعلي للحالة، والذي يظهر تحت كل النص أعلاه.
+    <value>يقوم بإعداد الطابع الزمني للحالة، والذي يظهر تحت كل النص أعلاه.
 مؤقتات الحالة لها حد 24 ساعة، مما يعني أنه بعد 24 ساعة سيعود الوقت إلى 0:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
@@ -379,7 +379,7 @@
     <value>119, 18</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>الوقت الفعلي المُخصص</value>
+    <value>الطابع الزمني المخصّص</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
     <value>يُظهر مقدار الوقت المنقضي منذ التاريخ المحدد أدناه أو المتبقي عليه.</value>

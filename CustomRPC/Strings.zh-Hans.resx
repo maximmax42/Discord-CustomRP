@@ -172,4 +172,7 @@
     <value>您是否允许 CustomRP 将您的使用情况分析发送给开发人员？
 （所有数据都是非个人化的。）</value>
   </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>储存以下设定时发生错误：</value>
+  </data>
 </root>

@@ -144,7 +144,7 @@
     <value>يتصل...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>فشل الإتصال (هل الديسكورد يعمل؟)</value>
+    <value>فشل الاتصال (هل الـDiscord يعمل؟)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>انقطع الإتصال</value>
@@ -171,5 +171,8 @@
   <data name="askAnalyticsConsent" xml:space="preserve">
     <value>هل تسمح لـCustomRP بإرسال تحليلات الاستخدام الخاصة بك إلى المطور؟
 (جميع البيانات غير شخصية.)</value>
+  </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>حدث خطأ أثناء حفظ الإعدادات:</value>
   </data>
 </root>
