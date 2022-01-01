@@ -2,8 +2,6 @@
 {
     partial class MainForm
     {
-        System.ComponentModel.ComponentResourceManager resources;
-
         /// <summary>
         /// Обязательная переменная конструктора.
         /// </summary>
@@ -34,7 +32,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.trayIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.trayMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -72,6 +70,7 @@
             this.frToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.heToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.huToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hrToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.idToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.itToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -120,6 +119,8 @@
             this.kahpotVanillaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hungarianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ballaBotondToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.croatianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.monikaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.indonesianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hapnanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.apolyciousToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -210,9 +211,6 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.hrToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.croatianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.monikaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -527,6 +525,14 @@
             resources.ApplyResources(this.huToolStripMenuItem, "huToolStripMenuItem");
             this.huToolStripMenuItem.Tag = "hu";
             this.huToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
+            // 
+            // hrToolStripMenuItem
+            // 
+            this.hrToolStripMenuItem.CheckOnClick = true;
+            this.hrToolStripMenuItem.Name = "hrToolStripMenuItem";
+            resources.ApplyResources(this.hrToolStripMenuItem, "hrToolStripMenuItem");
+            this.hrToolStripMenuItem.Tag = "hr";
+            this.hrToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
             // 
             // idToolStripMenuItem
             // 
@@ -907,6 +913,18 @@
             resources.ApplyResources(this.ballaBotondToolStripMenuItem, "ballaBotondToolStripMenuItem");
             this.ballaBotondToolStripMenuItem.Tag = "https://github.com/BallaBotond";
             this.ballaBotondToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
+            // 
+            // croatianToolStripMenuItem
+            // 
+            this.croatianToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.monikaToolStripMenuItem});
+            this.croatianToolStripMenuItem.Name = "croatianToolStripMenuItem";
+            resources.ApplyResources(this.croatianToolStripMenuItem, "croatianToolStripMenuItem");
+            // 
+            // monikaToolStripMenuItem
+            // 
+            this.monikaToolStripMenuItem.Name = "monikaToolStripMenuItem";
+            resources.ApplyResources(this.monikaToolStripMenuItem, "monikaToolStripMenuItem");
             // 
             // indonesianToolStripMenuItem
             // 
@@ -1592,26 +1610,6 @@
             this.textBoxID.Name = "textBoxID";
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
-            // 
-            // hrToolStripMenuItem
-            // 
-            this.hrToolStripMenuItem.CheckOnClick = true;
-            this.hrToolStripMenuItem.Name = "hrToolStripMenuItem";
-            resources.ApplyResources(this.hrToolStripMenuItem, "hrToolStripMenuItem");
-            this.hrToolStripMenuItem.Tag = "hr";
-            this.hrToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
-            // 
-            // croatianToolStripMenuItem
-            // 
-            this.croatianToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.monikaToolStripMenuItem});
-            this.croatianToolStripMenuItem.Name = "croatianToolStripMenuItem";
-            resources.ApplyResources(this.croatianToolStripMenuItem, "croatianToolStripMenuItem");
-            // 
-            // monikaToolStripMenuItem
-            // 
-            this.monikaToolStripMenuItem.Name = "monikaToolStripMenuItem";
-            resources.ApplyResources(this.monikaToolStripMenuItem, "monikaToolStripMenuItem");
             // 
             // MainForm
             // 

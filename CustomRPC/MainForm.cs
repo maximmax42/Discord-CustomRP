@@ -426,7 +426,7 @@ namespace CustomRPC
                         Process.Start(latestRelease.Assets[fileType].BrowserDownloadUrl);
 
                     downloadUpdateToolStripMenuItem.Enabled = true;
-                    downloadUpdateToolStripMenuItem.Text = resources.GetString("downloadUpdateToolStripMenuItem.Text");
+                    downloadUpdateToolStripMenuItem.Text = new System.ComponentModel.ComponentResourceManager(typeof(MainForm)).GetString("downloadUpdateToolStripMenuItem.Text");
 
                     break;
                 }
@@ -980,6 +980,7 @@ namespace CustomRPC
         /// </summary>
         /// <remarks>
         /// This is overcomplicated isn't it, but hey, at least it works with pasting as well!
+        /// At least it used to. Huh.
         /// </remarks>
         private void OnlyNumbers(object sender, EventArgs e)
         {
@@ -1002,9 +1003,12 @@ namespace CustomRPC
                     changed++;
             }
 
-            textBoxID.Text = newline; // ...this line
-            textBoxID.SelectionStart = sel - changed;
-            textBoxID.SelectionLength = 0;
+            if (changed > 0)
+            {
+                textBoxID.Text = newline; // ...this line
+                textBoxID.SelectionStart = sel - changed;
+                textBoxID.SelectionLength = 0;
+            }
 
             textBoxID.ReadOnly = false;
             toAvoidRecursion = false;
