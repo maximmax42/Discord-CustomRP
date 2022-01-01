@@ -46,9 +46,8 @@ namespace CustomRPC
             if (version == null)
                 throw new ArgumentNullException("version");
 
-            string res = "";
+            string res = version.Major + "." + version.Minor;
 
-            res += version.Major + "." + version.Minor;
             if (version.Build > 0)
                 res += "." + version.Build;
             if (version.Revision > 0)
