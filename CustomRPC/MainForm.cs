@@ -299,34 +299,6 @@ namespace CustomRPC
         }
 
         /// <summary>
-        /// Helper class to get a proper version object.
-        /// </summary>
-        /// <param name="version">A string representing version.</param>
-        /// <returns>A <see cref="Version"/> object with no fields set to -1.</returns>
-        /// <exception cref="ArgumentNullException"></exception>
-        /// <exception cref="ArgumentException"></exception>
-        private Version GetVersion(string version)
-        {
-            if (string.IsNullOrEmpty(version))
-                throw new ArgumentNullException("version");
-
-            var array = version.Split('.');
-
-            if (array.Length < 2 || array.Length > 4)
-                throw new ArgumentException($"Version has {array.Length} part(s)!");
-
-            switch (array.Length)
-            {
-                case 2:
-                    return new Version(version + ".0.0");
-                case 3:
-                    return new Version(version + ".0");
-            }
-
-            return new Version(version);
-        }
-
-        /// <summary>
         /// Checks for updates.
         /// </summary>
         /// <param name="manual"><see langword="True"/> if the user requested the check, <see langword="false"/> otherwise.</param>
@@ -354,8 +326,8 @@ namespace CustomRPC
             if (latestStr == settings.ignoreVersion && !manual)
                 return; // The user ignored this version; this gets ignored if the user requested the update check manually, maybe they changed their mind?
 
-            Version current = GetVersion(Application.ProductVersion);
-            Version latest = GetVersion(latestStr);
+            Version current = UpdateHelper.GetVersion(Application.ProductVersion);
+            Version latest = UpdateHelper.GetVersion(latestStr);
 
             if (current.CompareTo(latest) < 0) // If update is available...
             {
@@ -363,7 +335,7 @@ namespace CustomRPC
 
                 foreach (var release in releases)
                 {
-                    Version releaseVer = GetVersion(release.TagName);
+                    Version releaseVer = UpdateHelper.GetVersion(release.TagName);
 
                     if (releaseVer.Equals(current))
                         break;

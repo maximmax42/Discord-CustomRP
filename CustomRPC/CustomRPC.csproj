@@ -112,6 +112,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Strings.resx</DependentUpon>
     </Compile>
+    <Compile Include="UpdateHelper.cs" />
     <Compile Include="UpdatePrompt.cs">
       <SubType>Form</SubType>
     </Compile>
