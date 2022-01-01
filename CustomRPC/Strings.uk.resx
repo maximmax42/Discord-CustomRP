@@ -172,4 +172,7 @@
     <value>Дозволити CustomRP надсилати розробнику вашу аналітику використання?
 (Усі дані знеособлені.)</value>
   </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>Сталася помилка під час збереження налаштувань:</value>
+  </data>
 </root>
