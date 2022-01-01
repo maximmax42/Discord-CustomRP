@@ -278,13 +278,13 @@
     <value>يُحدِّث الـPresence.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
-    <value>إتصال</value>
+    <value>اتصال</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
     <value>ربط التطبيق بمعرف محدد مع الـPresence.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
-    <value>انقطع الإتصال</value>
+    <value>انقطع الاتصال</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
     <value>قطع اتصال التطبيق من الـDiscord. يرجى ملاحظة أنه قد يستغرق بعض الوقت.</value>
