@@ -254,7 +254,6 @@ namespace CustomRPC
         {
             try
             {
-                //throw new NotImplementedException("pipis");
                 settings.Save();
                 return true;
             }
