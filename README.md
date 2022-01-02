@@ -21,34 +21,36 @@ If you have any problems with the app, please check out [FAQ](https://github.com
 <a href="https://poeditor.com/join/project?hash=2jq0i7ANr1"><img alt="POEditor Translation Progress" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fall.json"></a>
 
 So far, the app supports these languages:
-* ![Arabic (EG)](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Far-eg.json) (thanks to [FiberAhmed](https://github.com/FiberAhmed) and ShadowlGamer)
-* ![Czech](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fcs.json) (thanks to [JayJake](https://jayjake.eu/) and Tobias)
-* ![Danish](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fda.json) (thanks to Sebastian Hviid and Tobias)
-* ![German](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fde.json) (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), ahmad, binarynoise and [Felix](https://github.com/fbrettnich))
-* ![Greek](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fel.json) (thanks to Alex Grivas)
-* ![English](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fen.json)
-* ![Spanish](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fes.json) (thanks to Vexot, Epic and Pablo)
-* ![French](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Ffr.json) (thanks to Nenaff)
-* ![Hebrew](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fhe.json) (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg) and [Kahpot Vanilla](https://linktr.ee/KahpotVanilla))
-* ![Hungarian](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fhu.json) (thanks to [Botond Balla](https://github.com/BallaBotond))
-* ![Indonesian](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fid.json) (thanks to Hapnan, Apolycious and [Bayu Sopwan](https://bayusopwan.github.io))
-* ![Italian](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fit.json) (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
-* ![Japanese](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fja.json) (thanks to KABIKIRA000)
-* ![Korean](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fko.json) (thanks to Yeongaori)
-* ![Kurdish](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fku.json) (thanks to [SamTheNoob](https://discord.gg/stn69))
-* ![Lithuanian](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Flt.json) (thanks to [White Rose](https://www.twitch.tv/psychonaut303))
-* ![Dutch](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fnl.json) (thanks to [Jeremyzijlemans](https://sionhub.co.uk/))
-* ![Polish](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fpl.json) (thanks to Lol1112345.lol12345 and Liso)
-* ![Portugese (BR)](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fpt-br.json) (thanks to viniciotricolor)
-* ![Russian](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fru.json)
-* ![Thai](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fth.json) (thanks to Squishee Freshy)
-* ![Turkish](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Ftr.json) (thanks to Ozan Akyüz)
-* ![Ukrainian](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fuk.json) (thanks to MechaniX and Dmitromintenko)
-* ![Vietnamese](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fvi.json) (thanks to [Mykm](https://github.com/yumiruuwu), Phnthnhnm0612 and dsbachle)
-* ![Chinese (Simplified)](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fzh-Hans.json) (thanks to Zjsun.ca and zozocha)
-* ![Chinese (Traditional)](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fzh-Hant.json) (thanks to [蘆筍/westxlu](https://linktr.ee/westxlu))
+* <a href="https://poeditor.com/projects/po_edit?id_language=233&per_page=100&id=409229"><img alt="Arabic (EG)" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Far-eg.json"></a> (thanks to [FiberAhmed](https://github.com/FiberAhmed) and ShadowlGamer)
+* <a href="https://poeditor.com/projects/po_edit?id_language=38&per_page=100&id=409229"><img alt="Czech" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fcs.json"></a> (thanks to [JayJake](https://jayjake.eu/) and Tobias)
+* <a href="https://poeditor.com/projects/po_edit?id_language=39&per_page=100&id=409229"><img alt="Danish" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fda.json"></a> (thanks to Sebastian Hviid and Tobias)
+* <a href="https://poeditor.com/projects/po_edit?id_language=55&per_page=100&id=409229"><img alt="German" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fde.json"></a> (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), ahmad, binarynoise and [Felix](https://github.com/fbrettnich))
+* <a href="https://poeditor.com/projects/po_edit?id_language=56&per_page=100&id=409229"><img alt="Greek" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fel.json"></a> (thanks to Alex Grivas)
+* <a href="https://poeditor.com/projects/po_edit?id_language=43&per_page=100&id=409229"><img alt="English" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fen.json"></a>
+* <a href="https://poeditor.com/projects/po_edit?id_language=152&per_page=100&id=409229"><img alt="Spanish" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fes.json"></a> (thanks to Vexot, Epic and Pablo)
+* <a href="https://poeditor.com/projects/po_edit?id_language=50&per_page=100&id=409229"><img alt="French" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Ffr.json"></a> (thanks to Nenaff)
+* <a href="https://poeditor.com/projects/po_edit?id_language=61&per_page=100&id=409229"><img alt="Hebrew" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fhe.json"></a> (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg) and [Kahpot Vanilla](https://linktr.ee/KahpotVanilla))
+* <a href="https://poeditor.com/projects/po_edit?id_language=65&per_page=100&id=409229"><img alt="Hungarian" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fhu.json"></a> (thanks to [Botond Balla](https://github.com/BallaBotond))
+* <a href="https://poeditor.com/projects/po_edit?id_language=37&per_page=100&id=409229"><img alt="Croatian" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fhr.json"></a> (thanks to Monika, coming next version)
+* <a href="https://poeditor.com/projects/po_edit?id_language=69&per_page=100&id=409229"><img alt="Indonesian" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fid.json"></a> (thanks to Hapnan, Apolycious and [Bayu Sopwan](https://bayusopwan.github.io))
+* <a href="https://poeditor.com/projects/po_edit?id_language=75&per_page=100&id=409229"><img alt="Italian" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fit.json"></a> (thanks to DJD320 and [ItsMrCube](https://mrcube.live/))
+* <a href="https://poeditor.com/projects/po_edit?id_language=76&per_page=100&id=409229"><img alt="Japanese" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fja.json"></a> (thanks to KABIKIRA000)
+* <a href="https://poeditor.com/projects/po_edit?id_language=88&per_page=100&id=409229"><img alt="Korean" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fko.json"></a> (thanks to Yeongaori)
+* <a href="https://poeditor.com/projects/po_edit?id_language=90&per_page=100&id=409229"><img alt="Kurdish" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fku.json"></a> (thanks to [SamTheNoob](https://discord.gg/stn69))
+* <a href="https://poeditor.com/projects/po_edit?id_language=96&per_page=100&id=409229"><img alt="Lithuanian" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Flt.json"></a> (thanks to [White Rose](https://www.twitch.tv/psychonaut303))
+* <a href="https://poeditor.com/projects/po_edit?id_language=41&per_page=100&id=409229"><img alt="Dutch" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fnl.json"></a> (thanks to [Jeremyzijlemans](https://sionhub.co.uk/))
+* <a href="https://poeditor.com/projects/po_edit?id_language=127&per_page=100&id=409229"><img alt="Polish" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fpl.json"></a> (thanks to Lol1112345.lol12345, Liso and Piter)
+* <a href="https://poeditor.com/projects/po_edit?id_language=190&per_page=100&id=409229"><img alt="Portugese (BR)" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fpt-br.json"></a> (thanks to viniciotricolor)
+* <a href="https://poeditor.com/projects/po_edit?id_language=131&per_page=100&id=409229"><img alt="Romanian" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fro.json"></a> (thanks to Denisbolba, coming when there will be at least 70% translated)
+* <a href="https://poeditor.com/projects/po_edit?id_language=134&per_page=100&id=409229"><img alt="Russian" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fru.json"></a>
+* <a href="https://poeditor.com/projects/po_edit?id_language=163&per_page=100&id=409229"><img alt="Thai" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fth.json"></a> (thanks to Squishee Freshy)
+* <a href="https://poeditor.com/projects/po_edit?id_language=169&per_page=100&id=409229"><img alt="Turkish" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Ftr.json"></a> (thanks to Ozan Akyüz)
+* <a href="https://poeditor.com/projects/po_edit?id_language=173&per_page=100&id=409229"><img alt="Ukrainian" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fuk.json"></a> (thanks to MechaniX and Dmitromintenko)
+* <a href="https://poeditor.com/projects/po_edit?id_language=177&per_page=100&id=409229"><img alt="Vietnamese" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fvi.json"></a> (thanks to [Mykm](https://github.com/yumiruuwu), Phnthnhnm0612 and dsbachle)
+* <a href="https://poeditor.com/projects/po_edit?id_language=274&per_page=100&id=409229"><img alt="Chinese (Simplified)" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fzh-Hans.json"></a> (thanks to Zjsun.ca and zozocha)
+* <a href="https://poeditor.com/projects/po_edit?id_language=275&per_page=100&id=409229"><img alt="Chinese (Traditional)" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fzh-Hant.json"></a> (thanks to [蘆筍/westxlu](https://linktr.ee/westxlu))
 
-If you want to help translate the app to your language, please go to the [POEditor project page](https://poeditor.com/join/project?hash=2jq0i7ANr1). If you're already part of the project, [click here](https://poeditor.com/projects/view?id=409229).
+If you want to help translate the app to your language, please go to the [POEditor project page](https://poeditor.com/join/project?hash=2jq0i7ANr1). If you're already part of the project, click on the badge with your language's progress.
 
 # Privacy Policy
 Privacy policy is listed [here](https://github.com/maximmax42/Discord-CustomRP/blob/master/PRIVACY.md).
