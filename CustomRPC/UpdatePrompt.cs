@@ -9,8 +9,8 @@ namespace CustomRPC
         {
             InitializeComponent();
 
-            string currentStr = UpdateHelper.GetVersionString(current);
-            string latestStr = UpdateHelper.GetVersionString(latest);
+            string currentStr = VersionHelper.GetVersionString(current);
+            string latestStr = VersionHelper.GetVersionString(latest);
 
             labelVersions.Text = currentStr + "\r\n" + latestStr;
 

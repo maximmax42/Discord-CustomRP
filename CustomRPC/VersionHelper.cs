@@ -2,7 +2,7 @@
 
 namespace CustomRPC
 {
-    internal static class UpdateHelper
+    internal static class VersionHelper
     {
         /// <summary>
         /// Helper class to get a proper version object.
@@ -22,7 +22,7 @@ namespace CustomRPC
             var array = version.Split('.');
 
             if (array.Length < 2 || array.Length > 4)
-                throw new ArgumentException($"Version has {array.Length} part(s)!");
+                throw new ArgumentException($"Version has {array.Length} part(s)!", "version");
 
             switch (array.Length)
             {
@@ -48,7 +48,7 @@ namespace CustomRPC
 
             string res = version.Major + "." + version.Minor;
 
-            if (version.Build > 0)
+            if (version.Build > 0 || version.Revision > 0)
                 res += "." + version.Build;
             if (version.Revision > 0)
                 res += "." + version.Revision;

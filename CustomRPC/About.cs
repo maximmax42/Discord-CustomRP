@@ -8,7 +8,7 @@ namespace CustomRPC
         {
             InitializeComponent();
 
-            labelVersion.Text = UpdateHelper.GetVersionString(Application.ProductVersion);
+            labelVersion.Text = VersionHelper.GetVersionString(Application.ProductVersion);
 #if DEBUG
             labelVersion.Text += " (DEV)";
 #endif

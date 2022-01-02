@@ -344,8 +344,8 @@ namespace CustomRPC
             if (latestStr == settings.ignoreVersion && !manual)
                 return; // The user ignored this version; this gets ignored if the user requested the update check manually, maybe they changed their mind?
 
-            Version current = UpdateHelper.GetVersion(Application.ProductVersion);
-            Version latest = UpdateHelper.GetVersion(latestStr);
+            Version current = VersionHelper.GetVersion(Application.ProductVersion);
+            Version latest = VersionHelper.GetVersion(latestStr);
 
             if (current.CompareTo(latest) < 0) // If update is available...
             {
@@ -353,7 +353,7 @@ namespace CustomRPC
 
                 foreach (var release in releases)
                 {
-                    Version releaseVer = UpdateHelper.GetVersion(release.TagName);
+                    Version releaseVer = VersionHelper.GetVersion(release.TagName);
 
                     if (releaseVer.Equals(current))
                         break;
