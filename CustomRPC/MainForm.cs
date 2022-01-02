@@ -802,7 +802,14 @@ namespace CustomRPC
             if (presetFile.ShowDialog() != DialogResult.OK)
                 return;
 
-            LoadPreset(presetFile.OpenFile());
+            try
+            {
+                LoadPreset(presetFile.OpenFile());
+            }
+            catch
+            {
+                MessageBox.Show(Strings.errorInvalidPresetFile, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         /// <summary>
