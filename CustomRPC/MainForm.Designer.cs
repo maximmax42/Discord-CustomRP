@@ -204,10 +204,10 @@
             this.textBoxButton1Text = new System.Windows.Forms.TextBox();
             this.numericUpDownPartySize = new System.Windows.Forms.NumericUpDown();
             this.numericUpDownPartyMax = new System.Windows.Forms.NumericUpDown();
-            this.textBoxSmallKey = new System.Windows.Forms.TextBox();
+            this.comboBoxSmallKey = new System.Windows.Forms.ComboBox();
             this.textBoxSmallText = new System.Windows.Forms.TextBox();
             this.textBoxLargeText = new System.Windows.Forms.TextBox();
-            this.textBoxLargeKey = new System.Windows.Forms.TextBox();
+            this.comboBoxLargeKey = new System.Windows.Forms.ComboBox();
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
@@ -1549,14 +1549,16 @@
             this.numericUpDownPartyMax.Value = global::CustomRPC.Properties.Settings.Default.partyMax;
             this.numericUpDownPartyMax.Validating += new System.ComponentModel.CancelEventHandler(this.PartySizeValidation);
             // 
-            // textBoxSmallKey
+            // comboBoxSmallKey
             // 
-            this.textBoxSmallKey.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "smallKey", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            resources.ApplyResources(this.textBoxSmallKey, "textBoxSmallKey");
-            this.textBoxSmallKey.Name = "textBoxSmallKey";
-            this.textBoxSmallKey.Text = global::CustomRPC.Properties.Settings.Default.smallKey;
-            this.textBoxSmallKey.TextChanged += new System.EventHandler(this.LengthValidation);
-            this.textBoxSmallKey.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
+            this.comboBoxSmallKey.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "smallKey", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            resources.ApplyResources(this.comboBoxSmallKey, "comboBoxSmallKey");
+            this.comboBoxSmallKey.Name = "comboBoxSmallKey";
+            this.comboBoxSmallKey.Sorted = true;
+            this.comboBoxSmallKey.Text = global::CustomRPC.Properties.Settings.Default.smallKey;
+            this.comboBoxSmallKey.DropDown += new System.EventHandler(this.FetchAssets);
+            this.comboBoxSmallKey.TextChanged += new System.EventHandler(this.LengthValidation);
+            this.comboBoxSmallKey.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxSmallText
             // 
@@ -1576,14 +1578,16 @@
             this.textBoxLargeText.TextChanged += new System.EventHandler(this.LengthValidation);
             this.textBoxLargeText.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
-            // textBoxLargeKey
+            // comboBoxLargeKey
             // 
-            this.textBoxLargeKey.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "largeKey", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            resources.ApplyResources(this.textBoxLargeKey, "textBoxLargeKey");
-            this.textBoxLargeKey.Name = "textBoxLargeKey";
-            this.textBoxLargeKey.Text = global::CustomRPC.Properties.Settings.Default.largeKey;
-            this.textBoxLargeKey.TextChanged += new System.EventHandler(this.LengthValidation);
-            this.textBoxLargeKey.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
+            this.comboBoxLargeKey.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "largeKey", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            resources.ApplyResources(this.comboBoxLargeKey, "comboBoxLargeKey");
+            this.comboBoxLargeKey.Name = "comboBoxLargeKey";
+            this.comboBoxLargeKey.Sorted = true;
+            this.comboBoxLargeKey.Text = global::CustomRPC.Properties.Settings.Default.largeKey;
+            this.comboBoxLargeKey.DropDown += new System.EventHandler(this.FetchAssets);
+            this.comboBoxLargeKey.TextChanged += new System.EventHandler(this.LengthValidation);
+            this.comboBoxLargeKey.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxState
             // 
@@ -1634,7 +1638,7 @@
             this.Controls.Add(this.labelParty);
             this.Controls.Add(this.labelTimestamp);
             this.Controls.Add(this.panelTimestamps);
-            this.Controls.Add(this.textBoxSmallKey);
+            this.Controls.Add(this.comboBoxSmallKey);
             this.Controls.Add(this.textBoxSmallText);
             this.Controls.Add(this.labelSmallKey);
             this.Controls.Add(this.labelSmallText);
@@ -1649,7 +1653,7 @@
             this.Controls.Add(this.buttonConnect);
             this.Controls.Add(this.buttonUpdatePresence);
             this.Controls.Add(this.textBoxLargeText);
-            this.Controls.Add(this.textBoxLargeKey);
+            this.Controls.Add(this.comboBoxLargeKey);
             this.Controls.Add(this.textBoxState);
             this.Controls.Add(this.textBoxDetails);
             this.Controls.Add(this.textBoxID);
@@ -1693,9 +1697,9 @@
         private System.Windows.Forms.TextBox textBoxID;
         private System.Windows.Forms.TextBox textBoxDetails;
         private System.Windows.Forms.TextBox textBoxState;
-        private System.Windows.Forms.TextBox textBoxSmallKey;
+        private System.Windows.Forms.ComboBox comboBoxSmallKey;
         private System.Windows.Forms.TextBox textBoxSmallText;
-        private System.Windows.Forms.TextBox textBoxLargeKey;
+        private System.Windows.Forms.ComboBox comboBoxLargeKey;
         private System.Windows.Forms.TextBox textBoxLargeText;
         private System.Windows.Forms.Button buttonUpdatePresence;
         private System.Windows.Forms.Button buttonConnect;

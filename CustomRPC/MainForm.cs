@@ -10,6 +10,7 @@ using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Net;
+using System.Net.Http;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 using Application = System.Windows.Forms.Application;
@@ -22,7 +23,6 @@ namespace CustomRPC
     /*
      * TODO: profiles not as external files
      */
-
 
     /// <summary>
     /// A struct for handling preset importing/exporting.
@@ -45,6 +45,16 @@ namespace CustomRPC
         public string Button1URL;
         public string Button2Text;
         public string Button2URL;
+    }
+
+    /// <summary>
+    /// A struct for getting available image assets for current application.
+    /// </summary>
+    public struct ImageAssets
+    {
+        public string ID;
+        public string Type;
+        public string Name;
     }
 
     public partial class MainForm : Form
@@ -97,6 +107,15 @@ namespace CustomRPC
         /// Latest release of the app available for downloading.
         /// </summary>
         Release latestRelease;
+
+        /// <summary>
+        /// A DateTime object showing since what moment you can make an API request in <see cref="FetchAssets(object, EventArgs)"/>.
+        /// </summary>
+        DateTime nextAssetCheck = DateTime.Now;
+        /// <summary>
+        /// A string showing what application ID was checked last in <see cref="FetchAssets(object, EventArgs)"/>.
+        /// </summary>
+        string lastIDChecked = "";
 
         /// <summary>
         /// Timestamp of when the app started.
@@ -1089,9 +1108,22 @@ namespace CustomRPC
         /// </summary>
         private void LengthValidationFocus(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            var box = (TextBox)sender;
+            string text = "";
+            int max = 0;
 
-            if (!StringTools.WithinLength(box.Text, box.MaxLength))
+            switch (sender)
+            {
+                case TextBox box:
+                    text = box.Text;
+                    max = box.MaxLength;
+                    break;
+                case ComboBox box:
+                    text = box.Text;
+                    max = box.MaxLength;
+                    break;
+            }
+
+            if (!StringTools.WithinLength(text, max))
             {
                 e.Cancel = true;
                 System.Media.SystemSounds.Beep.Play();
@@ -1103,9 +1135,16 @@ namespace CustomRPC
         /// </summary>
         private void LengthValidation(object sender, EventArgs e)
         {
-            var box = (TextBox)sender;
+            switch (sender)
+            {
+                case TextBox box:
+                    box.BackColor = StringTools.WithinLength(box.Text, box.MaxLength) ? defaultColor : errorColor;
+                    break;
+                case ComboBox box:
+                    box.BackColor = StringTools.WithinLength(box.Text, box.MaxLength) ? defaultColor : errorColor;
+                    break;
+            }
 
-            box.BackColor = StringTools.WithinLength(box.Text, box.MaxLength) ? defaultColor : errorColor;
         }
 
         /// <summary>
@@ -1142,6 +1181,40 @@ namespace CustomRPC
             SaveSettings();
 
             dateTimePickerTimestamp.Enabled = settings.timestamps == 3;
+        }
+
+        /// <summary>
+        /// Called on DropDown event for <see cref="comboBoxLargeKey"/> and <see cref="comboBoxSmallKey"/>.
+        /// </summary>
+        private void FetchAssets(object sender, EventArgs e)
+        {
+            if (settings.id == "" || (lastIDChecked == settings.id && nextAssetCheck.CompareTo(DateTime.Now) > 0))
+                return;
+
+            lastIDChecked = settings.id;
+
+            comboBoxLargeKey.Items.Clear();
+            comboBoxSmallKey.Items.Clear();
+
+            using (var client = new HttpClient())
+            {
+                client.Timeout = new TimeSpan(0, 0, 10);
+
+                var res = client.GetAsync($"https://discordapp.com/api/oauth2/applications/{settings.id}/assets").Result;
+
+                if (res.IsSuccessStatusCode)
+                {
+                    var resList = res.Content.ReadAsAsync<List<ImageAssets>>().Result;
+
+                    resList.ForEach(asset =>
+                    {
+                        comboBoxLargeKey.Items.Add(asset.Name);
+                        comboBoxSmallKey.Items.Add(asset.Name);
+                    });
+
+                    nextAssetCheck = DateTime.Now.Add(new TimeSpan(0, 1, 0));
+                }
+            }
         }
 
         /// <summary>
