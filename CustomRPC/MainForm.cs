@@ -1205,21 +1205,28 @@ namespace CustomRPC
 
             using (var client = new HttpClient())
             {
-                client.Timeout = new TimeSpan(0, 0, 10);
+                client.Timeout = new TimeSpan(0, 0, 15);
 
-                var res = client.GetAsync($"https://discordapp.com/api/oauth2/applications/{settings.id}/assets").Result;
-
-                if (res.IsSuccessStatusCode)
+                try
                 {
-                    var resList = res.Content.ReadAsAsync<List<ImageAssets>>().Result;
+                    var res = client.GetAsync($"https://discordapp.com/api/oauth2/applications/{settings.id}/assets").Result;
 
-                    resList.ForEach(asset =>
+                    if (res.IsSuccessStatusCode)
                     {
-                        comboBoxLargeKey.Items.Add(asset.Name);
-                        comboBoxSmallKey.Items.Add(asset.Name);
-                    });
+                        var resList = res.Content.ReadAsAsync<List<ImageAssets>>().Result;
 
-                    nextAssetCheck = DateTime.Now.Add(new TimeSpan(0, 1, 0));
+                        resList.ForEach(asset =>
+                        {
+                            comboBoxLargeKey.Items.Add(asset.Name);
+                            comboBoxSmallKey.Items.Add(asset.Name);
+                        });
+
+                        nextAssetCheck = DateTime.Now.Add(new TimeSpan(0, 1, 0));
+                    }
+                }
+                catch
+                {
+                    MessageBox.Show(Strings.errorNoInternet, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
