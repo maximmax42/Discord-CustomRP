@@ -180,4 +180,7 @@ Press Yes to reset the settings, press No to quit.</value>
   <data name="errorSavingSettings" xml:space="preserve">
     <value>An error occurred while saving the settings:</value>
   </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>Please add "{0}" path to your antivirus's exceptions. Reinstall CustomRP if this error persists.</value>
+  </data>
 </root>

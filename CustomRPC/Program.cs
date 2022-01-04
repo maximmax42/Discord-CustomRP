@@ -59,7 +59,7 @@ namespace CustomRPC
                     }
                     catch
                     {
-                        // Do nothing
+                        MessageBox.Show(Strings.errorInvalidPresetFile, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
 
@@ -98,48 +98,75 @@ namespace CustomRPC
             Application.SetCompatibleTextRenderingDefault(false);
             Application.SetUnhandledExceptionMode(UnhandledExceptionMode.ThrowException);
 
-            if (!settings.analyticsAskedConsent) // First time launching the app since the analytics integration
+            try
             {
-                var result = MessageBox.Show(Strings.askAnalyticsConsent, Strings.information, MessageBoxButtons.YesNo, MessageBoxIcon.Information);
-
-                var allowAnalytics = result == DialogResult.Yes;
-
-                Analytics.SetEnabledAsync(allowAnalytics);
-                settings.analytics = allowAnalytics;
-                settings.analyticsAskedConsent = true;
-                settings.Save();
-            }
-
-            // Analytics and crashes
-            Crashes.ShouldProcessErrorReport = (ErrorReport report) =>
-            {
-                if (report.StackTrace.StartsWith("Microsoft.AppCenter.Crashes.TestCrashException"))
-                    return false;
-
-                return true;
-            };
-            Crashes.GetErrorAttachments = (ErrorReport report) =>
-            {
-                StringBuilder result = new StringBuilder();
-
-                foreach (System.Configuration.SettingsPropertyValue setting in settings.PropertyValues)
+                if (!settings.analyticsAskedConsent) // First time launching the app since the analytics integration
                 {
-                    if (setting.Name == "id")
-                        continue;
+                    var result = MessageBox.Show(Strings.askAnalyticsConsent, Strings.information, MessageBoxButtons.YesNo, MessageBoxIcon.Information);
 
-                    result.AppendLine(setting.Name + " = " + setting.SerializedValue);
+                    var allowAnalytics = result == DialogResult.Yes;
+
+                    Analytics.SetEnabledAsync(allowAnalytics);
+                    settings.analytics = allowAnalytics;
+                    settings.analyticsAskedConsent = true;
+                    settings.Save();
                 }
 
-                return new ErrorAttachmentLog[]
+                // Analytics and crashes
+                Crashes.ShouldProcessErrorReport = (ErrorReport report) =>
                 {
-                    ErrorAttachmentLog.AttachmentWithText(result.ToString(), "settings.txt")
-                };
-            };
-            AppCenter.SetCountryCode(RegionInfo.CurrentRegion.TwoLetterISORegionName);
-            AppCenter.Start("141506f2-5a6b-46c5-a70e-693831ee131a", typeof(Analytics), typeof(Crashes));
+                    if (report.StackTrace.StartsWith("Microsoft.AppCenter.Crashes.TestCrashException"))
+                        return false;
 
-            IntPtr _ = new MainForm(args.Length > 0 ? args[0] : null).Handle; // Terrible, yet allows to fully initialize the form without showing it first
-            Application.Run();
+                    return true;
+                };
+
+                Crashes.GetErrorAttachments = (ErrorReport report) =>
+                {
+                    StringBuilder result = new StringBuilder();
+
+                    foreach (System.Configuration.SettingsPropertyValue setting in settings.PropertyValues)
+                    {
+                        if (setting.Name == "id")
+                            continue;
+
+                        result.AppendLine(setting.Name + " = " + setting.SerializedValue);
+                    }
+
+                    return new ErrorAttachmentLog[]
+                    {
+                    ErrorAttachmentLog.AttachmentWithText(result.ToString(), "settings.txt")
+                    };
+                };
+
+                AppCenter.SetCountryCode(RegionInfo.CurrentRegion.TwoLetterISORegionName);
+                AppCenter.Start("141506f2-5a6b-46c5-a70e-693831ee131a", typeof(Analytics), typeof(Crashes));
+
+                IntPtr _ = new MainForm(args.Length > 0 ? args[0] : null).Handle; // Terrible, yet allows to fully initialize the form without showing it first
+                Application.Run();
+            }
+            catch (Exception ex)
+            {
+                while (ex.InnerException != null)
+                    ex = ex.InnerException;
+
+                if (ex is FileNotFoundException && ex.Message.Contains("Version=") || ex is FileLoadException)
+                {
+                    var result = MessageBox.Show($"{ex.Message}\r\n\r\n{string.Format(Strings.errorLoadingAssembly, Application.StartupPath)}", Strings.error, MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+
+                    if (result == DialogResult.Retry)
+                    {
+                        AppMutex.Close();
+                        Application.Restart();
+                    }
+                }
+                else
+                    throw;
+            }
+            finally
+            {
+                settings.Save();
+            }
 
             GC.KeepAlive(AppMutex);
         }

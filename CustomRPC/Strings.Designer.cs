@@ -118,6 +118,15 @@ namespace CustomRPC {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Please add &quot;{0}&quot; path to your antivirus&apos;s exceptions. Reinstall CustomRP if this error persists..
+        /// </summary>
+        internal static string errorLoadingAssembly {
+            get {
+                return ResourceManager.GetString("errorLoadingAssembly", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на No ID specified!.
         /// </summary>
         internal static string errorNoID {

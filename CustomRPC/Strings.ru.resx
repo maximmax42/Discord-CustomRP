@@ -181,4 +181,7 @@
   <data name="errorSavingSettings" xml:space="preserve">
     <value>При сохранении настроек произошла ошибка:</value>
   </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>Пожалуйста, добавьте путь "{0}" в исключения антивируса. Переустановите CustomRP, если ошибка осталась.</value>
+  </data>
 </root>
