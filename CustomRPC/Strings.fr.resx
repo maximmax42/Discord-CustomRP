@@ -175,4 +175,7 @@ Cliquez sur "oui" pour réinitialiser la configuration, cliquez sur "non" pour q
   <data name="errorSavingSettings" xml:space="preserve">
     <value>Une erreur est survenue durant l'enregistrement des paramètres:</value>
   </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>Veuillez ajouter le répertoire "{0}" aux exceptions de votre antivirus. Si l'erreur persiste, réinstallez CustomRP.</value>
+  </data>
 </root>

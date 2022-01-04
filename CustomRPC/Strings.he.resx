@@ -173,4 +173,7 @@
 תוכלו לעזור למתכנת במציאת באגים באפליקציה.
  (כל הנתונים אינם מותאמים אישית.)</value>
   </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>התרחשה שגיאה בעת שמירת ההגדרות:</value>
+  </data>
 </root>
