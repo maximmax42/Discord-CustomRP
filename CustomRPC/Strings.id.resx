@@ -172,4 +172,7 @@ Tekan Ya untuk mereset pengaturan, tekan Tidak untuk keluar.</value>
     <value>Apakah Anda mengizinkan CustomRP untuk mengirim analitik penggunaan anda ke pengembang?
 (Semua data didepersonalisasi.)</value>
   </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>Terjadi kesalahan saat menyimpan setelan:</value>
+  </data>
 </root>
