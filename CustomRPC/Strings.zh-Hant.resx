@@ -175,4 +175,7 @@
   <data name="errorSavingSettings" xml:space="preserve">
     <value>儲存以下設定時發生錯誤：</value>
   </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>請將路徑 "{0}" 添加到防病毒軟體的白名單中。如果此錯誤仍然存在，請重新安裝 CustomRP。</value>
+  </data>
 </root>
