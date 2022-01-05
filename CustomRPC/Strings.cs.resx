@@ -172,4 +172,10 @@ Klikněte Ano pro reset nastavení, klikněte Ne pro opuštění.</value>
     <value>Povolujete CustomRP odesílat analýzy vašeho používání vývojáři?
 (Všechna data jsou depersonalizovaná.)</value>
   </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>Při ukládání nastavení se vyskytla chyba:</value>
+  </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>Přidejte prosím "{0}" jako výjimku u vašeho antiviru. Proveďte reinstalaci jestliže chyba přetrvává.</value>
+  </data>
 </root>
