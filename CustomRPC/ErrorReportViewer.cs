@@ -9,6 +9,13 @@ namespace CustomRPC
         {
             InitializeComponent();
 
+            WinApi.UseImmersiveDarkMode(Handle);
+
+            BackColor = richTextBoxReport.BackColor = CurrentColors.BgColor;
+            ForeColor = richTextBoxReport.ForeColor = CurrentColors.TextColor;
+
+            buttonOK.FlatStyle = Properties.Settings.Default.darkMode ? FlatStyle.Flat : FlatStyle.Standard;
+
             richTextBoxReport.Text = stackTrace;
 
             richTextBoxReport.Select(0, stackTrace.Split('\n')[0].Length);

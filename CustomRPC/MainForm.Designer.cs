@@ -56,7 +56,7 @@
             this.toolStripSeparatorSettings1 = new System.Windows.Forms.ToolStripSeparator();
             this.checkUpdatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.allowAnalyticsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparatorSettings2 = new System.Windows.Forms.ToolStripSeparator();
             this.languageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.defaultToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
@@ -215,6 +215,8 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
+            this.toolStripSeparatorSettings3 = new System.Windows.Forms.ToolStripSeparator();
+            this.darkModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -344,7 +346,9 @@
             this.toolStripSeparatorSettings1,
             this.checkUpdatesToolStripMenuItem,
             this.allowAnalyticsToolStripMenuItem,
-            this.toolStripSeparator1,
+            this.toolStripSeparatorSettings2,
+            this.darkModeToolStripMenuItem,
+            this.toolStripSeparatorSettings3,
             this.languageToolStripMenuItem});
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
             resources.ApplyResources(this.settingsToolStripMenuItem, "settingsToolStripMenuItem");
@@ -397,10 +401,10 @@
             resources.ApplyResources(this.allowAnalyticsToolStripMenuItem, "allowAnalyticsToolStripMenuItem");
             this.allowAnalyticsToolStripMenuItem.CheckedChanged += new System.EventHandler(this.SaveMenuSettings);
             // 
-            // toolStripSeparator1
+            // toolStripSeparatorSettings2
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
+            this.toolStripSeparatorSettings2.Name = "toolStripSeparatorSettings2";
+            resources.ApplyResources(this.toolStripSeparatorSettings2, "toolStripSeparatorSettings2");
             // 
             // languageToolStripMenuItem
             // 
@@ -1289,28 +1293,43 @@
             // 
             resources.ApplyResources(this.buttonUpdatePresence, "buttonUpdatePresence");
             this.buttonUpdatePresence.AutoEllipsis = true;
+            this.buttonUpdatePresence.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(25)))), ((int)(((byte)(28)))));
+            this.buttonUpdatePresence.FlatAppearance.BorderSize = 0;
+            this.buttonUpdatePresence.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(73)))), ((int)(((byte)(162)))));
+            this.buttonUpdatePresence.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(86)))), ((int)(((byte)(193)))));
             this.buttonUpdatePresence.Name = "buttonUpdatePresence";
             this.toolTipInfo.SetToolTip(this.buttonUpdatePresence, resources.GetString("buttonUpdatePresence.ToolTip"));
             this.buttonUpdatePresence.UseVisualStyleBackColor = true;
             this.buttonUpdatePresence.Click += new System.EventHandler(this.Update);
+            this.buttonUpdatePresence.Paint += new System.Windows.Forms.PaintEventHandler(this.ButtonPaint);
             // 
             // buttonConnect
             // 
             this.buttonConnect.AutoEllipsis = true;
+            this.buttonConnect.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(25)))), ((int)(((byte)(28)))));
+            this.buttonConnect.FlatAppearance.BorderSize = 0;
+            this.buttonConnect.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(73)))), ((int)(((byte)(162)))));
+            this.buttonConnect.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(86)))), ((int)(((byte)(193)))));
             resources.ApplyResources(this.buttonConnect, "buttonConnect");
             this.buttonConnect.Name = "buttonConnect";
             this.toolTipInfo.SetToolTip(this.buttonConnect, resources.GetString("buttonConnect.ToolTip"));
             this.buttonConnect.UseVisualStyleBackColor = true;
             this.buttonConnect.Click += new System.EventHandler(this.Connect);
+            this.buttonConnect.Paint += new System.Windows.Forms.PaintEventHandler(this.ButtonPaint);
             // 
             // buttonDisconnect
             // 
             this.buttonDisconnect.AutoEllipsis = true;
+            this.buttonDisconnect.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(25)))), ((int)(((byte)(28)))));
             resources.ApplyResources(this.buttonDisconnect, "buttonDisconnect");
+            this.buttonDisconnect.FlatAppearance.BorderSize = 0;
+            this.buttonDisconnect.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(73)))), ((int)(((byte)(162)))));
+            this.buttonDisconnect.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(86)))), ((int)(((byte)(193)))));
             this.buttonDisconnect.Name = "buttonDisconnect";
             this.toolTipInfo.SetToolTip(this.buttonDisconnect, resources.GetString("buttonDisconnect.ToolTip"));
             this.buttonDisconnect.UseVisualStyleBackColor = true;
             this.buttonDisconnect.Click += new System.EventHandler(this.Disconnect);
+            this.buttonDisconnect.Paint += new System.Windows.Forms.PaintEventHandler(this.ButtonPaint);
             // 
             // labelID
             // 
@@ -1506,6 +1525,7 @@
             this.toolStripStatusLabelStatus});
             resources.ApplyResources(this.statusStrip, "statusStrip");
             this.statusStrip.Name = "statusStrip";
+            this.statusStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.ManagerRenderMode;
             this.statusStrip.SizingGrip = false;
             // 
             // toolStripStatusLabelPadding
@@ -1521,7 +1541,9 @@
             // 
             // textBoxButton2Text
             // 
+            this.textBoxButton2Text.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
             this.textBoxButton2Text.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "button2Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.textBoxButton2Text.ForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.textBoxButton2Text, "textBoxButton2Text");
             this.textBoxButton2Text.Name = "textBoxButton2Text";
             this.textBoxButton2Text.Text = global::CustomRPC.Properties.Settings.Default.button2Text;
@@ -1530,7 +1552,9 @@
             // 
             // textBoxButton2URL
             // 
+            this.textBoxButton2URL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
             this.textBoxButton2URL.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "button2Url", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.textBoxButton2URL.ForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.textBoxButton2URL, "textBoxButton2URL");
             this.textBoxButton2URL.Name = "textBoxButton2URL";
             this.textBoxButton2URL.Text = global::CustomRPC.Properties.Settings.Default.button2URL;
@@ -1539,7 +1563,9 @@
             // 
             // textBoxButton1URL
             // 
+            this.textBoxButton1URL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
             this.textBoxButton1URL.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "button1Url", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.textBoxButton1URL.ForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.textBoxButton1URL, "textBoxButton1URL");
             this.textBoxButton1URL.Name = "textBoxButton1URL";
             this.textBoxButton1URL.Text = global::CustomRPC.Properties.Settings.Default.button1URL;
@@ -1548,7 +1574,9 @@
             // 
             // textBoxButton1Text
             // 
+            this.textBoxButton1Text.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
             this.textBoxButton1Text.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "button1Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.textBoxButton1Text.ForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.textBoxButton1Text, "textBoxButton1Text");
             this.textBoxButton1Text.Name = "textBoxButton1Text";
             this.textBoxButton1Text.Text = global::CustomRPC.Properties.Settings.Default.button1Text;
@@ -1557,7 +1585,9 @@
             // 
             // numericUpDownPartySize
             // 
+            this.numericUpDownPartySize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
             this.numericUpDownPartySize.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "partySize", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.numericUpDownPartySize.ForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.numericUpDownPartySize, "numericUpDownPartySize");
             this.numericUpDownPartySize.Maximum = new decimal(new int[] {
             2147483647,
@@ -1570,7 +1600,9 @@
             // 
             // numericUpDownPartyMax
             // 
+            this.numericUpDownPartyMax.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
             this.numericUpDownPartyMax.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "partyMax", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.numericUpDownPartyMax.ForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.numericUpDownPartyMax, "numericUpDownPartyMax");
             this.numericUpDownPartyMax.Maximum = new decimal(new int[] {
             2147483647,
@@ -1583,7 +1615,9 @@
             // 
             // comboBoxSmallKey
             // 
+            this.comboBoxSmallKey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
             this.comboBoxSmallKey.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "smallKey", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.comboBoxSmallKey.ForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.comboBoxSmallKey, "comboBoxSmallKey");
             this.comboBoxSmallKey.Name = "comboBoxSmallKey";
             this.comboBoxSmallKey.Sorted = true;
@@ -1594,7 +1628,9 @@
             // 
             // textBoxSmallText
             // 
+            this.textBoxSmallText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
             this.textBoxSmallText.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "smallText", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.textBoxSmallText.ForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.textBoxSmallText, "textBoxSmallText");
             this.textBoxSmallText.Name = "textBoxSmallText";
             this.textBoxSmallText.Text = global::CustomRPC.Properties.Settings.Default.smallText;
@@ -1603,7 +1639,9 @@
             // 
             // textBoxLargeText
             // 
+            this.textBoxLargeText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
             this.textBoxLargeText.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "largeText", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.textBoxLargeText.ForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.textBoxLargeText, "textBoxLargeText");
             this.textBoxLargeText.Name = "textBoxLargeText";
             this.textBoxLargeText.Text = global::CustomRPC.Properties.Settings.Default.largeText;
@@ -1612,7 +1650,9 @@
             // 
             // comboBoxLargeKey
             // 
+            this.comboBoxLargeKey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
             this.comboBoxLargeKey.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "largeKey", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.comboBoxLargeKey.ForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.comboBoxLargeKey, "comboBoxLargeKey");
             this.comboBoxLargeKey.Name = "comboBoxLargeKey";
             this.comboBoxLargeKey.Sorted = true;
@@ -1623,7 +1663,9 @@
             // 
             // textBoxState
             // 
+            this.textBoxState.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
             this.textBoxState.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "state", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.textBoxState.ForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.textBoxState, "textBoxState");
             this.textBoxState.Name = "textBoxState";
             this.textBoxState.Text = global::CustomRPC.Properties.Settings.Default.state;
@@ -1632,7 +1674,9 @@
             // 
             // textBoxDetails
             // 
+            this.textBoxDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
             this.textBoxDetails.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "details", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.textBoxDetails.ForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.textBoxDetails, "textBoxDetails");
             this.textBoxDetails.Name = "textBoxDetails";
             this.textBoxDetails.Text = global::CustomRPC.Properties.Settings.Default.details;
@@ -1641,18 +1685,32 @@
             // 
             // textBoxID
             // 
+            this.textBoxID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
             this.textBoxID.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "id", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.textBoxID.ForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.textBoxID, "textBoxID");
             this.textBoxID.Name = "textBoxID";
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
+            // 
+            // toolStripSeparatorSettings3
+            // 
+            this.toolStripSeparatorSettings3.Name = "toolStripSeparatorSettings3";
+            resources.ApplyResources(this.toolStripSeparatorSettings3, "toolStripSeparatorSettings3");
+            // 
+            // darkModeToolStripMenuItem
+            // 
+            this.darkModeToolStripMenuItem.CheckOnClick = true;
+            this.darkModeToolStripMenuItem.Name = "darkModeToolStripMenuItem";
+            resources.ApplyResources(this.darkModeToolStripMenuItem, "darkModeToolStripMenuItem");
+            this.darkModeToolStripMenuItem.CheckedChanged += new System.EventHandler(this.SaveMenuSettings);
             // 
             // MainForm
             // 
             this.AllowDrop = true;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
             this.Controls.Add(this.labelButton2Text);
             this.Controls.Add(this.labelButton1Text);
             this.Controls.Add(this.labelButton2URL);
@@ -1690,6 +1748,7 @@
             this.Controls.Add(this.textBoxDetails);
             this.Controls.Add(this.textBoxID);
             this.Controls.Add(this.menuStrip);
+            this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = global::CustomRPC.Properties.Resources.favicon;
             this.MainMenuStrip = this.menuStrip;
@@ -1790,7 +1849,7 @@
         private System.Windows.Forms.Label labelButton2Text;
         private System.Windows.Forms.ToolStripMenuItem portugeseBRToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem hebrewToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparatorSettings2;
         private System.Windows.Forms.ToolStripMenuItem languageToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem defaultToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
@@ -1897,6 +1956,8 @@
         private System.Windows.Forms.ToolStripMenuItem romanianToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem diDYROToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem denisbolbaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem darkModeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparatorSettings3;
     }
 }
 

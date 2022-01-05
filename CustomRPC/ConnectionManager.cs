@@ -30,6 +30,9 @@
             }
             set
             {
+                if (value == ConnectionType.None)
+                    throw new System.ComponentModel.InvalidEnumArgumentException("Attempt to set State to ConnectionType.None.");
+
                 previous = current;
                 current = value;
             }

@@ -12,6 +12,13 @@ namespace CustomRPC
         {
             InitializeComponent();
 
+            WinApi.UseImmersiveDarkMode(Handle);
+
+            BackColor = numericUpDownPipe.BackColor = CurrentColors.BgColor;
+            ForeColor = numericUpDownPipe.ForeColor = CurrentColors.TextColor;
+
+            buttonOK.FlatStyle = Properties.Settings.Default.darkMode ? FlatStyle.Flat : FlatStyle.Standard;
+
             TestConnection();
         }
 

@@ -39,8 +39,8 @@
             // 
             // pictureBoxLogo
             // 
-            resources.ApplyResources(this.pictureBoxLogo, "pictureBoxLogo");
             this.pictureBoxLogo.Image = global::CustomRPC.Properties.Resources.logo;
+            resources.ApplyResources(this.pictureBoxLogo, "pictureBoxLogo");
             this.pictureBoxLogo.Name = "pictureBoxLogo";
             this.pictureBoxLogo.TabStop = false;
             // 
@@ -56,8 +56,12 @@
             // 
             // buttonClose
             // 
-            resources.ApplyResources(this.buttonClose, "buttonClose");
+            this.buttonClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(25)))), ((int)(((byte)(28)))));
             this.buttonClose.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.buttonClose.FlatAppearance.BorderSize = 0;
+            this.buttonClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(73)))), ((int)(((byte)(162)))));
+            this.buttonClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(86)))), ((int)(((byte)(193)))));
+            resources.ApplyResources(this.buttonClose, "buttonClose");
             this.buttonClose.Name = "buttonClose";
             this.buttonClose.UseVisualStyleBackColor = true;
             // 

@@ -43,24 +43,32 @@
             // 
             // buttonUpdate
             // 
-            resources.ApplyResources(this.buttonUpdate, "buttonUpdate");
             this.buttonUpdate.AutoEllipsis = true;
+            this.buttonUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(25)))), ((int)(((byte)(28)))));
             this.buttonUpdate.DialogResult = System.Windows.Forms.DialogResult.Yes;
+            this.buttonUpdate.FlatAppearance.BorderSize = 0;
+            this.buttonUpdate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(73)))), ((int)(((byte)(162)))));
+            this.buttonUpdate.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(86)))), ((int)(((byte)(193)))));
+            resources.ApplyResources(this.buttonUpdate, "buttonUpdate");
             this.buttonUpdate.Name = "buttonUpdate";
             this.buttonUpdate.UseVisualStyleBackColor = true;
             // 
             // pictureBoxLogo
             // 
-            resources.ApplyResources(this.pictureBoxLogo, "pictureBoxLogo");
             this.pictureBoxLogo.Image = global::CustomRPC.Properties.Resources.logo;
+            resources.ApplyResources(this.pictureBoxLogo, "pictureBoxLogo");
             this.pictureBoxLogo.Name = "pictureBoxLogo";
             this.pictureBoxLogo.TabStop = false;
             // 
             // buttonNotNow
             // 
-            resources.ApplyResources(this.buttonNotNow, "buttonNotNow");
             this.buttonNotNow.AutoEllipsis = true;
+            this.buttonNotNow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(25)))), ((int)(((byte)(28)))));
             this.buttonNotNow.DialogResult = System.Windows.Forms.DialogResult.No;
+            this.buttonNotNow.FlatAppearance.BorderSize = 0;
+            this.buttonNotNow.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(73)))), ((int)(((byte)(162)))));
+            this.buttonNotNow.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(86)))), ((int)(((byte)(193)))));
+            resources.ApplyResources(this.buttonNotNow, "buttonNotNow");
             this.buttonNotNow.Name = "buttonNotNow";
             this.buttonNotNow.UseVisualStyleBackColor = true;
             // 
@@ -88,9 +96,13 @@
             // 
             // buttonSkipUpdate
             // 
-            resources.ApplyResources(this.buttonSkipUpdate, "buttonSkipUpdate");
             this.buttonSkipUpdate.AutoEllipsis = true;
+            this.buttonSkipUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(25)))), ((int)(((byte)(28)))));
             this.buttonSkipUpdate.DialogResult = System.Windows.Forms.DialogResult.Ignore;
+            this.buttonSkipUpdate.FlatAppearance.BorderSize = 0;
+            this.buttonSkipUpdate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(73)))), ((int)(((byte)(162)))));
+            this.buttonSkipUpdate.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(86)))), ((int)(((byte)(193)))));
+            resources.ApplyResources(this.buttonSkipUpdate, "buttonSkipUpdate");
             this.buttonSkipUpdate.Name = "buttonSkipUpdate";
             this.buttonSkipUpdate.UseVisualStyleBackColor = true;
             // 

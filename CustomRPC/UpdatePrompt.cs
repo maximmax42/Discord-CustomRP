@@ -9,6 +9,16 @@ namespace CustomRPC
         {
             InitializeComponent();
 
+            WinApi.UseImmersiveDarkMode(Handle);
+
+            BackColor = htmlPanelChangelog.BackColor = CurrentColors.BgColor;
+            ForeColor = CurrentColors.TextColor;
+
+            if (ForeColor == System.Drawing.Color.White)
+                htmlPanelChangelog.BaseStylesheet += "* {color: white;}";
+
+            buttonSkipUpdate.FlatStyle = buttonNotNow.FlatStyle = buttonUpdate.FlatStyle = Properties.Settings.Default.darkMode ? FlatStyle.Flat : FlatStyle.Standard;
+
             string currentStr = VersionHelper.GetVersionString(current);
             string latestStr = VersionHelper.GetVersionString(latest);
 

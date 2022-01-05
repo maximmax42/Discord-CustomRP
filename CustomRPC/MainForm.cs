@@ -7,6 +7,7 @@ using Octokit;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Drawing;
 using System.Globalization;
 using System.IO;
 using System.Net;
@@ -128,17 +129,9 @@ namespace CustomRPC
         readonly string linkPath = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\CustomRP.lnk";
 
         /// <summary>
-        /// Off-white color.
+        /// Resource manager. Yes I know, very descriptive.
         /// </summary>
-        readonly System.Drawing.Color defaultColor = System.Drawing.Color.FromName("Window");
-        /// <summary>
-        /// Green color.
-        /// </summary>
-        readonly System.Drawing.Color successColor = System.Drawing.Color.FromArgb(192, 255, 192);
-        /// <summary>
-        /// Red color.
-        /// </summary>
-        readonly System.Drawing.Color errorColor = System.Drawing.Color.FromArgb(255, 192, 192);
+        System.ComponentModel.ComponentResourceManager res = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 
         /// <summary>
         /// The constructor of the form.
@@ -147,6 +140,9 @@ namespace CustomRPC
         public MainForm(string preset)
         {
             InitializeComponent();
+
+            // Setting up dark/light mode
+            ThemeSetup();
 
             // Setting up startup link for current user (enabled by default)
             StartupSetup();
@@ -165,6 +161,7 @@ namespace CustomRPC
             autoconnectToolStripMenuItem.Checked = settings.autoconnect;
             checkUpdatesToolStripMenuItem.Checked = settings.checkUpdates;
             allowAnalyticsToolStripMenuItem.Checked = Analytics.IsEnabledAsync().Result;
+            darkModeToolStripMenuItem.Checked = settings.darkMode;
 
             // Checks the chosen language setting
             foreach (var toolStripItemObj in languageToolStripMenuItem.DropDownItems)
@@ -263,6 +260,52 @@ namespace CustomRPC
             }
 
             base.WndProc(ref message);
+        }
+
+        /// <summary>
+        /// Sets up color scheme of the application.
+        /// </summary>
+        private void ThemeSetup()
+        {
+            WinApi.UseImmersiveDarkMode(Handle);
+
+            CurrentColors.Update();
+
+            BackColor = CurrentColors.BgColor;
+            ForeColor = CurrentColors.TextColor;
+
+            foreach (dynamic ctrl in Controls)
+            {
+                if (ctrl is TextBox || ctrl is ComboBox || ctrl is NumericUpDown)
+                {
+                    ctrl.BackColor = CurrentColors.BgTextFields;
+                    ctrl.ForeColor = CurrentColors.TextColor;
+                }
+            }
+
+            switch (ConnectionManager.State)
+            {
+                case ConnectionType.Disconnected:
+                    textBoxID.BackColor = CurrentColors.BgTextFields;
+                    break;
+                case ConnectionType.Connected:
+                    textBoxID.BackColor = CurrentColors.BgTextFieldsSuccess;
+                    break;
+                case ConnectionType.Error:
+                    textBoxID.BackColor = CurrentColors.BgTextFieldsError;
+                    break;
+            }
+
+            if (settings.darkMode)
+            {
+                ToolStripManager.Renderer = new DarkModeRenderer();
+                buttonConnect.FlatStyle = buttonDisconnect.FlatStyle = buttonUpdatePresence.FlatStyle = FlatStyle.Flat;
+            }
+            else
+            {
+                ToolStripManager.Renderer = new LightModeRenderer();
+                buttonConnect.FlatStyle = buttonDisconnect.FlatStyle = buttonUpdatePresence.FlatStyle = FlatStyle.Standard;
+            }
         }
 
         /// <summary>
@@ -444,7 +487,7 @@ namespace CustomRPC
                         Process.Start(latestRelease.Assets[fileType].BrowserDownloadUrl);
 
                     downloadUpdateToolStripMenuItem.Enabled = true;
-                    downloadUpdateToolStripMenuItem.Text = new System.ComponentModel.ComponentResourceManager(typeof(MainForm)).GetString("downloadUpdateToolStripMenuItem.Text");
+                    downloadUpdateToolStripMenuItem.Text = res.GetString("downloadUpdateToolStripMenuItem.Text");
 
                     break;
                 }
@@ -497,7 +540,7 @@ namespace CustomRPC
 
             Invoke(new MethodInvoker(() =>
             {
-                textBoxID.BackColor = successColor;
+                textBoxID.BackColor = CurrentColors.BgTextFieldsSuccess;
                 toolStripStatusLabelStatus.Text = Strings.statusConnected;
             }));
 
@@ -525,7 +568,7 @@ namespace CustomRPC
                 if (buttonConnect.Enabled) // Ignore if the user disconnected before connection was established
                     return;
 
-                textBoxID.BackColor = errorColor;
+                textBoxID.BackColor = CurrentColors.BgTextFieldsError;
                 toolStripStatusLabelStatus.Text = Strings.statusError;
             }));
 
@@ -547,7 +590,7 @@ namespace CustomRPC
                 if (buttonConnect.Enabled) // Ignore if the user disconnected before connection was established
                     return;
 
-                textBoxID.BackColor = errorColor;
+                textBoxID.BackColor = CurrentColors.BgTextFieldsError;
                 toolStripStatusLabelStatus.Text = Strings.statusConnectionFailed;
             }));
 
@@ -713,21 +756,16 @@ namespace CustomRPC
             switch (ConnectionManager.State) // Because invoking doesn't work while the form is hidden
             {
                 case ConnectionType.Disconnected:
-                    textBoxID.BackColor = defaultColor;
+                    textBoxID.BackColor = CurrentColors.BgTextFields;
                     toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
                     break;
                 case ConnectionType.Connected:
-                    textBoxID.BackColor = successColor;
+                    textBoxID.BackColor = CurrentColors.BgTextFieldsSuccess;
                     toolStripStatusLabelStatus.Text = Strings.statusConnected;
                     break;
                 case ConnectionType.Error:
-                    textBoxID.BackColor = errorColor;
+                    textBoxID.BackColor = CurrentColors.BgTextFieldsError;
                     toolStripStatusLabelStatus.Text = Strings.statusError;
-                    break;
-                case ConnectionType.None: // This should never happen, but just in case
-                    textBoxID.BackColor = System.Drawing.Color.FromArgb(69420);
-                    toolStripStatusLabelStatus.Text = "pipis";
-                    Analytics.TrackEvent("You've set ConnectionState.State to ConnectionType.None");
                     break;
             }
 
@@ -923,6 +961,10 @@ namespace CustomRPC
                     settings.analytics = setting.Checked;
                     Analytics.SetEnabledAsync(setting.Checked);
                     break;
+                case "darkModeToolStripMenuItem":
+                    settings.darkMode = setting.Checked;
+                    ThemeSetup();
+                    break;
                 default:
                     throw new NotImplementedException(setting.Name);
             }
@@ -1100,7 +1142,7 @@ namespace CustomRPC
             textBoxID.ReadOnly = false;
             toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
 
-            textBoxID.BackColor = defaultColor;
+            textBoxID.BackColor = CurrentColors.BgTextFields;
             ConnectionManager.State = ConnectionType.Disconnected;
 
             restartTimer.Stop();
@@ -1115,22 +1157,9 @@ namespace CustomRPC
         /// </summary>
         private void LengthValidationFocus(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            string text = "";
-            int max = 0;
+            dynamic box = sender;
 
-            switch (sender)
-            {
-                case TextBox box:
-                    text = box.Text;
-                    max = box.MaxLength;
-                    break;
-                case ComboBox box:
-                    text = box.Text;
-                    max = box.MaxLength;
-                    break;
-            }
-
-            if (!StringTools.WithinLength(text, max))
+            if (!StringTools.WithinLength(box.Text, box.MaxLength))
             {
                 e.Cancel = true;
                 System.Media.SystemSounds.Beep.Play();
@@ -1142,16 +1171,9 @@ namespace CustomRPC
         /// </summary>
         private void LengthValidation(object sender, EventArgs e)
         {
-            switch (sender)
-            {
-                case TextBox box:
-                    box.BackColor = StringTools.WithinLength(box.Text, box.MaxLength) ? defaultColor : errorColor;
-                    break;
-                case ComboBox box:
-                    box.BackColor = StringTools.WithinLength(box.Text, box.MaxLength) ? defaultColor : errorColor;
-                    break;
-            }
+            dynamic box = sender;
 
+            box.BackColor = StringTools.WithinLength(box.Text, box.MaxLength) ? CurrentColors.BgTextFields : CurrentColors.BgTextFieldsError;
         }
 
         /// <summary>
@@ -1229,6 +1251,17 @@ namespace CustomRPC
                     MessageBox.Show(Strings.errorNoInternet, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+        }
+
+        /// <summary>
+        /// Called on Paint event for all the buttons.
+        /// </summary>
+        private void ButtonPaint(object sender, PaintEventArgs e)
+        {
+            Button btn = (Button)sender;
+            btn.Text = string.Empty;
+            TextFormatFlags flags = TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter;
+            TextRenderer.DrawText(e.Graphics, res.GetString($"{btn.Name}.Text"), btn.Font, e.ClipRectangle, btn.Enabled ? btn.ForeColor : Color.FromArgb(142, 146, 151), flags);
         }
 
         /// <summary>

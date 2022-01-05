@@ -485,4 +485,7 @@
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
     <value>Разрешить аналитику</value>
   </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Тёмная тема</value>
+  </data>
 </root>
