@@ -118,64 +118,64 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="error" xml:space="preserve">
-    <value>Lỗi</value>
+    <value>Eroareee</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>Không có ID được chỉ định!</value>
+    <value>Niciun ID specificat!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
-    <value>Đã xảy ra lỗi khi tải xuống hoặc cài đặt bản cập nhật.
-Nhấn "Có" để thử lại hoặc "Không" để tải xuống theo cách thủ công.</value>
+    <value>A apărut o eroare la descărcarea sau instalarea unei actualizări.
+Apăsați "Da" pentru a reîncerca sau "Nu" pentru a descărca manual.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Lần chạy đầu tiên</value>
+    <value>Pornirea pentru prima dată</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
-    <value>Bạn muốn mở phần Hướng dẫn không?
-Bạn có thể mở nó bất cứ lúc nào bằng cách vào phần Trợ giúp -&gt; Hướng dẫn hoặc nhấn F1.</value>
+    <value>Doriți să deschideți un manual?
+Îl puteți deschide oricând accesând Ajutor -&gt; Deschideți manualul sau apăsând F1.</value>
   </data>
   <data name="information" xml:space="preserve">
-    <value>Thông tin</value>
+    <value>Informații</value>
   </data>
   <data name="statusConnected" xml:space="preserve">
-    <value>Đã kết nối</value>
+    <value>Conectat</value>
   </data>
   <data name="statusConnecting" xml:space="preserve">
-    <value>Đang kết nối...</value>
+    <value>În curs de conectare...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Kết nối thất bại (Bạn đã khởi động Discord chưa?)</value>
+    <value>Conectarea a fost eșuată (Rulează Discord în prezent?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
-    <value>Đã ngắt kết nối</value>
+    <value>Deconectat</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>Lỗi kết nối (ID sai?)</value>
+    <value>Eroare la conexiune (Poate ID este greșit?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>URL được chỉ định cho (các) nút không hợp lệ!</value>
+    <value>Adresa URL nevalidă specificată pentru buton(e) sau textul este prea lung!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
-    <value>Không thể kết nối internet!</value>
+    <value>Nu s-a putut conecta la internet!</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
-    <value>Không tìm thấy bản cập nhật nào!</value>
+    <value>Nici un update găsit!</value>
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
-    <value>Tệp thiết lập đã bị hỏng.
-Chọn Có để đặt lại thiết lập, chọn Không để thoát.</value>
+    <value>Fișierul de setări este coruptat.
+Apăsați Da pentru a reseta setările, apăsați Nu pentru a ieși.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Không thể nhập các thiết lập trước đó; tệp có thể đã bị thiếu, bị hỏng hoặc định dạng không đúng.</value>
+    <value>Nu s-a importat presetarea; fișierul fie lipsește, este corupt sau nu este formatat corect.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>Bạn có muốn cho phép CustomRP gửi dữ liệu sử dụng của bạn đến nhà phát triển không?
-(Toàn bộ dữ liệu đều được mã hoá.)</value>
+    <value>Permiteți CustomRP să trimită dezvoltatorului analizele dvs. de utilizare?
+(Toate datele sunt depersonalizate.)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
-    <value>Đã xảy ra lỗi khi lưu các thiết lập:</value>
+    <value>A apărut o eroare la salvarea setărilor:</value>
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>Vui lòng thêm đường dẫn "{0}" vào phần ngoại lệ của phần mềm chống vi-rút. Cài lại CustomRP nếu lỗi này vẫn tiếp tục tái diễn.</value>
+    <value>Vă rugăm să adăugați calea "{0}" la excepțiile antivirusului dvs. Reinstalați CustomRP dacă această eroare persistă.</value>
   </data>
 </root>

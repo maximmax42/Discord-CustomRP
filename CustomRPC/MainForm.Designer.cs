@@ -80,6 +80,7 @@
             this.nlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.plToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ptBRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.roToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ruToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -144,6 +145,9 @@
             this.piterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.portugeseBRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viniciotricolorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.romanianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.diDYROToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.denisbolbaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.russianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maximmax42ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thaiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -423,6 +427,7 @@
             this.nlToolStripMenuItem,
             this.plToolStripMenuItem,
             this.ptBRToolStripMenuItem,
+            this.roToolStripMenuItem,
             this.ruToolStripMenuItem,
             this.thToolStripMenuItem,
             this.trToolStripMenuItem,
@@ -605,6 +610,14 @@
             this.ptBRToolStripMenuItem.Tag = "pt-br";
             this.ptBRToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
             // 
+            // roToolStripMenuItem
+            // 
+            this.roToolStripMenuItem.CheckOnClick = true;
+            this.roToolStripMenuItem.Name = "roToolStripMenuItem";
+            resources.ApplyResources(this.roToolStripMenuItem, "roToolStripMenuItem");
+            this.roToolStripMenuItem.Tag = "ro";
+            this.roToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
+            // 
             // ruToolStripMenuItem
             // 
             this.ruToolStripMenuItem.CheckOnClick = true;
@@ -709,6 +722,7 @@
             this.dutchToolStripMenuItem,
             this.polishToolStripMenuItem,
             this.portugeseBRToolStripMenuItem,
+            this.romanianToolStripMenuItem,
             this.russianToolStripMenuItem,
             this.thaiToolStripMenuItem,
             this.turkishToolStripMenuItem,
@@ -1088,6 +1102,24 @@
             resources.ApplyResources(this.viniciotricolorToolStripMenuItem, "viniciotricolorToolStripMenuItem");
             this.viniciotricolorToolStripMenuItem.Tag = "";
             this.viniciotricolorToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
+            // 
+            // romanianToolStripMenuItem
+            // 
+            this.romanianToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.diDYROToolStripMenuItem,
+            this.denisbolbaToolStripMenuItem});
+            this.romanianToolStripMenuItem.Name = "romanianToolStripMenuItem";
+            resources.ApplyResources(this.romanianToolStripMenuItem, "romanianToolStripMenuItem");
+            // 
+            // diDYROToolStripMenuItem
+            // 
+            this.diDYROToolStripMenuItem.Name = "diDYROToolStripMenuItem";
+            resources.ApplyResources(this.diDYROToolStripMenuItem, "diDYROToolStripMenuItem");
+            // 
+            // denisbolbaToolStripMenuItem
+            // 
+            this.denisbolbaToolStripMenuItem.Name = "denisbolbaToolStripMenuItem";
+            resources.ApplyResources(this.denisbolbaToolStripMenuItem, "denisbolbaToolStripMenuItem");
             // 
             // russianToolStripMenuItem
             // 
@@ -1861,6 +1893,10 @@
         private System.Windows.Forms.ToolStripMenuItem hrToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem croatianToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem monikaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem roToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem romanianToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem diDYROToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem denisbolbaToolStripMenuItem;
     }
 }
 

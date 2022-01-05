@@ -117,65 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="error" xml:space="preserve">
-    <value>Lỗi</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Report eroare</value>
   </data>
-  <data name="errorNoID" xml:space="preserve">
-    <value>Không có ID được chỉ định!</value>
+  <data name="buttonOK.Text" xml:space="preserve">
+    <value>OK</value>
   </data>
-  <data name="errorUpdateFailed" xml:space="preserve">
-    <value>Đã xảy ra lỗi khi tải xuống hoặc cài đặt bản cập nhật.
-Nhấn "Có" để thử lại hoặc "Không" để tải xuống theo cách thủ công.</value>
-  </data>
-  <data name="firstTimeRun" xml:space="preserve">
-    <value>Lần chạy đầu tiên</value>
-  </data>
-  <data name="firstTimeRunText" xml:space="preserve">
-    <value>Bạn muốn mở phần Hướng dẫn không?
-Bạn có thể mở nó bất cứ lúc nào bằng cách vào phần Trợ giúp -&gt; Hướng dẫn hoặc nhấn F1.</value>
-  </data>
-  <data name="information" xml:space="preserve">
-    <value>Thông tin</value>
-  </data>
-  <data name="statusConnected" xml:space="preserve">
-    <value>Đã kết nối</value>
-  </data>
-  <data name="statusConnecting" xml:space="preserve">
-    <value>Đang kết nối...</value>
-  </data>
-  <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Kết nối thất bại (Bạn đã khởi động Discord chưa?)</value>
-  </data>
-  <data name="statusDisconnected" xml:space="preserve">
-    <value>Đã ngắt kết nối</value>
-  </data>
-  <data name="statusError" xml:space="preserve">
-    <value>Lỗi kết nối (ID sai?)</value>
-  </data>
-  <data name="errorInvalidURL" xml:space="preserve">
-    <value>URL được chỉ định cho (các) nút không hợp lệ!</value>
-  </data>
-  <data name="errorNoInternet" xml:space="preserve">
-    <value>Không thể kết nối internet!</value>
-  </data>
-  <data name="noUpdatesFound" xml:space="preserve">
-    <value>Không tìm thấy bản cập nhật nào!</value>
-  </data>
-  <data name="errorCorruptSettings" xml:space="preserve">
-    <value>Tệp thiết lập đã bị hỏng.
-Chọn Có để đặt lại thiết lập, chọn Không để thoát.</value>
-  </data>
-  <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Không thể nhập các thiết lập trước đó; tệp có thể đã bị thiếu, bị hỏng hoặc định dạng không đúng.</value>
-  </data>
-  <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>Bạn có muốn cho phép CustomRP gửi dữ liệu sử dụng của bạn đến nhà phát triển không?
-(Toàn bộ dữ liệu đều được mã hoá.)</value>
-  </data>
-  <data name="errorSavingSettings" xml:space="preserve">
-    <value>Đã xảy ra lỗi khi lưu các thiết lập:</value>
-  </data>
-  <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>Vui lòng thêm đường dẫn "{0}" vào phần ngoại lệ của phần mềm chống vi-rút. Cài lại CustomRP nếu lỗi này vẫn tiếp tục tái diễn.</value>
+  <data name="labelInfo.Text" xml:space="preserve">
+    <value>CustomRP s-a prăbușit în sesiunea anterioară din cauza următoarei excepții negestionate:</value>
   </data>
 </root>

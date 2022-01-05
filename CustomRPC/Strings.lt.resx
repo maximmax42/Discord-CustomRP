@@ -175,4 +175,7 @@ Paspauskite Taip kad atstatyti nustatymus, paspauskite Ne kad išeiti.</value>
   <data name="errorSavingSettings" xml:space="preserve">
     <value>Išsaugant nustatymus įvyko klaida:</value>
   </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>Prie antivirusinės programos išimčių pridėkite išimtį „{0}“. Iš naujo įdiekite „CustomRP“, jei ši klaida išlieka.</value>
+  </data>
 </root>

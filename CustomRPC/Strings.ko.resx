@@ -172,4 +172,10 @@
     <value>업데이트를 다운로드하거나 설치하는 동안 오류가 발생했습니다.
 다시 시도하려면 "확인"을 누르거나 수동으로 다운로드하려면 "취소"를 누르십시오.</value>
   </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>설정을 저장하는 중에 오류가 발생했습니다:</value>
+  </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>"{0}" 경로를 백신 탐지 예외로 추가해주세요. 오류가 지속되면 CustomRP를 재설치 하십시오.</value>
+  </data>
 </root>
