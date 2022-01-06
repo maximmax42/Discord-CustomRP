@@ -302,4 +302,7 @@
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
     <value>允許分析</value>
   </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>黑暗模式</value>
+  </data>
 </root>
