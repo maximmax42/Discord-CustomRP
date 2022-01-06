@@ -57,6 +57,8 @@
             this.checkUpdatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.allowAnalyticsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparatorSettings2 = new System.Windows.Forms.ToolStripSeparator();
+            this.darkModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparatorSettings3 = new System.Windows.Forms.ToolStripSeparator();
             this.languageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.defaultToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
@@ -215,8 +217,6 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.toolStripSeparatorSettings3 = new System.Windows.Forms.ToolStripSeparator();
-            this.darkModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -405,6 +405,18 @@
             // 
             this.toolStripSeparatorSettings2.Name = "toolStripSeparatorSettings2";
             resources.ApplyResources(this.toolStripSeparatorSettings2, "toolStripSeparatorSettings2");
+            // 
+            // darkModeToolStripMenuItem
+            // 
+            this.darkModeToolStripMenuItem.CheckOnClick = true;
+            this.darkModeToolStripMenuItem.Name = "darkModeToolStripMenuItem";
+            resources.ApplyResources(this.darkModeToolStripMenuItem, "darkModeToolStripMenuItem");
+            this.darkModeToolStripMenuItem.CheckedChanged += new System.EventHandler(this.SaveMenuSettings);
+            // 
+            // toolStripSeparatorSettings3
+            // 
+            this.toolStripSeparatorSettings3.Name = "toolStripSeparatorSettings3";
+            resources.ApplyResources(this.toolStripSeparatorSettings3, "toolStripSeparatorSettings3");
             // 
             // languageToolStripMenuItem
             // 
@@ -1117,8 +1129,11 @@
             // 
             // diDYROToolStripMenuItem
             // 
+            this.diDYROToolStripMenuItem.Image = global::CustomRPC.Properties.Resources.globe;
             this.diDYROToolStripMenuItem.Name = "diDYROToolStripMenuItem";
             resources.ApplyResources(this.diDYROToolStripMenuItem, "diDYROToolStripMenuItem");
+            this.diDYROToolStripMenuItem.Tag = "https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w";
+            this.diDYROToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // denisbolbaToolStripMenuItem
             // 
@@ -1692,18 +1707,6 @@
             this.textBoxID.Name = "textBoxID";
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
-            // 
-            // toolStripSeparatorSettings3
-            // 
-            this.toolStripSeparatorSettings3.Name = "toolStripSeparatorSettings3";
-            resources.ApplyResources(this.toolStripSeparatorSettings3, "toolStripSeparatorSettings3");
-            // 
-            // darkModeToolStripMenuItem
-            // 
-            this.darkModeToolStripMenuItem.CheckOnClick = true;
-            this.darkModeToolStripMenuItem.Name = "darkModeToolStripMenuItem";
-            resources.ApplyResources(this.darkModeToolStripMenuItem, "darkModeToolStripMenuItem");
-            this.darkModeToolStripMenuItem.CheckedChanged += new System.EventHandler(this.SaveMenuSettings);
             // 
             // MainForm
             // 
