@@ -848,6 +848,7 @@
             this.felixToolStripMenuItem.Name = "felixToolStripMenuItem";
             resources.ApplyResources(this.felixToolStripMenuItem, "felixToolStripMenuItem");
             this.felixToolStripMenuItem.Tag = "https://github.com/fbrettnich";
+            this.felixToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // greekToolStripMenuItem
             // 

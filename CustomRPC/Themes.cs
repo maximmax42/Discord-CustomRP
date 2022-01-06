@@ -23,6 +23,7 @@ namespace CustomRPC
         {
             Update();
         }
+
         /// <summary>
         /// Updates colors according to currently set dark mode setting.
         /// </summary>
@@ -72,7 +73,7 @@ namespace CustomRPC
             base.OnRenderToolStripBorder(e);
 
             e.Graphics.DrawRectangle(new Pen(CurrentColors.BgActive, 2), e.AffectedBounds);
-            e.Graphics.FillRectangle(new SolidBrush(CurrentColors.BgActive), e.ConnectedArea);
+            e.Graphics.FillRectangle(new SolidBrush(CurrentColors.BgInactive), e.ConnectedArea);
         }
         protected override void OnRenderItemText(ToolStripItemTextRenderEventArgs e)
         {
@@ -87,17 +88,29 @@ namespace CustomRPC
 
             base.OnRenderToolStripBackground(e);
         }
+
+        protected override void OnRenderItemImage(ToolStripItemImageRenderEventArgs e)
+        {
+            if (e.Image != null && e.Item.Tag != null)
+                e.Item.Image = Properties.Resources.globe_white;
+            base.OnRenderItemImage(e);
+        }
     }
 
     internal class LightModeRenderer : ToolStripProfessionalRenderer
     {
-        public LightModeRenderer() : base() { }
-
         protected override void OnRenderToolStripBackground(ToolStripRenderEventArgs e)
         {
             e.ToolStrip.BackColor = Color.White;
 
             base.OnRenderToolStripBackground(e);
+        }
+
+        protected override void OnRenderItemImage(ToolStripItemImageRenderEventArgs e)
+        {
+            if (e.Image != null && e.Item.Tag != null)
+                e.Item.Image = Properties.Resources.globe;
+            base.OnRenderItemImage(e);
         }
     }
 }
