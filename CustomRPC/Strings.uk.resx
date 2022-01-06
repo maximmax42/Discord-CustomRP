@@ -175,4 +175,7 @@
   <data name="errorSavingSettings" xml:space="preserve">
     <value>Сталася помилка під час збереження налаштувань:</value>
   </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>Будь ласка, додайте шлях "{0}" до винятків вашого антивірусу. Перевстановіть CustomRP, якщо ця помилка не зникає.</value>
+  </data>
 </root>
