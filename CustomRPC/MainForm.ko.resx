@@ -302,4 +302,7 @@
   <data name="labelButton2.ToolTip" xml:space="preserve">
     <value>첫 번째 버튼이 설정되지 않은 경우에 첫 번째 버튼 바로 아래 또는 대신 나타나는 두 번째 버튼입니다.</value>
   </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>다크 모드</value>
+  </data>
 </root>

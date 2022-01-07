@@ -178,7 +178,7 @@
     <value>Ažuriraj presence</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Ažurira presence</value>
+    <value>Ažurira presence.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>Spoji</value>

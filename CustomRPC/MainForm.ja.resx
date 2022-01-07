@@ -483,4 +483,7 @@
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>／</value>
   </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>ダークモード</value>
+  </data>
 </root>
