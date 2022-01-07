@@ -156,7 +156,7 @@
     <value>כתובת (URL) שגוי לכפתור/ים או שהטקסט ארוך מידי!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
-    <value>אי אפשר להתחבר לאינטרנט!</value>
+    <value>אי אפשר להתחבר לאינטרנט! (בדוק את מצב האינטרנט שלך)</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
     <value>לא נמצאו עדכונים!</value>
@@ -175,5 +175,8 @@
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
     <value>התרחשה שגיאה בעת שמירת ההגדרות:</value>
+  </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>הוסף את הנתיב "{0}" לחריגים של האנטי-וירוס שלך. התקן מחדש את CustomRP אם שגיאה זו נמשכת.</value>
   </data>
 </root>
