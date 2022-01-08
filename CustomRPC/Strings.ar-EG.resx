@@ -175,4 +175,7 @@
   <data name="errorSavingSettings" xml:space="preserve">
     <value>حدث خطأ أثناء حفظ الإعدادات:</value>
   </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>الرجاء إضافة مسار "{0}" إلى برنامج مكافحة الفيروسات. أعد تثبيت CustomRP إذا استمر هذا الخطأ.</value>
+  </data>
 </root>
