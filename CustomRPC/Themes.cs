@@ -77,7 +77,7 @@ namespace CustomRPC
         }
         protected override void OnRenderItemText(ToolStripItemTextRenderEventArgs e)
         {
-            e.TextColor = CurrentColors.TextColor;
+            e.TextColor = e.Item.ForeColor == Control.DefaultForeColor ? CurrentColors.TextColor : e.Item.ForeColor;
 
             base.OnRenderItemText(e);
         }
