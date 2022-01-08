@@ -267,7 +267,12 @@ namespace CustomRPC
         /// </summary>
         private void ThemeSetup()
         {
-            WinApi.UseImmersiveDarkMode(Handle);
+            if (WinApi.UseImmersiveDarkMode(Handle))
+            {
+                // Hacky way to forcefully redraw a window's title bar
+                Opacity = 0.99;
+                Opacity = 1;
+            }
 
             CurrentColors.Update();
 
@@ -631,7 +636,6 @@ namespace CustomRPC
             };
 
             buttonsList.Clear();
-
 
             try
             {
