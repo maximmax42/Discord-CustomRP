@@ -429,4 +429,7 @@ Pour prendre effet, les deux champs doivent être supérieurs à 0.</value>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
     <value>Autoriser les données analytiques</value>
   </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mode sombre</value>
+  </data>
 </root>
