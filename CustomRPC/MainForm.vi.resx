@@ -436,4 +436,7 @@ Thời gian của trạng thái có giới hạn là 24 giờ, nghĩa là sau 24
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
     <value>Cho phép phân tích</value>
   </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Chế độ tối</value>
+  </data>
 </root>
