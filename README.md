@@ -1,7 +1,9 @@
 <p align=center>
-<a href="https://github.com/maximmax42/Discord-CustomRP/releases/latest"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/tag/maximmax42/Discord-CustomRP?color=19e2e2&label=latest&logo=github"></a> <a href="https://github.com/maximmax42/Discord-CustomRP/releases/latest"><img alt="GitHub Releases" src="https://img.shields.io/github/downloads/maximmax42/Discord-CustomRP/latest/total?color=19e2e2&label=downloads&logo=github"></a> <a href="https://github.com/maximmax42/Discord-CustomRP/releases"><img alt="All GitHub Releases" src="https://img.shields.io/github/downloads/maximmax42/Discord-CustomRP/total?color=19e2e2&label=total%20downloads&logo=github"></a>
-<br>
-<a href="https://ko-fi.com/maximmax42"><img alt="Support on Ko-fi" src="https://img.shields.io/badge/support%20on-ko--fi-19e2e2?logo=ko-fi"></a>
+  <a href="https://github.com/maximmax42/Discord-CustomRP/releases/latest"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/tag/maximmax42/Discord-CustomRP?color=19e2e2&label=latest&logo=github"></a>
+  <a href="https://github.com/maximmax42/Discord-CustomRP/releases/latest"><img alt="GitHub Releases" src="https://img.shields.io/github/downloads/maximmax42/Discord-CustomRP/latest/total?color=19e2e2&label=downloads&logo=github"></a>
+  <a href="https://github.com/maximmax42/Discord-CustomRP/releases"><img alt="All GitHub Releases" src="https://img.shields.io/github/downloads/maximmax42/Discord-CustomRP/total?color=19e2e2&label=total%20downloads&logo=github"></a>
+  <br>
+  <a href="https://ko-fi.com/maximmax42"><img alt="Support on Ko-fi" src="https://img.shields.io/badge/support%20on-ko--fi-19e2e2?logo=ko-fi"></a>
 </p>
 
 # <img src=https://www.customrp.xyz/assets/logo.png style="height:1em;"/> Custom Discord Rich Presence Manager
@@ -41,7 +43,7 @@ So far, the app supports these languages:
 * <a href="https://poeditor.com/projects/po_edit?id_language=41&per_page=100&id=409229"><img alt="Dutch" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fnl.json"></a> (thanks to [Jeremyzijlemans](https://sionhub.co.uk/))
 * <a href="https://poeditor.com/projects/po_edit?id_language=127&per_page=100&id=409229"><img alt="Polish" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fpl.json"></a> (thanks to Lol1112345.lol12345, Liso and Piter)
 * <a href="https://poeditor.com/projects/po_edit?id_language=190&per_page=100&id=409229"><img alt="Portugese (BR)" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fpt-br.json"></a> (thanks to viniciotricolor)
-* <a href="https://poeditor.com/projects/po_edit?id_language=131&per_page=100&id=409229"><img alt="Romanian" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fro.json"></a> (thanks to Denisbolba, coming when there will be at least 70% translated)
+* <a href="https://poeditor.com/projects/po_edit?id_language=131&per_page=100&id=409229"><img alt="Romanian" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fro.json"></a> (thanks to [DiDYRO](https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w) and Denisbolba, coming next version)
 * <a href="https://poeditor.com/projects/po_edit?id_language=134&per_page=100&id=409229"><img alt="Russian" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fru.json"></a>
 * <a href="https://poeditor.com/projects/po_edit?id_language=163&per_page=100&id=409229"><img alt="Thai" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fth.json"></a> (thanks to Squishee Freshy)
 * <a href="https://poeditor.com/projects/po_edit?id_language=169&per_page=100&id=409229"><img alt="Turkish" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Ftr.json"></a> (thanks to Ozan Akyüz)
@@ -50,7 +52,7 @@ So far, the app supports these languages:
 * <a href="https://poeditor.com/projects/po_edit?id_language=274&per_page=100&id=409229"><img alt="Chinese (Simplified)" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fzh-Hans.json"></a> (thanks to Zjsun.ca and zozocha)
 * <a href="https://poeditor.com/projects/po_edit?id_language=275&per_page=100&id=409229"><img alt="Chinese (Traditional)" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fzh-Hant.json"></a> (thanks to [蘆筍/westxlu](https://linktr.ee/westxlu))
 
-If you want to help translate the app to your language, please go to the [POEditor project page](https://poeditor.com/join/project?hash=2jq0i7ANr1). If you're already part of the project, click on the badge with your language's progress.
+If you want to help translate the app to your language, please go to the [POEditor project page](https://poeditor.com/join/project?hash=2jq0i7ANr1). **It is advised that you join the Translators Discord server to get notified when new terms are added (link is on the project page).** If you're already part of the project, click on the badge with your language's progress.
 
 # Privacy Policy
 Privacy policy is listed [here](https://github.com/maximmax42/Discord-CustomRP/blob/master/PRIVACY.md).
