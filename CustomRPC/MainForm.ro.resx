@@ -302,4 +302,7 @@ Pentru a intra în vigoare, ambele câmpuri trebuie să fie mai mari de 0.</valu
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
     <value>Permite analizelor</value>
   </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tema întunecată</value>
+  </data>
 </root>
