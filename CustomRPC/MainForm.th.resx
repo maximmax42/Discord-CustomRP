@@ -426,4 +426,7 @@
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
     <value>อนุญาตให้ทำการวิเคราะห์</value>
   </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>โหมดมืด</value>
+  </data>
 </root>

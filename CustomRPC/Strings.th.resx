@@ -172,4 +172,10 @@
     <value>คุณอนุญาตให้ CustomRP ส่งการวิเคราะห์การใช้งานของคุณไปยังนักพัฒนาหรือไม่
 (ข้อมูลทั้งหมดถูกทำให้เป็นแบบไม่ระบุตัวตน)</value>
   </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>เกิดข้อผิดพลาดขณะบันทึกการตั้งค่า:</value>
+  </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>โปรดเพิ่มเส้นทาง "{0}" ให้กับข้อยกเว้นของโปรแกรมป้องกันไวรัส ให้ติดตั้ง CustomRP ใหม่ หากข้อผิดพลาดนี้ยังคงมีอยู่</value>
+  </data>
 </root>
