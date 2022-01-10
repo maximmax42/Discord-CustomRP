@@ -629,7 +629,7 @@ namespace CustomRPC
                 },
                 Party = new Party()
                 {
-                    ID = (settings.partySize != 0) ? "CustomRP" : "",
+                    ID = (settings.partySize > 0 && settings.partyMax > 0) ? "CustomRP" : "",
                     Size = (int)settings.partySize,
                     Max = (int)settings.partyMax
                 },
