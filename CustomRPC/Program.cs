@@ -4,56 +4,12 @@ using Microsoft.AppCenter.Crashes;
 using System;
 using System.Globalization;
 using System.IO;
-using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 
 namespace CustomRPC
 {
-    /// <summary>
-    /// Native Windows functions.
-    /// </summary>
-    /// <remarks>
-    /// Something adapted from <see href="https://www.codeproject.com/Articles/32908/C-Single-Instance-App-With-the-Ability-To-Restore"/>, something from ShareX.
-    /// </remarks>
-    static public class WinApi
-    {
-        [DllImport("user32")]
-        public static extern int RegisterWindowMessage(string message);
-
-        [DllImport("user32")]
-        public static extern bool PostMessage(IntPtr hwnd, int msg, IntPtr wparam, IntPtr lparam);
-
-        [DllImport("dwmapi.dll")]
-        private static extern int DwmSetWindowAttribute(IntPtr hwnd, int attr, ref int attrValue, int attrSize);
-
-        private const int DWMWA_USE_IMMERSIVE_DARK_MODE_BEFORE_20H1 = 19;
-        private const int DWMWA_USE_IMMERSIVE_DARK_MODE = 20;
-
-        public static bool UseImmersiveDarkMode(IntPtr handle)
-        {
-            if (IsWindows10OrGreater(17763))
-            {
-                var attribute = DWMWA_USE_IMMERSIVE_DARK_MODE_BEFORE_20H1;
-                if (IsWindows10OrGreater(18985))
-                {
-                    attribute = DWMWA_USE_IMMERSIVE_DARK_MODE;
-                }
-
-                int useImmersiveDarkMode = Properties.Settings.Default.darkMode ? 1 : 0;
-                return DwmSetWindowAttribute(handle, (int)attribute, ref useImmersiveDarkMode, sizeof(int)) == 0;
-            }
-
-            return false;
-        }
-
-        private static bool IsWindows10OrGreater(int build = -1)
-        {
-            return Environment.OSVersion.Version.Major >= 10 && Environment.OSVersion.Version.Build >= build;
-        }
-    }
-
     static class Program
     {
         public static Mutex AppMutex;
@@ -140,7 +96,7 @@ namespace CustomRPC
                     Analytics.SetEnabledAsync(allowAnalytics);
                     settings.analytics = allowAnalytics;
                     settings.analyticsAskedConsent = true;
-                    settings.Save();
+                    Utils.SaveSettings();
                 }
 
                 // Analytics and crashes
@@ -196,7 +152,7 @@ namespace CustomRPC
             }
             finally
             {
-                settings.Save();
+                Utils.SaveSettings();
             }
 
             GC.KeepAlive(AppMutex);

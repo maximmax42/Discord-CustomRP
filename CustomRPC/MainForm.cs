@@ -219,7 +219,7 @@ namespace CustomRPC
             if (settings.id != "" && settings.firstStart)
             {
                 settings.firstStart = false;
-                SaveSettings();
+                Utils.SaveSettings();
             }
 
             if (settings.firstStart)
@@ -232,7 +232,7 @@ namespace CustomRPC
                     Process.Start("https://github.com/maximmax42/Discord-CustomRP/wiki/Setting-Up");
 
                 settings.firstStart = false;
-                SaveSettings();
+                Utils.SaveSettings();
             }
             else if (settings.id != "" && ((settings.changedLanguage && settings.wasConnected) || (settings.autoconnect && !settings.changedLanguage)))
                 Connect();
@@ -310,24 +310,6 @@ namespace CustomRPC
             {
                 ToolStripManager.Renderer = new LightModeRenderer();
                 buttonConnect.FlatStyle = buttonDisconnect.FlatStyle = buttonUpdatePresence.FlatStyle = FlatStyle.Standard;
-            }
-        }
-
-        /// <summary>
-        /// A try-catch wrapper function for settings.Save().
-        /// </summary>
-        /// <returns><see langword="True"/> if settings were saved properly, <see langword="false"/> otherwise.</returns>
-        private bool SaveSettings()
-        {
-            try
-            {
-                settings.Save();
-                return true;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(this, $"{Strings.errorSavingSettings} {ex.Message}", Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return false;
             }
         }
 
@@ -808,7 +790,7 @@ namespace CustomRPC
                 settings.button1URL = preset.Button1URL;
                 settings.button2Text = preset.Button2Text;
                 settings.button2URL = preset.Button2URL;
-                SaveSettings();
+                Utils.SaveSettings();
 
                 switch (settings.timestamps)
                 {
@@ -928,7 +910,7 @@ namespace CustomRPC
             if (client != null)
                 client.Dispose();
 
-            if (SaveSettings())
+            if (Utils.SaveSettings())
                 Application.Exit();
         }
 
@@ -973,7 +955,7 @@ namespace CustomRPC
                     throw new NotImplementedException(setting.Name);
             }
 
-            SaveSettings();
+            Utils.SaveSettings();
         }
 
         /// <summary>
@@ -986,7 +968,7 @@ namespace CustomRPC
             settings.language = (string)lang.Tag;
             settings.changedLanguage = true;
             settings.wasConnected = buttonDisconnect.Enabled;
-            SaveSettings();
+            Utils.SaveSettings();
             Program.AppMutex.Close();
             Application.Restart();
         }
@@ -1110,7 +1092,7 @@ namespace CustomRPC
         /// </summary>
         private void Connect()
         {
-            SaveSettings();
+            Utils.SaveSettings();
 
             if (Init()) // If successfully initialized...
             {
@@ -1211,7 +1193,7 @@ namespace CustomRPC
                 return;
 
             settings.timestamps = btn.TabIndex; // I mean... it's a great container for int values
-            SaveSettings();
+            Utils.SaveSettings();
 
             dateTimePickerTimestamp.Enabled = settings.timestamps == 3;
         }
@@ -1273,7 +1255,7 @@ namespace CustomRPC
         /// </summary>
         private void Update(object sender, EventArgs e)
         {
-            SaveSettings();
+            Utils.SaveSettings();
             SetPresence();
         }
     }

@@ -38,7 +38,7 @@ namespace CustomRPC
             var settings = Properties.Settings.Default;
 
             settings.checkUpdates = !((CheckBox)sender).Checked;
-            settings.Save();
+            Utils.SaveSettings();
         }
     }
 }
