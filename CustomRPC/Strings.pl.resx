@@ -172,4 +172,10 @@ Aby go zresetować kliknij Tak, lub Nie żeby wyjść.</value>
     <value>Pozwalasz aplikacji CustomRP wysyłać analitykę używania do jej dewelopera?
 (Wszystkie dane są zdepersonalizowane.)</value>
   </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>Zapisywanie ustawień nie powiodło się:</value>
+  </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>Proszę dodaj "{0}" do listy ignorowanych aplikacji w swoim antywirusie. Jeśli ten błąd się powtarza zainstaluj ponownie CustomRP</value>
+  </data>
 </root>

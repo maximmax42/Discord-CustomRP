@@ -393,4 +393,7 @@ Jeżeli ma mieć jakikolwiek efekt, obydwa pola muszą być większe od 0.</valu
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
     <value>Pozwól na analitykę</value>
   </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tryb ciemny</value>
+  </data>
 </root>
