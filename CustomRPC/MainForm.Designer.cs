@@ -217,6 +217,7 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
+            this.luciousmcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -868,8 +869,9 @@
             // 
             this.spanishToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.vexotToolStripMenuItem,
-            this.epicToolStripMenuItem,
-            this.pabloToolStripMenuItem});
+            this.pabloToolStripMenuItem,
+            this.luciousmcToolStripMenuItem,
+            this.epicToolStripMenuItem});
             this.spanishToolStripMenuItem.Name = "spanishToolStripMenuItem";
             resources.ApplyResources(this.spanishToolStripMenuItem, "spanishToolStripMenuItem");
             // 
@@ -1709,6 +1711,11 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
+            // luciousmcToolStripMenuItem
+            // 
+            this.luciousmcToolStripMenuItem.Name = "luciousmcToolStripMenuItem";
+            resources.ApplyResources(this.luciousmcToolStripMenuItem, "luciousmcToolStripMenuItem");
+            // 
             // MainForm
             // 
             this.AllowDrop = true;
@@ -1962,6 +1969,7 @@
         private System.Windows.Forms.ToolStripMenuItem denisbolbaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem darkModeToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparatorSettings3;
+        private System.Windows.Forms.ToolStripMenuItem luciousmcToolStripMenuItem;
     }
 }
 

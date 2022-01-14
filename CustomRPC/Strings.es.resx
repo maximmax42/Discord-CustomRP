@@ -172,4 +172,10 @@ Pulse Sí para restablecer la configuración, pulse No para salir.</value>
     <value>Autoriza a CustomRP a enviar analíticas de uso al desarrollador?
 (Toda la información es despersonalizada.)</value>
   </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>Ha ocurrido un error al guardar las cambias:</value>
+  </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>Por favor, añade "{0}" a las excepciones de tu antivirus. Si este error persiste, reinstalar CustomRP.</value>
+  </data>
 </root>
