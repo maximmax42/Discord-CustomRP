@@ -117,65 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="error" xml:space="preserve">
-    <value>Erro</value>
+  <data name="labelInfo.Text" xml:space="preserve">
+    <value>O CustomRP crashou na sessão anterior devido à seguinte exceção não tratada:</value>
   </data>
-  <data name="errorNoID" xml:space="preserve">
-    <value>Nenhum ID especificado!</value>
-  </data>
-  <data name="errorUpdateFailed" xml:space="preserve">
-    <value>Ocorreu um erro ao baixar ou instalar uma atualização.
-Pressione "Sim" para tentar novamente ou "Não" para fazer o download manualmente.</value>
-  </data>
-  <data name="firstTimeRun" xml:space="preserve">
-    <value>Primeira execução</value>
-  </data>
-  <data name="firstTimeRunText" xml:space="preserve">
-    <value>Você gostaria de abrir um manual?
-Você pode abri-lo a qualquer momento em Ajuda -&gt; Abrir o manual ou pressionando F1.</value>
-  </data>
-  <data name="information" xml:space="preserve">
-    <value>Informações</value>
-  </data>
-  <data name="statusConnected" xml:space="preserve">
-    <value>Conectado</value>
-  </data>
-  <data name="statusConnecting" xml:space="preserve">
-    <value>Conectando...</value>
-  </data>
-  <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Falha na conexão (o Discord está executando?)</value>
-  </data>
-  <data name="statusDisconnected" xml:space="preserve">
-    <value>Desconectado</value>
-  </data>
-  <data name="statusError" xml:space="preserve">
-    <value>Erro de conexão (ID errado?)</value>
-  </data>
-  <data name="errorInvalidURL" xml:space="preserve">
-    <value>URL inválido especificado para os botões(s)!</value>
-  </data>
-  <data name="noUpdatesFound" xml:space="preserve">
-    <value>Nenhuma atualização encontrada!</value>
-  </data>
-  <data name="errorNoInternet" xml:space="preserve">
-    <value>Não consigo me conectar à internet!</value>
-  </data>
-  <data name="errorCorruptSettings" xml:space="preserve">
-    <value>O arquivo de configurações está corrompido.
-Pressione Sim para redefinir as configurações, pressione Não para sair.</value>
-  </data>
-  <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Falha ao importar a predefinição; o arquivo está ausente, corrompido ou não está formatado corretamente.</value>
-  </data>
-  <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>Você permite que o CustomRP envie sua análise de uso ao desenvolvedor?
-(Todos os dados são despersonalizados.)</value>
-  </data>
-  <data name="errorSavingSettings" xml:space="preserve">
-    <value>Ocorreu um erro ao salvar as configurações:</value>
-  </data>
-  <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>Adicione o caminho "{0}" às exceções do seu antivírus. Reinstale o CustomRP se esse erro persistir.</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Reportar Erro</value>
   </data>
 </root>

@@ -423,4 +423,10 @@ Para ter efeito, ambos os campos devem ser maiores que 0.</value>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>Conexão automática</value>
   </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Permitir Análise</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Modo Preto</value>
+  </data>
 </root>

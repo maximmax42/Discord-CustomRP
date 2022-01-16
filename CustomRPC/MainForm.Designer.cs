@@ -113,8 +113,9 @@
             this.alexGrivasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.spanishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vexotToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.epicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pabloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.luciousmcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.epicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.frenchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nicolasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hebrewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -217,7 +218,7 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.luciousmcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.slimakoiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -882,17 +883,22 @@
             this.vexotToolStripMenuItem.Tag = "";
             this.vexotToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
+            // pabloToolStripMenuItem
+            // 
+            this.pabloToolStripMenuItem.Name = "pabloToolStripMenuItem";
+            resources.ApplyResources(this.pabloToolStripMenuItem, "pabloToolStripMenuItem");
+            // 
+            // luciousmcToolStripMenuItem
+            // 
+            this.luciousmcToolStripMenuItem.Name = "luciousmcToolStripMenuItem";
+            resources.ApplyResources(this.luciousmcToolStripMenuItem, "luciousmcToolStripMenuItem");
+            // 
             // epicToolStripMenuItem
             // 
             this.epicToolStripMenuItem.Name = "epicToolStripMenuItem";
             resources.ApplyResources(this.epicToolStripMenuItem, "epicToolStripMenuItem");
             this.epicToolStripMenuItem.Tag = "";
             this.epicToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
-            // 
-            // pabloToolStripMenuItem
-            // 
-            this.pabloToolStripMenuItem.Name = "pabloToolStripMenuItem";
-            resources.ApplyResources(this.pabloToolStripMenuItem, "pabloToolStripMenuItem");
             // 
             // frenchToolStripMenuItem
             // 
@@ -1111,7 +1117,8 @@
             // portugeseBRToolStripMenuItem
             // 
             this.portugeseBRToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.viniciotricolorToolStripMenuItem});
+            this.viniciotricolorToolStripMenuItem,
+            this.slimakoiToolStripMenuItem});
             this.portugeseBRToolStripMenuItem.Name = "portugeseBRToolStripMenuItem";
             resources.ApplyResources(this.portugeseBRToolStripMenuItem, "portugeseBRToolStripMenuItem");
             // 
@@ -1711,10 +1718,10 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
-            // luciousmcToolStripMenuItem
+            // slimakoiToolStripMenuItem
             // 
-            this.luciousmcToolStripMenuItem.Name = "luciousmcToolStripMenuItem";
-            resources.ApplyResources(this.luciousmcToolStripMenuItem, "luciousmcToolStripMenuItem");
+            this.slimakoiToolStripMenuItem.Name = "slimakoiToolStripMenuItem";
+            resources.ApplyResources(this.slimakoiToolStripMenuItem, "slimakoiToolStripMenuItem");
             // 
             // MainForm
             // 
@@ -1970,6 +1977,7 @@
         private System.Windows.Forms.ToolStripMenuItem darkModeToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparatorSettings3;
         private System.Windows.Forms.ToolStripMenuItem luciousmcToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem slimakoiToolStripMenuItem;
     }
 }
 
