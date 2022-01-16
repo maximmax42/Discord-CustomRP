@@ -269,7 +269,7 @@
     <value>91, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>حمِّل التحديث</value>
+    <value>قم بتنزيل التحديث</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
     <value>تحديث الـPresence</value>
