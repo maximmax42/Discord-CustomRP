@@ -440,4 +440,10 @@
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>پەیوەندی ئۆتۆماتیک</value>
   </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>ڕێگەدان بە شیکردنەوە</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>مۆدی شەو</value>
+  </data>
 </root>

@@ -163,6 +163,19 @@
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
     <value>فایلی ڕێکبەندەکان تێکچووە.
-فشار بکە بە بەڵێ بۆ ڕێکخستنەوەی ڕێکبەندەکان، فشار بکە سەر نەخێر بۆ وازهێنان.</value>
+کلیک لە بەڵێ بکە بۆ ڕێکخستنەوەی ڕیزبەندییەکان، کلیک لە نەخێربکە  بۆ وازهێنان.</value>
+  </data>
+  <data name="errorInvalidPresetFile" xml:space="preserve">
+    <value>سەرکەوتوو نەبوو لە هێنانی پێشوەختە، فایلەکە ونبووە، تێکچووە، یان بە شێوەیەکی گونجاو چاک نەکراوە.</value>
+  </data>
+  <data name="askAnalyticsConsent" xml:space="preserve">
+    <value>ئایا ڕێگا بە CustomRP دەدەیت کە شیکەرەوەکانی بەکارهێنانەکەت بنێرێت بۆ گەشەپێدەرەکە؟
+(هەموو داتاکان پارێزراون.)</value>
+  </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>هەڵەیەک ڕوویدا لەکاتی خەزنکردنی ڕیزبەندییەکان:</value>
+  </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>تکایە "{0}" زیادبکە بۆ جیاکارییەکانی دژە ڤایرۆسەکەت. دووبارە CustomRP دابەزێنەوە ئەگەر ئەم هەڵەیە بەردەوام بوو.</value>
   </data>
 </root>

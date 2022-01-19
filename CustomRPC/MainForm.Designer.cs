@@ -148,6 +148,7 @@
             this.piterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.portugeseBRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viniciotricolorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.slimakoiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.romanianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.diDYROToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.denisbolbaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -218,7 +219,6 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.slimakoiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -1053,7 +1053,7 @@
             this.samTheNoobToolStripMenuItem.Image = global::CustomRPC.Properties.Resources.globe;
             this.samTheNoobToolStripMenuItem.Name = "samTheNoobToolStripMenuItem";
             resources.ApplyResources(this.samTheNoobToolStripMenuItem, "samTheNoobToolStripMenuItem");
-            this.samTheNoobToolStripMenuItem.Tag = "https://discord.gg/stn69";
+            this.samTheNoobToolStripMenuItem.Tag = "https://linktr.ee/stn69";
             this.samTheNoobToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
             // lithuanianToolStripMenuItem
@@ -1128,6 +1128,11 @@
             resources.ApplyResources(this.viniciotricolorToolStripMenuItem, "viniciotricolorToolStripMenuItem");
             this.viniciotricolorToolStripMenuItem.Tag = "";
             this.viniciotricolorToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
+            // 
+            // slimakoiToolStripMenuItem
+            // 
+            this.slimakoiToolStripMenuItem.Name = "slimakoiToolStripMenuItem";
+            resources.ApplyResources(this.slimakoiToolStripMenuItem, "slimakoiToolStripMenuItem");
             // 
             // romanianToolStripMenuItem
             // 
@@ -1717,11 +1722,6 @@
             this.textBoxID.Name = "textBoxID";
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
-            // 
-            // slimakoiToolStripMenuItem
-            // 
-            this.slimakoiToolStripMenuItem.Name = "slimakoiToolStripMenuItem";
-            resources.ApplyResources(this.slimakoiToolStripMenuItem, "slimakoiToolStripMenuItem");
             // 
             // MainForm
             // 

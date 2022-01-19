@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="buttonOK.Text" xml:space="preserve">
+    <value>باشە</value>
+  </data>
+  <data name="labelInfo.Text" xml:space="preserve">
+    <value>CustomRP لە بەکارهێنانی پێشوودا تێکچوو بەهۆی ئەم دەستانەی خوارەوە:</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -124,5 +130,8 @@
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ڕاپۆرتی هەڵە</value>
   </data>
 </root>
