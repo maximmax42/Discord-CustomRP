@@ -492,4 +492,7 @@ agar bekerja, kedua bidang harus lebih dari 0.</value>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
     <value>Izinkan Analisa</value>
   </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mode Gelap</value>
+  </data>
 </root>

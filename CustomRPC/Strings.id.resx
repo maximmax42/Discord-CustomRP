@@ -175,4 +175,7 @@ Tekan Ya untuk mereset pengaturan, tekan Tidak untuk keluar.</value>
   <data name="errorSavingSettings" xml:space="preserve">
     <value>Terjadi kesalahan saat menyimpan setelan:</value>
   </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>Harap tambahkan jalur "{0}" ke pengecualian antivirus Anda. Instal ulang CustomRP jika kesalahan ini berlanjut.</value>
+  </data>
 </root>
