@@ -879,6 +879,7 @@
   </data>
   <data name="slimakoiToolStripMenuItem.Text" xml:space="preserve">
     <value>Slimakoi</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="portugeseBRToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>237, 22</value>
