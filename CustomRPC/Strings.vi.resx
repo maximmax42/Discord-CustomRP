@@ -156,7 +156,7 @@ Bạn có thể mở nó bất cứ lúc nào bằng cách vào phần Trợ gi�
     <value>URL được chỉ định cho (các) nút không hợp lệ!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
-    <value>Không thể kết nối internet!</value>
+    <value>Không thể kết nối tới internet!</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
     <value>Không tìm thấy bản cập nhật nào!</value>

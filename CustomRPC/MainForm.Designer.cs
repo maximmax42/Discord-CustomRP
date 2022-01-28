@@ -219,6 +219,7 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
+            this.tranToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -1231,7 +1232,8 @@
             this.vietnameseToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MykmToolStripMenuItem,
             this.Phnthnhnm0612toolStripMenuItem,
-            this.dsbachleToolStripMenuItem});
+            this.dsbachleToolStripMenuItem,
+            this.tranToolStripMenuItem});
             this.vietnameseToolStripMenuItem.Name = "vietnameseToolStripMenuItem";
             resources.ApplyResources(this.vietnameseToolStripMenuItem, "vietnameseToolStripMenuItem");
             // 
@@ -1723,6 +1725,11 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
+            // tranToolStripMenuItem
+            // 
+            this.tranToolStripMenuItem.Name = "tranToolStripMenuItem";
+            resources.ApplyResources(this.tranToolStripMenuItem, "tranToolStripMenuItem");
+            // 
             // MainForm
             // 
             this.AllowDrop = true;
@@ -1978,6 +1985,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparatorSettings3;
         private System.Windows.Forms.ToolStripMenuItem luciousmcToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem slimakoiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tranToolStripMenuItem;
     }
 }
 

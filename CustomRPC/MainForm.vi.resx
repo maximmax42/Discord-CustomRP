@@ -305,7 +305,7 @@
     <value>Ngắt kết nối</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Ngắt kết nối ứng dụng khỏi Discord. Làm ơn ghi nhớ rằng thao tác này cần mất một lúc để thực hiện.</value>
+    <value>Ngắt kết nối ứng dụng khỏi Discord. Hãy ghi nhớ rằng thao tác này cần mất một lúc để thực hiện.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>ID của ứng dụng từ trang Discord Developers.</value>
