@@ -447,4 +447,7 @@ Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
     <value>Sta analyse toe</value>
   </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Donkere modus</value>
+  </data>
 </root>
