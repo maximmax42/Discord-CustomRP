@@ -172,4 +172,7 @@ Tryk Ja for at nulstille den, tryk Nej for at afslutte.</value>
     <value>Vil du tillade CustomRP at sende forbrugs analyser til udvikleren?
 (Alt data er ikke forbundet til dig som bruger.)</value>
   </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>Tilføj venligst "{0}"-stien til dit antivirus-undtagelser. Geninstaller CustomRP, hvis denne fejl fortsætter.</value>
+  </data>
 </root>

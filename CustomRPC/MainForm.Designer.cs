@@ -166,6 +166,7 @@
             this.MykmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Phnthnhnm0612toolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dsbachleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tranToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.simplifiedChineseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zjsunToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zozochaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -219,7 +220,7 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.tranToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.davidToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -800,7 +801,8 @@
             // 
             this.danishToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sebastianHviidToolStripMenuItem,
-            this.tobiasToolStripMenuItem});
+            this.tobiasToolStripMenuItem,
+            this.davidToolStripMenuItem});
             this.danishToolStripMenuItem.Name = "danishToolStripMenuItem";
             resources.ApplyResources(this.danishToolStripMenuItem, "danishToolStripMenuItem");
             // 
@@ -1258,6 +1260,11 @@
             resources.ApplyResources(this.dsbachleToolStripMenuItem, "dsbachleToolStripMenuItem");
             this.dsbachleToolStripMenuItem.Tag = "";
             this.dsbachleToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
+            // 
+            // tranToolStripMenuItem
+            // 
+            this.tranToolStripMenuItem.Name = "tranToolStripMenuItem";
+            resources.ApplyResources(this.tranToolStripMenuItem, "tranToolStripMenuItem");
             // 
             // simplifiedChineseToolStripMenuItem
             // 
@@ -1725,10 +1732,10 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
-            // tranToolStripMenuItem
+            // davidToolStripMenuItem
             // 
-            this.tranToolStripMenuItem.Name = "tranToolStripMenuItem";
-            resources.ApplyResources(this.tranToolStripMenuItem, "tranToolStripMenuItem");
+            this.davidToolStripMenuItem.Name = "davidToolStripMenuItem";
+            resources.ApplyResources(this.davidToolStripMenuItem, "davidToolStripMenuItem");
             // 
             // MainForm
             // 
@@ -1986,6 +1993,7 @@
         private System.Windows.Forms.ToolStripMenuItem luciousmcToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem slimakoiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tranToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem davidToolStripMenuItem;
     }
 }
 

@@ -553,18 +553,24 @@
     <comment>@Invariant</comment>
   </data>
   <data name="sebastianHviidToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
+    <value>222, 22</value>
   </data>
   <data name="sebastianHviidToolStripMenuItem.Text" xml:space="preserve">
     <value>Sebastian Hviid</value>
     <comment>@Invariant</comment>
   </data>
   <data name="tobiasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
+    <value>222, 22</value>
   </data>
   <data name="tobiasToolStripMenuItem.Text" xml:space="preserve">
     <value>Tobias</value>
     <comment>@Invariant</comment>
+  </data>
+  <data name="davidToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="davidToolStripMenuItem.Text" xml:space="preserve">
+    <value>David Gjøtterup Malmstrøm</value>
   </data>
   <data name="danishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>237, 22</value>
@@ -980,28 +986,28 @@
     <comment>@Invariant</comment>
   </data>
   <data name="MykmToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>162, 22</value>
   </data>
   <data name="MykmToolStripMenuItem.Text" xml:space="preserve">
     <value>Mykm</value>
     <comment>@Invariant</comment>
   </data>
   <data name="Phnthnhnm0612toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>162, 22</value>
   </data>
   <data name="Phnthnhnm0612toolStripMenuItem.Text" xml:space="preserve">
     <value>Phnthnhnm0612</value>
     <comment>@Invariant</comment>
   </data>
   <data name="dsbachleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>162, 22</value>
   </data>
   <data name="dsbachleToolStripMenuItem.Text" xml:space="preserve">
     <value>dsbachle</value>
     <comment>@Invariant</comment>
   </data>
   <data name="tranToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>162, 22</value>
   </data>
   <data name="tranToolStripMenuItem.Text" xml:space="preserve">
     <value>03_Trần</value>
@@ -3216,6 +3222,12 @@ To take effect, both fields should be more than 0.</value>
   <data name="&gt;&gt;dsbachleToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;tranToolStripMenuItem.Name" xml:space="preserve">
+    <value>tranToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;tranToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;simplifiedChineseToolStripMenuItem.Name" xml:space="preserve">
     <value>simplifiedChineseToolStripMenuItem</value>
   </data>
@@ -3288,10 +3300,10 @@ To take effect, both fields should be more than 0.</value>
   <data name="&gt;&gt;toolStripStatusLabelStatus.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tranToolStripMenuItem.Name" xml:space="preserve">
-    <value>tranToolStripMenuItem</value>
+  <data name="&gt;&gt;davidToolStripMenuItem.Name" xml:space="preserve">
+    <value>davidToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;tranToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;davidToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
