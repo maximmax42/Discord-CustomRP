@@ -368,7 +368,7 @@
     <value>Вторая строка в статусе.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Название ассета маленького изображения.</value>
+    <value>Название ассета маленького изображения или ссылка на изображение.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Текст, отображаемый при наведении на маленькое изображение.</value>
@@ -377,7 +377,7 @@
     <value>Текст, отображаемый при наведении на большое изображение.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Название ассета большого изображения.</value>
+    <value>Название ассета большого изображения или ссылка на изображение.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 14</value>
