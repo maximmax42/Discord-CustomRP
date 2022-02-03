@@ -323,7 +323,7 @@
     <value>Друга строка статусу.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Назва ассету для маленького зображення.</value>
+    <value>Назва ассету для маленького зображення або URL-адреса зображення.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Текст над маленьким зображенням.</value>
@@ -332,7 +332,7 @@
     <value>Текст над великим зображенням.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Назва ассету для великого зображення.</value>
+    <value>Назва ассету для великого зображення або URL-адреса зображення.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>129, 14</value>

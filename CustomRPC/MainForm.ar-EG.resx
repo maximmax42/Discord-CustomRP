@@ -272,19 +272,19 @@
     <value>قم بتنزيل التحديث</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>تحديث الـPresence</value>
+    <value>تحديث الحالة</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>يُحدِّث الـPresence.</value>
+    <value>يُحدِّث الحالة.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>اتصال</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>ربط التطبيق بمعرف محدد مع الـPresence.</value>
+    <value>ربط التطبيق بمعرف محدد مع الحالة.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
-    <value>انقطع الاتصال</value>
+    <value>قطع الاتصال</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
     <value>قطع اتصال التطبيق من الـDiscord. يرجى ملاحظة أنه قد يستغرق بعض الوقت.</value>
@@ -293,13 +293,13 @@
     <value>رقم معرف التطبيق من موقع Discord للمُطوِّرين.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>السطر الأول في الـPresence.</value>
+    <value>السطر الأول في الحالة.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>السطر الثاني في الـPresence.</value>
+    <value>السطر الثاني في الحالة.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>اسم الأصل للصورة الصغيرة.</value>
+    <value>اسم الأصل للصورة الصغيرة أو عنوان URL للصورة.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>النص المعروض عند التمرير فوق الصورة الصغيرة.</value>
@@ -308,7 +308,7 @@
     <value>النص المعروض عند التمرير فوق الصورة الكبيرة.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>اسم الأصل للصورة الكبيرة.</value>
+    <value>اسم الأصل للصورة الكبيرة أو عنوان URL للصورة.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 14</value>
