@@ -314,7 +314,7 @@
     <value>Tweede lijn in aanwezigheid.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Naam van het item voor de kleine afbeelding.</value>
+    <value>Naam van het item voor kleine afbeelding of een afbeeldings-URL.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Tekst die wordt weergegeven wanneer u over de kleine afbeelding zweeft.</value>
@@ -323,7 +323,7 @@
     <value>Tekst die wordt weergegeven wanneer u over de groote afbeelding zweeft.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Naam van het item voor de groote afbeelding.</value>
+    <value>Naam van het item voor grote afbeelding of een afbeeldings-URL.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 14</value>
