@@ -310,17 +310,11 @@
   <data name="labelState.ToolTip" xml:space="preserve">
     <value>Segunda linha na presença.</value>
   </data>
-  <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Nome escolhido para imagem pequena no site discord developers.</value>
-  </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Texto exibido ao passar o mouse sobre a imagem pequena.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
     <value>Texto exibido ao passar o mouse sobre a imagem grande.</value>
-  </data>
-  <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Nome escolhido para imagem grande no site discord developers.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>103, 14</value>

@@ -310,17 +310,11 @@
   <data name="labelState.ToolTip" xml:space="preserve">
     <value>دووەم هێڵی شێوازەکەت.</value>
   </data>
-  <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>ناوی ئاسێتی وێنەی بچووک.</value>
-  </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>ئەو نووسینەی کاتێک ماوسەکەت ئەخەیتە سەر وێنە بچووکەکە.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
     <value>ئەو نووسینەی کاتێک ماوسەکەت ئەخەیتە سەر وێنە گەورەکە.</value>
-  </data>
-  <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>ناوی ئاسێتی وێنەی گەورە.</value>
   </data>
   <data name="labelSmall.Text" xml:space="preserve">
     <value>وێنەی بچووک</value>

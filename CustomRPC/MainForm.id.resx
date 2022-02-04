@@ -376,17 +376,11 @@
   <data name="labelState.ToolTip" xml:space="preserve">
     <value>Baris kedua dari presence.</value>
   </data>
-  <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Nama aset untuk gambar yang kecil.</value>
-  </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Teks yang ditampilkan saat mengarahkan gambar kecil.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
     <value>Teks yang ditampilkan saat mengarahkan gambar besar.</value>
-  </data>
-  <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Nama aset untuk gambar yang besar.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 14</value>

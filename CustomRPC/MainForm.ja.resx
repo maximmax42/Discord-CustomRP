@@ -373,17 +373,11 @@
   <data name="labelState.ToolTip" xml:space="preserve">
     <value>プレセンスの二行目。</value>
   </data>
-  <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>小さい画像のアセット名。</value>
-  </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>小さい画像にカーソルを合わせると表示されるテキスト</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
     <value>大きい画像にカーソルを合わせると表示されるテキスト</value>
-  </data>
-  <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>大きい画像のアセット名。</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 14</value>

@@ -201,17 +201,11 @@
   <data name="labelState.ToolTip" xml:space="preserve">
     <value>狀態欄的第二行。</value>
   </data>
-  <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>小圖示的檔案名稱。</value>
-  </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>滑鼠移動到小圖示時所顯示的文字。</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
     <value>滑鼠移動到大圖示時所顯示的文字。</value>
-  </data>
-  <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>小圖示的檔案名稱。</value>
   </data>
   <data name="labelSmall.Text" xml:space="preserve">
     <value>小圖示</value>

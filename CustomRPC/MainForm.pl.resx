@@ -268,17 +268,11 @@
   <data name="labelState.ToolTip" xml:space="preserve">
     <value>Druga linia w Statusie.</value>
   </data>
-  <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Nazwa małego zdjęcia.</value>
-  </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Tekst pojawiający się najeżdżając na małe zdjęcie.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
     <value>Tekst pojawiający się najeżdżając na duże zdjęcie.</value>
-  </data>
-  <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Nazwa dużego zdjęcia.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 14</value>

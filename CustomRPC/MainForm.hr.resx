@@ -201,17 +201,11 @@
   <data name="labelState.ToolTip" xml:space="preserve">
     <value>Druga linija u prisutnošću.</value>
   </data>
-  <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Ime za malu sliku.</value>
-  </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Tekst prikazan kada se lebdi iznad male slike.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
     <value>Tekst prikazan kada se lebdi iznad velike slike.</value>
-  </data>
-  <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Ime za veliku sliku.</value>
   </data>
   <data name="labelSmall.Text" xml:space="preserve">
     <value>Mala slika</value>

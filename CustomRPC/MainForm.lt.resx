@@ -298,17 +298,11 @@
   <data name="labelState.ToolTip" xml:space="preserve">
     <value>Antroji eilutė prezentacijoje.</value>
   </data>
-  <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Pavadinimas išsaugoto mažojo paveiksliuko.</value>
-  </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Tekstas kai užvesite pelę ant mažojo paveiksliuko.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
     <value>Tekstas kai užvesite pelę ant didžiojo paveiksliuko.</value>
-  </data>
-  <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Vardas išsaugoto didelio paveiksliuko.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>109, 14</value>

@@ -373,17 +373,11 @@
   <data name="labelState.ToolTip" xml:space="preserve">
     <value>Durumun İkinci Satırı.</value>
   </data>
-  <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Küçük Resim için şemanın ismi.</value>
-  </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Küçük Resimin üstüne gelindiğinde çıkması istenen metin.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
     <value>Büyük Resimin üstüne gelindiğinde çıkması istenen metin.</value>
-  </data>
-  <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Büyük Resim için şemanın ismi.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 14</value>

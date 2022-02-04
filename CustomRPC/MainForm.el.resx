@@ -400,17 +400,11 @@
   <data name="labelState.ToolTip" xml:space="preserve">
     <value>Δεύτερη γραμμή στην παρουσία.</value>
   </data>
-  <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Όνομα του στοιχείου για μικρή εικόνα.</value>
-  </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Το κείμενο που εμφανίζεται όταν τοποθετείτε τον δείκτη του ποντικιού στη μικρή εικόνα.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
     <value>Το κείμενο που εμφανίζεται όταν τοποθετείτε τον δείκτη του ποντικιού στη μεγάλη εικόνα.</value>
-  </data>
-  <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Όνομα του στοιχείου για μεγάλη εικόνα.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 14</value>

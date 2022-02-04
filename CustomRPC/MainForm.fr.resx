@@ -313,17 +313,11 @@
   <data name="labelState.ToolTip" xml:space="preserve">
     <value>Seconde ligne de la présence.</value>
   </data>
-  <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Nom de la ressource pour la petite image.</value>
-  </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Texte affiché quand la souris survole la petite image.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
     <value>Texte affiché quand la souris survole la grande image.</value>
-  </data>
-  <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Nom de la resource pour la grande image.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 14</value>
