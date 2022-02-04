@@ -202,7 +202,7 @@
     <value>활동 상태의 두 번째 줄입니다.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>작은 이미지를 위한 에셋의 이름입니다.</value>
+    <value>작은 이미지나 이미지 URL을 위한 에셋의 이름입니다.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>작은 이미지에 커서를 올렸을 때 표시되는 텍스트입니다.</value>
@@ -211,7 +211,7 @@
     <value>큰 이미지에 커서를 올렸을 때 표시되는 텍스트입니다.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>큰 이미지를 위한 에셋의 이름입니다.</value>
+    <value>큰 이미지나 이미지 URL을 위한 에셋의 이름입니다.</value>
   </data>
   <data name="labelSmall.Text" xml:space="preserve">
     <value>작은 이미지</value>
