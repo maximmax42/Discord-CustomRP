@@ -390,4 +390,10 @@ Jeżeli ma mieć jakikolwiek efekt, obydwa pola muszą być większe od 0.</valu
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>Tryb ciemny</value>
   </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>Nazwa małego zdjęcia lub link.</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>Nazwa dużego zdjęcia lub link.</value>
+  </data>
 </root>

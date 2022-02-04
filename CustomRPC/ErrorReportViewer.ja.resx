@@ -124,6 +124,6 @@
     <value>はい</value>
   </data>
   <data name="labelInfo.Text" xml:space="preserve">
-    <value>CustomRPは次の未処理の例外のためにセッションでクラッシュしました:</value>
+    <value>CustomRPは以下の未処理の例外のためにセッションでクラッシュしました:</value>
   </data>
 </root>
