@@ -426,4 +426,10 @@ Pour prendre effet, les deux champs doivent être supérieurs à 0.</value>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>Mode sombre</value>
   </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>Nom du fichier de la petite image ou URL d'image.</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>Nom du fichier de la grande image ou URL d'image.</value>
+  </data>
 </root>
