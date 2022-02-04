@@ -299,4 +299,10 @@
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>黑暗模式</value>
   </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>大圖示的檔案名稱或URL連結。</value>
+  </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>小圖示的檔案名稱或URL連結。</value>
+  </data>
 </root>

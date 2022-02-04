@@ -438,4 +438,10 @@
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>黑暗模式</value>
   </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>大图示的档案名称或URL连结。</value>
+  </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>小图示的档案名称或URL连结。</value>
+  </data>
 </root>
