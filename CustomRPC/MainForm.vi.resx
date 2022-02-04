@@ -305,7 +305,7 @@
     <value>Ngắt kết nối</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Ngắt kết nối ứng dụng khỏi Discord. Hãy ghi nhớ rằng thao tác này cần mất một lúc để thực hiện.</value>
+    <value>Ngắt kết nối ứng dụng khỏi Discord. Hãy ghi nhớ rằng thao tác này cần mất một lúc.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>ID của ứng dụng từ trang Discord Developers.</value>
@@ -317,7 +317,7 @@
     <value>Dòng hai của hoạt động.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Tên thiết lập của hình ảnh nhỏ.</value>
+    <value>Tên thiết lập của hình ảnh nhỏ hoặc một URL của hình ảnh.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Văn bản hiển thị khi di chuột vào hình ảnh nhỏ.</value>
@@ -326,7 +326,7 @@
     <value>Văn bản hiển thị khi di chuột vào hình ảnh lớn.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Tên thiết lập của hình ảnh lớn.</value>
+    <value>Tên thiết lập của hình ảnh lớn hoặc URL của ảnh.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 14</value>

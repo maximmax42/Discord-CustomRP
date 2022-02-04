@@ -202,7 +202,7 @@
     <value>A doua linie în prezență.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Numele materialului pentru imaginea mică.</value>
+    <value>Numele materialului pentru imaginea mică sau adresa URL a imagini.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Text afișat când treceți cu mouse-ul pe imaginea mică.</value>
@@ -211,7 +211,7 @@
     <value>Text afișat când treceți cu mouse-ul pe imaginea mare.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Numele assetului pentru imaginea mare.</value>
+    <value>Numele materialului pentru imaginea mare sau adresă URL.</value>
   </data>
   <data name="labelSmall.Text" xml:space="preserve">
     <value>Imaginea mică</value>

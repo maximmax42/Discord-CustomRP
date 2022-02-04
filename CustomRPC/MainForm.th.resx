@@ -311,7 +311,7 @@
     <value>บรรทัดที่สองใน presence</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>ชื่อของเนื้อหา สำหรับรูปภาพขนาดเล็ก</value>
+    <value>ชื่อของเนื้อหา สำหรับรูปภาพขนาดเล็กหรือ URL รูปภาพ</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>ข้อความที่แสดง เมื่อวางเมาส์เหนือรูปภาพขนาดเล็ก</value>
@@ -320,7 +320,7 @@
     <value>ข้อความที่แสดง เมื่อวางเมาส์เหนือรูปภาพขนาดใหญ่</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>ชื่อของเนื้อหาสำหรับรูปภาพขนาดใหญ่</value>
+    <value>ชื่อของเนื้อหาสำหรับรูปภาพขนาดใหญ่หรือ URL รูปภาพ</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>85, 14</value>

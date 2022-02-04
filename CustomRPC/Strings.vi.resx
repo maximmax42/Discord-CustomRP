@@ -153,7 +153,7 @@ Bạn có thể mở nó bất cứ lúc nào bằng cách vào phần Trợ gi�
     <value>Lỗi kết nối (ID sai?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>URL được chỉ định cho (các) nút không hợp lệ!</value>
+    <value>URL được chỉ định cho (các) nút không hợp lệ hoặc văn bản quá dài!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
     <value>Không thể kết nối tới internet!</value>
