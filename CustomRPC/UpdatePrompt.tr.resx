@@ -141,7 +141,7 @@
 En son sürüm:</value>
   </data>
   <data name="buttonSkipUpdate.Text" xml:space="preserve">
-    <value>Bu versiyonu atla</value>
+    <value>Bu Versiyonu Atla</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Güncelleme Mevcut</value>

@@ -121,7 +121,7 @@
     <value>Tekrar göstermek için ikona çift tıklayın, ya da çıkmak için sağ tıklayın.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>Program görev çubuğunda çalışmaya devam edecek.</value>
+    <value>Uygulama sistem tepsisimde çalışacak.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -134,7 +134,7 @@
     <value>144, 22</value>
   </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
-    <value>Tekrar Bağlan</value>
+    <value>Yeniden Bağlan</value>
   </data>
   <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
     <value>141, 6</value>
@@ -188,13 +188,13 @@
     <value>214, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sistem açılışında çalıştır</value>
+    <value>Başlangıçta çalıştır</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>214, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Küçültülmüş şekilde başlat</value>
+    <value>Küçültülmüş Şekilde Başlat</value>
   </data>
   <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 6</value>
@@ -203,7 +203,7 @@
     <value>214, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Güncellemeleri kontrol et</value>
+    <value>Güncellemeleri Kontrol Et</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 6</value>
@@ -296,7 +296,7 @@
     <value>216, 22</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>GitHub sayfası</value>
+    <value>GitHub Sayfası</value>
   </data>
   <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 6</value>
@@ -314,7 +314,7 @@
     <value>216, 22</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Güncellemeleri kontrol et...</value>
+    <value>Güncellemeleri Kontrol Et...</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>216, 22</value>
@@ -332,13 +332,13 @@
     <value>122, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Güncellemeyi yükle</value>
+    <value>Güncellemeyi İndir</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Durumu güncelle</value>
+    <value>Durumu Güncelle</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Durum günceller.</value>
+    <value>Durumu günceller.</value>
   </data>
   <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>226, 50</value>
@@ -362,22 +362,22 @@
     <value>Bağlantıyı Kes</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Uygulamanın Discord ile Bağlantısını Keser. Biraz zaman alabileceğini unutmayın.</value>
+    <value>Uygulamanın Discord ile bağlantısını keser. Biraz zaman alabileceğini unutmayın.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>Discord Developers sitesindeki uygulama kimliği.</value>
+    <value>Discord Geliştiricileri sitesindeki uygulama kimliği.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>Durumun İlk Satırı.</value>
+    <value>Durumun ilk satırı.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>Durumun İkinci Satırı.</value>
+    <value>Durumun ikinci satırı.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Küçük Resimin üstüne gelindiğinde çıkması istenen metin.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>Büyük Resimin üstüne gelindiğinde çıkması istenen metin.</value>
+    <value>Büyük resmin üstüne gelindiğinde çıkması istenen metin.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 14</value>
@@ -386,7 +386,7 @@
     <value>Küçük Resim</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>Büyük Resimin sağ alt köşesinde gözükmesi istenen resim.</value>
+    <value>Büyük resmin sağ alt köşesinde gözükmesi istenen resim.</value>
   </data>
   <data name="labelLarge.Text" xml:space="preserve">
     <value>Büyük Resim</value>
@@ -401,16 +401,16 @@
     <value>Hiçbiri</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Zaman damgası aktif değil.</value>
+    <value>Zaman damgası devre dışı.</value>
   </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>CustomRP başladığından beri</value>
+    <value>CustomRP başlatıldığından beri</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>Uygulama başladığından beri geçen süreyi gösterir.</value>
+    <value>Uygulamanın başlatıldığından beri geçen süreyi gösterir.</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>95, 18</value>
@@ -423,11 +423,11 @@
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>Yukarıdaki metinlerin altında gözüken durum için zaman damgasını ayarlar.
-Durum Zamanlayıcısının 24 saat sınırı vardır, yani 24 saatten sonra 0:00'a geri dönecektir.</value>
+Durum zamanlayıcısının 24 saat sınırı vardır, yani 24 saatten sonra 0:00'a geri dönecektir.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
     <value>Durum alanının yanında gösterilen mevcut partideki oyuncu sayısı.
-Etkili olması için, İki alan da 0'dan büyük olmadılır.</value>
+Etkili olması için, iki alan da 0'dan büyük olmadılır.</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 18</value>
@@ -445,7 +445,7 @@ Etkili olması için, İki alan da 0'dan büyük olmadılır.</value>
     <value>Düğme 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>Açılan küçük profilideki durumuzun sağ altında gözüken iki düğmeden ilki.</value>
+    <value>Açılan küçük profilinizdeki durumuzun altında ve tam profilinizin sağında görünen düğme.</value>
   </data>
   <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 14</value>
@@ -454,16 +454,16 @@ Etkili olması için, İki alan da 0'dan büyük olmadılır.</value>
     <value>Düğme 2</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>İlk düğmenin hemen altında veya ilk düğme ayarlanmamışsa onun yerine görünen ikinci düğme.</value>
+    <value>Birinci düğmenin hemen altında veya eğer ayarlanmamışsa onun yerine görünen ikinci düğme.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>URL, düğmeye tıkladıktan sonra kullanıcıda açılacaktır.</value>
+    <value>Tıkladığında kullanıcıyı götüreceği URL.</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>URL, düğmeye tıkladıktan sonra kullanıcıda açılacaktır.</value>
+    <value>Tıkladığında kullanıcıyı götüreceği URL.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
-    <value>İlk düğmenin etiketi.</value>
+    <value>Birinci düğmenin etiketi.</value>
   </data>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
     <value>İkinci düğmenin etiketi.</value>
@@ -472,12 +472,21 @@ Etkili olması için, İki alan da 0'dan büyük olmadılır.</value>
     <value>23, 14</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
-    <value>nın</value>
+    <value>/</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>Otomatik Bağlan</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Analizlere izin ver</value>
+    <value>Analitiğe izin ver</value>
+  </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>Küçük resim için resimin adı ya da bir resim URL'si.</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>Büyük resim için resimin adı ya da bir resim URL'si.</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Karanlık Mod</value>
   </data>
 </root>

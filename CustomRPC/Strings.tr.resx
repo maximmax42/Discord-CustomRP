@@ -121,7 +121,7 @@
     <value>Hata</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>Belirtilmiş Kimlik yok!</value>
+    <value>Belirtilmiş kimlik yok!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
     <value>Bir güncelleme indirilirken veya yüklenirken bir hata oluştu.
@@ -132,7 +132,7 @@ Yeniden denemek için "Evet"e veya manuel olarak indirmek için "Hayır"a basın
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Bir kılavuzu açmak ister misiniz?
-İstediğiniz zaman Yardım sekmesine giderek, Kılavuzu Aç'a giderek veya F1'e basarak açabilirsiniz.</value>
+İstediğiniz zaman Yardım -&gt; Kılavuzu Aç'a giderek veya F1'e basarak açabilirsiniz.</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>Bilgi</value>
@@ -150,7 +150,7 @@ Yeniden denemek için "Evet"e veya manuel olarak indirmek için "Hayır"a basın
     <value>Bağlantı kesildi</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>Bağlantı hatası (Yanlış Kimlik?)</value>
+    <value>Bağlantı hatası (Yanlış kimlik?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
     <value>Düğme(ler) için geçersiz URL belirtildi veya metin çok uzun!</value>
@@ -169,7 +169,13 @@ Ayarları sıfırlamak için Evet'e, çıkmak için Hayır'a basın.</value>
     <value>Ön ayar içe aktarılamadı; dosya eksik, bozuk veya düzgün biçimlendirilmemiş.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>CustomRP'nin kullanım analizlerinizi geliştiriciye göndermesine izin veriyor musunuz?
-(Tüm veriler kişiselleştirilmemiştir.)</value>
+    <value>CustomRP'nin kullanım analitiğinizi geliştiriciye göndermesine izin veriyor musunuz?
+(Tüm veriler depersonalize edilmiştir.)</value>
+  </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>Ayarlar kaydedilirken bir hata meydana geldi:</value>
+  </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>Lütfen "{0}" yolunu antivirüsünüzün istisnalarına ekleyiniz. Eğer bu hatayı almaya devam ederseniz CustomRP'yi yeniden yükleyiniz.</value>
   </data>
 </root>

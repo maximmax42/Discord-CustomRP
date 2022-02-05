@@ -104,6 +104,7 @@
             this.danishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sebastianHviidToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tobiasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.davidToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.germanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ypsolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ahmadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -220,7 +221,7 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.davidToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.yusufToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -816,6 +817,11 @@
             this.tobiasToolStripMenuItem.Name = "tobiasToolStripMenuItem";
             resources.ApplyResources(this.tobiasToolStripMenuItem, "tobiasToolStripMenuItem");
             // 
+            // davidToolStripMenuItem
+            // 
+            this.davidToolStripMenuItem.Name = "davidToolStripMenuItem";
+            resources.ApplyResources(this.davidToolStripMenuItem, "davidToolStripMenuItem");
+            // 
             // germanToolStripMenuItem
             // 
             this.germanToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -1198,7 +1204,8 @@
             // turkishToolStripMenuItem
             // 
             this.turkishToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ozanToolStripMenuItem});
+            this.ozanToolStripMenuItem,
+            this.yusufToolStripMenuItem});
             this.turkishToolStripMenuItem.Name = "turkishToolStripMenuItem";
             resources.ApplyResources(this.turkishToolStripMenuItem, "turkishToolStripMenuItem");
             // 
@@ -1732,10 +1739,10 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
-            // davidToolStripMenuItem
+            // yusufToolStripMenuItem
             // 
-            this.davidToolStripMenuItem.Name = "davidToolStripMenuItem";
-            resources.ApplyResources(this.davidToolStripMenuItem, "davidToolStripMenuItem");
+            this.yusufToolStripMenuItem.Name = "yusufToolStripMenuItem";
+            resources.ApplyResources(this.yusufToolStripMenuItem, "yusufToolStripMenuItem");
             // 
             // MainForm
             // 
@@ -1994,6 +2001,7 @@
         private System.Windows.Forms.ToolStripMenuItem slimakoiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tranToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem davidToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem yusufToolStripMenuItem;
     }
 }
 

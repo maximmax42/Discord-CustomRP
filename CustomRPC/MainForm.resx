@@ -930,14 +930,14 @@
     <comment>@Invariant</comment>
   </data>
   <data name="squisheeFreshyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="squisheeFreshyToolStripMenuItem.Text" xml:space="preserve">
     <value>Squishee Freshy</value>
     <comment>@Invariant</comment>
   </data>
   <data name="gameToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="gameToolStripMenuItem.Text" xml:space="preserve">
     <value>Game</value>
@@ -951,11 +951,17 @@
     <comment>@Invariant</comment>
   </data>
   <data name="ozanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="ozanToolStripMenuItem.Text" xml:space="preserve">
     <value>Ozan Akyüz</value>
     <comment>@Invariant</comment>
+  </data>
+  <data name="yusufToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="yusufToolStripMenuItem.Text" xml:space="preserve">
+    <value>Yusuf</value>
   </data>
   <data name="turkishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>237, 22</value>
@@ -2850,6 +2856,12 @@ To take effect, both fields should be more than 0.</value>
   <data name="&gt;&gt;tobiasToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;davidToolStripMenuItem.Name" xml:space="preserve">
+    <value>davidToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;davidToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;germanToolStripMenuItem.Name" xml:space="preserve">
     <value>germanToolStripMenuItem</value>
   </data>
@@ -3300,10 +3312,10 @@ To take effect, both fields should be more than 0.</value>
   <data name="&gt;&gt;toolStripStatusLabelStatus.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;davidToolStripMenuItem.Name" xml:space="preserve">
-    <value>davidToolStripMenuItem</value>
+  <data name="&gt;&gt;yusufToolStripMenuItem.Name" xml:space="preserve">
+    <value>yusufToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;davidToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;yusufToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
