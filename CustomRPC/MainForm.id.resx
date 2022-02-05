@@ -489,4 +489,10 @@ agar bekerja, kedua bidang harus lebih dari 0.</value>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>Mode Gelap</value>
   </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>Nama aset untuk gambar kecil atau URL gambar.</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>Nama aset untuk gambar besar atau URL gambar.</value>
+  </data>
 </root>
