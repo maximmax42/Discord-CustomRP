@@ -160,6 +160,7 @@
             this.gameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.turkishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ozanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.yusufToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ukrainianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mechaniXToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dmitromintenkoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -221,7 +222,6 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.yusufToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -1216,6 +1216,11 @@
             this.ozanToolStripMenuItem.Tag = "";
             this.ozanToolStripMenuItem.Click += new System.EventHandler(this.OpenTranslatorPage);
             // 
+            // yusufToolStripMenuItem
+            // 
+            this.yusufToolStripMenuItem.Name = "yusufToolStripMenuItem";
+            resources.ApplyResources(this.yusufToolStripMenuItem, "yusufToolStripMenuItem");
+            // 
             // ukrainianToolStripMenuItem
             // 
             this.ukrainianToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -1738,11 +1743,6 @@
             this.textBoxID.Name = "textBoxID";
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
-            // 
-            // yusufToolStripMenuItem
-            // 
-            this.yusufToolStripMenuItem.Name = "yusufToolStripMenuItem";
-            resources.ApplyResources(this.yusufToolStripMenuItem, "yusufToolStripMenuItem");
             // 
             // MainForm
             // 

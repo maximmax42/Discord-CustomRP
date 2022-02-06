@@ -511,45 +511,45 @@
     <value>182, 6</value>
   </data>
   <data name="fiberAhmedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="fiberAhmedToolStripMenuItem.Text" xml:space="preserve">
     <value>FiberAhmed</value>
     <comment>@Invariant</comment>
   </data>
   <data name="shadowlToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="shadowlToolStripMenuItem.Text" xml:space="preserve">
     <value>ShadowlGamer</value>
     <comment>@Invariant</comment>
   </data>
   <data name="arabicEGToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="arabicEGToolStripMenuItem.Text" xml:space="preserve">
-    <value>مَصرى (Arabic) (EG)</value>
+    <value>مَصرى (Arabic) (EG) - 100%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="jayJakeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="jayJakeToolStripMenuItem.Text" xml:space="preserve">
     <value>JayJake</value>
     <comment>@Invariant</comment>
   </data>
   <data name="tobiasToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="tobiasToolStripMenuItem1.Text" xml:space="preserve">
     <value>Tobias</value>
     <comment>@Invariant</comment>
   </data>
   <data name="czechToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="czechToolStripMenuItem.Text" xml:space="preserve">
-    <value>Čeština (Czech)</value>
+    <value>Čeština (Czech) - 96.81%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="sebastianHviidToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -573,304 +573,304 @@
     <value>David Gjøtterup Malmstrøm</value>
   </data>
   <data name="danishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="danishToolStripMenuItem.Text" xml:space="preserve">
-    <value>Dansk (Danish)</value>
+    <value>Dansk (Danish) - 95.74%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="ypsolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="ypsolToolStripMenuItem.Text" xml:space="preserve">
     <value>Ypsol</value>
     <comment>@Invariant</comment>
   </data>
   <data name="ahmadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="ahmadToolStripMenuItem.Text" xml:space="preserve">
     <value>ahmad</value>
     <comment>@Invariant</comment>
   </data>
   <data name="binarynoiseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="binarynoiseToolStripMenuItem.Text" xml:space="preserve">
     <value>binarynoise</value>
     <comment>@Invariant</comment>
   </data>
   <data name="felixToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="felixToolStripMenuItem.Text" xml:space="preserve">
     <value>Felix</value>
     <comment>@Invariant</comment>
   </data>
   <data name="germanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="germanToolStripMenuItem.Text" xml:space="preserve">
-    <value>Deutsche (German)</value>
+    <value>Deutsche (German) - 95.74%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="alexGrivasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="alexGrivasToolStripMenuItem.Text" xml:space="preserve">
     <value>Alex Grivas</value>
     <comment>@Invariant</comment>
   </data>
   <data name="greekToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="greekToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ελληνικά (Greek)</value>
+    <value>Ελληνικά (Greek) - 95.74%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="vexotToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="vexotToolStripMenuItem.Text" xml:space="preserve">
     <value>Vexot</value>
     <comment>@Invariant</comment>
   </data>
   <data name="pabloToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="pabloToolStripMenuItem.Text" xml:space="preserve">
     <value>Pablo</value>
     <comment>@Invariant</comment>
   </data>
   <data name="luciousmcToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="luciousmcToolStripMenuItem.Text" xml:space="preserve">
     <value>Luciousmc</value>
     <comment>@Invariant</comment>
   </data>
   <data name="epicToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="epicToolStripMenuItem.Text" xml:space="preserve">
     <value>Epic</value>
     <comment>@Invariant</comment>
   </data>
   <data name="spanishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="spanishToolStripMenuItem.Text" xml:space="preserve">
-    <value>Español (Spanish)</value>
+    <value>Español (Spanish) - 97.87%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="nicolasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="nicolasToolStripMenuItem.Text" xml:space="preserve">
     <value>Nenaff</value>
     <comment>@Invariant</comment>
   </data>
   <data name="frenchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="frenchToolStripMenuItem.Text" xml:space="preserve">
-    <value>Français (French)</value>
+    <value>Français (French) - 100%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="galaxy6430ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="galaxy6430ToolStripMenuItem.Text" xml:space="preserve">
     <value>Galaxy6430</value>
     <comment>@Invariant</comment>
   </data>
   <data name="kahpotVanillaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="kahpotVanillaToolStripMenuItem.Text" xml:space="preserve">
     <value>Kahpot Vanilla</value>
     <comment>@Invariant</comment>
   </data>
   <data name="hebrewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="hebrewToolStripMenuItem.Text" xml:space="preserve">
-    <value>עברית (Hebrew)</value>
+    <value>עברית (Hebrew) - 100%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="ballaBotondToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="ballaBotondToolStripMenuItem.Text" xml:space="preserve">
     <value>Balla Botond</value>
     <comment>@Invariant</comment>
   </data>
   <data name="hungarianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="hungarianToolStripMenuItem.Text" xml:space="preserve">
-    <value>Magyar (Hungarian)</value>
+    <value>Magyar (Hungarian) - 91.49%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="monikaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="monikaToolStripMenuItem.Text" xml:space="preserve">
     <value>Monika</value>
     <comment>@Invariant</comment>
   </data>
   <data name="croatianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="croatianToolStripMenuItem.Text" xml:space="preserve">
-    <value>Hrvatski (Croatian)</value>
+    <value>Hrvatski (Croatian) - 74.47%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="hapnanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="hapnanToolStripMenuItem.Text" xml:space="preserve">
     <value>Hapnan</value>
     <comment>@Invariant</comment>
   </data>
   <data name="apolyciousToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="apolyciousToolStripMenuItem.Text" xml:space="preserve">
     <value>Apolycious</value>
     <comment>@Invariant</comment>
   </data>
   <data name="bayuSopwanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="bayuSopwanToolStripMenuItem.Text" xml:space="preserve">
     <value>Bayu Sopwan</value>
     <comment>@Invariant</comment>
   </data>
   <data name="indonesianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="indonesianToolStripMenuItem.Text" xml:space="preserve">
-    <value>Bahasa Indonesia (Indonesian)</value>
+    <value>Bahasa Indonesia (Indonesian) - 100%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="djd320ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="djd320ToolStripMenuItem.Text" xml:space="preserve">
     <value>DJD320</value>
     <comment>@Invariant</comment>
   </data>
   <data name="cubeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="cubeToolStripMenuItem.Text" xml:space="preserve">
     <value>ItsMrCube</value>
     <comment>@Invariant</comment>
   </data>
   <data name="italianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="italianToolStripMenuItem.Text" xml:space="preserve">
-    <value>Italiano (Italian)</value>
+    <value>Italiano (Italian) - 89.36%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="kabikira000ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="kabikira000ToolStripMenuItem.Text" xml:space="preserve">
     <value>KABIKIRA000</value>
     <comment>@Invariant</comment>
   </data>
   <data name="japaneseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="japaneseToolStripMenuItem.Text" xml:space="preserve">
-    <value>日本語 (Japanese)</value>
+    <value>日本語 (Japanese) - 100%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="yeongaoriToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="yeongaoriToolStripMenuItem.Text" xml:space="preserve">
     <value>Yeongaori</value>
     <comment>@Invariant</comment>
   </data>
   <data name="koreanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="koreanToolStripMenuItem.Text" xml:space="preserve">
-    <value>한국어 (Korean)</value>
+    <value>한국어 (Korean) - 100%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="samTheNoobToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="samTheNoobToolStripMenuItem.Text" xml:space="preserve">
     <value>SamTheNoob</value>
     <comment>@Invariant</comment>
   </data>
   <data name="kurdishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="kurdishToolStripMenuItem.Text" xml:space="preserve">
-    <value>کوردی سۆرانی (Central Kurdish)</value>
+    <value>کوردی سۆرانی (Central Kurdish) - 97.87%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="psychonautToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="psychonautToolStripMenuItem.Text" xml:space="preserve">
     <value>White Rose</value>
     <comment>@Invariant</comment>
   </data>
   <data name="lithuanianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="lithuanianToolStripMenuItem.Text" xml:space="preserve">
-    <value>Lietuvių (Lithuanian)</value>
+    <value>Lietuvių (Lithuanian) - 97.87%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="jeremyzijlemansToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="jeremyzijlemansToolStripMenuItem.Text" xml:space="preserve">
     <value>Jeremyzijlemans</value>
     <comment>@Invariant</comment>
   </data>
   <data name="dutchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="dutchToolStripMenuItem.Text" xml:space="preserve">
-    <value>Nederlands (Dutch)</value>
+    <value>Nederlands (Dutch) - 100%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="lolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="lolToolStripMenuItem.Text" xml:space="preserve">
     <value>Lol1112345.lol12345</value>
     <comment>@Invariant</comment>
   </data>
   <data name="lisoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="lisoToolStripMenuItem.Text" xml:space="preserve">
     <value>Liso</value>
     <comment>@Invariant</comment>
   </data>
   <data name="piterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="piterToolStripMenuItem.Text" xml:space="preserve">
     <value>Piter</value>
     <comment>@Invariant</comment>
   </data>
   <data name="polishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="polishToolStripMenuItem.Text" xml:space="preserve">
-    <value>Polski (Polish)</value>
+    <value>Polski (Polish) - 100%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="viniciotricolorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -888,45 +888,45 @@
     <comment>@Invariant</comment>
   </data>
   <data name="portugeseBRToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="portugeseBRToolStripMenuItem.Text" xml:space="preserve">
-    <value>Português (Portuguese) (BR)</value>
+    <value>Português (Portuguese) (BR) - 97.87%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="diDYROToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="diDYROToolStripMenuItem.Text" xml:space="preserve">
     <value>DiDYRO</value>
     <comment>@Invariant</comment>
   </data>
   <data name="denisbolbaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="denisbolbaToolStripMenuItem.Text" xml:space="preserve">
     <value>Denisbolba</value>
     <comment>@Invariant</comment>
   </data>
   <data name="romanianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="romanianToolStripMenuItem.Text" xml:space="preserve">
-    <value>Limba română (Romanian)</value>
+    <value>Limba română (Romanian) - 100%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="maximmax42ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="maximmax42ToolStripMenuItem.Text" xml:space="preserve">
     <value>maximmax42</value>
     <comment>@Invariant</comment>
   </data>
   <data name="russianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="russianToolStripMenuItem.Text" xml:space="preserve">
-    <value>Русский (Russian)</value>
+    <value>Русский (Russian) - 100%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="squisheeFreshyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -944,10 +944,10 @@
     <comment>@Invariant</comment>
   </data>
   <data name="thaiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="thaiToolStripMenuItem.Text" xml:space="preserve">
-    <value>ภาษาไทย (Thai)</value>
+    <value>ภาษาไทย (Thai) - 100%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="ozanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -964,100 +964,100 @@
     <value>Yusuf</value>
   </data>
   <data name="turkishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="turkishToolStripMenuItem.Text" xml:space="preserve">
-    <value>Türkçe (Turkish)</value>
+    <value>Türkçe (Turkish) - 100%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="mechaniXToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="mechaniXToolStripMenuItem.Text" xml:space="preserve">
     <value>MechaniX</value>
     <comment>@Invariant</comment>
   </data>
   <data name="dmitromintenkoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="dmitromintenkoToolStripMenuItem.Text" xml:space="preserve">
     <value>Dmitromintenko</value>
     <comment>@Invariant</comment>
   </data>
   <data name="ukrainianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="ukrainianToolStripMenuItem.Text" xml:space="preserve">
-    <value>Українська (Ukrainian)</value>
+    <value>Українська (Ukrainian) - 100%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="MykmToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="MykmToolStripMenuItem.Text" xml:space="preserve">
     <value>Mykm</value>
     <comment>@Invariant</comment>
   </data>
   <data name="Phnthnhnm0612toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="Phnthnhnm0612toolStripMenuItem.Text" xml:space="preserve">
     <value>Phnthnhnm0612</value>
     <comment>@Invariant</comment>
   </data>
   <data name="dsbachleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="dsbachleToolStripMenuItem.Text" xml:space="preserve">
     <value>dsbachle</value>
     <comment>@Invariant</comment>
   </data>
   <data name="tranToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="tranToolStripMenuItem.Text" xml:space="preserve">
     <value>03_Trần</value>
   </data>
   <data name="vietnameseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="vietnameseToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tiếng Việt (Vietnamese)</value>
+    <value>Tiếng Việt (Vietnamese) - 100%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="zjsunToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="zjsunToolStripMenuItem.Text" xml:space="preserve">
     <value>Zjsun.ca</value>
     <comment>@Invariant</comment>
   </data>
   <data name="zozochaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="zozochaToolStripMenuItem.Text" xml:space="preserve">
     <value>zozocha</value>
     <comment>@Invariant</comment>
   </data>
   <data name="simplifiedChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="simplifiedChineseToolStripMenuItem.Text" xml:space="preserve">
-    <value>汉语 (Simplified Chinese)</value>
+    <value>汉语 (Simplified Chinese) - 100%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="westxluToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="westxluToolStripMenuItem.Text" xml:space="preserve">
     <value>蘆筍 (westxlu)</value>
     <comment>@Invariant</comment>
   </data>
   <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 22</value>
+    <value>285, 22</value>
   </data>
   <data name="traditionalChineseToolStripMenuItem.Text" xml:space="preserve">
-    <value>漢語 (Traditional Chinese)</value>
+    <value>漢語 (Traditional Chinese) - 100%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -3192,6 +3192,12 @@ To take effect, both fields should be more than 0.</value>
   <data name="&gt;&gt;ozanToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;yusufToolStripMenuItem.Name" xml:space="preserve">
+    <value>yusufToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;yusufToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;ukrainianToolStripMenuItem.Name" xml:space="preserve">
     <value>ukrainianToolStripMenuItem</value>
   </data>
@@ -3311,12 +3317,6 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="&gt;&gt;toolStripStatusLabelStatus.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;yusufToolStripMenuItem.Name" xml:space="preserve">
-    <value>yusufToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;yusufToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>
