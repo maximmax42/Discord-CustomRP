@@ -7,7 +7,6 @@ using Octokit;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Drawing;
 using System.Globalization;
 using System.IO;
 using System.Net;
@@ -1247,7 +1246,7 @@ namespace CustomRPC
             Button btn = (Button)sender;
             btn.Text = string.Empty;
             TextFormatFlags flags = TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter;
-            TextRenderer.DrawText(e.Graphics, res.GetString($"{btn.Name}.Text"), btn.Font, e.ClipRectangle, btn.Enabled ? btn.ForeColor : Color.FromArgb(142, 146, 151), flags);
+            TextRenderer.DrawText(e.Graphics, res.GetString($"{btn.Name}.Text"), btn.Font, e.ClipRectangle, btn.Enabled ? btn.ForeColor : CurrentColors.TextInactive, flags);
         }
 
         /// <summary>

@@ -13,6 +13,7 @@ namespace CustomRPC
         public static Color BgActive => Color.FromArgb(57, 60, 67);
         public static Color CheckBg => Color.FromArgb(61, 73, 162);
         public static Color CheckHover => Color.FromArgb(72, 86, 193);
+        public static Color TextInactive => Color.FromArgb(142, 146, 151);
         public static Color BgColor { get; private set; }
         public static Color BgTextFields { get; private set; }
         public static Color BgTextFieldsSuccess { get; private set; }
