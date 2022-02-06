@@ -571,6 +571,7 @@
   </data>
   <data name="davidToolStripMenuItem.Text" xml:space="preserve">
     <value>David Gjøtterup Malmstrøm</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="danishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
@@ -962,6 +963,7 @@
   </data>
   <data name="yusufToolStripMenuItem.Text" xml:space="preserve">
     <value>Yusuf</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="turkishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
@@ -1017,6 +1019,7 @@
   </data>
   <data name="tranToolStripMenuItem.Text" xml:space="preserve">
     <value>03_Trần</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="vietnameseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
