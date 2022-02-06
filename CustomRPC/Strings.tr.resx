@@ -170,7 +170,7 @@ Ayarları sıfırlamak için Evet'e, çıkmak için Hayır'a basın.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
     <value>CustomRP'nin kullanım analitiğinizi geliştiriciye göndermesine izin veriyor musunuz?
-(Tüm veriler depersonalize edilmiştir.)</value>
+(Bütün veriler anonim hale getirilmiştir.)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
     <value>Ayarlar kaydedilirken bir hata meydana geldi:</value>
