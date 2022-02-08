@@ -326,7 +326,7 @@
     <value>Văn bản hiển thị khi di chuột vào hình ảnh lớn.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Tên thiết lập của hình ảnh lớn hoặc URL của hình ảnh.</value>
+    <value>Tên thiết lập của hình ảnh lớn hoặc một URL của hình ảnh.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 14</value>
