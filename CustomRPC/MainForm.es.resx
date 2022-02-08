@@ -426,4 +426,10 @@ Para que tome efecto, ambos campos deben ser mayores que 0.</value>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>Modo Oscuro</value>
   </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>Nombre del recurso para una imagen pequeña o una URL de imagen.</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>Nombre del activo para una imagen grande o una URL de imagen.</value>
+  </data>
 </root>

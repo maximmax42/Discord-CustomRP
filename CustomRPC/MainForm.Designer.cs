@@ -222,6 +222,7 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
+            this.alvaro203204ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -881,6 +882,7 @@
             this.vexotToolStripMenuItem,
             this.pabloToolStripMenuItem,
             this.luciousmcToolStripMenuItem,
+            this.alvaro203204ToolStripMenuItem,
             this.epicToolStripMenuItem});
             this.spanishToolStripMenuItem.Name = "spanishToolStripMenuItem";
             resources.ApplyResources(this.spanishToolStripMenuItem, "spanishToolStripMenuItem");
@@ -1744,6 +1746,11 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
+            // alvaro203204ToolStripMenuItem
+            // 
+            this.alvaro203204ToolStripMenuItem.Name = "alvaro203204ToolStripMenuItem";
+            resources.ApplyResources(this.alvaro203204ToolStripMenuItem, "alvaro203204ToolStripMenuItem");
+            // 
             // MainForm
             // 
             this.AllowDrop = true;
@@ -2002,6 +2009,7 @@
         private System.Windows.Forms.ToolStripMenuItem tranToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem davidToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem yusufToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem alvaro203204ToolStripMenuItem;
     }
 }
 

@@ -511,14 +511,14 @@
     <value>182, 6</value>
   </data>
   <data name="fiberAhmedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>154, 22</value>
   </data>
   <data name="fiberAhmedToolStripMenuItem.Text" xml:space="preserve">
     <value>FiberAhmed</value>
     <comment>@Invariant</comment>
   </data>
   <data name="shadowlToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>154, 22</value>
   </data>
   <data name="shadowlToolStripMenuItem.Text" xml:space="preserve">
     <value>ShadowlGamer</value>
@@ -532,14 +532,14 @@
     <comment>@Invariant</comment>
   </data>
   <data name="jayJakeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>112, 22</value>
   </data>
   <data name="jayJakeToolStripMenuItem.Text" xml:space="preserve">
     <value>JayJake</value>
     <comment>@Invariant</comment>
   </data>
   <data name="tobiasToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>112, 22</value>
   </data>
   <data name="tobiasToolStripMenuItem1.Text" xml:space="preserve">
     <value>Tobias</value>
@@ -581,28 +581,28 @@
     <comment>@Invariant</comment>
   </data>
   <data name="ypsolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>135, 22</value>
   </data>
   <data name="ypsolToolStripMenuItem.Text" xml:space="preserve">
     <value>Ypsol</value>
     <comment>@Invariant</comment>
   </data>
   <data name="ahmadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>135, 22</value>
   </data>
   <data name="ahmadToolStripMenuItem.Text" xml:space="preserve">
     <value>ahmad</value>
     <comment>@Invariant</comment>
   </data>
   <data name="binarynoiseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>135, 22</value>
   </data>
   <data name="binarynoiseToolStripMenuItem.Text" xml:space="preserve">
     <value>binarynoise</value>
     <comment>@Invariant</comment>
   </data>
   <data name="felixToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>135, 22</value>
   </data>
   <data name="felixToolStripMenuItem.Text" xml:space="preserve">
     <value>Felix</value>
@@ -616,7 +616,7 @@
     <comment>@Invariant</comment>
   </data>
   <data name="alexGrivasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>132, 22</value>
   </data>
   <data name="alexGrivasToolStripMenuItem.Text" xml:space="preserve">
     <value>Alex Grivas</value>
@@ -650,6 +650,13 @@
     <value>Luciousmc</value>
     <comment>@Invariant</comment>
   </data>
+  <data name="alvaro203204ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="alvaro203204ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Alvaro203204</value>
+    <comment>@Invariant</comment>
+  </data>
   <data name="epicToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
@@ -661,11 +668,11 @@
     <value>285, 22</value>
   </data>
   <data name="spanishToolStripMenuItem.Text" xml:space="preserve">
-    <value>Español (Spanish) - 97.87%</value>
+    <value>Español (Spanish) - 100%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="nicolasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>110, 22</value>
   </data>
   <data name="nicolasToolStripMenuItem.Text" xml:space="preserve">
     <value>Nenaff</value>
@@ -679,14 +686,14 @@
     <comment>@Invariant</comment>
   </data>
   <data name="galaxy6430ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>149, 22</value>
   </data>
   <data name="galaxy6430ToolStripMenuItem.Text" xml:space="preserve">
     <value>Galaxy6430</value>
     <comment>@Invariant</comment>
   </data>
   <data name="kahpotVanillaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>149, 22</value>
   </data>
   <data name="kahpotVanillaToolStripMenuItem.Text" xml:space="preserve">
     <value>Kahpot Vanilla</value>
@@ -700,7 +707,7 @@
     <comment>@Invariant</comment>
   </data>
   <data name="ballaBotondToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>141, 22</value>
   </data>
   <data name="ballaBotondToolStripMenuItem.Text" xml:space="preserve">
     <value>Balla Botond</value>
@@ -714,7 +721,7 @@
     <comment>@Invariant</comment>
   </data>
   <data name="monikaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>114, 22</value>
   </data>
   <data name="monikaToolStripMenuItem.Text" xml:space="preserve">
     <value>Monika</value>
@@ -728,21 +735,21 @@
     <comment>@Invariant</comment>
   </data>
   <data name="hapnanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>145, 22</value>
   </data>
   <data name="hapnanToolStripMenuItem.Text" xml:space="preserve">
     <value>Hapnan</value>
     <comment>@Invariant</comment>
   </data>
   <data name="apolyciousToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>145, 22</value>
   </data>
   <data name="apolyciousToolStripMenuItem.Text" xml:space="preserve">
     <value>Apolycious</value>
     <comment>@Invariant</comment>
   </data>
   <data name="bayuSopwanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>145, 22</value>
   </data>
   <data name="bayuSopwanToolStripMenuItem.Text" xml:space="preserve">
     <value>Bayu Sopwan</value>
@@ -756,14 +763,14 @@
     <comment>@Invariant</comment>
   </data>
   <data name="djd320ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>129, 22</value>
   </data>
   <data name="djd320ToolStripMenuItem.Text" xml:space="preserve">
     <value>DJD320</value>
     <comment>@Invariant</comment>
   </data>
   <data name="cubeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>129, 22</value>
   </data>
   <data name="cubeToolStripMenuItem.Text" xml:space="preserve">
     <value>ItsMrCube</value>
@@ -777,7 +784,7 @@
     <comment>@Invariant</comment>
   </data>
   <data name="kabikira000ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>142, 22</value>
   </data>
   <data name="kabikira000ToolStripMenuItem.Text" xml:space="preserve">
     <value>KABIKIRA000</value>
@@ -791,7 +798,7 @@
     <comment>@Invariant</comment>
   </data>
   <data name="yeongaoriToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>127, 22</value>
   </data>
   <data name="yeongaoriToolStripMenuItem.Text" xml:space="preserve">
     <value>Yeongaori</value>
@@ -805,7 +812,7 @@
     <comment>@Invariant</comment>
   </data>
   <data name="samTheNoobToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="samTheNoobToolStripMenuItem.Text" xml:space="preserve">
     <value>SamTheNoob</value>
@@ -819,7 +826,7 @@
     <comment>@Invariant</comment>
   </data>
   <data name="psychonautToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>133, 22</value>
   </data>
   <data name="psychonautToolStripMenuItem.Text" xml:space="preserve">
     <value>White Rose</value>
@@ -833,7 +840,7 @@
     <comment>@Invariant</comment>
   </data>
   <data name="jeremyzijlemansToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>160, 22</value>
   </data>
   <data name="jeremyzijlemansToolStripMenuItem.Text" xml:space="preserve">
     <value>Jeremyzijlemans</value>
@@ -847,21 +854,21 @@
     <comment>@Invariant</comment>
   </data>
   <data name="lolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>178, 22</value>
   </data>
   <data name="lolToolStripMenuItem.Text" xml:space="preserve">
     <value>Lol1112345.lol12345</value>
     <comment>@Invariant</comment>
   </data>
   <data name="lisoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>178, 22</value>
   </data>
   <data name="lisoToolStripMenuItem.Text" xml:space="preserve">
     <value>Liso</value>
     <comment>@Invariant</comment>
   </data>
   <data name="piterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>178, 22</value>
   </data>
   <data name="piterToolStripMenuItem.Text" xml:space="preserve">
     <value>Piter</value>
@@ -896,14 +903,14 @@
     <comment>@Invariant</comment>
   </data>
   <data name="diDYROToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>133, 22</value>
   </data>
   <data name="diDYROToolStripMenuItem.Text" xml:space="preserve">
     <value>DiDYRO</value>
     <comment>@Invariant</comment>
   </data>
   <data name="denisbolbaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>133, 22</value>
   </data>
   <data name="denisbolbaToolStripMenuItem.Text" xml:space="preserve">
     <value>Denisbolba</value>
@@ -917,7 +924,7 @@
     <comment>@Invariant</comment>
   </data>
   <data name="maximmax42ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="maximmax42ToolStripMenuItem.Text" xml:space="preserve">
     <value>maximmax42</value>
@@ -931,14 +938,14 @@
     <comment>@Invariant</comment>
   </data>
   <data name="squisheeFreshyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>158, 22</value>
   </data>
   <data name="squisheeFreshyToolStripMenuItem.Text" xml:space="preserve">
     <value>Squishee Freshy</value>
     <comment>@Invariant</comment>
   </data>
   <data name="gameToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>158, 22</value>
   </data>
   <data name="gameToolStripMenuItem.Text" xml:space="preserve">
     <value>Game</value>
@@ -952,14 +959,14 @@
     <comment>@Invariant</comment>
   </data>
   <data name="ozanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>136, 22</value>
   </data>
   <data name="ozanToolStripMenuItem.Text" xml:space="preserve">
     <value>Ozan Akyüz</value>
     <comment>@Invariant</comment>
   </data>
   <data name="yusufToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>136, 22</value>
   </data>
   <data name="yusufToolStripMenuItem.Text" xml:space="preserve">
     <value>Yusuf</value>
@@ -973,14 +980,14 @@
     <comment>@Invariant</comment>
   </data>
   <data name="mechaniXToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>162, 22</value>
   </data>
   <data name="mechaniXToolStripMenuItem.Text" xml:space="preserve">
     <value>MechaniX</value>
     <comment>@Invariant</comment>
   </data>
   <data name="dmitromintenkoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>162, 22</value>
   </data>
   <data name="dmitromintenkoToolStripMenuItem.Text" xml:space="preserve">
     <value>Dmitromintenko</value>
@@ -994,28 +1001,28 @@
     <comment>@Invariant</comment>
   </data>
   <data name="MykmToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>162, 22</value>
   </data>
   <data name="MykmToolStripMenuItem.Text" xml:space="preserve">
     <value>Mykm</value>
     <comment>@Invariant</comment>
   </data>
   <data name="Phnthnhnm0612toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>162, 22</value>
   </data>
   <data name="Phnthnhnm0612toolStripMenuItem.Text" xml:space="preserve">
     <value>Phnthnhnm0612</value>
     <comment>@Invariant</comment>
   </data>
   <data name="dsbachleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>162, 22</value>
   </data>
   <data name="dsbachleToolStripMenuItem.Text" xml:space="preserve">
     <value>dsbachle</value>
     <comment>@Invariant</comment>
   </data>
   <data name="tranToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>162, 22</value>
   </data>
   <data name="tranToolStripMenuItem.Text" xml:space="preserve">
     <value>03_Trần</value>
@@ -1029,14 +1036,14 @@
     <comment>@Invariant</comment>
   </data>
   <data name="zjsunToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>118, 22</value>
   </data>
   <data name="zjsunToolStripMenuItem.Text" xml:space="preserve">
     <value>Zjsun.ca</value>
     <comment>@Invariant</comment>
   </data>
   <data name="zozochaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>118, 22</value>
   </data>
   <data name="zozochaToolStripMenuItem.Text" xml:space="preserve">
     <value>zozocha</value>
@@ -1050,7 +1057,7 @@
     <comment>@Invariant</comment>
   </data>
   <data name="westxluToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>149, 22</value>
   </data>
   <data name="westxluToolStripMenuItem.Text" xml:space="preserve">
     <value>蘆筍 (westxlu)</value>
@@ -3320,6 +3327,12 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="&gt;&gt;toolStripStatusLabelStatus.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;alvaro203204ToolStripMenuItem.Name" xml:space="preserve">
+    <value>alvaro203204ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;alvaro203204ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>
