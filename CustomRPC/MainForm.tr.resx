@@ -121,7 +121,7 @@
     <value>Tekrar göstermek için ikona çift tıklayın, ya da çıkmak için sağ tıklayın.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>Uygulama sistem tepsisimde çalışacak.</value>
+    <value>Uygulama sistem tepsisinde çalışacak.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
