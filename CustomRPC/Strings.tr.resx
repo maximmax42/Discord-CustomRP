@@ -120,7 +120,6 @@
   <data name="error" xml:space="preserve">
     <value>Hata</value>
   </data>
-  
   <data name="errorNoID" xml:space="preserve">
     <value>Belirtilmiş Kimlik yok!</value>
   </data>
