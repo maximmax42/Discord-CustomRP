@@ -120,7 +120,6 @@
   <data name="error" xml:space="preserve">
     <value>Klaida</value>
   </data>
-  
   <data name="errorNoID" xml:space="preserve">
     <value>Nenurodytas ID!</value>
   </data>
