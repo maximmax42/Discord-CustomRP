@@ -290,7 +290,6 @@
   <data name="labelVersions.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  
   <data name="labelVersions.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
@@ -337,7 +336,6 @@
   <data name="htmlPanelChangelog.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
-  
   <data name="htmlPanelChangelog.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 68</value>
   </data>
@@ -347,7 +345,6 @@
   <data name="htmlPanelChangelog.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  
   <data name="&gt;&gt;htmlPanelChangelog.Name" xml:space="preserve">
     <value>htmlPanelChangelog</value>
   </data>
