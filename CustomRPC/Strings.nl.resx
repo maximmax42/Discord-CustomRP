@@ -120,7 +120,6 @@
   <data name="error" xml:space="preserve">
     <value>Fout</value>
   </data>
-  
   <data name="errorNoID" xml:space="preserve">
     <value>Geen ID opgegeven!</value>
   </data>
