@@ -1,0 +1,6 @@
+files:
+  - source: CustomRPC/*.resx
+    ignore:
+      - '*.*.resx'
+      - PipeSelector.resx
+    translation: /CustomRPC/%file_name%.%two_letters_code%.resx
