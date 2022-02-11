@@ -159,7 +159,6 @@
   <data name="labelTitle.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  
   <data name="labelTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
@@ -238,7 +237,6 @@
   <data name="labelVersion.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  
   <data name="labelVersion.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
