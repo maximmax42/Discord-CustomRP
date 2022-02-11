@@ -120,7 +120,6 @@
   <data name="error" xml:space="preserve">
     <value>错误</value>
   </data>
-  
   <data name="errorNoID" xml:space="preserve">
     <value>请指定ID！</value>
   </data>
