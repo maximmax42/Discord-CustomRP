@@ -120,7 +120,6 @@
   <data name="error" xml:space="preserve">
     <value>Fehler</value>
   </data>
-  
   <data name="errorNoID" xml:space="preserve">
     <value>Keine ID wurde festgelegt!</value>
   </data>
