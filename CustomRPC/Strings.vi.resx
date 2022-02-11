@@ -120,7 +120,6 @@
   <data name="error" xml:space="preserve">
     <value>Lỗi</value>
   </data>
-  
   <data name="errorNoID" xml:space="preserve">
     <value>Không có ID được chỉ định!</value>
   </data>
