@@ -120,7 +120,6 @@
   <data name="error" xml:space="preserve">
     <value>Похибка</value>
   </data>
-  
   <data name="errorNoID" xml:space="preserve">
     <value>Немає ID!</value>
   </data>
