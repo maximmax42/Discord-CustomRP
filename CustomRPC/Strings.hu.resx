@@ -120,7 +120,6 @@
   <data name="error" xml:space="preserve">
     <value>Hiba</value>
   </data>
-  
   <data name="errorNoID" xml:space="preserve">
     <value>Nincs megadva Azonosító!</value>
   </data>
