@@ -150,7 +150,6 @@
   <data name="trayMenuDisconnect.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 22</value>
   </data>
-  
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 6</value>
   </data>
@@ -169,7 +168,6 @@
   <data name="&gt;&gt;trayMenuStrip.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  
   <data name="trayIcon.Visible" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -275,115 +273,87 @@
   <data name="agERToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="csToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="daToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="deToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="elToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="enToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="esToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="frToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="heToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="huToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="hrToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="idToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="itToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="jaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="koToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="kuToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="ltToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="nlToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="plToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="ptBRToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="roToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="ruToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="thToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="trToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="ukToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="viToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="zhhansToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="zhhantToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 22</value>
   </data>
@@ -417,35 +387,27 @@
   <data name="fiberAhmedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="shadowlToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="arabicEGToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="jayJakeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="tobiasToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="czechToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="sebastianHviidToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>222, 22</value>
   </data>
-  
   <data name="tobiasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>222, 22</value>
   </data>
-  
   <data name="davidToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>222, 22</value>
   </data>
@@ -453,223 +415,168 @@
   <data name="danishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="ypsolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="ahmadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="binarynoiseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="felixToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="germanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="alexGrivasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="greekToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="vexotToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="pabloToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="luciousmcToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="epicToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="spanishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="nicolasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="frenchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="galaxy6430ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="kahpotVanillaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="hebrewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="ballaBotondToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="hungarianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="monikaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="croatianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="hapnanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="apolyciousToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="bayuSopwanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="indonesianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="djd320ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="cubeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="italianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="kabikira000ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="japaneseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="yeongaoriToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="koreanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="samTheNoobToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="kurdishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="psychonautToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="lithuanianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="jeremyzijlemansToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="dutchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="lolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="lisoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="piterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="polishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="viniciotricolorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
   </data>
-  
   <data name="slimakoiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
   </data>
-  
   <data name="portugeseBRToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="diDYROToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="denisbolbaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="romanianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="maximmax42ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="russianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="squisheeFreshyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="gameToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="thaiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="ozanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="yusufToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
@@ -677,31 +584,24 @@
   <data name="turkishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="mechaniXToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="dmitromintenkoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="ukrainianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="MykmToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="Phnthnhnm0612toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="dsbachleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="tranToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
@@ -709,27 +609,21 @@
   <data name="vietnameseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="zjsunToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="zozochaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="simplifiedChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="westxluToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  
   <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  
   <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 22</value>
   </data>
@@ -774,7 +668,6 @@
   <data name="menuStrip.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  
   <data name="&gt;&gt;menuStrip.Name" xml:space="preserve">
     <value>menuStrip</value>
   </data>
@@ -918,7 +811,6 @@
   <data name="labelID.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
-  
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>ID van de applicatie van de Discord Developers-site.</value>
   </data>
@@ -949,7 +841,6 @@
   <data name="labelDetails.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  
   <data name="labelDetails.ToolTip" xml:space="preserve">
     <value>Eerste lijn in aanwezigheid.</value>
   </data>
@@ -980,7 +871,6 @@
   <data name="labelState.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
-  
   <data name="labelState.ToolTip" xml:space="preserve">
     <value>Tweede lijn in aanwezigheid.</value>
   </data>
@@ -1012,7 +902,6 @@
     <value>15</value>
   </data>
   
-  
   <data name="&gt;&gt;labelSmallKey.Name" xml:space="preserve">
     <value>labelSmallKey</value>
   </data>
@@ -1040,7 +929,6 @@
   <data name="labelSmallText.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
-  
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Tekst die wordt weergegeven wanneer u over de kleine afbeelding zweeft.</value>
   </data>
@@ -1071,7 +959,6 @@
   <data name="labelLargeText.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
-  
   <data name="labelLargeText.ToolTip" xml:space="preserve">
     <value>Tekst die wordt weergegeven wanneer u over de groote afbeelding zweeft.</value>
   </data>
@@ -1102,7 +989,6 @@
   <data name="labelLargeKey.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
-  
   
   <data name="&gt;&gt;labelLargeKey.Name" xml:space="preserve">
     <value>labelLargeKey</value>
@@ -1294,7 +1180,6 @@
   <data name="labelTimestamp.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
-  
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>Stelt een tijdstempel in voor de status, die wordt weergegeven onder alle bovenstaande tekst.
 Statustimers hebben een limiet van 24 uur, wat betekent dat de tijd na 24 uur teruggaat naar 0:00.</value>
@@ -1326,7 +1211,6 @@ Statustimers hebben een limiet van 24 uur, wat betekent dat de tijd na 24 uur te
   <data name="labelParty.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
   </data>
-  
   <data name="labelParty.ToolTip" xml:space="preserve">
     <value>Aantal spelers in de huidige partij dat wordt weergegeven naast het veld Staat.
 Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
@@ -1457,7 +1341,6 @@ Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
   <data name="labelButton1URL.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
   </data>
-  
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
     <value>URL waar de knop de gebruiker naartoe brengt na het klikken.</value>
   </data>
@@ -1488,7 +1371,6 @@ Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
   <data name="labelButton2URL.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
   </data>
-  
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
     <value>URL waar de knop de gebruiker naartoe brengt na het klikken.</value>
   </data>
@@ -1519,7 +1401,6 @@ Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
   <data name="labelButton1Text.TabIndex" type="System.Int32, mscorlib">
     <value>40</value>
   </data>
-  
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
     <value>Label van de eerste knop.</value>
   </data>
@@ -1550,7 +1431,6 @@ Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
   <data name="labelButton2Text.TabIndex" type="System.Int32, mscorlib">
     <value>41</value>
   </data>
-  
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
     <value>Label van de tweede knop.</value>
   </data>
@@ -1566,7 +1446,6 @@ Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
   <data name="&gt;&gt;labelButton2Text.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  
   <data name="dateTimePickerTimestamp.DropDownAlign" type="System.Windows.Forms.LeftRightAlignment, System.Windows.Forms">
     <value>Right</value>
   </data>
@@ -1648,11 +1527,9 @@ Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
   <data name="toolStripStatusLabelPadding.Size" type="System.Drawing.Size, System.Drawing">
     <value>386, 17</value>
   </data>
-  
   <data name="toolStripStatusLabelStatus.Size" type="System.Drawing.Size, System.Drawing">
     <value>79, 17</value>
   </data>
-  
   <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 476</value>
   </data>
@@ -2043,7 +1920,6 @@ Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
-  
   <data name="&gt;&gt;trayIcon.Name" xml:space="preserve">
     <value>trayIcon</value>
   </data>
