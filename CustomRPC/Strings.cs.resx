@@ -120,7 +120,6 @@
   <data name="error" xml:space="preserve">
     <value>Chyba</value>
   </data>
-  
   <data name="errorNoID" xml:space="preserve">
     <value>Nebylo zadáno ID!</value>
   </data>
