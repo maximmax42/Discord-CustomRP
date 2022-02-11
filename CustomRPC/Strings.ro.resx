@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -117,65 +117,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="error" xml:space="preserve">
-    <value>Eroareee</value>
-  </data>
-  <data name="errorNoID" xml:space="preserve">
-    <value>Niciun ID specificat!</value>
-  </data>
-  <data name="errorUpdateFailed" xml:space="preserve">
-    <value>A apărut o eroare la descărcarea sau instalarea unei actualizări.
-Apăsați "Da" pentru a reîncerca sau "Nu" pentru a descărca manual.</value>
-  </data>
-  <data name="firstTimeRun" xml:space="preserve">
-    <value>Pornirea pentru prima dată</value>
-  </data>
-  <data name="firstTimeRunText" xml:space="preserve">
-    <value>Doriți să deschideți un manual?
-Îl puteți deschide oricând accesând Ajutor -&gt; Deschideți manualul sau apăsând F1.</value>
-  </data>
-  <data name="information" xml:space="preserve">
-    <value>Informații</value>
-  </data>
-  <data name="statusConnected" xml:space="preserve">
-    <value>Conectat</value>
-  </data>
-  <data name="statusConnecting" xml:space="preserve">
-    <value>În curs de conectare...</value>
-  </data>
-  <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Conectarea a fost eșuată (Rulează Discord în prezent?)</value>
-  </data>
-  <data name="statusDisconnected" xml:space="preserve">
-    <value>Deconectat</value>
-  </data>
-  <data name="statusError" xml:space="preserve">
-    <value>Eroare la conexiune (Poate ID este greșit?)</value>
-  </data>
-  <data name="errorInvalidURL" xml:space="preserve">
-    <value>Adresa URL nevalidă specificată pentru buton(e) sau textul este prea lung!</value>
-  </data>
-  <data name="errorNoInternet" xml:space="preserve">
-    <value>Nu s-a putut conecta la internet!</value>
-  </data>
-  <data name="noUpdatesFound" xml:space="preserve">
-    <value>Nici un update găsit!</value>
-  </data>
-  <data name="errorCorruptSettings" xml:space="preserve">
-    <value>Fișierul de setări este coruptat.
-Apăsați Da pentru a reseta setările, apăsați Nu pentru a ieși.</value>
-  </data>
-  <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Nu s-a importat presetarea; fișierul fie lipsește, este corupt sau nu este formatat corect.</value>
-  </data>
-  <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>Permiteți CustomRP să trimită dezvoltatorului analizele dvs. de utilizare?
-(Toate datele sunt depersonalizate.)</value>
-  </data>
-  <data name="errorSavingSettings" xml:space="preserve">
-    <value>A apărut o eroare la salvarea setărilor:</value>
-  </data>
-  <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>Vă rugăm să adăugați calea "{0}" la excepțiile antivirusului dvs. Reinstalați CustomRP dacă această eroare persistă.</value>
-  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </root>
