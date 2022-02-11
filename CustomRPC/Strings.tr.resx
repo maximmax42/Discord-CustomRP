@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -120,8 +120,9 @@
   <data name="error" xml:space="preserve">
     <value>Hata</value>
   </data>
+  
   <data name="errorNoID" xml:space="preserve">
-    <value>Belirtilmiş kimlik yok!</value>
+    <value>Belirtilmiş Kimlik yok!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
     <value>Bir güncelleme indirilirken veya yüklenirken bir hata oluştu.
@@ -132,7 +133,7 @@ Yeniden denemek için "Evet"e veya manuel olarak indirmek için "Hayır"a basın
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Bir kılavuzu açmak ister misiniz?
-İstediğiniz zaman Yardım -&gt; Kılavuzu Aç'a giderek veya F1'e basarak açabilirsiniz.</value>
+İstediğiniz zaman Yardım sekmesine giderek, Kılavuzu Aç'a giderek veya F1'e basarak açabilirsiniz.</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>Bilgi</value>
@@ -150,7 +151,7 @@ Yeniden denemek için "Evet"e veya manuel olarak indirmek için "Hayır"a basın
     <value>Bağlantı kesildi</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>Bağlantı hatası (Yanlış kimlik?)</value>
+    <value>Bağlantı hatası (Yanlış Kimlik?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
     <value>Düğme(ler) için geçersiz URL belirtildi veya metin çok uzun!</value>
@@ -169,13 +170,9 @@ Ayarları sıfırlamak için Evet'e, çıkmak için Hayır'a basın.</value>
     <value>Ön ayar içe aktarılamadı; dosya eksik, bozuk veya düzgün biçimlendirilmemiş.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>CustomRP'nin kullanım analitiğinizi geliştiriciye göndermesine izin veriyor musunuz?
-(Bütün veriler anonim hale getirilmiştir.)</value>
+    <value>CustomRP'nin kullanım analizlerinizi geliştiriciye göndermesine izin veriyor musunuz?
+(Tüm veriler kişiselleştirilmemiştir.)</value>
   </data>
-  <data name="errorSavingSettings" xml:space="preserve">
-    <value>Ayarlar kaydedilirken bir hata meydana geldi:</value>
-  </data>
-  <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>Lütfen "{0}" yolunu antivirüsünüzün istisnalarına ekleyiniz. Eğer bu hatayı almaya devam ederseniz CustomRP'yi yeniden yükleyiniz.</value>
-  </data>
+  
+  
 </root>
