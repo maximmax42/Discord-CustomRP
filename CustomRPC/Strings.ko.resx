@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -117,65 +117,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="error" xml:space="preserve">
-    <value>오류</value>
-  </data>
-  <data name="errorNoID" xml:space="preserve">
-    <value>ID가 지정되지 않았습니다!</value>
-  </data>
-  <data name="firstTimeRun" xml:space="preserve">
-    <value>최초 실행</value>
-  </data>
-  <data name="firstTimeRunText" xml:space="preserve">
-    <value>매뉴얼을 여시겠습니까?
-언제나 '도움말 -&gt; 매뉴얼 열기'  또는 F1을 통해 열 수 있습니다.</value>
-  </data>
-  <data name="information" xml:space="preserve">
-    <value>정보</value>
-  </data>
-  <data name="statusConnected" xml:space="preserve">
-    <value>연결됨</value>
-  </data>
-  <data name="statusConnecting" xml:space="preserve">
-    <value>연결 중...</value>
-  </data>
-  <data name="statusConnectionFailed" xml:space="preserve">
-    <value>연결 실패 (Discord가 실행중입니까?)</value>
-  </data>
-  <data name="statusDisconnected" xml:space="preserve">
-    <value>연결 끊김</value>
-  </data>
-  <data name="statusError" xml:space="preserve">
-    <value>연결 오류 (ID가 잘못되었을 수 있음)</value>
-  </data>
-  <data name="errorInvalidURL" xml:space="preserve">
-    <value>버튼 또는 텍스트에 지정된 잘못된 URL이 너무 깁니다!</value>
-  </data>
-  <data name="errorNoInternet" xml:space="preserve">
-    <value>인터넷에 연결할 수 없습니다!</value>
-  </data>
-  <data name="noUpdatesFound" xml:space="preserve">
-    <value>업데이트가 발견되지 않았습니다!</value>
-  </data>
-  <data name="errorCorruptSettings" xml:space="preserve">
-    <value>설정 파일에 문제가 있습니다.
-확인을 누르면 설정을 초기화하고, 취소를 누르면 종료합니다.</value>
-  </data>
-  <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>프리셋을 불러오지 못했습니다; 파일이 존재하지 않거나, 문제가 있거나, 잘못된 포맷입니다.</value>
-  </data>
-  <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>CustomRP에서 사용 분석 결과를 개발자에게 보내도록 허용하시겠습니까?
-(모든 데이터는 개인화되지 않습니다.)</value>
-  </data>
-  <data name="errorUpdateFailed" xml:space="preserve">
-    <value>업데이트를 다운로드하거나 설치하는 동안 오류가 발생했습니다.
-다시 시도하려면 "확인"을 누르거나 수동으로 다운로드하려면 "취소"를 누르십시오.</value>
-  </data>
-  <data name="errorSavingSettings" xml:space="preserve">
-    <value>설정을 저장하는 중에 오류가 발생했습니다:</value>
-  </data>
-  <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>"{0}" 경로를 백신 탐지 예외로 추가해주세요. 오류가 지속되면 CustomRP를 재설치 하십시오.</value>
-  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </root>
