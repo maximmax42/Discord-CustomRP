@@ -24,7 +24,7 @@ If you have any problems with the app, please check out [FAQ](https://github.com
 
 So far, the app supports these languages:
 
-![Language progress hystogram](https://www.customrp.xyz/poeditor/progress.png)
+![Language progress hystogram](https://www.customrp.xyz/poeditor/progress.php)
 
 * [Arabic (EG)](https://poeditor.com/projects/po_edit?id_language=233&per_page=100&id=409229) (thanks to [FiberAhmed](https://github.com/FiberAhmed) and ShadowlGamer)
 * [Chinese (Simplified)](https://poeditor.com/projects/po_edit?id_language=274&per_page=100&id=409229) (thanks to Zjsun.ca and zozocha)
