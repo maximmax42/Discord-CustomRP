@@ -116,6 +116,7 @@
             this.vexotToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pabloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.luciousmcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.alvaro203204ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.epicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.frenchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nicolasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -222,7 +223,6 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.alvaro203204ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -903,6 +903,11 @@
             // 
             this.luciousmcToolStripMenuItem.Name = "luciousmcToolStripMenuItem";
             resources.ApplyResources(this.luciousmcToolStripMenuItem, "luciousmcToolStripMenuItem");
+            // 
+            // alvaro203204ToolStripMenuItem
+            // 
+            this.alvaro203204ToolStripMenuItem.Name = "alvaro203204ToolStripMenuItem";
+            resources.ApplyResources(this.alvaro203204ToolStripMenuItem, "alvaro203204ToolStripMenuItem");
             // 
             // epicToolStripMenuItem
             // 
@@ -1745,11 +1750,6 @@
             this.textBoxID.Name = "textBoxID";
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
-            // 
-            // alvaro203204ToolStripMenuItem
-            // 
-            this.alvaro203204ToolStripMenuItem.Name = "alvaro203204ToolStripMenuItem";
-            resources.ApplyResources(this.alvaro203204ToolStripMenuItem, "alvaro203204ToolStripMenuItem");
             // 
             // MainForm
             // 

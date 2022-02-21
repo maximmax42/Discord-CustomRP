@@ -630,35 +630,35 @@
     <comment>@Invariant</comment>
   </data>
   <data name="vexotToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>144, 22</value>
   </data>
   <data name="vexotToolStripMenuItem.Text" xml:space="preserve">
     <value>Vexot</value>
     <comment>@Invariant</comment>
   </data>
   <data name="pabloToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>144, 22</value>
   </data>
   <data name="pabloToolStripMenuItem.Text" xml:space="preserve">
     <value>Pablo</value>
     <comment>@Invariant</comment>
   </data>
   <data name="luciousmcToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>144, 22</value>
   </data>
   <data name="luciousmcToolStripMenuItem.Text" xml:space="preserve">
     <value>Luciousmc</value>
     <comment>@Invariant</comment>
   </data>
   <data name="alvaro203204ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>144, 22</value>
   </data>
   <data name="alvaro203204ToolStripMenuItem.Text" xml:space="preserve">
     <value>Alvaro203204</value>
     <comment>@Invariant</comment>
   </data>
   <data name="epicToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>144, 22</value>
   </data>
   <data name="epicToolStripMenuItem.Text" xml:space="preserve">
     <value>Epic</value>
@@ -826,7 +826,7 @@
     <comment>@Invariant</comment>
   </data>
   <data name="psychonautToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="psychonautToolStripMenuItem.Text" xml:space="preserve">
     <value>White Rose</value>
@@ -836,7 +836,7 @@
     <value>285, 22</value>
   </data>
   <data name="lithuanianToolStripMenuItem.Text" xml:space="preserve">
-    <value>Lietuvių (Lithuanian) - 97.87%</value>
+    <value>Lietuvių (Lithuanian) - 100%</value>
     <comment>@Invariant</comment>
   </data>
   <data name="jeremyzijlemansToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -2938,6 +2938,12 @@ To take effect, both fields should be more than 0.</value>
   <data name="&gt;&gt;luciousmcToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;alvaro203204ToolStripMenuItem.Name" xml:space="preserve">
+    <value>alvaro203204ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;alvaro203204ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;epicToolStripMenuItem.Name" xml:space="preserve">
     <value>epicToolStripMenuItem</value>
   </data>
@@ -3327,12 +3333,6 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="&gt;&gt;toolStripStatusLabelStatus.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;alvaro203204ToolStripMenuItem.Name" xml:space="preserve">
-    <value>alvaro203204ToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;alvaro203204ToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>
