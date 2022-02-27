@@ -140,6 +140,9 @@ namespace CustomRPC
         {
             InitializeComponent();
 
+            // Populating language related menu items
+            Utils.LanguagesSetup(translatorsToolStripMenuItem, OpenTranslatorPage, languageToolStripMenuItem, ChangeLanguage);
+
             // Setting up dark/light mode
             ThemeSetup();
 
