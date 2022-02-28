@@ -421,6 +421,12 @@ Para ter efeito, ambos os campos devem ser maiores que 0.</value>
     <value>Permitir Análise</value>
   </data>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Modo Preto</value>
+    <value>Tema Escuro</value>
+  </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>Nome escolhido para a imagem pequena no site Discord Developers.</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>Nome escolhido para a imagem grande no site Discord Developers.</value>
   </data>
 </root>

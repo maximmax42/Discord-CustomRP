@@ -293,10 +293,11 @@ namespace CustomRPC
                 EnglishName = "Portuguese",
                 Dialect = "BR",
                 Code = "pt-br",
-                Progress = "97.87",
+                Progress = "100",
                 Translators = new Translator[] {
                     new Translator { Name = "Vinicio Henrique (viniciotricolor)" },
                     new Translator { Name = "Slimakoi" },
+                    new Translator { Name = "DeusDrizzyy" },
                 }
             },
             new Language {
