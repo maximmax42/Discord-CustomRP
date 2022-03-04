@@ -62,6 +62,7 @@
             this.languageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.defaultToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.sampleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openTheManualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gitHubPageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -117,7 +118,6 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.sampleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -340,6 +340,13 @@
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
+            // 
+            // sampleToolStripMenuItem
+            // 
+            this.sampleToolStripMenuItem.Name = "sampleToolStripMenuItem";
+            resources.ApplyResources(this.sampleToolStripMenuItem, "sampleToolStripMenuItem");
+            this.sampleToolStripMenuItem.Tag = "lol";
+            this.sampleToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
             // 
             // helpToolStripMenuItem
             // 
@@ -820,13 +827,6 @@
             this.textBoxID.Name = "textBoxID";
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
-            // 
-            // sampleToolStripMenuItem
-            // 
-            this.sampleToolStripMenuItem.Name = "sampleToolStripMenuItem";
-            resources.ApplyResources(this.sampleToolStripMenuItem, "sampleToolStripMenuItem");
-            this.sampleToolStripMenuItem.Tag = "lol";
-            this.sampleToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
             // 
             // MainForm
             // 

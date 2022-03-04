@@ -231,68 +231,68 @@
     <value>File</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>171, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
     <value>Run on Startup</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>171, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
     <value>Start Minimized</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>171, 22</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>Autoconnect</value>
   </data>
   <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 6</value>
+    <value>168, 6</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>171, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>Check for Updates</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>171, 22</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
     <value>Allow Analytics</value>
   </data>
   <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 6</value>
+    <value>168, 6</value>
   </data>
   <data name="darkModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>171, 22</value>
   </data>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>Dark Mode</value>
   </data>
   <data name="toolStripSeparatorSettings3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 6</value>
+    <value>168, 6</value>
   </data>
   <data name="defaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>113, 22</value>
   </data>
   <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
     <value>Default</value>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 6</value>
+    <value>110, 6</value>
   </data>
   <data name="sampleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>113, 22</value>
   </data>
   <data name="sampleToolStripMenuItem.Text" xml:space="preserve">
     <value>Sample</value>
     <comment>@Invariant</comment>
   </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>171, 22</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>Language</value>
@@ -322,7 +322,7 @@
     <value>182, 6</value>
   </data>
   <data name="samplePersonToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="samplePersonToolStripMenuItem.Text" xml:space="preserve">
     <value>Sample Person</value>
@@ -1351,7 +1351,7 @@ To take effect, both fields should be more than 0.</value>
     <value>2, 4, 2, 4</value>
   </data>
   <data name="textBoxButton2Text.MaxLength" type="System.Int32, mscorlib">
-    <value>32</value>
+    <value>31</value>
   </data>
   <data name="textBoxButton2Text.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 22</value>
@@ -1432,7 +1432,7 @@ To take effect, both fields should be more than 0.</value>
     <value>2, 4, 2, 4</value>
   </data>
   <data name="textBoxButton1Text.MaxLength" type="System.Int32, mscorlib">
-    <value>32</value>
+    <value>31</value>
   </data>
   <data name="textBoxButton1Text.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 22</value>
@@ -1879,6 +1879,12 @@ To take effect, both fields should be more than 0.</value>
   <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;sampleToolStripMenuItem.Name" xml:space="preserve">
+    <value>sampleToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;sampleToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
     <value>helpToolStripMenuItem</value>
   </data>
@@ -1962,12 +1968,6 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="&gt;&gt;toolStripStatusLabelStatus.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sampleToolStripMenuItem.Name" xml:space="preserve">
-    <value>sampleToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;sampleToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>

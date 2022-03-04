@@ -466,12 +466,10 @@
     <value>Ссылка, по которой пользователь перейдёт при нажатии на кнопку.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
-    <value>Название первой кнопки.
-Максимум 32 символа.</value>
+    <value>Название первой кнопки.</value>
   </data>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
-    <value>Название второй кнопки.
-Максимум 32 символа.</value>
+    <value>Название второй кнопки.</value>
   </data>
   <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
     <value>19, 14</value>
