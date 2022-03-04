@@ -18,6 +18,10 @@ If you installed the app, updating is literally as easy as running the installer
 ### Troubleshooting & Feedback
 If you have any problems with the app, please check out [FAQ](https://github.com/maximmax42/Discord-CustomRP/wiki/FAQ) first. If it doesn't help, or you have suggestions on making the app more functional, you can open an issue ticket, use Discussions, or contact me on Discord - maximmax42#5572.
 
+## Supporters
+
+[White Rose](https://www.twitch.tv/psychonaut303) - $6.00
+
 ## Translations
 
 <a href="https://poeditor.com/join/project?hash=2jq0i7ANr1"><img alt="POEditor Translation Progress" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fall.json"></a>
