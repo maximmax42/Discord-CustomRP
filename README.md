@@ -18,6 +18,10 @@ If you installed the app, updating is literally as easy as running the installer
 ### Troubleshooting & Feedback
 If you have any problems with the app, please check out [FAQ](https://github.com/maximmax42/Discord-CustomRP/wiki/FAQ) first. If it doesn't help, or you have suggestions on making the app more functional, you can open an issue ticket, use Discussions, or contact me on Discord - maximmax42#5572.
 
+## Supporters
+
+[White Rose](https://www.twitch.tv/psychonaut303) - $6.00
+
 ## Translations
 
 <a href="https://poeditor.com/join/project?hash=2jq0i7ANr1"><img alt="POEditor Translation Progress" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.customrp.xyz%2Fpoeditor%2Fall.json"></a>
@@ -46,7 +50,7 @@ So far, the app supports these languages:
 * [Kurdish](https://poeditor.com/projects/po_edit?id_language=90&per_page=100&id=409229) (thanks to [SamTheNoob](https://linktr.ee/stn69))
 * [Lithuanian](https://poeditor.com/projects/po_edit?id_language=96&per_page=100&id=409229) (thanks to [White Rose](https://www.twitch.tv/psychonaut303))
 * [Polish](https://poeditor.com/projects/po_edit?id_language=127&per_page=100&id=409229) (thanks to Lol1112345.lol12345, Liso and Piter)
-* [Portugese (BR)](https://poeditor.com/projects/po_edit?id_language=190&per_page=100&id=409229) (thanks to viniciotricolor and Slimakoi)
+* [Portugese (BR)](https://poeditor.com/projects/po_edit?id_language=190&per_page=100&id=409229) (thanks to viniciotricolor, Slimakoi and DeusDrizzyy)
 * [Romanian](https://poeditor.com/projects/po_edit?id_language=131&per_page=100&id=409229) (thanks to [DiDYRO](https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w) and Denisbolba)
 * [Russian](https://poeditor.com/projects/po_edit?id_language=134&per_page=100&id=409229)
 * [Spanish](https://poeditor.com/projects/po_edit?id_language=152&per_page=100&id=409229) (thanks to Vexot, Pablo, Luciousmc, Alvaro203204 and Epic)
