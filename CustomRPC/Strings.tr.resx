@@ -131,7 +131,7 @@ Yeniden denemek için "Evet"e veya manuel olarak indirmek için "Hayır"a basın
     <value>İlk Çalıştırma</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
-    <value>Bir kılavuzu açmak ister misiniz?
+    <value>Kılavuzu açmak ister misiniz?
 İstediğiniz zaman Yardım -&gt; Kılavuzu Aç'a giderek veya F1'e basarak açabilirsiniz.</value>
   </data>
   <data name="information" xml:space="preserve">
@@ -173,7 +173,7 @@ Ayarları sıfırlamak için Evet'e, çıkmak için Hayır'a basın.</value>
 (Bütün veriler anonim hale getirilmiştir.)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
-    <value>Ayarlar kaydedilirken bir hata meydana geldi:</value>
+    <value>Ayarları kaydederken bir hata meydana geldi:</value>
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Lütfen "{0}" yolunu antivirüsünüzün istisnalarına ekleyiniz. Eğer bu hatayı almaya devam ederseniz CustomRP'yi yeniden yükleyiniz.</value>

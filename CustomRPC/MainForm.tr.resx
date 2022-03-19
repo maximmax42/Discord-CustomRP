@@ -478,7 +478,7 @@ Etkili olması için, iki alan da 0'dan büyük olmadılır.</value>
     <value>Otomatik Bağlan</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Analitiğe izin ver</value>
+    <value>Analitiğe İzin Ver</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
     <value>Küçük resim için resimin adı ya da bir resim URL'si.</value>

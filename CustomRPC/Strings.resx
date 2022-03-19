@@ -136,7 +136,7 @@ Press "Yes" to retry or "No" to download manually.</value>
     <value>First Time Run</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
-    <value>Would you like to open a manual?
+    <value>Would you like to open the manual?
 You can open it any time by going to Help -&gt; Open the Manual or pressing F1.</value>
   </data>
   <data name="information" xml:space="preserve">

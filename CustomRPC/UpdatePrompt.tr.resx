@@ -137,7 +137,7 @@
     <value>Güncellemeleri tekrar kontrol etme</value>
   </data>
   <data name="labelVersionsText.Text" xml:space="preserve">
-    <value>Şimdiki versiyonu:
+    <value>Şu anki versiyon:
 En son sürüm:</value>
   </data>
   <data name="buttonSkipUpdate.Text" xml:space="preserve">

@@ -121,7 +121,7 @@
     <value>Tamam</value>
   </data>
   <data name="labelInfo.Text" xml:space="preserve">
-    <value>CustomRP, aşağıdaki işlenmeyen özel durum nedeniyle önceki oturumda çöktü:</value>
+    <value>CustomRP aşağıdaki işlenmeyen özel durum nedeniyle önceki oturumda çöktü:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Hata Raporu</value>

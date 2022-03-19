@@ -173,7 +173,7 @@ namespace CustomRPC {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Would you like to open a manual?
+        ///   Ищет локализованную строку, похожую на Would you like to open the manual?
         ///You can open it any time by going to Help -&gt; Open the Manual or pressing F1..
         /// </summary>
         internal static string firstTimeRunText {
