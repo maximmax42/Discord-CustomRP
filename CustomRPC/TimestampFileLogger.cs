@@ -57,6 +57,20 @@ namespace CustomRPC
             }
         }
 
+        private void Log(string logType, LogLevel logLevel, string message, params object[] args)
+        {
+            if (Level > logLevel) return;
+
+            lock (filelock)
+            {
+                try
+                {
+                    File.AppendAllText(LogFile, "[" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "] " + logType + ": " + (args.Length > 0 ? string.Format(message, args) : message) + "\r\n");
+                }
+                catch { }
+            }
+        }
+
         /// <summary>
         /// Detailed log messages
         /// </summary>
@@ -64,9 +78,7 @@ namespace CustomRPC
         /// <param name="args"></param>
         public void Trace(string message, params object[] args)
         {
-            if (Level > LogLevel.Trace) return;
-            lock (filelock)
-                File.AppendAllText(LogFile, "[" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "] TRCE: " + (args.Length > 0 ? string.Format(message, args) : message) + "\r\n");
+            Log("TRCE", LogLevel.Trace, message, args);
         }
 
         /// <summary>
@@ -76,9 +88,7 @@ namespace CustomRPC
         /// <param name="args"></param>
         public void Info(string message, params object[] args)
         {
-            if (Level > LogLevel.Info) return;
-            lock (filelock)
-                File.AppendAllText(LogFile, "[" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "] INFO: " + (args.Length > 0 ? string.Format(message, args) : message) + "\r\n");
+            Log("INFO", LogLevel.Trace, message, args);
         }
 
         /// <summary>
@@ -88,9 +98,7 @@ namespace CustomRPC
         /// <param name="args"></param>
         public void Warning(string message, params object[] args)
         {
-            if (Level > LogLevel.Warning) return;
-            lock (filelock)
-                File.AppendAllText(LogFile, "[" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "] WARN: " + (args.Length > 0 ? string.Format(message, args) : message) + "\r\n");
+            Log("WARN", LogLevel.Trace, message, args);
         }
 
         /// <summary>
@@ -100,9 +108,7 @@ namespace CustomRPC
         /// <param name="args"></param>
         public void Error(string message, params object[] args)
         {
-            if (Level > LogLevel.Error) return;
-            lock (filelock)
-                File.AppendAllText(LogFile, "[" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "] ERR : " + (args.Length > 0 ? string.Format(message, args) : message) + "\r\n");
+            Log(" ERR", LogLevel.Trace, message, args);
         }
     }
 }

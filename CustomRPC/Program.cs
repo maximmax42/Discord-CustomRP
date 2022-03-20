@@ -110,20 +110,31 @@ namespace CustomRPC
 
                 Crashes.GetErrorAttachments = (ErrorReport report) =>
                 {
-                    StringBuilder result = new StringBuilder();
+                    StringBuilder settingsTxt = new StringBuilder();
 
                     foreach (System.Configuration.SettingsPropertyValue setting in settings.PropertyValues)
                     {
                         if (setting.Name == "id")
                             continue;
 
-                        result.AppendLine(setting.Name + " = " + setting.SerializedValue);
+                        settingsTxt.AppendLine(setting.Name + " = " + setting.SerializedValue);
+                    }
+
+                    StringBuilder rpcLog = new StringBuilder();
+                    string[] temp = File.ReadAllLines("rpc.log");
+
+                    for (int i = temp.Length - 1; i >= 0 && i >= temp.Length - 200; i--)
+                    {
+                        if (temp[i].Contains("applicationID"))
+                            continue;
+
+                        rpcLog.Insert(0, temp[i] + "\r\n");
                     }
 
                     return new ErrorAttachmentLog[]
                     {
-                        ErrorAttachmentLog.AttachmentWithText(result.ToString(), "settings.txt"),
-                        ErrorAttachmentLog.AttachmentWithText(File.ReadAllText("rpc.log"), "rpc.log")
+                        ErrorAttachmentLog.AttachmentWithText(settingsTxt.ToString(), "settings.txt"),
+                        ErrorAttachmentLog.AttachmentWithText(rpcLog.ToString(), "rpc.log")
                     };
                 };
 
