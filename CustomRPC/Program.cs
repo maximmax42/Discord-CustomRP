@@ -122,7 +122,8 @@ namespace CustomRPC
 
                     return new ErrorAttachmentLog[]
                     {
-                    ErrorAttachmentLog.AttachmentWithText(result.ToString(), "settings.txt")
+                        ErrorAttachmentLog.AttachmentWithText(result.ToString(), "settings.txt"),
+                        ErrorAttachmentLog.AttachmentWithText(File.ReadAllText("rpc.log"), "rpc.log")
                     };
                 };
 

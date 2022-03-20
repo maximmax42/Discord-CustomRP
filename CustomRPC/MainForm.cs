@@ -236,7 +236,8 @@ namespace CustomRPC
                 settings.firstStart = false;
                 Utils.SaveSettings();
             }
-            else if (settings.id != "" && ((settings.changedLanguage && settings.wasConnected) || (settings.autoconnect && !settings.changedLanguage)))
+
+            if (settings.id != "" && ((settings.changedLanguage && settings.wasConnected) || (settings.autoconnect && !settings.changedLanguage)))
                 Connect();
 
             CheckIfCrashed();
@@ -510,6 +511,8 @@ namespace CustomRPC
             client.OnPresenceUpdate += ClientOnPresenceUpdate;
             client.OnError += ClientOnError;
             client.OnConnectionFailed += ClientOnConnFailed;
+
+            client.Logger = new TimestampFileLogger("rpc.log");
 
             client.Initialize();
 

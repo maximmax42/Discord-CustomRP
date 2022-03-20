@@ -120,6 +120,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Strings.resx</DependentUpon>
     </Compile>
+    <Compile Include="TimestampFileLogger.cs" />
     <Compile Include="Utils.cs" />
     <Compile Include="VersionHelper.cs" />
     <Compile Include="UpdatePrompt.cs">
