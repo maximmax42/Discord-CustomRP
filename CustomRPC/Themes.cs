@@ -92,9 +92,16 @@ namespace CustomRPC
 
         protected override void OnRenderItemImage(ToolStripItemImageRenderEventArgs e)
         {
-            if (e.Image != null && e.Item.Tag != null)
-                e.Item.Image = Properties.Resources.globe_white;
             base.OnRenderItemImage(e);
+
+            if (e.Item.Tag == null)
+                return;
+
+            if (e.Item.Image.Tag == null || (string)e.Item.Image.Tag == "light")
+            {
+                e.Item.Image = Properties.Resources.globe_white;
+                e.Item.Image.Tag = "dark";
+            }
         }
     }
 
@@ -109,9 +116,16 @@ namespace CustomRPC
 
         protected override void OnRenderItemImage(ToolStripItemImageRenderEventArgs e)
         {
-            if (e.Image != null && e.Item.Tag != null)
-                e.Item.Image = Properties.Resources.globe;
             base.OnRenderItemImage(e);
+
+            if (e.Item.Tag == null)
+                return;
+
+            if (e.Item.Image.Tag == null || (string)e.Item.Image.Tag == "dark")
+            {
+                e.Item.Image = Properties.Resources.globe;
+                e.Item.Image.Tag = "light";
+            }
         }
     }
 }
