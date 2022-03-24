@@ -121,7 +121,7 @@ namespace CustomRPC
                     }
 
                     StringBuilder rpcLog = new StringBuilder();
-                    string[] temp = File.ReadAllLines("rpc.log");
+                    string[] temp = File.ReadAllLines(Application.StartupPath + "\\rpc.log");
 
                     for (int i = temp.Length - 1; i >= 0 && i >= temp.Length - 200; i--)
                     {

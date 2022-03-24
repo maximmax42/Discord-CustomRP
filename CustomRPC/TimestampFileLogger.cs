@@ -57,6 +57,13 @@ namespace CustomRPC
             }
         }
 
+        /// <summary>
+        /// Base function for logging.
+        /// </summary>
+        /// <param name="logType"></param>
+        /// <param name="logLevel"></param>
+        /// <param name="message"></param>
+        /// <param name="args"></param>
         private void Log(string logType, LogLevel logLevel, string message, params object[] args)
         {
             if (Level > logLevel) return;
