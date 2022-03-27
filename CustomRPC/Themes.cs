@@ -40,8 +40,8 @@ namespace CustomRPC
             }
             else
             {
-                BgColor = Color.WhiteSmoke;
-                BgTextFields = Color.FromName("Window");
+                BgColor = Color.FromArgb(255, 255, 255);
+                BgTextFields = Color.FromArgb(235, 237, 239);
                 BgTextFieldsSuccess = Color.FromArgb(192, 255, 192);
                 BgTextFieldsError = Color.FromArgb(255, 192, 192);
                 TextColor = Color.FromName("ControlText");
@@ -109,7 +109,7 @@ namespace CustomRPC
     {
         protected override void OnRenderToolStripBackground(ToolStripRenderEventArgs e)
         {
-            e.ToolStrip.BackColor = Color.White;
+            e.ToolStrip.BackColor = Color.FromArgb(242, 243, 245);
 
             base.OnRenderToolStripBackground(e);
         }
