@@ -269,6 +269,16 @@ namespace CustomRPC
                 }
             },
             new Language {
+                Name = "မြန်မာဘာသာ",
+                EnglishName = "Burmese",
+                Code = "my",
+                Progress = "100",
+                Translators = new Translator[] {
+                    new Translator { Name = "Infernite#0680" },
+                    new Translator { Name = "BBbear#7149" }
+                }
+            },
+            new Language {
                 Name = "Nederlands",
                 EnglishName = "Dutch",
                 Code = "nl",
