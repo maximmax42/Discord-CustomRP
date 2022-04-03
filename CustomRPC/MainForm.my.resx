@@ -335,7 +335,7 @@
     <value>ရုပ်ပုံသေး (သို့မဟုတ်) ရုပ်ပုံ URL ၏အမည်</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>ရုပ်ပုံသေး ရပ်တန့်ချိန်တွ င်ပေါ်သည့်စာ</value>
+    <value>ရုပ်ပုံသေး ရပ်တန့်ချိန်တွင်ပေါ်သည့်စာ</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
     <value>ရုပ်ပုံကြီး ရပ်တန့်ချိန်တွင် ပေါ်သည့်စာ</value>
