@@ -61,7 +61,7 @@ So far, the app supports these languages:
 * [Ukrainian](https://poeditor.com/projects/po_edit?id_language=173&per_page=100&id=409229) (thanks to MechaniX and Dmitromintenko)
 * [Vietnamese](https://poeditor.com/projects/po_edit?id_language=177&per_page=100&id=409229) (thanks to [Mykm](https://github.com/yumiruuwu), Phnthnhnm0612, dsbachle and 03_Trần)
 
-If you want to help translate the app to your language, please go to the [POEditor project page](https://poeditor.com/join/project?hash=2jq0i7ANr1). **It is advised that you join the Translators Discord server to get notified when new terms are added (link is on the project page).** If you're already part of the project, click on  your language's name.
+If you want to help translate the app to your language, please go to the [POEditor project page](https://poeditor.com/join/project?hash=2jq0i7ANr1). **It is advised that you join the Discord server to get notified when new terms are added (link is on top of this readme file).** If you're already part of the project, click on  your language's name.
 
 # Privacy Policy
 Privacy policy is listed [here](https://github.com/maximmax42/Discord-CustomRP/blob/master/PRIVACY.md).
