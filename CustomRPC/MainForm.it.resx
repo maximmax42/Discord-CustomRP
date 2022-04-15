@@ -408,4 +408,16 @@ Per avere effetto, entrambi i valori devono essere superiori a 0.</value>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>Auto Connessione</value>
   </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>Nome della risorsa per l'immagine piccola o l'URL di un'immagine.</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>Nome della risorsa per l'immagine grande o l'URL di un'immagine.</value>
+  </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Consenti analisi</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Modalità Scura</value>
+  </data>
 </root>

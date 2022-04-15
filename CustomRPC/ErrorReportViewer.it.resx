@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,65 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="error" xml:space="preserve">
-    <value>Errore</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Segnalazione errori</value>
   </data>
-  <data name="errorNoID" xml:space="preserve">
-    <value>Nessun ID è stato specificato!</value>
+  <data name="buttonOK.Text" xml:space="preserve">
+    <value>OK</value>
   </data>
-  <data name="errorUpdateFailed" xml:space="preserve">
-    <value>Si è verificato un errore durante il download o l'installazione di un aggiornamento.
-Premi "Sì" per riprovare o "No" per scaricare manualmente.</value>
-  </data>
-  <data name="firstTimeRun" xml:space="preserve">
-    <value>Prima esecuzione</value>
-  </data>
-  <data name="firstTimeRunText" xml:space="preserve">
-    <value>Vuoi aprire un manuale?
-Puoi aprirlo in qualsiasi momento andando su Help -&gt; Apri il manuale o premendo F1.</value>
-  </data>
-  <data name="information" xml:space="preserve">
-    <value>Informazioni</value>
-  </data>
-  <data name="statusConnected" xml:space="preserve">
-    <value>Connesso</value>
-  </data>
-  <data name="statusConnecting" xml:space="preserve">
-    <value>Connessione in corso...</value>
-  </data>
-  <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Connessione fallita (Discord è in esecuzione?)</value>
-  </data>
-  <data name="statusDisconnected" xml:space="preserve">
-    <value>Disconnesso</value>
-  </data>
-  <data name="statusError" xml:space="preserve">
-    <value>Errore di connessione (ID errato?)</value>
-  </data>
-  <data name="errorInvalidURL" xml:space="preserve">
-    <value>URL non valido specificato per i pulsanti o il testo è troppo lungo!</value>
-  </data>
-  <data name="errorNoInternet" xml:space="preserve">
-    <value>Non riesco a connettermi a internet!</value>
-  </data>
-  <data name="noUpdatesFound" xml:space="preserve">
-    <value>Nessun aggiornamento trovato!</value>
-  </data>
-  <data name="errorCorruptSettings" xml:space="preserve">
-    <value>Il file delle impostazioni è corrotto.
-Premi Sì per resettare le impostazioni oppure premi No per uscire.</value>
-  </data>
-  <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Non ho potuto importare il preset; il file è mancante, corrotto o non formattato.</value>
-  </data>
-  <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>Consenti a CustomRP di inviare le tue analisi di utilizzo allo sviluppatore?
-(Tutti i dati sono depersonalizzati.)</value>
-  </data>
-  <data name="errorSavingSettings" xml:space="preserve">
-    <value>Si è verificato un errore durante il salvataggio delle impostazioni:</value>
-  </data>
-  <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>Aggiungere il percorso "{0}" alle eccezioni antivirus. Reinstallare CustomRP se l'errore persiste</value>
+  <data name="labelInfo.Text" xml:space="preserve">
+    <value>CustomRP si è arrestato in modo anomalo nella sessione precedente a causa della seguente eccezione non gestita:</value>
   </data>
 </root>

@@ -226,9 +226,10 @@ namespace CustomRPC
                 Name = "Italiano",
                 EnglishName = "Italian",
                 Code = "it",
-                Progress = "89.36",
+                Progress = "100",
                 Translators = new Translator[] {
                     new Translator { Name = "DJD320" },
+                    new Translator { Name = "Frin" },
                     new Translator { Name = "ItsMrCube", Url = "https://mrcube.live/" },
                 }
             },
