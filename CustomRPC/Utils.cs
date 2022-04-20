@@ -248,7 +248,7 @@ namespace CustomRPC
                 Code = "ko",
                 Progress = "100",
                 Translators = new Translator[] {
-                    new Translator { Name = "Yeongaori" },
+                    new Translator { Name = "Yeongaori", Url = "https://github.com/yeongaori" },
                 }
             },
             new Language {
