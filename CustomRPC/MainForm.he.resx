@@ -140,7 +140,7 @@
     <value>159, 22</value>
   </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
-    <value>התחברות מחדש</value>
+    <value>התחבר מחדש</value>
   </data>
   <data name="trayMenuDisconnect.Size" type="System.Drawing.Size, System.Drawing">
     <value>159, 22</value>
@@ -179,7 +179,7 @@
     <value>228, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>העלה נכסים (תמונות)</value>
+    <value>העלה תמונות</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>225, 6</value>
@@ -200,13 +200,13 @@
     <value>188, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>הרץ בהפעלת המחשב</value>
+    <value>פתח בהפעלת המחשב</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>188, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>הרץ ממוזער</value>
+    <value>הרץ במיזעור</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>188, 22</value>

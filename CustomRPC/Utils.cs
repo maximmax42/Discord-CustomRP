@@ -191,6 +191,7 @@ namespace CustomRPC
                 Translators = new Translator[] {
                     new Translator { Name = "Galaxy6430", Url = "https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg" },
                     new Translator { Name = "Kahpot Vanilla", Url = "https://linktr.ee/KahpotVanilla" },
+                    new Translator { Name = "Amit" }
                 }
             },
             new Language {
