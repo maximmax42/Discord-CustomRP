@@ -622,6 +622,12 @@ namespace CustomRPC
                 },
             };
 
+            if (rp.Assets.LargeImageKey.Contains("//cdn.discordapp.com/"))
+                rp.Assets.LargeImageKey = rp.Assets.LargeImageKey.Replace("cdn.discordapp.com", "media.discordapp.net");
+
+            if (rp.Assets.SmallImageKey.Contains("//cdn.discordapp.com/"))
+                rp.Assets.SmallImageKey = rp.Assets.SmallImageKey.Replace("cdn.discordapp.com", "media.discordapp.net");
+
             buttonsList.Clear();
 
             try
@@ -1150,7 +1156,7 @@ namespace CustomRPC
         {
             dynamic box = sender;
 
-            if (!StringTools.WithinLength(box.Text, box.MaxLength))
+            if (box.Text.Length == 1 || !StringTools.WithinLength(box.Text, box.MaxLength))
             {
                 e.Cancel = true;
                 System.Media.SystemSounds.Beep.Play();
@@ -1164,7 +1170,7 @@ namespace CustomRPC
         {
             dynamic box = sender;
 
-            box.BackColor = StringTools.WithinLength(box.Text, box.MaxLength) ? CurrentColors.BgTextFields : CurrentColors.BgTextFieldsError;
+            box.BackColor = (box.Text.Length != 1 && StringTools.WithinLength(box.Text, box.MaxLength)) ? CurrentColors.BgTextFields : CurrentColors.BgTextFieldsError;
         }
 
         /// <summary>
