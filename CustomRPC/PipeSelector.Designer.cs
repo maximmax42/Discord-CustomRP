@@ -108,6 +108,7 @@ namespace CustomRPC
             this.MinimizeBox = false;
             this.Name = "PipeSelector";
             this.ShowIcon = false;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DisposeClient);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPipe)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAvatar)).EndInit();
             this.ResumeLayout(false);

@@ -41,18 +41,11 @@ namespace CustomRPC
         /// </summary>
         private void ConnectionSuccessful(object sender, DiscordRPC.Message.ReadyMessage args)
         {
-            try
+            Invoke(new MethodInvoker(() =>
             {
-                Invoke(new MethodInvoker(() =>
-                {
-                    pictureBoxAvatar.ImageLocation = client.CurrentUser.GetAvatarURL(User.AvatarFormat.PNG);
-                    labelUsername.Text = client.CurrentUser.ToString().Replace("#", "\n#");
-                }));
-            }
-            catch
-            {
-                // Form has been closed, just do nothing
-            }
+                pictureBoxAvatar.ImageLocation = client.CurrentUser.GetAvatarURL(User.AvatarFormat.PNG);
+                labelUsername.Text = client.CurrentUser.ToString().Replace("#", "\n#");
+            }));
 
             client.Dispose();
         }
@@ -62,18 +55,11 @@ namespace CustomRPC
         /// </summary>
         private void ConnectionFailed(object sender, DiscordRPC.Message.ConnectionFailedMessage args)
         {
-            try
+            Invoke(new MethodInvoker(() =>
             {
-                Invoke(new MethodInvoker(() =>
-                {
-                    pictureBoxAvatar.ImageLocation = "https://cdn.discordapp.com/embed/avatars/4.png";
-                    labelUsername.Text = "Can't connect.";
-                }));
-            }
-            catch
-            {
-                // Form has been closed, just do nothing
-            }
+                pictureBoxAvatar.ImageLocation = "https://cdn.discordapp.com/embed/avatars/4.png";
+                labelUsername.Text = "Can't connect.";
+            }));
 
             client.Dispose();
         }
@@ -88,5 +74,10 @@ namespace CustomRPC
             labelUsername.Text = "Connecting...";
         }
 
+        private void DisposeClient(object sender, FormClosingEventArgs e)
+        {
+            if (!client.IsDisposed)
+                client.Dispose();
+        }
     }
 }
