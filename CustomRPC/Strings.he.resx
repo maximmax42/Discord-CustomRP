@@ -156,7 +156,7 @@
     <value>כתובת (URL) שגוי לכפתור/ים או שהטקסט ארוך מידי!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
-    <value>אי אפשר להתחבר לאינטרנט! (בדוק את מצב האינטרנט שלך)</value>
+    <value>אין אפשרות להתחבר לאינטרנט! (בדוק את מצב האינטרנט שלך, האם הוא תקין?)</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
     <value>לא נמצאו עדכונים!</value>
