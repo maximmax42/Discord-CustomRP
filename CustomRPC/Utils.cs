@@ -119,9 +119,9 @@ namespace CustomRPC
                 Name = "Čeština",
                 EnglishName = "Czech",
                 Code = "cs",
-                Progress = "96.81",
+                Progress = "100",
                 Translators = new Translator[] {
-                    new Translator { Name = "JayJake", Url = "https://jayjake.eu/" },
+                    new Translator { Name = "JayJake", Url = "https://jayk.live/" },
                     new Translator { Name = "Tobias" }
                 }
             },

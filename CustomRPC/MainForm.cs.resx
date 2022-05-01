@@ -417,4 +417,13 @@ Aby se projevily, obě pole by měla být větší než 0.</value>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
     <value>Povolit analýzu</value>
   </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>Označení assetu pro malý obrázek nebo URL obrázku.</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>Označení assetu pro velký obrázek nebo URL obrázku.</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tmavý režim</value>
+  </data>
 </root>
