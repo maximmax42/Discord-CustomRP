@@ -622,10 +622,10 @@ namespace CustomRPC
                 },
             };
 
-            if (rp.Assets.LargeImageKey.Contains("//cdn.discordapp.com/"))
+            if (rp.Assets.LargeImageKey != null && rp.Assets.LargeImageKey.Contains("//cdn.discordapp.com/"))
                 rp.Assets.LargeImageKey = rp.Assets.LargeImageKey.Replace("cdn.discordapp.com", "media.discordapp.net");
 
-            if (rp.Assets.SmallImageKey.Contains("//cdn.discordapp.com/"))
+            if (rp.Assets.SmallImageKey != null && rp.Assets.SmallImageKey.Contains("//cdn.discordapp.com/"))
                 rp.Assets.SmallImageKey = rp.Assets.SmallImageKey.Replace("cdn.discordapp.com", "media.discordapp.net");
 
             buttonsList.Clear();
