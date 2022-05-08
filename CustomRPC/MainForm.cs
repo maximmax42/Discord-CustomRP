@@ -740,10 +740,7 @@ namespace CustomRPC
         /// <summary>
         /// Called when you double click the tray icon.
         /// </summary>
-        private void MaximizeFromTray(object sender, EventArgs e)
-        {
-            MaximizeFromTray();
-        }
+        private void MaximizeFromTray(object sender, EventArgs e) => MaximizeFromTray();
 
         /// <summary>
         /// Maximizes the window.
@@ -1016,10 +1013,7 @@ namespace CustomRPC
         /// <summary>
         /// Called when you press Check for updates... button.
         /// </summary>
-        private void CheckForUpdates(object sender, EventArgs e)
-        {
-            CheckForUpdates(true);
-        }
+        private void CheckForUpdates(object sender, EventArgs e) => CheckForUpdates(true);
 
         /// <summary>
         /// Called when you press About... button.
@@ -1122,10 +1116,7 @@ namespace CustomRPC
         /// <summary>
         /// Called when you press the Disconnect button.
         /// </summary>
-        private void Disconnect(object sender, EventArgs e)
-        {
-            Disconnect();
-        }
+        private void Disconnect(object sender, EventArgs e) => Disconnect();
 
         /// <summary>
         /// Disconnects from Discord and makes UI changes.
