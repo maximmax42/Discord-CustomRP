@@ -298,6 +298,7 @@ namespace CustomRPC
                     new Translator { Name = "Lol1112345.lol12345" },
                     new Translator { Name = "Liso" },
                     new Translator { Name = "Piter" },
+                    new Translator { Name = "Oscar" },
                 }
             },
             new Language {
