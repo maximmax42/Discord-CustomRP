@@ -107,8 +107,7 @@ namespace CustomRPC
             new Language {
                 Name = "مَصرى",
                 EnglishName = "Arabic",
-                Dialect = "EG",
-                Code = "ar-eg",
+                Code = "ar",
                 Progress = "100",
                 Translators = new Translator[] {
                     new Translator { Name = "FiberAhmed", Url = "https://github.com/FiberAhmed" },

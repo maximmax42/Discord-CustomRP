@@ -129,7 +129,7 @@
     <Compile Include="UpdatePrompt.Designer.cs">
       <DependentUpon>UpdatePrompt.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="About.ar-EG.resx">
+    <EmbeddedResource Include="About.ar.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="About.cs.resx">
@@ -227,7 +227,7 @@
     <EmbeddedResource Include="About.zh-Hant.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ErrorReportViewer.ar-EG.resx">
+    <EmbeddedResource Include="ErrorReportViewer.ar.resx">
       <DependentUpon>ErrorReportViewer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ErrorReportViewer.cs.resx">
@@ -309,7 +309,7 @@
     <EmbeddedResource Include="ErrorReportViewer.zh-Hant.resx">
       <DependentUpon>ErrorReportViewer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.ar-EG.resx">
+    <EmbeddedResource Include="MainForm.ar.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -353,7 +353,7 @@
     <EmbeddedResource Include="MainForm.uk.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PipeSelector.ar-EG.resx">
+    <EmbeddedResource Include="PipeSelector.ar.resx">
       <DependentUpon>PipeSelector.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PipeSelector.he.resx">
@@ -434,7 +434,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Strings.ar-EG.resx">
+    <EmbeddedResource Include="Strings.ar.resx">
       <SubType>Designer</SubType>
       <DependentUpon>Strings.resx</DependentUpon>
     </EmbeddedResource>
@@ -551,7 +551,7 @@
       <DependentUpon>Strings.resx</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdatePrompt.ar-EG.resx">
+    <EmbeddedResource Include="UpdatePrompt.ar.resx">
       <DependentUpon>UpdatePrompt.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
