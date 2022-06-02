@@ -11,6 +11,7 @@ using System.Globalization;
 using System.IO;
 using System.Net;
 using System.Net.Http;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 using Application = System.Windows.Forms.Application;
@@ -622,11 +623,17 @@ namespace CustomRPC
                 },
             };
 
-            if (rp.Assets.LargeImageKey != null && rp.Assets.LargeImageKey.Contains("//cdn.discordapp.com/"))
-                rp.Assets.LargeImageKey = rp.Assets.LargeImageKey.Replace("cdn.discordapp.com", "media.discordapp.net");
+            // Is there a way to not write this code twice? I don't think so since strings are immutable.
 
-            if (rp.Assets.SmallImageKey != null && rp.Assets.SmallImageKey.Contains("//cdn.discordapp.com/"))
-                rp.Assets.SmallImageKey = rp.Assets.SmallImageKey.Replace("cdn.discordapp.com", "media.discordapp.net");
+            if (rp.Assets.LargeImageKey != null
+                && !Regex.IsMatch(rp.Assets.LargeImageKey, "//(www\\.)?customrp\\.xyz")
+                && Regex.IsMatch(rp.Assets.LargeImageKey, "//((cdn)|(media))\\.discordapp\\.((com)|(net))/"))
+                rp.Assets.LargeImageKey = "https://customrp.xyz/p/?u=" + rp.Assets.LargeImageKey;
+
+            if (rp.Assets.SmallImageKey != null
+                && !Regex.IsMatch(rp.Assets.SmallImageKey, "//(www\\.)?customrp\\.xyz")
+                && Regex.IsMatch(rp.Assets.SmallImageKey, "//((cdn)|(media))\\.discordapp\\.((com)|(net))/"))
+                rp.Assets.SmallImageKey = "https://customrp.xyz/p/?u=" + rp.Assets.SmallImageKey;
 
             buttonsList.Clear();
 
