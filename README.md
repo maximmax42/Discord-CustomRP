@@ -21,7 +21,8 @@ If you have any problems with the app, please check out [FAQ](https://github.com
 
 ## Supporters
 
-[White Rose](https://www.twitch.tv/psychonaut303) - $6.00
+* [Grim](https://www.savethekiwi.nz/) - $25.00 (0.0008328 BTC)
+* [White Rose](https://www.twitch.tv/psychonaut303) - $6.00
 
 ## Translations
 
