@@ -142,7 +142,10 @@ namespace CustomRPC
             InitializeComponent();
 
             // Populating language related menu items
-            Utils.LanguagesSetup(translatorsToolStripMenuItem, OpenTranslatorPage, languageToolStripMenuItem, ChangeLanguage);
+            Utils.LanguagesSetup(translatorsToolStripMenuItem, OpenPersonsPage, languageToolStripMenuItem, ChangeLanguage);
+
+            // Populating supporters menu items
+            Utils.SupportersSetup(supportersToolStripMenuItem, OpenPersonsPage);
 
             // Setting up dark/light mode
             ThemeSetup();
@@ -998,23 +1001,29 @@ namespace CustomRPC
         }
 
         /// <summary>
-        /// Called when you press on a translator's nickname.
+        /// Called when you press on a translator's or supporter's nickname.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void OpenTranslatorPage(object sender, EventArgs e)
+        private void OpenPersonsPage(object sender, EventArgs e)
         {
-            var translator = (ToolStripMenuItem)sender;
+            var personItem = (ToolStripMenuItem)sender;
+            var personTag = (ValueTuple<string, string>)personItem.Tag; // Item1 is type, Item2 is URL
 
-            if (string.IsNullOrWhiteSpace((string)translator.Tag))
+            if (string.IsNullOrWhiteSpace(personTag.Item2))
                 return;
 
-            Analytics.TrackEvent("Clicked on a translator", new Dictionary<string, string> {
-                { "Name", translator.Text },
-                { "URL", (string)translator.Tag }
+            string personName = personItem.Text;
+
+            if (personTag.Item1 == "supporter")
+                personName = personName.Replace(" - ", "|").Split('|')[0]; // Doing this replacement thing just in case someone has "-" in their nickname
+
+            Analytics.TrackEvent("Clicked on a " + personTag.Item1, new Dictionary<string, string> {
+                { "Name", personName },
+                { "URL", personTag.Item2 }
             });
 
-            Process.Start((string)translator.Tag); // Tags contain URLs
+            Process.Start(personTag.Item2); // Tags contain URLs
         }
 
         /// <summary>

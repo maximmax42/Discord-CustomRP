@@ -486,4 +486,7 @@
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>Тёмная тема</value>
   </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Донатеры</value>
+  </data>
 </root>

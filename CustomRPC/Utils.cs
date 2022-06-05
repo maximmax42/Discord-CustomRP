@@ -95,6 +95,29 @@ namespace CustomRPC
     }
 
     /// <summary>
+    /// A struct describing a supporter.
+    /// </summary>
+    struct Supporter
+    {
+        /// <summary>
+        /// Nickname of the supporter.
+        /// </summary>
+        public string Name;
+        /// <summary>
+        /// URL of the supporter, optional.
+        /// </summary>
+        public string Url;
+        /// <summary>
+        /// The amount of money the person donated in dollars.
+        /// </summary>
+        public string USDAmount;
+        /// <summary>
+        /// The amount of money the person donated in currency other than dollars, optional.
+        /// </summary>
+        public string AltAmount;
+    }
+
+    /// <summary>
     /// Utility functions.
     /// </summary>
     public static class Utils
@@ -395,6 +418,24 @@ namespace CustomRPC
         };
 
         /// <summary>
+        /// List of supporters used to populate Help -> supporters menu item.
+        /// </summary>
+        static List<Supporter> Supporters => new List<Supporter>
+        {
+            new Supporter {
+                Name = "Grim",
+                Url = "https://www.savethekiwi.nz/",
+                USDAmount = "25.00",
+                AltAmount = "0.0008328 BTC"
+            },
+            new Supporter {
+                Name = "White Rose",
+                Url = "https://www.twitch.tv/psychonaut303",
+                USDAmount = "6.00",
+            },
+        };
+
+        /// <summary>
         /// A try-catch wrapper function for saving app settings.
         /// </summary>
         /// <returns><see langword="True"/> if settings were saved properly, <see langword="false"/> otherwise.</returns>
@@ -416,7 +457,7 @@ namespace CustomRPC
         /// A function to populate Settings -> Languages and Help -> Translators menus with languages and its translators.
         /// </summary>
         /// <param name="translatorsParent">Always <see cref="MainForm.translatorsToolStripMenuItem"/>.</param>
-        /// <param name="translatorsHandler">Always <see cref="MainForm.OpenTranslatorPage"/>.</param>
+        /// <param name="translatorsHandler">Always <see cref="MainForm.OpenPersonsPage"/>.</param>
         /// <param name="languagesParent">Always <see cref="MainForm.languageToolStripMenuItem"/>.</param>
         /// <param name="languagesHandler">Always <see cref="MainForm.ChangeLanguage"/>.</param>
         public static void LanguagesSetup(ToolStripMenuItem translatorsParent, EventHandler translatorsHandler,
@@ -450,12 +491,40 @@ namespace CustomRPC
                     if (!string.IsNullOrEmpty(tl.Url))
                     {
                         tlItem.Image = Properties.Resources.globe;
-                        tlItem.Tag = tl.Url;
+                        tlItem.Tag = ("translator", tl.Url);
                     }
                     langStrip.DropDownItems.Add(tlItem);
                 }
 
                 translatorsParent.DropDownItems.Add(langStrip);
+            }
+        }
+
+        /// <summary>
+        /// A function to populate Help -> Supporter menu with supporters.
+        /// </summary>
+        /// <param name="parent">Always <see cref="MainForm.supportersToolStripMenuItem"/>.</param>
+        /// <param name="handler">Always <see cref="MainForm.OpenPersonsPage"/>.</param>
+        public static void SupportersSetup(ToolStripMenuItem parent, EventHandler handler)
+        {
+            // Clearing out sample item I left in for design purposes
+            parent.DropDownItems.Clear();
+
+            // Populating Help -> Supporters
+            foreach (var supporter in Supporters)
+            {
+                var altCur = "";
+                if (!string.IsNullOrEmpty(supporter.AltAmount))
+                    altCur = $" ({supporter.AltAmount})";
+
+                var item = new ToolStripMenuItem($"{supporter.Name} - ${supporter.USDAmount}{altCur}", null, handler);
+
+                if (!string.IsNullOrEmpty(supporter.Url))
+                {
+                    item.Image = Properties.Resources.globe;
+                    item.Tag = ("supporter", supporter.Url);
+                }
+                parent.DropDownItems.Add(item);
             }
         }
     }
