@@ -1008,22 +1008,22 @@ namespace CustomRPC
         private void OpenPersonsPage(object sender, EventArgs e)
         {
             var personItem = (ToolStripMenuItem)sender;
-            var personTag = (ValueTuple<string, string>)personItem.Tag; // Item1 is type, Item2 is URL
+            var (personType, PersonUrl) = (ValueTuple<string, string>)personItem.Tag;
 
-            if (string.IsNullOrWhiteSpace(personTag.Item2))
+            if (string.IsNullOrWhiteSpace(PersonUrl))
                 return;
 
             string personName = personItem.Text;
 
-            if (personTag.Item1 == "supporter")
-                personName = personName.Replace(" - ", "|").Split('|')[0]; // Doing this replacement thing just in case someone has "-" in their nickname
+            if (personType == "supporter")
+                personName = personName.Replace(" - ", "|").Split('|')[0]; // Doing this replacement thing just in case someone will have "-" in their nickname
 
-            Analytics.TrackEvent("Clicked on a " + personTag.Item1, new Dictionary<string, string> {
+            Analytics.TrackEvent("Clicked on a " + personType, new Dictionary<string, string> {
                 { "Name", personName },
-                { "URL", personTag.Item2 }
+                { "URL", PersonUrl }
             });
 
-            Process.Start(personTag.Item2); // Tags contain URLs
+            Process.Start(PersonUrl);
         }
 
         /// <summary>

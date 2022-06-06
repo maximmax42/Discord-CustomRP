@@ -420,20 +420,26 @@ namespace CustomRPC
         /// <summary>
         /// List of supporters used to populate Help -> supporters menu item.
         /// </summary>
-        static List<Supporter> Supporters => new List<Supporter>
+        static List<Supporter> Supporters { get; set; }
+
+        static Utils()
         {
-            new Supporter {
-                Name = "Grim",
-                Url = "https://www.savethekiwi.nz/",
-                USDAmount = "25.00",
-                AltAmount = "0.0008328 BTC"
-            },
-            new Supporter {
-                Name = "White Rose",
-                Url = "https://www.twitch.tv/psychonaut303",
-                USDAmount = "6.00",
-            },
-        };
+            // Setting it here because if I did it the same way as the list of translators, sorting doesn't work
+            Supporters = new List<Supporter>
+            {
+                new Supporter {
+                    Name = "Grim",
+                    Url = "https://www.savethekiwi.nz/",
+                    USDAmount = "25.00",
+                    AltAmount = "0.0008328 BTC"
+                },
+                new Supporter {
+                    Name = "White Rose",
+                    Url = "https://www.twitch.tv/psychonaut303",
+                    USDAmount = "6.00",
+                },
+            };
+        }
 
         /// <summary>
         /// A try-catch wrapper function for saving app settings.
@@ -509,6 +515,15 @@ namespace CustomRPC
         {
             // Clearing out sample item I left in for design purposes
             parent.DropDownItems.Clear();
+
+            // Sort the supporters from higher to lower 
+            Supporters.Sort((x, y) =>
+            {
+                float amtX = float.Parse(x.USDAmount, System.Globalization.CultureInfo.InvariantCulture);
+                float amtY = float.Parse(y.USDAmount, System.Globalization.CultureInfo.InvariantCulture);
+
+                return amtY.CompareTo(amtX);
+            });
 
             // Populating Help -> Supporters
             foreach (var supporter in Supporters)
