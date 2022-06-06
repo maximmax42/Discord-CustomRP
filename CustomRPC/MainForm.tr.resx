@@ -489,4 +489,7 @@ Etkili olması için, iki alan da 0'dan büyük olmadılır.</value>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>Karanlık Mod</value>
   </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Destekçiler</value>
+  </data>
 </root>
