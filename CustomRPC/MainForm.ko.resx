@@ -305,4 +305,7 @@
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>다크 모드</value>
   </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>도움을 주신 분들</value>
+  </data>
 </root>

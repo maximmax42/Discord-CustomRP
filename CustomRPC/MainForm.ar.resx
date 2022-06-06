@@ -437,4 +437,7 @@
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>الوضع الداكن</value>
   </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>الداعمين</value>
+  </data>
 </root>

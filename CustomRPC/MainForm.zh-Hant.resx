@@ -305,4 +305,7 @@
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
     <value>小圖示的檔案名稱或URL連結。</value>
   </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>贊助者</value>
+  </data>
 </root>

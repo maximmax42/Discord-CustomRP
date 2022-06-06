@@ -439,4 +439,7 @@ Thời gian của trạng thái có giới hạn là 24 giờ, nghĩa là sau 24
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>Chế độ tối</value>
   </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Người hỗ trợ</value>
+  </data>
 </root>
