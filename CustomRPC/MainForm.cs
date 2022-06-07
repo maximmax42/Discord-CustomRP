@@ -1011,9 +1011,9 @@ namespace CustomRPC
         private void OpenPersonsPage(object sender, EventArgs e)
         {
             var personItem = (ToolStripMenuItem)sender;
-            var (personType, PersonUrl) = (ValueTuple<string, string>)personItem.Tag;
+            var (personType, personUrl) = (ValueTuple<string, string>)personItem.Tag;
 
-            if (string.IsNullOrWhiteSpace(PersonUrl))
+            if (string.IsNullOrWhiteSpace(personUrl))
                 return;
 
             string personName = personItem.Text;
@@ -1023,10 +1023,10 @@ namespace CustomRPC
 
             Analytics.TrackEvent("Clicked on a " + personType, new Dictionary<string, string> {
                 { "Name", personName },
-                { "URL", PersonUrl }
+                { "URL", personUrl }
             });
 
-            Process.Start(PersonUrl);
+            Process.Start(personUrl);
         }
 
         /// <summary>
