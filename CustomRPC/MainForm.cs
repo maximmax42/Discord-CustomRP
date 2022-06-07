@@ -915,7 +915,10 @@ namespace CustomRPC
         private void OpenDiscordSite(object sender, EventArgs e)
         {
             if (settings.id == "")
+            {
+                MessageBox.Show(Strings.errorNoID, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
                 return;
+            }
 
             Process.Start("https://discord.com/developers/applications/" + settings.id + "/rich-presence/assets");
         }
