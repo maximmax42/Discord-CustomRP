@@ -486,4 +486,7 @@
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>大きい画像のアセット名 または画像のURL。</value>
   </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>サポーター</value>
+  </data>
 </root>
