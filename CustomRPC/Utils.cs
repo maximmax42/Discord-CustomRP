@@ -81,10 +81,6 @@ namespace CustomRPC
         /// </summary>
         public string Code;
         /// <summary>
-        /// Percentage of the translation progress.
-        /// </summary>
-        public string Progress;
-        /// <summary>
         /// A country the language is used in, optional.
         /// </summary>
         public string Dialect;
@@ -126,296 +122,13 @@ namespace CustomRPC
         /// List of languages and their translators used to populate Settings -> Languages and Help -> Translators menu items.<br/>
         /// It is done this way because visual designer doesn't work properly with a lot of items.
         /// </summary>
-        static List<Language> Languages => new List<Language> {
-            new Language {
-                Name = "مَصرى",
-                EnglishName = "Arabic",
-                Code = "ar",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "FiberAhmed", Url = "https://github.com/FiberAhmed" },
-                    new Translator { Name = "ShadowlGamer" }
-                }
-            },
-            new Language {
-                Name = "Čeština",
-                EnglishName = "Czech",
-                Code = "cs",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "JayJake", Url = "https://jayk.live/" },
-                    new Translator { Name = "Tobias" }
-                }
-            },
-            new Language {
-                Name = "Dansk",
-                EnglishName = "Danish",
-                Code = "da",
-                Progress = "95.74",
-                Translators = new Translator[] {
-                    new Translator { Name = "Sebastian Hviid" },
-                    new Translator { Name = "Tobias" },
-                    new Translator { Name = "David Gjøtterup Malmstrøm" },
-                }
-            },
-            new Language {
-                Name = "Deutsche",
-                EnglishName = "German",
-                Code = "de",
-                Progress = "95.74",
-                Translators = new Translator[] {
-                    new Translator { Name = "Ypsol", Url = "https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA" },
-                    new Translator { Name = "ahmad" },
-                    new Translator { Name = "binarynoise" },
-                    new Translator { Name = "Felix", Url = "https://github.com/fbrettnich" },
-                }
-            },
-            new Language {
-                Name = "Ελληνικά",
-                EnglishName = "Greek",
-                Code = "el",
-                Progress = "95.74",
-                Translators = new Translator[] {
-                    new Translator { Name = "Alex Grivas" },
-                }
-            },
-            new Language {
-                Name = "English",
-                Code = "en"
-            },
-            new Language {
-                Name = "Español",
-                EnglishName = "Spanish",
-                Code = "es",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "Vexot" },
-                    new Translator { Name = "Pablo" },
-                    new Translator { Name = "Luciousmc" },
-                    new Translator { Name = "Alvaro203204" },
-                    new Translator { Name = "Epic" },
-                }
-            },
-            new Language {
-                Name = "Français",
-                EnglishName = "French",
-                Code = "fr",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "Nenaff" },
-                }
-            },
-            new Language {
-                Name = "עברית",
-                EnglishName = "Hebrew",
-                Code = "he",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "Galaxy6430", Url = "https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg" },
-                    new Translator { Name = "Kahpot Vanilla", Url = "https://linktr.ee/KahpotVanilla" },
-                    new Translator { Name = "Amit" }
-                }
-            },
-            new Language {
-                Name = "Magyar",
-                EnglishName = "Hungarian",
-                Code = "hu",
-                Progress = "91.49",
-                Translators = new Translator[] {
-                    new Translator { Name = "Balla Botond", Url = "https://github.com/BallaBotond" },
-                }
-            },
-            new Language {
-                Name = "Hrvatski",
-                EnglishName = "Croatian",
-                Code = "hr",
-                Progress = "74.47",
-                Translators = new Translator[] {
-                    new Translator { Name = "Monika" },
-                }
-            },
-            new Language {
-                Name = "Bahasa Indonesia",
-                EnglishName = "Indonesian",
-                Code = "id",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "Hapnan" },
-                    new Translator { Name = "Apolycious" },
-                    new Translator { Name = "Bayu Sopwan", Url = "https://bayusopwan.github.io/" },
-                }
-            },
-            new Language {
-                Name = "Italiano",
-                EnglishName = "Italian",
-                Code = "it",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "DJD320" },
-                    new Translator { Name = "Frin" },
-                    new Translator { Name = "ItsMrCube", Url = "https://mrcube.live/" },
-                }
-            },
-            new Language {
-                Name = "日本語",
-                EnglishName = "Japanese",
-                Code = "ja",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "KABIKIRA000" },
-                }
-            },
-            new Language {
-                Name = "한국어",
-                EnglishName = "Korean",
-                Code = "ko",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "Yeongaori", Url = "https://github.com/yeongaori" },
-                }
-            },
-            new Language {
-                Name = "کوردی سۆرانی",
-                EnglishName = "Central Kurdish",
-                Code = "ku",
-                Progress = "97.87",
-                Translators = new Translator[] {
-                    new Translator { Name = "SamTheNoob", Url = "https://linktr.ee/stn69" },
-                }
-            },
-            new Language {
-                Name = "Lietuvių",
-                EnglishName = "Lithuanian",
-                Code = "lt",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "White Rose", Url = "https://www.twitch.tv/white_rose_lt" },
-                }
-            },
-            new Language {
-                Name = "မြန်မာဘာသာ",
-                EnglishName = "Burmese",
-                Code = "my",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "Infernite#0680" },
-                    new Translator { Name = "BBbear#7149" }
-                }
-            },
-            new Language {
-                Name = "Nederlands",
-                EnglishName = "Dutch",
-                Code = "nl",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "Jeremyzijlemans", Url = "https://sionhub.co.uk/" },
-                }
-            },
-            new Language {
-                Name = "Polski",
-                EnglishName = "Polish",
-                Code = "pl",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "Lol1112345.lol12345" },
-                    new Translator { Name = "Liso" },
-                    new Translator { Name = "Piter" },
-                    new Translator { Name = "Oscar" },
-                }
-            },
-            new Language {
-                Name = "Português",
-                EnglishName = "Portuguese",
-                Dialect = "BR",
-                Code = "pt-br",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "Vinicio Henrique (viniciotricolor)" },
-                    new Translator { Name = "Slimakoi" },
-                    new Translator { Name = "DeusDrizzyy" },
-                }
-            },
-            new Language {
-                Name = "Limba română",
-                EnglishName = "Romanian",
-                Code = "ro",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "DiDYRO", Url = "https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w" },
-                    new Translator { Name = "Denisbolba" },
-                }
-            },
-            new Language {
-                Name = "Русский",
-                EnglishName = "Russian",
-                Code = "ru",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "maximmax42", Url = "https://www.maximmax42.ru" },
-                }
-            },
-            new Language {
-                Name = "ภาษาไทย",
-                EnglishName = "Thai",
-                Code = "th",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "Squishee Freshy" },
-                    new Translator { Name = "Game" },
-                }
-            },
-            new Language {
-                Name = "Türkçe",
-                EnglishName = "Turkish",
-                Code = "tr",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "Ozan Akyüz" },
-                    new Translator { Name = "Yusuf" },
-                }
-            },
-            new Language {
-                Name = "Українська",
-                EnglishName = "Ukrainian",
-                Code = "uk",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "MechaniX" },
-                    new Translator { Name = "Dmitromintenko" },
-                }
-            },
-            new Language {
-                Name = "Tiếng Việt",
-                EnglishName = "Vietnamese",
-                Code = "vi",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "Mykm", Url = "https://github.com/yumiruuwu" },
-                    new Translator { Name = "Phnthnhnm0612" },
-                    new Translator { Name = "dsbachle" },
-                    new Translator { Name = "03_Trần" },
-                }
-            },
-            new Language {
-                Name = "汉语",
-                EnglishName = "Simplified Chinese",
-                Code = "zh-hans",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "Zjsun.ca" },
-                    new Translator { Name = "zozocha" },
-                }
-            },
-            new Language {
-                Name = "漢語",
-                EnglishName = "Traditional Chinese",
-                Code = "zh-hant",
-                Progress = "100",
-                Translators = new Translator[] {
-                    new Translator { Name = "蘆筍 (westxlu)", Url = "https://linktr.ee/westxlu" },
-                }
-            }
-        };
+        static List<Language> Languages { get; set; }
+
+        /// <summary>
+        /// Progress for each language.
+        /// Not part of the <see cref="Language"/> struct because the progress is generated for me by a separate piece of code. 
+        /// </summary>
+        static Dictionary<string, string> LanguageProgress { get; set; }
 
         /// <summary>
         /// List of supporters used to populate Help -> supporters menu item.
@@ -424,7 +137,302 @@ namespace CustomRPC
 
         static Utils()
         {
-            // Setting it here because if I did it the same way as the list of translators, sorting doesn't work
+            Languages = new List<Language> {
+                new Language {
+                    Name = "مَصرى",
+                    EnglishName = "Arabic",
+                    Code = "ar",
+                    Translators = new Translator[] {
+                        new Translator { Name = "FiberAhmed", Url = "https://github.com/FiberAhmed" },
+                        new Translator { Name = "ShadowlGamer" }
+                    }
+                },
+                new Language {
+                    Name = "Čeština",
+                    EnglishName = "Czech",
+                    Code = "cs",
+                    Translators = new Translator[] {
+                        new Translator { Name = "JayJake", Url = "https://jayk.live/" },
+                        new Translator { Name = "Tobias" }
+                    }
+                },
+                new Language {
+                    Name = "Dansk",
+                    EnglishName = "Danish",
+                    Code = "da",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Sebastian Hviid" },
+                        new Translator { Name = "Tobias" },
+                        new Translator { Name = "David Gjøtterup Malmstrøm" },
+                    }
+                },
+                new Language {
+                    Name = "Deutsche",
+                    EnglishName = "German",
+                    Code = "de",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Ypsol", Url = "https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA" },
+                        new Translator { Name = "ahmad" },
+                        new Translator { Name = "binarynoise" },
+                        new Translator { Name = "Felix", Url = "https://github.com/fbrettnich" },
+                    }
+                },
+                new Language {
+                    Name = "Ελληνικά",
+                    EnglishName = "Greek",
+                    Code = "el",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Alex Grivas" },
+                    }
+                },
+                new Language {
+                    Name = "English",
+                    Code = "en"
+                },
+                new Language {
+                    Name = "Español",
+                    EnglishName = "Spanish",
+                    Code = "es",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Vexot" },
+                        new Translator { Name = "Pablo" },
+                        new Translator { Name = "Luciousmc" },
+                        new Translator { Name = "Alvaro203204" },
+                        new Translator { Name = "Epic" },
+                    }
+                },
+                new Language {
+                    Name = "Français",
+                    EnglishName = "French",
+                    Code = "fr",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Nenaff" },
+                    }
+                },
+                new Language {
+                    Name = "עברית",
+                    EnglishName = "Hebrew",
+                    Code = "he",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Galaxy6430", Url = "https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg" },
+                        new Translator { Name = "Kahpot Vanilla", Url = "https://linktr.ee/KahpotVanilla" },
+                        new Translator { Name = "Amit" }
+                    }
+                },
+                new Language {
+                    Name = "Magyar",
+                    EnglishName = "Hungarian",
+                    Code = "hu",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Balla Botond", Url = "https://github.com/BallaBotond" },
+                    }
+                },
+                new Language {
+                    Name = "Hrvatski",
+                    EnglishName = "Croatian",
+                    Code = "hr",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Monika" },
+                    }
+                },
+                new Language {
+                    Name = "Bahasa Indonesia",
+                    EnglishName = "Indonesian",
+                    Code = "id",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Hapnan" },
+                        new Translator { Name = "Apolycious" },
+                        new Translator { Name = "Bayu Sopwan", Url = "https://bayusopwan.github.io/" },
+                    }
+                },
+                new Language {
+                    Name = "Italiano",
+                    EnglishName = "Italian",
+                    Code = "it",
+                    Translators = new Translator[] {
+                        new Translator { Name = "DJD320" },
+                        new Translator { Name = "Frin" },
+                        new Translator { Name = "ItsMrCube", Url = "https://mrcube.live/" },
+                    }
+                },
+                new Language {
+                    Name = "日本語",
+                    EnglishName = "Japanese",
+                    Code = "ja",
+                    Translators = new Translator[] {
+                        new Translator { Name = "KABIKIRA000" },
+                    }
+                },
+                new Language {
+                    Name = "한국어",
+                    EnglishName = "Korean",
+                    Code = "ko",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Yeongaori", Url = "https://github.com/yeongaori" },
+                    }
+                },
+                new Language {
+                    Name = "کوردی سۆرانی",
+                    EnglishName = "Central Kurdish",
+                    Code = "ku",
+                    Translators = new Translator[] {
+                        new Translator { Name = "SamTheNoob", Url = "https://linktr.ee/stn69" },
+                    }
+                },
+                new Language {
+                    Name = "Lietuvių",
+                    EnglishName = "Lithuanian",
+                    Code = "lt",
+                    Translators = new Translator[] {
+                        new Translator { Name = "White Rose", Url = "https://www.twitch.tv/white_rose_lt" },
+                    }
+                },
+                new Language {
+                    Name = "မြန်မာဘာသာ",
+                    EnglishName = "Burmese",
+                    Code = "my",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Infernite#0680" },
+                        new Translator { Name = "BBbear#7149" }
+                    }
+                },
+                new Language {
+                    Name = "Nederlands",
+                    EnglishName = "Dutch",
+                    Code = "nl",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Jeremyzijlemans", Url = "https://sionhub.co.uk/" },
+                    }
+                },
+                new Language {
+                    Name = "Polski",
+                    EnglishName = "Polish",
+                    Code = "pl",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Lol1112345.lol12345" },
+                        new Translator { Name = "Liso" },
+                        new Translator { Name = "Piter" },
+                        new Translator { Name = "Oscar" },
+                    }
+                },
+                new Language {
+                    Name = "Português",
+                    EnglishName = "Portuguese",
+                    Dialect = "BR",
+                    Code = "pt-br",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Vinicio Henrique (viniciotricolor)" },
+                        new Translator { Name = "Slimakoi" },
+                        new Translator { Name = "DeusDrizzyy" },
+                    }
+                },
+                new Language {
+                    Name = "Limba română",
+                    EnglishName = "Romanian",
+                    Code = "ro",
+                    Translators = new Translator[] {
+                        new Translator { Name = "DiDYRO", Url = "https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w" },
+                        new Translator { Name = "Denisbolba" },
+                    }
+                },
+                new Language {
+                    Name = "Русский",
+                    EnglishName = "Russian",
+                    Code = "ru",
+                    Translators = new Translator[] {
+                        new Translator { Name = "maximmax42", Url = "https://www.maximmax42.ru" },
+                    }
+                },
+                new Language {
+                    Name = "ภาษาไทย",
+                    EnglishName = "Thai",
+                    Code = "th",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Squishee Freshy" },
+                        new Translator { Name = "Game" },
+                    }
+                },
+                new Language {
+                    Name = "Türkçe",
+                    EnglishName = "Turkish",
+                    Code = "tr",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Ozan Akyüz" },
+                        new Translator { Name = "Yusuf" },
+                    }
+                },
+                new Language {
+                    Name = "Українська",
+                    EnglishName = "Ukrainian",
+                    Code = "uk",
+                    Translators = new Translator[] {
+                        new Translator { Name = "MechaniX" },
+                        new Translator { Name = "Dmitromintenko" },
+                    }
+                },
+                new Language {
+                    Name = "Tiếng Việt",
+                    EnglishName = "Vietnamese",
+                    Code = "vi",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Mykm", Url = "https://github.com/yumiruuwu" },
+                        new Translator { Name = "Phnthnhnm0612" },
+                        new Translator { Name = "dsbachle" },
+                        new Translator { Name = "03_Trần" },
+                    }
+                },
+                new Language {
+                    Name = "汉语",
+                    EnglishName = "Simplified Chinese",
+                    Code = "zh-hans",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Zjsun.ca" },
+                        new Translator { Name = "zozocha" },
+                    }
+                },
+                new Language {
+                    Name = "漢語",
+                    EnglishName = "Traditional Chinese",
+                    Code = "zh-hant",
+                    Translators = new Translator[] {
+                        new Translator { Name = "蘆筍 (westxlu)", Url = "https://linktr.ee/westxlu" },
+                    }
+                }
+            };
+
+            LanguageProgress = new Dictionary<string, string>();
+            #region Generated code for progress
+            LanguageProgress["ar"] = "100";
+            LanguageProgress["my"] = "98.95";
+            LanguageProgress["zh-hans"] = "100";
+            LanguageProgress["zh-hant"] = "100";
+            LanguageProgress["hr"] = "73.68";
+            LanguageProgress["cs"] = "98.95";
+            LanguageProgress["da"] = "94.74";
+            LanguageProgress["nl"] = "98.95";
+            LanguageProgress["fil"] = "28.42";
+            LanguageProgress["fr"] = "98.95";
+            LanguageProgress["de"] = "94.74";
+            LanguageProgress["el"] = "94.74";
+            LanguageProgress["he"] = "100";
+            LanguageProgress["hu"] = "90.53";
+            LanguageProgress["id"] = "100";
+            LanguageProgress["it"] = "98.95";
+            LanguageProgress["ja"] = "100";
+            LanguageProgress["ko"] = "100";
+            LanguageProgress["ku"] = "96.84";
+            LanguageProgress["lt"] = "98.95";
+            LanguageProgress["pl"] = "100";
+            LanguageProgress["pt-br"] = "97.89";
+            LanguageProgress["ro"] = "98.95";
+            LanguageProgress["ru"] = "100";
+            LanguageProgress["es"] = "98.95";
+            LanguageProgress["th"] = "98.95";
+            LanguageProgress["tr"] = "100";
+            LanguageProgress["uk"] = "98.95";
+            LanguageProgress["vi"] = "100";
+            #endregion
+
             Supporters = new List<Supporter>
             {
                 new Supporter {
@@ -489,7 +497,7 @@ namespace CustomRPC
                     continue;
 
                 // Populating Help -> Translators
-                var langStrip = new ToolStripMenuItem($"{lang.Name} ({lang.EnglishName}){dialect} - {lang.Progress}%");
+                var langStrip = new ToolStripMenuItem($"{lang.Name} ({lang.EnglishName}){dialect} - {LanguageProgress[lang.Code]}%");
 
                 foreach (var tl in lang.Translators)
                 {
