@@ -453,7 +453,7 @@
     <value>השם של התוסף בשביל תמונה קטנה או לינק לתמונה</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>השם של התוסף בשביל גדולה קטנה או לינק לתמונה</value>
+    <value>השם של התוסף בשביל תמונה גדולה או לינק לתמונה</value>
   </data>
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
     <value>תומכים</value>
