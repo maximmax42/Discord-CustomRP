@@ -12,16 +12,17 @@
 
 Custom Discord Rich Presence Manager for Windows. Some of its features are run on startup and tray minimization. Uses [Lachee's DiscordRPC for C#](https://github.com/Lachee/discord-rpc-csharp).
 
+## Supporters
+
+* [Grim](https://www.savethekiwi.nz/) - $25.00 (0.0008328 BTC)
+* [White Rose](https://www.twitch.tv/psychonaut303) - $6.00
+
 ## Downloading and setting up
 Download the latest version from [Releases](https://github.com/maximmax42/Discord-CustomRP/releases) page and run the .exe installer! You can also use Windows Package Manager to install the program (`winget install maximmax42.CustomRP`). Or, if you prefer the portable version, download the zip, unpack it somewhere, preferably in a separate folder, and start it up. Upon starting, you will be prompted to open a setup manual. You can open it later by pressing F1 or going Help -> Open Manual.
 ### Updating
 If you installed the app, updating is literally as easy as running the installer for the newer version. If you use a portable version, please make sure to extract updated files into the same folder as you did before to keep your settings.
 ### Troubleshooting & Feedback
 If you have any problems with the app, please check out [FAQ](https://github.com/maximmax42/Discord-CustomRP/wiki/FAQ) first. If it doesn't help, or you have suggestions on making the app more functional, you can open an issue ticket, use Discussions, or join the Discord server, link is at the top of the readme.
-
-## Supporters
-
-[White Rose](https://www.twitch.tv/psychonaut303) - $6.00
 
 ## Translations
 
@@ -31,7 +32,7 @@ So far, the app supports these languages:
 
 ![Language progress hystogram](https://www.customrp.xyz/poeditor/progress.php)
 
-* [Arabic (EG)](https://poeditor.com/projects/po_edit?id_language=233&per_page=100&id=409229) (thanks to [FiberAhmed](https://github.com/FiberAhmed) and ShadowlGamer)
+* [Arabic](https://poeditor.com/projects/po_edit?id_language=233&per_page=100&id=409229) (thanks to [FiberAhmed](https://github.com/FiberAhmed) and ShadowlGamer)
 * [Burmese](https://poeditor.com/projects/po_edit?id_language=25&per_page=100&id=409229) (thanks to Infernite#0680 and BBbear#7149)
 * [Chinese (Simplified)](https://poeditor.com/projects/po_edit?id_language=274&per_page=100&id=409229) (thanks to Zjsun.ca and zozocha)
 * [Chinese (Traditional)](https://poeditor.com/projects/po_edit?id_language=275&per_page=100&id=409229) (thanks to [蘆筍/westxlu](https://linktr.ee/westxlu))
