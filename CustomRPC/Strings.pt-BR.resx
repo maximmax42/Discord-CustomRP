@@ -153,7 +153,7 @@ Você pode abri-lo a qualquer momento em Ajuda -&gt; Abrir o manual ou pressiona
     <value>Erro de conexão (ID errado?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>URL inválido especificado para os botões(s)!</value>
+    <value>URL inválida especificada ou o texto é longo demais!</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
     <value>Nenhuma atualização encontrada!</value>

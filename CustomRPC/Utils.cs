@@ -324,6 +324,7 @@ namespace CustomRPC
                         new Translator { Name = "Vinicio Henrique (viniciotricolor)" },
                         new Translator { Name = "Slimakoi" },
                         new Translator { Name = "DeusDrizzyy" },
+                        new Translator { Name = "Leo" },
                     }
                 },
                 new Language {
@@ -423,7 +424,7 @@ namespace CustomRPC
             LanguageProgress["ku"] = "96.84";
             LanguageProgress["lt"] = "98.95";
             LanguageProgress["pl"] = "100";
-            LanguageProgress["pt-br"] = "97.89";
+            LanguageProgress["pt-br"] = "100";
             LanguageProgress["ro"] = "98.95";
             LanguageProgress["ru"] = "100";
             LanguageProgress["es"] = "98.95";

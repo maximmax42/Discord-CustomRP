@@ -167,7 +167,7 @@
     <value>231, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Enviar Imagens personalizada</value>
+    <value>Enviar imagens personalizadas</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>228, 6</value>
@@ -428,5 +428,8 @@ Para ter efeito, ambos os campos devem ser maiores que 0.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>Nome escolhido para a imagem grande no site Discord Developers.</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Apoiadores</value>
   </data>
 </root>
