@@ -417,4 +417,7 @@ Kad abu laukai įsigaliotų, jie turėtų būti didesni nei 0.</value>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>Didelio paveiksliuko pavadinimas arba vaizdo URL.</value>
   </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Remėjai</value>
+  </data>
 </root>
