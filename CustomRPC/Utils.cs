@@ -174,6 +174,7 @@ namespace CustomRPC
                         new Translator { Name = "Ypsol", Url = "https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA" },
                         new Translator { Name = "ahmad" },
                         new Translator { Name = "binarynoise" },
+                        new Translator { Name = "Marcel Gustin", Url = "https://marcelgustin.de" },
                         new Translator { Name = "Felix", Url = "https://github.com/fbrettnich" },
                     }
                 },
@@ -413,7 +414,7 @@ namespace CustomRPC
             LanguageProgress["nl"] = "98.95";
             LanguageProgress["fil"] = "28.42";
             LanguageProgress["fr"] = "98.95";
-            LanguageProgress["de"] = "94.74";
+            LanguageProgress["de"] = "100";
             LanguageProgress["el"] = "94.74";
             LanguageProgress["he"] = "100";
             LanguageProgress["hu"] = "90.53";

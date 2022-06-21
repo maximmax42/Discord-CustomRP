@@ -412,4 +412,16 @@ Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
     <value>Analyse erlauben</value>
   </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>Name der Datei für das kleine Bild oder eine Bild URL.</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>Name der Datei für das große Bild oder eine Bild URL.</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dunkelmodus</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Unterstützer</value>
+  </data>
 </root>

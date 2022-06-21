@@ -172,7 +172,7 @@ Bist du sicher, dass es läuft?</comment>
 Drücke "Ja" um sie zurückzusetzen oder "Nein" um zu verlassen.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Das importieren des Presetd ist fehlgeschlagen, die datei ist fehlerhaft, fehlt oder wurde nicht korrekt formatiert.</value>
+    <value>Das importieren des Presetd ist fehlgeschlagen; die datei ist entweder fehlerhaft, fehlt oder nicht korrekt formatiert.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
     <value>Erlaubst du das CustomRP deine Benutzungs Analyse and den Developer sendet?
@@ -180,5 +180,8 @@ Drücke "Ja" um sie zurückzusetzen oder "Nein" um zu verlassen.</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
     <value>Ein Fehler ist aufgetreten während dem Speichern der Einstellungen:</value>
+  </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>Bitte füge "{0}" Pfad als Ausnahme zu deinem Antivirus-Programm hinzu. Installiere CustomRP neu, falls das Problem weiterhin besteht.</value>
   </data>
 </root>
