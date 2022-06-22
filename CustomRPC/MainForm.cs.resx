@@ -426,4 +426,7 @@ Aby se projevily, obě pole by měla být větší než 0.</value>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>Tmavý režim</value>
   </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Podporovatelé</value>
+  </data>
 </root>
