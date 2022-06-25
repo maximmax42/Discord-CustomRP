@@ -251,7 +251,7 @@
     <value>Połącz</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Łączy aplikację z określonym ID z ustawioną obecnością.</value>
+    <value>Łączy aplikację z określonym ID z ustawionym statusem.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
     <value>Rozłącz</value>
@@ -260,13 +260,13 @@
     <value>Rozłącza CustomRP od discorda (wyłączy status). To może chwilę potrwać.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>ID aplikacji ze strony dla deweloperów discorda.</value>
+    <value>ID aplikacji ze strony dla deweloperów Discorda.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
     <value>Pierwsza linia w statusie.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>Druga linia w Statusie.</value>
+    <value>Druga linia w statusie.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Tekst pojawiający się najeżdżając na małe zdjęcie.</value>
@@ -305,7 +305,7 @@
     <value>270, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>Od kiedy CustomRP wystartowało</value>
+    <value>Odkąd CustomRP wystartował</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
     <value>Pokazuje ile czasu upłynęło od startu aplikacji.</value>
