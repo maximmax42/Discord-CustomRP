@@ -508,6 +508,7 @@ namespace CustomRPC
                     {
                         tlItem.Image = Properties.Resources.globe;
                         tlItem.Tag = ("translator", tl.Url);
+                        tlItem.ToolTipText = tl.Url;
                     }
                     langStrip.DropDownItems.Add(tlItem);
                 }
@@ -548,6 +549,7 @@ namespace CustomRPC
                 {
                     item.Image = Properties.Resources.globe;
                     item.Tag = ("supporter", supporter.Url);
+                    item.ToolTipText = supporter.Url;
                 }
                 parent.DropDownItems.Add(item);
             }
