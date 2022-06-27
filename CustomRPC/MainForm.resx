@@ -117,194 +117,185 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="trayIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>Double click on the icon to show it again, or right-click to quit.</value>
-  </data>
-  <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>The app will run in the tray.</value>
-  </data>
-  <metadata name="trayMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>112, 17</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 104</value>
+  <data name="labelLargeText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 340</value>
   </data>
-  <data name="&gt;&gt;trayMenuStrip.Name" xml:space="preserve">
-    <value>trayMenuStrip</value>
-  </data>
-  <data name="&gt;&gt;trayMenuStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="trayIcon.Text" xml:space="preserve">
-    <value>Custom Rich Presence</value>
+  <data name="labelSmallText.Text" xml:space="preserve">
+    <value>Text</value>
     <comment>@Invariant</comment>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="trayIcon.Visible" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;labelDetails.Name" xml:space="preserve">
+    <value>labelDetails</value>
   </data>
-  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelLargeText.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>Open</value>
   </data>
-  <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 6</value>
-  </data>
-  <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
-  </data>
-  <data name="trayMenuReconnect.Text" xml:space="preserve">
-    <value>Reconnect</value>
-  </data>
-  <data name="trayMenuDisconnect.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="trayMenuDisconnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
-  </data>
-  <data name="trayMenuDisconnect.Text" xml:space="preserve">
-    <value>Disconnect</value>
-    <comment>@Invariant</comment>
-  </data>
-  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 6</value>
-  </data>
-  <data name="trayMenuQuit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
-  </data>
-  <data name="trayMenuQuit.Text" xml:space="preserve">
-    <value>Quit</value>
-  </data>
-  <metadata name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>241, 17</value>
-  </metadata>
-  <data name="menuStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menuStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 2, 0, 2</value>
-  </data>
-  <data name="menuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>480, 24</value>
-  </data>
-  <data name="menuStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="menuStrip.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-    <comment>@Invariant</comment>
-  </data>
-  <data name="&gt;&gt;menuStrip.Name" xml:space="preserve">
-    <value>menuStrip</value>
-  </data>
-  <data name="&gt;&gt;menuStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
-    <value>37</value>
-  </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
-  </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>File</value>
-  </data>
-  <data name="loadPresetToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+O</value>
-  </data>
-  <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
-  </data>
-  <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Load Preset</value>
-  </data>
-  <data name="savePresetToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+S</value>
-  </data>
-  <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
-  </data>
-  <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Save Preset</value>
-  </data>
-  <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 6</value>
-  </data>
-  <data name="uploadAssetsToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+U</value>
-  </data>
-  <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
-  </data>
-  <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Upload Assets</value>
-  </data>
-  <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 6</value>
-  </data>
-  <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
-  </data>
-  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Quit</value>
-  </data>
-  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 20</value>
-  </data>
-  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
-  </data>
-  <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Run on Startup</value>
-  </data>
-  <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
-  </data>
-  <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Start Minimized</value>
-  </data>
-  <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
-  </data>
-  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>Autoconnect</value>
-  </data>
-  <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 6</value>
-  </data>
-  <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
-  </data>
-  <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Check for Updates</value>
-  </data>
-  <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
-  </data>
-  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Allow Analytics</value>
+  <data name="radioButtonPresence.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
     <value>168, 6</value>
   </data>
+  <data name="&gt;&gt;radioButtonNone.Name" xml:space="preserve">
+    <value>radioButtonNone</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonDisconnect.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="testSupporterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="labelID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 54</value>
+  </data>
+  <data name="&gt;&gt;radioButtonStartTime.Parent" xml:space="preserve">
+    <value>panelTimestamps</value>
+  </data>
+  <data name="textBoxButton1Text.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;labelSmallText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelButton2URL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxButton1Text.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorHelp2.Name" xml:space="preserve">
+    <value>toolStripSeparatorHelp2</value>
+  </data>
+  <data name="&gt;&gt;labelButton2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
   <data name="darkModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 22</value>
   </data>
-  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Dark Mode</value>
+  <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 18</value>
+  </data>
+  <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="textBoxLargeText.MaxLength" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="labelButton2Text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 387</value>
+  </data>
+  <data name="labelPartyOf.Text" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="toolStripStatusLabelStatus.Text" xml:space="preserve">
+    <value>Disconnected</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="comboBoxLargeKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 307</value>
+  </data>
+  <data name="&gt;&gt;radioButtonPresence.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSmallText.Name" xml:space="preserve">
+    <value>labelSmallText</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>Name of the asset for large image or an image URL.</value>
+  </data>
+  <data name="textBoxButton2Text.MaxLength" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="comboBoxSmallKey.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="radioButtonCustom.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelButton2URL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 14</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorFile2.Name" xml:space="preserve">
+    <value>toolStripSeparatorFile2</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 22</value>
+  </data>
+  <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 6</value>
+  </data>
+  <data name="radioButtonStartTime.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="textBoxButton2Text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="labelDetails.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trayMenuReconnect.Text" xml:space="preserve">
+    <value>Reconnect</value>
+  </data>
+  <data name="menuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonUpdatePresence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 24</value>
+  </data>
+  <data name="textBoxState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 22</value>
+  </data>
+  <data name="testSupporterToolStripMenuItem.Text" xml:space="preserve">
+    <value>Test Supporter - $6.9</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="labelTimestamp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 14</value>
+  </data>
+  <data name="sampleLanguageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 22</value>
+  </data>
+  <data name="&gt;&gt;labelButton1URL.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;savePresetToolStripMenuItem.Name" xml:space="preserve">
+    <value>savePresetToolStripMenuItem</value>
+  </data>
+  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;trayMenuStrip.Name" xml:space="preserve">
+    <value>trayMenuStrip</value>
+  </data>
+  <data name="&gt;&gt;textBoxButton2URL.Name" xml:space="preserve">
+    <value>textBoxButton2URL</value>
+  </data>
+  <data name="&gt;&gt;radioButtonPresence.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelLargeText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelButton1URL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="textBoxID.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;autoconnectToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="toolStripSeparatorSettings3.Size" type="System.Drawing.Size, System.Drawing">
     <value>168, 6</value>
@@ -312,1728 +303,1737 @@
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 22</value>
   </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Language</value>
+  <data name="&gt;&gt;samplePersonToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="defaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 22</value>
+  <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 18</value>
   </data>
-  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
-    <value>Default</value>
+  <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 6</value>
   </data>
-  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 6</value>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
   </data>
-  <data name="sampleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 22</value>
+  <data name="&gt;&gt;labelButton2Text.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="sampleToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sample</value>
+  <data name="textBoxButton2Text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 384</value>
+  </data>
+  <data name="&gt;&gt;labelSmallText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radioButtonStartTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPartyOf.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="buttonDisconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 24</value>
+  </data>
+  <data name="&gt;&gt;textBoxDetails.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;labelButton2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLargeKey.Name" xml:space="preserve">
+    <value>comboBoxLargeKey</value>
+  </data>
+  <data name="textBoxDetails.MaxLength" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="labelLargeKey.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonUpdatePresence.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelSmallText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 340</value>
+  </data>
+  <data name="textBoxButton1URL.MaxLength" type="System.Int32, mscorlib">
+    <value>512</value>
+  </data>
+  <data name="radioButtonLocalTime.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;settingsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButtonNone.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip.Text" xml:space="preserve">
+    <value>menuStrip1</value>
     <comment>@Invariant</comment>
   </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
-  </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Help</value>
-  </data>
-  <data name="openTheManualToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>F1</value>
-  </data>
-  <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 22</value>
-  </data>
-  <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>Open the Manual</value>
-  </data>
-  <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 22</value>
-  </data>
-  <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>GitHub Page</value>
-  </data>
-  <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 6</value>
-  </data>
-  <data name="supportersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 22</value>
-  </data>
-  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
-    <value>Supporters</value>
-  </data>
-  <data name="testSupporterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 22</value>
-  </data>
-  <data name="testSupporterToolStripMenuItem.Text" xml:space="preserve">
-    <value>Test Supporter - $6.9</value>
-    <comment>@Invariant</comment>
-  </data>
-  <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 22</value>
-  </data>
-  <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Translators</value>
-  </data>
-  <data name="sampleLanguageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 22</value>
+  <data name="labelDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 14</value>
   </data>
   <data name="sampleLanguageToolStripMenuItem.Text" xml:space="preserve">
     <value>Sample Language (Sample) - 69.69%</value>
     <comment>@Invariant</comment>
   </data>
-  <data name="samplePersonToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
   </data>
-  <data name="samplePersonToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sample Person</value>
-    <comment>@Invariant</comment>
+  <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 18</value>
   </data>
-  <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 6</value>
+  <data name="radioButtonCustom.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 22</value>
+  <data name="textBoxState.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Check for Updates...</value>
+  <data name="labelDetails.ToolTip" xml:space="preserve">
+    <value>First line in the presence.</value>
   </data>
-  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 22</value>
+  <data name="radioButtonCustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 100</value>
   </data>
-  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>About...</value>
+  <data name="&gt;&gt;labelSmallKey.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 20</value>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Language</value>
   </data>
-  <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Download Update</value>
-  </data>
-  <data name="downloadUpdateToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <metadata name="toolTipInfo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>349, 17</value>
-  </metadata>
-  <data name="buttonUpdatePresence.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="buttonUpdatePresence.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="buttonUpdatePresence.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="comboBoxLargeKey.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="buttonUpdatePresence.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
-    <value>187, 455</value>
+  <data name="&gt;&gt;labelButton1URL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="buttonUpdatePresence.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 4, 2, 4</value>
+  <data name="&gt;&gt;supportersToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="buttonUpdatePresence.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 24</value>
+  <data name="openTheManualToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F1</value>
   </data>
-  <data name="buttonUpdatePresence.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Update Presence</value>
-  </data>
-  <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Updates presence.</value>
-  </data>
-  <data name="&gt;&gt;buttonUpdatePresence.Name" xml:space="preserve">
-    <value>buttonUpdatePresence</value>
-  </data>
-  <data name="&gt;&gt;buttonUpdatePresence.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonUpdatePresence.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonUpdatePresence.ZOrder" xml:space="preserve">
-    <value>31</value>
-  </data>
-  <data name="buttonConnect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="buttonConnect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>236, 50</value>
-  </data>
-  <data name="buttonConnect.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 4, 2, 4</value>
-  </data>
-  <data name="buttonConnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 24</value>
-  </data>
-  <data name="buttonConnect.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="buttonConnect.Text" xml:space="preserve">
-    <value>Connect</value>
-  </data>
-  <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Links the application to the specified ID with set presence.</value>
-  </data>
-  <data name="&gt;&gt;buttonConnect.Name" xml:space="preserve">
-    <value>buttonConnect</value>
-  </data>
-  <data name="&gt;&gt;buttonConnect.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonConnect.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonConnect.ZOrder" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="buttonDisconnect.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="buttonDisconnect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="buttonDisconnect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 50</value>
-  </data>
-  <data name="buttonDisconnect.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 4, 2, 4</value>
-  </data>
-  <data name="buttonDisconnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 24</value>
-  </data>
-  <data name="buttonDisconnect.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="buttonDisconnect.Text" xml:space="preserve">
-    <value>Disconnect</value>
-  </data>
-  <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Disconnects the app from Discord. Please note that it might take a while.</value>
-  </data>
-  <data name="&gt;&gt;buttonDisconnect.Name" xml:space="preserve">
-    <value>buttonDisconnect</value>
-  </data>
-  <data name="&gt;&gt;buttonDisconnect.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonDisconnect.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonDisconnect.ZOrder" xml:space="preserve">
-    <value>29</value>
-  </data>
-  <data name="labelID.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 54</value>
-  </data>
-  <data name="labelID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>19, 14</value>
-  </data>
-  <data name="labelID.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="labelID.ToolTip" xml:space="preserve">
+    <value>ID of the application from Discord Developers site.</value>
   </data>
   <data name="labelID.Text" xml:space="preserve">
     <value>ID</value>
     <comment>@Invariant</comment>
   </data>
-  <data name="labelID.ToolTip" xml:space="preserve">
-    <value>ID of the application from Discord Developers site.</value>
+  <data name="&gt;&gt;checkUpdatesToolStripMenuItem.Name" xml:space="preserve">
+    <value>checkUpdatesToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;labelID.Name" xml:space="preserve">
-    <value>labelID</value>
-  </data>
-  <data name="&gt;&gt;labelID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelID.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelID.ZOrder" xml:space="preserve">
-    <value>28</value>
-  </data>
-  <data name="labelDetails.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelDetails.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelDetails.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 84</value>
-  </data>
-  <data name="labelDetails.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 14</value>
-  </data>
-  <data name="labelDetails.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="labelDetails.Text" xml:space="preserve">
-    <value>Details</value>
-    <comment>@Invariant</comment>
-  </data>
-  <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>First line in the presence.</value>
-  </data>
-  <data name="&gt;&gt;labelDetails.Name" xml:space="preserve">
-    <value>labelDetails</value>
-  </data>
-  <data name="&gt;&gt;labelDetails.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelDetails.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelDetails.ZOrder" xml:space="preserve">
-    <value>27</value>
-  </data>
-  <data name="labelState.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelState.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelState.Location" type="System.Drawing.Point, System.Drawing">
-    <value>32, 114</value>
-  </data>
-  <data name="labelState.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 14</value>
-  </data>
-  <data name="labelState.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="labelState.Text" xml:space="preserve">
-    <value>State</value>
-    <comment>@Invariant</comment>
-  </data>
-  <data name="labelState.ToolTip" xml:space="preserve">
-    <value>Second line in the presence.</value>
-  </data>
-  <data name="&gt;&gt;labelState.Name" xml:space="preserve">
-    <value>labelState</value>
-  </data>
-  <data name="&gt;&gt;labelState.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelState.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelState.ZOrder" xml:space="preserve">
-    <value>26</value>
-  </data>
-  <data name="labelSmallKey.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelSmallKey.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelSmallKey.Location" type="System.Drawing.Point, System.Drawing">
-    <value>232, 310</value>
-  </data>
-  <data name="labelSmallKey.Size" type="System.Drawing.Size, System.Drawing">
-    <value>27, 14</value>
-  </data>
-  <data name="labelSmallKey.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="labelSmallKey.Text" xml:space="preserve">
-    <value>Key</value>
-    <comment>@Invariant</comment>
-  </data>
-  <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Name of the asset for small image or an image URL.</value>
-  </data>
-  <data name="&gt;&gt;labelSmallKey.Name" xml:space="preserve">
-    <value>labelSmallKey</value>
-  </data>
-  <data name="&gt;&gt;labelSmallKey.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelSmallKey.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelSmallKey.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="labelSmallText.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelSmallText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelSmallText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 340</value>
-  </data>
-  <data name="labelSmallText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 14</value>
-  </data>
-  <data name="labelSmallText.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="labelSmallText.Text" xml:space="preserve">
-    <value>Text</value>
-    <comment>@Invariant</comment>
-  </data>
-  <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>Text displayed when hovering the small image.</value>
-  </data>
-  <data name="&gt;&gt;labelSmallText.Name" xml:space="preserve">
-    <value>labelSmallText</value>
-  </data>
-  <data name="&gt;&gt;labelSmallText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelSmallText.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelSmallText.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="labelLargeText.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelLargeText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelLargeText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 340</value>
-  </data>
-  <data name="labelLargeText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 14</value>
-  </data>
-  <data name="labelLargeText.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="labelLargeText.Text" xml:space="preserve">
-    <value>Text</value>
-    <comment>@Invariant</comment>
-  </data>
-  <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>Text displayed when hovering the large image.</value>
-  </data>
-  <data name="&gt;&gt;labelLargeText.Name" xml:space="preserve">
-    <value>labelLargeText</value>
-  </data>
-  <data name="&gt;&gt;labelLargeText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelLargeText.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelLargeText.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="labelLargeKey.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelLargeKey.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelLargeKey.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 310</value>
-  </data>
-  <data name="labelLargeKey.Size" type="System.Drawing.Size, System.Drawing">
-    <value>27, 14</value>
-  </data>
-  <data name="labelLargeKey.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="labelLargeKey.Text" xml:space="preserve">
-    <value>Key</value>
-    <comment>@Invariant</comment>
-  </data>
-  <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Name of the asset for large image or an image URL.</value>
-  </data>
-  <data name="&gt;&gt;labelLargeKey.Name" xml:space="preserve">
-    <value>labelLargeKey</value>
-  </data>
-  <data name="&gt;&gt;labelLargeKey.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelLargeKey.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelLargeKey.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="labelSmall.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelSmall.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelSmall.Location" type="System.Drawing.Point, System.Drawing">
-    <value>261, 289</value>
-  </data>
-  <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 14</value>
-  </data>
-  <data name="labelSmall.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="labelSmall.Text" xml:space="preserve">
-    <value>Small Image</value>
-  </data>
-  <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>Image that shows up in the down right corner of large image.</value>
-  </data>
-  <data name="&gt;&gt;labelSmall.Name" xml:space="preserve">
-    <value>labelSmall</value>
-  </data>
-  <data name="&gt;&gt;labelSmall.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelSmall.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelSmall.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="labelLarge.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelLarge.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelLarge.Location" type="System.Drawing.Point, System.Drawing">
-    <value>71, 289</value>
-  </data>
-  <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 14</value>
-  </data>
-  <data name="labelLarge.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="labelLarge.Text" xml:space="preserve">
-    <value>Large Image</value>
-  </data>
-  <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>Image that shows left to the text set above.</value>
-  </data>
-  <data name="&gt;&gt;labelLarge.Name" xml:space="preserve">
-    <value>labelLarge</value>
-  </data>
-  <data name="&gt;&gt;labelLarge.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelLarge.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelLarge.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <metadata name="toolTipInfo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>349, 17</value>
-  </metadata>
-  <data name="radioButtonNone.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButtonNone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioButtonNone.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 4</value>
-  </data>
-  <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 18</value>
-  </data>
-  <data name="radioButtonNone.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>None</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>No timestamps enabled.</value>
-  </data>
-  <data name="&gt;&gt;radioButtonNone.Name" xml:space="preserve">
-    <value>radioButtonNone</value>
-  </data>
-  <data name="&gt;&gt;radioButtonNone.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButtonNone.Parent" xml:space="preserve">
-    <value>panelTimestamps</value>
-  </data>
-  <data name="&gt;&gt;radioButtonNone.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="radioButtonStartTime.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButtonStartTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioButtonStartTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 28</value>
-  </data>
-  <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 18</value>
-  </data>
-  <data name="radioButtonStartTime.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;labelButton2Text.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>Since CustomRP started</value>
-  </data>
-  <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>Shows time since the app was started.</value>
-  </data>
-  <data name="&gt;&gt;radioButtonStartTime.Name" xml:space="preserve">
-    <value>radioButtonStartTime</value>
-  </data>
-  <data name="&gt;&gt;radioButtonStartTime.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButtonStartTime.Parent" xml:space="preserve">
-    <value>panelTimestamps</value>
-  </data>
-  <data name="&gt;&gt;radioButtonStartTime.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="radioButtonLocalTime.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButtonLocalTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioButtonLocalTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 76</value>
-  </data>
-  <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 18</value>
-  </data>
-  <data name="radioButtonLocalTime.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>Your local time</value>
-  </data>
-  <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>Shows your current time in 24-hour format.</value>
-  </data>
-  <data name="&gt;&gt;radioButtonLocalTime.Name" xml:space="preserve">
-    <value>radioButtonLocalTime</value>
-  </data>
-  <data name="&gt;&gt;radioButtonLocalTime.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButtonLocalTime.Parent" xml:space="preserve">
-    <value>panelTimestamps</value>
-  </data>
-  <data name="&gt;&gt;radioButtonLocalTime.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="labelTimestamp.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelTimestamp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelTimestamp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 199</value>
-  </data>
-  <data name="labelTimestamp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 14</value>
-  </data>
-  <data name="labelTimestamp.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="labelTimestamp.Text" xml:space="preserve">
-    <value>Timestamp</value>
-    <comment>@Invariant</comment>
-  </data>
-  <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Sets up timestamp for the status, which shows up under all the text above.
-Status timers have 24 hour limit, meaning that after 24 hours time will go back to 0:00.</value>
-  </data>
-  <data name="&gt;&gt;labelTimestamp.Name" xml:space="preserve">
-    <value>labelTimestamp</value>
-  </data>
-  <data name="&gt;&gt;labelTimestamp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelTimestamp.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelTimestamp.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="labelParty.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelParty.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelParty.Location" type="System.Drawing.Point, System.Drawing">
-    <value>245, 114</value>
-  </data>
-  <data name="labelParty.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 14</value>
-  </data>
-  <data name="labelParty.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="labelParty.Text" xml:space="preserve">
-    <value>Party</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
     <value>Amount of players in the current party that shows next to State field.
 To take effect, both fields should be more than 0.</value>
   </data>
-  <data name="&gt;&gt;labelParty.Name" xml:space="preserve">
-    <value>labelParty</value>
+  <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open the Manual</value>
   </data>
-  <data name="&gt;&gt;labelParty.Type" xml:space="preserve">
+  <data name="labelParty.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="&gt;&gt;trayMenuReconnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelLargeText.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;labelParty.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelParty.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="radioButtonCustom.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButtonCustom.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="labelID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="radioButtonCustom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 100</value>
+  <data name="&gt;&gt;textBoxButton2Text.Name" xml:space="preserve">
+    <value>textBoxButton2Text</value>
   </data>
-  <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 18</value>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Help</value>
   </data>
-  <data name="radioButtonCustom.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;gitHubPageToolStripMenuItem.Name" xml:space="preserve">
+    <value>gitHubPageToolStripMenuItem</value>
   </data>
-  <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>Custom timestamp</value>
+  <data name="labelSmallText.ToolTip" xml:space="preserve">
+    <value>Text displayed when hovering the small image.</value>
   </data>
-  <data name="radioButtonCustom.ToolTip" xml:space="preserve">
-    <value>Shows how much time has passed since or is remaining to the date set below.</value>
+  <data name="&gt;&gt;toolStripSeparatorSettings3.Name" xml:space="preserve">
+    <value>toolStripSeparatorSettings3</value>
   </data>
-  <data name="&gt;&gt;radioButtonCustom.Name" xml:space="preserve">
-    <value>radioButtonCustom</value>
+  <data name="trayIcon.Text" xml:space="preserve">
+    <value>Custom Rich Presence</value>
+    <comment>@Invariant</comment>
   </data>
-  <data name="&gt;&gt;radioButtonCustom.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Shows how much time has passed since you last connected or updated the presence.</value>
   </data>
-  <data name="&gt;&gt;radioButtonCustom.Parent" xml:space="preserve">
+  <data name="buttonDisconnect.ToolTip" xml:space="preserve">
+    <value>Disconnects the app from Discord. Please note that it might take a while.</value>
+  </data>
+  <data name="&gt;&gt;panelTimestamps.Name" xml:space="preserve">
     <value>panelTimestamps</value>
   </data>
-  <data name="&gt;&gt;radioButtonCustom.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="labelButton1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>71, 366</value>
+  <data name="&gt;&gt;comboBoxSmallKey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 14</value>
   </data>
-  <data name="labelButton1.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
+  <data name="samplePersonToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sample Person</value>
+    <comment>@Invariant</comment>
   </data>
-  <data name="labelButton1.Text" xml:space="preserve">
-    <value>Button 1</value>
-  </data>
-  <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>First of the two buttons that shows up under your status in your profile popup and on the right side in the full profile.</value>
-  </data>
-  <data name="&gt;&gt;labelButton1.Name" xml:space="preserve">
-    <value>labelButton1</value>
-  </data>
-  <data name="&gt;&gt;labelButton1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelButton1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelButton1.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="labelButton2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>261, 366</value>
-  </data>
-  <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 14</value>
-  </data>
-  <data name="labelButton2.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
-  </data>
-  <data name="labelButton2.Text" xml:space="preserve">
-    <value>Button 2</value>
-  </data>
-  <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>Second button, which appears right under the first button, or instead of it, if the first one isn't set.</value>
-  </data>
-  <data name="&gt;&gt;labelButton2.Name" xml:space="preserve">
-    <value>labelButton2</value>
-  </data>
-  <data name="&gt;&gt;labelButton2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelButton2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelButton2.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="labelButton1URL.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelButton1URL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelButton1URL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>41, 417</value>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>About...</value>
   </data>
   <data name="labelButton1URL.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 14</value>
   </data>
+  <data name="labelButton1Text.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabelPadding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Upload Assets</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="&gt;&gt;labelButton2Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxState.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>480, 520</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorSettings3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 6</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="&gt;&gt;labelTimestamp.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="textBoxSmallText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 337</value>
+  </data>
+  <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorSettings2.Name" xml:space="preserve">
+    <value>toolStripSeparatorSettings2</value>
+  </data>
+  <data name="&gt;&gt;labelLargeText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="numericUpDownPartySize.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelSmallText.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="labelDetails.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxSmallText.MaxLength" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="labelID.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="buttonDisconnect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="&gt;&gt;labelID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelID.Name" xml:space="preserve">
+    <value>labelID</value>
+  </data>
+  <data name="&gt;&gt;textBoxState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelLargeKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 310</value>
+  </data>
+  <data name="&gt;&gt;toolTipInfo.Name" xml:space="preserve">
+    <value>toolTipInfo</value>
+  </data>
+  <data name="&gt;&gt;labelTimestamp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelID.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;labelLargeKey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>aboutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;labelParty.Name" xml:space="preserve">
+    <value>labelParty</value>
+  </data>
+  <data name="labelSmall.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 289</value>
+  </data>
+  <data name="&gt;&gt;textBoxDetails.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="labelButton1URL.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
+  </data>
+  <data name="labelState.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;trayMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownPartyMax.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;labelSmall.Name" xml:space="preserve">
+    <value>labelSmall</value>
+  </data>
+  <data name="labelState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 14</value>
+  </data>
+  <data name="&gt;&gt;allowAnalyticsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sampleToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorHelp1.Name" xml:space="preserve">
+    <value>toolStripSeparatorHelp1</value>
+  </data>
+  <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 14</value>
+  </data>
+  <data name="labelButton1.Text" xml:space="preserve">
+    <value>Button 1</value>
+  </data>
+  <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 6</value>
+  </data>
+  <data name="buttonConnect.Text" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSmallText.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="labelLargeText.ToolTip" xml:space="preserve">
+    <value>Text displayed when hovering the large image.</value>
+  </data>
+  <data name="&gt;&gt;labelTimestamp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openTheManualToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButtonNone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="labelButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelLargeKey.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="buttonConnect.ToolTip" xml:space="preserve">
+    <value>Links the application to the specified ID with set presence.</value>
+  </data>
+  <data name="radioButtonLocalTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 76</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSmallKey.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="buttonConnect.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;runOnStartupToolStripMenuItem.Name" xml:space="preserve">
+    <value>runOnStartupToolStripMenuItem</value>
+  </data>
+  <data name="textBoxState.MaxLength" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="buttonUpdatePresence.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNone.Parent" xml:space="preserve">
+    <value>panelTimestamps</value>
+  </data>
+  <data name="&gt;&gt;labelButton2URL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonUpdatePresence.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="textBoxLargeText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="labelButton2URL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 417</value>
+  </data>
+  <data name="&gt;&gt;labelButton1Text.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelParty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 114</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelParty.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="&gt;&gt;checkForUpdatesToolStripMenuItem.Name" xml:space="preserve">
+    <value>checkForUpdatesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;labelLarge.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;textBoxLargeText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTimestamp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSmallText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 14</value>
+  </data>
+  <data name="&gt;&gt;labelState.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;textBoxLargeText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="radioButtonStartTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
+    <value>Shows time since the app was started.</value>
+  </data>
+  <data name="&gt;&gt;labelSmallKey.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;sampleLanguageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTimestamp.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="labelButton1URL.ToolTip" xml:space="preserve">
+    <value>URL the button will take user to upon clicking.</value>
+  </data>
+  <data name="radioButtonPresence.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonConnect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownPartySize.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="downloadUpdateToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;textBoxDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxButton1URL.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="menuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>480, 24</value>
+  </data>
+  <data name="&gt;&gt;trayMenuReconnect.Name" xml:space="preserve">
+    <value>trayMenuReconnect</value>
+  </data>
+  <data name="labelSmallKey.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownPartyMax.Name" xml:space="preserve">
+    <value>numericUpDownPartyMax</value>
+  </data>
+  <data name="sampleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sample</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 104</value>
+  </data>
+  <data name="trayIcon.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;textBoxDetails.Name" xml:space="preserve">
+    <value>textBoxDetails</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerTimestamp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uploadAssetsToolStripMenuItem.Name" xml:space="preserve">
+    <value>uploadAssetsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;openToolStripMenuItem.Name" xml:space="preserve">
+    <value>openToolStripMenuItem</value>
+  </data>
+  <data name="comboBoxLargeKey.MaxLength" type="System.Int32, mscorlib">
+    <value>256</value>
+  </data>
+  <data name="radioButtonNone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButtonCustom.Text" xml:space="preserve">
+    <value>Custom timestamp</value>
+  </data>
+  <data name="labelTimestamp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 199</value>
+  </data>
+  <data name="&gt;&gt;labelSmallKey.Name" xml:space="preserve">
+    <value>labelSmallKey</value>
+  </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>Name of the asset for small image or an image URL.</value>
+  </data>
+  <data name="buttonUpdatePresence.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="textBoxSmallText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLargeKey.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelButton1Text.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="comboBoxSmallKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 307</value>
+  </data>
+  <data name="&gt;&gt;labelSmall.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxButton2URL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelLargeText.Text" xml:space="preserve">
+    <value>Text</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="uploadAssetsToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+U</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="&gt;&gt;runOnStartupToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="labelLarge.ToolTip" xml:space="preserve">
+    <value>Image that shows left to the text set above.</value>
+  </data>
+  <data name="&gt;&gt;radioButtonCustom.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;radioButtonStartTime.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="comboBoxSmallKey.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="toolStripStatusLabelPadding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 17</value>
+  </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Autoconnect</value>
+  </data>
+  <data name="textBoxButton2URL.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="labelButton2Text.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;defaultToolStripMenuItem.Name" xml:space="preserve">
+    <value>defaultToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;allowAnalyticsToolStripMenuItem.Name" xml:space="preserve">
+    <value>allowAnalyticsToolStripMenuItem</value>
+  </data>
+  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quit</value>
+  </data>
+  <data name="labelDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorSettings1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerTimestamp.Parent" xml:space="preserve">
+    <value>panelTimestamps</value>
+  </data>
+  <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="&gt;&gt;panelTimestamps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxLargeText.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="numericUpDownPartySize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 111</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="labelState.ToolTip" xml:space="preserve">
+    <value>Second line in the presence.</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
+    <value>Shows your current time in 24-hour format.</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabelPadding.Name" xml:space="preserve">
+    <value>toolStripStatusLabelPadding</value>
+  </data>
+  <data name="savePresetToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+S</value>
   </data>
   <data name="labelButton1URL.Text" xml:space="preserve">
     <value>URL</value>
     <comment>@Invariant</comment>
   </data>
-  <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>URL the button will take user to upon clicking.</value>
+  <data name="buttonUpdatePresence.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;labelButton1URL.Name" xml:space="preserve">
-    <value>labelButton1URL</value>
+  <data name="textBoxSmallText.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
-  <data name="&gt;&gt;labelButton1URL.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>480, 22</value>
   </data>
-  <data name="&gt;&gt;labelButton1URL.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;samplePersonToolStripMenuItem.Name" xml:space="preserve">
+    <value>samplePersonToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;labelButton1URL.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="labelButton2URL.AutoSize" type="System.Boolean, mscorlib">
+  <data name="radioButtonLocalTime.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="labelButton2URL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 6</value>
   </data>
-  <data name="labelButton2URL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>231, 417</value>
+  <data name="&gt;&gt;textBoxSmallText.ZOrder" xml:space="preserve">
+    <value>19</value>
   </data>
-  <data name="labelButton2URL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 14</value>
+  <data name="&gt;&gt;downloadUpdateToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelButton2URL.TabIndex" type="System.Int32, mscorlib">
-    <value>39</value>
+  <data name="&gt;&gt;textBoxID.ZOrder" xml:space="preserve">
+    <value>36</value>
   </data>
-  <data name="labelButton2URL.Text" xml:space="preserve">
-    <value>URL</value>
-    <comment>@Invariant</comment>
+  <data name="labelButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 366</value>
   </data>
-  <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>URL the button will take user to upon clicking.</value>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;labelButton2URL.Name" xml:space="preserve">
-    <value>labelButton2URL</value>
+  <data name="&gt;&gt;labelButton1.Name" xml:space="preserve">
+    <value>labelButton1</value>
   </data>
-  <data name="&gt;&gt;labelButton2URL.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;textBoxButton2URL.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="&gt;&gt;labelButton2URL.Parent" xml:space="preserve">
+  <data name="&gt;&gt;buttonConnect.Name" xml:space="preserve">
+    <value>buttonConnect</value>
+  </data>
+  <data name="&gt;&gt;textBoxButton1URL.Name" xml:space="preserve">
+    <value>textBoxButton1URL</value>
+  </data>
+  <data name="&gt;&gt;buttonUpdatePresence.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;labelButton2URL.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="panelTimestamps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 140</value>
   </data>
-  <data name="labelButton1Text.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelButton1Text.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelButton1Text.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 387</value>
-  </data>
-  <data name="labelButton1Text.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 14</value>
-  </data>
-  <data name="labelButton1Text.TabIndex" type="System.Int32, mscorlib">
-    <value>40</value>
-  </data>
-  <data name="labelButton1Text.Text" xml:space="preserve">
-    <value>Text</value>
-    <comment>@Invariant</comment>
-  </data>
-  <data name="labelButton1Text.ToolTip" xml:space="preserve">
-    <value>Label of the first button.</value>
-  </data>
-  <data name="&gt;&gt;labelButton1Text.Name" xml:space="preserve">
-    <value>labelButton1Text</value>
-  </data>
-  <data name="&gt;&gt;labelButton1Text.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelButton1Text.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelButton1Text.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="labelButton2Text.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="labelTimestamp.ToolTip" xml:space="preserve">
+    <value>Sets up timestamp for the status, which shows up under all the text above.
+Status timers have 24 hour limit, meaning that after 24 hours time will go back to 0:00.</value>
   </data>
   <data name="labelButton2Text.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="labelButton2Text.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 387</value>
+  <data name="&gt;&gt;darkModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelButton2Text.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 14</value>
+  <data name="&gt;&gt;buttonUpdatePresence.Name" xml:space="preserve">
+    <value>buttonUpdatePresence</value>
   </data>
-  <data name="labelButton2Text.TabIndex" type="System.Int32, mscorlib">
-    <value>41</value>
+  <data name="labelLarge.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;labelButton1Text.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;downloadUpdateToolStripMenuItem.Name" xml:space="preserve">
+    <value>downloadUpdateToolStripMenuItem</value>
+  </data>
+  <data name="panelTimestamps.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;labelButton1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="buttonUpdatePresence.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
   </data>
   <data name="labelButton2Text.Text" xml:space="preserve">
     <value>Text</value>
     <comment>@Invariant</comment>
   </data>
-  <data name="labelButton2Text.ToolTip" xml:space="preserve">
-    <value>Label of the second button.</value>
-  </data>
-  <data name="&gt;&gt;labelButton2Text.Name" xml:space="preserve">
-    <value>labelButton2Text</value>
-  </data>
-  <data name="&gt;&gt;labelButton2Text.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelButton2Text.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelButton2Text.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="radioButtonPresence.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButtonPresence.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioButtonPresence.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 52</value>
-  </data>
-  <data name="radioButtonPresence.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 18</value>
-  </data>
-  <data name="radioButtonPresence.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="labelSmallKey.Text" xml:space="preserve">
+    <value>Key</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="radioButtonPresence.Text" xml:space="preserve">
     <value>Since last presence update</value>
   </data>
-  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
-    <value>Shows how much time has passed since you last connected or updated the presence.</value>
+  <data name="&gt;&gt;toolStripSeparatorFile2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioButtonPresence.Name" xml:space="preserve">
-    <value>radioButtonPresence</value>
-  </data>
-  <data name="&gt;&gt;radioButtonPresence.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButtonPresence.Parent" xml:space="preserve">
-    <value>panelTimestamps</value>
-  </data>
-  <data name="&gt;&gt;radioButtonPresence.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="dateTimePickerTimestamp.CustomFormat" xml:space="preserve">
-    <value>dd.MM.yyyy hh:mm:ss</value>
-    <comment>@Invariant</comment>
-  </data>
-  <data name="dateTimePickerTimestamp.DropDownAlign" type="System.Windows.Forms.LeftRightAlignment, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="dateTimePickerTimestamp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 124</value>
-  </data>
-  <data name="dateTimePickerTimestamp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>340, 22</value>
-  </data>
-  <data name="dateTimePickerTimestamp.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;dateTimePickerTimestamp.Name" xml:space="preserve">
-    <value>dateTimePickerTimestamp</value>
-  </data>
-  <data name="&gt;&gt;dateTimePickerTimestamp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dateTimePickerTimestamp.Parent" xml:space="preserve">
-    <value>panelTimestamps</value>
-  </data>
-  <data name="&gt;&gt;dateTimePickerTimestamp.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="panelTimestamps.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 140</value>
-  </data>
-  <data name="panelTimestamps.Size" type="System.Drawing.Size, System.Drawing">
-    <value>340, 146</value>
-  </data>
-  <data name="panelTimestamps.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;panelTimestamps.Name" xml:space="preserve">
-    <value>panelTimestamps</value>
-  </data>
-  <data name="&gt;&gt;panelTimestamps.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelTimestamps.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panelTimestamps.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="labelPartyOf.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelPartyOf.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="radioButtonStartTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="labelPartyOf.Location" type="System.Drawing.Point, System.Drawing">
-    <value>341, 114</value>
-  </data>
-  <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
-    <value>18, 14</value>
-  </data>
-  <data name="labelPartyOf.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="labelPartyOf.Text" xml:space="preserve">
-    <value>of</value>
-  </data>
-  <data name="&gt;&gt;labelPartyOf.Name" xml:space="preserve">
-    <value>labelPartyOf</value>
-  </data>
-  <data name="&gt;&gt;labelPartyOf.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelPartyOf.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelPartyOf.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>460, 17</value>
-  </metadata>
-  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 498</value>
-  </data>
-  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>480, 22</value>
-  </data>
-  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
-    <value>statusStrip</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="toolStripStatusLabelPadding.Size" type="System.Drawing.Size, System.Drawing">
-    <value>386, 17</value>
-  </data>
-  <data name="toolStripStatusLabelPadding.Text" xml:space="preserve">
-    <value> </value>
-    <comment>@Invariant</comment>
-  </data>
-  <data name="toolStripStatusLabelStatus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 17</value>
-  </data>
-  <data name="toolStripStatusLabelStatus.Text" xml:space="preserve">
-    <value>Disconnected</value>
-    <comment>@Invariant</comment>
-  </data>
-  <data name="textBoxButton2Text.Location" type="System.Drawing.Point, System.Drawing">
-    <value>264, 384</value>
-  </data>
-  <data name="textBoxButton2Text.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 4, 2, 4</value>
-  </data>
-  <data name="textBoxButton2Text.MaxLength" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
-  <data name="textBoxButton2Text.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
-  </data>
-  <data name="textBoxButton2Text.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;textBoxButton2Text.Name" xml:space="preserve">
-    <value>textBoxButton2Text</value>
-  </data>
-  <data name="&gt;&gt;textBoxButton2Text.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxButton2Text.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="labelSmallText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;textBoxButton2Text.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="textBoxButton2URL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>264, 414</value>
-  </data>
-  <data name="textBoxButton2URL.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 4, 2, 4</value>
-  </data>
-  <data name="textBoxButton2URL.MaxLength" type="System.Int32, mscorlib">
-    <value>512</value>
-  </data>
-  <data name="textBoxButton2URL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
-  </data>
-  <data name="textBoxButton2URL.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;textBoxButton2URL.Name" xml:space="preserve">
-    <value>textBoxButton2URL</value>
-  </data>
-  <data name="&gt;&gt;textBoxButton2URL.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxButton2URL.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBoxButton2URL.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="textBoxButton1URL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 414</value>
-  </data>
-  <data name="textBoxButton1URL.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 4, 2, 4</value>
-  </data>
-  <data name="textBoxButton1URL.MaxLength" type="System.Int32, mscorlib">
-    <value>512</value>
-  </data>
-  <data name="textBoxButton1URL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
-  </data>
-  <data name="textBoxButton1URL.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;textBoxButton1URL.Name" xml:space="preserve">
-    <value>textBoxButton1URL</value>
-  </data>
-  <data name="&gt;&gt;textBoxButton1URL.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxButton1URL.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBoxButton1URL.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="textBoxButton1Text.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 384</value>
-  </data>
-  <data name="textBoxButton1Text.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 4, 2, 4</value>
-  </data>
-  <data name="textBoxButton1Text.MaxLength" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
-  <data name="textBoxButton1Text.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
-  </data>
-  <data name="textBoxButton1Text.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;textBoxButton1Text.Name" xml:space="preserve">
-    <value>textBoxButton1Text</value>
-  </data>
-  <data name="&gt;&gt;textBoxButton1Text.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxButton1Text.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBoxButton1Text.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="numericUpDownPartySize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>286, 111</value>
-  </data>
   <data name="numericUpDownPartySize.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 22</value>
   </data>
-  <data name="numericUpDownPartySize.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="&gt;&gt;radioButtonLocalTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;numericUpDownPartySize.Name" xml:space="preserve">
-    <value>numericUpDownPartySize</value>
+  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
+    <value>statusStrip</value>
   </data>
-  <data name="&gt;&gt;numericUpDownPartySize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;startMinimizedToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;numericUpDownPartySize.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
   </data>
-  <data name="&gt;&gt;numericUpDownPartySize.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="numericUpDownPartyMax.Location" type="System.Drawing.Point, System.Drawing">
-    <value>365, 111</value>
-  </data>
-  <data name="numericUpDownPartyMax.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 22</value>
-  </data>
-  <data name="numericUpDownPartyMax.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownPartyMax.Name" xml:space="preserve">
-    <value>numericUpDownPartyMax</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownPartyMax.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="labelButton2URL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;numericUpDownPartyMax.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;numericUpDownPartyMax.ZOrder" xml:space="preserve">
-    <value>13</value>
+  <data name="numericUpDownPartyMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 111</value>
   </data>
-  <data name="comboBoxSmallKey.Location" type="System.Drawing.Point, System.Drawing">
-    <value>264, 307</value>
+  <data name="&gt;&gt;textBoxButton1Text.Name" xml:space="preserve">
+    <value>textBoxButton1Text</value>
   </data>
-  <data name="comboBoxSmallKey.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="buttonDisconnect.Text" xml:space="preserve">
+    <value>Disconnect</value>
+  </data>
+  <data name="&gt;&gt;radioButtonLocalTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textBoxButton1Text.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 4, 2, 4</value>
   </data>
-  <data name="comboBoxSmallKey.MaxDropDownItems" type="System.Int32, mscorlib">
-    <value>100</value>
-  </data>
-  <data name="comboBoxSmallKey.MaxLength" type="System.Int32, mscorlib">
-    <value>256</value>
-  </data>
-  <data name="comboBoxSmallKey.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
-  </data>
-  <data name="comboBoxSmallKey.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;comboBoxSmallKey.Name" xml:space="preserve">
-    <value>comboBoxSmallKey</value>
-  </data>
-  <data name="&gt;&gt;comboBoxSmallKey.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBoxSmallKey.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;comboBoxSmallKey.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="textBoxSmallText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>264, 337</value>
-  </data>
-  <data name="textBoxSmallText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 4, 2, 4</value>
-  </data>
-  <data name="textBoxSmallText.MaxLength" type="System.Int32, mscorlib">
-    <value>128</value>
-  </data>
-  <data name="textBoxSmallText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
-  </data>
-  <data name="textBoxSmallText.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;textBoxSmallText.Name" xml:space="preserve">
-    <value>textBoxSmallText</value>
-  </data>
-  <data name="&gt;&gt;textBoxSmallText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxSmallText.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBoxSmallText.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="textBoxLargeText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 337</value>
-  </data>
-  <data name="textBoxLargeText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 4, 2, 4</value>
-  </data>
-  <data name="textBoxLargeText.MaxLength" type="System.Int32, mscorlib">
-    <value>128</value>
-  </data>
-  <data name="textBoxLargeText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
-  </data>
-  <data name="textBoxLargeText.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;textBoxLargeText.Name" xml:space="preserve">
-    <value>textBoxLargeText</value>
-  </data>
-  <data name="&gt;&gt;textBoxLargeText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxLargeText.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBoxLargeText.ZOrder" xml:space="preserve">
-    <value>32</value>
-  </data>
-  <data name="comboBoxLargeKey.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 307</value>
-  </data>
-  <data name="comboBoxLargeKey.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 4, 2, 4</value>
-  </data>
-  <data name="comboBoxLargeKey.MaxDropDownItems" type="System.Int32, mscorlib">
-    <value>100</value>
-  </data>
-  <data name="comboBoxLargeKey.MaxLength" type="System.Int32, mscorlib">
-    <value>256</value>
-  </data>
-  <data name="comboBoxLargeKey.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
-  </data>
-  <data name="comboBoxLargeKey.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;comboBoxLargeKey.Name" xml:space="preserve">
-    <value>comboBoxLargeKey</value>
-  </data>
-  <data name="&gt;&gt;comboBoxLargeKey.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBoxLargeKey.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;comboBoxLargeKey.ZOrder" xml:space="preserve">
-    <value>33</value>
-  </data>
-  <data name="textBoxState.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 111</value>
-  </data>
-  <data name="textBoxState.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 4, 2, 4</value>
-  </data>
-  <data name="textBoxState.MaxLength" type="System.Int32, mscorlib">
-    <value>128</value>
-  </data>
-  <data name="textBoxState.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 22</value>
-  </data>
-  <data name="textBoxState.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;textBoxState.Name" xml:space="preserve">
-    <value>textBoxState</value>
-  </data>
-  <data name="&gt;&gt;textBoxState.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxState.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBoxState.ZOrder" xml:space="preserve">
-    <value>34</value>
-  </data>
-  <data name="textBoxDetails.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 81</value>
-  </data>
-  <data name="textBoxDetails.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 4, 2, 4</value>
-  </data>
-  <data name="textBoxDetails.MaxLength" type="System.Int32, mscorlib">
-    <value>128</value>
-  </data>
-  <data name="textBoxDetails.Size" type="System.Drawing.Size, System.Drawing">
-    <value>340, 22</value>
-  </data>
-  <data name="textBoxDetails.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;textBoxDetails.Name" xml:space="preserve">
-    <value>textBoxDetails</value>
-  </data>
-  <data name="&gt;&gt;textBoxDetails.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxDetails.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBoxDetails.ZOrder" xml:space="preserve">
-    <value>35</value>
-  </data>
-  <data name="textBoxID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 51</value>
-  </data>
-  <data name="textBoxID.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 4, 2, 4</value>
-  </data>
-  <data name="textBoxID.MaxLength" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="textBoxID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 22</value>
-  </data>
-  <data name="textBoxID.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="textBoxID.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;textBoxID.Name" xml:space="preserve">
-    <value>textBoxID</value>
-  </data>
-  <data name="&gt;&gt;textBoxID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;textBoxID.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBoxID.ZOrder" xml:space="preserve">
-    <value>36</value>
+  <data name="labelPartyOf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 114</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="trayMenuDisconnect.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="comboBoxLargeKey.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="&gt;&gt;labelButton2URL.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textBoxState.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="&gt;&gt;openToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelButton1Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dateTimePickerTimestamp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 22</value>
+  </data>
+  <data name="&gt;&gt;labelSmall.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="textBoxLargeText.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorSettings1.Name" xml:space="preserve">
+    <value>toolStripSeparatorSettings1</value>
+  </data>
+  <data name="&gt;&gt;translatorsToolStripMenuItem.Name" xml:space="preserve">
+    <value>translatorsToolStripMenuItem</value>
+  </data>
+  <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 14</value>
+  </data>
+  <data name="labelButton1Text.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSmallKey.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonUpdatePresence.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;labelButton2URL.Name" xml:space="preserve">
+    <value>labelButton2URL</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
+    <value>helpToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolTipInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelButton2Text.ToolTip" xml:space="preserve">
+    <value>Label of the second button.</value>
+  </data>
+  <data name="&gt;&gt;textBoxButton2Text.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 6</value>
+  </data>
+  <data name="&gt;&gt;settingsToolStripMenuItem.Name" xml:space="preserve">
+    <value>settingsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;labelDetails.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;radioButtonCustom.Name" xml:space="preserve">
+    <value>radioButtonCustom</value>
+  </data>
+  <data name="textBoxDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 22</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Translators</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 6</value>
+  </data>
+  <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
+    <value>Updates presence.</value>
+  </data>
+  <data name="&gt;&gt;labelButton1Text.Name" xml:space="preserve">
+    <value>labelButton1Text</value>
+  </data>
+  <data name="&gt;&gt;textBoxButton1Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelButton1URL.Name" xml:space="preserve">
+    <value>labelButton1URL</value>
+  </data>
+  <data name="labelTimestamp.Text" xml:space="preserve">
+    <value>Timestamp</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="labelLarge.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonUpdatePresence.Text" xml:space="preserve">
+    <value>Update Presence</value>
+  </data>
+  <data name="&gt;&gt;checkUpdatesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDisconnect.Name" xml:space="preserve">
+    <value>buttonDisconnect</value>
+  </data>
+  <data name="trayIcon.BalloonTipText" xml:space="preserve">
+    <value>Double click on the icon to show it again, or right-click to quit.</value>
+  </data>
+  <data name="trayMenuQuit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="&gt;&gt;labelParty.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dateTimePickerTimestamp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 124</value>
+  </data>
+  <data name="labelSmall.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButtonNone.ToolTip" xml:space="preserve">
+    <value>No timestamps enabled.</value>
+  </data>
+  <data name="labelButton1URL.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>44</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 14</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>480, 520</value>
+  <data name="textBoxLargeText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 337</value>
+  </data>
+  <data name="sampleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 22</value>
+  </data>
+  <data name="&gt;&gt;buttonDisconnect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;quitToolStripMenuItem.Name" xml:space="preserve">
+    <value>quitToolStripMenuItem</value>
+  </data>
+  <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="loadPresetToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+O</value>
+  </data>
+  <data name="&gt;&gt;textBoxLargeText.Name" xml:space="preserve">
+    <value>textBoxLargeText</value>
+  </data>
+  <data name="&gt;&gt;supportersToolStripMenuItem.Name" xml:space="preserve">
+    <value>supportersToolStripMenuItem</value>
+  </data>
+  <data name="textBoxButton2URL.MaxLength" type="System.Int32, mscorlib">
+    <value>512</value>
+  </data>
+  <data name="&gt;&gt;radioButtonStartTime.Name" xml:space="preserve">
+    <value>radioButtonStartTime</value>
+  </data>
+  <data name="&gt;&gt;textBoxButton1URL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;testSupporterToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelButton2.Text" xml:space="preserve">
+    <value>Button 2</value>
+  </data>
+  <data name="labelSmallKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 310</value>
+  </data>
+  <data name="&gt;&gt;sampleToolStripMenuItem.Name" xml:space="preserve">
+    <value>sampleToolStripMenuItem</value>
+  </data>
+  <data name="dateTimePickerTimestamp.DropDownAlign" type="System.Windows.Forms.LeftRightAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="comboBoxLargeKey.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;labelState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelLarge.Text" xml:space="preserve">
+    <value>Large Image</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;labelSmallKey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerTimestamp.Name" xml:space="preserve">
+    <value>dateTimePickerTimestamp</value>
+  </data>
+  <data name="&gt;&gt;uploadAssetsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="trayMenuQuit.Text" xml:space="preserve">
+    <value>Quit</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownPartySize.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelParty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelParty.Text" xml:space="preserve">
+    <value>Party</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="labelSmallKey.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;labelLarge.Name" xml:space="preserve">
+    <value>labelLarge</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Supporters</value>
+  </data>
+  <data name="labelButton1Text.ToolTip" xml:space="preserve">
+    <value>Label of the first button.</value>
+  </data>
+  <data name="dateTimePickerTimestamp.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="&gt;&gt;radioButtonPresence.Parent" xml:space="preserve">
+    <value>panelTimestamps</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="textBoxID.MaxLength" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorFile1.Name" xml:space="preserve">
+    <value>toolStripSeparatorFile1</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Check for Updates...</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Name" xml:space="preserve">
+    <value>languageToolStripMenuItem</value>
+  </data>
+  <data name="buttonDisconnect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;labelSmall.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelSmall.ToolTip" xml:space="preserve">
+    <value>Image that shows up in the down right corner of large image.</value>
+  </data>
+  <data name="labelLargeKey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 14</value>
+  </data>
+  <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
+    <value>The app will run in the tray.</value>
+  </data>
+  <data name="&gt;&gt;labelLargeText.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="labelDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 84</value>
+  </data>
+  <data name="radioButtonStartTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 28</value>
+  </data>
+  <data name="&gt;&gt;radioButtonLocalTime.Name" xml:space="preserve">
+    <value>radioButtonLocalTime</value>
+  </data>
+  <data name="&gt;&gt;labelPartyOf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelTimestamps.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="labelState.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="comboBoxLargeKey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNone.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelButton1URL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 417</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="textBoxButton1URL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="labelSmallKey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 14</value>
+  </data>
+  <data name="textBoxButton2URL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="textBoxDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 81</value>
+  </data>
+  <data name="&gt;&gt;radioButtonCustom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPartyOf.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="menuStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelTimestamp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelLarge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 289</value>
+  </data>
+  <data name="radioButtonNone.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonConnect.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="comboBoxSmallKey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="textBoxButton2Text.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="&gt;&gt;textBoxButton1URL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="textBoxButton1URL.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="radioButtonPresence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 52</value>
+  </data>
+  <data name="&gt;&gt;radioButtonCustom.Parent" xml:space="preserve">
+    <value>panelTimestamps</value>
+  </data>
+  <data name="textBoxID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 51</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dark Mode</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSmallKey.Name" xml:space="preserve">
+    <value>comboBoxSmallKey</value>
+  </data>
+  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 498</value>
+  </data>
+  <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 6</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 9pt</value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="&gt;&gt;buttonDisconnect.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="buttonConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 24</value>
+  </data>
+  <data name="radioButtonLocalTime.Text" xml:space="preserve">
+    <value>Your local time</value>
+  </data>
+  <data name="labelButton2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerTimestamp.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="numericUpDownPartyMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 22</value>
+  </data>
+  <data name="textBoxLargeText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 20</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Check for Updates</value>
+  </data>
+  <data name="textBoxButton1Text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="&gt;&gt;radioButtonLocalTime.Parent" xml:space="preserve">
+    <value>panelTimestamps</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorTray1.Name" xml:space="preserve">
+    <value>toolStripSeparatorTray1</value>
+  </data>
+  <data name="labelID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonDisconnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxID.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 4, 2, 4</value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="&gt;&gt;quitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelTimestamps.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelPartyOf.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelButton2URL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gitHubPageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelLargeKey.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="textBoxButton2URL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 414</value>
+  </data>
+  <data name="trayMenuDisconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="&gt;&gt;textBoxButton1URL.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="trayMenuDisconnect.Text" xml:space="preserve">
+    <value>Disconnect</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="&gt;&gt;openTheManualToolStripMenuItem.Name" xml:space="preserve">
+    <value>openTheManualToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;textBoxSmallText.Name" xml:space="preserve">
+    <value>textBoxSmallText</value>
+  </data>
+  <data name="&gt;&gt;labelLargeText.Name" xml:space="preserve">
+    <value>labelLargeText</value>
+  </data>
+  <data name="labelButton2Text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 14</value>
+  </data>
+  <data name="labelButton2URL.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="labelButton1Text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 387</value>
+  </data>
+  <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 50</value>
+  </data>
+  <data name="radioButtonPresence.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelButton2URL.ToolTip" xml:space="preserve">
+    <value>URL the button will take user to upon clicking.</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Custom Rich Presence</value>
     <comment>@Invariant</comment>
   </data>
-  <data name="&gt;&gt;trayIcon.Name" xml:space="preserve">
-    <value>trayIcon</value>
+  <data name="&gt;&gt;radioButtonPresence.Name" xml:space="preserve">
+    <value>radioButtonPresence</value>
   </data>
-  <data name="&gt;&gt;trayIcon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Settings</value>
   </data>
-  <data name="&gt;&gt;openToolStripMenuItem.Name" xml:space="preserve">
-    <value>openToolStripMenuItem</value>
+  <data name="&gt;&gt;labelLarge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;openToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="radioButtonCustom.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparatorTray1.Name" xml:space="preserve">
-    <value>toolStripSeparatorTray1</value>
+  <data name="labelPartyOf.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparatorTray1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="toolStripStatusLabelPadding.Text" xml:space="preserve">
+    <value> </value>
+    <comment>@Invariant</comment>
   </data>
-  <data name="&gt;&gt;trayMenuReconnect.Name" xml:space="preserve">
-    <value>trayMenuReconnect</value>
+  <data name="&gt;&gt;textBoxID.Name" xml:space="preserve">
+    <value>textBoxID</value>
   </data>
-  <data name="&gt;&gt;trayMenuReconnect.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trayMenuDisconnect.Name" xml:space="preserve">
-    <value>trayMenuDisconnect</value>
-  </data>
-  <data name="&gt;&gt;trayMenuDisconnect.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="radioButtonNone.Text" xml:space="preserve">
+    <value>None</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
     <value>toolStripSeparator3</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+  <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 18</value>
+  </data>
+  <data name="textBoxSmallText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="labelParty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 14</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorSettings2.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;trayMenuQuit.Name" xml:space="preserve">
-    <value>trayMenuQuit</value>
+  <data name="textBoxID.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="textBoxDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;trayMenuQuit.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
-    <value>fileToolStripMenuItem</value>
+  <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Download Update</value>
   </data>
-  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+  <data name="labelSmallKey.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;buttonConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxDetails.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.Name" xml:space="preserve">
+    <value>menuStrip</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorHelp2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelButton2Text.Name" xml:space="preserve">
+    <value>labelButton2Text</value>
+  </data>
+  <data name="buttonDisconnect.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;sampleLanguageToolStripMenuItem.Name" xml:space="preserve">
+    <value>sampleLanguageToolStripMenuItem</value>
+  </data>
+  <data name="buttonConnect.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLargeKey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelButton2.ToolTip" xml:space="preserve">
+    <value>Second button, which appears right under the first button, or instead of it, if the first one isn't set.</value>
+  </data>
+  <data name="&gt;&gt;trayMenuDisconnect.Name" xml:space="preserve">
+    <value>trayMenuDisconnect</value>
+  </data>
+  <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>GitHub Page</value>
+  </data>
+  <data name="&gt;&gt;textBoxButton2URL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;savePresetToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 114</value>
+  </data>
+  <data name="labelState.Text" xml:space="preserve">
+    <value>State</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="comboBoxSmallKey.MaxLength" type="System.Int32, mscorlib">
+    <value>256</value>
+  </data>
+  <data name="&gt;&gt;labelID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="radioButtonStartTime.Text" xml:space="preserve">
+    <value>Since CustomRP started</value>
+  </data>
+  <data name="comboBoxSmallKey.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="numericUpDownPartyMax.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;autoconnectToolStripMenuItem.Name" xml:space="preserve">
+    <value>autoconnectToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;buttonConnect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="toolStripStatusLabelStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 17</value>
+  </data>
+  <data name="buttonDisconnect.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="labelButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 366</value>
+  </data>
+  <data name="menuStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 2, 0, 2</value>
+  </data>
+  <data name="&gt;&gt;textBoxSmallText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelLargeKey.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelLarge.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSmallText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxButton1URL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 414</value>
+  </data>
+  <data name="labelLargeText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelPartyOf.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelLarge.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 455</value>
+  </data>
+  <data name="&gt;&gt;labelTimestamp.Name" xml:space="preserve">
+    <value>labelTimestamp</value>
+  </data>
+  <data name="&gt;&gt;textBoxState.Name" xml:space="preserve">
+    <value>textBoxState</value>
+  </data>
+  <data name="labelSmall.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 14</value>
+  </data>
+  <data name="&gt;&gt;testSupporterToolStripMenuItem.Name" xml:space="preserve">
+    <value>testSupporterToolStripMenuItem</value>
+  </data>
+  <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 14</value>
+  </data>
+  <data name="&gt;&gt;labelParty.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;loadPresetToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;loadPresetToolStripMenuItem.Name" xml:space="preserve">
     <value>loadPresetToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;loadPresetToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
-  <data name="&gt;&gt;savePresetToolStripMenuItem.Name" xml:space="preserve">
-    <value>savePresetToolStripMenuItem</value>
+  <data name="labelSmall.Text" xml:space="preserve">
+    <value>Small Image</value>
   </data>
-  <data name="&gt;&gt;savePresetToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="radioButtonLocalTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparatorFile1.Name" xml:space="preserve">
-    <value>toolStripSeparatorFile1</value>
+  <data name="textBoxButton1Text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 384</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparatorFile1.Type" xml:space="preserve">
+  <data name="&gt;&gt;comboBoxLargeKey.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="labelButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Load Preset</value>
+  </data>
+  <data name="&gt;&gt;labelState.Name" xml:space="preserve">
+    <value>labelState</value>
+  </data>
+  <data name="labelSmall.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorTray1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;uploadAssetsToolStripMenuItem.Name" xml:space="preserve">
-    <value>uploadAssetsToolStripMenuItem</value>
+  <data name="labelButton2URL.Text" xml:space="preserve">
+    <value>URL</value>
+    <comment>@Invariant</comment>
   </data>
-  <data name="&gt;&gt;uploadAssetsToolStripMenuItem.Type" xml:space="preserve">
+  <data name="textBoxButton2URL.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;trayMenuDisconnect.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparatorFile2.Name" xml:space="preserve">
-    <value>toolStripSeparatorFile2</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparatorFile2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;quitToolStripMenuItem.Name" xml:space="preserve">
-    <value>quitToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;quitToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;settingsToolStripMenuItem.Name" xml:space="preserve">
-    <value>settingsToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;settingsToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;runOnStartupToolStripMenuItem.Name" xml:space="preserve">
-    <value>runOnStartupToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;runOnStartupToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;startMinimizedToolStripMenuItem.Name" xml:space="preserve">
-    <value>startMinimizedToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;startMinimizedToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;autoconnectToolStripMenuItem.Name" xml:space="preserve">
-    <value>autoconnectToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;autoconnectToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparatorSettings1.Name" xml:space="preserve">
-    <value>toolStripSeparatorSettings1</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparatorSettings1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkUpdatesToolStripMenuItem.Name" xml:space="preserve">
-    <value>checkUpdatesToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;checkUpdatesToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;allowAnalyticsToolStripMenuItem.Name" xml:space="preserve">
-    <value>allowAnalyticsToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;allowAnalyticsToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparatorSettings2.Name" xml:space="preserve">
-    <value>toolStripSeparatorSettings2</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparatorSettings2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;darkModeToolStripMenuItem.Name" xml:space="preserve">
-    <value>darkModeToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;darkModeToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparatorSettings3.Name" xml:space="preserve">
-    <value>toolStripSeparatorSettings3</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparatorSettings3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;languageToolStripMenuItem.Name" xml:space="preserve">
-    <value>languageToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;languageToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;defaultToolStripMenuItem.Name" xml:space="preserve">
-    <value>defaultToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;defaultToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
-    <value>toolStripSeparator2</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sampleToolStripMenuItem.Name" xml:space="preserve">
-    <value>sampleToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;sampleToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
-    <value>helpToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;openTheManualToolStripMenuItem.Name" xml:space="preserve">
-    <value>openTheManualToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;openTheManualToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gitHubPageToolStripMenuItem.Name" xml:space="preserve">
-    <value>gitHubPageToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;gitHubPageToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparatorHelp1.Name" xml:space="preserve">
-    <value>toolStripSeparatorHelp1</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparatorHelp1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;supportersToolStripMenuItem.Name" xml:space="preserve">
-    <value>supportersToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;supportersToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;testSupporterToolStripMenuItem.Name" xml:space="preserve">
-    <value>testSupporterToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;testSupporterToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;translatorsToolStripMenuItem.Name" xml:space="preserve">
-    <value>translatorsToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;translatorsToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sampleLanguageToolStripMenuItem.Name" xml:space="preserve">
-    <value>sampleLanguageToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;sampleLanguageToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;samplePersonToolStripMenuItem.Name" xml:space="preserve">
-    <value>samplePersonToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;samplePersonToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparatorHelp2.Name" xml:space="preserve">
-    <value>toolStripSeparatorHelp2</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparatorHelp2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkForUpdatesToolStripMenuItem.Name" xml:space="preserve">
-    <value>checkForUpdatesToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;checkForUpdatesToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
-    <value>aboutToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;downloadUpdateToolStripMenuItem.Name" xml:space="preserve">
-    <value>downloadUpdateToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;downloadUpdateToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolTipInfo.Name" xml:space="preserve">
-    <value>toolTipInfo</value>
-  </data>
-  <data name="&gt;&gt;toolTipInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripStatusLabelPadding.Name" xml:space="preserve">
-    <value>toolStripStatusLabelPadding</value>
-  </data>
-  <data name="&gt;&gt;toolStripStatusLabelPadding.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripStatusLabelStatus.Name" xml:space="preserve">
-    <value>toolStripStatusLabelStatus</value>
-  </data>
-  <data name="&gt;&gt;toolStripStatusLabelStatus.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;textBoxState.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownPartyMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trayMenuQuit.Name" xml:space="preserve">
+    <value>trayMenuQuit</value>
+  </data>
+  <data name="labelLargeText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 14</value>
+  </data>
+  <data name="&gt;&gt;textBoxButton1Text.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="labelButton1Text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 14</value>
+  </data>
+  <data name="dateTimePickerTimestamp.CustomFormat" xml:space="preserve">
+    <value>dd.MM.yyyy hh:mm:ss</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="labelButton2Text.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorHelp1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
+    <value>Start Minimized</value>
+  </data>
+  <data name="labelButton1URL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;checkForUpdatesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxButton2Text.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownPartySize.Name" xml:space="preserve">
+    <value>numericUpDownPartySize</value>
+  </data>
+  <data name="labelLargeKey.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="textBoxButton1Text.MaxLength" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;trayIcon.Name" xml:space="preserve">
+    <value>trayIcon</value>
+  </data>
+  <data name="&gt;&gt;startMinimizedToolStripMenuItem.Name" xml:space="preserve">
+    <value>startMinimizedToolStripMenuItem</value>
+  </data>
+  <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 14</value>
+  </data>
+  <data name="&gt;&gt;labelDetails.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabelStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;translatorsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownPartySize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelLargeKey.Name" xml:space="preserve">
+    <value>labelLargeKey</value>
+  </data>
+  <data name="panelTimestamps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 146</value>
+  </data>
+  <data name="&gt;&gt;textBoxButton2Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelDetails.Text" xml:space="preserve">
+    <value>Details</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="labelState.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabelStatus.Name" xml:space="preserve">
+    <value>toolStripStatusLabelStatus</value>
+  </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Allow Analytics</value>
+  </data>
+  <data name="&gt;&gt;labelButton1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;labelDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelButton1Text.Text" xml:space="preserve">
+    <value>Text</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
+    <value>Run on Startup</value>
+  </data>
+  <data name="samplePersonToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="&gt;&gt;defaultToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxSmallText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 50</value>
+  </data>
+  <data name="labelID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 14</value>
+  </data>
+  <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="&gt;&gt;labelButton2.Name" xml:space="preserve">
+    <value>labelButton2</value>
+  </data>
+  <data name="radioButtonPresence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 18</value>
+  </data>
+  <data name="&gt;&gt;labelState.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelParty.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 111</value>
+  </data>
+  <data name="radioButtonCustom.ToolTip" xml:space="preserve">
+    <value>Shows how much time has passed since or is remaining to the date set below.</value>
+  </data>
+  <data name="labelButton1.ToolTip" xml:space="preserve">
+    <value>First of the two buttons that shows up under your status in your profile popup and on the right side in the full profile.</value>
+  </data>
+  <data name="textBoxID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 22</value>
+  </data>
+  <data name="&gt;&gt;darkModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>darkModeToolStripMenuItem</value>
+  </data>
+  <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save Preset</value>
+  </data>
+  <data name="&gt;&gt;trayIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonConnect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelPartyOf.Name" xml:space="preserve">
+    <value>labelPartyOf</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparatorFile1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelLargeKey.Text" xml:space="preserve">
+    <value>Key</value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="&gt;&gt;textBoxID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="trayMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>112, 17</value>
+  </metadata>
+  <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>460, 17</value>
+  </metadata>
+  <metadata name="toolTipInfo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>349, 17</value>
+  </metadata>
+  <metadata name="trayIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>241, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>44</value>
+  </metadata>
 </root>

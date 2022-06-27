@@ -125,31 +125,31 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 104</value>
+    <value>148, 104</value>
   </data>
   <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 22</value>
+    <value>147, 22</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>פתח</value>
   </data>
   <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 6</value>
+    <value>144, 6</value>
   </data>
   <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 22</value>
+    <value>147, 22</value>
   </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
     <value>התחבר מחדש</value>
   </data>
   <data name="trayMenuDisconnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 22</value>
+    <value>147, 22</value>
   </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 6</value>
+    <value>144, 6</value>
   </data>
   <data name="trayMenuQuit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 22</value>
+    <value>147, 22</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
     <value>יציאה</value>
@@ -161,31 +161,31 @@
     <value>קובץ</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 22</value>
+    <value>207, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>טען הגדרה מראש</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 22</value>
+    <value>207, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
     <value>שמור הגדרה</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 6</value>
+    <value>204, 6</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 22</value>
+    <value>207, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
     <value>העלה תמונות</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 6</value>
+    <value>204, 6</value>
   </data>
   <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 22</value>
+    <value>207, 22</value>
   </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
     <value>יציאה</value>
@@ -197,43 +197,67 @@
     <value>הגדרות</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
+    <value>191, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
     <value>פתח בהפעלת המחשב</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
+    <value>191, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
     <value>הרץ במיזעור</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
+    <value>191, 22</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>חיבור אוטומטי</value>
   </data>
   <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 6</value>
+    <value>188, 6</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
+    <value>191, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>בדוק עדכונים חדשים</value>
   </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 6</value>
+  <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>הרשה ניתוח</value>
+  </data>
+  <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 6</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 22</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>מצב כהה</value>
+  </data>
+  <data name="toolStripSeparatorSettings3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 6</value>
   </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
+    <value>191, 22</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>שפה</value>
   </data>
+  <data name="defaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 22</value>
+  </data>
   <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
     <value>ברירת מחדל</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 6</value>
+  </data>
+  <data name="sampleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 22</value>
   </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>45, 20</value>
@@ -255,6 +279,12 @@
   </data>
   <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 6</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>תומכים</value>
   </data>
   <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>183, 22</value>
@@ -310,11 +340,17 @@
   <data name="labelState.ToolTip" xml:space="preserve">
     <value>השורה השנייה בסטטוס.</value>
   </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>השם של התוסף בשביל תמונה קטנה או לינק לתמונה</value>
+  </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>הטקסט שיופיע מעל התמונה הקטנה.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
     <value>הטקסט שיופיע מעל התמונה הגדולה.</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>השם של התוסף בשביל תמונה גדולה או לינק לתמונה</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>74, 14</value>
@@ -359,7 +395,7 @@
     <value>הצגת הזמן מאז שהאפליקציה נפתחה בפעם הראשונה</value>
   </data>
   <data name="radioButtonLocalTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>216, 52</value>
+    <value>216, 76</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 18</value>
@@ -379,7 +415,7 @@
 בכדי שזה יפעל, שני שדות המפלגה (Party) צריכים להיות יותר מ- 0.</value>
   </data>
   <data name="radioButtonCustom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 75</value>
+    <value>162, 100</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 18</value>
@@ -420,6 +456,15 @@
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
     <value>הטקסט שיופיע בכפתור השני.</value>
   </data>
+  <data name="radioButtonPresence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 52</value>
+  </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>מאז עדכון הסטטוס האחרון</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>מראה כמה זמן עבר מאז שהתחברת לאפליקציה או עדכנת את הסטטוס שלך.</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="dateTimePickerTimestamp.RightToLeftLayout" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -437,31 +482,13 @@
   <data name="toolStripStatusLabelPadding.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
   <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
   </data>
   <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>הרשה ניתוח</value>
-  </data>
-  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>מצב כהה</value>
-  </data>
-  <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>השם של התוסף בשביל תמונה קטנה או לינק לתמונה</value>
-  </data>
-  <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>השם של התוסף בשביל תמונה גדולה או לינק לתמונה</value>
-  </data>
-  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
-    <value>תומכים</value>
-  </data>
-  <data name="radioButtonPresence.Text" xml:space="preserve">
-    <value>מאז עדכון הסטטוס האחרון</value>
-  </data>
-  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
-    <value>מראה כמה זמן עבר מאז שהתחברת לאפליקציה או עדכנת את הסטטוס שלך.</value>
   </data>
 </root>
