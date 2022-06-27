@@ -442,4 +442,10 @@ Thời gian của trạng thái có giới hạn là 24 giờ, nghĩa là sau 24
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
     <value>Người hỗ trợ</value>
   </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>Kể từ lần cập nhật hoạt động cuối</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Hiện thời gian đã qua kể từ lần cuối bạn kết nối hoặc cập nhật hoạt động.</value>
+  </data>
 </root>

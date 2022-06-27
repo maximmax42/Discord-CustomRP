@@ -314,6 +314,7 @@ namespace CustomRPC
                         new Translator { Name = "Liso" },
                         new Translator { Name = "Piter" },
                         new Translator { Name = "Oscar" },
+                        new Translator { Name = "Marcel Gustin", Url = "https://marcelgustin.de" },
                     }
                 },
                 new Language {
@@ -404,34 +405,34 @@ namespace CustomRPC
 
             LanguageProgress = new Dictionary<string, string>();
             #region Generated code for progress
-            LanguageProgress["ar"] = "100";
-            LanguageProgress["my"] = "98.95";
+            LanguageProgress["ar"] = "97.94";
+            LanguageProgress["my"] = "96.91";
             LanguageProgress["zh-hans"] = "100";
             LanguageProgress["zh-hant"] = "100";
-            LanguageProgress["hr"] = "73.68";
-            LanguageProgress["cs"] = "100";
-            LanguageProgress["da"] = "94.74";
-            LanguageProgress["nl"] = "98.95";
-            LanguageProgress["fil"] = "28.42";
-            LanguageProgress["fr"] = "98.95";
+            LanguageProgress["hr"] = "72.16";
+            LanguageProgress["cs"] = "97.94";
+            LanguageProgress["da"] = "92.78";
+            LanguageProgress["nl"] = "96.91";
+            LanguageProgress["fil"] = "27.84";
+            LanguageProgress["fr"] = "96.91";
             LanguageProgress["de"] = "100";
-            LanguageProgress["el"] = "94.74";
+            LanguageProgress["el"] = "92.78";
             LanguageProgress["he"] = "100";
-            LanguageProgress["hu"] = "90.53";
-            LanguageProgress["id"] = "100";
-            LanguageProgress["it"] = "98.95";
+            LanguageProgress["hu"] = "88.66";
+            LanguageProgress["id"] = "97.94";
+            LanguageProgress["it"] = "96.91";
             LanguageProgress["ja"] = "100";
             LanguageProgress["ko"] = "100";
-            LanguageProgress["ku"] = "96.84";
+            LanguageProgress["ku"] = "94.85";
             LanguageProgress["lt"] = "100";
             LanguageProgress["pl"] = "100";
-            LanguageProgress["pt-br"] = "100";
-            LanguageProgress["ro"] = "98.95";
+            LanguageProgress["pt-br"] = "97.94";
+            LanguageProgress["ro"] = "96.91";
             LanguageProgress["ru"] = "100";
-            LanguageProgress["es"] = "98.95";
-            LanguageProgress["th"] = "98.95";
+            LanguageProgress["es"] = "96.91";
+            LanguageProgress["th"] = "96.91";
             LanguageProgress["tr"] = "100";
-            LanguageProgress["uk"] = "98.95";
+            LanguageProgress["uk"] = "96.91";
             LanguageProgress["vi"] = "100";
             #endregion
 

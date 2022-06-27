@@ -458,4 +458,10 @@
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
     <value>תומכים</value>
   </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>מאז עדכון הסטטוס האחרון</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>מראה כמה זמן עבר מאז שהתחברת לאפליקציה או עדכנת את הסטטוס שלך.</value>
+  </data>
 </root>

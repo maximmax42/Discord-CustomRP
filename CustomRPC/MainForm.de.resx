@@ -424,4 +424,10 @@ Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
     <value>Unterstützer</value>
   </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>Seit der letzten Aktualisierung der Präsenz</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Zeigt an, wie viel Zeit seit der letzten Verbindung oder Aktualisierung der Präsenz vergangen ist.</value>
+  </data>
 </root>

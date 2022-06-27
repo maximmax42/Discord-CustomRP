@@ -420,4 +420,10 @@ Kad abu laukai įsigaliotų, jie turėtų būti didesni nei 0.</value>
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
     <value>Remėjai</value>
   </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>Nuo paskutinės prezentacijos atnaujinimo</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Rodo kiek laiko yra praėję, nuo prezentacijos paskutinio prisijungimo ar atnaujinimo.</value>
+  </data>
 </root>

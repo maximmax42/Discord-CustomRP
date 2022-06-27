@@ -492,4 +492,10 @@ Etkili olması için, iki alan da 0'dan büyük olmadılır.</value>
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
     <value>Destekçiler</value>
   </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>Son durum güncellemesinden beri</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Son bağlandığınızdan ya da durumu güncellediğinizden beri ne kadar süre geçtiğini gösterir.</value>
+  </data>
 </root>

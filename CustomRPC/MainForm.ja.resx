@@ -489,4 +489,10 @@
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
     <value>サポーター</value>
   </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>前回のプレゼンスの更新から</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>最後に接続またはプレゼンスを更新してからどれだけの時間が経過したかを表示します。</value>
+  </data>
 </root>

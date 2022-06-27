@@ -308,4 +308,10 @@
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
     <value>贊助者</value>
   </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>自上次狀態更新以來</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>顯示自上次的連接或更新狀態以來所經過的時間。</value>
+  </data>
 </root>

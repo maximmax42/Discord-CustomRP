@@ -176,6 +176,6 @@
     <value>設定の保存中にエラーが発生しました:</value>
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>ウイルス対策ソフトの例外設定に"{0}"を追加してください。このエラーが続くようであれば、CustomRPを再インストールしてください。</value>
+    <value>ウイルス対策ソフトの除外設定に"{0}"を追加してください。このエラーが続くようであれば、CustomRPを再インストールしてください。</value>
   </data>
 </root>

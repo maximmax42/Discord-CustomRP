@@ -399,4 +399,10 @@ Jeżeli ma mieć jakikolwiek efekt, obydwa pola muszą być większe od 0.</valu
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
     <value>Wspierający</value>
   </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>Od ostatniej aktualizacji obecności</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Pokazuje ile czasu upłynęło odkąd ostatnio włączyłeś lub zmieniłeś status.</value>
+  </data>
 </root>
