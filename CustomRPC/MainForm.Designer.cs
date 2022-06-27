@@ -67,6 +67,8 @@
             this.openTheManualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gitHubPageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparatorHelp1 = new System.Windows.Forms.ToolStripSeparator();
+            this.supportersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.testSupporterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.translatorsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sampleLanguageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.samplePersonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -99,6 +101,7 @@
             this.labelButton2URL = new System.Windows.Forms.Label();
             this.labelButton1Text = new System.Windows.Forms.Label();
             this.labelButton2Text = new System.Windows.Forms.Label();
+            this.radioButtonPresence = new System.Windows.Forms.RadioButton();
             this.panelTimestamps = new System.Windows.Forms.Panel();
             this.dateTimePickerTimestamp = new System.Windows.Forms.DateTimePicker();
             this.labelPartyOf = new System.Windows.Forms.Label();
@@ -118,8 +121,6 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.supportersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.testSupporterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -383,6 +384,18 @@
             this.toolStripSeparatorHelp1.Name = "toolStripSeparatorHelp1";
             resources.ApplyResources(this.toolStripSeparatorHelp1, "toolStripSeparatorHelp1");
             // 
+            // supportersToolStripMenuItem
+            // 
+            this.supportersToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.testSupporterToolStripMenuItem});
+            this.supportersToolStripMenuItem.Name = "supportersToolStripMenuItem";
+            resources.ApplyResources(this.supportersToolStripMenuItem, "supportersToolStripMenuItem");
+            // 
+            // testSupporterToolStripMenuItem
+            // 
+            this.testSupporterToolStripMenuItem.Name = "testSupporterToolStripMenuItem";
+            resources.ApplyResources(this.testSupporterToolStripMenuItem, "testSupporterToolStripMenuItem");
+            // 
             // translatorsToolStripMenuItem
             // 
             this.translatorsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -586,6 +599,7 @@
             resources.ApplyResources(this.radioButtonCustom, "radioButtonCustom");
             this.radioButtonCustom.Name = "radioButtonCustom";
             this.radioButtonCustom.TabStop = true;
+            this.radioButtonCustom.Tag = "";
             this.toolTipInfo.SetToolTip(this.radioButtonCustom, resources.GetString("radioButtonCustom.ToolTip"));
             this.radioButtonCustom.UseVisualStyleBackColor = true;
             this.radioButtonCustom.CheckedChanged += new System.EventHandler(this.TimestampsChanged);
@@ -632,8 +646,19 @@
             this.labelButton2Text.Name = "labelButton2Text";
             this.toolTipInfo.SetToolTip(this.labelButton2Text, resources.GetString("labelButton2Text.ToolTip"));
             // 
+            // radioButtonPresence
+            // 
+            resources.ApplyResources(this.radioButtonPresence, "radioButtonPresence");
+            this.radioButtonPresence.Name = "radioButtonPresence";
+            this.radioButtonPresence.TabStop = true;
+            this.radioButtonPresence.Tag = "";
+            this.toolTipInfo.SetToolTip(this.radioButtonPresence, resources.GetString("radioButtonPresence.ToolTip"));
+            this.radioButtonPresence.UseVisualStyleBackColor = true;
+            this.radioButtonPresence.CheckedChanged += new System.EventHandler(this.TimestampsChanged);
+            // 
             // panelTimestamps
             // 
+            this.panelTimestamps.Controls.Add(this.radioButtonPresence);
             this.panelTimestamps.Controls.Add(this.dateTimePickerTimestamp);
             this.panelTimestamps.Controls.Add(this.radioButtonCustom);
             this.panelTimestamps.Controls.Add(this.radioButtonLocalTime);
@@ -831,18 +856,6 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
-            // supportersToolStripMenuItem
-            // 
-            this.supportersToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.testSupporterToolStripMenuItem});
-            this.supportersToolStripMenuItem.Name = "supportersToolStripMenuItem";
-            resources.ApplyResources(this.supportersToolStripMenuItem, "supportersToolStripMenuItem");
-            // 
-            // testSupporterToolStripMenuItem
-            // 
-            this.testSupporterToolStripMenuItem.Name = "testSupporterToolStripMenuItem";
-            resources.ApplyResources(this.testSupporterToolStripMenuItem, "testSupporterToolStripMenuItem");
-            // 
             // MainForm
             // 
             this.AllowDrop = true;
@@ -999,6 +1012,7 @@
         private System.Windows.Forms.ToolStripMenuItem sampleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem supportersToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem testSupporterToolStripMenuItem;
+        private System.Windows.Forms.RadioButton radioButtonPresence;
     }
 }
 

@@ -489,4 +489,10 @@
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
     <value>Донатеры</value>
   </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>С момента последнего обновления статуса</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Показывает, сколько времени прошло после подключения или обновления статуса.</value>
+  </data>
 </root>

@@ -58,6 +58,18 @@ namespace CustomRPC
         public string Name;
     }
 
+    /// <summary>
+    /// An enum for the timestamp setting.
+    /// </summary>
+    public enum TimestampType
+    {
+        None = 0,
+        SinceStartup = 1,
+        LocalTime = 2,
+        Custom = 3, // These are hardcoded for backwards compatibility
+        SincePresenceUpdate
+    }
+
     public partial class MainForm : Form
     {
         /// <summary>
@@ -184,13 +196,21 @@ namespace CustomRPC
                 }
             }
 
+            // Set up tags for the radio buttons
+            radioButtonNone.Tag = TimestampType.None;
+            radioButtonStartTime.Tag = TimestampType.SinceStartup;
+            radioButtonPresence.Tag = TimestampType.SincePresenceUpdate;
+            radioButtonLocalTime.Tag = TimestampType.LocalTime;
+            radioButtonCustom.Tag = TimestampType.Custom;
+
             // Checks the needed timestamp radiobuttons because settings binding can't do that
-            switch (settings.timestamps)
+            switch ((TimestampType)settings.timestamps)
             {
-                case 0: radioButtonNone.Checked = true; break;
-                case 1: radioButtonStartTime.Checked = true; break;
-                case 2: radioButtonLocalTime.Checked = true; break;
-                case 3: radioButtonCustom.Checked = true; break;
+                case TimestampType.None: radioButtonNone.Checked = true; break;
+                case TimestampType.SinceStartup: radioButtonStartTime.Checked = true; break;
+                case TimestampType.SincePresenceUpdate: radioButtonPresence.Checked = true; break;
+                case TimestampType.LocalTime: radioButtonLocalTime.Checked = true; break;
+                case TimestampType.Custom: radioButtonCustom.Checked = true; break;
             }
 
             // Enable or disable the date and time picker depending on whether a custom timestamp setting is chosen
@@ -543,7 +563,7 @@ namespace CustomRPC
             // This only tracks whether or not the presence has those parameters set, not their content
             Analytics.TrackEvent("Updated presence", new Dictionary<string, string> {
                 { "Party", presence.HasParty().ToString() },
-                { "Timestamp", settings.timestamps.ToString() },
+                { "Timestamp", ((TimestampType)settings.timestamps).ToString() },
                 { "Big image", presence.Assets.LargeImageID.HasValue.ToString() },
                 { "Small image", presence.Assets.SmallImageID.HasValue.ToString() },
                 { "Buttons", buttonsList.Count.ToString() }
@@ -664,12 +684,13 @@ namespace CustomRPC
 
             rp.Buttons = buttonsList.ToArray();
 
-            switch (settings.timestamps)
+            switch ((TimestampType)settings.timestamps)
             {
-                case 0: break;
-                case 1: rp.Timestamps = new Timestamps(timestampStarted); break;
-                case 2: rp.Timestamps = new Timestamps(DateTime.UtcNow.Subtract(new TimeSpan(DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second))); break;
-                case 3:
+                case TimestampType.None: break;
+                case TimestampType.SinceStartup: rp.Timestamps = new Timestamps(timestampStarted); break;
+                case TimestampType.SincePresenceUpdate: rp.Timestamps = new Timestamps(DateTime.UtcNow); break;
+                case TimestampType.LocalTime: rp.Timestamps = new Timestamps(DateTime.UtcNow.Subtract(new TimeSpan(DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second))); break;
+                case TimestampType.Custom:
                     DateTime customTimestamp = dateTimePickerTimestamp.Value.ToUniversalTime();
                     rp.Timestamps = customTimestamp.CompareTo(DateTime.UtcNow) < 0 ? new Timestamps(customTimestamp) : new Timestamps(DateTime.UtcNow, customTimestamp);
                     break;
@@ -810,12 +831,13 @@ namespace CustomRPC
                 settings.button2URL = preset.Button2URL;
                 Utils.SaveSettings();
 
-                switch (settings.timestamps)
+                switch ((TimestampType)settings.timestamps)
                 {
-                    case 0: radioButtonNone.Checked = true; break;
-                    case 1: radioButtonStartTime.Checked = true; break;
-                    case 2: radioButtonLocalTime.Checked = true; break;
-                    case 3: radioButtonCustom.Checked = true; break;
+                    case TimestampType.None: radioButtonNone.Checked = true; break;
+                    case TimestampType.SinceStartup: radioButtonStartTime.Checked = true; break;
+                    case TimestampType.SincePresenceUpdate: radioButtonPresence.Checked = true; break;
+                    case TimestampType.LocalTime: radioButtonLocalTime.Checked = true; break;
+                    case TimestampType.Custom: radioButtonCustom.Checked = true; break;
                 }
 
                 if (wasConnected)
@@ -945,35 +967,36 @@ namespace CustomRPC
                 return;
 
             var setting = (ToolStripMenuItem)sender;
+            var properName = setting.Name.Replace("ToolStripMenuItem", "");
 
-            switch (setting.Name)
+            switch (properName)
             {
-                case "runOnStartupToolStripMenuItem":
+                case "runOnStartup":
                     // Apparently property binding doesn't work either for checkboxes or for bool variables
                     settings.runOnStartup = setting.Checked;
                     StartupSetup();
                     break;
-                case "startMinimizedToolStripMenuItem":
+                case "startMinimized":
                     settings.startMinimized = setting.Checked;
                     break;
-                case "autoconnectToolStripMenuItem":
+                case "autoconnect":
                     settings.autoconnect = setting.Checked;
                     break;
-                case "checkUpdatesToolStripMenuItem":
+                case "checkUpdates":
                     settings.checkUpdates = setting.Checked;
                     if (setting.Checked)
                         CheckForUpdates();
                     break;
-                case "allowAnalyticsToolStripMenuItem":
+                case "allowAnalytics":
                     settings.analytics = setting.Checked;
                     Analytics.SetEnabledAsync(setting.Checked);
                     break;
-                case "darkModeToolStripMenuItem":
+                case "darkMode":
                     settings.darkMode = setting.Checked;
                     ThemeSetup();
                     break;
                 default:
-                    throw new NotImplementedException(setting.Name);
+                    throw new NotImplementedException(properName);
             }
 
             Utils.SaveSettings();
@@ -1213,10 +1236,12 @@ namespace CustomRPC
             if (!btn.Checked)
                 return;
 
-            settings.timestamps = btn.TabIndex; // I mean... it's a great container for int values
+            // settings.timestamps = btn.TabIndex; // I mean... it's a great container for int values
+            // It was, until I needed to add a new type in the middle of the list
+            settings.timestamps = (int)btn.Tag;
             Utils.SaveSettings();
 
-            dateTimePickerTimestamp.Enabled = settings.timestamps == 3;
+            dateTimePickerTimestamp.Enabled = (TimestampType)settings.timestamps == TimestampType.Custom;
         }
 
         /// <summary>
