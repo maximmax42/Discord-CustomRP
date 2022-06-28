@@ -2,7 +2,7 @@
 CustomRP collects this non-personal information during the usage of the app:
 - OS Version
 - OS Language
-- Other device information (Type of device, hardware)
+- Device Model (laptop or motherboard)
 - Country based on OS settings (does not use geolocation)
 - App Version
 
@@ -23,7 +23,7 @@ As well as these user interactions:
 - Clicked on a supporter/translator menu item:
   - Name of the supporter/translator
   - URL of the supporter/translator
-- Opened pipe select window
+- Opened "Pipe select" window
 - Opened "About" window
 
 Crash reports send your settings (except ID) to help understand the cause of the crash.
