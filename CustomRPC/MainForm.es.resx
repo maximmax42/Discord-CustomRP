@@ -418,7 +418,7 @@ Para que tome efecto, ambos campos deben ser mayores que 0.</value>
     <value>de</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>Autoconectar</value>
+    <value>Conectar Automáticamente</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
     <value>Permitir analíticas</value>
