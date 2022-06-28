@@ -327,6 +327,7 @@ namespace CustomRPC
                         new Translator { Name = "Slimakoi" },
                         new Translator { Name = "DeusDrizzyy" },
                         new Translator { Name = "Leo" },
+                        new Translator { Name = "Felipe Brandão" },
                     }
                 },
                 new Language {
@@ -389,6 +390,7 @@ namespace CustomRPC
                     EnglishName = "Simplified Chinese",
                     Code = "zh-hans",
                     Translators = new Translator[] {
+                        new Translator { Name = "蘆筍 (westxlu)", Url = "https://linktr.ee/westxlu" },
                         new Translator { Name = "Zjsun.ca" },
                         new Translator { Name = "zozocha" },
                     }
@@ -413,7 +415,7 @@ namespace CustomRPC
             LanguageProgress["cs"] = "97.94";
             LanguageProgress["da"] = "92.78";
             LanguageProgress["nl"] = "96.91";
-            LanguageProgress["fil"] = "27.84";
+            LanguageProgress["fil"] = "52.58";
             LanguageProgress["fr"] = "96.91";
             LanguageProgress["de"] = "100";
             LanguageProgress["el"] = "92.78";
@@ -426,7 +428,7 @@ namespace CustomRPC
             LanguageProgress["ku"] = "94.85";
             LanguageProgress["lt"] = "100";
             LanguageProgress["pl"] = "100";
-            LanguageProgress["pt-br"] = "97.94";
+            LanguageProgress["pt-br"] = "98.97";
             LanguageProgress["ro"] = "96.91";
             LanguageProgress["ru"] = "100";
             LanguageProgress["es"] = "96.91";

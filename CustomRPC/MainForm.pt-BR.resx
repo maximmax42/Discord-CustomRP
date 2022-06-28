@@ -432,4 +432,7 @@ Para ter efeito, ambos os campos devem ser maiores que 0.</value>
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
     <value>Apoiadores</value>
   </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>Desde a última atualização do Rich Presence</value>
+  </data>
 </root>
