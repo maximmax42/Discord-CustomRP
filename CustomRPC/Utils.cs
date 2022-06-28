@@ -336,7 +336,7 @@ namespace CustomRPC
                         new Translator { Name = "Slimakoi" },
                         new Translator { Name = "DeusDrizzyy" },
                         new Translator { Name = "Leo" },
-                        new Translator { Name = "Felipe Brandão" },
+                        new Translator { Name = "Felipe B. Pansani" },
                     }
                 },
                 new Language {
