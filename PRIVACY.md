@@ -20,9 +20,9 @@ As well as these user interactions:
   - Which version?
 - Saved a preset
 - Loaded a preset
-- Clicked on a translator menu item:
-  - Name of the translator
-  - URL of the translator
+- Clicked on a supporter/translator menu item:
+  - Name of the supporter/translator
+  - URL of the supporter/translator
 - Opened pipe select window
 - Opened "About" window
 
