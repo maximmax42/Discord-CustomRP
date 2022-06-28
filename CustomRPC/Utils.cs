@@ -148,6 +148,14 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Català",
+                    EnglishName = "Catalan",
+                    Code = "ca",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Darling-Chan", Url = "https://meap.gg/" },
+                    }
+                },
+                new Language {
                     Name = "Čeština",
                     EnglishName = "Czech",
                     Code = "cs",
@@ -198,7 +206,7 @@ namespace CustomRPC
                         new Translator { Name = "Vexot" },
                         new Translator { Name = "Pablo" },
                         new Translator { Name = "Luciousmc" },
-                        new Translator { Name = "Darling-Chan" },
+                        new Translator { Name = "Darling-Chan", Url = "https://meap.gg/" },
                         new Translator { Name = "Alvaro203204" },
                         new Translator { Name = "Epic" },
                     }
@@ -410,6 +418,7 @@ namespace CustomRPC
             #region Generated code for progress
             LanguageProgress["ar"] = "97.94";
             LanguageProgress["my"] = "96.91";
+            LanguageProgress["ca"] = "100";
             LanguageProgress["zh-hans"] = "100";
             LanguageProgress["zh-hant"] = "100";
             LanguageProgress["hr"] = "72.16";
