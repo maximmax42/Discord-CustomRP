@@ -198,6 +198,7 @@ namespace CustomRPC
                         new Translator { Name = "Vexot" },
                         new Translator { Name = "Pablo" },
                         new Translator { Name = "Luciousmc" },
+                        new Translator { Name = "Darling-Chan" },
                         new Translator { Name = "Alvaro203204" },
                         new Translator { Name = "Epic" },
                     }
@@ -431,7 +432,7 @@ namespace CustomRPC
             LanguageProgress["pt-br"] = "98.97";
             LanguageProgress["ro"] = "96.91";
             LanguageProgress["ru"] = "100";
-            LanguageProgress["es"] = "96.91";
+            LanguageProgress["es"] = "100";
             LanguageProgress["th"] = "96.91";
             LanguageProgress["tr"] = "100";
             LanguageProgress["uk"] = "96.91";

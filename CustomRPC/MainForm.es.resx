@@ -432,4 +432,13 @@ Para que tome efecto, ambos campos deben ser mayores que 0.</value>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>Nombre del activo para una imagen grande o una URL de imagen.</value>
   </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Donantes</value>
+  </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>Desde la última actualización de presencia</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Muestra cuánto tiempo ha pasado desde la última vez que se conectó o actualizó la presencia.</value>
+  </data>
 </root>
