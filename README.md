@@ -34,7 +34,7 @@ So far, the app supports these languages:
 
 * [Arabic](https://poeditor.com/projects/po_edit?id_language=233&per_page=100&id=409229) (thanks to [FiberAhmed](https://github.com/FiberAhmed) and ShadowlGamer)
 * [Burmese](https://poeditor.com/projects/po_edit?id_language=25&per_page=100&id=409229) (thanks to Infernite#0680 and BBbear#7149)
-* [Chinese (Simplified)](https://poeditor.com/projects/po_edit?id_language=274&per_page=100&id=409229) (thanks to Zjsun.ca and zozocha)
+* [Chinese (Simplified)](https://poeditor.com/projects/po_edit?id_language=274&per_page=100&id=409229) (thanks to [蘆筍/westxlu](https://linktr.ee/westxlu), Zjsun.ca and zozocha)
 * [Chinese (Traditional)](https://poeditor.com/projects/po_edit?id_language=275&per_page=100&id=409229) (thanks to [蘆筍/westxlu](https://linktr.ee/westxlu))
 * [Croatian](https://poeditor.com/projects/po_edit?id_language=37&per_page=100&id=409229) (thanks to Monika)
 * [Czech](https://poeditor.com/projects/po_edit?id_language=38&per_page=100&id=409229) (thanks to [JayJake](https://jayk.live/) and Tobias)
@@ -56,7 +56,7 @@ So far, the app supports these languages:
 * [Portugese (BR)](https://poeditor.com/projects/po_edit?id_language=190&per_page=100&id=409229) (thanks to viniciotricolor, Slimakoi, DeusDrizzyy, Leo and Felipe Brandão)
 * [Romanian](https://poeditor.com/projects/po_edit?id_language=131&per_page=100&id=409229) (thanks to [DiDYRO](https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w) and Denisbolba)
 * [Russian](https://poeditor.com/projects/po_edit?id_language=134&per_page=100&id=409229)
-* [Spanish](https://poeditor.com/projects/po_edit?id_language=152&per_page=100&id=409229) (thanks to Vexot, Pablo, Luciousmc, Alvaro203204 and Epic)
+* [Spanish](https://poeditor.com/projects/po_edit?id_language=152&per_page=100&id=409229) (thanks to Vexot, Pablo, Luciousmc, Darling-Chan, Alvaro203204 and Epic)
 * [Thai](https://poeditor.com/projects/po_edit?id_language=163&per_page=100&id=409229) (thanks to Squishee Freshy)
 * [Turkish](https://poeditor.com/projects/po_edit?id_language=169&per_page=100&id=409229) (thanks to Ozan Akyüz and Yusuf)
 * [Ukrainian](https://poeditor.com/projects/po_edit?id_language=173&per_page=100&id=409229) (thanks to MechaniX and Dmitromintenko)
