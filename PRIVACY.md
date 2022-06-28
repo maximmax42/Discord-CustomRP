@@ -2,20 +2,19 @@
 CustomRP collects this non-personal information during the usage of the app:
 - OS Version
 - OS Language
-- Device Model (laptop or motherboard)
+- Other device information (Type of device, hardware)
 - Country based on OS settings (does not use geolocation)
 - App Version
 
 As well as these user interactions:
-- Connected to Discord
-- Disconnected from Discord
-- Connection error (wrong ID, etc)
+- Connection status to discord
+- Connection errors (wrong ID, etc)
 - Connection failure (Discord isn't running, etc)
 - Updated presence:
   - Does it have party?
   - What timestamp type is used?
-  - Does it have big image set?
-  - Does it have small image set?
+  - Does it have a big image set?
+  - Does it have a small image set?
   - How many buttons are set?
 - New version was ignored:
   - Which version?
@@ -25,7 +24,7 @@ As well as these user interactions:
   - Name of the translator
   - URL of the translator
 - Opened pipe select window
-- Opened about window
+- Opened "About" window
 
 Crash reports send your settings (except ID) to help understand the cause of the crash.
 
