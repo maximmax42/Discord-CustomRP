@@ -171,7 +171,7 @@ namespace CustomRPC
                     Translators = new Translator[] {
                         new Translator { Name = "Sebastian Hviid" },
                         new Translator { Name = "Tobias" },
-                        new Translator { Name = "David Gjøtterup Malmstrøm" },
+                        new Translator { Name = "David" },
                     }
                 },
                 new Language {
@@ -181,8 +181,8 @@ namespace CustomRPC
                     Translators = new Translator[] {
                         new Translator { Name = "Ypsol", Url = "https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA" },
                         new Translator { Name = "ahmad" },
-                        new Translator { Name = "binarynoise" },
                         new Translator { Name = "Marcel Gustin", Url = "https://marcelgustin.de" },
+                        new Translator { Name = "binarynoise" },
                         new Translator { Name = "Felix", Url = "https://github.com/fbrettnich" },
                     }
                 },
@@ -205,8 +205,8 @@ namespace CustomRPC
                     Translators = new Translator[] {
                         new Translator { Name = "Vexot" },
                         new Translator { Name = "Pablo" },
-                        new Translator { Name = "Luciousmc" },
                         new Translator { Name = "Darling-Chan", Url = "https://meap.gg/" },
+                        new Translator { Name = "Luciousmc" },
                         new Translator { Name = "Alvaro203204" },
                         new Translator { Name = "Epic" },
                     }
@@ -392,6 +392,7 @@ namespace CustomRPC
                         new Translator { Name = "Mykm", Url = "https://github.com/yumiruuwu" },
                         new Translator { Name = "Phnthnhnm0612" },
                         new Translator { Name = "dsbachle" },
+                        new Translator { Name = "Ayano" },
                         new Translator { Name = "03_Trần" },
                     }
                 },
