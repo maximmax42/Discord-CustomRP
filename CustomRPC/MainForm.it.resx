@@ -420,4 +420,13 @@ Per avere effetto, entrambi i valori devono essere superiori a 0.</value>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>Modalità Scura</value>
   </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sostenitori</value>
+  </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>Dall'ultimo aggiornamento della presence</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Mostra quanto tempo è trascorso dall'ultima connessione o aggiornamento della presence.</value>
+  </data>
 </root>

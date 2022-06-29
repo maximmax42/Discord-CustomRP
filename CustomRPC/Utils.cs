@@ -263,6 +263,7 @@ namespace CustomRPC
                         new Translator { Name = "DJD320" },
                         new Translator { Name = "Frin" },
                         new Translator { Name = "ItsMrCube", Url = "https://mrcube.live/" },
+                        new Translator { Name = "Bay" },
                     }
                 },
                 new Language {
@@ -432,7 +433,7 @@ namespace CustomRPC
             LanguageProgress["he"] = "100";
             LanguageProgress["hu"] = "88.66";
             LanguageProgress["id"] = "97.94";
-            LanguageProgress["it"] = "96.91";
+            LanguageProgress["it"] = "100";
             LanguageProgress["ja"] = "100";
             LanguageProgress["ko"] = "100";
             LanguageProgress["ku"] = "94.85";
