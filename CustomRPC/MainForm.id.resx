@@ -338,10 +338,10 @@
     <value>Unduh Pembaharuan</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Perbarui Presence</value>
+    <value>Perbarui Tampilan</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Perbarui presence.</value>
+    <value>Perbarui Tampilan.</value>
   </data>
   <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>230, 50</value>
@@ -368,13 +368,13 @@
     <value>Putuskan aplikasi dari Discord. Tolong dicatat bahwa mungkin membutuhkan waktu beberapa saat.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>ID dari aplikasi dari halaman Discord Developers.</value>
+    <value>ID aplikasi dari situs Discord Developers.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>Baris pertama dari presence.</value>
+    <value>Baris pertama dari tampilan.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>Baris kedua dari presence.</value>
+    <value>Baris kedua dari tampilan.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Teks yang ditampilkan saat mengarahkan gambar kecil.</value>
@@ -478,10 +478,10 @@ agar bekerja, kedua bidang harus lebih dari 0.</value>
     <value>/</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>Custom timestamp</value>
+    <value>Stempel waktu khusus</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>Autoconnect</value>
+    <value>Sambungan otomatis</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
     <value>Izinkan Analisa</value>
@@ -497,5 +497,11 @@ agar bekerja, kedua bidang harus lebih dari 0.</value>
   </data>
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
     <value>Pendukung</value>
+  </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>Sejak pembaruan tampilan terakhir</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Menunjukkan berapa lama waktu telah berlalu sejak terakhir kali Anda terhubung atau memperbarui tampilan.</value>
   </data>
 </root>
