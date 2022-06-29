@@ -39,11 +39,11 @@ So far, the app supports these languages:
 * [Chinese (Traditional)](https://poeditor.com/projects/po_edit?id_language=275&per_page=100&id=409229) (thanks to [蘆筍/westxlu](https://linktr.ee/westxlu))
 * [Croatian](https://poeditor.com/projects/po_edit?id_language=37&per_page=100&id=409229) (thanks to Monika)
 * [Czech](https://poeditor.com/projects/po_edit?id_language=38&per_page=100&id=409229) (thanks to [JayJake](https://jayk.live/) and Tobias)
-* [Danish](https://poeditor.com/projects/po_edit?id_language=39&per_page=100&id=409229) (thanks to Sebastian Hviid, Tobias and David Gjøtterup Malmstrøm)
+* [Danish](https://poeditor.com/projects/po_edit?id_language=39&per_page=100&id=409229) (thanks to Sebastian Hviid, Tobias and David)
 * [Dutch](https://poeditor.com/projects/po_edit?id_language=41&per_page=100&id=409229) (thanks to [Jeremyzijlemans](https://sionhub.co.uk/))
 * [English](https://poeditor.com/projects/po_edit?id_language=43&per_page=100&id=409229)
 * [French](https://poeditor.com/projects/po_edit?id_language=50&per_page=100&id=409229) (thanks to Nenaff)
-* [German](https://poeditor.com/projects/po_edit?id_language=55&per_page=100&id=409229) (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), ahmad, binarynoise, [Marcel Gustin](https://marcelgustin.de) and [Felix](https://github.com/fbrettnich))
+* [German](https://poeditor.com/projects/po_edit?id_language=55&per_page=100&id=409229) (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), ahmad, [Marcel Gustin](https://marcelgustin.de), binarynoise and [Felix](https://github.com/fbrettnich))
 * [Greek](https://poeditor.com/projects/po_edit?id_language=56&per_page=100&id=409229) (thanks to Alex Grivas)
 * [Hebrew](https://poeditor.com/projects/po_edit?id_language=61&per_page=100&id=409229) (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg), [Kahpot Vanilla](https://linktr.ee/KahpotVanilla) and Amit)
 * [Hungarian](https://poeditor.com/projects/po_edit?id_language=65&per_page=100&id=409229) (thanks to [Botond Balla](https://github.com/BallaBotond))
@@ -57,11 +57,11 @@ So far, the app supports these languages:
 * [Portugese (BR)](https://poeditor.com/projects/po_edit?id_language=190&per_page=100&id=409229) (thanks to viniciotricolor, Slimakoi, DeusDrizzyy, Leo and Felipe B. Pansani)
 * [Romanian](https://poeditor.com/projects/po_edit?id_language=131&per_page=100&id=409229) (thanks to [DiDYRO](https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w) and Denisbolba)
 * [Russian](https://poeditor.com/projects/po_edit?id_language=134&per_page=100&id=409229)
-* [Spanish](https://poeditor.com/projects/po_edit?id_language=152&per_page=100&id=409229) (thanks to Vexot, Pablo, Luciousmc, [Darling-Chan](https://meap.gg/), Alvaro203204 and Epic)
+* [Spanish](https://poeditor.com/projects/po_edit?id_language=152&per_page=100&id=409229) (thanks to Vexot, Pablo, [Darling-Chan](https://meap.gg/), Luciousmc, Alvaro203204 and Epic)
 * [Thai](https://poeditor.com/projects/po_edit?id_language=163&per_page=100&id=409229) (thanks to Squishee Freshy)
 * [Turkish](https://poeditor.com/projects/po_edit?id_language=169&per_page=100&id=409229) (thanks to Ozan Akyüz and Yusuf)
 * [Ukrainian](https://poeditor.com/projects/po_edit?id_language=173&per_page=100&id=409229) (thanks to MechaniX and Dmitromintenko)
-* [Vietnamese](https://poeditor.com/projects/po_edit?id_language=177&per_page=100&id=409229) (thanks to [Mykm](https://github.com/yumiruuwu), Phnthnhnm0612, dsbachle and 03_Trần)
+* [Vietnamese](https://poeditor.com/projects/po_edit?id_language=177&per_page=100&id=409229) (thanks to [Mykm](https://github.com/yumiruuwu), Phnthnhnm0612, dsbachle, Ayano and 03_Trần)
 
 If you want to help translate the app to your language, please go to the [POEditor project page](https://poeditor.com/join/project?hash=2jq0i7ANr1). **It is advised that you join the Discord server to get notified when new terms are added (link is on top of this readme file).** If you're already part of the project, click on  your language's name.
 
