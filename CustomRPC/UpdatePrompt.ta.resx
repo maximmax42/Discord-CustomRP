@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,112 +117,42 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;richTextBoxReport.Name" xml:space="preserve">
-    <value>richTextBoxReport</value>
+  <data name="buttonUpdate.Text" xml:space="preserve">
+    <value>ஆம்</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>384, 361</value>
+  <data name="buttonNotNow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 326</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+  <data name="buttonNotNow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 23</value>
   </data>
-  <data name="&gt;&gt;labelInfo.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="buttonNotNow.Text" xml:space="preserve">
+    <value>இப்போது இல்லை</value>
   </data>
-  <data name="buttonOK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>155, 326</value>
+  <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 14</value>
   </data>
-  <data name="labelInfo.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="labelQuestion.Text" xml:space="preserve">
+    <value>இந்தப் புதுப்பிப்பைப் பதிவிறக்க விரும்புகிறீர்களா?</value>
   </data>
-  <data name="&gt;&gt;labelInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="checkBoxNeverNotify.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 18</value>
   </data>
-  <data name="&gt;&gt;richTextBoxReport.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="checkBoxNeverNotify.Text" xml:space="preserve">
+    <value>புதுப்பிப்புகளை மீண்டும் பார்க்க வேண்டாம்</value>
   </data>
-  <data name="labelInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>360, 38</value>
+  <data name="labelVersionsText.Text" xml:space="preserve">
+    <value>நடப்பு வடிவம்:
+சமீபத்திய பதிப்பு:</value>
   </data>
-  <data name="&gt;&gt;buttonOK.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="buttonSkipUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 23</value>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 9pt</value>
+  <data name="buttonSkipUpdate.Text" xml:space="preserve">
+    <value>இந்த பதிப்பு தவிர்க்க</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Error Report</value>
+    <value>புதுப்பிப்பு கிடைக்கிறது</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>ErrorReportViewer</value>
-  </data>
-  <data name="richTextBoxReport.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 10, 4, 3</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 14</value>
-  </data>
-  <data name="&gt;&gt;labelInfo.Name" xml:space="preserve">
-    <value>labelInfo</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="labelInfo.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;buttonOK.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="richTextBoxReport.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="richTextBoxReport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 57</value>
-  </data>
-  <data name="&gt;&gt;buttonOK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterParent</value>
-  </data>
-  <data name="labelInfo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 12pt</value>
-  </data>
-  <data name="richTextBoxReport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>358, 263</value>
-  </data>
-  <data name="labelInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 9</value>
-  </data>
-  <data name="&gt;&gt;labelInfo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;richTextBoxReport.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonOK.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="labelInfo.Text" xml:space="preserve">
-    <value>CustomRP has crashed in the previous session due to the following unhandled exception:</value>
-  </data>
-  <data name="&gt;&gt;buttonOK.Name" xml:space="preserve">
-    <value>buttonOK</value>
-  </data>
-  <data name="buttonOK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 23</value>
-  </data>
-  <data name="buttonOK.Text" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="&gt;&gt;richTextBoxReport.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

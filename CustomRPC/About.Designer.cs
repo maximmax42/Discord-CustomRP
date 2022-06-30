@@ -56,6 +56,7 @@
             // 
             // buttonClose
             // 
+            this.buttonClose.AutoEllipsis = true;
             this.buttonClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(25)))), ((int)(((byte)(28)))));
             this.buttonClose.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.buttonClose.FlatAppearance.BorderSize = 0;

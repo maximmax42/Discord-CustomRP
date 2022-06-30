@@ -412,6 +412,9 @@
   <data name="downloadUpdateToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <metadata name="toolTipInfo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>349, 17</value>
+  </metadata>
   <data name="buttonUpdatePresence.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom</value>
   </data>
@@ -439,9 +442,6 @@
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
     <value>Update Presence</value>
   </data>
-  <metadata name="toolTipInfo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>349, 17</value>
-  </metadata>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
     <value>Updates presence.</value>
   </data>
@@ -836,6 +836,9 @@
   <data name="&gt;&gt;labelLarge.ZOrder" xml:space="preserve">
     <value>22</value>
   </data>
+  <metadata name="toolTipInfo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>349, 17</value>
+  </metadata>
   <data name="radioButtonNone.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1367,20 +1370,6 @@ To take effect, both fields should be more than 0.</value>
   <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>460, 17</value>
   </metadata>
-  <data name="toolStripStatusLabelPadding.Size" type="System.Drawing.Size, System.Drawing">
-    <value>386, 17</value>
-  </data>
-  <data name="toolStripStatusLabelPadding.Text" xml:space="preserve">
-    <value> </value>
-    <comment>@Invariant</comment>
-  </data>
-  <data name="toolStripStatusLabelStatus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 17</value>
-  </data>
-  <data name="toolStripStatusLabelStatus.Text" xml:space="preserve">
-    <value>Disconnected</value>
-    <comment>@Invariant</comment>
-  </data>
   <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 499</value>
   </data>
@@ -1401,6 +1390,20 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
     <value>11</value>
+  </data>
+  <data name="toolStripStatusLabelPadding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 17</value>
+  </data>
+  <data name="toolStripStatusLabelPadding.Text" xml:space="preserve">
+    <value> </value>
+    <comment>@Invariant</comment>
+  </data>
+  <data name="toolStripStatusLabelStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 17</value>
+  </data>
+  <data name="toolStripStatusLabelStatus.Text" xml:space="preserve">
+    <value>Disconnected</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="textBoxButton2Text.Location" type="System.Drawing.Point, System.Drawing">
     <value>264, 385</value>

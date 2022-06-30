@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,368 +118,363 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>انقر ضغطتين فوق الرمز لإظهاره مرة أخرى، أو انقر بزر الفأرة الأيمن للإنهاء.</value>
+    <value>அதை மீண்டும் காண்பிக்க ஐகானில் இருமுறை கிளிக் செய்யவும் அல்லது வெளியேற வலது கிளிக் செய்யவும்.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>سيتم تشغيل التّطبيق في الخلفية.</value>
+    <value>பயன்பாடு தட்டில் இயங்கும்.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 104</value>
+  </data>
   <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 22</value>
+    <value>202, 22</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
-    <value>افتح</value>
+    <value>திற</value>
   </data>
   <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 6</value>
+    <value>199, 6</value>
   </data>
   <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 22</value>
+    <value>202, 22</value>
   </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
-    <value>إعادة الاتصال</value>
+    <value>மீண்டும் இணைக்க</value>
   </data>
   <data name="trayMenuDisconnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 22</value>
+    <value>202, 22</value>
   </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 6</value>
+    <value>199, 6</value>
   </data>
   <data name="trayMenuQuit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 22</value>
+    <value>202, 22</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
-    <value>خروج</value>
-  </data>
-  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 104</value>
-  </data>
-  <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 22</value>
-  </data>
-  <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>تحميل الإعداد المُسبق</value>
-  </data>
-  <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 22</value>
-  </data>
-  <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>حفظ الإعداد المُسبق</value>
-  </data>
-  <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 6</value>
-  </data>
-  <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 22</value>
-  </data>
-  <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>رفع الأصول</value>
-  </data>
-  <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 6</value>
-  </data>
-  <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 22</value>
-  </data>
-  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>خروج</value>
+    <value>விட்டு</value>
   </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 20</value>
+    <value>68, 20</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>ملف</value>
+    <value>கோப்பு</value>
   </data>
-  <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
+  <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 22</value>
   </data>
-  <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>التشغيل عند بدء التشغيل</value>
+  <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>முன்னமைவை ஏற்றவும்</value>
   </data>
-  <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
+  <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 22</value>
   </data>
-  <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>البدء مُصغرًا</value>
+  <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>முன்னமைவை சேமிக்கவும்</value>
   </data>
-  <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
+  <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 6</value>
   </data>
-  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>إتصال تلقائي</value>
+  <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 22</value>
   </data>
-  <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 6</value>
+  <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
+    <value>சொத்துகளைப் பதிவேற்றவும்</value>
   </data>
-  <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
+  <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 6</value>
   </data>
-  <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>التحقق من التحديثات</value>
+  <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 22</value>
   </data>
-  <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
-  </data>
-  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>السماح بالتحليلات</value>
-  </data>
-  <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 6</value>
-  </data>
-  <data name="darkModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
-  </data>
-  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>الوضع الداكن</value>
-  </data>
-  <data name="toolStripSeparatorSettings3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 6</value>
-  </data>
-  <data name="defaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 22</value>
-  </data>
-  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
-    <value>الإفتراضي</value>
-  </data>
-  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 6</value>
-  </data>
-  <data name="sampleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 22</value>
-  </data>
-  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>اللغة</value>
+  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
+    <value>விட்டு</value>
   </data>
   <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 20</value>
+    <value>104, 20</value>
   </data>
   <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>الإعدادات</value>
+    <value>அமைப்புகள்</value>
   </data>
-  <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+  <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 22</value>
   </data>
-  <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>افتح الإرشادات</value>
+  <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
+    <value>தொடக்கத்தில் இயக்கவும்</value>
   </data>
-  <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+  <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 22</value>
   </data>
-  <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>صفحة GitHub</value>
+  <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
+    <value>தொடக்கம் குறைக்கப்பட்டது</value>
   </data>
-  <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 6</value>
+  <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 22</value>
   </data>
-  <data name="supportersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>தானாக இணைக்கவும்</value>
   </data>
-  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
-    <value>الداعمين</value>
+  <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 6</value>
   </data>
-  <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+  <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 22</value>
   </data>
-  <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>المترجمين</value>
+  <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>புதுப்பிப்புகளைச் சரிபார்க்கவும்</value>
   </data>
-  <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 6</value>
+  <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 22</value>
   </data>
-  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>பகுப்பாய்வுகளை அனுமதிக்கவும்</value>
   </data>
-  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>التحقق من التحديثات...</value>
+  <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 6</value>
   </data>
-  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+  <data name="darkModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 22</value>
   </data>
-  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>حول...</value>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>இருண்ட பயன்முறை</value>
+  </data>
+  <data name="toolStripSeparatorSettings3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 6</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>மொழி</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>இயல்புநிலை</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 6</value>
+  </data>
+  <data name="sampleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
   </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 20</value>
+    <value>57, 20</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>المساعدة</value>
+    <value>உதவி</value>
+  </data>
+  <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 22</value>
+  </data>
+  <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
+    <value>கையேட்டைத் திறக்கவும்</value>
+  </data>
+  <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 22</value>
+  </data>
+  <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>கிட்ஹப் பக்கம்</value>
+  </data>
+  <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 6</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 22</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>ஆதரவாளர்கள்</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 22</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
+    <value>மொழிபெயர்ப்பாளர்கள்</value>
+  </data>
+  <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 6</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 22</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>புதுப்பிப்புகளைச் சரிபார்க்கவும்...</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>பற்றி...</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 20</value>
+    <value>208, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>قم بتنزيل التحديث</value>
+    <value>புதுப்பிப்பைப் பதிவிறக்கவும்</value>
+  </data>
+  <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 456</value>
+  </data>
+  <data name="buttonUpdatePresence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 24</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>تحديث الحالة</value>
+    <value>இருப்பை புதுப்பிக்கவும்</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>يُحدِّث الحالة.</value>
+    <value>புதுப்பிப்புகள் இருப்பு.</value>
+  </data>
+  <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 50</value>
+  </data>
+  <data name="buttonConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 24</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
-    <value>اتصال</value>
+    <value>இணைக்கவும்</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>ربط التطبيق بمعرف محدد مع الحالة.</value>
+    <value>செட் இருப்புடன் குறிப்பிட்ட ஐடியுடன் பயன்பாட்டை இணைக்கிறது.</value>
+  </data>
+  <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 50</value>
+  </data>
+  <data name="buttonDisconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 24</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
-    <value>قطع الاتصال</value>
+    <value>துண்டிக்கவும்</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>قطع اتصال التطبيق من الـDiscord. يرجى ملاحظة أنه قد يستغرق بعض الوقت.</value>
+    <value>Discord இலிருந்து பயன்பாட்டைத் துண்டிக்கிறது. சிறிது நேரம் ஆகலாம் என்பதை நினைவில் கொள்ளவும்.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>رقم معرف التطبيق من موقع Discord للمُطوِّرين.</value>
+    <value>Discord டெவலப்பர்ஸ் தளத்தில் இருந்து விண்ணப்பத்தின் ஐடி.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>السطر الأول في الحالة.</value>
+    <value>முன்னிலையில் முதல் வரி.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>السطر الثاني في الحالة.</value>
+    <value>முன்னிலையில் இரண்டாவது வரி.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>اسم الأصل للصورة الصغيرة أو عنوان URL للصورة.</value>
+    <value>சிறிய படத்திற்கான சொத்தின் பெயர் அல்லது பட URL.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>النص المعروض عند التمرير فوق الصورة الصغيرة.</value>
+    <value>சிறிய படத்தை வட்டமிடும்போது உரை காட்டப்படும்.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>النص المعروض عند التمرير فوق الصورة الكبيرة.</value>
+    <value>பெரிய படத்தை வட்டமிடும்போது உரை காட்டப்படும்.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>اسم الأصل للصورة الكبيرة أو عنوان URL للصورة.</value>
+    <value>பெரிய படத்திற்கான சொத்தின் பெயர் அல்லது பட URL.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 14</value>
+    <value>69, 14</value>
   </data>
   <data name="labelSmall.Text" xml:space="preserve">
-    <value>الصورة الصغيرة</value>
+    <value>சிறிய படம்</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>الصورة التي تظهر في الركن الأيمن السفلي من الصورة الكبيرة.</value>
+    <value>பெரிய படத்தின் கீழ் வலது மூலையில் காண்பிக்கப்படும் படம்.</value>
   </data>
   <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 14</value>
+    <value>76, 14</value>
   </data>
   <data name="labelLarge.Text" xml:space="preserve">
-    <value>الصورة الكبيرة</value>
+    <value>பெரிய படம்</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>الصورة التي تظهر يسار النص المحدد أعلاه.</value>
-  </data>
-  <data name="radioButtonNone.Location" type="System.Drawing.Point, System.Drawing">
-    <value>272, 4</value>
+    <value>மேலே உள்ள உரைக்கு இடதுபுறம் காட்டும் படம்.</value>
   </data>
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 18</value>
+    <value>68, 18</value>
   </data>
   <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>لا شيء</value>
+    <value>இல்லை</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>لم يتم تمكين الطابع الزمني.</value>
-  </data>
-  <data name="radioButtonStartTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>217, 28</value>
+    <value>நேர முத்திரைகள் எதுவும் இயக்கப்படவில்லை.</value>
   </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 18</value>
+    <value>202, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>منذ بدء CustomRP</value>
+    <value>CustomRP தொடங்கியதிலிருந்து</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>يظهر الوقت منذ بدء تشغيل التطبيق.</value>
-  </data>
-  <data name="radioButtonLocalTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>240, 76</value>
+    <value>பயன்பாடு தொடங்கப்பட்டதிலிருந்து நேரத்தைக் காட்டுகிறது.</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 18</value>
+    <value>150, 18</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>توقيتك المحلي</value>
+    <value>உங்கள் உள்ளூர் நேரம்</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>يظهر الوقت الحالي بتنسيق 24 ساعة.</value>
+    <value>உங்கள் தற்போதைய நேரத்தை 24-மணிநேர வடிவத்தில் காட்டுகிறது.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>يقوم بإعداد الطابع الزمني للحالة، والذي يظهر تحت كل النص أعلاه.
-مؤقتات الحالة لها حد 24 ساعة، مما يعني أنه بعد 24 ساعة سيعود الوقت إلى 0:00.</value>
+    <value>நிலைக்கான நேர முத்திரையை அமைக்கிறது, இது மேலே உள்ள அனைத்து உரையின் கீழும் காண்பிக்கப்படும்.
+நிலை டைமர்களுக்கு 24 மணிநேர வரம்பு உள்ளது, அதாவது 24 மணிநேரத்திற்குப் பிறகு நேரம் 0:00 க்கு செல்லும்.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>عدد اللاعبين في الردهة الحالية الذي يظهر بجانب حقل الولاية.
-لكي تصبح سارية المفعول، يجب أن يكون كلا الحقلين أكثر من 0.</value>
-  </data>
-  <data name="radioButtonCustom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>199, 100</value>
+    <value>ஸ்டேட் ஃபீல்டுக்கு அடுத்ததாக தற்போதைய பார்ட்டியில் உள்ள வீரர்களின் எண்ணிக்கை.
+நடைமுறைக்கு வர, இரண்டு புலங்களும் 0 ஐ விட அதிகமாக இருக்க வேண்டும்.</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 18</value>
+    <value>170, 18</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>الطابع الزمني المخصّص</value>
+    <value>தனிப்பயன் நேர முத்திரை</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
-    <value>يُظهر مقدار الوقت المنقضي منذ التاريخ المحدد أدناه أو المتبقي عليه.</value>
+    <value>கீழே அமைக்கப்பட்டுள்ள தேதியிலிருந்து எவ்வளவு நேரம் கடந்துவிட்டது அல்லது மீதமுள்ளது என்பதைக் காட்டுகிறது.</value>
   </data>
   <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 14</value>
+    <value>76, 14</value>
   </data>
   <data name="labelButton1.Text" xml:space="preserve">
-    <value>الزر الأول</value>
+    <value>பொத்தான் 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>أول زر من الزرين اللذين يظهران تحت حالتك في نافذة ملفك الشخصي وعلى الجانب الأيمن في الملف الشخصي الكامل.</value>
+    <value>உங்கள் சுயவிவர பாப்அப்பில் உங்கள் நிலையின் கீழும் முழு சுயவிவரத்தில் வலது பக்கத்திலும் காட்டப்படும் இரண்டு பொத்தான்களில் முதலில்.</value>
   </data>
   <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 14</value>
+    <value>76, 14</value>
   </data>
   <data name="labelButton2.Text" xml:space="preserve">
-    <value>الزر الثاني</value>
+    <value>பொத்தான் 2</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>الزر الثاني، الذي يظهر مباشرة أسفل الزر الأول، أو بدلًا مِنه، إذا لم يتم تعيين الزر الأول.</value>
+    <value>இரண்டாவது பொத்தான், முதல் பொத்தானின் கீழ் வலதுபுறம் தோன்றும் அல்லது அதற்குப் பதிலாக, முதல் பொத்தான் அமைக்கப்படவில்லை என்றால்.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>الرابط الذي سيأخذ الزر المستخدم إليه عند النقر عليه.</value>
+    <value>URL பொத்தானை கிளிக் செய்தவுடன் பயனரை அழைத்துச் செல்லும்.</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>الرابط الذي سيأخذ الزر المستخدم إليه عند النقر عليه.</value>
+    <value>URL பொத்தானை கிளிக் செய்தவுடன் பயனரை அழைத்துச் செல்லும்.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
-    <value>كِتابة الزر الاول.</value>
+    <value>முதல் பொத்தானின் லேபிள்.</value>
   </data>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
-    <value>كِتابة الزر الثاني.</value>
-  </data>
-  <data name="radioButtonPresence.Location" type="System.Drawing.Point, System.Drawing">
-    <value>206, 52</value>
+    <value>இரண்டாவது பொத்தானின் லேபிள்.</value>
   </data>
   <data name="radioButtonPresence.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 18</value>
+    <value>245, 18</value>
   </data>
   <data name="radioButtonPresence.Text" xml:space="preserve">
-    <value>منذ آخر تحديث للحالة</value>
+    <value>கடைசியாக இருப்பு புதுப்பித்ததிலிருந்து</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
-    <value>يُظهر مقدار الوقت المنقضي منذ آخر مرة قمت فيها بالاتصال أو تحديث الحالة.</value>
+    <value>நீங்கள் கடைசியாக இணைக்கப்பட்டதிலிருந்து அல்லது இருப்பை புதுப்பித்ததிலிருந்து எவ்வளவு நேரம் கடந்துவிட்டது என்பதைக் காட்டுகிறது.</value>
   </data>
   <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 14</value>
+    <value>31, 14</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
-    <value>من</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
-    <value>True</value>
+    <value>இன்</value>
   </data>
 </root>

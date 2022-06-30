@@ -144,7 +144,8 @@ namespace CustomRPC
                     Code = "ar",
                     Translators = new Translator[] {
                         new Translator { Name = "FiberAhmed", Url = "https://github.com/FiberAhmed" },
-                        new Translator { Name = "ShadowlGamer" }
+                        new Translator { Name = "ShadowlGamer" },
+                        new Translator { Name = "karimawi" },
                     }
                 },
                 new Language {
@@ -358,6 +359,14 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "தமிழ்",
+                    EnglishName = "Tamil",
+                    Code = "ta",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Julian", Url = "https://discord.com/oauth2/authorize?client_id=962323485772881950&scope=bot&permissions=8" },
+                    }
+                },
+                new Language {
                     Name = "ภาษาไทย",
                     EnglishName = "Thai",
                     Code = "th",
@@ -418,7 +427,7 @@ namespace CustomRPC
 
             LanguageProgress = new Dictionary<string, string>();
             #region Generated code for progress
-            LanguageProgress["ar"] = "97.94";
+            LanguageProgress["ar"] = "100";
             LanguageProgress["my"] = "96.91";
             LanguageProgress["ca"] = "100";
             LanguageProgress["zh-hans"] = "100";
@@ -438,12 +447,14 @@ namespace CustomRPC
             LanguageProgress["ja"] = "100";
             LanguageProgress["ko"] = "100";
             LanguageProgress["ku"] = "94.85";
+            LanguageProgress["lv"] = "41.24";
             LanguageProgress["lt"] = "100";
             LanguageProgress["pl"] = "100";
             LanguageProgress["pt-br"] = "100";
             LanguageProgress["ro"] = "96.91";
             LanguageProgress["ru"] = "100";
             LanguageProgress["es"] = "100";
+            LanguageProgress["ta"] = "100";
             LanguageProgress["th"] = "96.91";
             LanguageProgress["tr"] = "100";
             LanguageProgress["uk"] = "96.91";

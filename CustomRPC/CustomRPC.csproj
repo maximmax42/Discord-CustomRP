@@ -211,6 +211,9 @@
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="About.ta.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="About.th.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
@@ -297,6 +300,9 @@
     <EmbeddedResource Include="ErrorReportViewer.ru.resx">
       <DependentUpon>ErrorReportViewer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ErrorReportViewer.ta.resx">
+      <DependentUpon>ErrorReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ErrorReportViewer.th.resx">
       <DependentUpon>ErrorReportViewer.cs</DependentUpon>
     </EmbeddedResource>
@@ -354,6 +360,9 @@
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.ro.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.ta.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.tr.resx">
@@ -540,6 +549,10 @@
       <SubType>Designer</SubType>
       <DependentUpon>Strings.resx</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Strings.ta.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Strings.th.resx">
       <SubType>Designer</SubType>
       <DependentUpon>Strings.resx</DependentUpon>
@@ -641,6 +654,9 @@
       <DependentUpon>UpdatePrompt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdatePrompt.ru.resx">
+      <DependentUpon>UpdatePrompt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdatePrompt.ta.resx">
       <DependentUpon>UpdatePrompt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdatePrompt.th.resx">
