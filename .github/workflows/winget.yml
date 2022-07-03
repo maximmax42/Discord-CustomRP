@@ -9,4 +9,4 @@ jobs:
       - uses: vedantmgoyal2009/winget-releaser@latest
         with:
           identifier: maximmax42.CustomRP
-          token: ${{ secrets.WINGET_TOKEN }}
+          token: ${{ secrets.Winget }}
