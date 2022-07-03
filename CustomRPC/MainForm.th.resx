@@ -429,4 +429,13 @@
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>โหมดมืด</value>
   </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>ผู้สนับสนุน</value>
+  </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>ตั้งแต่การปรับปรุงกครั้งล่าสุด</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>แสดงระยะเวลาที่ผ่านไปนับตั้งแต่ที่คุณเชื่อมต่อหรืออัปเดตการสถานะครั้งล่าสุด</value>
+  </data>
 </root>

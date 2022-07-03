@@ -372,7 +372,8 @@ namespace CustomRPC
                     Code = "th",
                     Translators = new Translator[] {
                         new Translator { Name = "Squishee Freshy" },
-                        new Translator { Name = "Game" },
+                        new Translator { Name = "YuuabyssSSID" },
+                        //new Translator { Name = "Game" }, 0 translations currently?
                     }
                 },
                 new Language {
@@ -455,7 +456,7 @@ namespace CustomRPC
             LanguageProgress["ru"] = "100";
             LanguageProgress["es"] = "100";
             LanguageProgress["ta"] = "100";
-            LanguageProgress["th"] = "96.91";
+            LanguageProgress["th"] = "100";
             LanguageProgress["tr"] = "100";
             LanguageProgress["uk"] = "96.91";
             LanguageProgress["vi"] = "100";
