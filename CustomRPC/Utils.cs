@@ -381,7 +381,7 @@ namespace CustomRPC
                     Code = "tr",
                     Translators = new Translator[] {
                         new Translator { Name = "Ozan Akyüz" },
-                        new Translator { Name = "Yusuf" },
+                        new Translator { Name = "josephisticated", Url = "https://github.com/josephisticated" },
                     }
                 },
                 new Language {
