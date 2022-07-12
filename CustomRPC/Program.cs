@@ -149,7 +149,7 @@ namespace CustomRPC
                 while (ex.InnerException != null)
                     ex = ex.InnerException;
 
-                if (ex is FileNotFoundException && ex.Message.Contains("Version=") || ex is FileLoadException)
+                if (ex is FileNotFoundException && ex.Message.Contains("Version=") || ex is FileLoadException || ex is BadImageFormatException)
                 {
                     var result = MessageBox.Show($"{ex.Message}\r\n\r\n{string.Format(Strings.errorLoadingAssembly, Application.StartupPath)}", Strings.error, MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
 
