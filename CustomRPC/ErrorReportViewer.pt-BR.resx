@@ -121,7 +121,7 @@
     <value>O CustomRP crashou na sessão anterior devido à seguinte exceção não tratada:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Reportar Erro</value>
+    <value>Relatório de erro</value>
   </data>
   <data name="buttonOK.Text" xml:space="preserve">
     <value>OK</value>
