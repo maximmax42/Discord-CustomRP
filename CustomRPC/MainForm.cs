@@ -318,6 +318,7 @@ namespace CustomRPC
             switch (ConnectionManager.State)
             {
                 case ConnectionType.Disconnected:
+                case ConnectionType.Connecting:
                     textBoxID.BackColor = CurrentColors.BgTextFields;
                     break;
                 case ConnectionType.Connected:
@@ -784,6 +785,10 @@ namespace CustomRPC
                     textBoxID.BackColor = CurrentColors.BgTextFields;
                     toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
                     break;
+                case ConnectionType.Connecting:
+                    textBoxID.BackColor = CurrentColors.BgTextFields;
+                    toolStripStatusLabelStatus.Text = Strings.statusConnecting;
+                    break;
                 case ConnectionType.Connected:
                     textBoxID.BackColor = CurrentColors.BgTextFieldsSuccess;
                     toolStripStatusLabelStatus.Text = Strings.statusConnected;
@@ -1145,6 +1150,8 @@ namespace CustomRPC
             {
                 if (ConnectionManager.State == ConnectionType.Disconnected)
                     Analytics.TrackEvent("Connected"); // Only send analytics if connect function was called from disconnected state
+
+                ConnectionManager.State = ConnectionType.Connecting;
 
                 buttonConnect.Enabled = false; // ...disable Connect button...
                 buttonDisconnect.Enabled = true; // ...enable Disconnect button...

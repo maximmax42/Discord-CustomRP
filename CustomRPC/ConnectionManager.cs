@@ -5,10 +5,11 @@
     /// </summary>
     public enum ConnectionType
     {
+        None = -1,
         Disconnected,
+        Connecting,
         Connected,
         Error,
-        None = 10
     }
 
     /// <summary>
