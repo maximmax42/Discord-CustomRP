@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>Fare doppio clic sull'icona per mostrarla di nuovo, o cliccate con il tasto destro per uscire.</value>
+    <value>Fare un doppio clic sull'icona per mostrarla di nuovo, o cliccate con il tasto destro per uscire.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
     <value>L'applicazione verrà eseguita nella tray.</value>
@@ -152,13 +152,13 @@
     <value>185, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Carica Preset</value>
+    <value>Carica Un Preset</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Salva Preset</value>
+    <value>Salva il Preset</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>182, 6</value>
@@ -197,7 +197,7 @@
     <value>193, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Verifica aggiornamenti</value>
+    <value>Verifica degli aggiornamenti</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
     <value>190, 6</value>
@@ -284,7 +284,7 @@
     <value>Collega l'applicazione all'ID specificato con la presenza impostata.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
-    <value>Disconnetti</value>
+    <value>Disconnettiti</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
     <value>Disconnette l'app da Discord. Si prega di prendere nota che potrebbe volerci un po' di tempo.</value>

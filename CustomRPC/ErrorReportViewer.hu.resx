@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,65 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="error" xml:space="preserve">
-    <value>Hiba</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Hibajelentés</value>
   </data>
-  <data name="errorNoID" xml:space="preserve">
-    <value>Nincs megadva Azonosító!</value>
+  <data name="buttonOK.Text" xml:space="preserve">
+    <value>OK</value>
   </data>
-  <data name="errorUpdateFailed" xml:space="preserve">
-    <value>Hiba történt a letöltés vagy a telepítés során.
-Nyomj "Igen"-t az újrapróbáláshoz vagy "Nem"-et, hogy manuálisan töltsd le.</value>
-  </data>
-  <data name="firstTimeRun" xml:space="preserve">
-    <value>Első indítás</value>
-  </data>
-  <data name="firstTimeRunText" xml:space="preserve">
-    <value>Meg akarod nyitni a Használati Utasítást?
-Bármikor megteheted ha a Segítség -&gt; Használati Utasítás megnyitására nyomsz vagy csak lenyomod az F1 billentyűt.</value>
-  </data>
-  <data name="information" xml:space="preserve">
-    <value>Információ</value>
-  </data>
-  <data name="statusConnected" xml:space="preserve">
-    <value>Csatlakozva</value>
-  </data>
-  <data name="statusConnecting" xml:space="preserve">
-    <value>Csatlakozás...</value>
-  </data>
-  <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Csatlakozás meghiúsult (Fut a Discord?)</value>
-  </data>
-  <data name="statusDisconnected" xml:space="preserve">
-    <value>Lecsatlakozva</value>
-  </data>
-  <data name="statusError" xml:space="preserve">
-    <value>Csatlakozási hiba (hibás azonosító?)</value>
-  </data>
-  <data name="errorInvalidURL" xml:space="preserve">
-    <value>Érvénytelen URL megadva a gomb(ok)nak vagy túl hosszú a szöveg!</value>
-  </data>
-  <data name="errorNoInternet" xml:space="preserve">
-    <value>Nem sikerül csatlakozni az Internetre!</value>
-  </data>
-  <data name="noUpdatesFound" xml:space="preserve">
-    <value>Nem találtam frissítéseket!</value>
-  </data>
-  <data name="errorCorruptSettings" xml:space="preserve">
-    <value>Beállítások fájl megsérült.
-Nyomd meg az Igen-t hogy újraállísd a beállításokat, nyomd meg a Nem-et hogy kilépj.</value>
-  </data>
-  <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Nem sikerült betölteni a sémát. Lehet, hogy a fájl hiányzik, károsodott vagy rossz a formátuma.</value>
-  </data>
-  <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>Engedélyezed hogy a CustomRP errőforráshasználati statisztikai adatokat küldjön a fejlesztőnek?
-(Az adatok nem személyesek.)</value>
-  </data>
-  <data name="errorSavingSettings" xml:space="preserve">
-    <value>Hiba történt a beállítások mentése során:</value>
-  </data>
-  <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>Kérlek add hozzá a(z) "{0}" a vírusírtó kivételeihez. Telepítsd újra a CustomRP ha a hiba továbbra is fennáll.</value>
+  <data name="labelInfo.Text" xml:space="preserve">
+    <value>CustomRP összeomlott az előző munkamenetben a következő hiba miatt:</value>
   </data>
 </root>

@@ -236,6 +236,7 @@ namespace CustomRPC
                     Code = "hu",
                     Translators = new Translator[] {
                         new Translator { Name = "Balla Botond", Url = "https://github.com/BallaBotond" },
+                        new Translator { Name = "Noxie" },
                     }
                 },
                 new Language {
@@ -263,6 +264,7 @@ namespace CustomRPC
                     Translators = new Translator[] {
                         new Translator { Name = "DJD320" },
                         new Translator { Name = "Frin" },
+                        new Translator { Name = "Matthww" },
                         new Translator { Name = "ItsMrCube", Url = "https://mrcube.live/" },
                         new Translator { Name = "Bay" },
                     }
@@ -314,6 +316,7 @@ namespace CustomRPC
                     Code = "nl",
                     Translators = new Translator[] {
                         new Translator { Name = "Jeremyzijlemans", Url = "https://sionhub.co.uk/" },
+                        new Translator { Name = "sys-256", Url = "https://sys-256.me/" },
                     }
                 },
                 new Language {
@@ -348,6 +351,7 @@ namespace CustomRPC
                     Translators = new Translator[] {
                         new Translator { Name = "DiDYRO", Url = "https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w" },
                         new Translator { Name = "Denisbolba" },
+                        new Translator { Name = "Matthww" },
                     }
                 },
                 new Language {
@@ -436,13 +440,13 @@ namespace CustomRPC
             LanguageProgress["hr"] = "72.16";
             LanguageProgress["cs"] = "97.94";
             LanguageProgress["da"] = "92.78";
-            LanguageProgress["nl"] = "96.91";
+            LanguageProgress["nl"] = "100";
             LanguageProgress["fil"] = "52.58";
             LanguageProgress["fr"] = "96.91";
             LanguageProgress["de"] = "100";
             LanguageProgress["el"] = "92.78";
             LanguageProgress["he"] = "100";
-            LanguageProgress["hu"] = "88.66";
+            LanguageProgress["hu"] = "100";
             LanguageProgress["id"] = "100";
             LanguageProgress["it"] = "100";
             LanguageProgress["ja"] = "100";
@@ -450,6 +454,7 @@ namespace CustomRPC
             LanguageProgress["ku"] = "94.85";
             LanguageProgress["lv"] = "41.24";
             LanguageProgress["lt"] = "100";
+            LanguageProgress["fa"] = "26.8";
             LanguageProgress["pl"] = "100";
             LanguageProgress["pt-br"] = "100";
             LanguageProgress["ro"] = "96.91";

@@ -489,4 +489,22 @@ A működéshez mindkét mezőnek 0-nál nagyobbnak kell lennie.</value>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
     <value>Statisztikák küldése a fejlesztőnek</value>
   </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>Az elem neve a kis képhez.</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>Az elem neve a nagy képhez.</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sötét Mód</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Támogatók</value>
+  </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>Az előző</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Kijelzi mennyi idő telt el az állapot utolsó kapcsolódása vagy fríssítése óta.</value>
+  </data>
 </root>

@@ -450,4 +450,13 @@ Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>Donkere modus</value>
   </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ondersteuners</value>
+  </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>Sinds de laatste update</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Laat zien hoe veel tijd voorbij is gegaan sinds u voor het laatst verbond of de aanwezigheids status heeft aangepast.</value>
+  </data>
 </root>

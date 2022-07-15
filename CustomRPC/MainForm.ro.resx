@@ -124,13 +124,13 @@
     <value>Aplicatia va merge in tray icons.</value>
   </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
-    <value>Reconecteaza</value>
+    <value>Reconecteazate</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
     <value>Iesi</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Fisier</value>
+    <value>Fisiere</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Incarca configuratia</value>
