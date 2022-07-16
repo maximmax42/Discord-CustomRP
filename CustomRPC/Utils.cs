@@ -226,6 +226,7 @@ namespace CustomRPC
                     Code = "fr",
                     Translators = new Translator[] {
                         new Translator { Name = "Nenaff" },
+                        new Translator { Name = "RedNix" },
                     }
                 },
                 new Language {

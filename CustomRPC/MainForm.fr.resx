@@ -302,7 +302,7 @@
     <value>Déconnexion</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Déconnecter l'app de discord. Prenez en note que cela peut prendre un moment.</value>
+    <value>Déconnecter l'app de discord. Attention, cela peut prendre un moment.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>ID de l'application depuis le site développeur de discord.</value>
@@ -431,5 +431,14 @@ Pour prendre effet, les deux champs doivent être supérieurs à 0.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>Nom du fichier de la grande image ou URL d'image.</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Supporters</value>
+  </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>Depuis la mise à jour de la présence</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Affiche combien de temps sont passé depuis ta dernière connexion ou la mise à jour de ta présence.</value>
   </data>
 </root>
