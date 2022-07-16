@@ -42,8 +42,8 @@ namespace CustomRPC
             // 
             // numericUpDownPipe
             // 
-            this.numericUpDownPipe.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "pipe", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             resources.ApplyResources(this.numericUpDownPipe, "numericUpDownPipe");
+            this.numericUpDownPipe.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "pipe", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.numericUpDownPipe.Maximum = new decimal(new int[] {
             9,
             0,

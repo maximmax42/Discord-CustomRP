@@ -213,6 +213,14 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "فارسی",
+                    EnglishName = "Persian",
+                    Code = "fa",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Mohammad Mahdi" },
+                    }
+                },
+                new Language {
                     Name = "Français",
                     EnglishName = "French",
                     Code = "fr",
@@ -454,7 +462,7 @@ namespace CustomRPC
             LanguageProgress["ku"] = "94.85";
             LanguageProgress["lv"] = "41.24";
             LanguageProgress["lt"] = "100";
-            LanguageProgress["fa"] = "26.8";
+            LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "100";
             LanguageProgress["pt-br"] = "100";
             LanguageProgress["ro"] = "96.91";
@@ -524,7 +532,8 @@ namespace CustomRPC
                 // Populating Settings -> Languages
                 languagesParent.DropDownItems.Add(new ToolStripMenuItem(lang.Name + dialect, null, languagesHandler)
                 {
-                    Tag = lang.Code
+                    Tag = lang.Code,
+                    ToolTipText = lang.EnglishName,
                 });
 
                 if (lang.Code == "en")
