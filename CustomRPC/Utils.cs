@@ -451,10 +451,11 @@ namespace CustomRPC
             LanguageProgress["da"] = "92.78";
             LanguageProgress["nl"] = "100";
             LanguageProgress["fil"] = "52.58";
-            LanguageProgress["fr"] = "96.91";
+            LanguageProgress["fr"] = "100";
             LanguageProgress["de"] = "100";
             LanguageProgress["el"] = "92.78";
             LanguageProgress["he"] = "100";
+            LanguageProgress["hi"] = "20.62";
             LanguageProgress["hu"] = "100";
             LanguageProgress["id"] = "100";
             LanguageProgress["it"] = "100";
