@@ -217,7 +217,7 @@ namespace CustomRPC
                     EnglishName = "Persian",
                     Code = "fa",
                     Translators = new Translator[] {
-                        new Translator { Name = "Mohammad Mahdi" },
+                        new Translator { Name = "Mohammad Mahdi", Url = "https://mo-mahdihh.ir/" },
                     }
                 },
                 new Language {
