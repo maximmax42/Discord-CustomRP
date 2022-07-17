@@ -348,9 +348,9 @@ namespace CustomRPC
                     Translators = new Translator[] {
                         new Translator { Name = "Vinicio Henrique (viniciotricolor)" },
                         new Translator { Name = "Slimakoi" },
+                        new Translator { Name = "Felipe B. Pansani" },
                         new Translator { Name = "DeusDrizzyy" },
                         new Translator { Name = "Leo" },
-                        new Translator { Name = "Felipe B. Pansani" },
                     }
                 },
                 new Language {
