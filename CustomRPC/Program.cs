@@ -12,10 +12,22 @@ namespace CustomRPC
 {
     static class Program
     {
-        public static Mutex AppMutex;
-
-        public static int WM_SHOWFIRSTINSTANCE;
-        public static int WM_IMPORTPRESET;
+        /// <summary>
+        /// A mutex for the app. Prevents users from opening more than one instance of the app.
+        /// </summary>
+        public static Mutex AppMutex { get; private set; }
+        /// <summary>
+        /// <see langword="True"/> if the user started the app with the --second-instance command line argument.
+        /// </summary>
+        public static bool IsSecondInstance { get; private set; }
+        /// <summary>
+        /// Window message responsible for opening the already working instance in case user opens another one.
+        /// </summary>
+        public static int WM_SHOWFIRSTINSTANCE { get; private set; }
+        /// <summary>
+        /// Window message responsible for opening the already working instance and pushing a preset to import in it.
+        /// </summary>
+        public static int WM_IMPORTPRESET { get; private set; }
 
         /// <summary>
         /// Main entry point for the application.
@@ -23,11 +35,25 @@ namespace CustomRPC
         [STAThread]
         static void Main(string[] args)
         {
+            string presetFile = null;
 #if DEBUG
             string mutexName = "CustomRP dev";
 #else
             string mutexName = "CustomRP";
 #endif
+
+            foreach (string arg in args)
+            {
+                if (arg == "--second-instance" || arg == "-2")
+                {
+                    IsSecondInstance = true;
+                    mutexName += " 2";
+                }
+
+                if (File.Exists(arg))
+                    presetFile = arg;
+            }
+
             WM_SHOWFIRSTINSTANCE = WinApi.RegisterWindowMessage("WM_SHOWFIRSTINSTANCE|" + mutexName);
             WM_IMPORTPRESET = WinApi.RegisterWindowMessage("WM_IMPORTPRESET|" + mutexName);
 
@@ -37,11 +63,11 @@ namespace CustomRPC
             {
                 WinApi.PostMessage(new IntPtr(0xffff), WM_SHOWFIRSTINSTANCE, IntPtr.Zero, IntPtr.Zero);
 
-                if (args.Length > 0)
+                if (presetFile != null)
                 {
                     try
                     {
-                        File.Copy(args[0], Path.GetTempPath() + "preset.crp", true);
+                        File.Copy(presetFile, Path.GetTempPath() + "preset.crp", true);
                         WinApi.PostMessage(new IntPtr(0xffff), WM_IMPORTPRESET, IntPtr.Zero, IntPtr.Zero);
                     }
                     catch
@@ -141,7 +167,7 @@ namespace CustomRPC
                 AppCenter.SetCountryCode(RegionInfo.CurrentRegion.TwoLetterISORegionName);
                 AppCenter.Start("141506f2-5a6b-46c5-a70e-693831ee131a", typeof(Analytics), typeof(Crashes));
 
-                IntPtr _ = new MainForm(args.Length > 0 ? args[0] : null).Handle; // Terrible, yet allows to fully initialize the form without showing it first
+                IntPtr _ = new MainForm(presetFile).Handle; // Terrible, yet allows to fully initialize the form without showing it first
                 Application.Run();
             }
             catch (Exception ex)

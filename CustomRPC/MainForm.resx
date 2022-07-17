@@ -486,7 +486,7 @@ To take effect, both fields should be more than 0.</value>
     <value>toolStripSeparatorSettings3</value>
   </data>
   <data name="trayIcon.Text" xml:space="preserve">
-    <value>Custom Rich Presence</value>
+    <value>CustomRP</value>
     <comment>@Invariant</comment>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">

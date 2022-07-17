@@ -138,7 +138,7 @@ namespace CustomRPC
         /// <summary>
         /// Path to the autorun link file.
         /// </summary>
-        readonly string linkPath = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\CustomRP.lnk";
+        readonly string linkPath = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\CustomRP" + (Program.IsSecondInstance ? " 2" : "") + ".lnk";
 
         /// <summary>
         /// Resource manager. Yes I know, very descriptive.
@@ -163,7 +163,9 @@ namespace CustomRPC
             ThemeSetup();
 
             // Setting up startup link for current user (enabled by default)
+#if !DEBUG
             StartupSetup();
+#endif
 
             // Setting up a restart timer
             restartTimer.AutoReset = false;
@@ -234,6 +236,13 @@ namespace CustomRPC
 
             // Localize the statusbar text in case the autoconnect is disabled
             toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
+
+            // Slightly changing the name of the tray tooptip and main window title for a second instance of the app
+            if (Program.IsSecondInstance)
+            {
+                trayIcon.Text += " 2";
+                Text += " 2";
+            }
 
             loading = false;
 
@@ -714,6 +723,8 @@ namespace CustomRPC
                     shortcut.Description = "Discord Custom Rich Presence Manager";
                     shortcut.TargetPath = Environment.CurrentDirectory + @"\CustomRP.exe";
                     shortcut.WorkingDirectory = Environment.CurrentDirectory + @"\";
+                    if (Program.IsSecondInstance)
+                        shortcut.Arguments = "--second-instance";
                     shortcut.Save();
 
                 }
