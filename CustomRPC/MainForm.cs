@@ -143,7 +143,7 @@ namespace CustomRPC
         /// <summary>
         /// Resource manager. Yes I know, very descriptive.
         /// </summary>
-        System.ComponentModel.ComponentResourceManager res = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+        readonly System.ComponentModel.ComponentResourceManager res = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 
         /// <summary>
         /// The constructor of the form.
@@ -232,7 +232,7 @@ namespace CustomRPC
             toolTipInfo.ToolTipTitle = Strings.information;
 
             // Localize the Disconnect button in the tray menu
-            trayMenuDisconnect.Text = buttonDisconnect.Text;
+            trayMenuDisconnect.Text = res.GetString("buttonDisconnect.Text");
 
             // Localize the statusbar text in case the autoconnect is disabled
             toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
