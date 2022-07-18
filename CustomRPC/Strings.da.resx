@@ -175,4 +175,7 @@ Tryk Ja for at nulstille den, tryk Nej for at afslutte.</value>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Tilføj venligst "{0}"-stien til dit antivirus-undtagelser. Geninstaller CustomRP, hvis denne fejl fortsætter.</value>
   </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>Der opstod et problem i forsøget på at gemme:</value>
+  </data>
 </root>

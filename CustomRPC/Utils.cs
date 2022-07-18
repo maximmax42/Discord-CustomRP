@@ -172,6 +172,7 @@ namespace CustomRPC
                     Translators = new Translator[] {
                         new Translator { Name = "Sebastian Hviid" },
                         new Translator { Name = "Tobias" },
+                        new Translator { Name = "wimblim" },
                         new Translator { Name = "David" },
                     }
                 },
@@ -448,14 +449,14 @@ namespace CustomRPC
             LanguageProgress["zh-hant"] = "100";
             LanguageProgress["hr"] = "72.16";
             LanguageProgress["cs"] = "97.94";
-            LanguageProgress["da"] = "92.78";
+            LanguageProgress["da"] = "100";
             LanguageProgress["nl"] = "100";
             LanguageProgress["fil"] = "52.58";
             LanguageProgress["fr"] = "100";
             LanguageProgress["de"] = "100";
             LanguageProgress["el"] = "92.78";
             LanguageProgress["he"] = "100";
-            LanguageProgress["hi"] = "20.62";
+            LanguageProgress["hi"] = "28.87";
             LanguageProgress["hu"] = "100";
             LanguageProgress["id"] = "100";
             LanguageProgress["it"] = "100";
@@ -469,6 +470,7 @@ namespace CustomRPC
             LanguageProgress["pt-br"] = "100";
             LanguageProgress["ro"] = "96.91";
             LanguageProgress["ru"] = "100";
+            LanguageProgress["sr"] = "0";
             LanguageProgress["es"] = "100";
             LanguageProgress["ta"] = "100";
             LanguageProgress["th"] = "100";

@@ -121,7 +121,7 @@
     <value>Dobbeltklik på ikonet for at vise det igen, eller højreklik for at afslutte.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>Appen Kører i baggrunden.</value>
+    <value>Appen vil køre i baggrunden.</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>Åben</value>
@@ -269,10 +269,10 @@
     <value>115, 24</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Opdater Presence</value>
+    <value>Opdater presence</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Opdatere presence.</value>
+    <value>Opdaterer presence.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>Forbind</value>
@@ -284,7 +284,7 @@
     <value>Afbryd</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Koble appen fra Discord. Bemærk, at det kan tage et stykke tid.</value>
+    <value>Kobler appen fra Discord. Bemærk, at det kan tage et stykke tid.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>ID for applikationen fra Discord Udvikler -Hjemmeside.</value>
@@ -401,5 +401,23 @@ For at virke, skal begge felter være mere end 0.</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
     <value>Tillad analyse</value>
+  </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>Navn på et lille billede eller billedets web-adresse</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>Navn på et stort billede eller billedets web-adresse</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mørk tilstand</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Støttere</value>
+  </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>Siden sidste presence opdatering</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Viser hvor lang tid der er gået siden du tilsluttede eller opdaterede presence.</value>
   </data>
 </root>
