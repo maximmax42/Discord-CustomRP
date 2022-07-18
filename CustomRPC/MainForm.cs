@@ -676,14 +676,14 @@ namespace CustomRPC
                     buttonsList.Add(new DButton()
                     {
                         Label = settings.button1Text,
-                        Url = settings.button1URL
+                        Url = Uri.EscapeUriString(settings.button1URL)
                     });
 
                 if (settings.button2Text != "" && settings.button2URL != "")
                     buttonsList.Add(new DButton()
                     {
                         Label = settings.button2Text,
-                        Url = settings.button2URL
+                        Url = Uri.EscapeUriString(settings.button2URL)
                     });
             }
             catch
