@@ -149,6 +149,14 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "বাংলা",
+                    EnglishName = "Bengali",
+                    Code = "bn",
+                    Translators = new Translator[] {
+                        new Translator { Name = "mrimran", Url = "https://github.com/mr-Imran" },
+                    }
+                },
+                new Language {
                     Name = "Català",
                     EnglishName = "Catalan",
                     Code = "ca",
@@ -443,6 +451,7 @@ namespace CustomRPC
             LanguageProgress = new Dictionary<string, string>();
             #region Generated code for progress
             LanguageProgress["ar"] = "100";
+            LanguageProgress["bn"] = "100";
             LanguageProgress["my"] = "96.91";
             LanguageProgress["ca"] = "100";
             LanguageProgress["zh-hans"] = "100";
@@ -470,7 +479,7 @@ namespace CustomRPC
             LanguageProgress["pt-br"] = "100";
             LanguageProgress["ro"] = "96.91";
             LanguageProgress["ru"] = "100";
-            LanguageProgress["sr"] = "0";
+            LanguageProgress["sr"] = "26.8";
             LanguageProgress["es"] = "100";
             LanguageProgress["ta"] = "100";
             LanguageProgress["th"] = "100";
