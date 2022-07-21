@@ -1050,6 +1050,10 @@ namespace CustomRPC
         private void OpenPersonsPage(object sender, EventArgs e)
         {
             var personItem = (ToolStripMenuItem)sender;
+
+            if (personItem.Tag == null)
+                return;
+
             var (personType, personUrl) = (ValueTuple<string, string>)personItem.Tag;
 
             if (string.IsNullOrWhiteSpace(personUrl))

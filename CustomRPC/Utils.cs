@@ -557,13 +557,12 @@ namespace CustomRPC
 
                 foreach (var tl in lang.Translators)
                 {
-                    var tlItem = new ToolStripMenuItem(tl.Name);
+                    var tlItem = new ToolStripMenuItem(tl.Name, null, translatorsHandler);
                     if (!string.IsNullOrEmpty(tl.Url))
                     {
                         tlItem.Image = Properties.Resources.globe;
                         tlItem.Tag = ("translator", tl.Url);
                         tlItem.ToolTipText = tl.Url;
-                        tlItem.Click += translatorsHandler;
                     }
                     langStrip.DropDownItems.Add(tlItem);
                 }
