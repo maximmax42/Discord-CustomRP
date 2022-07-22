@@ -643,9 +643,9 @@ namespace CustomRPC
                 State = settings.state,
                 Assets = new Assets()
                 {
-                    SmallImageKey = settings.smallKey,
+                    SmallImageKey = Uri.EscapeUriString(settings.smallKey),
                     SmallImageText = settings.smallText,
-                    LargeImageKey = settings.largeKey,
+                    LargeImageKey = Uri.EscapeUriString(settings.largeKey),
                     LargeImageText = settings.largeText,
                 },
                 Party = new Party()
