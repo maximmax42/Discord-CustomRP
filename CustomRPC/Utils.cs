@@ -149,6 +149,15 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Български",
+                    EnglishName = "Bulgarian",
+                    Code = "bg",
+                    Translators = new Translator[] {
+                        new Translator { Name = "TheLocalSlavic" },
+                        new Translator { Name = "EmeraldCeat", Url = "https://discord.gg/reformedcityrp" },
+                    }
+                },
+                new Language {
                     Name = "বাংলা",
                     EnglishName = "Bengali",
                     Code = "bn",
@@ -452,6 +461,7 @@ namespace CustomRPC
             #region Generated code for progress
             LanguageProgress["ar"] = "100";
             LanguageProgress["bn"] = "100";
+            LanguageProgress["bg"] = "100";
             LanguageProgress["my"] = "96.91";
             LanguageProgress["ca"] = "100";
             LanguageProgress["zh-hans"] = "100";
@@ -465,7 +475,7 @@ namespace CustomRPC
             LanguageProgress["de"] = "100";
             LanguageProgress["el"] = "92.78";
             LanguageProgress["he"] = "100";
-            LanguageProgress["hi"] = "28.87";
+            LanguageProgress["hi"] = "31.96";
             LanguageProgress["hu"] = "100";
             LanguageProgress["id"] = "100";
             LanguageProgress["it"] = "100";
