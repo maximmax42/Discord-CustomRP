@@ -457,7 +457,7 @@ namespace CustomRPC
             LanguageProgress["zh-hans"] = "100";
             LanguageProgress["zh-hant"] = "100";
             LanguageProgress["hr"] = "72.16";
-            LanguageProgress["cs"] = "97.94";
+            LanguageProgress["cs"] = "100";
             LanguageProgress["da"] = "100";
             LanguageProgress["nl"] = "100";
             LanguageProgress["fil"] = "52.58";

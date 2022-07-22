@@ -429,4 +429,10 @@ Aby se projevily, obě pole by měla být větší než 0.</value>
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
     <value>Podporovatelé</value>
   </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>Od poslední aktualizace přítomnosti</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Ukáže kolik času uběhlo od chvíle kdy jsi připojil, nebo aktualizoval přítomnost.</value>
+  </data>
 </root>
