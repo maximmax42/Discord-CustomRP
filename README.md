@@ -36,6 +36,7 @@ So far, the app supports these languages:
 
 * [Arabic](https://poeditor.com/projects/po_edit?id_language=233&per_page=100&id=409229) (thanks to [FiberAhmed](https://github.com/FiberAhmed), ShadowlGamer and karimawi)
 * [Bengali](https://poeditor.com/projects/po_edit?id_language=19&per_page=100&id=409229) (thanks to [mrimran](https://github.com/mr-Imran))
+* [Bulgarian](https://poeditor.com/projects/po_edit?id_language=24&per_page=100&id=409229) (thanks to TheLocalSlavic and [EmeraldCeat](https://discord.gg/reformedcityrp))
 * [Burmese](https://poeditor.com/projects/po_edit?id_language=25&per_page=100&id=409229) (thanks to Infernite#0680 and BBbear#7149)
 * [Catalan](https://poeditor.com/projects/po_edit?id_language=26&per_page=100&id=409229) (thanks to [Darling-Chan](https://meap.gg/))
 * [Chinese (Simplified)](https://poeditor.com/projects/po_edit?id_language=274&per_page=100&id=409229) (thanks to [蘆筍/westxlu](https://linktr.ee/westxlu), Zjsun.ca and zozocha)
