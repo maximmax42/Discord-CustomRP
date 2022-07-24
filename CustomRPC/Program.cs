@@ -166,6 +166,7 @@ namespace CustomRPC
 
                 AppCenter.SetCountryCode(RegionInfo.CurrentRegion.TwoLetterISORegionName);
                 AppCenter.Start("141506f2-5a6b-46c5-a70e-693831ee131a", typeof(Analytics), typeof(Crashes));
+                // Please remove or comment out the line above if you're forking the app. Or get your own AppCenter id.
 
                 IntPtr _ = new MainForm(presetFile).Handle; // Terrible, yet allows to fully initialize the form without showing it first
                 Application.Run();
