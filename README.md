@@ -32,16 +32,18 @@ So far, the app supports these languages:
 
 ![Language progress hystogram](https://www.customrp.xyz/poeditor/progress.php)
 
-(Filipino and Latvian will not be added until they will be translated to at least 80%.)
+(Languages with less than 75% completion will not be added until they hit that mark, except Croatian.)
 
 * [Arabic](https://poeditor.com/projects/po_edit?id_language=233&per_page=100&id=409229) (thanks to [FiberAhmed](https://github.com/FiberAhmed), ShadowlGamer and karimawi)
+* [Bengali](https://poeditor.com/projects/po_edit?id_language=19&per_page=100&id=409229) (thanks to [mrimran](https://github.com/mr-Imran))
+* [Bulgarian](https://poeditor.com/projects/po_edit?id_language=24&per_page=100&id=409229) (thanks to TheLocalSlavic and [EmeraldCeat](https://discord.gg/reformedcityrp))
 * [Burmese](https://poeditor.com/projects/po_edit?id_language=25&per_page=100&id=409229) (thanks to Infernite#0680 and BBbear#7149)
 * [Catalan](https://poeditor.com/projects/po_edit?id_language=26&per_page=100&id=409229) (thanks to [Darling-Chan](https://meap.gg/))
 * [Chinese (Simplified)](https://poeditor.com/projects/po_edit?id_language=274&per_page=100&id=409229) (thanks to [蘆筍/westxlu](https://linktr.ee/westxlu), Zjsun.ca and zozocha)
 * [Chinese (Traditional)](https://poeditor.com/projects/po_edit?id_language=275&per_page=100&id=409229) (thanks to [蘆筍/westxlu](https://linktr.ee/westxlu))
 * [Croatian](https://poeditor.com/projects/po_edit?id_language=37&per_page=100&id=409229) (thanks to Monika)
 * [Czech](https://poeditor.com/projects/po_edit?id_language=38&per_page=100&id=409229) (thanks to [JayJake](https://jayk.live/) and Tobias)
-* [Danish](https://poeditor.com/projects/po_edit?id_language=39&per_page=100&id=409229) (thanks to Sebastian Hviid, Tobias and David)
+* [Danish](https://poeditor.com/projects/po_edit?id_language=39&per_page=100&id=409229) (thanks to Sebastian Hviid, Tobias, wimblim and David)
 * [Dutch](https://poeditor.com/projects/po_edit?id_language=41&per_page=100&id=409229) (thanks to [Jeremyzijlemans](https://sionhub.co.uk/) and [sys-256](https://sys-256.me/))
 * [English](https://poeditor.com/projects/po_edit?id_language=43&per_page=100&id=409229)
 * [French](https://poeditor.com/projects/po_edit?id_language=50&per_page=100&id=409229) (thanks to Nenaff)
