@@ -7,7 +7,7 @@ CustomRP collects this non-personal information during the usage of the app:
 - App Version
 
 As well as these user interactions:
-- Connection status to discord
+- Connection status to Discord
 - Connection errors (wrong ID, etc)
 - Connection failure (Discord isn't running, etc)
 - Updated presence:
@@ -28,6 +28,6 @@ As well as these user interactions:
 
 Crash reports send your settings (except ID) to help understand the cause of the crash.
 
-This information is collected to understand how the application is used, improve features and catch unexpected crashes as soon as they appear. The information is stored in the Microsoft App Center for 90 days and is not shared with any third parties.
+This information is collected to understand how the application is used, improve features and catch unexpected crashes as soon as they appear. The information is stored in the Microsoft App Center for 28 days and is not shared with any third parties.
 
 **Users can opt out at any time in the Settings menu.**
