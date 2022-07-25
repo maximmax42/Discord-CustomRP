@@ -123,31 +123,22 @@
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
     <value>Ứng dụng này sẽ chạy trong khay.</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 76</value>
-  </data>
-  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 22</value>
+  <data name="trayMenuStrip.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>Mở</value>
   </data>
-  <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 22</value>
-  </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
     <value>Kết nối lại</value>
-  </data>
-  <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 6</value>
-  </data>
-  <data name="trayMenuQuit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 22</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
     <value>Thoát</value>
   </data>
+  <data name="menuStrip.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 20</value>
   </data>
@@ -202,6 +193,12 @@
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
     <value>Khởi động ứng dụng thu nhỏ</value>
   </data>
+  <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 22</value>
+  </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tự động kết nối</value>
+  </data>
   <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
     <value>226, 6</value>
   </data>
@@ -211,7 +208,22 @@
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>Kiểm tra cập nhật</value>
   </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 22</value>
+  </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cho phép phân tích</value>
+  </data>
+  <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 6</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 22</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Chế độ tối</value>
+  </data>
+  <data name="toolStripSeparatorSettings3.Size" type="System.Drawing.Size, System.Drawing">
     <value>226, 6</value>
   </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -220,8 +232,17 @@
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>Ngôn ngữ</value>
   </data>
+  <data name="defaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
   <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
     <value>Mặc định</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 6</value>
+  </data>
+  <data name="sampleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
   </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>62, 20</value>
@@ -243,6 +264,12 @@
   </data>
   <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 6</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Người hỗ trợ</value>
   </data>
   <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>176, 22</value>
@@ -272,7 +299,7 @@
     <value>Tải xuống bản cập nhật</value>
   </data>
   <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
-    <value>181, 433</value>
+    <value>181, 456</value>
   </data>
   <data name="buttonUpdatePresence.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 24</value>
@@ -417,6 +444,21 @@ Thời gian của trạng thái có giới hạn là 24 giờ, nghĩa là sau 24
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
     <value>Tên của nút thứ hai.</value>
   </data>
+  <data name="radioButtonPresence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 18</value>
+  </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>Kể từ lần cập nhật hoạt động cuối</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Hiện thời gian đã qua kể từ lần cuối bạn kết nối hoặc cập nhật hoạt động.</value>
+  </data>
+  <data name="panelTimestamps.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateTimePickerTimestamp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="labelPartyOf.Location" type="System.Drawing.Point, System.Drawing">
     <value>338, 114</value>
   </data>
@@ -426,26 +468,52 @@ Thời gian của trạng thái có giới hạn là 24 giờ, nghĩa là sau 24
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>của</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="labelPartyOf.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tự động kết nối</value>
+  <data name="statusStrip.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Cho phép phân tích</value>
+  <data name="textBoxButton2Text.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Chế độ tối</value>
+  <data name="textBoxButton2URL.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
-    <value>Người hỗ trợ</value>
+  <data name="textBoxButton1URL.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="radioButtonPresence.Text" xml:space="preserve">
-    <value>Kể từ lần cập nhật hoạt động cuối</value>
+  <data name="textBoxButton1Text.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
-    <value>Hiện thời gian đã qua kể từ lần cuối bạn kết nối hoặc cập nhật hoạt động.</value>
+  <data name="numericUpDownPartySize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericUpDownPartyMax.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxSmallKey.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxSmallText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxLargeText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxLargeKey.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxState.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDetails.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxID.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
   </data>
 </root>

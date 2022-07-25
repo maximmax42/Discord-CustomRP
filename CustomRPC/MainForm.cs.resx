@@ -124,14 +124,14 @@
     <value>Aplikace poběží na pozadí.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 76</value>
-  </data>
   <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>149, 22</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>Otevřít</value>
+  </data>
+  <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 6</value>
   </data>
   <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
     <value>149, 22</value>
@@ -139,7 +139,10 @@
   <data name="trayMenuReconnect.Text" xml:space="preserve">
     <value>Znovu připojit</value>
   </data>
-  <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="trayMenuDisconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 22</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
     <value>146, 6</value>
   </data>
   <data name="trayMenuQuit.Size" type="System.Drawing.Size, System.Drawing">
@@ -148,11 +151,11 @@
   <data name="trayMenuQuit.Text" xml:space="preserve">
     <value>Ukončit</value>
   </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
+  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 104</value>
   </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Soubor</value>
+  <data name="trayMenuStrip.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>207, 22</value>
@@ -184,50 +187,80 @@
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
     <value>Ukončit</value>
   </data>
-  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 20</value>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
   </data>
-  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Nastavení</value>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Soubor</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 22</value>
+    <value>197, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
     <value>Spustit při startu</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 22</value>
+    <value>197, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
     <value>Spustit na liště</value>
   </data>
+  <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Připojovat automaticky</value>
+  </data>
   <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 6</value>
+    <value>194, 6</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 22</value>
+    <value>197, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>Vyhledat aktualizace</value>
   </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 6</value>
+  <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
   </data>
-  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 22</value>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Povolit analýzu</value>
   </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Jazyk</value>
+  <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 6</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tmavý režim</value>
+  </data>
+  <data name="toolStripSeparatorSettings3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 6</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 22</value>
   </data>
   <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
     <value>Výchozí</value>
   </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 6</value>
   </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Nápověda</value>
+  <data name="sampleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Jazyk</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nastavení</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>190, 22</value>
@@ -243,6 +276,12 @@
   </data>
   <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
     <value>187, 6</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Podporovatelé</value>
   </data>
   <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>190, 22</value>
@@ -265,14 +304,23 @@
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>Podobnosti...</value>
   </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nápověda</value>
+  </data>
   <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
     <value>Stáhnout aktualizace</value>
   </data>
+  <data name="menuStrip.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
-    <value>167, 433</value>
+    <value>167, 456</value>
   </data>
   <data name="buttonUpdatePresence.Size" type="System.Drawing.Size, System.Drawing">
     <value>143, 24</value>
@@ -304,11 +352,17 @@
   <data name="labelState.ToolTip" xml:space="preserve">
     <value>Druhý řádek v přítomnosti.</value>
   </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>Označení assetu pro malý obrázek nebo URL obrázku.</value>
+  </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Text který se zobrazí při najetí na malý obrázek.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
     <value>Text který se zobrazí při najetí na velký obrázek.</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>Označení assetu pro velký obrázek nebo URL obrázku.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 14</value>
@@ -402,6 +456,21 @@ Aby se projevily, obě pole by měla být větší než 0.</value>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
     <value>Název prvního tlačítka.</value>
   </data>
+  <data name="radioButtonPresence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 18</value>
+  </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>Od poslední aktualizace přítomnosti</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Ukáže kolik času uběhlo od chvíle kdy jsi připojil, nebo aktualizoval přítomnost.</value>
+  </data>
+  <data name="dateTimePickerTimestamp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelTimestamps.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="labelPartyOf.Location" type="System.Drawing.Point, System.Drawing">
     <value>344, 114</value>
   </data>
@@ -411,28 +480,52 @@ Aby se projevily, obě pole by měla být větší než 0.</value>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>z</value>
   </data>
-  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>Připojovat automaticky</value>
+  <data name="labelPartyOf.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Povolit analýzu</value>
+  <data name="statusStrip.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Označení assetu pro malý obrázek nebo URL obrázku.</value>
+  <data name="textBoxButton2Text.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Označení assetu pro velký obrázek nebo URL obrázku.</value>
+  <data name="textBoxButton2URL.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tmavý režim</value>
+  <data name="textBoxButton1URL.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
-    <value>Podporovatelé</value>
+  <data name="textBoxButton1Text.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="radioButtonPresence.Text" xml:space="preserve">
-    <value>Od poslední aktualizace přítomnosti</value>
+  <data name="numericUpDownPartySize.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
-    <value>Ukáže kolik času uběhlo od chvíle kdy jsi připojil, nebo aktualizoval přítomnost.</value>
+  <data name="numericUpDownPartyMax.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxSmallKey.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxSmallText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxLargeText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxLargeKey.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxState.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDetails.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxID.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
   </data>
 </root>
