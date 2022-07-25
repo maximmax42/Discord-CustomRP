@@ -637,6 +637,11 @@ namespace CustomRPC
             if (settings.partySize > settings.partyMax)
                 numericUpDownPartyMax.Value = settings.partySize;
 
+            settings.smallKey = settings.smallKey.Trim();
+            settings.largeKey = settings.largeKey.Trim();
+            settings.button1URL = settings.button1URL.Trim();
+            settings.button2URL = settings.button2URL.Trim();
+
             var rp = new RichPresence()
             {
                 Details = settings.details,
