@@ -239,6 +239,14 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Suomi",
+                    EnglishName = "Finnish",
+                    Code = "fi",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Deluxeria" },
+                    }
+                },
+                new Language {
                     Name = "Français",
                     EnglishName = "French",
                     Code = "fr",
@@ -471,11 +479,12 @@ namespace CustomRPC
             LanguageProgress["da"] = "100";
             LanguageProgress["nl"] = "100";
             LanguageProgress["fil"] = "52.58";
+            LanguageProgress["fi"] = "100";
             LanguageProgress["fr"] = "100";
             LanguageProgress["de"] = "100";
             LanguageProgress["el"] = "92.78";
             LanguageProgress["he"] = "100";
-            LanguageProgress["hi"] = "31.96";
+            LanguageProgress["hi"] = "100";
             LanguageProgress["hu"] = "100";
             LanguageProgress["id"] = "100";
             LanguageProgress["it"] = "100";
