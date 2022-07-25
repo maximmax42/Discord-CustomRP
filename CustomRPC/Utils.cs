@@ -266,12 +266,13 @@ namespace CustomRPC
                     }
                 },
                 new Language {
-                    Name = "Magyar",
-                    EnglishName = "Hungarian",
-                    Code = "hu",
+                    Name = "हिन्दी",
+                    EnglishName = "Hindi",
+                    Code = "hi",
                     Translators = new Translator[] {
-                        new Translator { Name = "Balla Botond", Url = "https://github.com/BallaBotond" },
-                        new Translator { Name = "Noxie" },
+                        new Translator { Name = "regex", Url = "https://github.com/REGEX777" },
+                        new Translator { Name = "Julian", Url = "https://discord.com/oauth2/authorize?client_id=962323485772881950&scope=bot&permissions=8" },
+                        new Translator { Name = "mochiron desu" }
                     }
                 },
                 new Language {
@@ -280,6 +281,15 @@ namespace CustomRPC
                     Code = "hr",
                     Translators = new Translator[] {
                         new Translator { Name = "Monika" },
+                    }
+                },
+                new Language {
+                    Name = "Magyar",
+                    EnglishName = "Hungarian",
+                    Code = "hu",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Balla Botond", Url = "https://github.com/BallaBotond" },
+                        new Translator { Name = "Noxie" },
                     }
                 },
                 new Language {
