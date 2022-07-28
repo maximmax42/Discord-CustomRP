@@ -530,6 +530,12 @@ namespace CustomRPC
                     Url = "https://www.twitch.tv/psychonaut303",
                     USDAmount = "6.00",
                 },
+                new Supporter {
+                    Name = "Boefjim",
+                    Url = "https://boefjim.com/",
+                    USDAmount = "16.13",
+                    AltAmount = "1000 RUB"
+                },
             };
         }
 
