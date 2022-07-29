@@ -154,9 +154,6 @@
   <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 104</value>
   </data>
-  <data name="trayMenuStrip.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>207, 22</value>
   </data>
@@ -316,9 +313,6 @@
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
     <value>Stáhnout aktualizace</value>
   </data>
-  <data name="menuStrip.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
     <value>167, 456</value>
   </data>
@@ -465,12 +459,6 @@ Aby se projevily, obě pole by měla být větší než 0.</value>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>Ukáže kolik času uběhlo od chvíle kdy jsi připojil, nebo aktualizoval přítomnost.</value>
   </data>
-  <data name="dateTimePickerTimestamp.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="panelTimestamps.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="labelPartyOf.Location" type="System.Drawing.Point, System.Drawing">
     <value>344, 114</value>
   </data>
@@ -479,53 +467,5 @@ Aby se projevily, obě pole by měla být větší než 0.</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>z</value>
-  </data>
-  <data name="labelPartyOf.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="statusStrip.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxButton2Text.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxButton2URL.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxButton1URL.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxButton1Text.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="numericUpDownPartySize.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="numericUpDownPartyMax.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="comboBoxSmallKey.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxSmallText.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxLargeText.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="comboBoxLargeKey.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxState.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxDetails.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxID.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
   </data>
 </root>

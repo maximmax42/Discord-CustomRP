@@ -123,9 +123,6 @@
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
     <value>Ứng dụng này sẽ chạy trong khay.</value>
   </data>
-  <data name="trayMenuStrip.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>Mở</value>
   </data>
@@ -134,9 +131,6 @@
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
     <value>Thoát</value>
-  </data>
-  <data name="menuStrip.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -453,12 +447,6 @@ Thời gian của trạng thái có giới hạn là 24 giờ, nghĩa là sau 24
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>Hiện thời gian đã qua kể từ lần cuối bạn kết nối hoặc cập nhật hoạt động.</value>
   </data>
-  <data name="panelTimestamps.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="dateTimePickerTimestamp.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="labelPartyOf.Location" type="System.Drawing.Point, System.Drawing">
     <value>338, 114</value>
   </data>
@@ -467,53 +455,5 @@ Thời gian của trạng thái có giới hạn là 24 giờ, nghĩa là sau 24
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>của</value>
-  </data>
-  <data name="labelPartyOf.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="statusStrip.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxButton2Text.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxButton2URL.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxButton1URL.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxButton1Text.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="numericUpDownPartySize.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="numericUpDownPartyMax.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="comboBoxSmallKey.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxSmallText.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxLargeText.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="comboBoxLargeKey.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxState.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxDetails.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBoxID.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
   </data>
 </root>
