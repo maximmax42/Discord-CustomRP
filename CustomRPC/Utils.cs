@@ -408,6 +408,15 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Српски",
+                    EnglishName = "Serbian",
+                    Code = "sr",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Vihaan" },
+                        new Translator { Name = "ToShibaToShamara" },
+                    }
+                },
+                new Language {
                     Name = "தமிழ்",
                     EnglishName = "Tamil",
                     Code = "ta",
