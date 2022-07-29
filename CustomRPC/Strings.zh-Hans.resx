@@ -178,4 +178,7 @@
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>请将路径 "{0}" 添加到防病毒软体的白名单中。如果此错误仍然存在，请重新安装 CustomRP。</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>此图像的 URL 过长！</value>
+  </data>
 </root>

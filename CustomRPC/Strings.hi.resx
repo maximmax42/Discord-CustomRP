@@ -178,4 +178,7 @@
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>कृपया अपने एंटीवायरस के अपवादों में "{0}" पथ जोड़ें। यदि यह त्रुटि बनी रहती है तो CustomRP को पुनर्स्थापित करें।</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>छवि URL बहुत लंबा है!</value>
+  </data>
 </root>
