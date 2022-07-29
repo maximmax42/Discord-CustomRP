@@ -486,7 +486,7 @@ namespace CustomRPC
 
             LanguageProgress = new Dictionary<string, string>();
             #region Generated code for progress
-            LanguageProgress["ar"] = "98.98";
+            LanguageProgress["ar"] = "100";
             LanguageProgress["bn"] = "98.98";
             LanguageProgress["bg"] = "98.98";
             LanguageProgress["my"] = "95.92";
@@ -498,7 +498,7 @@ namespace CustomRPC
             LanguageProgress["da"] = "98.98";
             LanguageProgress["nl"] = "98.98";
             LanguageProgress["fil"] = "52.04";
-            LanguageProgress["fi"] = "98.98";
+            LanguageProgress["fi"] = "100";
             LanguageProgress["fr"] = "98.98";
             LanguageProgress["de"] = "98.98";
             LanguageProgress["el"] = "91.84";
@@ -521,7 +521,7 @@ namespace CustomRPC
             LanguageProgress["es"] = "98.98";
             LanguageProgress["ta"] = "98.98";
             LanguageProgress["th"] = "98.98";
-            LanguageProgress["tr"] = "98.98";
+            LanguageProgress["tr"] = "100";
             LanguageProgress["uk"] = "95.92";
             LanguageProgress["vi"] = "100";
             #endregion

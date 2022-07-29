@@ -178,4 +178,7 @@ Paina Kyllä nollataksesi asetukset, ja paina Ei lopettaaksesi.</value>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Lisää polku "{0}" virustorjuntaohjelman poikkeuksiin. Asenna CustomRP uudelleen, jos tämä virhe jatkuu.</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>Kuvan URL-osoite on liian pitkä!</value>
+  </data>
 </root>

@@ -178,4 +178,7 @@ Ayarları sıfırlamak için Evet'e, çıkmak için Hayır'a basın.</value>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Lütfen "{0}" yolunu antivirüsünüzün istisnalarına ekleyiniz. Eğer bu hatayı almaya devam ederseniz CustomRP'yi yeniden yükleyiniz.</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>Resim URL'si çok uzun!</value>
+  </data>
 </root>
