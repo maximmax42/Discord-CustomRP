@@ -184,4 +184,7 @@
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Пожалуйста, добавьте путь "{0}" в исключения антивируса. Переустановите CustomRP, если ошибка осталась.</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>Ссылка на изображение слишком длинная!</value>
+  </data>
 </root>

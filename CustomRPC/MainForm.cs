@@ -529,7 +529,7 @@ namespace CustomRPC
         /// <summary>
         /// Initializes connection to the Discord API.
         /// </summary>
-        /// <returns><see langword="False"/> if ID isn't set, otherwise <see langword="true"/>.</returns>
+        /// <returns><see langword="False"/> if ID isn't set or something is wrong with the presence, otherwise <see langword="true"/>.</returns>
         private bool Init()
         {
             if (settings.id == "")
@@ -550,9 +550,7 @@ namespace CustomRPC
 
             client.Initialize();
 
-            SetPresence();
-
-            return true;
+            return SetPresence();
         }
 
         /// <summary>
@@ -629,10 +627,11 @@ namespace CustomRPC
         /// <summary>
         /// Sets up new presence from the settings.
         /// </summary>
-        private void SetPresence()
+        /// <returns><see langword="True"/> if presence was successfully set, <see langword="false"/> otherwise.</returns>
+        private bool SetPresence()
         {
             if (client == null || client.IsDisposed)
-                return;
+                return false;
 
             if (settings.partySize > settings.partyMax)
                 numericUpDownPartyMax.Value = settings.partySize;
@@ -646,13 +645,6 @@ namespace CustomRPC
             {
                 Details = settings.details,
                 State = settings.state,
-                Assets = new Assets()
-                {
-                    SmallImageKey = Uri.EscapeUriString(settings.smallKey),
-                    SmallImageText = settings.smallText,
-                    LargeImageKey = Uri.EscapeUriString(settings.largeKey),
-                    LargeImageText = settings.largeText,
-                },
                 Party = new Party()
                 {
                     ID = (settings.partySize > 0 && settings.partyMax > 0) ? "CustomRP" : "",
@@ -661,40 +653,80 @@ namespace CustomRPC
                 },
             };
 
-            // Is there a way to not write this code twice? I don't think so since strings are immutable.
+            Uri tempUri;
 
-            if (rp.Assets.LargeImageKey != null
-                && !Regex.IsMatch(rp.Assets.LargeImageKey, "//(www\\.)?customrp\\.xyz")
-                && Regex.IsMatch(rp.Assets.LargeImageKey, "//((cdn)|(media))\\.discordapp\\.((com)|(net))/"))
-                rp.Assets.LargeImageKey = "https://customrp.xyz/p/?u=" + rp.Assets.LargeImageKey;
+            try
+            {
+                if (Uri.TryCreate(settings.smallKey, UriKind.Absolute, out tempUri))
+                    settings.smallKey = tempUri.AbsoluteUri;
 
-            if (rp.Assets.SmallImageKey != null
-                && !Regex.IsMatch(rp.Assets.SmallImageKey, "//(www\\.)?customrp\\.xyz")
-                && Regex.IsMatch(rp.Assets.SmallImageKey, "//((cdn)|(media))\\.discordapp\\.((com)|(net))/"))
-                rp.Assets.SmallImageKey = "https://customrp.xyz/p/?u=" + rp.Assets.SmallImageKey;
+                if (Uri.TryCreate(settings.largeKey, UriKind.Absolute, out tempUri))
+                    settings.largeKey = tempUri.AbsoluteUri;
+
+                rp.Assets = new Assets()
+                {
+                    SmallImageKey = settings.smallKey,
+                    SmallImageText = settings.smallText,
+                    LargeImageKey = settings.largeKey,
+                    LargeImageText = settings.largeText,
+                };
+
+                // Is there a way to not write this code twice? I don't think so since strings are immutable.
+
+                if (rp.Assets.SmallImageKey != null
+                    && !Regex.IsMatch(rp.Assets.SmallImageKey, "//(www\\.)?customrp\\.xyz")
+                    && Regex.IsMatch(rp.Assets.SmallImageKey, "//((cdn)|(media))\\.discordapp\\.((com)|(net))/"))
+                    rp.Assets.SmallImageKey = "https://customrp.xyz/p/?u=" + rp.Assets.SmallImageKey;
+
+                if (rp.Assets.LargeImageKey != null
+                    && !Regex.IsMatch(rp.Assets.LargeImageKey, "//(www\\.)?customrp\\.xyz")
+                    && Regex.IsMatch(rp.Assets.LargeImageKey, "//((cdn)|(media))\\.discordapp\\.((com)|(net))/"))
+                    rp.Assets.LargeImageKey = "https://customrp.xyz/p/?u=" + rp.Assets.LargeImageKey;
+            }
+            catch
+            {
+                MessageBox.Show(Strings.errorInvalidImageURL, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                return false;
+            }
+            finally
+            {
+                Utils.SaveSettings();
+            }
 
             buttonsList.Clear();
 
             try
             {
+                if (Uri.TryCreate(settings.button1URL, UriKind.Absolute, out tempUri))
+                    settings.button1URL = tempUri.AbsoluteUri;
+
+                if (Uri.TryCreate(settings.button2URL, UriKind.Absolute, out tempUri))
+                    settings.button2URL = tempUri.AbsoluteUri;
+
+                Utils.SaveSettings();
+
                 if (settings.button1Text != "" && settings.button1URL != "")
                     buttonsList.Add(new DButton()
                     {
                         Label = settings.button1Text,
-                        Url = Uri.EscapeUriString(settings.button1URL)
+                        Url = settings.button1URL
                     });
 
                 if (settings.button2Text != "" && settings.button2URL != "")
                     buttonsList.Add(new DButton()
                     {
                         Label = settings.button2Text,
-                        Url = Uri.EscapeUriString(settings.button2URL)
+                        Url = settings.button2URL
                     });
             }
             catch
             {
                 MessageBox.Show(Strings.errorInvalidURL, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
-                return;
+                return false;
+            }
+            finally
+            {
+                Utils.SaveSettings();
             }
 
             rp.Buttons = buttonsList.ToArray();
@@ -712,6 +744,8 @@ namespace CustomRPC
             }
 
             client.SetPresence(rp);
+
+            return true;
         }
 
         /// <summary>

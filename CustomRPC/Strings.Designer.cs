@@ -100,6 +100,15 @@ namespace CustomRPC {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на The image URL is too long!.
+        /// </summary>
+        internal static string errorInvalidImageURL {
+            get {
+                return ResourceManager.GetString("errorInvalidImageURL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Failed to import preset; the file is either missing, corrupted, or not properly formatted..
         /// </summary>
         internal static string errorInvalidPresetFile {

@@ -183,4 +183,7 @@ Press Yes to reset the settings, press No to quit.</value>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Please add "{0}" path to your antivirus's exceptions. Reinstall CustomRP if this error persists.</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>The image URL is too long!</value>
+  </data>
 </root>
