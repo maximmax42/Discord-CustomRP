@@ -514,7 +514,7 @@ namespace CustomRPC
             LanguageProgress["lt"] = "98.98";
             LanguageProgress["fa"] = "98.98";
             LanguageProgress["pl"] = "98.98";
-            LanguageProgress["pt-br"] = "98.98";
+            LanguageProgress["pt-br"] = "100";
             LanguageProgress["ro"] = "95.92";
             LanguageProgress["ru"] = "100";
             LanguageProgress["sr"] = "98.98";
@@ -523,7 +523,7 @@ namespace CustomRPC
             LanguageProgress["th"] = "98.98";
             LanguageProgress["tr"] = "98.98";
             LanguageProgress["uk"] = "95.92";
-            LanguageProgress["vi"] = "98.98";
+            LanguageProgress["vi"] = "100";
             #endregion
 
             Supporters = new List<Supporter>

@@ -178,4 +178,7 @@ Chọn Có để đặt lại thiết lập, chọn Không để thoát.</value>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Vui lòng thêm đường dẫn "{0}" vào phần ngoại lệ của phần mềm chống vi-rút. Cài lại CustomRP nếu lỗi này vẫn tiếp tục tái diễn.</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>URL của ảnh quá dài!</value>
+  </data>
 </root>

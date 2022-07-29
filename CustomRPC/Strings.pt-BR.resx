@@ -178,4 +178,7 @@ Pressione Sim para redefinir as configurações, pressione Não para sair.</valu
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Adicione o caminho "{0}" às exceções do seu antivírus. Reinstale o CustomRP se esse erro persistir.</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>O URL da imagem é muito longo!</value>
+  </data>
 </root>
