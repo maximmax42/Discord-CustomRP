@@ -15,6 +15,7 @@ Custom Discord Rich Presence Manager for Windows. Some of its features are run o
 ## Supporters
 
 * [Grim](https://www.savethekiwi.nz/) - $25.00 (0.0008328 BTC)
+* [Boefjim](https://boefjim.com) - $16.13 (1000 RUB)
 * [White Rose](https://www.twitch.tv/psychonaut303) - $6.00
 
 ## Downloading and setting up
@@ -46,10 +47,13 @@ So far, the app supports these languages:
 * [Danish](https://poeditor.com/projects/po_edit?id_language=39&per_page=100&id=409229) (thanks to Sebastian Hviid, Tobias, wimblim and David)
 * [Dutch](https://poeditor.com/projects/po_edit?id_language=41&per_page=100&id=409229) (thanks to [Jeremyzijlemans](https://sionhub.co.uk/) and [sys-256](https://sys-256.me/))
 * [English](https://poeditor.com/projects/po_edit?id_language=43&per_page=100&id=409229)
-* [French](https://poeditor.com/projects/po_edit?id_language=50&per_page=100&id=409229) (thanks to Nenaff)
+* [Filipino](https://poeditor.com/projects/po_edit?id_language=219&per_page=100&id=409229) (thanks to CtrlAltDelicious, jericko and Hachiki)
+* [Finnish](https://poeditor.com/projects/po_edit?id_language=49&per_page=100&id=409229) (thanks to Deluxeria)
+* [French](https://poeditor.com/projects/po_edit?id_language=50&per_page=100&id=409229) (thanks to Nenaff, VaporCorp and RedNix)
 * [German](https://poeditor.com/projects/po_edit?id_language=55&per_page=100&id=409229) (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), ahmad, [Marcel Gustin](https://marcelgustin.de), binarynoise and [Felix](https://github.com/fbrettnich))
 * [Greek](https://poeditor.com/projects/po_edit?id_language=56&per_page=100&id=409229) (thanks to Alex Grivas)
 * [Hebrew](https://poeditor.com/projects/po_edit?id_language=61&per_page=100&id=409229) (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg), [Kahpot Vanilla](https://linktr.ee/KahpotVanilla) and Amit)
+* [Hindi](https://poeditor.com/projects/po_edit?id_language=63&per_page=100&id=409229) (thanks to [regex](https://github.com/REGEX777), [Julian](https://discord.com/oauth2/authorize?client_id=962323485772881950&scope=bot&permissions=8) and mochiron desu)
 * [Hungarian](https://poeditor.com/projects/po_edit?id_language=65&per_page=100&id=409229) (thanks to [Botond Balla](https://github.com/BallaBotond) and Noxie)
 * [Indonesian](https://poeditor.com/projects/po_edit?id_language=69&per_page=100&id=409229) (thanks to Hapnan, Apolycious and [Bayu Sopwan](https://bayusopwan.github.io))
 * [Italian](https://poeditor.com/projects/po_edit?id_language=75&per_page=100&id=409229) (thanks to DJD320, Frin, Matthww, [ItsMrCube](https://mrcube.live/) and Bay)
@@ -58,10 +62,11 @@ So far, the app supports these languages:
 * [Kurdish](https://poeditor.com/projects/po_edit?id_language=90&per_page=100&id=409229) (thanks to [SamTheNoob](https://linktr.ee/stn69))
 * [Lithuanian](https://poeditor.com/projects/po_edit?id_language=96&per_page=100&id=409229) (thanks to [White Rose](https://www.twitch.tv/psychonaut303))
 * [Persian](https://poeditor.com/projects/po_edit?id_language=126&per_page=100&id=409229) (thanks to [Mohammad Mahdi](https://mo-mahdihh.ir/))
-* [Polish](https://poeditor.com/projects/po_edit?id_language=127&per_page=100&id=409229) (thanks to Lol1112345.lol12345, Liso, Piter, Oscar and [Marcel Gustin](https://marcelgustin.de))
+* [Polish](https://poeditor.com/projects/po_edit?id_language=127&per_page=100&id=409229) (thanks to Lol1112345.lol12345, Liso, Piter, Oscar, [Marcel Gustin](https://marcelgustin.de) and Tofix.rs)
 * [Portugese (BR)](https://poeditor.com/projects/po_edit?id_language=190&per_page=100&id=409229) (thanks to viniciotricolor, Slimakoi, Felipe B. Pansani, DeusDrizzyy and Leo)
 * [Romanian](https://poeditor.com/projects/po_edit?id_language=131&per_page=100&id=409229) (thanks to [DiDYRO](https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w), Denisbolba and Matthww)
 * [Russian](https://poeditor.com/projects/po_edit?id_language=134&per_page=100&id=409229)
+* [Serbian](https://poeditor.com/projects/po_edit?id_language=141&per_page=100&id=409229) (thanks to Vihaan, ToShibaToShamara and Veljko)
 * [Spanish](https://poeditor.com/projects/po_edit?id_language=152&per_page=100&id=409229) (thanks to Vexot, Pablo, [Darling-Chan](https://meap.gg/), Luciousmc, Alvaro203204 and Epic)
 * [Tamil](https://poeditor.com/projects/po_edit?id_language=160&per_page=100&id=409229) (thanks to [Julian](https://discord.com/oauth2/authorize?client_id=962323485772881950&scope=bot&permissions=8))
 * [Thai](https://poeditor.com/projects/po_edit?id_language=163&per_page=100&id=409229) (thanks to Squishee Freshy and YuuabyssSSID)
