@@ -144,7 +144,7 @@ Vous pouvez l'ouvrir à tout moment en accédant à Aide -&gt; Ouvrir le manuel 
     <value>Connexion...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Connexion échouée</value>
+    <value>Connexion échouée (Est-ce que Discord est lancé ?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>Déconnecté</value>
@@ -159,14 +159,14 @@ Vous pouvez l'ouvrir à tout moment en accédant à Aide -&gt; Ouvrir le manuel 
     <value>Impossible de se connecter à Internet!</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
-    <value>Aucune mise à jour trouvé!</value>
+    <value>Aucune mise à jour trouvée!</value>
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
     <value>Le fichier de configuration est corrompu.
 Cliquez sur "oui" pour réinitialiser la configuration, cliquez sur "non" pour quitter.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Échec d'importation de la configuration ; le fichier est peut-être manquant, corrompu, ou formaté de la mauvaise façon.</value>
+    <value>Échec d'importation de la configuration; le fichier est peut-être manquant, corrompu, ou mal formaté.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
     <value>Autorisez-vous CustomRP à envoyer vos données analytiques au développeur ?
@@ -177,5 +177,8 @@ Cliquez sur "oui" pour réinitialiser la configuration, cliquez sur "non" pour q
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Veuillez ajouter le répertoire "{0}" aux exceptions de votre antivirus. Si l'erreur persiste, réinstallez CustomRP.</value>
+  </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>L'URL de cette image est trop long !</value>
   </data>
 </root>

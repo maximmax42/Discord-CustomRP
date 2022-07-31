@@ -178,4 +178,7 @@ Klikněte Ano pro reset nastavení, klikněte Ne pro opuštění.</value>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Přidejte prosím "{0}" jako výjimku u vašeho antiviru. Proveďte reinstalaci jestliže chyba přetrvává.</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>URL obrázku je příliš dlouhé!</value>
+  </data>
 </root>

@@ -252,6 +252,7 @@ namespace CustomRPC
                     Code = "fr",
                     Translators = new Translator[] {
                         new Translator { Name = "Nenaff" },
+                        new Translator { Name = "VaporCorp" }, // Account deleted
                         new Translator { Name = "RedNix" },
                     }
                 },
@@ -374,6 +375,7 @@ namespace CustomRPC
                         new Translator { Name = "Piter" },
                         new Translator { Name = "Oscar" },
                         new Translator { Name = "Marcel Gustin", Url = "https://marcelgustin.de" },
+                        new Translator { Name = "Tofix.rs" },
                     }
                 },
                 new Language {
@@ -414,6 +416,7 @@ namespace CustomRPC
                     Translators = new Translator[] {
                         new Translator { Name = "Vihaan" },
                         new Translator { Name = "ToShibaToShamara" },
+                        new Translator { Name = "Veljko" },
                     }
                 },
                 new Language {

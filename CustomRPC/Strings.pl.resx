@@ -178,4 +178,7 @@ Aby go zresetować kliknij Tak, lub Nie żeby wyjść.</value>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Proszę dodaj "{0}" do listy ignorowanych aplikacji w swoim antywirusie. Jeśli ten błąd się powtarza zainstaluj ponownie CustomRP</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>Link do zdjęcia jest zbyt długi!</value>
+  </data>
 </root>

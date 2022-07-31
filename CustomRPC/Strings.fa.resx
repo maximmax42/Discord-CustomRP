@@ -179,4 +179,7 @@
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>لطفا این آدرس "{0}" را به وایت لیست آنتی ویروس خود اضافه کنید , یا نرم افزار را مجدد نصب کنید</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>آدرس عکس خیلی طولانی است!</value>
+  </data>
 </root>

@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>Double cliquez sur l'icône pour la montrer à nouveau, ou clique droit pour quitter.</value>
+    <value>Double cliquez sur l'icône pour la montrer à nouveau, ou clic droit pour quitter.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>L'application tournera dans la barre d'état système.</value>
+    <value>L'application tourne en arrière-plan.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -200,7 +200,7 @@
     <value>250, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Démarrer minimisé</value>
+    <value>Démarrage minimisé</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 22</value>
@@ -395,14 +395,14 @@
     <value>121, 18</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>Votre temps local</value>
+    <value>Votre heure locale</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
     <value>Montre votre temps actuel dans un format de 24 heures.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Définis l'horodotage pour le status, qui se montre en dessus de tout le texte ci-dessus.
-Les timers de status ont une limite de 24h, ce qui signifie que après 24h, le temps reviendra à 00:00.</value>
+    <value>Définis l'horodotage pour le statut, qui se montre en dessous de tout le texte ci-dessus.
+Les timers de statut ont une limite de 24h, ce qui signifie qu'après 24h, le temps reviendra à 00:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
     <value>Nombre de joueurs dans le groupe, qui se montre à coté de "State".
@@ -415,7 +415,7 @@ Pour prendre effet, les deux champs doivent être supérieurs à 0.</value>
     <value>Horodotage personnalisé</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
-    <value>Montre combien de temps s'est écoulé par rapport à la date spécifié.</value>
+    <value>Affiche le temps écoulé par rapport à la date spécifiée.</value>
   </data>
   <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>58, 14</value>
@@ -424,7 +424,7 @@ Pour prendre effet, les deux champs doivent être supérieurs à 0.</value>
     <value>Bouton 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>Le premier des deux boutons qui se montre sous votre status dans la fenêtre popup et du coté droit de votre profile.</value>
+    <value>Le premier des deux boutons qui se montre sous votre statut dans la fenêtre pop-up et du coté droit de votre profil.</value>
   </data>
   <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>58, 14</value>
@@ -433,7 +433,7 @@ Pour prendre effet, les deux champs doivent être supérieurs à 0.</value>
     <value>Bouton 2</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>Deuxième bouton, qui apparait juste en dessous du premier, ou à l'emplacement du premier, si ce dernier n'est pas définis.</value>
+    <value>Deuxième bouton, qui apparait juste en dessous du premier, ou à l'emplacement du premier, si ce dernier n'est pas défini.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
     <value>URL vers laquelle l'utilisateur sera redirigé en cliquant sur le bouton.</value>
@@ -454,12 +454,15 @@ Pour prendre effet, les deux champs doivent être supérieurs à 0.</value>
     <value>Depuis la mise à jour de la présence</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
-    <value>Affiche combien de temps sont passé depuis ta dernière connexion ou la mise à jour de ta présence.</value>
+    <value>Affiche combien de temps s'est écoulé depuis ta dernière connexion ou la mise à jour de ta présence.</value>
   </data>
   <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
     <value>21, 14</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>de</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Supporters</value>
   </data>
 </root>

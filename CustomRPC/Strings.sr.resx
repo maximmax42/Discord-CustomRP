@@ -178,4 +178,7 @@
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Додајте путању „{0}“ изузецима вашег антивируса. Поново инсталирајте CustomRP ако се ова грешка настави.</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>URL слике је превише дуг!</value>
+  </data>
 </root>
