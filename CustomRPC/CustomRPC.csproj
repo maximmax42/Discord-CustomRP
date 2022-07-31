@@ -163,6 +163,9 @@
     <EmbeddedResource Include="About.fi.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="About.fil.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="About.fr.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -284,6 +287,9 @@
     <EmbeddedResource Include="ErrorReportViewer.fi.resx">
       <DependentUpon>ErrorReportViewer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ErrorReportViewer.fil.resx">
+      <DependentUpon>ErrorReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ErrorReportViewer.fr.resx">
       <DependentUpon>ErrorReportViewer.cs</DependentUpon>
     </EmbeddedResource>
@@ -387,6 +393,9 @@
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.fi.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.fil.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.hi.resx">
@@ -556,6 +565,10 @@
       <DependentUpon>Strings.resx</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Strings.fil.resx">
+      <DependentUpon>Strings.resx</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Strings.fr.resx">
       <DependentUpon>Strings.resx</DependentUpon>
       <SubType>Designer</SubType>
@@ -693,6 +706,9 @@
       <DependentUpon>UpdatePrompt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdatePrompt.fi.resx">
+      <DependentUpon>UpdatePrompt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdatePrompt.fil.resx">
       <DependentUpon>UpdatePrompt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdatePrompt.fr.resx">

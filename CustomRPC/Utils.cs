@@ -247,6 +247,16 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Filipino",
+                    EnglishName = "Filipino",
+                    Code = "fil",
+                    Translators = new Translator[] {
+                        new Translator { Name = "CtrlAltDelicious" },
+                        new Translator { Name = "jericko" },
+                        new Translator { Name = "Hachiki" },
+                    }
+                },
+                new Language {
                     Name = "Français",
                     EnglishName = "French",
                     Code = "fr",
@@ -497,12 +507,12 @@ namespace CustomRPC
             LanguageProgress["zh-hans"] = "100";
             LanguageProgress["zh-hant"] = "100";
             LanguageProgress["hr"] = "71.43";
-            LanguageProgress["cs"] = "98.98";
+            LanguageProgress["cs"] = "100";
             LanguageProgress["da"] = "98.98";
             LanguageProgress["nl"] = "98.98";
-            LanguageProgress["fil"] = "52.04";
+            LanguageProgress["fil"] = "100";
             LanguageProgress["fi"] = "100";
-            LanguageProgress["fr"] = "98.98";
+            LanguageProgress["fr"] = "100";
             LanguageProgress["de"] = "98.98";
             LanguageProgress["el"] = "91.84";
             LanguageProgress["he"] = "98.98";
@@ -510,17 +520,17 @@ namespace CustomRPC
             LanguageProgress["hu"] = "98.98";
             LanguageProgress["id"] = "98.98";
             LanguageProgress["it"] = "98.98";
-            LanguageProgress["ja"] = "98.98";
+            LanguageProgress["ja"] = "100";
             LanguageProgress["ko"] = "100";
             LanguageProgress["ku"] = "93.88";
             LanguageProgress["lv"] = "40.82";
             LanguageProgress["lt"] = "98.98";
-            LanguageProgress["fa"] = "98.98";
-            LanguageProgress["pl"] = "98.98";
+            LanguageProgress["fa"] = "100";
+            LanguageProgress["pl"] = "100";
             LanguageProgress["pt-br"] = "100";
             LanguageProgress["ro"] = "95.92";
             LanguageProgress["ru"] = "100";
-            LanguageProgress["sr"] = "98.98";
+            LanguageProgress["sr"] = "100";
             LanguageProgress["es"] = "98.98";
             LanguageProgress["ta"] = "98.98";
             LanguageProgress["th"] = "98.98";
