@@ -179,4 +179,7 @@
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>הוסף את הנתיב "{0}" לחריגים של האנטי-וירוס שלך. התקן מחדש את CustomRP אם שגיאה זו נמשכת.</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>הקישור לתמונה יותר מידי ארוך!</value>
+  </data>
 </root>

@@ -302,7 +302,7 @@
     <value>I-Diskonekta</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>I-Stop ang app sa galing Discord.</value>
+    <value>I-tigil ang app galing sa Discord. Pakitandaan baka matagal mag diskonekt.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>ID ng aplikasyon galing ng Discord Developers site.</value>
