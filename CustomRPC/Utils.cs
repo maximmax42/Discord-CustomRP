@@ -251,7 +251,7 @@ namespace CustomRPC
                     EnglishName = "Filipino",
                     Code = "fil",
                     Translators = new Translator[] {
-                        new Translator { Name = "CtrlAltDelicious" },
+                        new Translator { Name = "CtrlAltDelicious", Url = "https://www.youtube.com/c/CtrlAltDelicious_" },
                         new Translator { Name = "jericko" },
                         new Translator { Name = "Hachiki" },
                     }
