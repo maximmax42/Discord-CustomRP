@@ -395,6 +395,7 @@ namespace CustomRPC
             try
             {
                 releases = await githubClient.Repository.Release.GetAll("maximmax42", "Discord-CustomRP");
+                latestRelease = releases[0];
             }
             catch
             {
@@ -403,8 +404,6 @@ namespace CustomRPC
                     MessageBox.Show(this, Strings.errorNoInternet, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-
-            latestRelease = releases[0];
 
             string latestStr = latestRelease.TagName;
 
