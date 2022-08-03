@@ -34,7 +34,8 @@
                 if (value == ConnectionType.None)
                     throw new System.ComponentModel.InvalidEnumArgumentException("Attempt to set State to ConnectionType.None.");
 
-                previous = current;
+                if (current != ConnectionType.Connecting)
+                    previous = current;
                 current = value;
             }
         }
