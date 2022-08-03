@@ -7,25 +7,24 @@ CustomRP collects this non-personal information during the usage of the app:
 - App Version
 
 As well as these user interactions:
-- Connected to Discord
-- Disconnected from Discord
-- Connection error (wrong ID, etc)
+- Connection status to Discord
+- Connection errors (wrong ID, etc)
 - Connection failure (Discord isn't running, etc)
 - Updated presence:
   - Does it have party?
   - What timestamp type is used?
-  - Does it have big image set?
-  - Does it have small image set?
+  - Does it have a big image set?
+  - Does it have a small image set?
   - How many buttons are set?
 - New version was ignored:
   - Which version?
 - Saved a preset
 - Loaded a preset
-- Clicked on a translator menu item:
-  - Name of the translator
-  - URL of the translator
-- Opened pipe select window
-- Opened about window
+- Clicked on a supporter/translator menu item:
+  - Name of the supporter/translator
+  - URL of the supporter/translator
+- Opened "Pipe select" window
+- Opened "About" window
 
 Crash reports send your settings (except ID) to help understand the cause of the crash.
 
