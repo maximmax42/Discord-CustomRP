@@ -434,7 +434,7 @@ namespace CustomRPC
                     EnglishName = "Swedish",
                     Code = "sv",
                     Translators = new Translator[] {
-                        new Translator { Name = "leadattic_" }, // Axel
+                        new Translator { Name = "leadattic_", Url = "https://leadattic.leadattic953788.repl.co/"}, // Axel
                         new Translator { Name = "Rose Liljensten" },
                     }
                 },
