@@ -41,6 +41,18 @@ namespace CustomRPC
 #else
             string mutexName = "CustomRP";
 #endif
+            bool isSilent = false;
+
+            if (args.Length > 0 && (args[0] == "--help" || args[0] == "-?"))
+            {
+                var helpText = new StringBuilder();
+                helpText.AppendLine("Usage: CustomRP.exe [options] [file]");
+                helpText.AppendLine("-2, --second-instance: open as second instance");
+                helpText.AppendLine("-s, --silent-import: silent preset import");
+                helpText.AppendLine("-?, --help: shows this help text");
+                MessageBox.Show(helpText.ToString(), Application.ProductName);
+                return;
+            }
 
             foreach (string arg in args)
             {
@@ -48,6 +60,11 @@ namespace CustomRPC
                 {
                     IsSecondInstance = true;
                     mutexName += " 2";
+                }
+
+                if (arg == "--silent-import" || arg == "-s")
+                {
+                    isSilent = true;
                 }
 
                 if (File.Exists(arg))
@@ -61,7 +78,8 @@ namespace CustomRPC
 
             if (!createdNew)
             {
-                WinApi.PostMessage(new IntPtr(0xffff), WM_SHOWFIRSTINSTANCE, IntPtr.Zero, IntPtr.Zero);
+                if (!isSilent)
+                    WinApi.PostMessage(new IntPtr(0xffff), WM_SHOWFIRSTINSTANCE, IntPtr.Zero, IntPtr.Zero);
 
                 if (presetFile != null)
                 {
