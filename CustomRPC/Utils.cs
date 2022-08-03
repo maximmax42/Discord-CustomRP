@@ -430,6 +430,15 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Svenska",
+                    EnglishName = "Swedish",
+                    Code = "sv",
+                    Translators = new Translator[] {
+                        new Translator { Name = "leadattic_" }, // Axel
+                        new Translator { Name = "Rose Liljensten" },
+                    }
+                },
+                new Language {
                     Name = "தமிழ்",
                     EnglishName = "Tamil",
                     Code = "ta",
@@ -532,7 +541,7 @@ namespace CustomRPC
             LanguageProgress["ru"] = "100";
             LanguageProgress["sr"] = "100";
             LanguageProgress["es"] = "98.98";
-            LanguageProgress["sv"] = "37.76";
+            LanguageProgress["sv"] = "100";
             LanguageProgress["ta"] = "98.98";
             LanguageProgress["th"] = "98.98";
             LanguageProgress["tr"] = "100";
