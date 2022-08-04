@@ -178,4 +178,7 @@ Pulse Sí para restablecer la configuración, pulse No para salir.</value>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Por favor, añade "{0}" a las excepciones de tu antivirus. Si este error persiste, reinstalar CustomRP.</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>El URL de la imagen es demaciado largo!</value>
+  </data>
 </root>

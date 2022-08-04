@@ -178,4 +178,7 @@ Premeu Sí per restablir la configuració, premeu No per sortir.</value>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Si us plau, afegeix "{0}" a les excepcions del teu antivirus. Si aquest error persisteix, reinstal·lar CustomRP.</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>L'URL de la imatge és massa llarg!</value>
+  </data>
 </root>
