@@ -262,8 +262,8 @@ namespace CustomRPC
                     Code = "fr",
                     Translators = new Translator[] {
                         new Translator { Name = "Nenaff" },
-                        new Translator { Name = "VaporCorp" }, // Account deleted
                         new Translator { Name = "RedNix" },
+                        new Translator { Name = "VaporCorp" }, // Account deleted
                     }
                 },
                 new Language {

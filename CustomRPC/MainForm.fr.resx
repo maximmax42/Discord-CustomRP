@@ -158,13 +158,13 @@
     <value>277, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Charger une configuration</value>
+    <value>Charger une préconfiguration</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>277, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sauvegarder une configuration</value>
+    <value>Sauvegarder une préconfiguration</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>274, 6</value>
@@ -173,7 +173,7 @@
     <value>277, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Mettre en ligne des ressources</value>
+    <value>Ajouter des ressources</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>274, 6</value>
@@ -194,7 +194,7 @@
     <value>250, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Lancer au démarrage</value>
+    <value>Automatiquement lancer au démarrage</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 22</value>
@@ -320,7 +320,7 @@
     <value>Connexion</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Lier l'application dont l'ID est spécifié à une présence définie.</value>
+    <value>Lie l'ID de l'application à la présence.</value>
   </data>
   <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>329, 50</value>
@@ -335,7 +335,7 @@
     <value>Déconnecter l'app de discord. Attention, cela peut prendre un moment.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>ID de l'application depuis le site développeur de discord.</value>
+    <value>ID de l'application sur le site développeur de discord.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
     <value>Première ligne de la présence.</value>
@@ -344,16 +344,16 @@
     <value>Seconde ligne de la présence.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Nom du fichier de la petite image ou URL d'image.</value>
+    <value>Nom de la petite image ou l'URL d'une image.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>Texte affiché quand la souris survole la petite image.</value>
+    <value>Texte affiché au survol de la petite image.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>Texte affiché quand la souris survole la grande image.</value>
+    <value>Texte affiché au survol de la grande image.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Nom du fichier de la grande image ou URL d'image.</value>
+    <value>Nom de la grande image ou l'URL d'une image.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 14</value>
@@ -362,7 +362,7 @@
     <value>Petite image</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>Image qui se montre en bas à droite de la grande image.</value>
+    <value>Une autre image, plus petite, en bas à droite de la grande image.</value>
   </data>
   <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 14</value>
@@ -371,7 +371,7 @@
     <value>Grande image</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>Image qui se montre à gauche du texte définit au-dessus.</value>
+    <value>Une image à gauche du texte qui est juste au dessus.</value>
   </data>
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 18</value>
@@ -405,7 +405,7 @@
 Les timers de statut ont une limite de 24h, ce qui signifie qu'après 24h, le temps reviendra à 00:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>Nombre de joueurs dans le groupe, qui se montre à coté de "State".
+    <value>Nombre de joueurs, qui se montre à coté de "State".
 Pour prendre effet, les deux champs doivent être supérieurs à 0.</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
@@ -424,7 +424,7 @@ Pour prendre effet, les deux champs doivent être supérieurs à 0.</value>
     <value>Bouton 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>Le premier des deux boutons qui se montre sous votre statut dans la fenêtre pop-up et du coté droit de votre profil.</value>
+    <value>Le premier des deux boutons, soit sous votre statut dans le pop-up ou du coté droit de votre profil.</value>
   </data>
   <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>58, 14</value>
@@ -433,7 +433,7 @@ Pour prendre effet, les deux champs doivent être supérieurs à 0.</value>
     <value>Bouton 2</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>Deuxième bouton, qui apparait juste en dessous du premier, ou à l'emplacement du premier, si ce dernier n'est pas défini.</value>
+    <value>Deuxième bouton, qui apparait juste en dessous du premier ou à l'emplacement du premier si ce dernier n'est pas défini.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
     <value>URL vers laquelle l'utilisateur sera redirigé en cliquant sur le bouton.</value>
@@ -460,7 +460,7 @@ Pour prendre effet, les deux champs doivent être supérieurs à 0.</value>
     <value>21, 14</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
-    <value>de</value>
+    <value>sur</value>
   </data>
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
     <value>Supporters</value>

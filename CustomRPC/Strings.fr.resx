@@ -124,7 +124,7 @@
     <value>Pas d'ID spécifié!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
-    <value>Il y a eu une erreur lors du téléchargement ou de l'installation de la mise à jour.
+    <value>Une erreur est survenue lors du téléchargement ou de l'installation de la mise à jour.
 Cliquez sur "Oui" pour réessayer, ou "Non" pour la télécharger manuellement.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
@@ -166,7 +166,7 @@ Vous pouvez l'ouvrir à tout moment en accédant à Aide -&gt; Ouvrir le manuel 
 Cliquez sur "oui" pour réinitialiser la configuration, cliquez sur "non" pour quitter.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Échec d'importation de la configuration; le fichier est peut-être manquant, corrompu, ou mal formaté.</value>
+    <value>Échec d'importation de la préconfiguration; le fichier est peut-être manquant, corrompu, ou mal formaté.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
     <value>Autorisez-vous CustomRP à envoyer vos données analytiques au développeur ?
