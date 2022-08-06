@@ -191,6 +191,7 @@ namespace CustomRPC
                         new Translator { Name = "Tobias" },
                         new Translator { Name = "wimblim" },
                         new Translator { Name = "David" },
+                        new Translator { Name = "Tom" },
                     }
                 },
                 new Language {
@@ -522,7 +523,7 @@ namespace CustomRPC
             LanguageProgress["fil"] = "100";
             LanguageProgress["fi"] = "100";
             LanguageProgress["fr"] = "100";
-            LanguageProgress["de"] = "98.98";
+            LanguageProgress["de"] = "100";
             LanguageProgress["el"] = "91.84";
             LanguageProgress["he"] = "100";
             LanguageProgress["hi"] = "100";

@@ -184,4 +184,7 @@ Drücke "Ja" um sie zurückzusetzen oder "Nein" um zu verlassen.</value>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Bitte füge "{0}" Pfad als Ausnahme zu deinem Antivirus-Programm hinzu. Installiere CustomRP neu, falls das Problem weiterhin besteht.</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>Die Bild-URL ist zu lang!</value>
+  </data>
 </root>
