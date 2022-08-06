@@ -191,7 +191,6 @@ namespace CustomRPC
                         new Translator { Name = "Tobias" },
                         new Translator { Name = "wimblim" },
                         new Translator { Name = "David" },
-                        new Translator { Name = "Tom" },
                     }
                 },
                 new Language {
@@ -204,6 +203,7 @@ namespace CustomRPC
                         new Translator { Name = "Marcel Gustin", Url = "https://marcelgustin.de" },
                         new Translator { Name = "binarynoise" },
                         new Translator { Name = "Felix", Url = "https://github.com/fbrettnich" },
+                        new Translator { Name = "Tom" },
                     }
                 },
                 new Language {
