@@ -121,7 +121,7 @@
     <value>Klicke zweimal auf das Icon, um es nochmal anzuzeigen, oder Rechtsklick zum Beenden.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>Das Programm wird in der Taskleiste laufen.</value>
+    <value>Die Anwendung wird im Hintergrund ausgeführt.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
