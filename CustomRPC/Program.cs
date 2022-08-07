@@ -191,12 +191,35 @@ namespace CustomRPC
             }
             catch (Exception ex)
             {
-                while (ex.InnerException != null)
-                    ex = ex.InnerException;
-
-                if (ex is FileNotFoundException && ex.Message.Contains("Version=") || ex is FileLoadException || ex is BadImageFormatException)
+                bool error = true;
+                while (error)
                 {
-                    var result = MessageBox.Show($"{ex.Message}\r\n\r\n{string.Format(Strings.errorLoadingAssembly, Application.StartupPath)}", Strings.error, MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                    try
+                    {
+                        var errMsg = new StringBuilder();
+                        errMsg.AppendLine(DateTime.Now.ToLocalTime().ToString());
+                        errMsg.AppendLine(ex.ToString());
+                        errMsg.AppendLine();
+                        File.AppendAllText(Application.StartupPath + "\\crash.log", errMsg.ToString());
+
+                        error = false;
+                        //throw new Exception("Test");
+                    }
+                    catch
+                    {
+                        System.Threading.Tasks.Task.Delay(100);
+                        error = true;
+                    }
+                }
+
+                Exception ex_inner = ex;
+
+                while (ex_inner.InnerException != null)
+                    ex_inner = ex_inner.InnerException;
+
+                if (ex_inner is FileNotFoundException && ex_inner.Message.Contains("Version=") || ex_inner is FileLoadException || ex_inner is BadImageFormatException)
+                {
+                    var result = MessageBox.Show($"{ex_inner.Message}\r\n\r\n{string.Format(Strings.errorLoadingAssembly, Application.StartupPath)}", Strings.error, MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
 
                     if (result == DialogResult.Retry)
                     {
@@ -205,7 +228,11 @@ namespace CustomRPC
                     }
                 }
                 else
+                {
+                    // work on that later
+                    // MessageBox.Show($"CustomRP has crashed!\r\n\r\n{ex.Message}", Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     throw;
+                }
             }
             finally
             {
