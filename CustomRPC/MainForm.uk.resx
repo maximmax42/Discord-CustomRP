@@ -441,4 +441,13 @@
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>Темний режим</value>
   </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Прихильники</value>
+  </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>З останнього оновлення</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Відображає, скільки часу минуло з моменту останнього підключення або оновлення інформації.</value>
+  </data>
 </root>

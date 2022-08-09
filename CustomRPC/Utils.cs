@@ -245,6 +245,8 @@ namespace CustomRPC
                     Code = "fi",
                     Translators = new Translator[] {
                         new Translator { Name = "Deluxeria" },
+                        new Translator { Name = "TurtleL" },
+
                     }
                 },
                 new Language {
@@ -324,6 +326,7 @@ namespace CustomRPC
                         new Translator { Name = "Matthww" },
                         new Translator { Name = "ItsMrCube", Url = "https://mrcube.live/" },
                         new Translator { Name = "Bay" },
+                        new Translator { Name = "Patrick Canal" },
                     }
                 },
                 new Language {
@@ -529,7 +532,7 @@ namespace CustomRPC
             LanguageProgress["hi"] = "100";
             LanguageProgress["hu"] = "98.98";
             LanguageProgress["id"] = "98.98";
-            LanguageProgress["it"] = "98.98";
+            LanguageProgress["it"] = "100";
             LanguageProgress["ja"] = "100";
             LanguageProgress["ko"] = "100";
             LanguageProgress["ku"] = "93.88";
@@ -546,7 +549,7 @@ namespace CustomRPC
             LanguageProgress["ta"] = "98.98";
             LanguageProgress["th"] = "98.98";
             LanguageProgress["tr"] = "100";
-            LanguageProgress["uk"] = "95.92";
+            LanguageProgress["uk"] = "100";
             LanguageProgress["vi"] = "100";
             #endregion
 

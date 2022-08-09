@@ -269,7 +269,7 @@
     <value>181, 22</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>Avaa Ohjekirja</value>
+    <value>Avaa Käsikirja</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>181, 22</value>
@@ -326,7 +326,7 @@
     <value>Yhdistä</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Linkittää sovelluksen määritettyyn tunnukseen, jossa on asetettu läsnäolo.</value>
+    <value>Yhdistää sovelluksen määritettyyn tunnukseen, jossa on asetettu läsnäolo.</value>
   </data>
   <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>316, 50</value>
@@ -338,7 +338,7 @@
     <value>Katkaise yhteys</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Katkaisee sovelluksen yhteyden Discordista. Huomaa, että se voi kestää hetken aikaa.</value>
+    <value>Katkaisee sovelluksen yhteyden Discordista. Huomaa, että siinä voi kestää hetken aikaa.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>Sovelluksen tunnus Discord Developers -sivustolta.</value>
@@ -368,13 +368,13 @@
     <value>Pieni Kuva</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>Kuva, joka näkyy ison kuvan oikeassa alakulmassa.</value>
+    <value>Kuva, joka näkyy suuren kuvan oikeassa alakulmassa.</value>
   </data>
   <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 14</value>
   </data>
   <data name="labelLarge.Text" xml:space="preserve">
-    <value>Iso Kuva</value>
+    <value>Suuri Kuva</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
     <value>Kuva, joka näkyy yllä olevan tekstin vasemalla puolella.</value>
@@ -404,7 +404,7 @@
     <value>Sinun Paikallinen Aika</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>Näyttää nykyisen aikasi 24 tunnin muodossa.</value>
+    <value>Näyttää nykyisen aikasi 24 tunnin aikamuodossa.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>Asettaa aikaleiman läsnäololle, joka näkyy kaiken yllä olevan tekstin alla. 

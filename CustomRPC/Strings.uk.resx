@@ -178,4 +178,7 @@
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Будь ласка, додайте шлях "{0}" до винятків вашого антивірусу. Перевстановіть CustomRP, якщо ця помилка не зникає.</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>URL зображення завеликий!</value>
+  </data>
 </root>
