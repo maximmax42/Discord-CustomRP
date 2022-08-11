@@ -191,6 +191,7 @@ namespace CustomRPC
                         new Translator { Name = "Tobias" },
                         new Translator { Name = "wimblim" },
                         new Translator { Name = "David" },
+                        new Translator { Name = "Johansenbastian6" },
                     }
                 },
                 new Language {
@@ -376,7 +377,8 @@ namespace CustomRPC
                     Code = "nl",
                     Translators = new Translator[] {
                         new Translator { Name = "Jeremyzijlemans", Url = "https://sionhub.co.uk/" },
-                        new Translator { Name = "sys-256", Url = "https://sys-256.me/" },
+                        new Translator { Name = "Screitsma64" },
+                        new Translator { Name = "sys-256", Url = "https://sys-256.me/" }, // Bramdevogel
                     }
                 },
                 new Language {
@@ -521,8 +523,8 @@ namespace CustomRPC
             LanguageProgress["zh-hant"] = "100";
             LanguageProgress["hr"] = "71.43";
             LanguageProgress["cs"] = "100";
-            LanguageProgress["da"] = "98.98";
-            LanguageProgress["nl"] = "98.98";
+            LanguageProgress["da"] = "100";
+            LanguageProgress["nl"] = "100";
             LanguageProgress["fil"] = "100";
             LanguageProgress["fi"] = "100";
             LanguageProgress["fr"] = "100";

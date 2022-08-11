@@ -178,4 +178,7 @@ Tryk Ja for at nulstille den, tryk Nej for at afslutte.</value>
   <data name="errorSavingSettings" xml:space="preserve">
     <value>Der opstod et problem i forsøget på at gemme:</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>Billed url er for langt!</value>
+  </data>
 </root>

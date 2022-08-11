@@ -178,4 +178,7 @@ Druk op Ja om de instellingen te resetten, druk op Nee om te stoppen.</value>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Voeg het pad "{0}" toe aan de uitzonderingen van uw antivirusprogramma. Installeer CustomRP opnieuw als deze fout zich blijft voordoen.</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>De afbeeldingslink is te lang!</value>
+  </data>
 </root>

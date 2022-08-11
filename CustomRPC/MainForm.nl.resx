@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>Dubbel klik op het logo om het weer te laten zien of rechts clicken om te stoppen.</value>
+    <value>Dubbel klik op het logo om het weer te laten zien, en rechtsklikken om te stoppen.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>De applicatie draait door in het dienblad.</value>
+    <value>De applicatie zal verdergaan in de taakbalk.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -146,7 +146,7 @@
     <value>178, 22</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
-    <value>Stop</value>
+    <value>Verlaten</value>
   </data>
   <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 104</value>
@@ -155,13 +155,13 @@
     <value>230, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Voorinstelling laden</value>
+    <value>Instelling Laden</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>230, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Voorinstelling opslaan</value>
+    <value>Instelling opslaan</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>227, 6</value>
@@ -170,7 +170,7 @@
     <value>230, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Activa uploaden</value>
+    <value>Bestanden uploaden</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>227, 6</value>
@@ -185,7 +185,7 @@
     <value>57, 20</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Dossier</value>
+    <value>Bestand</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 22</value>
@@ -212,7 +212,7 @@
     <value>200, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Check updates</value>
+    <value>Check voor updates</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 22</value>
@@ -305,13 +305,13 @@
     <value>147, 24</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Aanwezigheid bijwerken</value>
+    <value>Status bijwerken</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Aanwezigheid bijwerken.</value>
+    <value>Status bijwerken.</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Koppelt de applicatie aan de opgegeven ID met ingestelde aanwezigheid.</value>
+    <value>Koppelt de applicatie aan de opgegeven ID met ingestelde status.</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
     <value>Koppelt de app los van Discord. Houd er rekening mee dat het even kan duren.</value>
@@ -320,19 +320,19 @@
     <value>ID van de applicatie van de Discord Developers-site.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>Eerste lijn in aanwezigheid.</value>
+    <value>Eerste regel in de status.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>Tweede lijn in aanwezigheid.</value>
+    <value>Tweede regel in de status.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
     <value>Naam van het item voor kleine afbeelding of een afbeeldings-URL.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>Tekst die wordt weergegeven wanneer u over de kleine afbeelding zweeft.</value>
+    <value>Tekst die wordt weergegeven wanneer uw muis over de kleine afbeelding zit.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>Tekst die wordt weergegeven wanneer u over de groote afbeelding zweeft.</value>
+    <value>Tekst die wordt weergegeven wanneer uw muis over de grote afbeelding zit.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>Naam van het item voor grote afbeelding of een afbeeldings-URL.</value>
@@ -359,7 +359,7 @@
     <value>Geen</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Geen tijdstempels ingeschakeld.</value>
+    <value>Geen tijdpunten ingeschakeld.</value>
   </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>166, 18</value>
@@ -374,13 +374,13 @@
     <value>98, 18</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>Uw lokale tijd</value>
+    <value>De lokale tijd</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
     <value>Toont uw huidige tijd in 24-uurs formaat.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Stelt een tijdstempel in voor de status, die wordt weergegeven onder alle bovenstaande tekst.
+    <value>Stelt een tijdpunt in voor de status, die wordt weergegeven onder alle bovenstaande tekst.
 Statustimers hebben een limiet van 24 uur, wat betekent dat de tijd na 24 uur teruggaat naar 0:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
@@ -391,10 +391,10 @@ Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
     <value>147, 18</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>Aangepast tijdstempel</value>
+    <value>Aangepast tijdpunt</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
-    <value>Toont hoeveel tijd is verstreken sinds of resteert tot de hieronder ingestelde datum.</value>
+    <value>Toont hoeveel tijd is voorbijgegaan sinds of resteert tot de hieronder ingestelde datum.</value>
   </data>
   <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 14</value>
@@ -433,7 +433,7 @@ Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
     <value>Sinds de laatste update</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
-    <value>Laat zien hoe veel tijd voorbij is gegaan sinds u voor het laatst verbond of de aanwezigheids status heeft aangepast.</value>
+    <value>Laat zien hoe veel tijd voorbij is gegaan sinds u voor het laatst verbond of de status heeft aangepast.</value>
   </data>
   <data name="labelPartyOf.Location" type="System.Drawing.Point, System.Drawing">
     <value>338, 114</value>
@@ -443,5 +443,20 @@ Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>van</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Download Update</value>
+  </data>
+  <data name="buttonConnect.Text" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="buttonDisconnect.Text" xml:space="preserve">
+    <value>Afsluiten</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open</value>
   </data>
 </root>
