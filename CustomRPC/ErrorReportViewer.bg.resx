@@ -124,6 +124,6 @@
     <value>CustomRP се срина в предишната сесия поради следното необработено изключение:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Докладване на Ерор</value>
+    <value>Докладване на Грешка</value>
   </data>
 </root>

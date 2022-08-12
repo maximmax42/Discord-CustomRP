@@ -178,4 +178,7 @@
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>โปรดเพิ่มเส้นทาง "{0}" ให้กับข้อยกเว้นของโปรแกรมป้องกันไวรัส ให้ติดตั้ง CustomRP ใหม่ หากข้อผิดพลาดนี้ยังคงมีอยู่</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>URL ของรูปภาพยาวเกินไป!</value>
+  </data>
 </root>

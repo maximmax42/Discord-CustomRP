@@ -221,7 +221,7 @@
     <value>230, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Погледнете за актуализации</value>
+    <value>Провери за актуализации</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>230, 22</value>
@@ -236,7 +236,7 @@
     <value>230, 22</value>
   </data>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Тъмен Мод</value>
+    <value>Тъмен режим</value>
   </data>
   <data name="toolStripSeparatorSettings3.Size" type="System.Drawing.Size, System.Drawing">
     <value>227, 6</value>
@@ -251,7 +251,7 @@
     <value>121, 22</value>
   </data>
   <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
-    <value>Дефаулт</value>
+    <value>Подразбиране</value>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 6</value>
@@ -299,7 +299,7 @@
     <value>229, 22</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Провери за Ъпдейти...</value>
+    <value>Провери за Актуализации...</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 22</value>
@@ -323,16 +323,16 @@
     <value>Актуализирай присъствие</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Актуализирай присъствие.</value>
+    <value>Актуализира присъствие.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>Свържи</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Свързва приложението с специфичния идентификатор със зададено присъствие.</value>
+    <value>Свързва приложението с специфичния ID със зададено присъствие.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
-    <value>Изключвам</value>
+    <value>Прекъсване</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
     <value>Прекъсва връзката между приложението и Discord. Моля, имайте предвид, че може да отнеме известно време.</value>
@@ -383,7 +383,7 @@
     <value>Нищо</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Няма активирани времеви клейма.</value>
+    <value>Няма активирани датировки.</value>
   </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>189, 18</value>
@@ -401,10 +401,10 @@
     <value>Вашето локално време</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>Показва вашето сегашно време в 24-часов форматв.</value>
+    <value>Показва вашето сегашно време в 24-часов формат.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Задава клеймо за време за състоянието, което се показва под целия текст отгоре.
+    <value>Задава датировка за състоянието, което се показва под целия текст отгоре.
 Таймерите за състояние имат 24-часово ограничение, което означава, че след 24 часа времето ще се върне на 0:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
@@ -415,7 +415,7 @@
     <value>224, 18</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>Персонализирано времево клеймо</value>
+    <value>Персонализирано датировка</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
     <value>Показва колко време е изминало от или остава до датата, зададена отдолу.</value>
@@ -454,10 +454,10 @@
     <value>329, 18</value>
   </data>
   <data name="radioButtonPresence.Text" xml:space="preserve">
-    <value>От последната дата на актуализацията на presence-a</value>
+    <value>От последната актуализацията на присъствието</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
-    <value>Показва колко време е минало от последното свързване или ъпдейтването на presence-a.</value>
+    <value>Показва колко време е минало от последното свързване или актуализацията на присъствито.</value>
   </data>
   <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
     <value>20, 14</value>
