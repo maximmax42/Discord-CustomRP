@@ -575,6 +575,11 @@ namespace CustomRPC
                     USDAmount = "16.13",
                     AltAmount = "1000 RUB"
                 },
+                new Supporter {
+                    Name = "Anonymous",
+                    USDAmount = "2.62",
+                    AltAmount = "0.00011304 BTC"
+                },
             };
         }
 
