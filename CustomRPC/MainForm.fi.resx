@@ -179,7 +179,7 @@
     <value>207, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Lähetä Assetit</value>
+    <value>Lähetä Tiedostoja</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>204, 6</value>
@@ -395,13 +395,13 @@
     <value>Siitä lähtien, kun CustomRP aloitti</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>Näyttää ajan siitä lähtien, kun sovellus käynnistettiin.</value>
+    <value>Näyttää ajan siitä lähtien, kun applikaatio käynnistettiin.</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>139, 18</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>Sinun Paikallinen Aika</value>
+    <value>Sinun paikallinen aika</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
     <value>Näyttää nykyisen aikasi 24 tunnin aikamuodossa.</value>

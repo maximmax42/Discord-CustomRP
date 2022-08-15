@@ -135,7 +135,7 @@ Paina "Kyllä" yrittääksesi uudelleen tai "Ei" ladataksesi manuaalisesti.</val
 Voit avata sen milloin tahansa siirtymällä kohtaan Ohje -&gt; Avaa käyttöohje tai painamalla F1.</value>
   </data>
   <data name="information" xml:space="preserve">
-    <value>Tiedot</value>
+    <value>Tietoa</value>
   </data>
   <data name="statusConnected" xml:space="preserve">
     <value>Yhdistetty</value>
