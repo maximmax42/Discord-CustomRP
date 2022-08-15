@@ -397,6 +397,14 @@ namespace CustomRPC
                 new Language {
                     Name = "Português",
                     EnglishName = "Portuguese",
+                    Code = "pt",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Verygafanhot" },
+                    }
+                },
+                new Language {
+                    Name = "Português",
+                    EnglishName = "Portuguese",
                     Dialect = "BR",
                     Code = "pt-br",
                     Translators = new Translator[] {
@@ -543,6 +551,7 @@ namespace CustomRPC
             LanguageProgress["lt"] = "98.98";
             LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "100";
+            LanguageProgress["pt"] = "100";
             LanguageProgress["pt-br"] = "100";
             LanguageProgress["ro"] = "95.92";
             LanguageProgress["ru"] = "100";

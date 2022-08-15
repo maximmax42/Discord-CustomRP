@@ -218,6 +218,9 @@
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="About.pt.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -335,6 +338,9 @@
     <EmbeddedResource Include="ErrorReportViewer.pt-BR.resx">
       <DependentUpon>ErrorReportViewer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ErrorReportViewer.pt.resx">
+      <DependentUpon>ErrorReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ErrorReportViewer.resx">
       <DependentUpon>ErrorReportViewer.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -426,6 +432,9 @@
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.my.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.pt.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.ro.resx">
@@ -638,6 +647,10 @@
       <DependentUpon>Strings.resx</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Strings.pt.resx">
+      <DependentUpon>Strings.resx</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Strings.resx">
       <SubType>Designer</SubType>
       <Generator>ResXFileCodeGenerator</Generator>
@@ -773,6 +786,9 @@
     <EmbeddedResource Include="UpdatePrompt.pt-BR.resx">
       <DependentUpon>UpdatePrompt.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdatePrompt.pt.resx">
+      <DependentUpon>UpdatePrompt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdatePrompt.resx">
       <DependentUpon>UpdatePrompt.cs</DependentUpon>
