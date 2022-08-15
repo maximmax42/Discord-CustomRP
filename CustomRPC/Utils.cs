@@ -580,6 +580,17 @@ namespace CustomRPC
                     USDAmount = "2.62",
                     AltAmount = "0.00011304 BTC"
                 },
+                new Supporter {
+                    Name = "Eli404",
+                    Url = "https://linktr.ee/404femboy",
+                    USDAmount = "5.09",
+                    AltAmount = "5 EUR"
+                },
+                new Supporter {
+                    Name = "Tofix.rs",
+                    USDAmount = "0.43",
+                    AltAmount = "0.95 BAT"
+                },
             };
         }
 
