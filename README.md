@@ -17,6 +17,7 @@ Custom Discord Rich Presence Manager for Windows. Some of its features are run o
 * [Grim](https://www.savethekiwi.nz/) - $25.00 (0.0008328 BTC)
 * [Boefjim](https://boefjim.com) - $16.13 (1000 RUB)
 * [White Rose](https://www.twitch.tv/psychonaut303) - $6.00
+* Eli404 - $5.06 (5 EUR)
 * Anonymous - $2.62 (0.00011304 BTC)
 
 ## Downloading and setting up
