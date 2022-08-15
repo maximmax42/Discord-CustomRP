@@ -636,7 +636,7 @@ namespace CustomRPC
                 languagesParent.DropDownItems.Add(new ToolStripMenuItem(lang.Name + dialect, null, languagesHandler)
                 {
                     Tag = lang.Code,
-                    ToolTipText = lang.EnglishName,
+                    ToolTipText = lang.EnglishName + dialect,
                 });
 
                 if (lang.Code == "en")
