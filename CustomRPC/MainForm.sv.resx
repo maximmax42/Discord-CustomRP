@@ -190,7 +190,7 @@
     <value>Koppla ifrån</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Kopplar ifrån appen från Discord. Snälla notera att det kan ta en stund.</value>
+    <value>Kopplar ifrån appen från Discord. Notera att det kan ta en stund.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>ID av applikationen från Discord Developers sidan.</value>

@@ -450,6 +450,7 @@ namespace CustomRPC
                     Translators = new Translator[] {
                         new Translator { Name = "leadattic_", Url = "https://leadattic.leadattic953788.repl.co/"}, // Axel
                         new Translator { Name = "Rose Liljensten" },
+                        new Translator { Name = "James" },
                     }
                 },
                 new Language {

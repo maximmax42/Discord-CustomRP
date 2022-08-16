@@ -125,7 +125,7 @@
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
     <value>Ett fel uppstod med att ladda ner eller installera en uppdatering.
-Tryck "Ja" för att försöka igen eller "Nej" för att ladda ner den manuellt.</value>
+Tryck "Ja" för att försöka igen eller "Nej" för att ladda ner uppdateringen manuellt.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
     <value>Första Gången Körd</value>
