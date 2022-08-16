@@ -601,6 +601,11 @@ namespace CustomRPC
                     USDAmount = "0.43",
                     AltAmount = "0.95 BAT"
                 },
+                new Supporter {
+                    Name = "kiwi",
+                    USDAmount = "50.69",
+                    AltAmount = "50 EUR"
+                },
             };
         }
 
