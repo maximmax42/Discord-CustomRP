@@ -3,7 +3,7 @@
   <a href="https://github.com/maximmax42/Discord-CustomRP/releases/latest"><img alt="GitHub Releases" src="https://img.shields.io/github/downloads/maximmax42/Discord-CustomRP/latest/total?color=19e2e2&label=downloads&logo=github"></a>
   <a href="https://github.com/maximmax42/Discord-CustomRP/releases"><img alt="All GitHub Releases" src="https://img.shields.io/github/downloads/maximmax42/Discord-CustomRP/total?color=19e2e2&label=total%20downloads&logo=github"></a>
   <br>
-  <a href="https://donationalerts.com/maximmax42"><img alt="Support on DonationAlerts" src="https://img.shields.io/badge/support%20on-donationalerts-19e2e2"></a>
+  <a href="https://donationalerts.com/r/maximmax42"><img alt="Support on DonationAlerts" src="https://img.shields.io/badge/support%20on-donationalerts-19e2e2"></a>
   <a href="https://www.customrp.xyz/discordserver"><img alt="Discord Server" src="https://img.shields.io/discord/928333025652121630?color=19e2e2&label=server&logo=discord&logoColor=white"></a>
 </p>
 
