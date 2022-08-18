@@ -315,6 +315,7 @@ namespace CustomRPC
                         new Translator { Name = "Hapnan" },
                         new Translator { Name = "Apolycious" },
                         new Translator { Name = "Bayu Sopwan", Url = "https://bayusopwan.github.io/" },
+                        new Translator { Name = "xChellz" },
                     }
                 },
                 new Language {
@@ -544,7 +545,7 @@ namespace CustomRPC
             LanguageProgress["he"] = "100";
             LanguageProgress["hi"] = "100";
             LanguageProgress["hu"] = "98.98";
-            LanguageProgress["id"] = "98.98";
+            LanguageProgress["id"] = "100";
             LanguageProgress["it"] = "100";
             LanguageProgress["ja"] = "100";
             LanguageProgress["ko"] = "100";
