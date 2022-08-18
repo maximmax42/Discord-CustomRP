@@ -22,6 +22,8 @@ Custom Discord Rich Presence Manager for Windows. Some of its features are run o
 * Anonymous - $2.62 (0.00011304 BTC)
 * Tofix.rs - $0.43 (0.95 BAT)
 
+If you don't see your donation here - ping me on Discord.
+
 ## Downloading and setting up
 Download the latest version from the [Releases](https://github.com/maximmax42/Discord-CustomRP/releases) page and run the .exe installer! You can also use Windows Package Manager to install the program (`winget install maximmax42.CustomRP`) or, if you prefer the portable version, download the zip, unpack it somewhere, preferably in a separate folder, and start it up. Upon starting, you will be prompted to open a [setup manual](https://github.com/maximmax42/Discord-CustomRP/wiki/Setting-up). You can open it later by pressing F1 or going to Help -> Open Manual.
 ### Updating
