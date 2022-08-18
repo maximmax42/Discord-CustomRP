@@ -178,4 +178,7 @@ Apăsați Da pentru a reseta setările, apăsați Nu pentru a ieși.</value>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Vă rugăm să adăugați calea "{0}" la excepțiile antivirusului dvs. Reinstalați CustomRP dacă această eroare persistă.</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>Adresa URL a imaginii este prea lungă!</value>
+  </data>
 </root>

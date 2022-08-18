@@ -166,7 +166,7 @@
     <value>Pagina de GitHub</value>
   </data>
   <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Translatii</value>
+    <value>Translatori</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>Despre...</value>
@@ -178,7 +178,7 @@
     <value>Reîncarcă prezența</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Restartează prezența.</value>
+    <value>Actualizează prezența.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>Conectează</value>
@@ -304,5 +304,14 @@ Pentru a intra în vigoare, ambele câmpuri trebuie să fie mai mari de 0.</valu
   </data>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>Tema întunecată</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Suporteri</value>
+  </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>De la ultima actualizare a prezenței</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Afișează cât timp a trecut de la ultima conectare sau de la actualizarea prezenței.</value>
   </data>
 </root>

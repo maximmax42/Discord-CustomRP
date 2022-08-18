@@ -422,6 +422,7 @@ namespace CustomRPC
                     Translators = new Translator[] {
                         new Translator { Name = "DiDYRO", Url = "https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w" },
                         new Translator { Name = "Denisbolba" },
+                        new Translator { Name = "KTSGod", Url = "https://ktsgod.carrd.co/" },
                         new Translator { Name = "Matthww" },
                     }
                 },
@@ -550,11 +551,12 @@ namespace CustomRPC
             LanguageProgress["ku"] = "93.88";
             LanguageProgress["lv"] = "40.82";
             LanguageProgress["lt"] = "98.98";
+            LanguageProgress["no"] = "0";
             LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "100";
             LanguageProgress["pt"] = "100";
             LanguageProgress["pt-br"] = "100";
-            LanguageProgress["ro"] = "95.92";
+            LanguageProgress["ro"] = "100";
             LanguageProgress["ru"] = "100";
             LanguageProgress["sr"] = "100";
             LanguageProgress["es"] = "100";
