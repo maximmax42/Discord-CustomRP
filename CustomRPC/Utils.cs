@@ -602,8 +602,8 @@ namespace CustomRPC
                 },
                 new Supporter {
                     Name = "Tofix.rs",
-                    USDAmount = "0.43",
-                    AltAmount = "0.95 BAT"
+                    USDAmount = "0.45",
+                    AltAmount = "1 BAT"
                 },
                 new Supporter {
                     Name = "kiwi",
