@@ -20,7 +20,7 @@ Custom Discord Rich Presence Manager for Windows. Some of its features are run o
 * [White Rose](https://www.twitch.tv/psychonaut303) - $6.00
 * [Eli404](https://linktr.ee/404femboy) - $5.09 (5 EUR)
 * Anonymous - $2.62 (0.00011304 BTC)
-* Tofix.rs - $0.43 (0.95 BAT)
+* Tofix.rs - $0.45 (1 BAT)
 
 If you don't see your donation here after a day or two - ping me on Discord.
 
