@@ -128,7 +128,7 @@
 Paina "Kyllä" yrittääksesi uudelleen tai "Ei" ladataksesi manuaalisesti.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Ensimmäinen Käyttökerta</value>
+    <value>Ensimmäinen käyttökerta</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Haluaisitko avata käyttöohjeen?
@@ -147,10 +147,10 @@ Voit avata sen milloin tahansa siirtymällä kohtaan Ohje -&gt; Avaa käyttöohj
     <value>Yhteys epäonnistui (Tarkista onko Discord käynnissä?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
-    <value>Yhteys Katkaistu</value>
+    <value>Yhteys katkaistu</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>Yhteys Virhe (Väärä tunnus?)</value>
+    <value>Yhteys virhe (Väärä tunnus?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
     <value>Virheellinen URL-osoite painikkeille tai teksti on liian pitkä!</value>

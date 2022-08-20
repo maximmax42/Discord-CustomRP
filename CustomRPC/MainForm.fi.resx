@@ -164,13 +164,13 @@
     <value>207, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Lataa Esiasetus</value>
+    <value>Lataa esiasetus</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>207, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tallenna Esiasetus</value>
+    <value>Tallenna esiasetus</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>204, 6</value>
@@ -179,7 +179,7 @@
     <value>207, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Lähetä Tiedostoja</value>
+    <value>Lähetä tiedostoja</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>204, 6</value>
@@ -200,13 +200,13 @@
     <value>265, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Käynnistä Käynnistyksen Yhteydessä</value>
+    <value>Käynnistä käynnistyksen yhteydessä</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>265, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Avaa Minimisoituna</value>
+    <value>Avaa minimisoituna</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>265, 22</value>
@@ -221,13 +221,13 @@
     <value>265, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tarkista Päivitykset</value>
+    <value>Tarkista päivitykset</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>265, 22</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Salli Analytiikat</value>
+    <value>Salli analytiikat</value>
   </data>
   <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
     <value>262, 6</value>
@@ -236,7 +236,7 @@
     <value>265, 22</value>
   </data>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tumma Tila</value>
+    <value>Tumma tila</value>
   </data>
   <data name="toolStripSeparatorSettings3.Size" type="System.Drawing.Size, System.Drawing">
     <value>262, 6</value>
@@ -269,13 +269,13 @@
     <value>181, 22</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>Avaa Käsikirja</value>
+    <value>Avaa käsikirja</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>181, 22</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>GitHub Sivu</value>
+    <value>GitHub-sivu</value>
   </data>
   <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
     <value>178, 6</value>
@@ -299,7 +299,7 @@
     <value>181, 22</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tarkista Päivitykset...</value>
+    <value>Tarkista päivitykset...</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>181, 22</value>
@@ -314,10 +314,10 @@
     <value>Lataa päivitys</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Päivitä Läsnäoloa</value>
+    <value>Päivitä läsnäoloa</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Päivittää Läsnäoloa.</value>
+    <value>Päivittää läsnäoloa.</value>
   </data>
   <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>226, 50</value>
@@ -365,7 +365,7 @@
     <value>62, 14</value>
   </data>
   <data name="labelSmall.Text" xml:space="preserve">
-    <value>Pieni Kuva</value>
+    <value>Pieni kuva</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
     <value>Kuva, joka näkyy suuren kuvan oikeassa alakulmassa.</value>
@@ -374,7 +374,7 @@
     <value>53, 14</value>
   </data>
   <data name="labelLarge.Text" xml:space="preserve">
-    <value>Suuri Kuva</value>
+    <value>Suuri kuva</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
     <value>Kuva, joka näkyy yllä olevan tekstin vasemalla puolella.</value>
@@ -383,7 +383,7 @@
     <value>73, 18</value>
   </data>
   <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>Ei Mitään</value>
+    <value>Ei mitään</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
     <value>Aikaleimoja ei ole käytössä.</value>

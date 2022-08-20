@@ -246,6 +246,7 @@ namespace CustomRPC
                     Code = "fi",
                     Translators = new Translator[] {
                         new Translator { Name = "Deluxeria" },
+                        new Translator { Name = "Zunikuu" },
                         new Translator { Name = "TurtleL" },
 
                     }
