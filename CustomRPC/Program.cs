@@ -191,19 +191,19 @@ namespace CustomRPC
             }
             catch (Exception ex)
             {
+                var errMsg = new StringBuilder();
+                errMsg.AppendLine(DateTime.Now.ToLocalTime().ToString());
+                errMsg.AppendLine(ex.ToString());
+                errMsg.AppendLine();
+
+                // This loop ensures writing to the file
                 bool error = true;
                 while (error)
                 {
                     try
                     {
-                        var errMsg = new StringBuilder();
-                        errMsg.AppendLine(DateTime.Now.ToLocalTime().ToString());
-                        errMsg.AppendLine(ex.ToString());
-                        errMsg.AppendLine();
                         File.AppendAllText(Application.StartupPath + "\\crash.log", errMsg.ToString());
-
                         error = false;
-                        //throw new Exception("Test");
                     }
                     catch
                     {
@@ -229,8 +229,7 @@ namespace CustomRPC
                 }
                 else
                 {
-                    // work on that later
-                    // MessageBox.Show($"CustomRP has crashed!\r\n\r\n{ex.Message}", Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.ToString(), Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     throw;
                 }
             }
