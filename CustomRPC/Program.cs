@@ -229,7 +229,7 @@ namespace CustomRPC
                 }
                 else
                 {
-                    MessageBox.Show(ex.ToString(), Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.ToString(), "CustomRP - " + Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     throw;
                 }
             }
