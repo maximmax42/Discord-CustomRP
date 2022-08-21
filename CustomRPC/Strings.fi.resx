@@ -150,7 +150,7 @@ Voit avata sen milloin tahansa siirtymällä kohtaan Ohje -&gt; Avaa käyttöohj
     <value>Yhteys katkaistu</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>Yhteys virhe (Väärä tunnus?)</value>
+    <value>Yhteysvirhe (Väärä tunnus?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
     <value>Virheellinen URL-osoite painikkeille tai teksti on liian pitkä!</value>

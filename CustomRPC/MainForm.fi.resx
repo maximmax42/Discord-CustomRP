@@ -121,7 +121,7 @@
     <value>Kaksoisnapsauta kuvaketta näyttääksesi sen uudelleen, tai napsauta hiiren kakkospainikkeella lopettaaksesi.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>Sovellus toimii piilotettujen sovellusten lokerossa.</value>
+    <value>Sovellus toimii piilotettujen sovellusten ilmaisinalueessa.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
@@ -206,7 +206,7 @@
     <value>265, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Avaa minimisoituna</value>
+    <value>Käynnistä pienennettynä</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>265, 22</value>
@@ -392,10 +392,10 @@
     <value>207, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>Siitä lähtien, kun CustomRP aloitti</value>
+    <value>Siitä lähtien, kun CustomRP alkoi</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>Näyttää ajan siitä lähtien, kun applikaatio käynnistettiin.</value>
+    <value>Näyttää ajan siitä lähtien, kun sovellus käynnistettiin.</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>139, 18</value>
