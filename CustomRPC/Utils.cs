@@ -384,6 +384,14 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Norsk",
+                    EnglishName = "Norwegian",
+                    Code = "no",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Sveinung" },
+                    }
+                },
+                new Language {
                     Name = "Polski",
                     EnglishName = "Polish",
                     Code = "pl",
@@ -553,7 +561,7 @@ namespace CustomRPC
             LanguageProgress["ku"] = "93.88";
             LanguageProgress["lv"] = "40.82";
             LanguageProgress["lt"] = "98.98";
-            LanguageProgress["no"] = "0";
+            LanguageProgress["no"] = "100";
             LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "100";
             LanguageProgress["pt"] = "100";
