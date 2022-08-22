@@ -156,7 +156,7 @@ Voit avata sen milloin tahansa siirtymällä kohtaan Ohje -&gt; Avaa käyttöohj
     <value>Virheellinen URL-osoite painikkeille tai teksti on liian pitkä!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
-    <value>Ei pystynyt yhdistämään Internetiin!</value>
+    <value>Internettiin ei voitu yhdistää!</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
     <value>Päivityksiä ei löytynyt!</value>
