@@ -618,6 +618,11 @@ namespace CustomRPC
                     USDAmount = "50.69",
                     AltAmount = "50 EUR"
                 },
+                new Supporter {
+                    Name = "Kushgo",
+                    USDAmount = "5.00",
+                    AltAmount = "0.00313295 ETH"
+                },
             };
         }
 
