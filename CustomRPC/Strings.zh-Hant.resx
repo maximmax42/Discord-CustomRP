@@ -121,18 +121,18 @@
     <value>錯誤</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>沒有指定ID！</value>
+    <value>沒有指定 ID ！</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
     <value>下載或安裝更新時出錯.
-按 “是” 重試 或按 “否” 手動下載。</value>
+按 「是」 重試 或按 「否」 手動下載。</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
     <value>第一次運行</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>您想打開說明手冊嗎？
-您可以隨時點擊 “幫助”→“打開說明手冊” 或按F1來打開它。</value>
+您可以隨時點擊 「幫助」→「打開說明手冊」 或按 F1 來打開它。</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>資訊</value>
@@ -144,13 +144,13 @@
     <value>連線中...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>連線失敗（Discord 有打開嗎？）</value>
+    <value>連線失敗 （Discord 有打開嗎？）</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>已取消連線</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>連線錯誤（錯誤的ID？）</value>
+    <value>連線錯誤 （錯誤的ID？）</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
     <value>為按鈕指定的連結無效或字數太長了！</value>
