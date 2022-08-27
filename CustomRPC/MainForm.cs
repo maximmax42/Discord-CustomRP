@@ -764,7 +764,6 @@ namespace CustomRPC
                     if (Program.IsSecondInstance)
                         shortcut.Arguments = "--second-instance";
                     shortcut.Save();
-
                 }
                 else if (!settings.runOnStartup && File.Exists(linkPath)) // If run on startup is disabled and the link is in the Startup folder
                     File.Delete(linkPath);
