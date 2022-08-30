@@ -1322,6 +1322,9 @@ namespace CustomRPC
 
                 try
                 {
+                    ServicePointManager.Expect100Continue = true;
+                    ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+
                     var res = client.GetAsync($"https://discordapp.com/api/oauth2/applications/{settings.id}/assets").Result;
 
                     if (res.IsSuccessStatusCode)
