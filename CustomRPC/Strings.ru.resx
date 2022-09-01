@@ -187,4 +187,7 @@
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>Ссылка на изображение слишком длинная!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Не удалось создать или удалить ярлык автозагрузки:</value>
+  </data>
 </root>

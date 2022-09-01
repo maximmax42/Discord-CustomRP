@@ -163,6 +163,15 @@ namespace CustomRPC {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Failed to add or remove a startup shortcut:.
+        /// </summary>
+        internal static string errorStartupShortcut {
+            get {
+                return ResourceManager.GetString("errorStartupShortcut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на There was an error downloading or installing an update.
         ///Press &quot;Yes&quot; to retry or &quot;No&quot; to download manually..
         /// </summary>

@@ -186,4 +186,7 @@ Press Yes to reset the settings, press No to quit.</value>
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>The image URL is too long!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Failed to add or remove a startup shortcut:</value>
+  </data>
 </root>

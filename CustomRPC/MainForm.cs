@@ -773,7 +773,7 @@ namespace CustomRPC
                 // I *think* this would only happen if an antivirus would intervene saving/deleting a file in a user folder,
                 // therefore I'm just allowing the user to quickly try changing the option again
                 runOnStartupToolStripMenuItem.Checked = !settings.runOnStartup;
-                MessageBox.Show(e.Message, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Strings.errorStartupShortcut} {e.Message}", Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
