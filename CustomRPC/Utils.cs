@@ -369,7 +369,7 @@ namespace CustomRPC
                     EnglishName = "Burmese",
                     Code = "my",
                     Translators = new Translator[] {
-                        new Translator { Name = "Infernite#0680" },
+                        new Translator { Name = "Bad Infer_#0069" },
                         new Translator { Name = "BBbear#7149" }
                     }
                 },
