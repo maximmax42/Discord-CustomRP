@@ -181,4 +181,7 @@
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>이미지 URL이 너무 깁니다!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>시작 프로그램 바로가기 추가 또는 제거에 실패했습니다:</value>
+  </data>
 </root>

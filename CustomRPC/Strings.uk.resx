@@ -181,4 +181,7 @@
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>URL зображення завеликий!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Не вдалося додати або видалити ярлик запуску:</value>
+  </data>
 </root>

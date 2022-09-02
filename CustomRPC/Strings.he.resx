@@ -182,4 +182,7 @@
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>הקישור לתמונה יותר מידי ארוך!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>הוספה או הסרה של הפעלת קיצור דרך נכשלה:</value>
+  </data>
 </root>

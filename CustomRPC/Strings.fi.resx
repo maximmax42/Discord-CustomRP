@@ -181,4 +181,7 @@ Paina Kyllä nollataksesi asetukset, ja paina Ei lopettaaksesi.</value>
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>Kuvan URL-osoite on liian pitkä!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Käynnistyksen pikakuvakkeen lisääminen tai poistaminen epäonnistui:</value>
+  </data>
 </root>

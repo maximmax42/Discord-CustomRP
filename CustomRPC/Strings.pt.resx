@@ -181,4 +181,7 @@ Clique Sim para redefinir as Definições ou clique Não para sair.</value>
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>O link da imagem é muito longo!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Ocorreu um erro ao adicionar ou remover um atalho para iniciar com o Windows:</value>
+  </data>
 </root>

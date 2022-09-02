@@ -181,4 +181,7 @@
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>此图像的 URL 过长！</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>新增或删除捷径失败：</value>
+  </data>
 </root>

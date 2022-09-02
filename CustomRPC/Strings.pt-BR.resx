@@ -181,4 +181,7 @@ Pressione Sim para redefinir as configurações, pressione Não para sair.</valu
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>O URL da imagem é muito longo!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Falha ao adicionar ou remover um atalho de inicialização:</value>
+  </data>
 </root>

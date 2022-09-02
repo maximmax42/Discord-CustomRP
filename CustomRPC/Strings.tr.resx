@@ -181,4 +181,7 @@ Ayarları sıfırlamak için Evet'e, çıkmak için Hayır'a basın.</value>
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>Resim URL'si çok uzun!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Bir başlangıç kısayolu ekleme yada silme başarısız oldu:</value>
+  </data>
 </root>
