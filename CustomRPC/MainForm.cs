@@ -492,6 +492,7 @@ namespace CustomRPC
 
                     if (fileType == 1) // Open up app's folder for ease of manual update
                         Process.Start(Application.StartupPath);
+
                     Process.Start(exec);
 
                     Application.Exit();
@@ -499,8 +500,14 @@ namespace CustomRPC
                 }
                 catch
                 {
+                    try
+                    {
                     if (File.Exists(exec))
                         File.Delete(exec);
+                    }
+                    catch
+                    {
+                    }
 
                     var result = MessageBox.Show(this, Strings.errorUpdateFailed, Strings.error, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
 
