@@ -200,7 +200,7 @@
     <value>219, 22</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Permitir análises</value>
+    <value>Permitir recolha de dados</value>
   </data>
   <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
     <value>216, 6</value>
@@ -362,7 +362,7 @@
     <value>216, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>Deste que o "CustomRP" começou</value>
+    <value>Deste que o CustomRP começou</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
     <value>Mostra a quantidade de tempo desde que a aplicação foi aberta.</value>

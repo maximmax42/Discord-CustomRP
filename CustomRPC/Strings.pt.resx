@@ -169,7 +169,7 @@ Clique Sim para redefinir as Definições ou clique Não para sair.</value>
     <value>Um erro ocorreu ao abrir a Predefinição, o ficheiro não existe, está corrompido ou não está formatado corretamente.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>Permite que o CustomRP recolhe e envie análises ao desenvolvedor?
+    <value>Permite que o CustomRP recolha e envie análises ao desenvolvedor?
 (Todas as informações são despersonalizadas.)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
