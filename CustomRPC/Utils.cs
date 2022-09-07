@@ -625,6 +625,7 @@ namespace CustomRPC
                 },
                 new Supporter {
                     Name = "Bilal_786",
+                    Url = "https://discord.gg/zabPuE78ne",
                     USDAmount = "5.79",
                     AltAmount = "5.80 EUR"
                 },
