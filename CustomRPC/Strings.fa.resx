@@ -182,4 +182,7 @@
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>آدرس عکس خیلی طولانی است!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>خطا در اضافه یا حذف کردن میانبر استارت آپ:</value>
+  </data>
 </root>
