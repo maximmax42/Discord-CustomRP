@@ -16,12 +16,13 @@ Custom Discord Rich Presence Manager for Windows. Some of its features are run o
 
 * kiwi - $50.69 (50 EUR)
 * [Grim](https://www.savethekiwi.nz/) - $25.00 (0.0008328 BTC)
-* [Boefjim](https://boefjim.com) - $16.13 (1000 RUB)
+* [Boefjim](https://boefjim.com) - $16.13 (1000.00 RUB)
 * [White Rose](https://www.twitch.tv/psychonaut303) - $6.00
-* [Eli404](https://linktr.ee/404femboy) - $5.09 (5 EUR)
+* Bilal_786 - $5.79 (5.80 EUR)
+* [Eli404](https://linktr.ee/404femboy) - $5.09 (5.00 EUR)
 * [Kushgo](https://opensea.io/collection/worldtowers) - $5.00 (0.00313295 ETH)
 * Anonymous - $2.62 (0.00011304 BTC)
-* Tofix.rs - $0.45 (1 BAT)
+* Tofix.rs - $0.45 (1.00 BAT)
 
 If you don't see your donation here after a day or two - ping me on Discord.
 

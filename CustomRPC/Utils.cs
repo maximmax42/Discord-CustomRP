@@ -623,6 +623,11 @@ namespace CustomRPC
                     USDAmount = "5.00",
                     AltAmount = "0.00313295 ETH"
                 },
+                new Supporter {
+                    Name = "Bilal_786",
+                    USDAmount = "5.79",
+                    AltAmount = "5.80 EUR"
+                },
             };
         }
 
