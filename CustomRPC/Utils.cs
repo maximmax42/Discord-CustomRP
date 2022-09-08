@@ -630,6 +630,11 @@ namespace CustomRPC
                     USDAmount = "5.79",
                     AltAmount = "5.80 EUR"
                 },
+                new Supporter {
+                    Name = "Yoshi",
+                    USDAmount = "3.28",
+                    AltAmount = "200.00 RUB"
+                },
             };
         }
 
