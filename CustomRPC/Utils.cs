@@ -307,6 +307,7 @@ namespace CustomRPC
                     Translators = new Translator[] {
                         new Translator { Name = "Balla Botond", Url = "https://github.com/BallaBotond" },
                         new Translator { Name = "Noxie" },
+                        new Translator { Name = "BunDzsi" },
                     }
                 },
                 new Language {
@@ -554,7 +555,7 @@ namespace CustomRPC
             LanguageProgress["el"] = "90.91";
             LanguageProgress["he"] = "100";
             LanguageProgress["hi"] = "98.99";
-            LanguageProgress["hu"] = "97.98";
+            LanguageProgress["hu"] = "100";
             LanguageProgress["id"] = "98.99";
             LanguageProgress["it"] = "98.99";
             LanguageProgress["ja"] = "100";

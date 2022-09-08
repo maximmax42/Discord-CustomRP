@@ -178,4 +178,10 @@ Nyomd meg az Igen-t hogy újraállísd a beállításokat, nyomd meg a Nem-et ho
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Kérlek add hozzá a(z) "{0}" a vírusírtó kivételeihez. Telepítsd újra a CustomRP ha a hiba továbbra is fennáll.</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>A képhez tartozó URL túlságosan hosszú!</value>
+  </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Parancsikon hozzáadása vagy törlése sikertelen:</value>
+  </data>
 </root>
