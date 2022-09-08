@@ -187,4 +187,7 @@ Drücke "Ja" um sie zurückzusetzen oder "Nein" um zu verlassen.</value>
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>Die Bild-URL ist zu lang!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Fehler beim Hinzufügen oder Entfernen einer Startverknüpfung:</value>
+  </data>
 </root>

@@ -205,6 +205,7 @@ namespace CustomRPC
                         new Translator { Name = "binarynoise" },
                         new Translator { Name = "Felix", Url = "https://github.com/fbrettnich" },
                         new Translator { Name = "Tom" },
+                        new Translator { Name = "Yoshi" },
                     }
                 },
                 new Language {
@@ -549,7 +550,7 @@ namespace CustomRPC
             LanguageProgress["fil"] = "98.99";
             LanguageProgress["fi"] = "100";
             LanguageProgress["fr"] = "98.99";
-            LanguageProgress["de"] = "98.99";
+            LanguageProgress["de"] = "100";
             LanguageProgress["el"] = "90.91";
             LanguageProgress["he"] = "100";
             LanguageProgress["hi"] = "98.99";
@@ -562,7 +563,7 @@ namespace CustomRPC
             LanguageProgress["lv"] = "40.4";
             LanguageProgress["lt"] = "97.98";
             LanguageProgress["no"] = "98.99";
-            LanguageProgress["fa"] = "98.99";
+            LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "98.99";
             LanguageProgress["pt"] = "100";
             LanguageProgress["pt-br"] = "100";
