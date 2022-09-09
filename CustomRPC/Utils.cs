@@ -548,9 +548,9 @@ namespace CustomRPC
             LanguageProgress["cs"] = "98.99";
             LanguageProgress["da"] = "98.99";
             LanguageProgress["nl"] = "98.99";
-            LanguageProgress["fil"] = "98.99";
+            LanguageProgress["fil"] = "100";
             LanguageProgress["fi"] = "100";
-            LanguageProgress["fr"] = "98.99";
+            LanguageProgress["fr"] = "100";
             LanguageProgress["de"] = "100";
             LanguageProgress["el"] = "90.91";
             LanguageProgress["he"] = "100";

@@ -181,4 +181,7 @@ Cliquez sur "oui" pour réinitialiser la configuration, cliquez sur "non" pour q
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>L'URL de cette image est trop long !</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Erreur lors de l'ajout ou de la suppression du raccourcis de demarrage:</value>
+  </data>
 </root>

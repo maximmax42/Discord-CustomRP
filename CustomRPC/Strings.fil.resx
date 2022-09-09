@@ -181,4 +181,7 @@ Pindotin ang Oo para ma-reset ang settings, pindotin ang No to quit.</value>
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>Ang image URL ay mahaba!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Pumalyang magdagdag o magtangal ng startup shortcut:</value>
+  </data>
 </root>
