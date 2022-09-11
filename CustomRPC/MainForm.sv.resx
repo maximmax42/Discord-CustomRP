@@ -294,7 +294,7 @@ För att ta effekt så ska båda fälten vara mer än 0.</value>
     <value>Leta efter uppdateringar...</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
-    <value>Öppen</value>
+    <value>Öppna</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>Anslut automatiskt</value>

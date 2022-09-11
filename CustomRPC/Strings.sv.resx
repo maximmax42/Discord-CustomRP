@@ -131,7 +131,7 @@ Tryck "Ja" för att försöka igen eller "Nej" för att ladda ner uppdateringen 
     <value>Första Gången Körd</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
-    <value>Vill du öppna instruktionerna?
+    <value>Vill du öppna Manualen?
 Du kan öppna dem när du vill genom att gå till Hjälp -&gt; Öppna instruktionerna eller genom att trycka på F1.</value>
   </data>
   <data name="information" xml:space="preserve">
