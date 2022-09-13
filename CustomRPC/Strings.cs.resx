@@ -181,4 +181,7 @@ Klikněte Ano pro reset nastavení, klikněte Ne pro opuštění.</value>
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>URL obrázku je příliš dlouhé!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Nepodařilo se přidat nebo odebrat zástupce při spuštění:</value>
+  </data>
 </root>
