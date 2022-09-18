@@ -17,7 +17,7 @@ Custom Discord Rich Presence Manager for Windows. Some of its features are run o
 * kiwi - $50.69 (50 EUR)
 * [Grim](https://www.savethekiwi.nz/) - $25.00 (0.0008328 BTC)
 * [Boefjim](https://boefjim.com) - $16.13 (1000.00 RUB)
-* [White Rose](https://www.twitch.tv/psychonaut303) - $6.00
+* [GreenRosie](https://www.twitch.tv/greenrosie) - $6.00
 * [Bilal_786](https://discord.gg/zabPuE78ne) - $5.79 (5.80 EUR)
 * [Eli404](https://linktr.ee/404femboy) - $5.09 (5.00 EUR)
 * [Kushgo](https://opensea.io/collection/worldtowers) - $5.00 (0.00313295 ETH)
@@ -69,7 +69,7 @@ So far, the app supports these languages:
 * [Japanese](https://poeditor.com/projects/po_edit?id_language=76&per_page=100&id=409229) (thanks to KABIKIRA000)
 * [Korean](https://poeditor.com/projects/po_edit?id_language=88&per_page=100&id=409229) (thanks to [Yeongaori](https://github.com/yeongaori))
 * [Kurdish](https://poeditor.com/projects/po_edit?id_language=90&per_page=100&id=409229) (thanks to [SamTheNoob](https://linktr.ee/stn69))
-* [Lithuanian](https://poeditor.com/projects/po_edit?id_language=96&per_page=100&id=409229) (thanks to [White Rose](https://www.twitch.tv/psychonaut303))
+* [Lithuanian](https://poeditor.com/projects/po_edit?id_language=96&per_page=100&id=409229) (thanks to [GreenRosie](https://www.twitch.tv/greenrosie))
 * [Norwegian](https://poeditor.com/projects/po_edit?id_language=116&per_page=100&id=409229) (thanks to Sveinung)
 * [Persian](https://poeditor.com/projects/po_edit?id_language=126&per_page=100&id=409229) (thanks to [Mohammad Mahdi](https://mo-mahdihh.ir/))
 * [Polish](https://poeditor.com/projects/po_edit?id_language=127&per_page=100&id=409229) (thanks to Lol1112345.lol12345, Liso, Piter, Oscar, [Marcel Gustin](https://marcelgustin.de) and Tofix.rs)

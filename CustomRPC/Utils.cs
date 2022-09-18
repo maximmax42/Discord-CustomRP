@@ -364,7 +364,7 @@ namespace CustomRPC
                     EnglishName = "Lithuanian",
                     Code = "lt",
                     Translators = new Translator[] {
-                        new Translator { Name = "White Rose", Url = "https://www.twitch.tv/white_rose_lt" },
+                        new Translator { Name = "GreenRosie", Url = "https://www.twitch.tv/greenrosie" },
                     }
                 },
                 new Language {
@@ -590,8 +590,8 @@ namespace CustomRPC
                     AltAmount = "0.0008328 BTC"
                 },
                 new Supporter {
-                    Name = "White Rose",
-                    Url = "https://www.twitch.tv/psychonaut303",
+                    Name = "GreenRosie",
+                    Url = "https://www.twitch.tv/greenrosie",
                     USDAmount = "6.00",
                 },
                 new Supporter {
