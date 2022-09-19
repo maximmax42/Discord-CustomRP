@@ -181,4 +181,7 @@
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>رابط الصورة طويل للغاية!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>فشل إضافة أو إزالة اختصار بدء التشغيل:</value>
+  </data>
 </root>
