@@ -181,4 +181,7 @@ Pulse Sí para restablecer la configuración, pulse No para salir.</value>
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>El URL de la imagen es demaciado largo!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Error al agregar o eliminar un acceso directo de inicio:</value>
+  </data>
 </root>

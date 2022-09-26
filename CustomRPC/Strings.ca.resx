@@ -181,4 +181,7 @@ Premeu Sí per restablir la configuració, premeu No per sortir.</value>
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>L'URL de la imatge és massa llarg!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>No s'ha pogut afegir o eliminar una drecera d'inici:</value>
+  </data>
 </root>
