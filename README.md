@@ -54,7 +54,7 @@ So far, the app supports these languages:
 * [Croatian](https://poeditor.com/projects/po_edit?id_language=37&per_page=100&id=409229) (thanks to Monika)
 * [Czech](https://poeditor.com/projects/po_edit?id_language=38&per_page=100&id=409229) (thanks to [JayJake](https://jayk.live/), Tobias and MakoPog)
 * [Danish](https://poeditor.com/projects/po_edit?id_language=39&per_page=100&id=409229) (thanks to Sebastian Hviid, Tobias, wimblim, David and Johansenbastian6)
-* [Dutch](https://poeditor.com/projects/po_edit?id_language=41&per_page=100&id=409229) (thanks to [Jeremyzijlemans](https://sionhub.co.uk/), Screitsma64 and [sys-256](https://sys-256.me/))
+* [Dutch](https://poeditor.com/projects/po_edit?id_language=41&per_page=100&id=409229) (thanks to [Jeremyzijlemans](https://sionteam.com/), Screitsma64 and [sys-256](https://sys-256.me/))
 * [English](https://poeditor.com/projects/po_edit?id_language=43&per_page=100&id=409229)
 * [Filipino](https://poeditor.com/projects/po_edit?id_language=219&per_page=100&id=409229) (thanks to [CtrlAltDelicious](https://www.youtube.com/c/CtrlAltDelicious_), jericko and Hachiki)
 * [Finnish](https://poeditor.com/projects/po_edit?id_language=49&per_page=100&id=409229) (thanks to Deluxeria, Zunikuu and TurtleL)

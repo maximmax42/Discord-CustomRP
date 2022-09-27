@@ -381,7 +381,7 @@ namespace CustomRPC
                     EnglishName = "Dutch",
                     Code = "nl",
                     Translators = new Translator[] {
-                        new Translator { Name = "Jeremyzijlemans", Url = "https://sionhub.co.uk/" },
+                        new Translator { Name = "Jeremyzijlemans", Url = "https://sionteam.com/" },
                         new Translator { Name = "Screitsma64" },
                         new Translator { Name = "sys-256", Url = "https://sys-256.me/" }, // Bramdevogel
                     }
