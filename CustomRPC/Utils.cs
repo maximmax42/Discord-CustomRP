@@ -227,6 +227,7 @@ namespace CustomRPC
                     Code = "es",
                     Translators = new Translator[] {
                         new Translator { Name = "Vexot" },
+                        new Translator { Name = "SirAmong" },
                         new Translator { Name = "Pablo" },
                         new Translator { Name = "Darling-Chan", Url = "https://meap.gg/" },
                         new Translator { Name = "Luciousmc" },

@@ -121,7 +121,7 @@
     <value>Error</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>¡No hay un ID especificado!</value>
+    <value>ID no especificado!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
     <value>Ha ocurrido un error durante se descargaba o instalaba una actualización.
@@ -153,7 +153,7 @@ Lo puedes abrir en cualquier momento en Ayuda -&gt; Abrir el Manual o presionand
     <value>Error de conexión (¿ID equivocada?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>¡La URL especificada es invalida para botón(es) o el texto es muy largo!</value>
+    <value>¡La URL especificada es invalida para el botón(es) o el texto es muy largo!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
     <value>¡No se puede conectar al internet!</value>

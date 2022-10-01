@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>Hacer doble click en el icono para ver de nuevo, o click derecho para salir.</value>
+    <value>Haz doble click en el icono para ver de nuevo, o click derecho para salir.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
     <value>La aplicación se ejecutara en la bandeja.</value>
@@ -137,13 +137,13 @@
     <value>197, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Cargar Ajustes</value>
+    <value>Cargar Ajustes Guardados</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Guardar Ajustes</value>
+    <value>Guardar Ajustes Guardados</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>194, 6</value>
@@ -173,7 +173,7 @@
     <value>221, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Abrir al iniciar el ordenador</value>
+    <value>Abrir al iniciar el sistema</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>221, 22</value>
@@ -242,7 +242,7 @@
     <value>203, 22</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>Abrir el Manual</value>
+    <value>Abrir el Manual/Tutorial</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 22</value>
