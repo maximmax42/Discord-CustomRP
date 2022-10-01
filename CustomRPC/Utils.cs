@@ -203,10 +203,10 @@ namespace CustomRPC
                         new Translator { Name = "Ypsol", Url = "https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA" },
                         new Translator { Name = "ahmad" },
                         new Translator { Name = "Marcel Gustin", Url = "https://marcelgustin.de" },
+                        new Translator { Name = "Yoshi" },
                         new Translator { Name = "binarynoise" },
                         new Translator { Name = "Felix", Url = "https://github.com/fbrettnich" },
                         new Translator { Name = "Tom" },
-                        new Translator { Name = "Yoshi" },
                     }
                 },
                 new Language {

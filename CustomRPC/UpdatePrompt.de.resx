@@ -141,10 +141,10 @@
 Neueste Version:</value>
   </data>
   <data name="buttonSkipUpdate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 23</value>
+    <value>163, 23</value>
   </data>
   <data name="buttonSkipUpdate.Text" xml:space="preserve">
-    <value>Version überspringen</value>
+    <value>Diese Version überspringen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Update verfügbar</value>

@@ -124,15 +124,15 @@
     <value>Keine ID wurde festgelegt!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
-    <value>Fehler beim herunterladen oder installieren eines Updates.
-Drücke "Ja" zum Wiederholen oder "Nein" um es manuell herunterzuladen.</value>
+    <value>Beim Herunterladen oder Installieren eines Updates ist ein Fehler aufgetreten.
+Drücke "Ja", um es erneut zu versuchen, oder "Nein", um es manuell herunterzuladen.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
     <value>Erster Start</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Möchtest du die Anleitung öffnen?
-Du kannst es jederzeit unter Hilfe -&gt; Öffne das Handbuch oder mit der F1-Taste aufrufen.</value>
+Du kannst sie jederzeit öffnen, indem du auf Hilfe -&gt; Handbuch öffnen gehst oder F1 drückst.</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>Information</value>
@@ -141,7 +141,7 @@ Du kannst es jederzeit unter Hilfe -&gt; Öffne das Handbuch oder mit der F1-Tas
     <value>Verbunden</value>
   </data>
   <data name="statusConnecting" xml:space="preserve">
-    <value>Verbinde...</value>
+    <value>Verbinden...</value>
     <comment>`</comment>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
@@ -168,14 +168,14 @@ Bist du sicher, dass es läuft?</comment>
     <value>Keine Updates gefunden!</value>
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
-    <value>Einstellungen Datei ist Beschädigt.
+    <value>Einstellungs Datei ist Beschädigt.
 Drücke "Ja" um sie zurückzusetzen oder "Nein" um zu verlassen.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Das importieren des Presetd ist fehlgeschlagen; die datei ist entweder fehlerhaft, fehlt oder nicht korrekt formatiert.</value>
+    <value>Das importieren des Presets ist fehlgeschlagen; die Datei ist entweder fehlerhaft, fehlt oder nicht korrekt formatiert.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>Erlaubst du das CustomRP deine Benutzungs Analyse and den Developer sendet?
+    <value>Erlaubst du CustomRP deine Benutzungs Analyse and den Entwickler zu senden?
 (Alle daten sind nicht Personalisiert.)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">

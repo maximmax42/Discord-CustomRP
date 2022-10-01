@@ -59,7 +59,7 @@ So far, the app supports these languages:
 * [Filipino](https://poeditor.com/projects/po_edit?id_language=219&per_page=100&id=409229) (thanks to [CtrlAltDelicious](https://www.youtube.com/c/CtrlAltDelicious_), jericko and Hachiki)
 * [Finnish](https://poeditor.com/projects/po_edit?id_language=49&per_page=100&id=409229) (thanks to Deluxeria, Zunikuu and TurtleL)
 * [French](https://poeditor.com/projects/po_edit?id_language=50&per_page=100&id=409229) (thanks to Nenaff, RedNix and VaporCorp)
-* [German](https://poeditor.com/projects/po_edit?id_language=55&per_page=100&id=409229) (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), ahmad, [Marcel Gustin](https://marcelgustin.de), binarynoise, [Felix](https://github.com/fbrettnich), Tom and Yoshi)
+* [German](https://poeditor.com/projects/po_edit?id_language=55&per_page=100&id=409229) (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), ahmad, [Marcel Gustin](https://marcelgustin.de), Yoshi, binarynoise, [Felix](https://github.com/fbrettnich), and Tom)
 * [Greek](https://poeditor.com/projects/po_edit?id_language=56&per_page=100&id=409229) (thanks to Alex Grivas)
 * [Hebrew](https://poeditor.com/projects/po_edit?id_language=61&per_page=100&id=409229) (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg), [Kahpot Vanilla](https://linktr.ee/KahpotVanilla) and Amit)
 * [Hindi](https://poeditor.com/projects/po_edit?id_language=63&per_page=100&id=409229) (thanks to [regex](https://github.com/REGEX777), [Julian](https://discord.com/oauth2/authorize?client_id=962323485772881950&scope=bot&permissions=8) and mochiron desu)
