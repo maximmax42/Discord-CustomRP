@@ -870,9 +870,7 @@ namespace CustomRPC
                 var preset = (Preset)xs.Deserialize(file);
 
                 bool wasConnected = buttonDisconnect.Enabled;
-
-                if (wasConnected)
-                    Disconnect();
+                bool isNewID = settings.id != preset.ID;
 
                 settings.id = preset.ID;
                 settings.details = preset.Details;
@@ -900,10 +898,15 @@ namespace CustomRPC
                     case TimestampType.Custom: radioButtonCustom.Checked = true; break;
                 }
 
-                if (wasConnected)
-                    Connect();
-
                 Analytics.TrackEvent("Loaded a preset");
+
+                if (!wasConnected)
+                    return;
+
+                if (isNewID || ConnectionManager.State != ConnectionType.Connected)
+                    Reconnect();
+                else
+                    SetPresence();
             }
             catch
             {
@@ -1246,6 +1249,26 @@ namespace CustomRPC
             client.Dispose();
 
             Analytics.TrackEvent("Disconnected");
+        }
+
+        /// <summary>
+        /// Disconnects from Discord and instantly connects back.
+        /// </summary>
+        private void Reconnect()
+        {
+            // Quick disconnect
+            restartTimer.Stop();
+            client.Dispose();
+
+            // Quick connect
+            Utils.SaveSettings();
+            if (Init())
+            {
+                ConnectionManager.State = ConnectionType.Connecting;
+                toolStripStatusLabelStatus.Text = Strings.statusConnecting;
+            }
+            else
+                Disconnect(); // In case something goes wrong, disconnect fully.
         }
 
         /// <summary>
