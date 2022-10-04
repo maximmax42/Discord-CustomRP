@@ -179,6 +179,7 @@ namespace CustomRPC
                     Code = "cs",
                     Translators = new Translator[] {
                         new Translator { Name = "JayJake", Url = "https://jayk.live/" },
+                        new Translator { Name = "SunightMC" },
                         new Translator { Name = "Tobias" },
                         new Translator { Name = "MakoPog" }
                     }

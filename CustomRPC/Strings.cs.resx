@@ -144,7 +144,7 @@ Můžete jej kdykoli otevřít v nabídce Nápověda -&gt; Otevřít příručku
     <value>Připojování...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Připojení se nezdařilo (běží Discord?)</value>
+    <value>Připojení se nezdařilo (běží vám Discord?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>Odpojeno</value>
@@ -162,14 +162,14 @@ Můžete jej kdykoli otevřít v nabídce Nápověda -&gt; Otevřít příručku
     <value>Nebyly nalezeny žádné aktualizace!</value>
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
-    <value>Soubor je poškozen.
+    <value>Soubor s nastavením je poškozen.
 Klikněte Ano pro reset nastavení, klikněte Ne pro opuštění.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Chyba při nahrávání; soubor chybí, je poškozen, nebo není platně zformátován.</value>
+    <value>Chyba při nahrávání předvolby; soubor chybí, je poškozen, nebo není platně zformátován.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>Povolujete CustomRP odesílat analýzy vašeho používání vývojáři?
+    <value>Povolujete CustomRP odesílat analýzy používání vývojáři?
 (Všechna data jsou depersonalizovaná.)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
