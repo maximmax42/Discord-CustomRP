@@ -350,7 +350,7 @@ namespace CustomRPC
                     EnglishName = "Georgian",
                     Code = "ka",
                     Translators = new Translator[] {
-                        new Translator { Name = "Turashviliguro" },
+                        new Translator { Name = "Turashviliguro", Url = "https://turashviliguro.github.io/daddyexe/" },
                     }
                 },
                 new Language {
