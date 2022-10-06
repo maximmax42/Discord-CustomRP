@@ -346,6 +346,14 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "ქართული ენა",
+                    EnglishName = "Georgian",
+                    Code = "ka",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Turashviliguro" },
+                    }
+                },
+                new Language {
                     Name = "한국어",
                     EnglishName = "Korean",
                     Code = "ko",
@@ -556,6 +564,7 @@ namespace CustomRPC
             LanguageProgress["fil"] = "100";
             LanguageProgress["fi"] = "100";
             LanguageProgress["fr"] = "100";
+            LanguageProgress["ka"] = "100";
             LanguageProgress["de"] = "100";
             LanguageProgress["el"] = "90.91";
             LanguageProgress["he"] = "100";
