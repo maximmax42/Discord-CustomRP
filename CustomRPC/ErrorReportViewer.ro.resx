@@ -121,7 +121,7 @@
     <value>Report eroare</value>
   </data>
   <data name="buttonOK.Text" xml:space="preserve">
-    <value>OK</value>
+    <value>Da</value>
   </data>
   <data name="labelInfo.Text" xml:space="preserve">
     <value>CustomRP s-a prăbușit în sesiunea anterioară din cauza următoarei excepții negestionate:</value>

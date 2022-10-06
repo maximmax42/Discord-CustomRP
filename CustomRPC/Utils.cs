@@ -438,6 +438,7 @@ namespace CustomRPC
                         new Translator { Name = "DiDYRO", Url = "https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w" },
                         new Translator { Name = "Denisbolba" },
                         new Translator { Name = "KTSGod", Url = "https://ktsgod.carrd.co/" },
+                        new Translator { Name = "Eddie", Url = "https://github.com/EdiRo" },
                         new Translator { Name = "Matthww" },
                     }
                 },
@@ -551,6 +552,7 @@ namespace CustomRPC
             LanguageProgress["cs"] = "100";
             LanguageProgress["da"] = "98.99";
             LanguageProgress["nl"] = "98.99";
+            LanguageProgress["et"] = "79.8";
             LanguageProgress["fil"] = "100";
             LanguageProgress["fi"] = "100";
             LanguageProgress["fr"] = "100";
@@ -571,7 +573,7 @@ namespace CustomRPC
             LanguageProgress["pl"] = "98.99";
             LanguageProgress["pt"] = "100";
             LanguageProgress["pt-br"] = "100";
-            LanguageProgress["ro"] = "98.99";
+            LanguageProgress["ro"] = "100";
             LanguageProgress["ru"] = "100";
             LanguageProgress["sr"] = "98.99";
             LanguageProgress["es"] = "100";

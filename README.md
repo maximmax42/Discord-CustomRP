@@ -42,7 +42,7 @@ So far, the app supports these languages:
 
 ![Language progress hystogram](https://www.customrp.xyz/poeditor/progress.php)
 
-(Languages with less than 75% completion will not be added until they hit that mark, except Croatian.)
+(Languages with less than 90% completion will not be added until they hit that mark, except Croatian.)
 
 * [Arabic](https://poeditor.com/projects/po_edit?id_language=233&per_page=100&id=409229) (thanks to [FiberAhmed](https://github.com/FiberAhmed), ShadowlGamer and karimawi)
 * [Bengali](https://poeditor.com/projects/po_edit?id_language=19&per_page=100&id=409229) (thanks to [mrimran](https://github.com/mr-Imran))
@@ -75,7 +75,7 @@ So far, the app supports these languages:
 * [Polish](https://poeditor.com/projects/po_edit?id_language=127&per_page=100&id=409229) (thanks to Lol1112345.lol12345, Liso, Piter, Oscar, [Marcel Gustin](https://marcelgustin.de) and Tofix.rs)
 * [Portugese](https://poeditor.com/projects/po_edit?id_language=128&per_page=100&id=409229) (thanks to Verygafanhot)
 * [Portugese (BR)](https://poeditor.com/projects/po_edit?id_language=190&per_page=100&id=409229) (thanks to viniciotricolor, Slimakoi, Felipe B. Pansani, DeusDrizzyy and Leo)
-* [Romanian](https://poeditor.com/projects/po_edit?id_language=131&per_page=100&id=409229) (thanks to [DiDYRO](https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w), Denisbolba, [KTSGod](https://ktsgod.carrd.co/) and Matthww)
+* [Romanian](https://poeditor.com/projects/po_edit?id_language=131&per_page=100&id=409229) (thanks to [DiDYRO](https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w), Denisbolba, [KTSGod](https://ktsgod.carrd.co/), [Eddie](https://github.com/EdiRo) and Matthww)
 * [Russian](https://poeditor.com/projects/po_edit?id_language=134&per_page=100&id=409229)
 * [Serbian](https://poeditor.com/projects/po_edit?id_language=141&per_page=100&id=409229) (thanks to Vihaan, ToShibaToShamara and Veljko)
 * [Spanish](https://poeditor.com/projects/po_edit?id_language=152&per_page=100&id=409229) (thanks to Vexot, SirAmong, Pablo, [Darling-Chan](https://meap.gg/), Luciousmc, Alvaro203204 and Epic)

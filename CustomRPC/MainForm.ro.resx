@@ -220,7 +220,7 @@
     <value>Imaginea care arată sus în colțul din dreapta a imaginii mari.</value>
   </data>
   <data name="labelLarge.Text" xml:space="preserve">
-    <value>Imaginea gigantică</value>
+    <value>Imaginea mare</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
     <value>Imaginea carea arată stânga de la textul setat de  sus.</value>

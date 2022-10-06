@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="error" xml:space="preserve">
-    <value>Eroareee</value>
+    <value>Eroare</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
     <value>Niciun ID specificat!</value>
@@ -144,13 +144,13 @@ Apăsați "Da" pentru a reîncerca sau "Nu" pentru a descărca manual.</value>
     <value>În curs de conectare...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Conectarea a fost eșuată (Rulează Discord în prezent?)</value>
+    <value>Conectarea a fost eșuată (Rulează Discord acum?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>Deconectat</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>Eroare la conexiune (Poate ID este greșit?)</value>
+    <value>Eroare la conexiune (Poate un id gresit?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
     <value>Adresa URL nevalidă specificată pentru buton(e) sau textul este prea lung!</value>
@@ -180,5 +180,8 @@ Apăsați Da pentru a reseta setările, apăsați Nu pentru a ieși.</value>
   </data>
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>Adresa URL a imaginii este prea lungă!</value>
+  </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Adaugare sau stergerea unui startup shortcut a esuat:</value>
   </data>
 </root>
