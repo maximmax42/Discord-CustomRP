@@ -288,7 +288,7 @@ namespace CustomRPC
                     Translators = new Translator[] {
                         new Translator { Name = "Deluxeria" },
                         new Translator { Name = "Zunikuu" },
-                        new Translator { Name = "TurtleL" },
+                        new Translator { Name = "jes", Url = "https://jes8137.carrd.co/" },
 
                     }
                 },
