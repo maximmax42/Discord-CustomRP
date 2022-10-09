@@ -25,6 +25,10 @@ Custom Discord Rich Presence Manager for Windows. Some of its features are run o
 * Anonymous - $2.62 (0.00011304 BTC)
 * Tofix.rs - $0.45 (1.00 BAT)
 
+### Non-monetary supporters
+
+* [vouivre](https://twitter.com/vvouivre) - [A furry art](https://cdn.discordapp.com/attachments/1028632852969033839/1028632881179922522/unknown.png)
+
 If you don't see your donation here after a day or two - ping me on Discord.
 
 ## Downloading and setting up

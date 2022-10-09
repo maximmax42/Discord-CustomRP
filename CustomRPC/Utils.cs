@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
@@ -114,6 +115,29 @@ namespace CustomRPC
     }
 
     /// <summary>
+    /// A struct describing a non-monetary supporter.
+    /// </summary>
+    struct NonMonetarySupporter
+    {
+        /// <summary>
+        /// Nickname of the supporter.
+        /// </summary>
+        public string Name;
+        /// <summary>
+        /// URL of the supporter, optional.
+        /// </summary>
+        public string Url;
+        /// <summary>
+        /// What the supporter donated.
+        /// </summary>
+        public string DonationType;
+        /// <summary>
+        /// Link to the donation piece, optional.
+        /// </summary>
+        public string DonationUrl;
+    }
+
+    /// <summary>
     /// Utility functions.
     /// </summary>
     public static class Utils
@@ -134,6 +158,11 @@ namespace CustomRPC
         /// List of supporters used to populate Help -> supporters menu item.
         /// </summary>
         static List<Supporter> Supporters { get; set; }
+
+        /// <summary>
+        /// List of supporters who have donated something that doesn't have set monetary value (furry art, mostly) used to populate Help -> supporters menu item.
+        /// </summary>
+        static List<NonMonetarySupporter> NonMonetarySupporters { get; set; }
 
         static Utils()
         {
@@ -652,6 +681,16 @@ namespace CustomRPC
                     AltAmount = "200.00 RUB"
                 },
             };
+
+            NonMonetarySupporters = new List<NonMonetarySupporter>
+            {
+                new NonMonetarySupporter {
+                    Name = "vouivre",
+                    Url = "https://twitter.com/vvouivre",
+                    DonationType = "A furry art",
+                    DonationUrl = "https://cdn.discordapp.com/attachments/1028632852969033839/1028632881179922522/unknown.png"
+                },
+            };
         }
 
         /// <summary>
@@ -755,6 +794,29 @@ namespace CustomRPC
                     item.Tag = ("supporter", supporter.Url);
                     item.ToolTipText = supporter.Url;
                 }
+                parent.DropDownItems.Add(item);
+            }
+
+            parent.DropDownItems.Add(new ToolStripSeparator());
+
+            foreach (var nmSupporter in NonMonetarySupporters)
+            {
+                var item = new ToolStripMenuItem($"{nmSupporter.Name} - {nmSupporter.DonationType}", null, handler);
+
+                if (!string.IsNullOrEmpty(nmSupporter.Url))
+                {
+                    item.Image = Properties.Resources.globe;
+                    item.Tag = ("non-monetary supporter", nmSupporter.Url);
+                    item.ToolTipText = nmSupporter.Url;
+                }
+
+                if (!string.IsNullOrEmpty(nmSupporter.DonationUrl))
+                {
+                    string txt = new System.ComponentModel.ComponentResourceManager(typeof(MainForm)).GetString("openToolStripMenuItem.Text");
+
+                    item.DropDownItems.Add(new ToolStripMenuItem(txt, null, (o, e) => Process.Start(nmSupporter.DonationUrl)));
+                }
+
                 parent.DropDownItems.Add(item);
             }
         }
