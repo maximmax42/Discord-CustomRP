@@ -266,6 +266,14 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Eesti",
+                    EnglishName = "Estonian",
+                    Code = "et",
+                    Translators = new Translator[] {
+                        new Translator { Name = "z1", Url = "https://github.com/Erkkii" },
+                    }
+                },
+                new Language {
                     Name = "فارسی",
                     EnglishName = "Persian",
                     Code = "fa",
@@ -590,7 +598,7 @@ namespace CustomRPC
             LanguageProgress["cs"] = "100";
             LanguageProgress["da"] = "98.99";
             LanguageProgress["nl"] = "98.99";
-            LanguageProgress["et"] = "79.8";
+            LanguageProgress["et"] = "100";
             LanguageProgress["fil"] = "100";
             LanguageProgress["fi"] = "100";
             LanguageProgress["fr"] = "100";
