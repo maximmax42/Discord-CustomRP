@@ -181,4 +181,7 @@
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>URL ของรูปภาพยาวเกินไป!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>ไม่สามารถเพิ่มหรือลบทางลัดเริ่มต้น:</value>
+  </data>
 </root>

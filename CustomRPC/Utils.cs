@@ -494,6 +494,7 @@ namespace CustomRPC
                         new Translator { Name = "Squishee Freshy" },
                         new Translator { Name = "YuuabyssSSID" },
                         new Translator { Name = "SabbKor" },
+                        new Translator { Name = "OHMKUB" },
                         //new Translator { Name = "Game" }, 0 translations currently?
                     }
                 },
@@ -588,7 +589,7 @@ namespace CustomRPC
             LanguageProgress["es"] = "100";
             LanguageProgress["sv"] = "98.99";
             LanguageProgress["ta"] = "97.98";
-            LanguageProgress["th"] = "98.99";
+            LanguageProgress["th"] = "100";
             LanguageProgress["tr"] = "100";
             LanguageProgress["uk"] = "100";
             LanguageProgress["vi"] = "100";
