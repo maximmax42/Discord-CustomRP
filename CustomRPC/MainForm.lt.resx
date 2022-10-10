@@ -424,6 +424,6 @@ Kad abu laukai įsigaliotų, jie turėtų būti didesni nei 0.</value>
     <value>Nuo paskutinės prezentacijos atnaujinimo</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
-    <value>Rodo kiek laiko yra praėję, nuo prezentacijos paskutinio prisijungimo ar atnaujinimo.</value>
+    <value>Rodo kiek laiko yra praėję, nuo būsenos paskutinio prisijungimo ar atnaujinimo.</value>
   </data>
 </root>

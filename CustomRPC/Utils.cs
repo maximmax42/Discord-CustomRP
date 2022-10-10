@@ -412,6 +412,7 @@ namespace CustomRPC
                     Code = "lt",
                     Translators = new Translator[] {
                         new Translator { Name = "GreenRosie", Url = "https://www.twitch.tv/greenrosie" },
+                        new Translator { Name = "Flix3ris" },
                     }
                 },
                 new Language {
@@ -614,7 +615,7 @@ namespace CustomRPC
             LanguageProgress["ko"] = "100";
             LanguageProgress["ku"] = "92.93";
             LanguageProgress["lv"] = "40.4";
-            LanguageProgress["lt"] = "97.98";
+            LanguageProgress["lt"] = "100";
             LanguageProgress["no"] = "98.99";
             LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "98.99";

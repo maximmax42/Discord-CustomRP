@@ -178,4 +178,10 @@ Paspauskite Taip kad atstatyti nustatymus, paspauskite Ne kad išeiti.</value>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Prie antivirusinės programos išimčių pridėkite išimtį „{0}“. Iš naujo įdiekite „CustomRP“, jei ši klaida išlieka.</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>Paveikslėlio URL per ilgas!</value>
+  </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Nepavyko pridėti ar pašalinti paleidimo nuorodos:</value>
+  </data>
 </root>
