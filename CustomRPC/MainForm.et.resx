@@ -398,7 +398,7 @@
     <value>165, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>Alates CustomRP algusest</value>
+    <value>Alates CustomRP käivitamisest</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
     <value>Näitab aega pärast rakenduse käivitamist.</value>
