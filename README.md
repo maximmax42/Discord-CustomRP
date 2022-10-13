@@ -32,11 +32,11 @@ Custom Discord Rich Presence Manager for Windows. Some of its features are run o
 If you don't see your donation here after a day or two - ping me on Discord.
 
 ## Downloading and setting up
-Download the latest version from the [Releases](https://github.com/maximmax42/Discord-CustomRP/releases) page and run the .exe installer! You can also use Windows Package Manager to install the program (`winget install maximmax42.CustomRP`) or, if you prefer the portable version, download the zip, unpack it somewhere, preferably in a separate folder, and start it up. Upon starting, you will be prompted to open a [setup manual](https://github.com/maximmax42/Discord-CustomRP/wiki/Setting-up). You can open it later by pressing F1 or going to Help -> Open Manual.
+Download the latest version from the [Releases](https://github.com/maximmax42/Discord-CustomRP/releases) page and run the .exe installer! You can also use Windows Package Manager to install the program (`winget install maximmax42.CustomRP`) or, if you prefer the portable version, download the zip, unpack it somewhere, preferably in a separate folder, and start it up. Upon starting, you will be prompted to open a [setup manual](https://docs.customrp.xyz/setting-up). You can open it later by pressing F1 or going to Help -> Open Manual.
 ### Updating
 If you installed the app, updating is literally as easy as running the installer for the newer version. If you use a portable version, please make sure to extract the updated files into the same folder as you did before to keep your settings.
 ### Troubleshooting & Feedback
-If you have any problems with the app, please check out the [FAQ](https://github.com/maximmax42/Discord-CustomRP/wiki/FAQ) first. If this doesn't help, or you have any  suggestions on making the app more functional, you can open an issue ticket, use Discussions, or join the Discord server, link is at the top of the readme.
+If you have any problems with the app, please check out the [FAQ](https://docs.customrp.xyz/faq) first. If this doesn't help, or you have any  suggestions on making the app more functional, you can open an issue ticket, use Discussions, or join the Discord server, link is at the top of the readme.
 
 ## Translations
 

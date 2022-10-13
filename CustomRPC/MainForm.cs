@@ -264,7 +264,7 @@ namespace CustomRPC
 
                 if (messageBox == DialogResult.Yes)
                     // Opens the setup manual
-                    Process.Start("https://github.com/maximmax42/Discord-CustomRP/wiki/Setting-Up");
+                    Process.Start("https://docs.customrp.xyz/setting-up");
 
                 settings.firstStart = false;
                 Utils.SaveSettings();
