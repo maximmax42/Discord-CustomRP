@@ -226,7 +226,7 @@ namespace CustomRPC
                     }
                 },
                 new Language {
-                    Name = "Deutsche",
+                    Name = "Deutsch",
                     EnglishName = "German",
                     Code = "de",
                     Translators = new Translator[] {
