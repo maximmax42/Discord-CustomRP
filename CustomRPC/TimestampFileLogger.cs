@@ -43,16 +43,19 @@ namespace CustomRPC
 
             if (fileInfo.Exists && fileInfo.Length >= 5 * 1024 * 1024)
             {
-                File.Move(LogFile, LogFile + ".0");
-
-                int fileCount = 0;
-
-                while (File.Exists(LogFile + "." + (fileCount + 1)))
-                    fileCount++;
-
-                for (int i = fileCount; i >= 0; i--)
+                lock (filelock)
                 {
-                    File.Move(LogFile + "." + i, LogFile + "." + (i + 1));
+                    File.Move(LogFile, LogFile + ".0");
+
+                    int fileCount = 0;
+
+                    while (File.Exists(LogFile + "." + (fileCount + 1)))
+                        fileCount++;
+
+                    for (int i = fileCount; i >= 0; i--)
+                    {
+                        File.Move(LogFile + "." + i, LogFile + "." + (i + 1));
+                    }
                 }
             }
         }
@@ -95,7 +98,7 @@ namespace CustomRPC
         /// <param name="args"></param>
         public void Info(string message, params object[] args)
         {
-            Log("INFO", LogLevel.Trace, message, args);
+            Log("INFO", LogLevel.Info, message, args);
         }
 
         /// <summary>
@@ -105,7 +108,7 @@ namespace CustomRPC
         /// <param name="args"></param>
         public void Warning(string message, params object[] args)
         {
-            Log("WARN", LogLevel.Trace, message, args);
+            Log("WARN", LogLevel.Warning, message, args);
         }
 
         /// <summary>
@@ -115,7 +118,7 @@ namespace CustomRPC
         /// <param name="args"></param>
         public void Error(string message, params object[] args)
         {
-            Log(" ERR", LogLevel.Trace, message, args);
+            Log(" ERR", LogLevel.Error, message, args);
         }
     }
 }
