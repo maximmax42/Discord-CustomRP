@@ -822,7 +822,7 @@ namespace CustomRPC
                 if (!string.IsNullOrEmpty(nmSupporter.DonationUrl))
                 {
                     string txt = new System.ComponentModel.ComponentResourceManager(typeof(MainForm)).GetString("openToolStripMenuItem.Text");
-                    
+
                     item.DropDownItems.Add(new ToolStripMenuItem(txt, null, (o, e) => Process.Start(nmSupporter.DonationUrl))
                     {
                         ToolTipText = nmSupporter.DonationUrl
