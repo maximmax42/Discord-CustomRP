@@ -131,6 +131,12 @@ namespace CustomRPC
         string lastIDChecked = "";
 
         /// <summary>
+        /// A part of the URL path for docs.customrp.xyz links used in the app.
+        /// Has the form of empty string if the app is in English or the docs aren't translated to the current UI language, "v/[locale]/" or "v/[locale]-[country]/"
+        /// </summary>
+        string localeUrl = "";
+
+        /// <summary>
         /// Timestamp of when the app started.
         /// </summary>
         readonly DateTime timestampStarted = DateTime.UtcNow;
@@ -144,6 +150,11 @@ namespace CustomRPC
         /// Resource manager. Yes I know, very descriptive.
         /// </summary>
         readonly System.ComponentModel.ComponentResourceManager res = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+
+        /// <summary>
+        /// List of locales docs.customrp.xyz is translated to.
+        /// </summary>
+        readonly List<string> translatedWikiLocales = new List<string> { "de", "es", "fi", "pl", "ru" };
 
         /// <summary>
         /// The constructor of the form.
@@ -244,6 +255,16 @@ namespace CustomRPC
                 Text += " 2";
             }
 
+            // Set up a localeUrl variable if docs are translated to the current UI language.
+            if (translatedWikiLocales.FindLast(localePredicate) is string locale && locale != "")
+                localeUrl = "v/" + locale + '/';
+
+            bool localePredicate(string loc)
+            {
+                var currentLocale = CultureInfo.CurrentUICulture.Name;
+                return loc == currentLocale || loc == currentLocale.Split('-')[0];
+            }
+
             loading = false;
 
             // Starts minimized to tray by default, unless you just changed language
@@ -264,7 +285,7 @@ namespace CustomRPC
 
                 if (messageBox == DialogResult.Yes)
                     // Opens the setup manual
-                    Process.Start("https://docs.customrp.xyz/setting-up");
+                    Process.Start("https://docs.customrp.xyz/" + localeUrl + "setting-up");
 
                 settings.firstStart = false;
                 Utils.SaveSettings();
@@ -502,8 +523,8 @@ namespace CustomRPC
                 {
                     try
                     {
-                    if (File.Exists(exec))
-                        File.Delete(exec);
+                        if (File.Exists(exec))
+                            File.Delete(exec);
                     }
                     catch
                     {
@@ -1086,7 +1107,9 @@ namespace CustomRPC
         private void OpenSite(object sender, EventArgs e)
         {
             var item = (ToolStripMenuItem)sender;
-            Process.Start((string)item.Tag);
+            var url = (string)item.Tag;
+
+            Process.Start(url.Replace("docs.customrp.xyz/", "docs.customrp.xyz/" + localeUrl));
         }
 
         /// <summary>
