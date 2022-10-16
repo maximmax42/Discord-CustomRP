@@ -20,5 +20,10 @@ namespace CustomRPC
             labelVersion.Text += " (DEV)";
 #endif
         }
+
+        private void OpenWebsite(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.customrp.xyz");
+        }
     }
 }
