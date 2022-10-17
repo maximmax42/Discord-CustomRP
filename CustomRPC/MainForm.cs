@@ -154,7 +154,7 @@ namespace CustomRPC
         /// <summary>
         /// List of locales docs.customrp.xyz is translated to.
         /// </summary>
-        readonly List<string> translatedWikiLocales = new List<string> { "de", "es", "fi", "fr", "pl", "ru" };
+        readonly List<string> translatedWikiLocales = new List<string> { "de", "es", "fi", "fr", "ko", "pl", "ru" };
 
         /// <summary>
         /// The constructor of the form.
