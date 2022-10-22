@@ -689,6 +689,12 @@ namespace CustomRPC
                     USDAmount = "3.28",
                     AltAmount = "200.00 RUB"
                 },
+                new Supporter {
+                    Name = "Zag",
+                    Url = "https://zag.rip",
+                    USDAmount = "7.45",
+                    AltAmount = "431.55 RUB"
+                },
             };
 
             NonMonetarySupporters = new List<NonMonetarySupporter>
