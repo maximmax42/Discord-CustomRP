@@ -416,6 +416,15 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Latviešu",
+                    EnglishName = "Latvian",
+                    Code = "lv",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Buckneraaron07" },
+                        new Translator { Name = "Jaroslavs" },
+                    }
+                },
+                new Language {
                     Name = "မြန်မာဘာသာ",
                     EnglishName = "Burmese",
                     Code = "my",
@@ -614,7 +623,7 @@ namespace CustomRPC
             LanguageProgress["ja"] = "100";
             LanguageProgress["ko"] = "100";
             LanguageProgress["ku"] = "92.93";
-            LanguageProgress["lv"] = "40.4";
+            LanguageProgress["lv"] = "100";
             LanguageProgress["lt"] = "100";
             LanguageProgress["no"] = "98.99";
             LanguageProgress["fa"] = "100";
