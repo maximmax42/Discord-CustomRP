@@ -990,29 +990,40 @@ namespace CustomRPC
             if (presetFile.ShowDialog() != DialogResult.OK)
                 return;
 
-            using (var file = presetFile.OpenFile())
+            while (true)
             {
-                xs.Serialize(file, new Preset()
+                try
                 {
-                    ID = settings.id,
-                    Details = settings.details,
-                    State = settings.state,
-                    PartySize = (int)settings.partySize,
-                    PartyMax = (int)settings.partyMax,
-                    Timestamps = settings.timestamps,
-                    CustomTimestamp = settings.customTimestamp,
-                    LargeKey = settings.largeKey,
-                    LargeText = settings.largeText,
-                    SmallKey = settings.smallKey,
-                    SmallText = settings.smallText,
-                    Button1Text = settings.button1Text,
-                    Button1URL = settings.button1URL,
-                    Button2Text = settings.button2Text,
-                    Button2URL = settings.button2URL,
-                });
-            }
+                    using (var file = presetFile.OpenFile())
+                    {
+                        xs.Serialize(file, new Preset()
+                        {
+                            ID = settings.id,
+                            Details = settings.details,
+                            State = settings.state,
+                            PartySize = (int)settings.partySize,
+                            PartyMax = (int)settings.partyMax,
+                            Timestamps = settings.timestamps,
+                            CustomTimestamp = settings.customTimestamp,
+                            LargeKey = settings.largeKey,
+                            LargeText = settings.largeText,
+                            SmallKey = settings.smallKey,
+                            SmallText = settings.smallText,
+                            Button1Text = settings.button1Text,
+                            Button1URL = settings.button1URL,
+                            Button2Text = settings.button2Text,
+                            Button2URL = settings.button2URL,
+                        });
+                    }
 
-            Analytics.TrackEvent("Saved a preset");
+                    Analytics.TrackEvent("Saved a preset");
+                }
+                catch (IOException ex)
+                {
+                    if (MessageBox.Show(ex.Message, Strings.error, MessageBoxButtons.RetryCancel, MessageBoxIcon.Error) == DialogResult.Cancel)
+                        break;
+                }
+            }
         }
 
         /// <summary>
