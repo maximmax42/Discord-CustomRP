@@ -17,6 +17,7 @@ Custom Discord Rich Presence Manager for Windows. Some of its features are run o
 * kiwi - $50.69 (50 EUR)
 * [Grim](https://www.savethekiwi.nz/) - $25.00 (0.0008328 BTC)
 * [Boefjim](https://boefjim.com) - $16.13 (1000.00 RUB)
+* [dragon GRaf] - $10.00 (615.00 RUB)
 * [Zag](https://zag.rip) - $7.45 (431.55 RUB)
 * [GreenRosie](https://www.twitch.tv/greenrosie) - $6.00
 * [Bilal_786](https://discord.gg/zabPuE78ne) - $5.79 (5.80 EUR)

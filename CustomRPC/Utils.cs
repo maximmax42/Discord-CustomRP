@@ -704,6 +704,11 @@ namespace CustomRPC
                     USDAmount = "7.45",
                     AltAmount = "431.55 RUB"
                 },
+                new Supporter {
+                    Name = "dragon GRaf",
+                    USDAmount = "10.00",
+                    AltAmount = "615.00 RUB"
+                },
             };
 
             NonMonetarySupporters = new List<NonMonetarySupporter>
