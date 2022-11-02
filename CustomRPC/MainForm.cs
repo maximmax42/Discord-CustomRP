@@ -1017,11 +1017,13 @@ namespace CustomRPC
                     }
 
                     Analytics.TrackEvent("Saved a preset");
+
+                    return;
                 }
                 catch (IOException ex)
                 {
                     if (MessageBox.Show(ex.Message, Strings.error, MessageBoxButtons.RetryCancel, MessageBoxIcon.Error) == DialogResult.Cancel)
-                        break;
+                        return;
                 }
             }
         }
