@@ -181,4 +181,7 @@ Tekan Ya untuk mereset pengaturan, tekan Tidak untuk keluar.</value>
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>Url gambar terlalu panjang!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Gagal menambah atau menghapus pintasan mulai:</value>
+  </data>
 </root>
