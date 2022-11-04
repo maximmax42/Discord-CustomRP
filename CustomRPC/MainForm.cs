@@ -987,7 +987,7 @@ namespace CustomRPC
                 Filter = "CustomRP Preset|*.crp"
             };
 
-            if (presetFile.ShowDialog() != DialogResult.OK)
+            if (presetFile.ShowDialog() != DialogResult.OK || presetFile.FileNames.Length == 0)
                 return;
 
             while (true)
