@@ -176,9 +176,12 @@ Aby go zresetować kliknij Tak, lub Nie żeby wyjść.</value>
     <value>Zapisywanie ustawień nie powiodło się:</value>
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>Proszę dodaj "{0}" do listy ignorowanych aplikacji w swoim antywirusie. Jeśli ten błąd się powtarza zainstaluj ponownie CustomRP</value>
+    <value>Proszę dodaj "{0}" do listy ignorowanych aplikacji w swoim antywirusie. Jeśli ten błąd się powtarza zainstaluj ponownie CustomRP.</value>
   </data>
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>Link do zdjęcia jest zbyt długi!</value>
+  </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Nie można dodać lub usunąć skrótu startowego:</value>
   </data>
 </root>

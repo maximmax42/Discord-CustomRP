@@ -462,6 +462,7 @@ namespace CustomRPC
                         new Translator { Name = "Oscar" },
                         new Translator { Name = "Marcel Gustin", Url = "https://marcelgustin.de" },
                         new Translator { Name = "Tofix.rs" },
+                        new Translator { Name = "KM127PL" },
                     }
                 },
                 new Language {
@@ -627,7 +628,7 @@ namespace CustomRPC
             LanguageProgress["lt"] = "100";
             LanguageProgress["no"] = "98.99";
             LanguageProgress["fa"] = "100";
-            LanguageProgress["pl"] = "98.99";
+            LanguageProgress["pl"] = "100";
             LanguageProgress["pt"] = "100";
             LanguageProgress["pt-br"] = "100";
             LanguageProgress["ro"] = "100";
