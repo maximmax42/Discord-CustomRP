@@ -968,6 +968,12 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>"$(ProjectDir)InsertIcons.exe" "$(TargetPath)" "$(ProjectDir)Resources\preset.ico"</PostBuildEvent>
+    <PostBuildEvent>"$(ProjectDir)InsertIcons.exe" "$(TargetPath)" "$(ProjectDir)Resources\preset.ico"
+cd $(ProjectDir)
+powershell -ExecutionPolicy RemoteSigned .\AppSecret.ps1 post</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>cd $(ProjectDir)
+powershell -ExecutionPolicy RemoteSigned .\AppSecret.ps1 pre</PreBuildEvent>
   </PropertyGroup>
 </Project>
