@@ -600,7 +600,7 @@ namespace CustomRPC
             #region Generated code for progress
             LanguageProgress["ar"] = "100";
             LanguageProgress["bn"] = "97.98";
-            LanguageProgress["bg"] = "98.99";
+            LanguageProgress["bg"] = "100";
             LanguageProgress["my"] = "94.95";
             LanguageProgress["ca"] = "100";
             LanguageProgress["zh-hans"] = "100";
