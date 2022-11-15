@@ -158,7 +158,7 @@
     <value>203, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Carica Un Preset</value>
+    <value>Carica un Preset</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 22</value>
@@ -317,7 +317,7 @@
     <value>Aggiorna la presenza</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Aggiorna la presenza.</value>
+    <value>Aggiorna i dettagli.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>Connetti</value>
@@ -458,5 +458,8 @@ Per avere effetto, entrambi i valori devono essere superiori a 0.</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>su</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
   </data>
 </root>
