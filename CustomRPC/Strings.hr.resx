@@ -155,4 +155,33 @@ Možete ih otvoriti tako što odete do Pomoć -&gt; Otvori Upute ili pritiskanje
   <data name="errorInvalidURL" xml:space="preserve">
     <value>Nevažeći URL je specificiran za gumb/ove ili je tekst previše dugačak!</value>
   </data>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>Ne mogu se povezati s internetom!</value>
+  </data>
+  <data name="noUpdatesFound" xml:space="preserve">
+    <value>Nisu pronađena ažuriranja!</value>
+  </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>Datoteka postavki je oštećena.
+Pritisnite Da da biste ponovno postavili postavke, pritisnite Ne da biste odustali.</value>
+  </data>
+  <data name="errorInvalidPresetFile" xml:space="preserve">
+    <value>Uvoz gotove konfiguracije nije uspio; datoteka nedostaje, oštećena je ili nije ispravno oblikovana.</value>
+  </data>
+  <data name="askAnalyticsConsent" xml:space="preserve">
+    <value>Dopuštate li CustomRP-u slanje analitike korištenja razvojnom programeru?
+(Svi podaci su depersonalizirani.)</value>
+  </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>Došlo je do pogreške prilikom spremanja postavki:</value>
+  </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>Dodajte put "{0}" iznimkama antivirusnog programa. Ponovno instalirajte CustomRP ako se ova pogreška nastavi.</value>
+  </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>URL slike je predug!</value>
+  </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Dodavanje ili uklanjanje prečaca za pokretanje nije uspjelo:</value>
+  </data>
 </root>

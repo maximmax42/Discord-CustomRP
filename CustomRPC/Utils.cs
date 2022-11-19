@@ -338,6 +338,7 @@ namespace CustomRPC
                     Code = "hr",
                     Translators = new Translator[] {
                         new Translator { Name = "Monika" },
+                        new Translator { Name = "imgui.cpp#6552" },
                     }
                 },
                 new Language {
@@ -605,7 +606,7 @@ namespace CustomRPC
             LanguageProgress["ca"] = "100";
             LanguageProgress["zh-hans"] = "100";
             LanguageProgress["zh-hant"] = "100";
-            LanguageProgress["hr"] = "70.71";
+            LanguageProgress["hr"] = "100";
             LanguageProgress["cs"] = "100";
             LanguageProgress["da"] = "98.99";
             LanguageProgress["nl"] = "98.99";

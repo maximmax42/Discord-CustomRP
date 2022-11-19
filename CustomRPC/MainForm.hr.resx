@@ -220,7 +220,7 @@
     <value>Slika koja se prikazuje lijevo od zadanog teksta iznad.</value>
   </data>
   <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>(Prazno)</value>
+    <value>Prazno</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
     <value>Nijedna vremenska oznaka odabrana.</value>
@@ -277,5 +277,41 @@ Da radi, oba polja moraju imati više od 0.</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>od</value>
+  </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>Naziv imovine za malu sliku ili URL slike.</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>Naziv imovine za veliku sliku ili URL slike.</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>Propust</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Provjeri ima li ažuriranja...</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Otvoren</value>
+  </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Automatsko povezivanje</value>
+  </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dopusti Analytics</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tamni način rada</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pristalice</value>
+  </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>Od zadnjeg ažuriranja prisutnosti</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Pokazuje koliko je vremena prošlo od zadnjeg povezivanja ili ažuriranja prisutnosti.</value>
   </data>
 </root>
