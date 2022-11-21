@@ -175,4 +175,13 @@
   <data name="errorSavingSettings" xml:space="preserve">
     <value>Προέκυψε ένα πρόβλημα κατά την διάρκεια αποθήκευσης των ρυθμίσεων:</value>
   </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>Προσθέστε τη διαδρομή "{0}" στις εξαιρέσεις του προγράμματος προστασίας από ιούς. Επανεγκαταστήστε το CustomRP εάν αυτό το σφάλμα παραμένει.</value>
+  </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>Η διεύθυνση URL της εικόνας είναι πολύ μεγάλη!</value>
+  </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Αποτυχία προσθήκης ή κατάργησης συντόμευσης εκκίνησης:</value>
+  </data>
 </root>

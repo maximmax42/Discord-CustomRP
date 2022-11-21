@@ -245,6 +245,7 @@ namespace CustomRPC
                     Code = "el",
                     Translators = new Translator[] {
                         new Translator { Name = "Alex Grivas" },
+                        new Translator { Name = "NetworkTips#0001", Url = "https://discord.gg/Qb8RPjH6sD" }, // mrbeast
                     }
                 },
                 new Language {
@@ -616,7 +617,8 @@ namespace CustomRPC
             LanguageProgress["fr"] = "100";
             LanguageProgress["ka"] = "100";
             LanguageProgress["de"] = "100";
-            LanguageProgress["el"] = "90.91";
+            LanguageProgress["de-ch"] = "3.03";
+            LanguageProgress["el"] = "100";
             LanguageProgress["he"] = "100";
             LanguageProgress["hi"] = "98.99";
             LanguageProgress["hu"] = "100";
