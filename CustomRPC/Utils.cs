@@ -244,8 +244,8 @@ namespace CustomRPC
                     EnglishName = "Swiss German",
                     Code = "de-ch",
                     Translators = new Translator[] {
-                        new Translator { Name = "Foolian" },
-                        new Translator { Name = "dragon GRaf" },
+                        new Translator { Name = "Foolian", Url = "https://foolian.com/" },
+                        new Translator { Name = "dragon GRaf", Url = "https://www.cunsume.com/sellers/dragongraf/" },
                     }
                 },
                 new Language {
@@ -719,6 +719,7 @@ namespace CustomRPC
                 },
                 new Supporter {
                     Name = "dragon GRaf",
+                    Url = "https://www.cunsume.com/sellers/dragongraf/",
                     USDAmount = "10.00",
                     AltAmount = "615.00 RUB"
                 },
