@@ -240,6 +240,15 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Schwiizerdütsch",
+                    EnglishName = "Swiss German",
+                    Code = "de-ch",
+                    Translators = new Translator[] {
+                        new Translator { Name = "Foolian" },
+                        new Translator { Name = "dragon GRaf" },
+                    }
+                },
+                new Language {
                     Name = "Ελληνικά",
                     EnglishName = "Greek",
                     Code = "el",
@@ -617,7 +626,7 @@ namespace CustomRPC
             LanguageProgress["fr"] = "100";
             LanguageProgress["ka"] = "100";
             LanguageProgress["de"] = "100";
-            LanguageProgress["de-ch"] = "3.03";
+            LanguageProgress["de-ch"] = "100";
             LanguageProgress["el"] = "100";
             LanguageProgress["he"] = "100";
             LanguageProgress["hi"] = "98.99";
