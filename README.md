@@ -23,6 +23,7 @@ Custom Discord Rich Presence Manager for Windows. Some of its features are run o
 * [Bilal_786](https://discord.gg/zabPuE78ne) - $5.79 (5.80 EUR)
 * [Eli404](https://linktr.ee/404femboy) - $5.09 (5.00 EUR)
 * [Kushgo](https://opensea.io/collection/worldtowers) - $5.00 (0.00313295 ETH)
+* [Josenrique AS](https://josenriqueas.com/referred/customrp/) - $3.59 (217.00 RUB)
 * Yoshi - $3.28 (200.00 RUB)
 * Anonymous - $2.62 (0.00011304 BTC)
 * Tofix.rs - $0.45 (1.00 BAT)

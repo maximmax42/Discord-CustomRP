@@ -697,6 +697,7 @@ namespace CustomRPC
                 },
                 new Supporter {
                     Name = "Kushgo",
+                    Url = "https://opensea.io/collection/worldtowers",
                     USDAmount = "5.00",
                     AltAmount = "0.00313295 ETH"
                 },
@@ -722,6 +723,12 @@ namespace CustomRPC
                     Url = "https://www.cunsume.com/sellers/dragongraf/",
                     USDAmount = "10.00",
                     AltAmount = "615.00 RUB"
+                },
+                new Supporter {
+                    Name = "Josenrique AS",
+                    Url = "https://josenriqueas.com/referred/customrp/",
+                    USDAmount = "3.59",
+                    AltAmount = "217.00 RUB"
                 },
             };
 
