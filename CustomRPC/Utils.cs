@@ -518,6 +518,14 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Slovenščina",
+                    EnglishName = "Slovenian",
+                    Code = "sl",
+                    Translators = new Translator[] {
+                        new Translator { Name = "BMKoscak" },
+                    }
+                },
+                new Language {
                     Name = "Српски",
                     EnglishName = "Serbian",
                     Code = "sr",
@@ -646,6 +654,7 @@ namespace CustomRPC
             LanguageProgress["ro"] = "100";
             LanguageProgress["ru"] = "100";
             LanguageProgress["sr"] = "98.99";
+            LanguageProgress["sl"] = "100";
             LanguageProgress["es"] = "100";
             LanguageProgress["sv"] = "98.99";
             LanguageProgress["ta"] = "97.98";
