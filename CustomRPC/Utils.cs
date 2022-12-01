@@ -237,6 +237,7 @@ namespace CustomRPC
                         new Translator { Name = "binarynoise" },
                         new Translator { Name = "Felix", Url = "https://github.com/fbrettnich" },
                         new Translator { Name = "Tom" },
+                        new Translator { Name = "iRetrozx#7283", Url = "https://posted.adalo.com/iretrozx" },
                     }
                 },
                 new Language {

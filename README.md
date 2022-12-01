@@ -69,7 +69,7 @@ So far, the app supports these languages:
 * [Finnish](https://poeditor.com/projects/po_edit?id_language=49&per_page=100&id=409229) (thanks to Deluxeria, Zunikuu and [jes](https://jes8137.carrd.co/))
 * [French](https://poeditor.com/projects/po_edit?id_language=50&per_page=100&id=409229) (thanks to Nenaff, RedNix and VaporCorp)
 * [Georgian](https://poeditor.com/projects/po_edit?id_language=54&per_page=100&id=409229) (thanks to [Turashviliguro](https://turashviliguro.github.io/daddyexe/))
-* [German](https://poeditor.com/projects/po_edit?id_language=55&per_page=100&id=409229) (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), ahmad, [Marcel Gustin](https://marcelgustin.de), Yoshi, binarynoise, [Felix](https://github.com/fbrettnich), and Tom)
+* [German](https://poeditor.com/projects/po_edit?id_language=55&per_page=100&id=409229) (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), ahmad, [Marcel Gustin](https://marcelgustin.de), Yoshi, binarynoise, [Felix](https://github.com/fbrettnich), Tom and [iRetrozx#7283](https://posted.adalo.com/iretrozx))
 * [Swiss German](https://poeditor.com/projects/po_edit?id_language=208&per_page=100&id=409229) (thanks to [Foolian](https://foolian.com/) and [dragon GRaf](https://www.cunsume.com/sellers/dragongraf/))
 * [Greek](https://poeditor.com/projects/po_edit?id_language=56&per_page=100&id=409229) (thanks to Alex Grivas and [NetworkTips#0001](https://discord.gg/Qb8RPjH6sD))
 * [Hebrew](https://poeditor.com/projects/po_edit?id_language=61&per_page=100&id=409229) (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg), [Kahpot Vanilla](https://linktr.ee/KahpotVanilla) and Amit)

@@ -308,7 +308,7 @@
     <value>121, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Update runterladen</value>
+    <value>Update herunterladen</value>
   </data>
   <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
     <value>180, 456</value>
