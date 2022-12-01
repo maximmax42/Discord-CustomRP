@@ -145,7 +145,7 @@ Du kannst sie jederzeit öffnen, indem du auf Hilfe -&gt; Handbuch öffnen gehst
     <comment>`</comment>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Verbindung fehlgeschlagen (Läuft Discord?)</value>
+    <value>Verbindung fehlgeschlagen (Ist Discord gestartet?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>Getrennt</value>
