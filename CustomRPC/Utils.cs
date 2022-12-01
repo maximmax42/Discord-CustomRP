@@ -739,6 +739,12 @@ namespace CustomRPC
                     USDAmount = "3.59",
                     AltAmount = "217.00 RUB"
                 },
+                new Supporter {
+                    Name = "YJB",
+                    Url = "https://owo.yjb.gay/",
+                    USDAmount = "0.69",
+                    AltAmount = "41.00 RUB"
+                },
             };
 
             NonMonetarySupporters = new List<NonMonetarySupporter>
