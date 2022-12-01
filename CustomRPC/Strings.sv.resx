@@ -181,4 +181,7 @@ Tryck Ja för att återställa inställningarna, tryck Nej för att avsluta.</va
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>Bildens URL är för långt!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Misslyckades med att lägga till eller ta bort en uppstartninggenväg:</value>
+  </data>
 </root>
