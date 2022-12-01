@@ -348,7 +348,7 @@ namespace CustomRPC
                     Code = "hr",
                     Translators = new Translator[] {
                         new Translator { Name = "Monika" },
-                        new Translator { Name = "imgui.cpp#6552" },
+                        new Translator { Name = "iRetrozx#7283" },
                     }
                 },
                 new Language {
