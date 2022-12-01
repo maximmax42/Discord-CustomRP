@@ -348,7 +348,7 @@ namespace CustomRPC
                     Code = "hr",
                     Translators = new Translator[] {
                         new Translator { Name = "Monika" },
-                        new Translator { Name = "iRetrozx#7283" },
+                        new Translator { Name = "iRetrozx#7283", Url = "https://posted.adalo.com/iretrozx"},
                     }
                 },
                 new Language {
