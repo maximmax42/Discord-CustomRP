@@ -282,6 +282,7 @@ namespace CustomRPC
                     Code = "et",
                     Translators = new Translator[] {
                         new Translator { Name = "z1", Url = "https://github.com/Erkkii" },
+                        new Translator { Name = "Meelis " },
                     }
                 },
                 new Language {
@@ -640,6 +641,7 @@ namespace CustomRPC
             LanguageProgress["he"] = "100";
             LanguageProgress["hi"] = "98.99";
             LanguageProgress["hu"] = "100";
+            LanguageProgress["is"] = "5.05";
             LanguageProgress["id"] = "100";
             LanguageProgress["it"] = "100";
             LanguageProgress["ja"] = "100";
@@ -647,6 +649,7 @@ namespace CustomRPC
             LanguageProgress["ku"] = "92.93";
             LanguageProgress["lv"] = "100";
             LanguageProgress["lt"] = "100";
+            LanguageProgress["mk"] = "48.48";
             LanguageProgress["no"] = "98.99";
             LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "100";
