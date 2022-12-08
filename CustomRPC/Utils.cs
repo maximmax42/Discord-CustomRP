@@ -438,6 +438,14 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Македонски",
+                    EnglishName = "Macedonian",
+                    Code = "mk",
+                    Translators = new Translator[] {
+                        new Translator { Name = "falcon" },
+                    }
+                },
+                new Language {
                     Name = "မြန်မာဘာသာ",
                     EnglishName = "Burmese",
                     Code = "my",
