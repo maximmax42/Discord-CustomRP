@@ -534,6 +534,7 @@ namespace CustomRPC
                     Translators = new Translator[] {
                         new Translator { Name = "Vihaan" },
                         new Translator { Name = "ToShibaToShamara" },
+                        new Translator { Name = "falcon" },
                         new Translator { Name = "Veljko" },
                     }
                 },

@@ -170,7 +170,7 @@
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
     <value>Да ли дозвољавате CustomRP-у да шаље вашу аналитику коришћења програмеру?
-(Сви подаци су деперсонализовани.)</value>
+(Сви подаци су анонимни.)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
     <value>Дошло је до грешке при чувању подешавања:</value>
@@ -180,5 +180,8 @@
   </data>
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>URL слике је превише дуг!</value>
+  </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Грешком док додавања или уклањање пречице за покретање:</value>
   </data>
 </root>
