@@ -50,16 +50,16 @@ namespace CustomRPC
     }
 
     /// <summary>
-    /// A struct describing a translator.
+    /// A struct describing a person.
     /// </summary>
-    struct Translator
+    struct Person
     {
         /// <summary>
-        /// Nickname of the translator.
+        /// Nickname of the person.
         /// </summary>
         public string Name;
         /// <summary>
-        /// URL of the translator, optional.
+        /// URL of the person, optional.
         /// </summary>
         public string Url;
     }
@@ -88,7 +88,7 @@ namespace CustomRPC
         /// <summary>
         /// An array of translators.
         /// </summary>
-        public Translator[] Translators;
+        public Person[] Translators;
     }
 
     /// <summary>
@@ -112,6 +112,20 @@ namespace CustomRPC
         /// The amount of money the person donated in currency other than dollars, optional.
         /// </summary>
         public string AltAmount;
+
+        /// <summary>
+        /// Creates a supporter from an existing person.
+        /// </summary>
+        /// <param name="person">An existing Person object.</param>
+        /// <param name="USDAmount">Same as <see cref="Supporter.USDAmount"/>.</param>
+        /// <param name="AltAmount">Same as <see cref="Supporter.AltAmount"/>.</param>
+        public Supporter(Person person, string USDAmount = "", string AltAmount = "")
+        {
+            Name = person.Name;
+            Url = person.Url;
+            this.USDAmount = USDAmount;
+            this.AltAmount = AltAmount;
+        }
     }
 
     /// <summary>
@@ -135,6 +149,20 @@ namespace CustomRPC
         /// Link to the donation piece, optional.
         /// </summary>
         public string DonationUrl;
+
+        /// <summary>
+        /// Creates a non-monetary supporter from an existing person.
+        /// </summary>
+        /// <param name="person">An existing Person object.</param>
+        /// <param name="DonationType">Same as <see cref="NonMonetarySupporter.DonationType"/>.</param>
+        /// <param name="DonationUrl">Same as <see cref="NonMonetarySupporter.DonationUrl"/>.</param>
+        public NonMonetarySupporter(Person person, string DonationType = "", string DonationUrl = "")
+        {
+            Name = person.Name;
+            Url = person.Url;
+            this.DonationType = DonationType;
+            this.DonationUrl = DonationUrl;
+        }
     }
 
     /// <summary>
@@ -164,6 +192,19 @@ namespace CustomRPC
         /// </summary>
         static List<NonMonetarySupporter> NonMonetarySupporters { get; set; }
 
+        // List of people who appear in the lists more than one time
+        static Person DarlingChan = new Person { Name = "Darling-Chan", Url = "https://meap.gg/" };
+        static Person dragonGRaf = new Person { Name = "dragon GRaf", Url = "https://www.cunsume.com/sellers/dragongraf/" };
+        static Person falcon = new Person { Name = "falcon" };
+        static Person GreenRosie = new Person { Name = "GreenRosie", Url = "https://www.twitch.tv/greenrosie" };
+        static Person iRetrozx = new Person { Name = "iRetrozx#7283", Url = "https://posted.adalo.com/iretrozx" };
+        static Person Julian = new Person { Name = "Julian", Url = "https://discord.com/oauth2/authorize?client_id=962323485772881950&scope=bot&permissions=8" };
+        static Person MarcelGustin = new Person { Name = "Marcel Gustin", Url = "https://marcelgustin.de" };
+        static Person Matthww = new Person { Name = "Matthww" };
+        static Person TofixRs = new Person { Name = "Tofix.rs" };
+        static Person Yoshi = new Person { Name = "Yoshi" };
+        static Person westxlu = new Person { Name = "蘆筍 (westxlu)", Url = "https://linktr.ee/westxlu" };
+
         static Utils()
         {
             Languages = new List<Language> {
@@ -171,91 +212,91 @@ namespace CustomRPC
                     Name = "مَصرى",
                     EnglishName = "Arabic",
                     Code = "ar",
-                    Translators = new Translator[] {
-                        new Translator { Name = "FiberAhmed", Url = "https://github.com/FiberAhmed" },
-                        new Translator { Name = "ShadowlGamer" },
-                        new Translator { Name = "karimawi" },
+                    Translators = new Person[] {
+                        new Person { Name = "FiberAhmed", Url = "https://github.com/FiberAhmed" },
+                        new Person { Name = "ShadowlGamer" },
+                        new Person { Name = "karimawi" },
                     }
                 },
                 new Language {
                     Name = "Български",
                     EnglishName = "Bulgarian",
                     Code = "bg",
-                    Translators = new Translator[] {
-                        new Translator { Name = "TheLocalSlavic" },
-                        new Translator { Name = "EmeraldCeat", Url = "https://discord.gg/reformedcityrp" },
+                    Translators = new Person[] {
+                        new Person { Name = "TheLocalSlavic" },
+                        new Person { Name = "EmeraldCeat", Url = "https://discord.gg/reformedcityrp" },
                     }
                 },
                 new Language {
                     Name = "বাংলা",
                     EnglishName = "Bengali",
                     Code = "bn",
-                    Translators = new Translator[] {
-                        new Translator { Name = "mrimran", Url = "https://github.com/mr-Imran" },
+                    Translators = new Person[] {
+                        new Person { Name = "mrimran", Url = "https://github.com/mr-Imran" },
                     }
                 },
                 new Language {
                     Name = "Català",
                     EnglishName = "Catalan",
                     Code = "ca",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Darling-Chan", Url = "https://meap.gg/" },
+                    Translators = new Person[] {
+                        DarlingChan,
                     }
                 },
                 new Language {
                     Name = "Čeština",
                     EnglishName = "Czech",
                     Code = "cs",
-                    Translators = new Translator[] {
-                        new Translator { Name = "JayJake", Url = "https://jayk.live/" },
-                        new Translator { Name = "SunightMC" },
-                        new Translator { Name = "Tobias" },
-                        new Translator { Name = "MakoPog" }
+                    Translators = new Person[] {
+                        new Person { Name = "JayJake", Url = "https://jayk.live/" },
+                        new Person { Name = "SunightMC" },
+                        new Person { Name = "Tobias" }, // ***@***.cz
+                        new Person { Name = "MakoPog" }
                     }
                 },
                 new Language {
                     Name = "Dansk",
                     EnglishName = "Danish",
                     Code = "da",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Sebastian Hviid" },
-                        new Translator { Name = "Tobias" },
-                        new Translator { Name = "wimblim" },
-                        new Translator { Name = "David" },
-                        new Translator { Name = "Johansenbastian6" },
+                    Translators = new Person[] {
+                        new Person { Name = "Sebastian Hviid" },
+                        new Person { Name = "Tobias" }, // ***@gmail.com
+                        new Person { Name = "wimblim" },
+                        new Person { Name = "David" },
+                        new Person { Name = "Johansenbastian6" },
                     }
                 },
                 new Language {
                     Name = "Deutsch",
                     EnglishName = "German",
                     Code = "de",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Ypsol", Url = "https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA" },
-                        new Translator { Name = "ahmad" },
-                        new Translator { Name = "Marcel Gustin", Url = "https://marcelgustin.de" },
-                        new Translator { Name = "Yoshi" },
-                        new Translator { Name = "binarynoise" },
-                        new Translator { Name = "Felix", Url = "https://github.com/fbrettnich" },
-                        new Translator { Name = "Tom" },
-                        new Translator { Name = "iRetrozx#7283", Url = "https://posted.adalo.com/iretrozx" },
+                    Translators = new Person[] {
+                        new Person { Name = "Ypsol", Url = "https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA" },
+                        new Person { Name = "ahmad" },
+                        MarcelGustin,
+                        Yoshi,
+                        new Person { Name = "binarynoise" },
+                        new Person { Name = "Felix", Url = "https://github.com/fbrettnich" },
+                        new Person { Name = "Tom" },
+                        iRetrozx,
                     }
                 },
                 new Language {
                     Name = "Schwiizerdütsch",
                     EnglishName = "Swiss German",
                     Code = "de-ch",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Foolian", Url = "https://foolian.com/" },
-                        new Translator { Name = "dragon GRaf", Url = "https://www.cunsume.com/sellers/dragongraf/" },
+                    Translators = new Person[] {
+                        new Person { Name = "Foolian", Url = "https://foolian.com/" },
+                        dragonGRaf,
                     }
                 },
                 new Language {
                     Name = "Ελληνικά",
                     EnglishName = "Greek",
                     Code = "el",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Alex Grivas" },
-                        new Translator { Name = "NetworkTips#0001", Url = "https://discord.gg/Qb8RPjH6sD" }, // mrbeast
+                    Translators = new Person[] {
+                        new Person { Name = "Alex Grivas" },
+                        new Person { Name = "NetworkTips#0001", Url = "https://discord.gg/Qb8RPjH6sD" }, // mrbeast
                     }
                 },
                 new Language {
@@ -266,41 +307,41 @@ namespace CustomRPC
                     Name = "Español",
                     EnglishName = "Spanish",
                     Code = "es",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Vexot" },
-                        new Translator { Name = "SirAmong" },
-                        new Translator { Name = "Pablo" },
-                        new Translator { Name = "Darling-Chan", Url = "https://meap.gg/" },
-                        new Translator { Name = "Luciousmc" },
-                        new Translator { Name = "Alvaro203204" },
-                        new Translator { Name = "Epic" },
+                    Translators = new Person[] {
+                        new Person { Name = "Vexot" },
+                        new Person { Name = "SirAmong" },
+                        new Person { Name = "Pablo" },
+                        DarlingChan,
+                        new Person { Name = "Luciousmc" },
+                        new Person { Name = "Alvaro203204" },
+                        new Person { Name = "Epic" },
                     }
                 },
                 new Language {
                     Name = "Eesti",
                     EnglishName = "Estonian",
                     Code = "et",
-                    Translators = new Translator[] {
-                        new Translator { Name = "z1", Url = "https://github.com/Erkkii" },
-                        new Translator { Name = "Meelis " },
+                    Translators = new Person[] {
+                        new Person { Name = "z1", Url = "https://github.com/Erkkii" },
+                        new Person { Name = "Meelis" },
                     }
                 },
                 new Language {
                     Name = "فارسی",
                     EnglishName = "Persian",
                     Code = "fa",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Mohammad Mahdi", Url = "https://mo-mahdihh.ir/" },
+                    Translators = new Person[] {
+                        new Person { Name = "Mohammad Mahdi", Url = "https://mo-mahdihh.ir/" },
                     }
                 },
                 new Language {
                     Name = "Suomi",
                     EnglishName = "Finnish",
                     Code = "fi",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Deluxeria" },
-                        new Translator { Name = "Zunikuu" },
-                        new Translator { Name = "jes", Url = "https://jes8137.carrd.co/" },
+                    Translators = new Person[] {
+                        new Person { Name = "Deluxeria" },
+                        new Person { Name = "Zunikuu" },
+                        new Person { Name = "jes", Url = "https://jes8137.carrd.co/" },
 
                     }
                 },
@@ -308,190 +349,190 @@ namespace CustomRPC
                     Name = "Filipino",
                     EnglishName = "Filipino",
                     Code = "fil",
-                    Translators = new Translator[] {
-                        new Translator { Name = "CtrlAltDelicious", Url = "https://www.youtube.com/c/CtrlAltDelicious_" },
-                        new Translator { Name = "jericko" },
-                        new Translator { Name = "Hachiki" },
+                    Translators = new Person[] {
+                        new Person { Name = "CtrlAltDelicious", Url = "https://www.youtube.com/c/CtrlAltDelicious_" },
+                        new Person { Name = "jericko" },
+                        new Person { Name = "Hachiki" },
                     }
                 },
                 new Language {
                     Name = "Français",
                     EnglishName = "French",
                     Code = "fr",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Nenaff" },
-                        new Translator { Name = "RedNix" },
-                        new Translator { Name = "VaporCorp" }, // Account deleted
+                    Translators = new Person[] {
+                        new Person { Name = "Nenaff" },
+                        new Person { Name = "RedNix" },
+                        new Person { Name = "VaporCorp" }, // Account deleted
                     }
                 },
                 new Language {
                     Name = "עברית",
                     EnglishName = "Hebrew",
                     Code = "he",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Galaxy6430", Url = "https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg" },
-                        new Translator { Name = "Kahpot Vanilla", Url = "https://linktr.ee/KahpotVanilla" },
-                        new Translator { Name = "Amit" }
+                    Translators = new Person[] {
+                        new Person { Name = "Galaxy6430", Url = "https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg" },
+                        new Person { Name = "Kahpot Vanilla", Url = "https://linktr.ee/KahpotVanilla" },
+                        new Person { Name = "Amit" }
                     }
                 },
                 new Language {
                     Name = "हिन्दी",
                     EnglishName = "Hindi",
                     Code = "hi",
-                    Translators = new Translator[] {
-                        new Translator { Name = "regex", Url = "https://github.com/REGEX777" },
-                        new Translator { Name = "Julian", Url = "https://discord.com/oauth2/authorize?client_id=962323485772881950&scope=bot&permissions=8" },
-                        new Translator { Name = "mochiron desu" }
+                    Translators = new Person[] {
+                        new Person { Name = "regex", Url = "https://github.com/REGEX777" },
+                        Julian,
+                        new Person { Name = "mochiron desu" }
                     }
                 },
                 new Language {
                     Name = "Hrvatski",
                     EnglishName = "Croatian",
                     Code = "hr",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Monika" },
-                        new Translator { Name = "iRetrozx#7283", Url = "https://posted.adalo.com/iretrozx"},
+                    Translators = new Person[] {
+                        new Person { Name = "Monika" },
+                        iRetrozx,
                     }
                 },
                 new Language {
                     Name = "Magyar",
                     EnglishName = "Hungarian",
                     Code = "hu",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Balla Botond", Url = "https://github.com/BallaBotond" },
-                        new Translator { Name = "Noxie" },
-                        new Translator { Name = "BunDzsi" },
+                    Translators = new Person[] {
+                        new Person { Name = "Balla Botond", Url = "https://github.com/BallaBotond" },
+                        new Person { Name = "Noxie" },
+                        new Person { Name = "BunDzsi" },
                     }
                 },
                 new Language {
                     Name = "Bahasa Indonesia",
                     EnglishName = "Indonesian",
                     Code = "id",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Hapnan" },
-                        new Translator { Name = "Apolycious" },
-                        new Translator { Name = "Bayu Sopwan", Url = "https://bayusopwan.github.io/" },
-                        new Translator { Name = "xChellz" },
+                    Translators = new Person[] {
+                        new Person { Name = "Hapnan" },
+                        new Person { Name = "Apolycious" },
+                        new Person { Name = "Bayu Sopwan", Url = "https://bayusopwan.github.io/" },
+                        new Person { Name = "xChellz" },
                     }
                 },
                 new Language {
                     Name = "Italiano",
                     EnglishName = "Italian",
                     Code = "it",
-                    Translators = new Translator[] {
-                        new Translator { Name = "DJD320" },
-                        new Translator { Name = "Frin" },
-                        new Translator { Name = "Bay" },
-                        new Translator { Name = "Matthww" },
-                        new Translator { Name = "ItsMrCube", Url = "https://mrcube.live/" },
-                        new Translator { Name = "Patrick Canal" },
+                    Translators = new Person[] {
+                        new Person { Name = "DJD320" },
+                        new Person { Name = "Frin" },
+                        new Person { Name = "Bay" },
+                        Matthww,
+                        new Person { Name = "ItsMrCube", Url = "https://mrcube.live/" },
+                        new Person { Name = "Patrick Canal" },
                     }
                 },
                 new Language {
                     Name = "日本語",
                     EnglishName = "Japanese",
                     Code = "ja",
-                    Translators = new Translator[] {
-                        new Translator { Name = "KABIKIRA000" },
+                    Translators = new Person[] {
+                        new Person { Name = "KABIKIRA000" },
                     }
                 },
                 new Language {
                     Name = "ქართული ენა",
                     EnglishName = "Georgian",
                     Code = "ka",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Turashviliguro", Url = "https://turashviliguro.github.io/daddyexe/" },
+                    Translators = new Person[] {
+                        new Person { Name = "Turashviliguro", Url = "https://turashviliguro.github.io/daddyexe/" },
                     }
                 },
                 new Language {
                     Name = "한국어",
                     EnglishName = "Korean",
                     Code = "ko",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Yeongaori", Url = "https://github.com/yeongaori" },
+                    Translators = new Person[] {
+                        new Person { Name = "Yeongaori", Url = "https://github.com/yeongaori" },
                     }
                 },
                 new Language {
                     Name = "کوردی سۆرانی",
                     EnglishName = "Central Kurdish",
                     Code = "ku",
-                    Translators = new Translator[] {
-                        new Translator { Name = "SamTheNoob", Url = "https://linktr.ee/stn69" },
+                    Translators = new Person[] {
+                        new Person { Name = "SamTheNoob", Url = "https://linktr.ee/stn69" },
                     }
                 },
                 new Language {
                     Name = "Lietuvių",
                     EnglishName = "Lithuanian",
                     Code = "lt",
-                    Translators = new Translator[] {
-                        new Translator { Name = "GreenRosie", Url = "https://www.twitch.tv/greenrosie" },
-                        new Translator { Name = "Flix3ris" },
+                    Translators = new Person[] {
+                        GreenRosie,
+                        new Person { Name = "Flix3ris" },
                     }
                 },
                 new Language {
                     Name = "Latviešu",
                     EnglishName = "Latvian",
                     Code = "lv",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Buckneraaron07" },
-                        new Translator { Name = "Jaroslavs" },
+                    Translators = new Person[] {
+                        new Person { Name = "Buckneraaron07" },
+                        new Person { Name = "Jaroslavs" },
                     }
                 },
                 new Language {
                     Name = "Македонски",
                     EnglishName = "Macedonian",
                     Code = "mk",
-                    Translators = new Translator[] {
-                        new Translator { Name = "falcon" },
+                    Translators = new Person[] {
+                        falcon,
                     }
                 },
                 new Language {
                     Name = "မြန်မာဘာသာ",
                     EnglishName = "Burmese",
                     Code = "my",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Bad Infer_#0069" },
-                        new Translator { Name = "BBbear#7149" }
+                    Translators = new Person[] {
+                        new Person { Name = "Bad Infer_#0069" },
+                        new Person { Name = "BBbear#7149" }
                     }
                 },
                 new Language {
                     Name = "Nederlands",
                     EnglishName = "Dutch",
                     Code = "nl",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Jeremyzijlemans", Url = "https://sionteam.com/" },
-                        new Translator { Name = "Screitsma64" },
-                        new Translator { Name = "sys-256", Url = "https://sys-256.me/" }, // Bramdevogel
+                    Translators = new Person[] {
+                        new Person { Name = "Jeremyzijlemans", Url = "https://sionteam.com/" },
+                        new Person { Name = "Screitsma64" },
+                        new Person { Name = "sys-256", Url = "https://sys-256.me/" }, // Bramdevogel
                     }
                 },
                 new Language {
                     Name = "Norsk",
                     EnglishName = "Norwegian",
                     Code = "no",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Sveinung" },
+                    Translators = new Person[] {
+                        new Person { Name = "Sveinung" },
                     }
                 },
                 new Language {
                     Name = "Polski",
                     EnglishName = "Polish",
                     Code = "pl",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Lol1112345.lol12345" },
-                        new Translator { Name = "Liso" },
-                        new Translator { Name = "Piter" },
-                        new Translator { Name = "Oscar" },
-                        new Translator { Name = "Marcel Gustin", Url = "https://marcelgustin.de" },
-                        new Translator { Name = "Tofix.rs" },
-                        new Translator { Name = "KM127PL" },
+                    Translators = new Person[] {
+                        new Person { Name = "Lol1112345.lol12345" },
+                        new Person { Name = "Liso" },
+                        new Person { Name = "Piter" },
+                        new Person { Name = "Oscar" },
+                        MarcelGustin,
+                        TofixRs,
+                        new Person { Name = "KM127PL" },
                     }
                 },
                 new Language {
                     Name = "Português",
                     EnglishName = "Portuguese",
                     Code = "pt",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Verygafanhot" },
+                    Translators = new Person[] {
+                        new Person { Name = "Verygafanhot" },
                     }
                 },
                 new Language {
@@ -499,80 +540,80 @@ namespace CustomRPC
                     EnglishName = "Portuguese",
                     Dialect = "BR",
                     Code = "pt-br",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Vinicio Henrique (viniciotricolor)" },
-                        new Translator { Name = "Slimakoi" },
-                        new Translator { Name = "Felipe B. Pansani" },
-                        new Translator { Name = "DeusDrizzyy" },
-                        new Translator { Name = "Leo" },
+                    Translators = new Person[] {
+                        new Person { Name = "Vinicio Henrique (viniciotricolor)" },
+                        new Person { Name = "Slimakoi" },
+                        new Person { Name = "Felipe B. Pansani" },
+                        new Person { Name = "DeusDrizzyy" },
+                        new Person { Name = "Leo" },
                     }
                 },
                 new Language {
                     Name = "Limba română",
                     EnglishName = "Romanian",
                     Code = "ro",
-                    Translators = new Translator[] {
-                        new Translator { Name = "DiDYRO", Url = "https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w" },
-                        new Translator { Name = "Denisbolba" },
-                        new Translator { Name = "KTSGod", Url = "https://ktsgod.carrd.co/" },
-                        new Translator { Name = "Eddie", Url = "https://github.com/EdiRo" },
-                        new Translator { Name = "Matthww" },
+                    Translators = new Person[] {
+                        new Person { Name = "DiDYRO", Url = "https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w" },
+                        new Person { Name = "Denisbolba" },
+                        new Person { Name = "KTSGod", Url = "https://ktsgod.carrd.co/" },
+                        new Person { Name = "Eddie", Url = "https://github.com/EdiRo" },
+                        Matthww,
                     }
                 },
                 new Language {
                     Name = "Русский",
                     EnglishName = "Russian",
                     Code = "ru",
-                    Translators = new Translator[] {
-                        new Translator { Name = "maximmax42", Url = "https://www.maximmax42.ru" },
+                    Translators = new Person[] {
+                        new Person { Name = "maximmax42", Url = "https://www.maximmax42.ru" },
                     }
                 },
                 new Language {
                     Name = "Slovenščina",
                     EnglishName = "Slovenian",
                     Code = "sl",
-                    Translators = new Translator[] {
-                        new Translator { Name = "BMKoscak" },
+                    Translators = new Person[] {
+                        new Person { Name = "BMKoscak" },
                     }
                 },
                 new Language {
                     Name = "Српски",
                     EnglishName = "Serbian",
                     Code = "sr",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Vihaan" },
-                        new Translator { Name = "ToShibaToShamara" },
-                        new Translator { Name = "falcon" },
-                        new Translator { Name = "Veljko" },
+                    Translators = new Person[] {
+                        new Person { Name = "Vihaan" },
+                        new Person { Name = "ToShibaToShamara" },
+                        falcon,
+                        new Person { Name = "Veljko" },
                     }
                 },
                 new Language {
                     Name = "Svenska",
                     EnglishName = "Swedish",
                     Code = "sv",
-                    Translators = new Translator[] {
-                        new Translator { Name = "leadattic_", Url = "https://leadattic.leadattic953788.repl.co/"}, // Axel
-                        new Translator { Name = "Rose Liljensten" },
-                        new Translator { Name = "James" },
+                    Translators = new Person[] {
+                        new Person { Name = "leadattic_", Url = "https://leadattic.leadattic953788.repl.co/"}, // Axel
+                        new Person { Name = "Rose Liljensten" },
+                        new Person { Name = "James" },
                     }
                 },
                 new Language {
                     Name = "தமிழ்",
                     EnglishName = "Tamil",
                     Code = "ta",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Julian", Url = "https://discord.com/oauth2/authorize?client_id=962323485772881950&scope=bot&permissions=8" },
+                    Translators = new Person[] {
+                        Julian,
                     }
                 },
                 new Language {
                     Name = "ภาษาไทย",
                     EnglishName = "Thai",
                     Code = "th",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Squishee Freshy" },
-                        new Translator { Name = "YuuabyssSSID" },
-                        new Translator { Name = "SabbKor" },
-                        new Translator { Name = "OHMKUB" },
+                    Translators = new Person[] {
+                        new Person { Name = "Squishee Freshy" },
+                        new Person { Name = "YuuabyssSSID" },
+                        new Person { Name = "SabbKor" },
+                        new Person { Name = "OHMKUB" },
                         //new Translator { Name = "Game" }, 0 translations currently?
                     }
                 },
@@ -580,48 +621,48 @@ namespace CustomRPC
                     Name = "Türkçe",
                     EnglishName = "Turkish",
                     Code = "tr",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Ozan Akyüz" },
-                        new Translator { Name = "josephisticated", Url = "https://github.com/josephisticated" },
+                    Translators = new Person[] {
+                        new Person { Name = "Ozan Akyüz" },
+                        new Person { Name = "josephisticated", Url = "https://github.com/josephisticated" },
                     }
                 },
                 new Language {
                     Name = "Українська",
                     EnglishName = "Ukrainian",
                     Code = "uk",
-                    Translators = new Translator[] {
-                        new Translator { Name = "MechaniX" },
-                        new Translator { Name = "Dmitromintenko" },
+                    Translators = new Person[] {
+                        new Person { Name = "MechaniX" },
+                        new Person { Name = "Dmitromintenko" },
                     }
                 },
                 new Language {
                     Name = "Tiếng Việt",
                     EnglishName = "Vietnamese",
                     Code = "vi",
-                    Translators = new Translator[] {
-                        new Translator { Name = "Mykm", Url = "https://github.com/yumiruuwu" },
-                        new Translator { Name = "Phnthnhnm0612" },
-                        new Translator { Name = "dsbachle" },
-                        new Translator { Name = "Ayano" },
-                        new Translator { Name = "03_Trần" },
+                    Translators = new Person[] {
+                        new Person { Name = "Mykm", Url = "https://github.com/yumiruuwu" },
+                        new Person { Name = "Phnthnhnm0612" },
+                        new Person { Name = "dsbachle" },
+                        new Person { Name = "Ayano" },
+                        new Person { Name = "03_Trần" },
                     }
                 },
                 new Language {
                     Name = "汉语",
                     EnglishName = "Simplified Chinese",
                     Code = "zh-hans",
-                    Translators = new Translator[] {
-                        new Translator { Name = "蘆筍 (westxlu)", Url = "https://linktr.ee/westxlu" },
-                        new Translator { Name = "Zjsun.ca" },
-                        new Translator { Name = "zozocha" },
+                    Translators = new Person[] {
+                        westxlu,
+                        new Person { Name = "Zjsun.ca" },
+                        new Person { Name = "zozocha" },
                     }
                 },
                 new Language {
                     Name = "漢語",
                     EnglishName = "Traditional Chinese",
                     Code = "zh-hant",
-                    Translators = new Translator[] {
-                        new Translator { Name = "蘆筍 (westxlu)", Url = "https://linktr.ee/westxlu" },
+                    Translators = new Person[] {
+                        westxlu,
                     }
                 }
             };
@@ -686,11 +727,10 @@ namespace CustomRPC
                     USDAmount = "25.00",
                     AltAmount = "0.0008328 BTC"
                 },
-                new Supporter {
-                    Name = "GreenRosie",
-                    Url = "https://www.twitch.tv/greenrosie",
-                    USDAmount = "6.00",
-                },
+                new Supporter(
+                    GreenRosie,
+                    USDAmount: "6.00"
+                ),
                 new Supporter {
                     Name = "Boefjim",
                     Url = "https://boefjim.com/",
@@ -708,11 +748,11 @@ namespace CustomRPC
                     USDAmount = "5.09",
                     AltAmount = "5 EUR"
                 },
-                new Supporter {
-                    Name = "Tofix.rs",
-                    USDAmount = "0.45",
-                    AltAmount = "1 BAT"
-                },
+                new Supporter(
+                    TofixRs,
+                    USDAmount: "0.45",
+                    AltAmount: "1 BAT"
+                ),
                 new Supporter {
                     Name = "kiwi",
                     USDAmount = "50.69",
@@ -730,23 +770,22 @@ namespace CustomRPC
                     USDAmount = "5.79",
                     AltAmount = "5.80 EUR"
                 },
-                new Supporter {
-                    Name = "Yoshi",
-                    USDAmount = "3.28",
-                    AltAmount = "200.00 RUB"
-                },
+                new Supporter(
+                    Yoshi,
+                    USDAmount: "3.28",
+                    AltAmount: "200.00 RUB"
+                ),
                 new Supporter {
                     Name = "Zag",
                     Url = "https://zag.rip",
                     USDAmount = "7.45",
                     AltAmount = "431.55 RUB"
                 },
-                new Supporter {
-                    Name = "dragon GRaf",
-                    Url = "https://www.cunsume.com/sellers/dragongraf/",
-                    USDAmount = "10.00",
-                    AltAmount = "615.00 RUB"
-                },
+                new Supporter(
+                    dragonGRaf,
+                    USDAmount: "10.00",
+                    AltAmount: "615.00 RUB"
+                ),
                 new Supporter {
                     Name = "Josenrique AS",
                     Url = "https://josenriqueas.com/referred/customrp/",
