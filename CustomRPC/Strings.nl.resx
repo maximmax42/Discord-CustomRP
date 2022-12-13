@@ -181,4 +181,7 @@ Druk op Ja om de instellingen te resetten, druk op Nee om te stoppen.</value>
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>De afbeeldingslink is te lang!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Kon niet een start-koppeling maken of verwijderen:</value>
+  </data>
 </root>

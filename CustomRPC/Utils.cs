@@ -503,6 +503,7 @@ namespace CustomRPC
                         new Person { Name = "Jeremyzijlemans", Url = "https://sionteam.com/" },
                         new Person { Name = "Screitsma64" },
                         new Person { Name = "sys-256", Url = "https://sys-256.me/" }, // Bramdevogel
+                        new Person { Name = "DutchSlav" },
                     }
                 },
                 new Language {
@@ -679,7 +680,7 @@ namespace CustomRPC
             LanguageProgress["hr"] = "100";
             LanguageProgress["cs"] = "100";
             LanguageProgress["da"] = "98.99";
-            LanguageProgress["nl"] = "98.99";
+            LanguageProgress["nl"] = "100";
             LanguageProgress["et"] = "100";
             LanguageProgress["fil"] = "100";
             LanguageProgress["fi"] = "100";
@@ -691,7 +692,7 @@ namespace CustomRPC
             LanguageProgress["he"] = "100";
             LanguageProgress["hi"] = "98.99";
             LanguageProgress["hu"] = "100";
-            LanguageProgress["is"] = "5.05";
+            LanguageProgress["is"] = "11.11";
             LanguageProgress["id"] = "100";
             LanguageProgress["it"] = "100";
             LanguageProgress["ja"] = "100";
@@ -700,7 +701,7 @@ namespace CustomRPC
             LanguageProgress["lv"] = "100";
             LanguageProgress["lt"] = "100";
             LanguageProgress["mk"] = "100";
-            LanguageProgress["ml"] = "7.07";
+            LanguageProgress["ml"] = "38.38";
             LanguageProgress["no"] = "98.99";
             LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "100";
