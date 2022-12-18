@@ -10,7 +10,7 @@
 # <img src=https://www.customrp.xyz/assets/logo.png style="height:1em;"/> Custom Discord Rich Presence Manager
 ![App Screenshot](https://www.customrp.xyz/assets/screenshot.png)
 
-Custom Discord Rich Presence Manager for Windows 8+. Some of its features are run on startup and tray minimization. Uses [Lachee's DiscordRPC for C#](https://github.com/Lachee/discord-rpc-csharp).
+Custom Discord Rich Presence Manager for Windows 7+. Some of its features are run on startup and tray minimization. Uses [Lachee's DiscordRPC for C#](https://github.com/Lachee/discord-rpc-csharp).
 
 ## Supporters
 
