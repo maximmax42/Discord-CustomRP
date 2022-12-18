@@ -341,7 +341,7 @@ namespace CustomRPC
                     Translators = new Person[] {
                         new Person { Name = "Deluxeria" },
                         new Person { Name = "Zunikuu" },
-                        new Person { Name = "jes", Url = "https://jes8137.carrd.co/" },
+                        new Person { Name = "jes", Url = "https://jesperiz.carrd.co/" },
 
                     }
                 },
