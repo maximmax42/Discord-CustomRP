@@ -804,6 +804,11 @@ namespace CustomRPC
                     USDAmount = "1.49",
                     AltAmount = "100.00 RUB"
                 },
+                new Supporter {
+                    Name = "CJPro25",
+                    USDAmount = "0.91",
+                    AltAmount = "63.00 RUB"
+                },
             };
 
             NonMonetarySupporters = new List<NonMonetarySupporter>
