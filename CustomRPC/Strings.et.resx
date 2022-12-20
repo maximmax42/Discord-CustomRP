@@ -132,7 +132,7 @@ Uuesti proovimiseks vajutage "Jah" või käsitsi allalaadimiseks "Ei".</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Kas soovite juhendi avada?
-Saate selle igal ajal avada, avades menüü Abi -&gt; Ava juhend või vajutades klahvi F1.</value>
+Saate selle igal ajal avada, avades menüü Abi -&gt; Juhend või vajutades klahvi F1.</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>Informatsioon</value>

@@ -176,7 +176,7 @@
     <value>191, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Laadi üles</value>
+    <value>Laadi vara</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>188, 6</value>
@@ -218,7 +218,7 @@
     <value>266, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Kontrolli kas uuendused on saadaval</value>
+    <value>Kontrolli uuenduste saadavust</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>266, 22</value>
@@ -266,7 +266,7 @@
     <value>275, 22</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>Avage juhend</value>
+    <value>Juhend</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>275, 22</value>
@@ -332,7 +332,7 @@
     <value>Ühenda</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Seob rakenduse määratud kohalolekuga määratud ID-ga.</value>
+    <value>Seob rakenduse konkreetse ID'ga koos valitud kohalolekuga.</value>
   </data>
   <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>302, 50</value>
@@ -344,10 +344,10 @@
     <value>Katkesta ühendus</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Katkestab äppi Discordist. Pange tähele, et see võib veidi aega võtta.</value>
+    <value>Katkestab äppi Discordist. See võib veidi aega võtta.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>Rakenduse ID Discord Developersi saidilt.</value>
+    <value>Rakenduse ID Discord Developers saidilt.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
     <value>Esimene rida kohalolekul.</value>
@@ -356,13 +356,13 @@
     <value>Teine rida kohalolekul.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Väikese pildi nimi või pildi link.</value>
+    <value>Väikese pildi nimi või pildi URL.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>Väikese pildi hõljutamisel kuvatav tekst.</value>
+    <value>Väikese pildi hiirega üle hõljumisel kuvatav tekst.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>Suure pildi hõljutamisel kuvatav tekst.</value>
+    <value>Suure pildi hiirega üle hõljumisel kuvatav tekst.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>Suure pildi nimi või pildi link.</value>
@@ -374,7 +374,7 @@
     <value>Väike Pilt</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>Pilt, mis kuvatakse suure pildi paremas alanurgas.</value>
+    <value>Pilt mis kuvatakse suure pildi paremas allnurgas.</value>
   </data>
   <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 14</value>
@@ -383,7 +383,7 @@
     <value>Suur Pilt</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>Pilt, mis kuvatakse ülaltoodud tekstist vasakul.</value>
+    <value>Pilt mis kuvatakse üleval seatud tekstist vasakul.</value>
   </data>
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>91, 18</value>
@@ -392,7 +392,7 @@
     <value>Tühi</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Ajatemplid ei ole lubatud.</value>
+    <value>Ajatemplid ei ole sees.</value>
   </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 18</value>
@@ -410,15 +410,15 @@
     <value>Sinu kohalik aeg</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>Näitab sinu praegust aega 24 tunni formaatis.</value>
+    <value>Näitab sinu praegust aega 24-tunni formaatis.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>Seadistab oleku ajatempli, mis kuvatakse kogu ülaltoodud teksti all.
 Olekutaimeritel on 24 tunni piirang, mis tähendab, et 24 tunni pärast läheb aeg tagasi 0:00-ni.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>Mängijate arv praeguses peos, mis kuvatakse State välja kõrval.
-Jõustamiseks peavad mõlemad väljad olema suuremad kui 0.</value>
+    <value>Inimeste arv praeguses gruppis, mis kuvatakse State välja kõrval.
+Töötamiseks peavad mõlemad väljad olema suuremad kui 0.</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
     <value>148, 18</value>
