@@ -103,6 +103,13 @@ namespace CustomRPC
                 e.Item.Image.Tag = "dark";
             }
         }
+
+        protected override void OnRenderArrow(ToolStripArrowRenderEventArgs e)
+        {
+            e.ArrowColor = CurrentColors.TextColor;
+
+            base.OnRenderArrow(e);
+        }
     }
 
     internal class LightModeRenderer : ToolStripProfessionalRenderer
