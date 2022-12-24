@@ -15,9 +15,9 @@ Custom Discord Rich Presence Manager for Windows 7+. Some of its features are ru
 ## Supporters
 
 * kiwi - $50.69 (50.00 EUR)
+* [dragon GRaf](https://linktr.ee/dragongraf) - $30.00 (1949.00 RUB)
 * [Grim](https://www.savethekiwi.nz/) - $25.00 (0.0008328 BTC)
 * [Boefjim](https://boefjim.com) - $16.13 (1000.00 RUB)
-* [dragon GRaf](https://www.cunsume.com/sellers/dragongraf/) - $10.00 (615.00 RUB)
 * [Zag](https://zag.rip) - $7.45 (431.55 RUB)
 * [GreenRosie](https://www.twitch.tv/greenrosie) - $6.00
 * [Bilal_786](https://discord.gg/zabPuE78ne) - $5.79 (5.80 EUR)
@@ -72,7 +72,7 @@ So far, the app supports these languages:
 * [French](https://poeditor.com/projects/po_edit?id_language=50&per_page=100&id=409229) (thanks to Nenaff, RedNix and VaporCorp)
 * [Georgian](https://poeditor.com/projects/po_edit?id_language=54&per_page=100&id=409229) (thanks to [Turashviliguro](https://turashviliguro.github.io/daddyexe/))
 * [German](https://poeditor.com/projects/po_edit?id_language=55&per_page=100&id=409229) (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), ahmad, [Marcel Gustin](https://marcelgustin.de), Yoshi, binarynoise, [Felix](https://github.com/fbrettnich), Tom and [iRetrozx#7283](https://posted.adalo.com/iretrozx))
-* [Swiss German](https://poeditor.com/projects/po_edit?id_language=208&per_page=100&id=409229) (thanks to [Foolian](https://foolian.com/) and [dragon GRaf](https://www.cunsume.com/sellers/dragongraf/))
+* [Swiss German](https://poeditor.com/projects/po_edit?id_language=208&per_page=100&id=409229) (thanks to [Foolian](https://foolian.com/) and [dragon GRaf](https://linktr.ee/dragongraf))
 * [Greek](https://poeditor.com/projects/po_edit?id_language=56&per_page=100&id=409229) (thanks to Alex Grivas and [NetworkTips#0001](https://discord.gg/Qb8RPjH6sD))
 * [Hebrew](https://poeditor.com/projects/po_edit?id_language=61&per_page=100&id=409229) (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg), [Kahpot Vanilla](https://linktr.ee/KahpotVanilla) and Amit)
 * [Hindi](https://poeditor.com/projects/po_edit?id_language=63&per_page=100&id=409229) (thanks to [regex](https://github.com/REGEX777), [Julian](https://discord.com/oauth2/authorize?client_id=962323485772881950&scope=bot&permissions=8) and mochiron desu)

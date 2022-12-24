@@ -194,7 +194,7 @@ namespace CustomRPC
 
         // List of people who appear in the lists more than one time
         static Person DarlingChan = new Person { Name = "Darling-Chan", Url = "https://meap.gg/" };
-        static Person dragonGRaf = new Person { Name = "dragon GRaf", Url = "https://www.cunsume.com/sellers/dragongraf/" };
+        static Person dragonGRaf = new Person { Name = "dragon GRaf", Url = "https://linktr.ee/dragongraf" };
         static Person falcon = new Person { Name = "falcon" };
         static Person GreenRosie = new Person { Name = "GreenRosie", Url = "https://www.twitch.tv/greenrosie" };
         static Person iRetrozx = new Person { Name = "iRetrozx#7283", Url = "https://posted.adalo.com/iretrozx" };
@@ -784,8 +784,8 @@ namespace CustomRPC
                 },
                 new Supporter(
                     dragonGRaf,
-                    USDAmount: "10.00",
-                    AltAmount: "615.00 RUB"
+                    USDAmount: "30.00",
+                    AltAmount: "1949.00 RUB"
                 ),
                 new Supporter {
                     Name = "Josenrique AS",
