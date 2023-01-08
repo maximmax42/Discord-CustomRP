@@ -1338,7 +1338,9 @@ namespace CustomRPC
         {
             dynamic box = sender;
 
-            if (box.Text.Length == 1 || !StringTools.WithinLength(box.Text, box.MaxLength))
+            bool useBytes = box.Name.EndsWith("Button1Text") || box.Name.EndsWith("Button2Text");
+
+            if (box.Text.Length == 1 || useBytes && !StringTools.WithinLength(box.Text, box.MaxLength))
             {
                 e.Cancel = true;
                 System.Media.SystemSounds.Beep.Play();
@@ -1352,7 +1354,9 @@ namespace CustomRPC
         {
             dynamic box = sender;
 
-            box.BackColor = (box.Text.Length != 1 && StringTools.WithinLength(box.Text, box.MaxLength)) ? CurrentColors.BgTextFields : CurrentColors.BgTextFieldsError;
+            bool useBytes = box.Name.EndsWith("Button1Text") || box.Name.EndsWith("Button2Text");
+
+            box.BackColor = (box.Text.Length == 1 || useBytes && !StringTools.WithinLength(box.Text, box.MaxLength)) ? CurrentColors.BgTextFieldsError : CurrentColors.BgTextFields;
         }
 
         /// <summary>

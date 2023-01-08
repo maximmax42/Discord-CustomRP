@@ -67,6 +67,10 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DiscordRPC, Version=1.1.3.18, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\DiscordRPC.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -1009,9 +1013,6 @@
   <ItemGroup>
     <PackageReference Include="CommonMark.NET">
       <Version>0.15.1</Version>
-    </PackageReference>
-    <PackageReference Include="DiscordRichPresence">
-      <Version>1.1.3.18</Version>
     </PackageReference>
     <PackageReference Include="HtmlRenderer.Core">
       <Version>1.5.1-beta1</Version>
