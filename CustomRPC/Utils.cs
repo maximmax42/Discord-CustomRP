@@ -236,6 +236,14 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Bosanski",
+                    EnglishName = "Bosnian",
+                    Code = "bs",
+                    Translators = new Person[] {
+                        new Person { Name = "Trax" }, // Emin
+                    }
+                },
+                new Language {
                     Name = "Català",
                     EnglishName = "Catalan",
                     Code = "ca",
@@ -672,6 +680,7 @@ namespace CustomRPC
             #region Generated code for progress
             LanguageProgress["ar"] = "100";
             LanguageProgress["bn"] = "97.98";
+            LanguageProgress["bs"] = "100";
             LanguageProgress["bg"] = "100";
             LanguageProgress["my"] = "94.95";
             LanguageProgress["ca"] = "100";
