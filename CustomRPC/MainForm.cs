@@ -724,15 +724,11 @@ namespace CustomRPC
 
                 // Is there a way to not write this code twice? I don't think so since strings are immutable.
 
-                if (rp.Assets.SmallImageKey != null
-                    && !Regex.IsMatch(rp.Assets.SmallImageKey, "//(www\\.)?customrp\\.xyz")
-                    && Regex.IsMatch(rp.Assets.SmallImageKey, "//((cdn)|(media))\\.discordapp\\.((com)|(net))/"))
-                    rp.Assets.SmallImageKey = "https://customrp.xyz/p/?u=" + rp.Assets.SmallImageKey;
+                if (rp.Assets.SmallImageKey != null)
+                    rp.Assets.SmallImageKey = Regex.Replace(rp.Assets.SmallImageKey, "//((cdn)|(media))\\.discordapp\\.((com)|(net))/", "//customrp.xyz/proxy/");
 
-                if (rp.Assets.LargeImageKey != null
-                    && !Regex.IsMatch(rp.Assets.LargeImageKey, "//(www\\.)?customrp\\.xyz")
-                    && Regex.IsMatch(rp.Assets.LargeImageKey, "//((cdn)|(media))\\.discordapp\\.((com)|(net))/"))
-                    rp.Assets.LargeImageKey = "https://customrp.xyz/p/?u=" + rp.Assets.LargeImageKey;
+                if (rp.Assets.LargeImageKey != null)
+                    rp.Assets.LargeImageKey = Regex.Replace(rp.Assets.LargeImageKey, "//((cdn)|(media))\\.discordapp\\.((com)|(net))/", "//customrp.xyz/proxy/"); ;
             }
             catch
             {
