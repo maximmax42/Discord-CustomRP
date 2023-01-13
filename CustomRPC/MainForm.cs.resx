@@ -257,19 +257,19 @@
     <value>71, 20</value>
   </data>
   <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Nastavení</value>
+    <value>Nastaveí</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>190, 22</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>Otevřít manuál</value>
+    <value>Otevřít manuáll</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>190, 22</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>GitHub Stránka</value>
+    <value>GitHub strana</value>
   </data>
   <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
     <value>187, 6</value>
@@ -284,7 +284,7 @@
     <value>190, 22</value>
   </data>
   <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Překladatelé</value>
+    <value>Páskianen</value>
   </data>
   <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
     <value>187, 6</value>

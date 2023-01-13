@@ -123,4 +123,7 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Nahlásit chybu</value>
   </data>
+  <data name="buttonOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
 </root>
