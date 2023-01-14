@@ -258,7 +258,6 @@ namespace CustomRPC
                     Translators = new Person[] {
                         new Person { Name = "JayJake", Url = "https://jayk.live/" },
                         new Person { Name = "SunightMC" },
-                        new Person { Name = "chloupekj", Url = "https://discord.gg/ttgpQ58a" },
                         new Person { Name = "Tobias" }, // ***@***.cz
                         new Person { Name = "MakoPog" }
                     }
@@ -713,7 +712,6 @@ namespace CustomRPC
             LanguageProgress["mk"] = "100";
             LanguageProgress["ml"] = "38.38";
             LanguageProgress["no"] = "98.99";
-            LanguageProgress["pa"] = "0";
             LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "100";
             LanguageProgress["pt"] = "100";
