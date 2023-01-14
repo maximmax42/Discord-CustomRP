@@ -121,9 +121,9 @@
     <value>ОК</value>
   </data>
   <data name="labelInfo.Text" xml:space="preserve">
-    <value>CustomRP се срина в предишната сесия поради следното необработено изключение:</value>
+    <value>CustomRP се срина в предишната сесия поради следната грешка:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Докладване на Грешка</value>
+    <value>Докладване на грешка</value>
   </data>
 </root>

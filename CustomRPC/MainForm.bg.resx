@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>Двойно щракване на иконата да го покажете отново, или дясно щракване за прекратяване.</value>
+    <value>Щракнете два пъти на иконата, за да я покажете отново или кликнете с десен бутон, за да излезете.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>Приложението ще работи в трея.</value>
+    <value>Приложението ще се стартира на заден фон.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
@@ -140,7 +140,7 @@
     <value>165, 22</value>
   </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
-    <value>Свържете се пак</value>
+    <value>Свържете се отново</value>
   </data>
   <data name="trayMenuDisconnect.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
@@ -152,7 +152,7 @@
     <value>165, 22</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
-    <value>Прекрати</value>
+    <value>Изход</value>
   </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 20</value>
@@ -164,13 +164,13 @@
     <value>274, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Зареди педварителни опции</value>
+    <value>Заредете предварително зададени настройки</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>274, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Запази опции</value>
+    <value>Запазете предварително зададени настройки</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>271, 6</value>
@@ -179,7 +179,7 @@
     <value>274, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Публикувай опции</value>
+    <value>Качване на предварително зададени настройки</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>271, 6</value>
@@ -188,7 +188,7 @@
     <value>274, 22</value>
   </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Прекрати</value>
+    <value>Изход</value>
   </data>
   <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>79, 20</value>
@@ -200,19 +200,19 @@
     <value>230, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Стартирай при влкючване</value>
+    <value>Стартирай с Windows</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>230, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Започни минимизирано</value>
+    <value>Стартирай на заден фон</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>230, 22</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>Автоматично Свързване</value>
+    <value>Автосвързване</value>
   </data>
   <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
     <value>227, 6</value>
@@ -227,7 +227,7 @@
     <value>230, 22</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Разрешаване на Анализ</value>
+    <value>Разрешете Събиране/Изпращане на данни</value>
   </data>
   <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
     <value>227, 6</value>
@@ -236,7 +236,7 @@
     <value>230, 22</value>
   </data>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Тъмен режим</value>
+    <value>Тъмна тема</value>
   </data>
   <data name="toolStripSeparatorSettings3.Size" type="System.Drawing.Size, System.Drawing">
     <value>227, 6</value>
@@ -251,7 +251,7 @@
     <value>121, 22</value>
   </data>
   <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
-    <value>Подразбиране</value>
+    <value>По подразбиране</value>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 6</value>
@@ -305,7 +305,7 @@
     <value>229, 22</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>Относно...</value>
+    <value>Относно програмата...</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>174, 20</value>
@@ -320,43 +320,43 @@
     <value>163, 24</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Актуализирай присъствие</value>
+    <value>Актуализирай Rich Presence</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Актуализира присъствие.</value>
+    <value>Актуализира Rich Presence.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>Свържи</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Свързва приложението с специфичния ID със зададено присъствие.</value>
+    <value>Свързва приложението със специфичния ID на зададеният Rich Presence.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
-    <value>Прекъсване</value>
+    <value>Прекъсни</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Прекъсва връзката между приложението и Discord. Моля, имайте предвид, че може да отнеме известно време.</value>
+    <value>Прекъсва връзката между приложението и Discord. Това може да отнеме извесно време.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>Идентификация на приложението от сайта на Discord Developers.</value>
+    <value>ID на приложението от уебсайта на Discord Developers.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>Първи ред в присъствието.</value>
+    <value>Първи ред в Rich Presence.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>Втори ред в присъствието.</value>
+    <value>Втори ред в Rich Presence.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Име на активи за малко изображение или връзка за изображение.</value>
+    <value>Име на предварително зададено малко изображение или връзка към изображение.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>Tекст, показван при задържане на курсора над малкото изображение.</value>
+    <value>Tекст, показан при задържане на курсора върху малкото изображение.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>Текст показан при задърна на курсора над голямото изображение.</value>
+    <value>Текст, показан при задържане на курсора върху голямото изображение.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Име на актива за голямото изображение или връзка за изображение.</value>
+    <value>Име на предварително зададено голямо изображение или връзка към изображение.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 14</value>
@@ -365,7 +365,7 @@
     <value>Малко изображение</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>Изображение което се показва в долен десен ъгъл на голямото изображение.</value>
+    <value>Изображение, което се показва в долният десен ъгъл на голямото изображение.</value>
   </data>
   <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 14</value>
@@ -374,7 +374,7 @@
     <value>Голямо изображение</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>Изображение което се показва ляво от текста приложен отгоре.</value>
+    <value>Изображение, което се показва в ляво от текста зададен отгоре.</value>
   </data>
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 18</value>
@@ -383,42 +383,42 @@
     <value>Нищо</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Няма активирани датировки.</value>
+    <value>Няма активирана клейма за време.</value>
   </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>189, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>От когато CustomRP започна</value>
+    <value>Откакто CustomRP стартира</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>Показва времето от когато то беше започнато.</value>
+    <value>Показва времето от стартирането на CustomRP.</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>156, 18</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>Вашето локално време</value>
+    <value>Вашето местно време</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>Показва вашето сегашно време в 24-часов формат.</value>
+    <value>Показва текущото ви време в 24-часов формат.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Задава датировка за състоянието, което се показва под целия текст отгоре.
+    <value>Задава клейма за време на състоянието, която е показана под целият текст отгоре.
 Таймерите за състояние имат 24-часово ограничение, което означава, че след 24 часа времето ще се върне на 0:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>Брой играчи в текущото парти, което се показва до полето State.
-За да влязат в сила, и двете полета трябва да са повече от 0.</value>
+    <value>Брой на играчи в текущото парти, което се показва до полето State.
+За да влязат в сила и двете полета трябва да имат стойност повече от 0.</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
     <value>224, 18</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>Персонализирано датировка</value>
+    <value>Персонализирана клейма за време</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
-    <value>Показва колко време е изминало от или остава до датата, зададена отдолу.</value>
+    <value>Показва, колко време е изминало от или остава до датата, която е зададена отдолу.</value>
   </data>
   <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 14</value>
@@ -436,33 +436,33 @@
     <value>Бутон 2</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>Втория бутон, който се показва под първия, или вместо него, ако първия не е настроен.</value>
+    <value>Втория бутон, който се появява под първият, или вместо него, ако първият не е настроен.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>URL, към който бутонът ще отведе потребителя при щракване.</value>
+    <value>URL бутонът, който който ще препрати потребителя към вашият линк при щракване.</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>URL, към който бутонът ще отведе потребителя при щракване.</value>
+    <value>URL бутонът, който ще препрати потребителя към вашият линк при щракване.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
-    <value>Етикет на първия бутон.</value>
+    <value>Етикет на първият бутон.</value>
   </data>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
-    <value>Етикет на втория бутон.</value>
+    <value>Етикет на вторият бутон.</value>
   </data>
   <data name="radioButtonPresence.Size" type="System.Drawing.Size, System.Drawing">
     <value>329, 18</value>
   </data>
   <data name="radioButtonPresence.Text" xml:space="preserve">
-    <value>От последната актуализацията на присъствието</value>
+    <value>Времето от последното свързване/актуализиране</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
-    <value>Показва колко време е минало от последното свързване или актуализацията на присъствито.</value>
+    <value>Показва, колко време е минало от последното свързване или актуализацията на Rich Presence.</value>
   </data>
   <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
     <value>20, 14</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
-    <value>на</value>
+    <value>от</value>
   </data>
 </root>

@@ -203,7 +203,7 @@ namespace CustomRPC
         static Person Matthww = new Person { Name = "Matthww" };
         static Person TofixRs = new Person { Name = "Tofix.rs" };
         static Person Yoshi = new Person { Name = "Yoshi" };
-        static Person westxlu = new Person { Name = "蘆筍 (westxlu)", Url = "https://linktr.ee/westxlu" };
+        static Person westxlu = new Person { Name = "蘆筍 (aka westxlu)", Url = "https://linktr.ee/westxlu" };
 
         static Utils()
         {
@@ -223,6 +223,7 @@ namespace CustomRPC
                     EnglishName = "Bulgarian",
                     Code = "bg",
                     Translators = new Person[] {
+                        new Person { Name = "Nikolay Shangov (aka 21)", Url = "https://discord.gg/hqvMaxBAew" },
                         new Person { Name = "TheLocalSlavic" },
                         new Person { Name = "EmeraldCeat", Url = "https://discord.gg/reformedcityrp" },
                     }

@@ -125,12 +125,12 @@
     <value>217, 19</value>
   </data>
   <data name="labelMadeBy.Text" xml:space="preserve">
-    <value>Направено от: maximmax42</value>
+    <value>Създадено от: maximmax42</value>
   </data>
   <data name="buttonClose.Text" xml:space="preserve">
     <value>Затвори</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Относно</value>
+    <value>За програмата</value>
   </data>
 </root>

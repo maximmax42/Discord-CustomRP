@@ -121,7 +121,7 @@
     <value>Да</value>
   </data>
   <data name="buttonNotNow.Text" xml:space="preserve">
-    <value>Не Сега</value>
+    <value>Отложи</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
@@ -137,8 +137,8 @@
     <value>Не проверявайте за актуализации отново</value>
   </data>
   <data name="labelVersionsText.Text" xml:space="preserve">
-    <value>Сегашната Версия:
-Предишната Версия:</value>
+    <value>Текуща версия:
+Последна версия:</value>
   </data>
   <data name="buttonSkipUpdate.Size" type="System.Drawing.Size, System.Drawing">
     <value>142, 23</value>
@@ -147,6 +147,6 @@
     <value>Пропусни тази версия</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Имате налична актуализация</value>
+    <value>Има налична актуализация</value>
   </data>
 </root>

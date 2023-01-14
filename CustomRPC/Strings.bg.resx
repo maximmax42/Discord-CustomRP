@@ -121,18 +121,18 @@
     <value>Грешка</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>Не е посочено ID!</value>
+    <value>Не е посочено ID на приложението!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
     <value>Възникна грешка при изтегляне или инсталиране на актуализация.
-Натиснете "Да“ за да опитате отново или "Не“ за да изтеглите ръчно.</value>
+Натиснете "Да", за да опитате отново или "Не" за да изтеглите ръчно.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Първо пускане</value>
+    <value>Пускане за първи път</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Искате ли да отворите ръководството?
-Можете да го отворите по всяко време, като отидете на Помощ -&gt; Отвори ръководство или натиснете F1.</value>
+Можете да отворите ръководството по всяко време, като отидете на Помощ -&gt; Отвори ръководство или натиснете F1.</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>Информация</value>
@@ -144,44 +144,44 @@
     <value>Свръзване...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Връзката е неуспешна (Работи ли Discord?)</value>
+    <value>Връзката е неуспешна (Пуснат ли е Discord?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
-    <value>Прекъсната връзка</value>
+    <value>Връзката е прекъсната</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>Грешка при свързване (Грешно ID?)</value>
+    <value>Грешка при свързване (Грешно ID на приложение?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>Невалидна връзка за бутон(и) или текста е твърде голям!</value>
+    <value>Невалидна връзка за бутон(и) или текста е твърде дълъг!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
-    <value>Няма връзка към интернет!</value>
+    <value>Няма връзка с интернет!</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
-    <value>Няма намерени актуализации!</value>
+    <value>Не бяха намерени актуализации!</value>
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
     <value>Файлът с настройки е повреден.
-Натиснете Да, за да нулирате настройките, натиснете Не, за да прекратите.</value>
+Натиснете Да, за да нулирате настройките, натиснете Не, за да излезете.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Неуспешно импортиране на предварителна настройка; файлът липсва, повреден е или е неправилно форматиран.</value>
+    <value>Неуспешно импортиране на предварително зададени настройки; файлът липсва, повреден е или не е неправилно форматиран.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>Позволявате ли на CustomRP да изпраща вашите анализи на използването на разработчика?
-(Всички данни са обезличени.)</value>
+    <value>Позволявате ли на CustomRP, да изпраща данни за използването на приложението към разработчика на приложението?
+(Всички данни са анонимни.)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
     <value>Възникна грешка при запазване на настройките:</value>
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>Моля, добавете „{0}“ path към изключенията на вашата антивирусна програма. Преинсталирайте CustomRP, ако тази грешка продължава.</value>
+    <value>Моля, добавете "{0}" path към изключенията на вашата антивирусна програма. Инсталирайте CustomRP отново, ако този проблем продължава.</value>
   </data>
   <data name="errorInvalidImageURL" xml:space="preserve">
-    <value>Връзката към исображението е твърде дълга!</value>
+    <value>Връзката към изображението е твърде дълга!</value>
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
-    <value>Провалено да се добави стартиращ пряк път:</value>
+    <value>Неуспешно добавяне или премахване на пряк път.</value>
   </data>
 </root>
