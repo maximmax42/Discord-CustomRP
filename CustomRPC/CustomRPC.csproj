@@ -1030,7 +1030,7 @@
       <Version>5.2.9</Version>
     </PackageReference>
     <PackageReference Include="Octokit">
-      <Version>4.0.3</Version>
+      <Version>4.0.4</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
