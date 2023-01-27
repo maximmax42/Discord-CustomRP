@@ -253,6 +253,8 @@ namespace CustomRPC
 
             // Localize the Disconnect button in the tray menu
             trayMenuDisconnect.Text = res.GetString("buttonDisconnect.Text");
+            if (settings.language == "bg")
+                trayMenuDisconnect.Text = "Прекъсни връзката";
 
             // Localize the statusbar text in case the autoconnect is disabled
             toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
