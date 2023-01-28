@@ -800,8 +800,8 @@ namespace CustomRPC
                 new Supporter {
                     Name = "Josenrique AS",
                     Url = "https://josenriqueas.com/referred/customrp/",
-                    USDAmount = "5.05",
-                    AltAmount = "317.00 RUB"
+                    USDAmount = "6.50",
+                    AltAmount = "417.00 RUB"
                 },
                 new Supporter {
                     Name = "YJB",
