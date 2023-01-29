@@ -819,6 +819,11 @@ namespace CustomRPC
                     USDAmount = "0.91",
                     AltAmount = "63.00 RUB"
                 },
+                new Supporter {
+                    Name = "WEIRON GREIZER",
+                    USDAmount = "0.39",
+                    AltAmount = "27.66 RUB"
+                },
             };
 
             NonMonetarySupporters = new List<NonMonetarySupporter>

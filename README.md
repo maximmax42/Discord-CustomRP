@@ -30,6 +30,7 @@ Custom Discord Rich Presence Manager for Windows 7+. Some of its features are ru
 * CJPro25 - $0.91 (63.00 RUB)
 * [YJB](https://owo.yjb.gay/) - $0.69 (41.00 RUB)
 * Tofix.rs - $0.45 (1.00 BAT)
+* WEIRON GREIZER - $0.39 (27.66 RUB)
 
 ### Non-monetary supporters
 
