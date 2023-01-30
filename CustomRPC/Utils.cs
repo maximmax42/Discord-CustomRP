@@ -257,7 +257,7 @@ namespace CustomRPC
                     EnglishName = "Czech",
                     Code = "cs",
                     Translators = new Person[] {
-                        new Person { Name = "JayJake", Url = "https://jayk.live/" },
+                        new Person { Name = "JayJake", Url = "https://jayjake.eu/" },
                         new Person { Name = "SunightMC" },
                         new Person { Name = "Tobias" }, // ***@***.cz
                         new Person { Name = "MakoPog" }
