@@ -568,6 +568,7 @@ namespace CustomRPC
                         new Person { Name = "KTSGod", Url = "https://ktsgod.carrd.co/" },
                         new Person { Name = "Eddie", Url = "https://github.com/EdiRo" },
                         Matthww,
+                        new Person { Name = "BlockBuzzters" },
                     }
                 },
                 new Language {
@@ -713,6 +714,7 @@ namespace CustomRPC
             LanguageProgress["mk"] = "100";
             LanguageProgress["ml"] = "38.38";
             LanguageProgress["no"] = "98.99";
+            LanguageProgress["pa"] = "0";
             LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "100";
             LanguageProgress["pt"] = "100";

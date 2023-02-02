@@ -217,7 +217,7 @@
     <value>Imaginea mică</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>Imaginea care arată sus în colțul din dreapta a imaginii mari.</value>
+    <value>Imaginea care arată sus în colțul din dreapta jos a imaginii mari.</value>
   </data>
   <data name="labelLarge.Text" xml:space="preserve">
     <value>Imaginea mare</value>
