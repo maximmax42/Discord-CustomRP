@@ -1317,6 +1317,7 @@ namespace CustomRPC
             // Quick disconnect
             restartTimer.Stop();
             client.Dispose();
+            textBoxID.BackColor = CurrentColors.BgTextFields;
 
             // Quick connect
             Utils.SaveSettings();
