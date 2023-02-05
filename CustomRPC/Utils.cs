@@ -580,6 +580,14 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Slovenčina",
+                    EnglishName = "Slovak",
+                    Code = "sk",
+                    Translators = new Person[] {
+                        new Person { Name = "richi", Url = "https://e-z.bio/shelovesrichi" },
+                    }
+                },
+                new Language {
                     Name = "Slovenščina",
                     EnglishName = "Slovenian",
                     Code = "sl",
@@ -722,6 +730,7 @@ namespace CustomRPC
             LanguageProgress["ro"] = "100";
             LanguageProgress["ru"] = "100";
             LanguageProgress["sr"] = "100";
+            LanguageProgress["sk"] = "100";
             LanguageProgress["sl"] = "100";
             LanguageProgress["es"] = "100";
             LanguageProgress["sv"] = "100";
