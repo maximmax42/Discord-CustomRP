@@ -26,6 +26,7 @@ Custom Discord Rich Presence Manager for Windows 7+. Some of its features are ru
 * [Kushgo](https://opensea.io/collection/worldtowers) - $5.00 (0.00313295 ETH)
 * Yoshi - $3.28 (200.00 RUB)
 * Anonymous - $2.62 (0.00011304 BTC)
+* Death - $1.93 (142.00 RUB)
 * Jan - $1.49 (100.00 RUB)
 * CJPro25 - $0.91 (63.00 RUB)
 * [YJB](https://owo.yjb.gay/) - $0.69 (41.00 RUB)
