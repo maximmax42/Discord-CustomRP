@@ -435,7 +435,7 @@ namespace CustomRPC
                         new Person { Name = "Frin" },
                         new Person { Name = "Bay" },
                         Matthww,
-                        new Person { Name = "ItsMrCube", Url = "https://mrcube.live/" },
+                        new Person { Name = "ItsMrCube", Url = "https://mrcube.dev/" },
                         new Person { Name = "Patrick Canal" },
                     }
                 },
