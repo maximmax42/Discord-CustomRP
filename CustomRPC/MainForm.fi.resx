@@ -457,7 +457,7 @@ Voimaantulo edellyttää, että molempien kenttien arvo on suurempi kuin 0.</val
     <value>218, 18</value>
   </data>
   <data name="radioButtonPresence.Text" xml:space="preserve">
-    <value>Edellisen läsnäolopäivityksen jälkeen</value>
+    <value>Aikaa edellisestä läsnäolopäivityksestä</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>Näyttää, kuinka kauan on kulunut edellisestä yhteyden muodostamisesta tai läsnäolon päivittämisestä.</value>

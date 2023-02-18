@@ -144,7 +144,7 @@ Voit avata sen milloin tahansa siirtymällä kohtaan Ohje -&gt; Avaa käyttöohj
     <value>Yhdistetään...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Yhteys epäonnistui (Tarkista onko Discord käynnissä?)</value>
+    <value>Yhteys epäonnistui (Onko Discord käynnissä?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>Yhteys katkaistu</value>
@@ -170,7 +170,7 @@ Paina Kyllä nollataksesi asetukset, ja paina Ei lopettaaksesi.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
     <value>Sallitko CustomRP:n lähettämään käyttöanalytiikkasi kehittäjälle?
-(Kaikki tiedot eivät ole henkilökohtaisia.)</value>
+(Tiedot eivät ole henkilökohtaisia.)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
     <value>Asetusten tallentamisessa tapahtui virhe:</value>

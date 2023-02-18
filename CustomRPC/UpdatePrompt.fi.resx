@@ -144,7 +144,7 @@ Uusin versio:</value>
     <value>116, 23</value>
   </data>
   <data name="buttonSkipUpdate.Text" xml:space="preserve">
-    <value>Ohitä tämä versio</value>
+    <value>Ohita tämä versio</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Päivitys saatavilla</value>
