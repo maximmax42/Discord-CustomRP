@@ -467,4 +467,19 @@
   <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>ناوی سەرمایەکە بۆ وێنەی بچووک یان ناونیشانی وێنەکە.</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>ناوی سەرمایەکە بۆ وێنەی گەورە یان ناونیشانی وێنەیەک.</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>لایەنگرەکان</value>
+  </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>دواین نوێکردنەوەی ئامادەبوون</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>پیشانی دەدات کە چەند کات تێپەڕیوە لەو کاتەوەی کە دوایین جار پەیوەندیت کردووە یان ئامادەبوونەکەت نوێکردۆتەوە.</value>
+  </data>
 </root>

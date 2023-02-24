@@ -469,6 +469,7 @@ namespace CustomRPC
                     Code = "ku",
                     Translators = new Person[] {
                         new Person { Name = "SamTheNoob", Url = "https://linktr.ee/stn69" },
+                        new Person { Name = "JakeAnthrax420" },
                     }
                 },
                 new Language {
@@ -718,7 +719,7 @@ namespace CustomRPC
             LanguageProgress["it"] = "100";
             LanguageProgress["ja"] = "100";
             LanguageProgress["ko"] = "100";
-            LanguageProgress["ku"] = "92.93";
+            LanguageProgress["ku"] = "100";
             LanguageProgress["lv"] = "100";
             LanguageProgress["lt"] = "100";
             LanguageProgress["mk"] = "100";
@@ -739,6 +740,7 @@ namespace CustomRPC
             LanguageProgress["th"] = "100";
             LanguageProgress["tr"] = "100";
             LanguageProgress["uk"] = "100";
+            LanguageProgress["ur"] = "34.34";
             LanguageProgress["vi"] = "100";
             #endregion
 

@@ -178,4 +178,10 @@
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>تکایە "{0}" زیادبکە بۆ جیاکارییەکانی دژە ڤایرۆسەکەت. دووبارە CustomRP دابەزێنەوە ئەگەر ئەم هەڵەیە بەردەوام بوو.</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>ناونیشانی وێنەکە زۆر درێژە!</value>
+  </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>سەرکەوتوو نابوو لە زیاد کردن یان لابردنی دامەزراندی کورتە ڕێیی:</value>
+  </data>
 </root>
