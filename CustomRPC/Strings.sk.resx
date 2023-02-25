@@ -128,14 +128,14 @@
 Stlačením tlačidla „Áno“ to zopakujete alebo stlačením tlačidla „Nie“ stiahnete manuálne.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Prvý beh</value>
+    <value>Prvé spustenie</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Chcete otvoriť príručku?
-Môžete ho kedykoľvek otvoriť tak, že prejdete na Pomocník -&gt; Otvoriť príručku alebo stlačíte kláves F1.</value>
+Môžete ju kedykoľvek otvoriť tak, že prejdete na Pomocník -&gt; Otvoriť príručku alebo stlačíte klávesu F1.</value>
   </data>
   <data name="information" xml:space="preserve">
-    <value>Informacie</value>
+    <value>Informácie</value>
   </data>
   <data name="statusConnected" xml:space="preserve">
     <value>Pripojené</value>
@@ -144,7 +144,7 @@ Môžete ho kedykoľvek otvoriť tak, že prejdete na Pomocník -&gt; Otvoriť p
     <value>Pripája sa...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Pripojenie zlyhalo (Beží Discord?)</value>
+    <value>Pripojenie zlyhalo (Je zapnutý Discord?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>Odpojené</value>

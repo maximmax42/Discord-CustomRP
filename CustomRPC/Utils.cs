@@ -587,7 +587,8 @@ namespace CustomRPC
                     EnglishName = "Slovak",
                     Code = "sk",
                     Translators = new Person[] {
-                        new Person { Name = "richi", Url = "https://e-z.bio/shelovesrichi" },
+                        new Person { Name = "richi", Url = "https://e-z.bio/shelovesrichi" }, // rci1337
+                        new Person { Name = "Maros Mihalek" },
                     }
                 },
                 new Language {

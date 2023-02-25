@@ -179,7 +179,7 @@
     <value>236, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Nahrať Assety</value>
+    <value>Nahrať Prednastavené</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>233, 6</value>
@@ -320,16 +320,16 @@
     <value>146, 24</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Aktualizovať prítomnosť</value>
+    <value>Aktualizovať aktivitu</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Aktualizuje prítomnosť.</value>
+    <value>Aktualizuje aktivitu.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>Pripojiť</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Prepojí aplikáciu so zadaným ID s nastavenou prítomnosťou.</value>
+    <value>Prepojiť aplikáciu so zadaným ID s nastavenou aktivitou.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
     <value>Odpojiť</value>
@@ -341,10 +341,10 @@
     <value>ID aplikácie zo stránky Discord Developers.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>Prvý riadok v prítomnosti.</value>
+    <value>Prvý riadok v aktivite.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>Druhý riadok v prítomnosti.</value>
+    <value>Druhý riadok v aktivite.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
     <value>Názov diela pre malý obrázok alebo webovú adresu obrázka.</value>
@@ -383,7 +383,7 @@
     <value>Źiadne</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Nie sú povolené žiadne časové pečiatky.</value>
+    <value>Nie sú povolené žiadne časové úseky.</value>
   </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>147, 18</value>
@@ -405,17 +405,17 @@
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>Nastaví časovú pečiatku pre stav, ktorý sa zobrazí pod celým textom vyššie.
-Stavové časovače majú 24-hodinový limit, čo znamená, že po 24 hodinách sa čas vráti späť na 0:00.</value>
+Stavové časovače majú 24-hodinový limit, čo znamená, že po 24 hodinách sa čas vráti späť na 00:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>Počet hráčov v aktuálnej skupine, ktorý sa zobrazuje vedľa poľa Štát.
+    <value>Množstvo hráčov v aktuálnej skupine, ktoré sa zobrazujú vedľa stavového poľa.
 Aby nadobudli účinnosť, obe polia by mali byť väčšie ako 0.</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
     <value>157, 18</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>Vlastná časová pečiatka</value>
+    <value>Vlastný časový úsek</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
     <value>Zobrazuje, koľko času uplynulo alebo koľko času zostáva do dátumu nastaveného nižšie.</value>
