@@ -216,6 +216,7 @@ namespace CustomRPC
                         new Person { Name = "FiberAhmed", Url = "https://github.com/FiberAhmed" },
                         new Person { Name = "ShadowlGamer" },
                         new Person { Name = "karimawi" },
+                        new Person { Name = "Bo Raghad" },
                     }
                 },
                 new Language {
