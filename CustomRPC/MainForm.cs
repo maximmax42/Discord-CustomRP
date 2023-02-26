@@ -246,7 +246,7 @@ namespace CustomRPC
                 settings.customTimestamp = DateTime.Now;
 
             // Change the earliest date user can choose according to user's timezone
-            dateTimePickerTimestamp.MinDate = new DateTime(1970, 1, 1, 0, 0, 0).ToLocalTime();
+            dateTimePickerTimestamp.MinDate = new DateTime(2001, 9, 9, 1, 46, 40, DateTimeKind.Utc).ToLocalTime();
 
             // Localize the header of the tooltip because Visual Studio can't do that for some reason
             toolTipInfo.ToolTipTitle = Strings.information;
