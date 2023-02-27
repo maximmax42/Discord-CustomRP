@@ -137,11 +137,11 @@
     <value>Güncellemeleri tekrar kontrol etme</value>
   </data>
   <data name="labelVersionsText.Text" xml:space="preserve">
-    <value>Şu anki versiyon:
+    <value>Şu anki sürüm:
 En son sürüm:</value>
   </data>
   <data name="buttonSkipUpdate.Text" xml:space="preserve">
-    <value>Bu Versiyonu Atla</value>
+    <value>Bu Sürümü Atla</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Güncelleme Mevcut</value>
