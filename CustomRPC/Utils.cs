@@ -326,7 +326,8 @@ namespace CustomRPC
                         new Person { Name = "UncleGeek" },
                         new Person { Name = "Luciousmc" },
                         new Person { Name = "Alvaro203204" },
-                        new Person { Name = "Epic" },
+                        // new Person { Name = "Epic" }, 0 translations?
+                        new Person { Name = "JugandoMiguel", Url = "https://fiverr.com/jugandomiguel" },
                     }
                 },
                 new Language {
