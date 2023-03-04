@@ -763,7 +763,7 @@ namespace CustomRPC
                     Name = "Boefjim",
                     Url = "https://boefjim.com/",
                     USDAmount = "16.13",
-                    AltAmount = "1000 RUB"
+                    AltAmount = "1000.00 RUB"
                 },
                 new Supporter {
                     Name = "Anonymous",
@@ -774,17 +774,17 @@ namespace CustomRPC
                     Name = "Eli404",
                     Url = "https://linktr.ee/404femboy",
                     USDAmount = "5.09",
-                    AltAmount = "5 EUR"
+                    AltAmount = "5.00 EUR"
                 },
                 new Supporter(
                     TofixRs,
                     USDAmount: "0.45",
-                    AltAmount: "1 BAT"
+                    AltAmount: "1.00 BAT"
                 ),
                 new Supporter {
                     Name = "kiwi",
                     USDAmount = "50.69",
-                    AltAmount = "50 EUR"
+                    AltAmount = "50.00 EUR"
                 },
                 new Supporter {
                     Name = "Kushgo",
@@ -817,8 +817,8 @@ namespace CustomRPC
                 new Supporter {
                     Name = "Josenrique AS",
                     Url = "https://josenriqueas.com/referred/customrp/",
-                    USDAmount = "6.50",
-                    AltAmount = "417.00 RUB"
+                    USDAmount = "7.84",
+                    AltAmount = "517.00 RUB"
                 },
                 new Supporter {
                     Name = "YJB",

@@ -18,8 +18,8 @@ Custom Discord Rich Presence Manager for Windows 7+. Some of its features are ru
 * [dragon GRaf](https://linktr.ee/dragongraf) - $30.00 (1949.00 RUB)
 * [Grim](https://www.savethekiwi.nz/) - $25.00 (0.0008328 BTC)
 * [Boefjim](https://boefjim.com) - $16.13 (1000.00 RUB)
+* [Josenrique AS](https://josenriqueas.com/referred/customrp/) - $7.84 (517.00 RUB)
 * [Zag](https://zag.rip) - $7.45 (431.55 RUB)
-* [Josenrique AS](https://josenriqueas.com/referred/customrp/) - $6.50 (417.00 RUB)
 * [GreenRosie](https://www.twitch.tv/greenrosie) - $6.00
 * [Bilal_786](https://discord.gg/zabPuE78ne) - $5.79 (5.80 EUR)
 * [Eli404](https://linktr.ee/404femboy) - $5.09 (5.00 EUR)
