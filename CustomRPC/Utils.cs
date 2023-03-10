@@ -220,6 +220,14 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Беларуская",
+                    EnglishName = "Belarusian",
+                    Code = "be",
+                    Translators = new Person[] {
+                        new Person { Name = "Alibical" }, // Chloe N.
+                    }
+                },
+                new Language {
                     Name = "Български",
                     EnglishName = "Bulgarian",
                     Code = "bg",
@@ -695,6 +703,7 @@ namespace CustomRPC
             LanguageProgress = new Dictionary<string, string>();
             #region Generated code for progress
             LanguageProgress["ar"] = "100";
+            LanguageProgress["be"] = "100";
             LanguageProgress["bn"] = "97.98";
             LanguageProgress["bs"] = "100";
             LanguageProgress["bg"] = "100";
