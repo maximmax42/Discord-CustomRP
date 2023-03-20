@@ -201,6 +201,7 @@ namespace CustomRPC
         static Person Julian = new Person { Name = "Julian", Url = "https://discord.com/oauth2/authorize?client_id=962323485772881950&scope=bot&permissions=8" };
         static Person MarcelGustin = new Person { Name = "Marcel Gustin", Url = "https://marcelgustin.de" };
         static Person Matthww = new Person { Name = "Matthww" };
+        static Person Mykm = new Person { Name = "Mykm", Url = "https://github.com/yumiruuwu" };
         static Person TofixRs = new Person { Name = "Tofix.rs" };
         static Person Yoshi = new Person { Name = "Yoshi" };
         static Person westxlu = new Person { Name = "蘆筍 (aka westxlu)", Url = "https://linktr.ee/westxlu" };
@@ -676,7 +677,7 @@ namespace CustomRPC
                     EnglishName = "Vietnamese",
                     Code = "vi",
                     Translators = new Person[] {
-                        new Person { Name = "Mykm", Url = "https://github.com/yumiruuwu" },
+                        Mykm,
                         new Person { Name = "Phnthnhnm0612" },
                         new Person { Name = "dsbachle" },
                         new Person { Name = "Ayano" },
@@ -863,6 +864,11 @@ namespace CustomRPC
                     USDAmount = "2.10",
                     AltAmount = "30.00 TRX"
                 },
+                new Supporter (
+                    Mykm,
+                    USDAmount: "1.30",
+                    AltAmount: "100.00 RUB"
+                )
             };
 
             NonMonetarySupporters = new List<NonMonetarySupporter>
