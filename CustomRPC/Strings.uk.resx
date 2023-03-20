@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="error" xml:space="preserve">
-    <value>Похибка</value>
+    <value>Помилка</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>Немає ID!</value>
+    <value>ID не вказаний!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
     <value>Сталася помилка під час завантаження або встановлення оновлення. 

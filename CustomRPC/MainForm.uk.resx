@@ -179,7 +179,7 @@
     <value>283, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Завантажити колекцію</value>
+    <value>Завантажити ассети</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>280, 6</value>
@@ -200,7 +200,7 @@
     <value>271, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Запускати при запуску комп'ютера</value>
+    <value>Запускати разом з системою</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>271, 22</value>
@@ -221,7 +221,7 @@
     <value>271, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Перевірити на наявність обновлень</value>
+    <value>Перевірити на наявність оновлень</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
     <value>268, 6</value>
@@ -281,7 +281,7 @@
     <value>127, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Скачати оновлення</value>
+    <value>Завантажити оновлення</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
     <value>Оновити статус</value>
@@ -311,16 +311,16 @@
     <value>Відключити</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Відключити облаштунок від Discord. Зважте, що це займає час.</value>
+    <value>Від'єднує застосунок від Discord. Зауважте, що це може зайняти трохи часу.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>ID облаштунка з сайту Discord Developers.</value>
+    <value>ID застосунка з сайту Discord Developers.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>Перша строка статусу.</value>
+    <value>Перша лінія статусу.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>Друга строка статусу.</value>
+    <value>Друга лінія статусу.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
     <value>Назва ассету для маленького зображення або URL-адреса зображення.</value>
@@ -356,10 +356,10 @@
     <value>35, 18</value>
   </data>
   <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>Ні</value>
+    <value>Тут нічого немає</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Відмітки часу відключеі.</value>
+    <value>Відмітки часу вимкненні.</value>
   </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 18</value>
@@ -368,7 +368,7 @@
     <value>З моменту, як CustomRP запущений</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>Час з моменту запуска програми.</value>
+    <value>Показує час з моменту запуска застосунка.</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 18</value>
@@ -377,7 +377,7 @@
     <value>Твій місцевий час</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>Твій місцевий час в 24-годинному форматі.</value>
+    <value>Показує твій місцевий час в 24-годинному форматі.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>Задає мітку часу для статусу, яка відображається під усім текстом вище.
