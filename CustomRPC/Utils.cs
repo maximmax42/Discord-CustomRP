@@ -578,8 +578,9 @@ namespace CustomRPC
                     Translators = new Person[] {
                         new Person { Name = "DiDYRO", Url = "https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w" },
                         new Person { Name = "Denisbolba" },
-                        new Person { Name = "KTSGod", Url = "https://ktsgod.carrd.co/" },
+                        new Person { Name = "KTSGod", Url = "https://ktsgod.carrd.co/" }, // Developer316
                         new Person { Name = "Eddie", Url = "https://github.com/EdiRo" },
+                        new Person { Name = "veirvn" },
                         Matthww,
                         new Person { Name = "BlockBuzzters" },
                     }

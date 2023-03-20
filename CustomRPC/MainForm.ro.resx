@@ -124,7 +124,7 @@
     <value>Aplicatia va merge in tray icons.</value>
   </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
-    <value>Reconecteazate</value>
+    <value>Reconecteaza-te</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
     <value>Iesi</value>
@@ -166,7 +166,7 @@
     <value>Pagina de GitHub</value>
   </data>
   <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Translatori</value>
+    <value>Traducatori</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>Despre...</value>
