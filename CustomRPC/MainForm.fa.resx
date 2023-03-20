@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>دوبار کلیک کنید روی آیکون تا دوباره نشان داده شود یا راست کلیک کنید تا خارج شود</value>
+    <value>دوبار کلیک کنید روی آیکون تا دوباره نشان داده شود یا راست کلیک کنید تا خارج شود.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>برنامه در پس زمینه اجرا میشود</value>
+    <value>برنامه در پس زمینه اجرا میشود.</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>بازکردن</value>
@@ -143,7 +143,7 @@
     <value>214, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>برگرداندن تنظیمات</value>
+    <value>بارگذاری تنظیمات</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>214, 22</value>
@@ -158,7 +158,7 @@
     <value>214, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>ارسال فایل</value>
+    <value>آپلود فایل</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 6</value>
@@ -200,7 +200,7 @@
     <value>206, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>بررسی بروزرسانی نرم افزار</value>
+    <value>بررسی کردن برای بروزرسانی نرم افزار</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>206, 22</value>
@@ -248,7 +248,7 @@
     <value>187, 22</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>بازکردن دستی</value>
+    <value>بازکردن راهنما</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>187, 22</value>
@@ -290,7 +290,7 @@
     <value>48, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>دانلود</value>
+    <value>بروزرسانی</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
     <value>بروزرسانی پرسنس</value>
@@ -308,28 +308,28 @@
     <value>قطع اتصال</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>نرم افزار های متصل به دیسکورد را قطع کنید. توجه کنید که ممکن است کمی طول بکشد</value>
+    <value>نرم افزار های متصل به دیسکورد را قطع می کند. توجه کنید که ممکن است کمی طول بکشد.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>آیدی اپلیکیشن شما از سایت دیسکورد دولوپر گرفتید</value>
+    <value>آیدی اپلیکیشن شما از سایت دیسکورد دولوپر گرفتید.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>اولین خط در پرسنس</value>
+    <value>اولین خط در پرسنس.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>دومین خط در پرسنس</value>
+    <value>دومین خط در پرسنس.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>اسم فایل در دیسکورد دولوپر برای عکس کوچک یا لینک عکس</value>
+    <value>اسم فایل در دیسکورد دولوپر برای عکس کوچک یا لینک عکس.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>متنی که وقتی رو عکس کوچک کلیک میشود یا به جای نبود عکس نشان داده میشود</value>
+    <value>متنی که وقتی رو عکس کوچک کلیک میشود یا به جای نبود عکس نشان داده میشود.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>متنی که وقتی رو عکس بزرگ کلیک میشود یا به جای نبود عکس نشان داده میشود</value>
+    <value>متنی که وقتی رو عکس بزرگ کلیک میشود یا به جای نبود عکس نشان داده میشود.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>اسم فایل در دیسکورد دولوپر برای عکس بزرگ یا لینک عکس</value>
+    <value>اسم فایل در دیسکورد دولوپر برای عکس بزرگ یا لینک عکس.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 14</value>
@@ -338,7 +338,7 @@
     <value>عکس کوچک</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>محتوایی که در سمت راست پایین عکس بزرگ نشان داده میشود</value>
+    <value>محتوایی که در سمت راست پایین عکس بزرگ نشان داده میشود.</value>
   </data>
   <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 14</value>
@@ -347,7 +347,7 @@
     <value>عکس بزرگ</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>تصویری که سمت چپ تصویر کوچک بزرگ نمایش داده میشود</value>
+    <value>تصویری که سمت چپ تصویر کوچک بزرگ نمایش داده میشود.</value>
   </data>
   <data name="radioButtonNone.Location" type="System.Drawing.Point, System.Drawing">
     <value>280, 3</value>
@@ -368,7 +368,7 @@
     <value>177, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>از زمانی که نرم افزار اجرا شده</value>
+    <value>از زمانی که کاستوم آر پی اجرا شده</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
     <value>زمان شروع برنامه را نشان میدهد</value>

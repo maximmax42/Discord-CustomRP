@@ -353,6 +353,7 @@ namespace CustomRPC
                     Code = "fa",
                     Translators = new Person[] {
                         new Person { Name = "Mohammad Mahdi", Url = "https://mo-mahdihh.ir/" },
+                        new Person { Name = "Sunnystew" },
                     }
                 },
                 new Language {

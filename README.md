@@ -91,7 +91,7 @@ So far, the app supports these languages:
 * [Lithuanian](https://poeditor.com/projects/po_edit?id_language=96&per_page=100&id=409229) (thanks to [GreenRosie](https://www.twitch.tv/greenrosie) and Flix3ris)
 * [Macedonian](https://poeditor.com/projects/po_edit?id_language=99&per_page=100&id=409229) (thanks to falcon)
 * [Norwegian](https://poeditor.com/projects/po_edit?id_language=116&per_page=100&id=409229) (thanks to Sveinung)
-* [Persian](https://poeditor.com/projects/po_edit?id_language=126&per_page=100&id=409229) (thanks to [Mohammad Mahdi](https://mo-mahdihh.ir/))
+* [Persian](https://poeditor.com/projects/po_edit?id_language=126&per_page=100&id=409229) (thanks to [Mohammad Mahdi](https://mo-mahdihh.ir/) and Sunnystew)
 * [Polish](https://poeditor.com/projects/po_edit?id_language=127&per_page=100&id=409229) (thanks to Lol1112345.lol12345, Liso, Piter, Oscar, [Marcel Gustin](https://marcelgustin.de), Tofix.rs and KM127PL)
 * [Portugese](https://poeditor.com/projects/po_edit?id_language=128&per_page=100&id=409229) (thanks to Verygafanhot)
 * [Portugese (BR)](https://poeditor.com/projects/po_edit?id_language=190&per_page=100&id=409229) (thanks to viniciotricolor, Slimakoi, Felipe B. Pansani, DeusDrizzyy and Leo)
