@@ -673,6 +673,15 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "اُردُو",
+                    EnglishName = "Urdu",
+                    Code = "ur",
+                    Translators = new Person[] {
+                        new Person { Name = "xq34", Url = "https://github.com/S3ntryPositive" },
+                        new Person { Name = "Muhammad Ali Ashraf" },
+                    }
+                },
+                new Language {
                     Name = "Tiếng Việt",
                     EnglishName = "Vietnamese",
                     Code = "vi",
@@ -756,7 +765,7 @@ namespace CustomRPC
             LanguageProgress["th"] = "100";
             LanguageProgress["tr"] = "100";
             LanguageProgress["uk"] = "100";
-            LanguageProgress["ur"] = "34.34";
+            LanguageProgress["ur"] = "100";
             LanguageProgress["vi"] = "100";
             #endregion
 
