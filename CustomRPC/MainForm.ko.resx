@@ -166,7 +166,7 @@
     <value>GItHub 페이지</value>
   </data>
   <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>번역을 도와준 분들</value>
+    <value>번역을 도와주신 분들</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>더보기...</value>

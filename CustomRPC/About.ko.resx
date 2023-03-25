@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="labelMadeBy.Text" xml:space="preserve">
-    <value>만든이: maximmax42</value>
+    <value>만든 이: maximmax42</value>
   </data>
   <data name="buttonClose.Text" xml:space="preserve">
     <value>닫기</value>
