@@ -290,7 +290,7 @@
     <value>145, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Descargar Actualización</value>
+    <value>Instalar actualización</value>
   </data>
   <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
     <value>182, 456</value>
@@ -302,7 +302,7 @@
     <value>Actualizar Presencia</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Actualiza la Presencia.</value>
+    <value>Actualizar presencia.</value>
   </data>
   <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>234, 50</value>
@@ -311,7 +311,7 @@
     <value>Conectar</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Vincula la aplicación a el ID especificado con la presencia establecida.</value>
+    <value>Vincula la aplicación a la identificación de bots con presencia establecida.</value>
   </data>
   <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>332, 50</value>
@@ -377,7 +377,7 @@
     <value>189, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>Desde que CustomRP se inicio</value>
+    <value>Desde que abrió CustomRP</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
     <value>Muestra el tiempo desde que la aplicación se inicio.</value>

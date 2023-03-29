@@ -121,7 +121,7 @@
     <value>Error</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>ID no especificado!</value>
+    <value>No se encontró ninguna identificación!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
     <value>Ha ocurrido un error durante se descargaba o instalaba una actualización.
