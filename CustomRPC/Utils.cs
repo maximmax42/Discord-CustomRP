@@ -687,6 +687,7 @@ namespace CustomRPC
                     Code = "vi",
                     Translators = new Person[] {
                         Mykm,
+                        new Person { Name = "Nhathungtran2011" },
                         new Person { Name = "Phnthnhnm0612" },
                         new Person { Name = "dsbachle" },
                         new Person { Name = "Ayano" },

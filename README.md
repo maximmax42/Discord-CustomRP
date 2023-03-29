@@ -108,7 +108,7 @@ So far, the app supports these languages:
 * [Turkish](https://poeditor.com/projects/po_edit?id_language=169&per_page=100&id=409229) (thanks to Ozan Akyüz and [josephisticated](https://github.com/josephisticated))
 * [Ukrainian](https://poeditor.com/projects/po_edit?id_language=173&per_page=100&id=409229) (thanks to MechaniX, Dmitromintenko and Desinger)
 * [Urdu](https://poeditor.com/projects/po_edit?id_language=174&per_page=100&id=409229) (thanks to [xq34](https://github.com/S3ntryPositive) and Muhammad Ali Ashraf)
-* [Vietnamese](https://poeditor.com/projects/po_edit?id_language=177&per_page=100&id=409229) (thanks to [Mykm](https://github.com/yumiruuwu), Phnthnhnm0612, dsbachle, Ayano and 03_Trần)
+* [Vietnamese](https://poeditor.com/projects/po_edit?id_language=177&per_page=100&id=409229) (thanks to [Mykm](https://github.com/yumiruuwu), Nhathungtran2011, Phnthnhnm0612, dsbachle, Ayano and 03_Trần)
 
 If you want to help translate the app to your language, please go to the [POEditor project page](https://poeditor.com/join/project?hash=2jq0i7ANr1). **It is advised that you join the Discord server to get notified when new terms are added (link is on top of this readme file).** If you're already part of the project, click on  your language's name.
 

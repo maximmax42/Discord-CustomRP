@@ -179,13 +179,13 @@
     <value>229, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Khởi động cùng Windows</value>
+    <value>Khởi động cùng hệ thống</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Khởi động ứng dụng thu nhỏ</value>
+    <value>Thu nhỏ khi khởi động</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 22</value>
@@ -290,7 +290,7 @@
     <value>143, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tải xuống bản cập nhật</value>
+    <value>Cập nhật</value>
   </data>
   <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
     <value>181, 456</value>
@@ -299,10 +299,10 @@
     <value>125, 24</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Cập nhật hoạt động</value>
+    <value>Cập nhật trạng thái</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Cập nhật hoạt động.</value>
+    <value>Cập nhật trạng thái Discord.</value>
   </data>
   <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>232, 50</value>
@@ -314,7 +314,7 @@
     <value>Kết nối</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Liên kết ứng dụng với ID của ứng dụng từ trang Discord Developers.</value>
+    <value>Liên kết ứng dụng với ID được chỉ định.</value>
   </data>
   <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>332, 50</value>
@@ -326,28 +326,28 @@
     <value>Ngắt kết nối</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Ngắt kết nối ứng dụng khỏi Discord. Hãy ghi nhớ rằng thao tác này cần mất một lúc.</value>
+    <value>Ngắt kết nối ứng dụng khỏi Discord. Thao tác này có thể mất một lúc.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>ID của ứng dụng từ trang Discord Developers.</value>
+    <value>ID ứng dụng của trang Discord Developer Portal.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>Dòng đầu của hoạt động.</value>
+    <value>Dòng đầu trong trạng thái.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>Dòng hai của hoạt động.</value>
+    <value>Dòng hai trong trạng thái.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Tên thiết lập của hình ảnh nhỏ hoặc một URL của hình ảnh.</value>
+    <value>Tên định danh của hình ảnh nhỏ hoặc URL hình ảnh.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>Văn bản hiển thị khi di chuột vào hình ảnh nhỏ.</value>
+    <value>Văn bản được hiển thị khi di chuột vào hình ảnh nhỏ.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>Văn bản hiển thị khi di chuột vào hình ảnh lớn.</value>
+    <value>Văn bản được hiển thị khi di chuột vào hình ảnh lớn.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Tên thiết lập của hình ảnh lớn hoặc một URL của hình ảnh.</value>
+    <value>Tên định danh của hình ảnh lớn hoặc URL hình ảnh.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 14</value>
