@@ -890,7 +890,8 @@ namespace CustomRPC
                     DonationUrl = "https://cdn.discordapp.com/attachments/1028632852969033839/1028632881179922522/unknown.png"
                 },
                 new NonMonetarySupporter {
-                    Name = "Sojpan#0567",
+                    Name = "Sojpan",
+                    Url = "https://twitter.com/Illeg__al",
                     DonationType = "A furry art",
                     DonationUrl = "https://cdn.discordapp.com/attachments/1092251869490978816/1092264289215184978/image.png"
                 },
