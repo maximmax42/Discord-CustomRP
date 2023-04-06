@@ -118,43 +118,43 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>Da click de doua ori pe iconita ca sa o vezi din nou, ori apasa click dreapta sa iesi.</value>
+    <value>Dă click de două ori pe iconiță ca să o vezi din nou, ori apasă click dreapta să ieși.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>Aplicatia va merge in tray icons.</value>
+    <value>Aplicația va merge în tray icons.</value>
   </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
-    <value>Reconecteaza-te</value>
+    <value>Reconectează-te</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
-    <value>Iesi</value>
+    <value>Ieșire</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Fisiere</value>
+    <value>Fișiere</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Incarca configuratia</value>
+    <value>Încarcă configurația</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Salveaza configuratia</value>
+    <value>Salvează configurația</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Incarca bunurile</value>
+    <value>Încarcă bunurile</value>
   </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Iesi</value>
+    <value>Ieșire</value>
   </data>
   <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Setari</value>
+    <value>Setări</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Porneste deodata cu calculatorul</value>
+    <value>Pornește deodată cu calculatorul</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Porneste minimalizat</value>
+    <value>Pornește minimalizat</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Verifica pentru actualizari</value>
+    <value>Verifică pentru actualizări</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>Ajutor</value>
@@ -166,7 +166,7 @@
     <value>Pagina de GitHub</value>
   </data>
   <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Traducatori</value>
+    <value>Traducători</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>Despre...</value>
@@ -202,7 +202,7 @@
     <value>A doua linie în prezență.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Numele materialului pentru imaginea mică sau adresa URL a imagini.</value>
+    <value>Numele materialului pentru imaginea mică sau adresa URL a imaginii.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Text afișat când treceți cu mouse-ul pe imaginea mică.</value>
@@ -217,16 +217,16 @@
     <value>Imaginea mică</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>Imaginea care arată sus în colțul din dreapta jos a imaginii mari.</value>
+    <value>Imaginea care apare în colțul din dreapta jos a imaginii mari.</value>
   </data>
   <data name="labelLarge.Text" xml:space="preserve">
     <value>Imaginea mare</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>Imaginea carea arată stânga de la textul setat de  sus.</value>
+    <value>Imaginea care apare la stânga de la textul setat sus.</value>
   </data>
   <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>Nimica</value>
+    <value>Nimic</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
     <value>Niciun timestamp activat momentan.</value>
@@ -241,7 +241,7 @@
     <value>Timpul tău local</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>Arată timpul tău în fromat 24h.</value>
+    <value>Arată timpul tău în format de 24h.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>Configurați marcajul de timp pentru starea, care apare sub tot textul de mai sus.

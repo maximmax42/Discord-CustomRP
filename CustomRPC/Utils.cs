@@ -335,8 +335,8 @@ namespace CustomRPC
                         new Person { Name = "UncleGeek" },
                         new Person { Name = "Luciousmc" },
                         new Person { Name = "Alvaro203204" },
-                        // new Person { Name = "Epic" }, 0 translations?
                         new Person { Name = "JugandoMiguel", Url = "https://fiverr.com/jugandomiguel" },
+                        new Person { Name = "Epic" }, // 0 translations
                     }
                 },
                 new Language {
@@ -579,8 +579,9 @@ namespace CustomRPC
                     Code = "ro",
                     Translators = new Person[] {
                         new Person { Name = "DiDYRO", Url = "https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w" },
-                        new Person { Name = "Denisbolba" },
+                        new Person { Name = "inter", Url = "https://github.com/Electro7777" },
                         new Person { Name = "KTSGod", Url = "https://ktsgod.carrd.co/" }, // Developer316
+                        new Person { Name = "Denisbolba" },
                         new Person { Name = "Eddie", Url = "https://github.com/EdiRo" },
                         new Person { Name = "veirvn" },
                         Matthww,
@@ -650,7 +651,7 @@ namespace CustomRPC
                         new Person { Name = "YuuabyssSSID" },
                         new Person { Name = "SabbKor" },
                         new Person { Name = "OHMKUB" },
-                        //new Translator { Name = "Game" }, 0 translations currently?
+                        new Person { Name = "Game" }, //0 translations currently
                     }
                 },
                 new Language {
