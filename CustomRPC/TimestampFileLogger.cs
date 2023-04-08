@@ -15,9 +15,11 @@ namespace CustomRPC
         public LogLevel Level { get; set; }
 
         /// <summary>
-        /// File to write the logs to.
+        /// Path for the log files without a trailing backslash.
         /// </summary>
-        public string LogFile { get; set; }
+        public string LogsPath { get; set; }
+
+        private string LogExt = ".log";
 
         private object filelock;
 
@@ -36,9 +38,12 @@ namespace CustomRPC
         public TimestampFileLogger(string path, LogLevel level)
         {
             Level = level;
-            LogFile = path;
+            LogsPath = path;
             filelock = new object();
 
+            Directory.CreateDirectory(path);
+
+            /* Don't need this code right now, but might be useful later
             var fileInfo = new FileInfo(LogFile);
 
             if (fileInfo.Exists && fileInfo.Length >= 5 * 1024 * 1024)
@@ -58,6 +63,7 @@ namespace CustomRPC
                     }
                 }
             }
+            */
         }
 
         /// <summary>
@@ -75,7 +81,7 @@ namespace CustomRPC
             {
                 try
                 {
-                    File.AppendAllText(LogFile, "[" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "] " + logType + ": " + (args.Length > 0 ? string.Format(message, args) : message) + "\r\n");
+                    File.AppendAllText(Path.Combine(LogsPath, DateTime.Now.ToString("yyyy-MM-dd") + LogExt), "[" + DateTime.Now.ToString("HH:mm:ss") + "] " + logType + ": " + (args.Length > 0 ? string.Format(message, args) : message) + "\r\n");
                 }
                 catch { }
             }
@@ -88,7 +94,7 @@ namespace CustomRPC
         /// <param name="args"></param>
         public void Trace(string message, params object[] args)
         {
-            Log("TRCE", LogLevel.Trace, message, args);
+            Log("TRACE", LogLevel.Trace, message, args);
         }
 
         /// <summary>
@@ -98,7 +104,7 @@ namespace CustomRPC
         /// <param name="args"></param>
         public void Info(string message, params object[] args)
         {
-            Log("INFO", LogLevel.Info, message, args);
+            Log(" INFO", LogLevel.Info, message, args);
         }
 
         /// <summary>
@@ -108,7 +114,7 @@ namespace CustomRPC
         /// <param name="args"></param>
         public void Warning(string message, params object[] args)
         {
-            Log("WARN", LogLevel.Warning, message, args);
+            Log(" WARN", LogLevel.Warning, message, args);
         }
 
         /// <summary>
@@ -118,7 +124,7 @@ namespace CustomRPC
         /// <param name="args"></param>
         public void Error(string message, params object[] args)
         {
-            Log(" ERR", LogLevel.Error, message, args);
+            Log("ERROR", LogLevel.Error, message, args);
         }
     }
 }

@@ -584,7 +584,7 @@ namespace CustomRPC
             client.OnError += ClientOnError;
             client.OnConnectionFailed += ClientOnConnFailed;
 
-            client.Logger = new TimestampFileLogger(Application.StartupPath + "\\rpc.log");
+            client.Logger = new TimestampFileLogger(Application.StartupPath + "\\logs");
 
             client.Initialize();
 
