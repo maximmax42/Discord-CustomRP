@@ -93,6 +93,7 @@
     <Compile Include="About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
+    <Compile Include="AppCenterSecret.cs" />
     <Compile Include="ConnectionManager.cs" />
     <Compile Include="Themes.cs" />
     <Compile Include="ErrorReportViewer.cs">

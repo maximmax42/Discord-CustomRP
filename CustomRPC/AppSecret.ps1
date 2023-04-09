@@ -6,14 +6,14 @@ if (-not(Test-Path -Path .appSecret -PathType Leaf)) {
 $appSecret = Get-Content .appSecret
 $execType = $args[0]
 
-$programCs = Get-Content Program.cs -Encoding UTF8 -Raw
+$appCenterSecretCs = Get-Content AppCenterSecret.cs -Encoding UTF8 -Raw
 
 if ($execType -eq "pre") {
-	$programCs = $programCs.replace('{app secret}', $appSecret).replace('// AppCenter.Start', 'AppCenter.Start')
+	$appCenterSecretCs = $appCenterSecretCs.replace('{app secret}', $appSecret)
 }
 
 if ($execType -eq "post") {
-	$programCs = $programCs.replace($appSecret, '{app secret}').replace('AppCenter.Start', '// AppCenter.Start')
+	$appCenterSecretCs = $appCenterSecretCs.replace($appSecret, '{app secret}')
 }
 
-$programCs | Out-File -FilePath .\Program.cs -Encoding UTF8 -NoNewline
+$appCenterSecretCs | Out-File -FilePath .\AppCenterSecret.cs -Encoding UTF8 -NoNewline

@@ -183,7 +183,9 @@ namespace CustomRPC
                 };
 
                 AppCenter.SetCountryCode(RegionInfo.CurrentRegion.TwoLetterISORegionName);
-                // AppCenter.Start("{app secret}", typeof(Analytics), typeof(Crashes));
+                if (AppCenterSecret.Value != "{app secret}") {
+                    AppCenter.Start(AppCenterSecret.Value, typeof(Analytics), typeof(Crashes));
+                }
                 // If you want to enable AppCenter, create a .appSecret file in the CustomRPC\CustomRPC folder
 
                 IntPtr _ = new MainForm(presetFile).Handle; // Terrible, yet allows to fully initialize the form without showing it first
