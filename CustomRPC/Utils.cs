@@ -194,7 +194,7 @@ namespace CustomRPC
 
         // List of people who appear in the lists more than one time
         static Person DarlingChan = new Person { Name = "Darling-Chan", Url = "https://meap.gg/" };
-        static Person dragonGRaf = new Person { Name = "dragon GRaf", Url = "https://linktr.ee/dragongraf" };
+        static Person dragonGRaf = new Person { Name = "dragon GRaf", Url = "https://github.com/dragonGRaf1312/mycustomrichpresence" };
         static Person falcon = new Person { Name = "falcon" };
         static Person GreenRosie = new Person { Name = "GreenRosie", Url = "https://www.twitch.tv/greenrosie" };
         static Person iRetrozx = new Person { Name = "iRetrozx#7283", Url = "https://posted.adalo.com/iretrozx" };
