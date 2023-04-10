@@ -842,10 +842,10 @@ namespace CustomRPC
                     AltAmount: "1949.00 RUB"
                 ),
                 new Supporter {
-                    Name = "DIGITAREZ SPACE",
+                    Name = "DIGITAREZ SPACE", // Josenrique
                     Url = "https://digitarez.space/ref?customrp=default",
-                    USDAmount = "7.84",
-                    AltAmount = "517.00 RUB"
+                    USDAmount = "9.15",
+                    AltAmount = "617.00 RUB"
                 },
                 new Supporter {
                     Name = "YJB",
