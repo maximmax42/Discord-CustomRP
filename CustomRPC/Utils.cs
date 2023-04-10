@@ -271,7 +271,8 @@ namespace CustomRPC
                         new Person { Name = "JayJake", Url = "https://jayjake.eu/" },
                         new Person { Name = "SunightMC" },
                         new Person { Name = "Tobias" }, // ***@***.cz
-                        new Person { Name = "MakoPog" }
+                        new Person { Name = "MakoPog" },
+                        new Person { Name = "Sebastian" },
                     }
                 },
                 new Language {
@@ -736,6 +737,7 @@ namespace CustomRPC
             LanguageProgress["fr"] = "100";
             LanguageProgress["ka"] = "100";
             LanguageProgress["de"] = "100";
+            LanguageProgress["de-at"] = "0";
             LanguageProgress["de-ch"] = "100";
             LanguageProgress["el"] = "100";
             LanguageProgress["he"] = "100";
@@ -751,6 +753,7 @@ namespace CustomRPC
             LanguageProgress["lt"] = "100";
             LanguageProgress["mk"] = "100";
             LanguageProgress["ml"] = "40.4";
+            LanguageProgress["mn"] = "100";
             LanguageProgress["no"] = "98.99";
             LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "100";

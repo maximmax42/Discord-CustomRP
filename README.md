@@ -69,7 +69,7 @@ So far, the app supports these languages:
 * [Chinese (Simplified)](https://poeditor.com/projects/po_edit?id_language=274&per_page=100&id=409229) (thanks to [蘆筍 (aka westxlu)](https://linktr.ee/westxlu), Zjsun.ca and zozocha)
 * [Chinese (Traditional)](https://poeditor.com/projects/po_edit?id_language=275&per_page=100&id=409229) (thanks to [蘆筍 (aka westxlu)](https://linktr.ee/westxlu))
 * [Croatian](https://poeditor.com/projects/po_edit?id_language=37&per_page=100&id=409229) (thanks to Monika and [iRetrozx#7283](https://posted.adalo.com/iretrozx))
-* [Czech](https://poeditor.com/projects/po_edit?id_language=38&per_page=100&id=409229) (thanks to [JayJake](https://jayjake.eu/), SunightMC, Tobias and MakoPog)
+* [Czech](https://poeditor.com/projects/po_edit?id_language=38&per_page=100&id=409229) (thanks to [JayJake](https://jayjake.eu/), SunightMC, Tobias, MakoPog and Sebastian)
 * [Danish](https://poeditor.com/projects/po_edit?id_language=39&per_page=100&id=409229) (thanks to Sebastian Hviid, Tobias, wimblim, David and Johansenbastian6)
 * [Dutch](https://poeditor.com/projects/po_edit?id_language=41&per_page=100&id=409229) (thanks to [Jeremyzijlemans](https://sionteam.com/), Screitsma64, [sys-256](https://sys-256.me/) and DutchSlav)
 * [English](https://poeditor.com/projects/po_edit?id_language=43&per_page=100&id=409229)
