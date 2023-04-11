@@ -882,7 +882,13 @@ namespace CustomRPC
                     Mykm,
                     USDAmount: "1.30",
                     AltAmount: "100.00 RUB"
-                )
+                ),
+                new Supporter {
+                    Name = "BennyKun",
+                    Url = "https://github.com/Benny-Kun",
+                    USDAmount = "6.93",
+                    AltAmount = "0.00023698 BTC"
+                },
             };
 
             NonMonetarySupporters = new List<NonMonetarySupporter>
