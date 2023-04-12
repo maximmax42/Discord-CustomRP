@@ -433,19 +433,19 @@ Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
     <value>Knopf 2</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>Die zweite Knopf, der direkt unter dem ersten Knopf erscheint oder an deren Stelle, wenn die erste nicht gesetzt ist.</value>
+    <value>Die zweite Schaltfläche, die direkt unter der ersten Schaltfläche erscheint oder an deren Stelle, wenn die erste nicht gesetzt ist.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>URL, zu dem der Benutzer weitergeleitet wird nachdem der Knopf gedrückt wird</value>
+    <value>URL, zu dem der Benutzer weitergeleitet wird nachdem der Knopf gedrückt wird.</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>URL, zu dem der Benutzer weitergeleitet wird nachdem der Knopf gedrückt wird</value>
+    <value>URL, zu dem der Benutzer weitergeleitet wird nachdem der Knopf gedrückt wird.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
-    <value>Beschriftung des ersten Knopfs</value>
+    <value>Beschriftung des ersten Knopfs.</value>
   </data>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
-    <value>Beschriftung des zweiten Knopfs</value>
+    <value>Beschriftung des zweiten Knopfs.</value>
   </data>
   <data name="radioButtonPresence.Size" type="System.Drawing.Size, System.Drawing">
     <value>256, 18</value>

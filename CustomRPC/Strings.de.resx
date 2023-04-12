@@ -159,7 +159,7 @@ Du kannst sie jederzeit öffnen, indem du auf Hilfe -&gt; Handbuch öffnen gehst
 Bist du sicher, dass es läuft?</comment>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>Ungültige URL für die Knöpfe angegeben oder der Text ist zu lang!</value>
+    <value>Ungültige URL für die Schaltfläche(n) angegeben oder der Text ist zu lang!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
     <value>Keine Internetverbindung!</value>
@@ -168,18 +168,18 @@ Bist du sicher, dass es läuft?</comment>
     <value>Keine Updates gefunden!</value>
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
-    <value>Einstellungs Datei ist Beschädigt.
-Drücke "Ja" um sie zurückzusetzen oder "Nein" um zu verlassen.</value>
+    <value>Einstellungs-Datei ist beschädigt.
+Drücke "Ja", um sie zurückzusetzen oder "Nein", um das Programm zu beenden.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Das importieren des Presets ist fehlgeschlagen; die Datei ist entweder fehlerhaft, fehlt oder nicht korrekt formatiert.</value>
+    <value>Das importieren des Presets ist fehlgeschlagen; die Datei ist entweder fehlerhaft, fehlt oder ist nicht korrekt formatiert.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>Erlaubst du CustomRP deine Benutzungs Analyse and den Entwickler zu senden?
-(Alle daten sind nicht Personalisiert.)</value>
+    <value>Erlaubst du CustomRP deine Benutzeranalyse an den Entwickler zu senden?
+(Alle Daten sind anonymisiert.)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
-    <value>Ein Fehler ist aufgetreten während dem Speichern der Einstellungen:</value>
+    <value>Ein Fehler ist während dem Speichern der Einstellungen aufgetreten:</value>
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Bitte füge "{0}" Pfad als Ausnahme zu deinem Antivirus-Programm hinzu. Installiere CustomRP neu, falls das Problem weiterhin besteht.</value>

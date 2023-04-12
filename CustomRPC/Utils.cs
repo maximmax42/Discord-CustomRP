@@ -293,13 +293,14 @@ namespace CustomRPC
                     Code = "de",
                     Translators = new Person[] {
                         new Person { Name = "Ypsol", Url = "https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA" },
-                        new Person { Name = "ahmad" },
                         MarcelGustin,
-                        Yoshi,
+                        new Person { Name = "ahmad" },
                         new Person { Name = "binarynoise" },
+                        new Person { Name = "Revax812" },
+                        Yoshi,
                         new Person { Name = "Felix", Url = "https://github.com/fbrettnich" },
-                        new Person { Name = "Tom" },
                         iRetrozx,
+                        new Person { Name = "Tom" },
                     }
                 },
                 new Language {
