@@ -199,6 +199,9 @@
     <EmbeddedResource Include="About.id.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="About.is.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="About.it.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -360,6 +363,9 @@
     <EmbeddedResource Include="ErrorReportViewer.id.resx">
       <DependentUpon>ErrorReportViewer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ErrorReportViewer.is.resx">
+      <DependentUpon>ErrorReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ErrorReportViewer.it.resx">
       <DependentUpon>ErrorReportViewer.cs</DependentUpon>
     </EmbeddedResource>
@@ -503,6 +509,9 @@
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.id.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.is.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.ja.resx">
@@ -734,6 +743,10 @@
       <DependentUpon>Strings.resx</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Strings.is.resx">
+      <DependentUpon>Strings.resx</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Strings.it.resx">
       <DependentUpon>Strings.resx</DependentUpon>
       <SubType>Designer</SubType>
@@ -919,6 +932,9 @@
       <DependentUpon>UpdatePrompt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdatePrompt.id.resx">
+      <DependentUpon>UpdatePrompt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdatePrompt.is.resx">
       <DependentUpon>UpdatePrompt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdatePrompt.it.resx">

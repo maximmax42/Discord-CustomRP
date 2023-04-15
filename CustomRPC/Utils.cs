@@ -201,6 +201,7 @@ namespace CustomRPC
         static Person Julian = new Person { Name = "Julian", Url = "https://discord.com/oauth2/authorize?client_id=962323485772881950&scope=bot&permissions=8" };
         static Person MarcelGustin = new Person { Name = "Marcel Gustin", Url = "https://marcelgustin.de" };
         static Person Matthww = new Person { Name = "Matthww" };
+        static Person Meelis = new Person { Name = "Meelis" };
         static Person Mykm = new Person { Name = "Mykm", Url = "https://github.com/yumiruuwu" };
         static Person TofixRs = new Person { Name = "Tofix.rs" };
         static Person Yoshi = new Person { Name = "Yoshi" };
@@ -347,7 +348,7 @@ namespace CustomRPC
                     Code = "et",
                     Translators = new Person[] {
                         new Person { Name = "z1", Url = "https://github.com/Erkkii" },
-                        new Person { Name = "Meelis" },
+                        Meelis,
                     }
                 },
                 new Language {
@@ -438,6 +439,16 @@ namespace CustomRPC
                         new Person { Name = "Apolycious" },
                         new Person { Name = "Bayu Sopwan", Url = "https://bayusopwan.github.io/" },
                         new Person { Name = "xChellz" },
+                    }
+                },
+                new Language {
+                    Name = "Íslenska",
+                    EnglishName = "Icelandic",
+                    Code = "is",
+                    Translators = new Person[] {
+                        new Person { Name = "phoenix" },
+                        Meelis,
+                        new Person { Name = "Amr Ezzat" },
                     }
                 },
                 new Language {
@@ -744,7 +755,7 @@ namespace CustomRPC
             LanguageProgress["he"] = "100";
             LanguageProgress["hi"] = "98.99";
             LanguageProgress["hu"] = "100";
-            LanguageProgress["is"] = "11.11";
+            LanguageProgress["is"] = "100";
             LanguageProgress["id"] = "100";
             LanguageProgress["it"] = "100";
             LanguageProgress["ja"] = "100";
