@@ -290,7 +290,7 @@
     <value>143, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Cập nhật</value>
+    <value>Tải xuống bản cập nhật</value>
   </data>
   <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
     <value>181, 456</value>
@@ -302,7 +302,7 @@
     <value>Cập nhật trạng thái</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Cập nhật trạng thái Discord.</value>
+    <value>Cập nhật trạng thái.</value>
   </data>
   <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>232, 50</value>
@@ -314,7 +314,7 @@
     <value>Kết nối</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Liên kết ứng dụng với ID được chỉ định.</value>
+    <value>Liên kết ứng dụng với ID của trạng thái được chỉ định.</value>
   </data>
   <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>332, 50</value>
@@ -329,7 +329,7 @@
     <value>Ngắt kết nối ứng dụng khỏi Discord. Thao tác này có thể mất một lúc.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>ID ứng dụng của trang Discord Developer Portal.</value>
+    <value>ID ứng dụng từ trang Discord Developer Portal.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
     <value>Dòng đầu trong trạng thái.</value>
