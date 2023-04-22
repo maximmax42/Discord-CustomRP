@@ -393,6 +393,14 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Galego",
+                    EnglishName = "Galician",
+                    Code = "gl",
+                    Translators = new Person[] {
+                        new Person { Name = "Unknown" },
+                    }
+                },
+                new Language {
                     Name = "עברית",
                     EnglishName = "Hebrew",
                     Code = "he",
@@ -748,6 +756,7 @@ namespace CustomRPC
             LanguageProgress["fil"] = "100";
             LanguageProgress["fi"] = "100";
             LanguageProgress["fr"] = "100";
+            LanguageProgress["gl"] = "100";
             LanguageProgress["ka"] = "100";
             LanguageProgress["de"] = "100";
             LanguageProgress["de-at"] = "0";
