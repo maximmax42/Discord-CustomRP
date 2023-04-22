@@ -427,7 +427,7 @@ Para que tome efecto, ambos campos deben ser mayores que 0.</value>
     <value>El segundo de los dos botones que aparecen debajo de tu estado en la ventana de tu perfil y en lado derecho del perfil completo.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>URL al cual el usuario será dirigido al dar click al botón.</value>
+    <value>La URL del botón llevará al usuario al hacer clic.</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
     <value>URL al cual el usuario será dirigido al dar click al botón.</value>
