@@ -276,7 +276,7 @@
     <value>按鈕二顯示的文字。</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
-    <value>於</value>
+    <value>之</value>
   </data>
   <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
     <value>預設</value>
