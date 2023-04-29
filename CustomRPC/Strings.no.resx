@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="error" xml:space="preserve">
-    <value>Feil</value>
+    <value>Feilmelding</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
     <value>Ingen ID spesifisert!</value>
@@ -132,25 +132,25 @@ Trykk "Ja" for å prøve på nytt eller "Nei" for å laste ned manuelt.</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Ønsker du å åpne manualen?
-Du kan åpne den nårsomhelst ved å gå på Hjelp -&gt; Åpne manualen eller ved å trykke på F1.</value>
+Du kan åpne den når som helst ved å gå til Hjelp -&gt; Åpne manualen eller ved å trykke på F1.</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>Informasjon</value>
   </data>
   <data name="statusConnected" xml:space="preserve">
-    <value>Koblet til</value>
+    <value>Tilkoblet</value>
   </data>
   <data name="statusConnecting" xml:space="preserve">
-    <value>Kobler til...</value>
+    <value>Tilkobler...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Tilkobling mislyktes (Kjører Discord?)</value>
+    <value>Tilkobling mislyktes (Er Discord åpent?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
-    <value>Koblet fra</value>
+    <value>Frakoblet</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>Tilkoblings feil (Feil ID?)</value>
+    <value>Tilkoblings error (Feil ID?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
     <value>Ugyldig URL spesifisert på knapp(ene) eller teksten er for lang!</value>
@@ -166,7 +166,7 @@ Du kan åpne den nårsomhelst ved å gå på Hjelp -&gt; Åpne manualen eller ve
 Klikk Ja for å nullstille innstillinger, klikk Nei for å lukke.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Mislyktes å laste inn innstillinger; filen manger, korrupt, eller er feil konfigurert.</value>
+    <value>Mislyktes å laste inn innstillinger; filen er ikke funnet, korrupt, eller er feil konfigurert.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
     <value>Tillater du CustomRP å sende din data til utviklerene?
@@ -176,9 +176,12 @@ Klikk Ja for å nullstille innstillinger, klikk Nei for å lukke.</value>
     <value>En feil oppsto mens lagring av innstillinger:</value>
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>Vennligst legg til "{0}" i stien på antivirus hvitelisten. Reinstaller CustomRP hvis denne feilen vedvarer.</value>
+    <value>Vennligst legg til "{0}" i filbanen på antivirus hvitelisten. Reinstaller CustomRP hvis denne feilen vedvarer.</value>
   </data>
   <data name="errorInvalidImageURL" xml:space="preserve">
-    <value>Bilde URL er for lang!</value>
+    <value>Bilde URL'en er for lang!</value>
+  </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Kunne ikke lage eller slette en oppstarts snarvei:</value>
   </data>
 </root>

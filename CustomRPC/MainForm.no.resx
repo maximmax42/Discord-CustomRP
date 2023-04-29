@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>Dobbel klikk på ikonet for å vise igjen, eller høyre-klikk for å lukke.</value>
+    <value>Dobbel-klikk på ikonet for å vise igjen, eller høyre-klikk for å lukke programmet.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
     <value>Denne applikasjonen vil fortsette å kjøre i bakgrunnen.</value>
@@ -161,34 +161,34 @@
     <value>Fil</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 22</value>
+    <value>240, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Last inn innstillinger</value>
+    <value>Last forhåndsinnstilling</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 22</value>
+    <value>240, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Lagre innstillinger</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 6</value>
+    <value>237, 6</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 22</value>
+    <value>240, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>laste opp eiendeler</value>
+    <value>Last opp filer</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 6</value>
+    <value>237, 6</value>
   </data>
   <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 22</value>
+    <value>240, 22</value>
   </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Lukk</value>
+    <value>Avslutt</value>
   </data>
   <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 20</value>
@@ -197,52 +197,52 @@
     <value>Innstillinger</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 22</value>
+    <value>208, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
     <value>Kjør ved oppstart</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 22</value>
+    <value>208, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
     <value>Start minimert</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 22</value>
+    <value>208, 22</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>Autotilkobling</value>
   </data>
   <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 6</value>
+    <value>205, 6</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 22</value>
+    <value>208, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sjekk etter oppdateringer</value>
+    <value>Sjekk etter Oppdateringer</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 22</value>
+    <value>208, 22</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
     <value>Tilatt analyser</value>
   </data>
   <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 6</value>
+    <value>205, 6</value>
   </data>
   <data name="darkModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 22</value>
+    <value>208, 22</value>
   </data>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>Mørk modus</value>
   </data>
   <data name="toolStripSeparatorSettings3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 6</value>
+    <value>205, 6</value>
   </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 22</value>
+    <value>208, 22</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>Språk</value>
@@ -269,13 +269,13 @@
     <value>215, 22</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>Åpne manualen</value>
+    <value>Åpne Manualen</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>215, 22</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>GitHub side</value>
+    <value>GitHub Side</value>
   </data>
   <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
     <value>212, 6</value>
@@ -284,13 +284,13 @@
     <value>215, 22</value>
   </data>
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
-    <value>Supportere</value>
+    <value>Støttere</value>
   </data>
   <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>215, 22</value>
   </data>
   <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Transelatorer</value>
+    <value>Oversettelsere</value>
   </data>
   <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
     <value>212, 6</value>
@@ -308,46 +308,40 @@
     <value>Om...</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 20</value>
+    <value>133, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Last ned oppdatering</value>
-  </data>
-  <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
-    <value>167, 456</value>
-  </data>
-  <data name="buttonUpdatePresence.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 24</value>
+    <value>Last ned Oppdatering</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Oppdater tilstedeværelse</value>
+    <value>Oppdater Status</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Oppdaterer tilstedeværelsen.</value>
+    <value>Oppdaterer statusen din.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
-    <value>Koble til</value>
+    <value>Tilkoble</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Lenker applikasjonen til den spesifiserte IDen med nåværende tilstedeværelse.</value>
+    <value>Lenker applikasjonen til den spesifiserte IDen med nåværende status.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
-    <value>Koble fra</value>
+    <value>Frakoble</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Koble fra Discord. Det kan ta litt tid.</value>
+    <value>Frakobler appen fra Discord. Husk at dette kan ta litt tid.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>ID fra applikasjonen fra Discord Developers siden.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>Første linje i tilstedeværelsen.</value>
+    <value>Første linje i statusen.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>Andre linje i tilstedeværelsen.</value>
+    <value>Andre linje i statusen.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Navn av eiendel på lite bilde eller en bilde URL.</value>
+    <value>Navn av filen på lite bilde eller en bilde URL.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Tekst som vises når du holder over det lille bilde.</value>
@@ -362,7 +356,7 @@
     <value>56, 14</value>
   </data>
   <data name="labelSmall.Text" xml:space="preserve">
-    <value>Lite bilde</value>
+    <value>Lite Bilde</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
     <value>Bilde som viser nede i høyre hjørne av det store bilde.</value>
@@ -371,7 +365,7 @@
     <value>64, 14</value>
   </data>
   <data name="labelLarge.Text" xml:space="preserve">
-    <value>Stort bilde</value>
+    <value>Stort Bilde</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
     <value>Bilde som vises til venstre av teksten satt over.</value>
@@ -405,11 +399,11 @@
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>Setter opp tidsstempel for statusen, som viser opp under all tekst over.
-Status tidtaker har 24 timers limit, som betyr at etter 24 timer så går den tilbake til 0:00.</value>
+Status tidtaker har 24 timers grense, som betyr at etter 24 timer så går den tilbake til 0:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>Antall spillere i nåværende party som vises vedsiden av State felt.
-For å tre i kraft, så må begge feltene være mer en 0.</value>
+    <value>Antall spillere i nåværende "party" som vises vedsiden av State felt.
+For å aktivere, så må begge feltene være mer en 0.</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
     <value>138, 18</value>
@@ -451,13 +445,13 @@ For å tre i kraft, så må begge feltene være mer en 0.</value>
     <value>Merkelapp av knapp to.</value>
   </data>
   <data name="radioButtonPresence.Size" type="System.Drawing.Size, System.Drawing">
-    <value>234, 18</value>
+    <value>190, 18</value>
   </data>
   <data name="radioButtonPresence.Text" xml:space="preserve">
-    <value>Siden site tilstedeværelse oppdatering</value>
+    <value>Siden siste status oppdatering</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
-    <value>Viser lang tid som har passert siden sist tilkobling eller oppdatering på tilstedeværelsen.</value>
+    <value>Viser hvor lang tid som har passert siden sist tilkobling eller oppdatering på status.</value>
   </data>
   <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
     <value>19, 14</value>

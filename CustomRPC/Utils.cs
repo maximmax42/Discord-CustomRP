@@ -558,6 +558,7 @@ namespace CustomRPC
                     Code = "no",
                     Translators = new Person[] {
                         new Person { Name = "Sveinung" },
+                        new Person { Name = "Seth" },
                     }
                 },
                 new Language {
