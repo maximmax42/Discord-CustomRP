@@ -152,7 +152,7 @@
     <value>222, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Upload Filer</value>
+    <value>Upload Aktiver</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>219, 6</value>
@@ -173,19 +173,19 @@
     <value>192, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Kør ved opstart</value>
+    <value>Kør ved Opstart</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>192, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Start minimeret</value>
+    <value>Start Minimeret</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>192, 22</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>Forbind Automatisk</value>
+    <value>Automatisk tilslutning</value>
   </data>
   <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
     <value>189, 6</value>
@@ -194,13 +194,13 @@
     <value>192, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Søg efter opdateringer</value>
+    <value>Søg efter Opdateringer</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>192, 22</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tillad analyse</value>
+    <value>Tillad Analyser</value>
   </data>
   <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
     <value>189, 6</value>
@@ -209,7 +209,7 @@
     <value>192, 22</value>
   </data>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Mørk tilstand</value>
+    <value>Mørk Tilstand</value>
   </data>
   <data name="toolStripSeparatorSettings3.Size" type="System.Drawing.Size, System.Drawing">
     <value>189, 6</value>
@@ -299,7 +299,7 @@
     <value>115, 24</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Opdater presence</value>
+    <value>Opdater Presence</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
     <value>Opdaterer presence.</value>
@@ -308,16 +308,16 @@
     <value>Forbind</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Linker applikationen til det specifikke ID med sat presence.</value>
+    <value>Knytter applikationen til det specifikke ID med indstillet presence.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
     <value>Afbryd</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Kobler appen fra Discord. Bemærk, at det kan tage et stykke tid.</value>
+    <value>Afbryder forbindelsen mellem appen og Discord. Bemærk, at det kan tage et stykke tid.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>ID for applikationen fra Discord Udvikler -Hjemmeside.</value>
+    <value>ID fra applikationen på Discord Developers hjemmesiden.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
     <value>Første linje i presence.</value>
@@ -326,7 +326,7 @@
     <value>Anden linje i presence.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Navn på et lille billede eller billedets web-adresse</value>
+    <value>Navnet på aktivet for det lille billede eller en billed-URL.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Tekst vist når musen er over det lille billede.</value>
@@ -335,7 +335,7 @@
     <value>Tekst vist når musen er over det store billede.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Navn på et stort billede eller billedets web-adresse</value>
+    <value>Navnet på aktivet for det store billede eller en billed-URL.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 14</value>
@@ -344,7 +344,7 @@
     <value>Lille Billede</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>Billede som vises i nederste højre hjørne af det store billede.</value>
+    <value>Billedet, som vises i nederste højre hjørne af det store billede.</value>
   </data>
   <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
     <value>73, 14</value>
@@ -353,7 +353,7 @@
     <value>Stort Billede</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>Billede som vises til venstre af teksten som er sat øverst.</value>
+    <value>Billedet, som vises til venstre af teksten som er sat øverst.</value>
   </data>
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 18</value>
@@ -371,7 +371,7 @@
     <value>Siden CustomRP er startet</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>Viser tiden siden app er starten.</value>
+    <value>Viser tiden, siden appen blev startet.</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>94, 18</value>
@@ -380,14 +380,14 @@
     <value>Din lokale tid</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>Viser din nuværende tid i 24-timers format.</value>
+    <value>Viser din aktuelle tid i 24-timers format.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Laver timestamp for din status, som viser sig under teksten øverst.
-Status timer har 24 timers grænse, hvilket betyder at efter 24 timer, vil den nulstille til 0:00.</value>
+    <value>Indstiller tidsstempel for status, som vises under al ovenstående tekst.
+Statustimere har en 24 timers grænse, hvilket betyder at efter 24 timer vil tiden gå tilbage til 0:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>Mængden af spillere i din forsamling som vises ved siden af State field.
+    <value>Antallet af spillere i det nuværende Party, der vises ved siden af State feltet.
 For at virke, skal begge felter være mere end 0.</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
@@ -397,7 +397,7 @@ For at virke, skal begge felter være mere end 0.</value>
     <value>Tilpasset tidsstempel</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
-    <value>Viser hvor lang tid er gået eller hvor lang tid der er tilbage af datoen sat under.</value>
+    <value>Viser, hvor lang tid der er gået siden eller hvor lang tid der er tilbage til den nedenfor angivne dato.</value>
   </data>
   <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>45, 14</value>
@@ -406,7 +406,7 @@ For at virke, skal begge felter være mere end 0.</value>
     <value>Knap 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>Første 2 knapper som vises under din status i din profil popup og på højre side på din fulde profil.</value>
+    <value>Den første af de to knapper, der vises under din status i din popup-profil og i højre side i den fulde profil.</value>
   </data>
   <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>45, 14</value>
@@ -415,13 +415,13 @@ For at virke, skal begge felter være mere end 0.</value>
     <value>Knap 2</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>Anden knap som vises lige under den første knap, eller hvis den først ikke er sat op.</value>
+    <value>Anden knap, som vises lige under den første knap, eller i stedet for den, hvis den første knap ikke er indstillet.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>URL som knappen tager brugeren til ved et klik.</value>
+    <value>URL-adresse, som knappen fører brugeren til, når der klikkes på den.</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>URL som knappen tager brugeren til ved et klik.</value>
+    <value>URL-adresse, som knappen fører brugeren til, når der klikkes på den.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
     <value>Tekst på den første knap.</value>
@@ -436,12 +436,12 @@ For at virke, skal begge felter være mere end 0.</value>
     <value>Siden sidste presence opdatering</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
-    <value>Viser hvor lang tid der er gået siden du tilsluttede eller opdaterede presence.</value>
+    <value>Viser, hvor lang tid der er gået, siden du sidst oprettede forbindelse eller opdaterede presence.</value>
   </data>
   <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
     <value>19, 14</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
-    <value>Af</value>
+    <value>af</value>
   </data>
 </root>

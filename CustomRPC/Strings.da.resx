@@ -121,18 +121,18 @@
     <value>Fejl</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>Ingen ID valgt!</value>
+    <value>Der er ikke angivet noget ID!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
-    <value>Der var en fejl under download, eller installering af en opdatering.
-Tryk "Ja" for at prøve igen, ellers tryk "Nej" for at hente manuelt.</value>
+    <value>Der var en fejl ved download eller installation af en opdatering.
+Tryk på "Ja" for at prøve igen eller "Nej" for at downloade manuelt.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Første gang kørt</value>
+    <value>Første Gang Kørt</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
-    <value>Vil du åbne en manual?
-Du kan åben den til enhver tid ved at trykke på Hjælp -&gt; Åben Manual eller ved at trykke F1.</value>
+    <value>Vil du åbne manualen?
+Du kan åbne den når som helst ved at gå til Hjælp -&gt; Åbn manualen eller ved at trykke på F1.</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>Information</value>
@@ -153,32 +153,35 @@ Du kan åben den til enhver tid ved at trykke på Hjælp -&gt; Åben Manual elle
     <value>Forbindelses Fejl (Forkert ID?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>Ugyldig URL tildelt en eller flere knapper, eller teksten er for lang!</value>
+    <value>Der er angivet en ugyldig URL for knappen(e), eller teksten er for lang!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
-    <value>Kan ikke forbinde til internettet!</value>
+    <value>Kan ikke oprette forbindelse til internettet!</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
     <value>Ingen opdateringer fundet!</value>
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
-    <value>Indstillings filen er korrupt.
-Tryk Ja for at nulstille den, tryk Nej for at afslutte.</value>
+    <value>Indstillingsfilen er korrupteret.
+Tryk på Ja for at nulstille indstillingerne, og tryk på Nej for at afslutte.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Indlæsning af forindstilling fejlet; filen er enten manglende, korrupt eller fejl formateret.</value>
+    <value>Indlæsning af forindstilling fejlet; filen mangler, korrupteret eller er ikke formateret korrekt.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
     <value>Vil du tillade CustomRP at sende forbrugs analyser til udvikleren?
 (Alt data er ikke forbundet til dig som bruger.)</value>
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>Tilføj venligst "{0}"-stien til dit antivirus-undtagelser. Geninstaller CustomRP, hvis denne fejl fortsætter.</value>
+    <value>Tilføj venligst "{0}" stien til dit antivirus-undtagelser. Geninstaller CustomRP, hvis denne fejl fortsætter.</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
-    <value>Der opstod et problem i forsøget på at gemme:</value>
+    <value>Der opstod en fejl under gemning af indstillingerne:</value>
   </data>
   <data name="errorInvalidImageURL" xml:space="preserve">
-    <value>Billed url er for langt!</value>
+    <value>Billedets URL er for lang!</value>
+  </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Det er ikke lykkedes at tilføje eller fjerne en genvej til opstart:</value>
   </data>
 </root>

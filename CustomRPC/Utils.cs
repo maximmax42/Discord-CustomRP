@@ -282,11 +282,12 @@ namespace CustomRPC
                     EnglishName = "Danish",
                     Code = "da",
                     Translators = new Person[] {
+                        new Person { Name = "Codiaz", Url = "https://codiaz.com/" },
                         new Person { Name = "Sebastian Hviid" },
                         new Person { Name = "Tobias" }, // ***@gmail.com
                         new Person { Name = "wimblim" },
-                        new Person { Name = "David" },
-                        new Person { Name = "Johansenbastian6" },
+                        new Person { Name = "David" }, // 0 translations
+                        new Person { Name = "Johansenbastian6" }, // also 0
                     }
                 },
                 new Language {

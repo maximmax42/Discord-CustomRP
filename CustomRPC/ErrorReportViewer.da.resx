@@ -124,6 +124,6 @@
     <value>OK</value>
   </data>
   <data name="labelInfo.Text" xml:space="preserve">
-    <value>CustomRP har brudt været brudt ned sidste session pga. følgende fejl:</value>
+    <value>CustomRP er crashet i den foregående session på grund af følgende ubehandlede undtagelse:</value>
   </data>
 </root>
