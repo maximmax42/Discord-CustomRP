@@ -146,7 +146,8 @@ namespace CustomRPC
                 // Analytics and crashes
                 Crashes.ShouldProcessErrorReport = (ErrorReport report) =>
                 {
-                    if (report.StackTrace.StartsWith("Microsoft.AppCenter.Crashes.TestCrashException"))
+                    if (report.StackTrace.StartsWith("Microsoft.AppCenter.Crashes.TestCrashException") ||
+                    report.StackTrace.StartsWith("System.OutOfMemoryException"))
                         return false;
 
                     return true;
