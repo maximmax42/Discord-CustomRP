@@ -744,6 +744,12 @@ namespace CustomRPC
 
             buttonsList.Clear();
 
+            if (!settings.button1URL.Contains("://"))
+                settings.button1URL = ("https://" + settings.button1URL).Substring(0, Math.Min(textBoxButton1URL.MaxLength, settings.button1URL.Length));
+
+            if (!settings.button2URL.Contains("://"))
+                settings.button2URL = ("https://" + settings.button2URL).Substring(0, Math.Min(textBoxButton2URL.MaxLength, settings.button2URL.Length));
+
             try
             {
                 if (Uri.TryCreate(settings.button1URL, UriKind.Absolute, out tempUri))
