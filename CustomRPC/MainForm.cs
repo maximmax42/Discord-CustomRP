@@ -687,7 +687,7 @@ namespace CustomRPC
             }
 
             if (settings.partySize > settings.partyMax)
-                numericUpDownPartyMax.Value = settings.partySize;
+                settings.partyMax = settings.partySize;
 
             settings.smallKey = settings.smallKey.Trim();
             settings.largeKey = settings.largeKey.Trim();
