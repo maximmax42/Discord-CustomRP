@@ -198,7 +198,7 @@ namespace CustomRPC
         static Person falcon = new Person { Name = "falcon" };
         static Person GreenRosie = new Person { Name = "GreenRosie", Url = "https://www.twitch.tv/greenrosie" };
         static Person iRetrozx = new Person { Name = "iRetrozx#7283", Url = "https://posted.adalo.com/iretrozx" };
-        static Person Julian = new Person { Name = "Julian", Url = "https://discord.com/oauth2/authorize?client_id=962323485772881950&scope=bot&permissions=8" };
+        static Person Julian = new Person { Name = "Julian", Url = "https://julian-idl.codes/" };
         static Person MarcelGustin = new Person { Name = "Marcel Gustin", Url = "https://marcelgustin.de" };
         static Person Matthww = new Person { Name = "Matthww" };
         static Person Meelis = new Person { Name = "Meelis" };
