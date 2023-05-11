@@ -200,7 +200,7 @@
     <value>255, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>স্টার্টআপ চালানো</value>
+    <value>স্টার্টআপ থেকে চালানো</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>255, 22</value>
@@ -296,7 +296,7 @@
     <value>270, 22</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>এবাউট...</value>
+    <value>সম্পর্কে...</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 20</value>
@@ -368,7 +368,7 @@
     <value>কোনোটিই নয়</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>কোনো টাইমস্ট্যাম্প সক্ষম করা নেই৷</value>
+    <value>কোনো টাইমস্ট্যাম্প চালু করা নেই৷</value>
   </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 18</value>

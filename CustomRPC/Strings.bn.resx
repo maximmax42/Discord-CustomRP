@@ -178,4 +178,10 @@
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>অনুগ্রহ করে আপনার অ্যান্টিভাইরাসের ব্যতিক্রমগুলিতে "{0}" পাথ যোগ করুন। এই ত্রুটি অব্যাহত থাকলে CustomRP পুনরায় ইনস্টল করুন।</value>
   </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>ছবির URL অনেক বড়!</value>
+  </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>স্টার্টআপ শর্টকাট যোগ করতে বা সরাতে ব্যর্থ হয়েছে:</value>
+  </data>
 </root>

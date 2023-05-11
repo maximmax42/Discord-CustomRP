@@ -245,6 +245,7 @@ namespace CustomRPC
                     Code = "bn",
                     Translators = new Person[] {
                         new Person { Name = "mrimran", Url = "https://github.com/mr-Imran" },
+                        new Person { Name = "BlackBox-cmd" },
                     }
                 },
                 new Language {
@@ -743,7 +744,7 @@ namespace CustomRPC
             #region Generated code for progress
             LanguageProgress["ar"] = "100";
             LanguageProgress["be"] = "100";
-            LanguageProgress["bn"] = "97.98";
+            LanguageProgress["bn"] = "100";
             LanguageProgress["bs"] = "100";
             LanguageProgress["bg"] = "100";
             LanguageProgress["my"] = "94.95";
@@ -752,7 +753,7 @@ namespace CustomRPC
             LanguageProgress["zh-hant"] = "100";
             LanguageProgress["hr"] = "100";
             LanguageProgress["cs"] = "100";
-            LanguageProgress["da"] = "98.99";
+            LanguageProgress["da"] = "100";
             LanguageProgress["nl"] = "100";
             LanguageProgress["et"] = "100";
             LanguageProgress["fil"] = "100";
@@ -778,7 +779,7 @@ namespace CustomRPC
             LanguageProgress["mk"] = "100";
             LanguageProgress["ml"] = "40.4";
             LanguageProgress["mn"] = "100";
-            LanguageProgress["no"] = "98.99";
+            LanguageProgress["no"] = "100";
             LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "100";
             LanguageProgress["pt"] = "100";
