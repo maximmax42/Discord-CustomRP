@@ -31,6 +31,7 @@ Custom Discord Rich Presence Manager for Windows 7+. Some of its features are ru
 * Death - $1.93 (142.00 RUB)
 * Jan - $1.49 (100.00 RUB)
 * [Mykm](https://github.com/yumiruuwu) - $1.30 (100.00 RUB)
+* [ZeroTheHero](https://e-z.bio/zero) - $1.29 (100.00 RUB)
 * CJPro25 - $0.91 (63.00 RUB)
 * [YJB](https://owo.yjb.gay/) - $0.69 (41.00 RUB)
 * Tofix.rs - $0.45 (1.00 BAT)

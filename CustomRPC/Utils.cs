@@ -914,6 +914,12 @@ namespace CustomRPC
                     USDAmount = "6.93",
                     AltAmount = "0.00023698 BTC"
                 },
+                new Supporter {
+                    Name = "ZeroTheHero",
+                    Url = "https://e-z.bio/zero",
+                    USDAmount = "1.29",
+                    AltAmount = "100.00 RUB"
+                },
             };
 
             NonMonetarySupporters = new List<NonMonetarySupporter>
