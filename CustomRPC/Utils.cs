@@ -920,6 +920,12 @@ namespace CustomRPC
                     USDAmount = "1.29",
                     AltAmount = "100.00 RUB"
                 },
+                new Supporter {
+                    Name = "Maracesh",
+                    Url = "https://lnk.bio/maracesh",
+                    USDAmount = "1.32",
+                    AltAmount = "100.00 RUB"
+                },
             };
 
             NonMonetarySupporters = new List<NonMonetarySupporter>
