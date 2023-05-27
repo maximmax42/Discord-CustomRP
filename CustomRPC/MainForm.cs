@@ -583,6 +583,7 @@ namespace CustomRPC
             client.OnPresenceUpdate += ClientOnPresenceUpdate;
             client.OnError += ClientOnError;
             client.OnConnectionFailed += ClientOnConnFailed;
+            client.OnReady += ClientOnReady;
 
             client.Logger = new TimestampFileLogger(Application.StartupPath + "\\logs");
 
@@ -660,6 +661,18 @@ namespace CustomRPC
                 Analytics.TrackEvent("Connection failed");
 
             restartTimer.Start();
+        }
+
+        /// <summary>
+        /// Will be called as soon as CustomRP connects to Discord.
+        /// </summary>
+        private void ClientOnReady(object sender, DiscordRPC.Message.ReadyMessage args)
+        {
+            Invoke(new MethodInvoker(() =>
+            {
+                Text = $"{res.GetString("$this.Text")} ({client.CurrentUser})";
+                trayIcon.Text = $"{res.GetString("trayIcon.Text")}\n{client.CurrentUser}";
+            }));
         }
 
         /// <summary>
@@ -1304,6 +1317,8 @@ namespace CustomRPC
             buttonUpdatePresence.Enabled = false;
             textBoxID.ReadOnly = false;
             toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
+            Text = res.GetString("$this.Text");
+            trayIcon.Text = res.GetString("trayIcon.Text");
 
             textBoxID.BackColor = CurrentColors.BgTextFields;
             ConnectionManager.State = ConnectionType.Disconnected;
