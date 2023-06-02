@@ -14,6 +14,7 @@ Custom Discord Rich Presence Manager for Windows 7+. Some of its features are ru
 
 ## Supporters
 
+* Crohnus1965 - $75.00 (5922.75 RUB)
 * kiwi - $50.69 (50.00 EUR)
 * [dragon GRaf](https://github.com/dragonGRaf1312/mycustomrichpresence) - $30.00 (1949.00 RUB)
 * [Grim](https://www.savethekiwi.nz/) - $25.00 (0.0008328 BTC)

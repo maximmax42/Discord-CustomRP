@@ -926,6 +926,11 @@ namespace CustomRPC
                     USDAmount = "1.32",
                     AltAmount = "100.00 RUB"
                 },
+                new Supporter {
+                    Name = "Crohnus1965",
+                    USDAmount = "75.00",
+                    AltAmount = "5922.75 RUB"
+                },
             };
 
             NonMonetarySupporters = new List<NonMonetarySupporter>
