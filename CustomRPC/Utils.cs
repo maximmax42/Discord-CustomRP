@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DiscordRPC;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
@@ -46,6 +47,22 @@ namespace CustomRPC
         private static bool IsWindows10OrGreater(int build = -1)
         {
             return Environment.OSVersion.Version.Major >= 10 && Environment.OSVersion.Version.Build >= build;
+        }
+    }
+
+    /// <summary>
+    /// Extension class for the User object of DiscordRpcClient.
+    /// </summary>
+    public static class DiscordRPCUserExtension
+    {
+        public static string GetFormattedUsername(this User user)
+        {
+            if (user.Discriminator == 0)
+            {
+                return user.Username;
+            }
+
+            return user.ToString();
         }
     }
 

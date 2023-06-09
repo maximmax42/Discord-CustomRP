@@ -184,7 +184,8 @@ namespace CustomRPC
                 };
 
                 AppCenter.SetCountryCode(RegionInfo.CurrentRegion.TwoLetterISORegionName);
-                if (AppCenterSecret.Value != "{app secret}") {
+                if (AppCenterSecret.Value != "{app secret}")
+                {
                     AppCenter.Start(AppCenterSecret.Value, typeof(Analytics), typeof(Crashes));
                 }
                 // If you want to enable AppCenter, create a .appSecret file in the CustomRPC\CustomRPC folder

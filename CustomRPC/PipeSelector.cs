@@ -44,7 +44,7 @@ namespace CustomRPC
             Invoke(new MethodInvoker(() =>
             {
                 pictureBoxAvatar.ImageLocation = client.CurrentUser.GetAvatarURL(User.AvatarFormat.PNG);
-                labelUsername.Text = client.CurrentUser.ToString().Replace("#", "\n#");
+                labelUsername.Text = client.CurrentUser.GetFormattedUsername().Replace("#", "\n#");
             }));
 
             client.Dispose();

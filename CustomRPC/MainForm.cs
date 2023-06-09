@@ -670,8 +670,8 @@ namespace CustomRPC
         {
             Invoke(new MethodInvoker(() =>
             {
-                Text = $"{res.GetString("$this.Text")} ({client.CurrentUser})";
-                trayIcon.Text = $"{res.GetString("trayIcon.Text")}\n{client.CurrentUser}";
+                Text = $"{res.GetString("$this.Text")} ({client.CurrentUser.GetFormattedUsername()})";
+                trayIcon.Text = $"{res.GetString("trayIcon.Text")}\n{client.CurrentUser.GetFormattedUsername()}";
             }));
         }
 
