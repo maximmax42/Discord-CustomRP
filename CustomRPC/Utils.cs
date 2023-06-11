@@ -940,9 +940,9 @@ namespace CustomRPC
                 },
                 new Supporter {
                     Name = "Maracesh",
-                    Url = "https://lnk.bio/maracesh",
-                    USDAmount = "1.32",
-                    AltAmount = "100.00 RUB"
+                    Url = "https://bio.link/maracesh",
+                    USDAmount = "3.68",
+                    AltAmount = "295.00 RUB"
                 },
                 new Supporter {
                     Name = "Crohnus1965",
