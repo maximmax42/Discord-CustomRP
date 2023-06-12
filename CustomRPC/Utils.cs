@@ -933,10 +933,10 @@ namespace CustomRPC
                     AltAmount = "0.00023698 BTC"
                 },
                 new Supporter {
-                    Name = "ZeroTheHero",
+                    Name = "ZeroTheHero", // kg***@gmail.com
                     Url = "https://e-z.bio/zero",
-                    USDAmount = "1.29",
-                    AltAmount = "100.00 RUB"
+                    USDAmount = "2.50",
+                    AltAmount = "200.00 RUB"
                 },
                 new Supporter {
                     Name = "Maracesh",
