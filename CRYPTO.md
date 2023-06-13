@@ -4,4 +4,4 @@
 - Monero: 47QZ4A9KZbPhFdQAn6gj6pPcrDhmcLgYKWa8S8jbHHk5j1PVgVVnvwSB2iBDEd1TS4SfiNdM2drgM5P2K4y1z9Qu9AovXpj
 - Tron/USDT: TJkmSeaQeUqqm7TCuSzcDGNB3etzExPCrC
 
-After you donate, please message me either in DMs (maximmax42#5572) or in the server. If you want to donate in another way, also DM me.
+After you donate, please message me either in Discord DMs (maximmax42) or in the server. If you want to donate in another way, also DM me.
