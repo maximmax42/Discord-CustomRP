@@ -437,7 +437,7 @@ namespace CustomRPC
                         new Person { Name = "regex", Url = "https://github.com/REGEX777" },
                         Julian,
                         new Person { Name = "mochiron desu" },
-                        new Person { Name = "Mridun Gupta" },
+                        new Person { Name = "Mridun Gupta", Url = "https://contact.mridungupta.eu.org" },
                     }
                 },
                 new Language {
