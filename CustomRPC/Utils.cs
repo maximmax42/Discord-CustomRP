@@ -296,6 +296,14 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Cymraeg",
+                    EnglishName = "Welsh",
+                    Code = "cy",
+                    Translators = new Person[] {
+                        new Person { Name = "Pxmpkxn", Url = "https://discord.gg/36Z4u8Q5uN" },
+                    }
+                },
+                new Language {
                     Name = "Dansk",
                     EnglishName = "Danish",
                     Code = "da",
@@ -815,6 +823,7 @@ namespace CustomRPC
             LanguageProgress["uk"] = "100";
             LanguageProgress["ur"] = "100";
             LanguageProgress["vi"] = "100";
+            LanguageProgress["cy"] = "100";
             #endregion
 
             Supporters = new List<Supporter>
