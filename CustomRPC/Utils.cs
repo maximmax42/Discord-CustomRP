@@ -744,6 +744,7 @@ namespace CustomRPC
                         new Person { Name = "dsbachle" },
                         new Person { Name = "Ayano" },
                         new Person { Name = "03_Trần" },
+                        new Person { Name = "kcott" },
                     }
                 },
                 new Language {
@@ -788,7 +789,6 @@ namespace CustomRPC
             LanguageProgress["gl"] = "100";
             LanguageProgress["ka"] = "100";
             LanguageProgress["de"] = "100";
-            LanguageProgress["de-at"] = "0";
             LanguageProgress["de-ch"] = "100";
             LanguageProgress["el"] = "100";
             LanguageProgress["he"] = "100";
