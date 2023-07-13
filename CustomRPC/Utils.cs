@@ -219,6 +219,7 @@ namespace CustomRPC
         static Person MarcelGustin = new Person { Name = "Marcel Gustin", Url = "https://marcelgustin.de" };
         static Person Matthww = new Person { Name = "Matthww" };
         static Person Meelis = new Person { Name = "Meelis" };
+        static Person MridunGupta = new Person { Name = "Mridun Gupta", Url = "https://contact.mridungupta.eu.org" }
         static Person Mykm = new Person { Name = "Mykm", Url = "https://github.com/yumiruuwu" };
         static Person TofixRs = new Person { Name = "Tofix.rs" };
         static Person Yoshi = new Person { Name = "Yoshi" };
@@ -445,7 +446,7 @@ namespace CustomRPC
                         new Person { Name = "regex", Url = "https://github.com/REGEX777" },
                         Julian,
                         new Person { Name = "mochiron desu" },
-                        new Person { Name = "Mridun Gupta", Url = "https://contact.mridungupta.eu.org" },
+                        MridunGupta,
                     }
                 },
                 new Language {
@@ -587,6 +588,14 @@ namespace CustomRPC
                     Translators = new Person[] {
                         new Person { Name = "Sveinung" },
                         new Person { Name = "Seth" },
+                    }
+                },
+                 new Language {
+                    Name = "ਪੰਜਾਬੀ",
+                    EnglishName = "Panjabi",
+                    Code = "pa",
+                    Translators = new Person[] {
+                        MridunGupta,
                     }
                 },
                 new Language {
@@ -805,7 +814,7 @@ namespace CustomRPC
             LanguageProgress["mk"] = "100";
             LanguageProgress["ml"] = "40.4";
             LanguageProgress["no"] = "100";
-            LanguageProgress["pa"] = "78.79";
+            LanguageProgress["pa"] = "100";
             LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "100";
             LanguageProgress["pt"] = "100";
