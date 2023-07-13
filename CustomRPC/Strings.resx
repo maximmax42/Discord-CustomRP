@@ -133,7 +133,7 @@ Are you sure it's running?</value>
 Press "Yes" to retry or "No" to download manually.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>First Time Run</value>
+    <value>Need help?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Would you like to open the manual?

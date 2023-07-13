@@ -128,7 +128,7 @@
 Нажмите "Да", чтобы повторить или "Нет", чтобы скачать обновление вручную.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Первый запуск</value>
+    <value>Нужна помощь?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Хотите ли вы открыть руководство?
