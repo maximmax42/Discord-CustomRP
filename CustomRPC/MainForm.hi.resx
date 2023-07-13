@@ -284,31 +284,31 @@
     <value>अद्यतन डाउनलोड करे</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>अद्यतन उपस्थिति</value>
+    <value>अद्यतन गतिविधि</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>अद्यतन उपस्थिति।</value>
+    <value>गतिविधि अद्यतन करता है</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>जुडिये</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>एप्लिकेशन को सेट उपस्थिति के साथ निर्दिष्ट आईडी से लिंक करता है।</value>
+    <value>एप्लिकेशन को सेट गतिविधि के साथ निर्दिष्ट आईडी से लिंक करता है।</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
     <value>डिस्कनेक्ट</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>एप्लिकेशन को Discord से डिस्कनेक्ट करता है। कृपया ध्यान दें कि इसमें कुछ समय लग सकता है।</value>
+    <value>एप्लिकेशन को डिस्कॉर्ड से डिस्कनेक्ट करता है। कृपया ध्यान दें कि इसमें कुछ समय लग सकता है।</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>डिस्कॉर्ड डेवलपर्स साइट से ऐप की आईडी।</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>प्रेसेंस में पहली लाईन।</value>
+    <value>गतिविधि में पहली लाईन।</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>प्रेसेंस में दूसरी लाईन।</value>
+    <value>गतिविधि में दूसरी लाईन।</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
     <value>छोटी इमेज या इमेज यूआरएल के लिए एसेट का नाम.</value>
@@ -372,7 +372,7 @@
 स्टेटस टाइमर में 24 घंटे की सीमा होती है, जिसका अर्थ है कि 24 घंटे के बाद समय वापस 0:00 पर चला जाएगा।</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>वर्तमान पार्टी में खिलाड़ियों की संख्या जो राज्य क्षेत्र के बगल में दिखाई देती है।
+    <value>वर्तमान गतिविधि में सदस्यों की संख्या, यह गतिविधि में स्थिति फ़ील्ड के बगल में दिखता है।
 प्रभावी होने के लिए, दोनों फ़ील्ड 0 से अधिक होनी चाहिए।</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">

@@ -128,7 +128,7 @@
 पुन: प्रयास करने के लिए "हां" दबाएं या मैन्युअल रूप से डाउनलोड करने के लिए "नहीं" दबाएं।</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>पहली बार रन</value>
+    <value>मदद की ज़रूरत है?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>क्या आप मैनुअल खोलना चाहेंगे?
