@@ -124,7 +124,7 @@
     <value>ID가 지정되지 않았습니다!</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>최초 실행</value>
+    <value>도움이 필요하세요?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>매뉴얼을 여시겠습니까?

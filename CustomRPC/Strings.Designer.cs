@@ -8,11 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CustomRPC
-{
+namespace CustomRPC {
     using System;
-
-
+    
+    
     /// <summary>
     ///   Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
     /// </summary>
@@ -23,295 +22,243 @@ namespace CustomRPC
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Strings
-    {
-
+    internal class Strings {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Strings()
-        {
+        internal Strings() {
         }
-
+        
         /// <summary>
         ///   Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if (object.ReferenceEquals(resourceMan, null))
-                {
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CustomRPC.Strings", typeof(Strings).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Перезаписывает свойство CurrentUICulture текущего потока для всех
         ///   обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Do you allow CustomRP to send your usage analytics to the developer?
         ///(All the data is depersonalized.).
         /// </summary>
-        internal static string askAnalyticsConsent
-        {
-            get
-            {
+        internal static string askAnalyticsConsent {
+            get {
                 return ResourceManager.GetString("askAnalyticsConsent", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Error.
         /// </summary>
-        internal static string error
-        {
-            get
-            {
+        internal static string error {
+            get {
                 return ResourceManager.GetString("error", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Can&apos;t connect to Discord client.
         ///Are you sure it&apos;s running?.
         /// </summary>
-        internal static string errorCannotConnect
-        {
-            get
-            {
+        internal static string errorCannotConnect {
+            get {
                 return ResourceManager.GetString("errorCannotConnect", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Settings file is corrupted.
         ///Press Yes to reset the settings, press No to quit..
         /// </summary>
-        internal static string errorCorruptSettings
-        {
-            get
-            {
+        internal static string errorCorruptSettings {
+            get {
                 return ResourceManager.GetString("errorCorruptSettings", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на The image URL is too long!.
         /// </summary>
-        internal static string errorInvalidImageURL
-        {
-            get
-            {
+        internal static string errorInvalidImageURL {
+            get {
                 return ResourceManager.GetString("errorInvalidImageURL", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Failed to import preset; the file is either missing, corrupted, or not properly formatted..
         /// </summary>
-        internal static string errorInvalidPresetFile
-        {
-            get
-            {
+        internal static string errorInvalidPresetFile {
+            get {
                 return ResourceManager.GetString("errorInvalidPresetFile", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Invalid URL specified for button(s) or the text is too long!.
         /// </summary>
-        internal static string errorInvalidURL
-        {
-            get
-            {
+        internal static string errorInvalidURL {
+            get {
                 return ResourceManager.GetString("errorInvalidURL", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Please add &quot;{0}&quot; path to your antivirus&apos;s exceptions. Reinstall CustomRP if this error persists..
         /// </summary>
-        internal static string errorLoadingAssembly
-        {
-            get
-            {
+        internal static string errorLoadingAssembly {
+            get {
                 return ResourceManager.GetString("errorLoadingAssembly", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на No ID specified!.
         /// </summary>
-        internal static string errorNoID
-        {
-            get
-            {
+        internal static string errorNoID {
+            get {
                 return ResourceManager.GetString("errorNoID", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Can&apos;t connect to the internet!.
         /// </summary>
-        internal static string errorNoInternet
-        {
-            get
-            {
+        internal static string errorNoInternet {
+            get {
                 return ResourceManager.GetString("errorNoInternet", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на An error occurred while saving the settings:.
         /// </summary>
-        internal static string errorSavingSettings
-        {
-            get
-            {
+        internal static string errorSavingSettings {
+            get {
                 return ResourceManager.GetString("errorSavingSettings", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Failed to add or remove a startup shortcut:.
         /// </summary>
-        internal static string errorStartupShortcut
-        {
-            get
-            {
+        internal static string errorStartupShortcut {
+            get {
                 return ResourceManager.GetString("errorStartupShortcut", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на There was an error downloading or installing an update.
         ///Press &quot;Yes&quot; to retry or &quot;No&quot; to download manually..
         /// </summary>
-        internal static string errorUpdateFailed
-        {
-            get
-            {
+        internal static string errorUpdateFailed {
+            get {
                 return ResourceManager.GetString("errorUpdateFailed", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Need help?.
         /// </summary>
-        internal static string firstTimeRun
-        {
-            get
-            {
+        internal static string firstTimeRun {
+            get {
                 return ResourceManager.GetString("firstTimeRun", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Would you like to open the manual?
         ///You can open it any time by going to Help -&gt; Open the Manual or pressing F1..
         /// </summary>
-        internal static string firstTimeRunText
-        {
-            get
-            {
+        internal static string firstTimeRunText {
+            get {
                 return ResourceManager.GetString("firstTimeRunText", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Information.
         /// </summary>
-        internal static string information
-        {
-            get
-            {
+        internal static string information {
+            get {
                 return ResourceManager.GetString("information", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на No updates found!.
         /// </summary>
-        internal static string noUpdatesFound
-        {
-            get
-            {
+        internal static string noUpdatesFound {
+            get {
                 return ResourceManager.GetString("noUpdatesFound", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Connected.
         /// </summary>
-        internal static string statusConnected
-        {
-            get
-            {
+        internal static string statusConnected {
+            get {
                 return ResourceManager.GetString("statusConnected", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Connecting....
         /// </summary>
-        internal static string statusConnecting
-        {
-            get
-            {
+        internal static string statusConnecting {
+            get {
                 return ResourceManager.GetString("statusConnecting", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Connection failed (Is Discord running?).
         /// </summary>
-        internal static string statusConnectionFailed
-        {
-            get
-            {
+        internal static string statusConnectionFailed {
+            get {
                 return ResourceManager.GetString("statusConnectionFailed", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Disconnected.
         /// </summary>
-        internal static string statusDisconnected
-        {
-            get
-            {
+        internal static string statusDisconnected {
+            get {
                 return ResourceManager.GetString("statusDisconnected", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Connection error (Wrong ID?).
         /// </summary>
-        internal static string statusError
-        {
-            get
-            {
+        internal static string statusError {
+            get {
                 return ResourceManager.GetString("statusError", resourceCulture);
             }
         }
