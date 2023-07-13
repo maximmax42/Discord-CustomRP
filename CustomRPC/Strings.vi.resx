@@ -128,7 +128,7 @@
 Nhấn "Có" để thử lại hoặc "Không" để tải xuống theo cách thủ công.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Lần chạy đầu tiên</value>
+    <value>Cần giúp đỡ?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Bạn muốn mở phần Hướng dẫn không?

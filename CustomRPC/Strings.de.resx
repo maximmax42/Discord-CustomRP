@@ -128,7 +128,7 @@
 Drücke "Ja", um es erneut zu versuchen, oder "Nein", um es manuell herunterzuladen.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Erster Start</value>
+    <value>Hilfe benötigt?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Möchtest du die Anleitung öffnen?

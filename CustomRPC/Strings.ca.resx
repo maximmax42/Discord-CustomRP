@@ -128,7 +128,7 @@
 Feu clic a "Sí" per tornar-ho a provar o a "No" per descarregar manualment.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Primera Veu Executant-se</value>
+    <value>Necessites Ajuda?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Vols obrir el manual?
