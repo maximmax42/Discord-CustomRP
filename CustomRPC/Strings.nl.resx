@@ -128,7 +128,7 @@
 Druk op "Ja" om het opnieuw te proberen of op "Nee" om handmatig te downloaden.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Eerste keer geopend</value>
+    <value>Hulp nodig?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Wilt u een handleiding openen?

@@ -128,11 +128,11 @@
 اضغط على "نعم" لإعادة المحاولة أو "لا" للتنزيل يدويًا.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>أول مرة يتم تشغيل</value>
+    <value>بحاجة للمساعدة؟</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
-    <value>هل تود فتح التطبيق يدويًا؟
-يمكنك فتحه في أي وقت عن طريق الذهاب للمساعدة -&gt; افتح الإرشادات أو اضغط F1.</value>
+    <value>هل تود فتح دليل المستخدم؟
+يمكنك فتحه في أي وقت عن طريق الذهاب للمساعدة -&gt; افتح دليل المستخدم أو اضغط F1.</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>معلومات</value>

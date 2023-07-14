@@ -128,7 +128,7 @@
 Натисніть "Так", щоб спробувати ще раз або "Ні", щоб встановити вручну.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Перший запуск</value>
+    <value>Потрібна допомога?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Хочете відкрити мануал?
