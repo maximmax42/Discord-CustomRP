@@ -219,7 +219,7 @@ namespace CustomRPC
         static Person MarcelGustin = new Person { Name = "Marcel Gustin", Url = "https://marcelgustin.de" };
         static Person Matthww = new Person { Name = "Matthww" };
         static Person Meelis = new Person { Name = "Meelis" };
-        static Person MridunGupta = new Person { Name = "Mridun Gupta", Url = "https://contact.mridungupta.eu.org" }
+        static Person MridunGupta = new Person { Name = "Mridun Gupta", Url = "https://contact.mridungupta.eu.org" };
         static Person Mykm = new Person { Name = "Mykm", Url = "https://github.com/yumiruuwu" };
         static Person TofixRs = new Person { Name = "Tofix.rs" };
         static Person Yoshi = new Person { Name = "Yoshi" };
@@ -406,6 +406,7 @@ namespace CustomRPC
                     Code = "fil",
                     Translators = new Person[] {
                         new Person { Name = "CtrlAltDelicious", Url = "https://www.youtube.com/c/CtrlAltDelicious_" },
+                        new Person { Name = "syp" },
                         new Person { Name = "jericko" },
                         new Person { Name = "Hachiki" },
                     }

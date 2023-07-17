@@ -118,26 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>I click ng dalawang beses ang icon para mag lumabas ulit, o i-right click para mag quit.</value>
+    <value>I click ng dalawang beses ang icon para lumabas ulit, o i-right click para mag quit.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>Ang app ay gagana sa ligod.</value>
+    <value>Tatakbo ang app sa likod ng ibang mga aplikasyon.</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>Buksan</value>
   </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
-    <value>Bumalik</value>
+    <value>Muling kumonekta</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
-    <value>Itigil</value>
+    <value>Tumigil</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 20</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Payl</value>
+    <value>File</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>233, 22</value>
@@ -158,7 +158,7 @@
     <value>233, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Mag upload ng Assets</value>
+    <value>Mag-upload ng Assets</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>230, 6</value>
@@ -167,7 +167,7 @@
     <value>233, 22</value>
   </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Itigil</value>
+    <value>Tumigil</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 22</value>
@@ -179,7 +179,7 @@
     <value>197, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>I-Minimized</value>
+    <value>Simulan ng naka-minimise</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 22</value>
@@ -194,7 +194,7 @@
     <value>197, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tingan ang Update</value>
+    <value>I-check kung merong updates</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 22</value>
@@ -215,7 +215,7 @@
     <value>197, 22</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Lenguahe</value>
+    <value>Wika</value>
   </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 20</value>
@@ -233,7 +233,7 @@
     <value>228, 22</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>GitHub Payge</value>
+    <value>GitHub Page</value>
   </data>
   <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
     <value>225, 6</value>
@@ -248,7 +248,7 @@
     <value>228, 22</value>
   </data>
   <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tagasalin</value>
+    <value>Mga Tagasalin</value>
   </data>
   <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
     <value>225, 6</value>
@@ -287,7 +287,7 @@
     <value>233, 50</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
-    <value>I-Konnekta</value>
+    <value>Kumonekta</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
     <value>Links ng application na iniligay na ID para sa presence.</value>
@@ -302,10 +302,10 @@
     <value>I-Diskonekta</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>I-tigil ang app galing sa Discord. Pakitandaan baka matagal mag diskonekt.</value>
+    <value>I-diskonekta ang app mula sa Discord. Mangyaring tandaan na maaaring tumagal ito ng kaunting panahon.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>ID ng aplikasyon galing ng Discord Developers site.</value>
+    <value>ID ng aplikasyon mula sa Discord Developers site.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
     <value>Unang linya sa presence.</value>
@@ -314,13 +314,13 @@
     <value>Pangalawang linya sa presence.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Pangalan ng asset para sa maliit na larawan or isang URL ng larawan.</value>
+    <value>Pangalan ng asset para sa maliit na larawan o isang URL ng larawan.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>Texto na pinapakita kung nag-hover sa maliit na larawan.</value>
+    <value>Teksto na pinapakita kung nag-hover sa maliit na larawan.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>Texto na pinapakita kung nag-hover sa malaking larawan.</value>
+    <value>Teksto na pinapakita kung nag-hover sa malaking larawan.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>Pangalan ng asset para sa malaking larawan or isang URL ng larawan.</value>
@@ -431,5 +431,14 @@ Upang bumisa, ang parehong field ay dapat na higit sa 0.</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>ng</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mga Setting</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dark Mode</value>
   </data>
 </root>

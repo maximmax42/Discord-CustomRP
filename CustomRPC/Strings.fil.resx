@@ -128,7 +128,7 @@
 Pindotin ang "Yes" para ma retry o "No" para ma-download manually.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>First time na takbo</value>
+    <value>Kailangan mo ba ng tulong?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Gusto mo ba buksan ang manual?
@@ -169,7 +169,7 @@ Pindotin ang Oo para ma-reset ang settings, pindotin ang No to quit.</value>
     <value>Nabigo mag import ng preset; nawawala ang file ,o corrupted, o hindi tamang formatted.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>Pinapayagan mo ba ang CustomRP na mag-send ng analytica sa developer?
+    <value>Pinapayagan mo ba ang CustomRP na ipadala ang iyong analytica sa developer?
 (Lahat ng data ay depersonalized.)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">

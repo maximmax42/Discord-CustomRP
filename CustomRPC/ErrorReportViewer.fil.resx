@@ -121,6 +121,9 @@
     <value>Nag crash ang CustomRP sa huling session dahil sa unhandled exception:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Mag report ng error</value>
+    <value>Mag-report ng error</value>
+  </data>
+  <data name="buttonOK.Text" xml:space="preserve">
+    <value>OK</value>
   </data>
 </root>

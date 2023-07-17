@@ -140,7 +140,7 @@
     <value>200, 18</value>
   </data>
   <data name="checkBoxNeverNotify.Text" xml:space="preserve">
-    <value>Wag mag-check ng updates ulit</value>
+    <value>Huwag nang mag check para sa mga update muli</value>
   </data>
   <data name="labelVersionsText.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 13pt</value>
