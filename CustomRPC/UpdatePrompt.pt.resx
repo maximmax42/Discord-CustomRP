@@ -144,7 +144,7 @@ Ultima versão:</value>
     <value>162, 23</value>
   </data>
   <data name="buttonSkipUpdate.Text" xml:space="preserve">
-    <value>Passar esta versão á frente</value>
+    <value>Ignorar esta versão</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Atualização disponível</value>

@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>Clique duas vezes no ícone para o mostrar outra vez, clique com o lado direito do rato para sair.</value>
+    <value>Clique duas vezes no ícone para o voltar a mostrar, clique com o lado direito do rato para fechar.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>A aplicação vai ficar aberta na barra de tarefas.</value>
+    <value>A aplicação vai ficar aberta na barra.</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>Abrir</value>
@@ -137,13 +137,13 @@
     <value>231, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Carregar predefinição</value>
+    <value>Carregar pré-feito</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>231, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Salvar predefenição</value>
+    <value>Salvar pré-feito</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>228, 6</value>
@@ -152,7 +152,7 @@
     <value>231, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Fazer upload de items</value>
+    <value>Upload de imagens</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>228, 6</value>
@@ -356,7 +356,7 @@
     <value>Nada</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Nenhum indicador de tempo ativado.</value>
+    <value>Nenhum indicador de tempo ativo.</value>
   </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>216, 18</value>
@@ -374,11 +374,11 @@
     <value>As tuas horas locais</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>Mostra as tuas horas Locais em formato de 24 Horas.</value>
+    <value>Mostra as tuas horas Locais em formato de 24 horas.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Prepara indicadores de tempo para o status, em que vai ser mostrado debaixo de todo o texto em cima
-Temporizadores do status têm um limite de 24 horas, isso significa que após 24 horas o temporizador irá voltar para 00:00.</value>
+    <value>Prepara indicadores de tempo para o status, que vai ser mostrado debaixo de todo o texto em cima.
+Temporizadores do status têm um limite de 24 horas, isso significa que após 24 horas o temporizador irá voltar para 0:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
     <value>Quantidade de jogadores do grupo, é mostrado ao lado do indicador de Status.

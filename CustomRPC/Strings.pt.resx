@@ -128,11 +128,11 @@
 Clique "Sim" Para tentar novamente ou "Não" para transferir manualmente.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Primeiro execução</value>
+    <value>Precisa de ajuda?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Gostaria de abrir o manual?
-Você poderá o abrir a qualquer momento indo a Ajuda -&gt; Abrir o Manual ou ao clicar F1.</value>
+Você poderá o abrir a qualquer momento em Ajuda -&gt; Abrir o Manual ou ao clicar F1.</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>Informação</value>
@@ -144,7 +144,7 @@ Você poderá o abrir a qualquer momento indo a Ajuda -&gt; Abrir o Manual ou ao
     <value>A Conectar...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Conexão falhada (Tens o Discord aberto?)</value>
+    <value>Conexão falhada (Tem o Discord aberto?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>Disconectado</value>
@@ -163,7 +163,7 @@ Você poderá o abrir a qualquer momento indo a Ajuda -&gt; Abrir o Manual ou ao
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
     <value>Ficheiro de definições esta corrompido.
-Clique Sim para redefinir as Definições ou clique Não para sair.</value>
+Clique Sim para redefinir as Definições ou clique Não para fechar.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
     <value>Um erro ocorreu ao abrir a Predefinição, o ficheiro não existe, está corrompido ou não está formatado corretamente.</value>
@@ -173,7 +173,7 @@ Clique Sim para redefinir as Definições ou clique Não para sair.</value>
 (Todas as informações são despersonalizadas.)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
-    <value>Eu erro ocorreu ao salvar as defenições:</value>
+    <value>Um erro ocorreu ao salvar as defenições:</value>
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Por favor adicione "{0}" ás exceções do seu antivírus. Reinstale o CustomRP se este erro persistir.</value>
