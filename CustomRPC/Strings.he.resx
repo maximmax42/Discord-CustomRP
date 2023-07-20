@@ -128,11 +128,11 @@
 לחץ "כן" כדי לנסות שוב, או "לא" כדי להתקין ידני.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>התוכנה רצה בפעם הראשונה</value>
+    <value>צריכים עזרה?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
-    <value>האם אתה רוצה לפתוח את המדריך?
-אתה יכול לפתוח אותו בכל זמן על ידי מעבר ל"עזרה" -&gt; פתיחת המדריך, או בלחיצה על F1.</value>
+    <value>האם אתם רוצים לפתוח את המדריך?
+אתם יכולים לפתוח אותו בכל עת על ידי מעבר ל"עזרה" -&gt; פתיחת המדריך, או בלחיצה על F1.</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>מידע</value>
