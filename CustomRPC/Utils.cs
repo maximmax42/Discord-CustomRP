@@ -664,6 +664,7 @@ namespace CustomRPC
                     Translators = new Person[] {
                         new Person { Name = "richi", Url = "https://e-z.bio/shelovesrichi" }, // rci1337
                         new Person { Name = "Maros Mihalek" },
+                        new Person { Name = "eRko" },
                     }
                 },
                 new Language {
