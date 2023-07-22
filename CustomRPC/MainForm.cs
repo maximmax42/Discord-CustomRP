@@ -1352,6 +1352,15 @@ namespace CustomRPC
         }
 
         /// <summary>
+        /// Called on Leave event for all text fields except ID.
+        /// </summary>
+        private void TrimTextBoxes(object sender, EventArgs e)
+        {
+            Control box = (Control)sender;
+            box.Text = box.Text.Trim();
+        }
+
+        /// <summary>
         /// Called on Validating event for all text fields except ID.
         /// </summary>
         private void LengthValidationFocus(object sender, System.ComponentModel.CancelEventArgs e)
