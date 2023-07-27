@@ -51,22 +51,6 @@ namespace CustomRPC
     }
 
     /// <summary>
-    /// Extension class for the User object of DiscordRpcClient.
-    /// </summary>
-    public static class DiscordRPCUserExtension
-    {
-        public static string GetFormattedUsername(this User user)
-        {
-            if (user.Discriminator == 0)
-            {
-                return user.Username;
-            }
-
-            return user.ToString();
-        }
-    }
-
-    /// <summary>
     /// A struct describing a person.
     /// </summary>
     struct Person
