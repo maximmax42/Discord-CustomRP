@@ -163,7 +163,7 @@
     <value>打開說明手冊</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Github頁面</value>
+    <value>Github 頁面</value>
   </data>
   <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
     <value>翻譯人員</value>
@@ -193,7 +193,7 @@
     <value>取消本程式和 Discord 的連線。請注意，這可能需要一段時間。</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>在 Discord Developers 網頁設的應用程序 ID 。</value>
+    <value>在 Discord Developers 網頁的應用程式 ID 。</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
     <value>動態欄的第一行。</value>
@@ -261,7 +261,7 @@
     <value>按鈕二</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>按鈕二會顯示在按鈕一底下，如果沒設定按鈕一，將取代按鈕一的位置。</value>
+    <value>按鈕二會顯示在按鈕一底下，如果沒有設定按鈕一，將取代按鈕一的位置。</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
     <value>點擊按鈕一後所開啟的連結。</value>
@@ -303,7 +303,7 @@
     <value>大圖示的檔案名稱或 URL 連結。</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>小圖示的檔案名稱或URL連結。</value>
+    <value>小圖示的檔案名稱或 URL 連結。</value>
   </data>
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
     <value>贊助者</value>

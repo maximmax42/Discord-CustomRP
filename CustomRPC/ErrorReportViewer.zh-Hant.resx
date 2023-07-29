@@ -121,7 +121,7 @@
     <value>好</value>
   </data>
   <data name="labelInfo.Text" xml:space="preserve">
-    <value>CustomRP 在上一個會話中因為以下未處理的異常而崩潰：</value>
+    <value>CustomRP 在上一個階段中，因為以下未處理的異常而崩潰：</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>回報錯誤</value>

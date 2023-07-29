@@ -758,6 +758,7 @@ namespace CustomRPC
                     Code = "zh-hant",
                     Translators = new Person[] {
                         westxlu,
+                        new Person { Name = "DragonTaki", Url = "https://steamcommunity.com/id/DragonTaki/" },
                     }
                 }
             };
