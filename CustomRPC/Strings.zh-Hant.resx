@@ -156,7 +156,7 @@
     <value>為按鈕指定的連結無效或字數太長了！</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
-    <value>無法連接網路！</value>
+    <value>無法連線至網路！</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
     <value>沒有新版本更新！</value>
@@ -166,20 +166,20 @@
 按「是」重設，按「否」離開。</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>預設檔案導入失敗；可能是文件丟失、損壞或格式錯誤。</value>
+    <value>預設檔案匯入失敗；可能是檔案遺失、損毀或格式錯誤。</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>您是否允許 CustomRP 將您的使用情況分析發送給開發人員？
-（所有數據都是非個人化的。）</value>
+    <value>您是否允許 CustomRP 將您的使用情形分析傳送給開發人員？
+（所有數據都是去識別化的。）</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
     <value>儲存以下設定時發生錯誤：</value>
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>請將路徑 "{0}" 添加到防病毒軟體的白名單中。如果此錯誤仍然存在，請重新安裝 CustomRP。</value>
+    <value>請將路徑 "{0}" 加入至防病毒軟體的白名單中。如果此錯誤仍然存在，請重新安裝 CustomRP。</value>
   </data>
   <data name="errorInvalidImageURL" xml:space="preserve">
-    <value>此圖像的 URL 過長！</value>
+    <value>此圖片的 URL 過長！</value>
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>新增或刪除捷徑失敗：</value>
