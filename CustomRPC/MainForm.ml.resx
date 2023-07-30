@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="trayIcon.BalloonTipText" xml:space="preserve">
+    <value>ഇത് വീണ്ടും കാണിക്കുന്നതിന് ഐക്കണിൽ ഇരട്ട-ക്ലിക്കുചെയ്യുക അല്ലെങ്കിൽ പുറത്തുകടക്കാൻ വലത്-ക്ലിക്കുചെയ്യുക.</value>
+  </data>
+  <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
+    <value>അപ്ലിക്കേഷൻ ട്രേയിൽ പ്രവർത്തിക്കും.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 104</value>
+  </data>
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>തുറക്കുക</value>
+  </data>
+  <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 6</value>
+  </data>
+  <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="trayMenuReconnect.Text" xml:space="preserve">
+    <value>വീണ്ടും ബന്ധപ്പെടുക</value>
+  </data>
+  <data name="trayMenuDisconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 6</value>
+  </data>
+  <data name="trayMenuQuit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="trayMenuQuit.Text" xml:space="preserve">
+    <value>ഉപേക്ഷിക്കുക</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>ഫയൽ</value>
+  </data>
+  <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 22</value>
+  </data>
+  <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>പ്രീസെറ്റ് ലോഡുചെയ്യുക</value>
+  </data>
+  <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 22</value>
+  </data>
+  <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>പ്രീസെറ്റ് സംരക്ഷിക്കുക</value>
+  </data>
+  <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 6</value>
+  </data>
+  <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 22</value>
+  </data>
+  <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
+    <value>അസറ്റുകൾ അപ് ലോഡ് ചെയ്യുക</value>
+  </data>
+  <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 6</value>
+  </data>
+  <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 22</value>
+  </data>
+  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
+    <value>ഉപേക്ഷിക്കുക</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 20</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>ക്രമീകരണങ്ങൾ</value>
+  </data>
+  <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 22</value>
+  </data>
+  <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
+    <value>സ്റ്റാർട്ടപ്പിൽ പ്രവർത്തിപ്പിക്കുക</value>
+  </data>
+  <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 22</value>
+  </data>
+  <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
+    <value>മിനിമൈസ് ആരംഭിക്കുക</value>
+  </data>
+  <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 22</value>
+  </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>ഓട്ടോകോനെക്റ്റ്</value>
+  </data>
+  <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 6</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 22</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>അപ് ഡേറ്റുകൾക്കായി പരിശോധിക്കുക</value>
+  </data>
+  <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 22</value>
+  </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>വിശകലനം അനുവദിക്കുക</value>
+  </data>
+  <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 6</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 22</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>ഇരുണ്ട മോഡ്</value>
+  </data>
+  <data name="toolStripSeparatorSettings3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 6</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>ഭാഷ</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 22</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>സ്ഥിരസ്ഥിതി</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 6</value>
+  </data>
+  <data name="sampleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 22</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>സഹായം</value>
+  </data>
+  <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 22</value>
+  </data>
+  <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
+    <value>മാനുവൽ തുറക്കുക</value>
+  </data>
+  <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 22</value>
+  </data>
+  <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>GitHub പേജ്</value>
+  </data>
+  <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 6</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 22</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>പിന്തുണക്കാർ</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 22</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
+    <value>വിവർത്തകർ</value>
+  </data>
+  <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 6</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 22</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>അപ് ഡേറ്റുകൾ പരിശോധിക്കുക...</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>കുറിച്ച്...</value>
+  </data>
+  <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 20</value>
+  </data>
+  <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
+    <value>അപ്ഡേറ്റ് ഡൗൺലോഡ് ചെയ്യുക</value>
+  </data>
+  <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 456</value>
+  </data>
+  <data name="buttonUpdatePresence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 24</value>
+  </data>
+  <data name="buttonUpdatePresence.Text" xml:space="preserve">
+    <value>സാന്നിധ്യം അപ് ഡേറ്റ് ചെയ്യുക</value>
+  </data>
+  <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
+    <value>അപ് ഡേറ്റുകളുടെ സാന്നിധ്യം.</value>
+  </data>
+  <data name="buttonConnect.Text" xml:space="preserve">
+    <value>കണക്ട്</value>
+  </data>
+  <data name="buttonConnect.ToolTip" xml:space="preserve">
+    <value>സെറ്റ് സാന്നിധ്യത്തോടെ നിർദ്ദിഷ്ട ഐഡിയിലേക്ക് അപ്ലിക്കേഷൻ ലിങ്കുചെയ്യുന്നു.</value>
+  </data>
+  <data name="buttonDisconnect.Text" xml:space="preserve">
+    <value>ഡിസ്കണക്ട്</value>
+  </data>
+  <data name="buttonDisconnect.ToolTip" xml:space="preserve">
+    <value>ഡിസ്കോർഡ് ആപ്ലിക്കേഷൻ വിച്ഛേദിക്കുക. കുറച്ച് സമയമെടുക്കുമെന്നത് ശ്രദ്ധിക്കുക.</value>
+  </data>
+  <data name="labelID.ToolTip" xml:space="preserve">
+    <value>ഡിസ്കോർഡ് ഡവലപ്പർമാരുടെ സൈറ്റിൽ നിന്നുള്ള ആപ്ലിക്കേഷന്റെ ഐഡി.</value>
+  </data>
+  <data name="labelDetails.ToolTip" xml:space="preserve">
+    <value>സാന്നിധ്യത്തിലെ ആദ്യ വരി.</value>
+  </data>
+  <data name="labelState.ToolTip" xml:space="preserve">
+    <value>സാന്നിധ്യത്തിലെ രണ്ടാമത്തെ വരി.</value>
+  </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>ഒരു ചെറിയ ഇമേജ് അല്ലെങ്കിൽ ഇമേജ് URL നായുള്ള വിഭവ നാമം.</value>
+  </data>
+  <data name="labelSmallText.ToolTip" xml:space="preserve">
+    <value>ചെറിയ ഇമേജിൽ നിങ്ങൾ മൗസ് ചെയ്യുമ്പോൾ പ്രദർശിപ്പിക്കാനുള്ള വാചകം.</value>
+  </data>
+  <data name="labelLargeText.ToolTip" xml:space="preserve">
+    <value>വലിയ ഇമേജിൽ നിങ്ങൾ മൗസ് ചെയ്യുമ്പോൾ പ്രദർശിപ്പിക്കാനുള്ള വാചകം.</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>ഒരു വലിയ ഇമേജ് അല്ലെങ്കിൽ ഇമേജ് URL നായി പേര് സജ്ജമാക്കുക.</value>
+  </data>
+  <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 14</value>
+  </data>
+  <data name="labelSmall.Text" xml:space="preserve">
+    <value>ചെറിയ ചിത്രം</value>
+  </data>
+  <data name="labelSmall.ToolTip" xml:space="preserve">
+    <value>വലിയ ചിത്രത്തിന്റെ വലത് കോണിൽ കാണിക്കുന്ന ചിത്രം.</value>
+  </data>
+  <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 14</value>
+  </data>
+  <data name="labelLarge.Text" xml:space="preserve">
+    <value>വലിയ ചിത്രം</value>
+  </data>
+  <data name="labelLarge.ToolTip" xml:space="preserve">
+    <value>മുകളിലുള്ള വാചകത്തിന്റെ ഇടതുവശത്ത് കാണിച്ചിരിക്കുന്ന ചിത്രം.</value>
+  </data>
+  <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 18</value>
+  </data>
+  <data name="radioButtonNone.Text" xml:space="preserve">
+    <value>ഒന്നുമില്ല</value>
+  </data>
+  <data name="radioButtonNone.ToolTip" xml:space="preserve">
+    <value>ടൈമ്സ്റ്റാമ്പുകൾ ഇല്ല.</value>
+  </data>
+  <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 18</value>
+  </data>
+  <data name="radioButtonStartTime.Text" xml:space="preserve">
+    <value>CustomRP ആരംഭിച്ചതുമുതൽ</value>
+  </data>
+  <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
+    <value>ൽ ആരംഭിച്ചതുമുതൽ സമയം പ്രദർശിപ്പിക്കുന്നു.</value>
+  </data>
+  <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 18</value>
+  </data>
+  <data name="radioButtonLocalTime.Text" xml:space="preserve">
+    <value>നിങ്ങളുടെ സ്ഥാനിക സമയം</value>
+  </data>
+  <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
+    <value>നിങ്ങളുടെ നിലവിലെ സമയം 24-മണിക്കൂർ ഫോർമാറ്റിൽ കാണിക്കുന്നു.</value>
+  </data>
+  <data name="labelTimestamp.ToolTip" xml:space="preserve">
+    <value>സ്റ്റാറ്റസിന് ടൈംസ്റ്റാമ്പ് സജ്ജമാക്കുന്നു, പഴയ ടെക്സ്റ്റിന് അടിസ്ഥാനമായി കാണിക്കുന്നു.
+സ്റ്റാറ്റസ് ടൈമർകൾക്ക് 24 മണിക്കൂർ പരിധിയുണ്ട്, അർദ്ധദിനത്തിൽ 24 മണിക്കൂർ കഴിഞ്ഞാൽ സമയം 0:00 നേരത്തിലേക്ക് മടങ്ങും.</value>
+  </data>
+  <data name="labelParty.ToolTip" xml:space="preserve">
+    <value>സ്റ്റാറ്റസ് ഫീൽഡിന് അടുത്തായി കാണിച്ചിരിക്കുന്ന നിലവിലെ പൂളിലെ കളിക്കാരുടെ എണ്ണം.
+പ്രാബല്യത്തിൽ വരാൻ രണ്ട് ഫീൽഡുകളും 0-ൽ കൂടുതലായിരിക്കണം.</value>
+  </data>
+  <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 18</value>
+  </data>
+  <data name="radioButtonCustom.Text" xml:space="preserve">
+    <value>ഇഷ്ടാനുസൃത ടൈംസ്റ്റാമ്പ്</value>
+  </data>
+  <data name="radioButtonCustom.ToolTip" xml:space="preserve">
+    <value>ചുവടെ സജ്ജീകരിച്ച തീയതി വരെ എത്ര സമയം കഴിഞ്ഞു അല്ലെങ്കിൽ എത്ര സമയം ശേഷിക്കുന്നു എന്ന് കാണിക്കുന്നു.</value>
+  </data>
+  <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 14</value>
+  </data>
+  <data name="labelButton1.Text" xml:space="preserve">
+    <value>ബട്ടൺ 1</value>
+  </data>
+  <data name="labelButton1.ToolTip" xml:space="preserve">
+    <value>നിങ്ങളുടെ പ്രൊഫൈൽ പോപ്പ്അപ്പിൽ നിങ്ങളുടെ സ്റ്റാറ്റസിന് കീഴിലും പൂർണ്ണ പ്രൊഫൈലിൽ വലതുവശത്തും കാണിക്കുന്ന രണ്ട് ബട്ടണുകളിൽ ആദ്യത്തേത്.</value>
+  </data>
+  <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 14</value>
+  </data>
+  <data name="labelButton2.Text" xml:space="preserve">
+    <value>ബട്ടൺ 2</value>
+  </data>
+  <data name="labelButton2.ToolTip" xml:space="preserve">
+    <value>രണ്ടാമത്തെ ബട്ടൺ, ആദ്യ ബട്ടണിന് കീഴിൽ അല്ലെങ്കിൽ പകരം, ആദ്യത്തേത് സജ്ജമാക്കിയിട്ടില്ലെങ്കിൽ ദൃശ്യമാകും.</value>
+  </data>
+  <data name="labelButton1URL.ToolTip" xml:space="preserve">
+    <value>ബട്ടൺ URL ക്ലിക്കുചെയ്യുമ്പോൾ ഉപയോക്താവിനെ എടുക്കും.</value>
+  </data>
+  <data name="labelButton2URL.ToolTip" xml:space="preserve">
+    <value>ബട്ടൺ URL ക്ലിക്കുചെയ്യുമ്പോൾ ഉപയോക്താവിനെ എടുക്കും.</value>
+  </data>
+  <data name="labelButton1Text.ToolTip" xml:space="preserve">
+    <value>ആദ്യ ബട്ടണിന്റെ ലേബൽ.</value>
+  </data>
+  <data name="labelButton2Text.ToolTip" xml:space="preserve">
+    <value>രണ്ടാമത്തെ ബട്ടൺ ലേബൽ.</value>
+  </data>
+  <data name="radioButtonPresence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 18</value>
+  </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>അവസാന സാന്നിധ്യ അപ് ഡേറ്റ് മുതൽ</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>നിങ്ങളുടെ സാന്നിധ്യം കണക്റ്റുചെയ് തതോ അപ് ഡേറ്റ് ചെയ്തതോ മുതൽ എത്ര കാലമായി എന്ന് കാണിക്കുന്നു.</value>
+  </data>
+  <data name="labelPartyOf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 114</value>
+  </data>
+  <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 14</value>
+  </data>
+  <data name="labelPartyOf.Text" xml:space="preserve">
+    <value>യുടെ</value>
+  </data>
+</root>
