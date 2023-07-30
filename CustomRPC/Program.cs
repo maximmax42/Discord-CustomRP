@@ -61,13 +61,9 @@ namespace CustomRPC
                     IsSecondInstance = true;
                     mutexName += " 2";
                 }
-
-                if (arg == "--silent-import" || arg == "-s")
-                {
+                else if (arg == "--silent-import" || arg == "-s")
                     isSilent = true;
-                }
-
-                if (File.Exists(arg))
+                else if (File.Exists(arg))
                     presetFile = arg;
             }
 
