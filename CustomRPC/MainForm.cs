@@ -251,10 +251,9 @@ namespace CustomRPC
             // Localize the header of the tooltip because Visual Studio can't do that for some reason
             toolTipInfo.ToolTipTitle = Strings.information;
 
-            // Localize the Disconnect button in the tray menu
-            trayMenuDisconnect.Text = res.GetString("buttonDisconnect.Text");
-            if (settings.language == "bg")
-                trayMenuDisconnect.Text = "Прекъсни връзката";
+            // Localize the Disconnect button in the tray menu, unless it is already localized
+            if (trayMenuDisconnect.Text == res.GetString("trayMenuDisconnect.Text", CultureInfo.GetCultureInfo("en")))
+                trayMenuDisconnect.Text = res.GetString("buttonDisconnect.Text");
 
             // Localize the statusbar text in case the autoconnect is disabled
             toolStripStatusLabelStatus.Text = Strings.statusDisconnected;

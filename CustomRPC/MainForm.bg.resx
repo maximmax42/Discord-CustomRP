@@ -465,4 +465,7 @@
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>от</value>
   </data>
+  <data name="trayMenuDisconnect.Text" xml:space="preserve">
+    <value>Прекъсни връзката</value>
+  </data>
 </root>
