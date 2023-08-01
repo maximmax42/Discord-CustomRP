@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="error" xml:space="preserve">
+    <value>ದೋಷ</value>
+  </data>
+  <data name="errorNoID" xml:space="preserve">
+    <value>ಯಾವುದೇ ID ಅನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಲಾಗಿಲ್ಲ!</value>
+  </data>
+  <data name="errorUpdateFailed" xml:space="preserve">
+    <value>ನವೀಕರಣವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ಅಥವಾ ಸ್ಥಾಪಿಸುವಲ್ಲಿ ದೋಷ ಕಂಡುಬಂದಿದೆ.
+ಮರುಪ್ರಯತ್ನಿಸಲು "ಹೌದು" ಅಥವಾ ಹಸ್ತಚಾಲಿತವಾಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು "ಇಲ್ಲ" ಒತ್ತಿರಿ.</value>
+  </data>
+  <data name="firstTimeRun" xml:space="preserve">
+    <value>ಸಹಾಯ ಬೇಕೇ?</value>
+  </data>
+  <data name="firstTimeRunText" xml:space="preserve">
+    <value>ನೀವು ಕೈಪಿಡಿಯನ್ನು ತೆರೆಯಲು ಬಯಸುವಿರಾ?
+ಸಹಾಯ -&gt; ಕೈಪಿಡಿಯನ್ನು ತೆರೆಯಿರಿ ಅಥವಾ F1 ಅನ್ನು ಒತ್ತುವ ಮೂಲಕ ನೀವು ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಅದನ್ನು ತೆರೆಯಬಹುದು.</value>
+  </data>
+  <data name="information" xml:space="preserve">
+    <value>ಮಾಹಿತಿ</value>
+  </data>
+  <data name="statusConnected" xml:space="preserve">
+    <value>ಸಂಪರ್ಕಗೊಂಡಿದೆ</value>
+  </data>
+  <data name="statusConnecting" xml:space="preserve">
+    <value>ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ...</value>
+  </data>
+  <data name="statusConnectionFailed" xml:space="preserve">
+    <value>ಸಂಪರ್ಕ ವಿಫಲವಾಗಿದೆ (ಡಿಸ್ಕಾರ್ಡ್ ಚಾಲನೆಯಲ್ಲಿದೆಯೇ?)</value>
+  </data>
+  <data name="statusDisconnected" xml:space="preserve">
+    <value>ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ</value>
+  </data>
+  <data name="statusError" xml:space="preserve">
+    <value>ಸಂಪರ್ಕ ದೋಷ (ತಪ್ಪು ID?)</value>
+  </data>
+  <data name="errorInvalidURL" xml:space="preserve">
+    <value>ಅಮಾನ್ಯವಾದ URL ಅನ್ನು ಬಟನ್(ಗಳು) ಗಾಗಿ ನಿರ್ದಿಷ್ಟಪಡಿಸಲಾಗಿದೆ ಅಥವಾ ಪಠ್ಯವು ತುಂಬಾ ಉದ್ದವಾಗಿದೆ!</value>
+  </data>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>ಇಂಟರ್ನೆಟ್‌ಗೆ ಸಂಪರ್ಕಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ!</value>
+  </data>
+  <data name="noUpdatesFound" xml:space="preserve">
+    <value>ಯಾವುದೇ ನವೀಕರಣಗಳು ಕಂಡುಬಂದಿಲ್ಲ!</value>
+  </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಫೈಲ್ ದೋಷಪೂರಿತವಾಗಿದೆ.
+ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಮರುಹೊಂದಿಸಲು ಹೌದು ಒತ್ತಿರಿ, ತೊರೆಯಲು ಇಲ್ಲ ಒತ್ತಿರಿ.</value>
+  </data>
+  <data name="errorInvalidPresetFile" xml:space="preserve">
+    <value>preset ಆಮದು ಮಾಡಿಕೊಳ್ಳಲು ವಿಫಲವಾಗಿದೆ; ಫೈಲ್ ಕಾಣೆಯಾಗಿದೆ, ದೋಷಪೂರಿತವಾಗಿದೆ ಅಥವಾ ಸರಿಯಾಗಿ ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಲಾಗಿಲ್ಲ.</value>
+  </data>
+  <data name="askAnalyticsConsent" xml:space="preserve">
+    <value>ನಿಮ್ಮ ಬಳಕೆಯ ವಿಶ್ಲೇಷಣೆಯನ್ನು ಡೆವಲಪರ್‌ಗೆ ಕಳುಹಿಸಲು ನೀವು CustomRP ಗೆ ಅನುಮತಿಸುತ್ತೀರಾ?
+(ಎಲ್ಲಾ ಡೇಟಾವನ್ನು ವೈಯಕ್ತಿಕಗೊಳಿಸಲಾಗಿದೆ.)</value>
+  </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಉಳಿಸುವಾಗ ದೋಷ ಸಂಭವಿಸಿದೆ:</value>
+  </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>ದಯವಿಟ್ಟು ನಿಮ್ಮ ಆಂಟಿವೈರಸ್ ವಿನಾಯಿತಿಗಳಿಗೆ "{0}" ಮಾರ್ಗವನ್ನು ಸೇರಿಸಿ. ಈ ದೋಷ ಮುಂದುವರಿದರೆ CustomRP ಅನ್ನು ಮರುಸ್ಥಾಪಿಸಿ.</value>
+  </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>ಚಿತ್ರದ URL ತುಂಬಾ ಉದ್ದವಾಗಿದೆ!</value>
+  </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>startup ಶಾರ್ಟ್‌ಕಟ್ ಅನ್ನು ಸೇರಿಸಲು ಅಥವಾ ತೆಗೆದುಹಾಕಲು ವಿಫಲವಾಗಿದೆ:</value>
+  </data>
+</root>

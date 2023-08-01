@@ -503,6 +503,14 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "ಕನ್ನಡ",
+                    EnglishName = "Kannada",
+                    Code = "kn",
+                    Translators = new Person[] {
+                        new Person { Name = "Naagu", Url = "https://github.com/NaaguYT/" },
+                    }
+                },
+                new Language {
                     Name = "한국어",
                     EnglishName = "Korean",
                     Code = "ko",
@@ -802,6 +810,7 @@ namespace CustomRPC
             LanguageProgress["id"] = "100";
             LanguageProgress["it"] = "100";
             LanguageProgress["ja"] = "100";
+            LanguageProgress["kn"] = "100";
             LanguageProgress["ko"] = "100";
             LanguageProgress["ku"] = "100";
             LanguageProgress["lv"] = "100";
