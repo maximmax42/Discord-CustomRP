@@ -179,7 +179,7 @@
     <value>206, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>بازشدن برنامه همراه ویندوز</value>
+    <value>بازشدن برنامه وقتی کامپیوتر روشن میشود</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>206, 22</value>
@@ -215,7 +215,7 @@
     <value>206, 22</value>
   </data>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>حالت شب</value>
+    <value>حالت تاریک</value>
   </data>
   <data name="toolStripSeparatorSettings3.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 6</value>
@@ -263,7 +263,7 @@
     <value>187, 22</value>
   </data>
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
-    <value>پشتیبانان</value>
+    <value>حمایت کنندگان</value>
   </data>
   <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>187, 22</value>
@@ -278,7 +278,7 @@
     <value>187, 22</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>بررسی برای بروزرسانی...</value>
+    <value>بررسی برای بروزرسانی ها ...</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>187, 22</value>
@@ -290,7 +290,7 @@
     <value>48, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>بروزرسانی</value>
+    <value>نصب بروزرسانی</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
     <value>بروزرسانی پرسنس</value>
@@ -311,7 +311,7 @@
     <value>نرم افزار های متصل به دیسکورد را قطع می کند. توجه کنید که ممکن است کمی طول بکشد.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>آیدی اپلیکیشن شما از سایت دیسکورد دولوپر گرفتید.</value>
+    <value>کد یا آیدی اپلیکیشن شما که از سایت دیسکورد دولوپر دریافت کرده اید.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
     <value>اولین خط در پرسنس.</value>
@@ -320,7 +320,7 @@
     <value>دومین خط در پرسنس.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>اسم فایل در دیسکورد دولوپر برای عکس کوچک یا لینک عکس.</value>
+    <value>اسم فایل برای قرار دادن در جایگاه عکس کوچک.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>متنی که وقتی رو عکس کوچک کلیک میشود یا به جای نبود عکس نشان داده میشود.</value>
@@ -329,7 +329,7 @@
     <value>متنی که وقتی رو عکس بزرگ کلیک میشود یا به جای نبود عکس نشان داده میشود.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>اسم فایل در دیسکورد دولوپر برای عکس بزرگ یا لینک عکس.</value>
+    <value>اسم فایل برای قرار دادن در جایگاه عکس بزرگ.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 14</value>
@@ -356,10 +356,10 @@
     <value>57, 18</value>
   </data>
   <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>هیچی</value>
+    <value>هیچکدام</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>مهرزمانی فعال نشده</value>
+    <value>برچسب زمانی روشن نمی باشد</value>
   </data>
   <data name="radioButtonStartTime.Location" type="System.Drawing.Point, System.Drawing">
     <value>160, 27</value>
@@ -386,11 +386,11 @@
     <value>زمان فعلی شما را در قالب ساعت 24 ساعته نشان میدهد</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>مهرزمانی را تنظیم می نماید که تمام متن بالای زمان نشان داده شود
+    <value>برچسب زمانی را تنظیم می نماید که تمام متن بالای زمان نشان داده شود
 ساعت استاتوس شما 24 ساعت حداکثر کار میکند بعد از 24 ساعت از صفر شروع بکار خواهد کرد</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>تعداد افراد هایی که در مهمونی شما هستند و بعد از متن State به نمایش در می آید
+    <value>تعداد افراد هایی که در گروه شما هستند و بعد از متن State به نمایش در می آید
 برا اینکه تغییری صورت گیرد باید هر دو کادر بیشتر از رقم 0 باشد</value>
   </data>
   <data name="radioButtonCustom.Location" type="System.Drawing.Point, System.Drawing">
@@ -400,7 +400,7 @@
     <value>126, 18</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>مهرزمانی سفارشی</value>
+    <value>برچسب زمانی دلخواه</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
     <value>این به شما نشان میدهد که چقدر از زمان انتخاب شده شما گذشته یا باقیمانده است</value>

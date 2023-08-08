@@ -369,6 +369,7 @@ namespace CustomRPC
                     Code = "fa",
                     Translators = new Person[] {
                         new Person { Name = "Mohammad Mahdi", Url = "https://mo-mahdihh.ir/" },
+                        new Person { Name = "Nima", Url = "https://github.com/nima-globals/" },
                         new Person { Name = "Sunnystew" },
                     }
                 },

@@ -121,14 +121,14 @@
     <value>خطا</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>هیچ آیدی اپلیکیشنی یافت نشد!</value>
+    <value>هیچ آیدی اپلیکیشنی مشخص نشده است!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
     <value>این یک خطای در دانلود یا نصب کردن بروزرسانی هست 
 روی "Yes" برای تلاش مجدد یا "No" برای دانلود به صورت دستی</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>اولین زمان آغاز</value>
+    <value>به کمک نیاز دارید؟</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>آیا تمایل دارید راهنما را باز کنید؟
@@ -144,7 +144,7 @@
     <value>در حال اتصال...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>اتصال انجام نشد(آیا دیسکورد باز است؟)</value>
+    <value>اتصال انجام نشد(آیا دیسکورد در حال اجرا است؟)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>اتصال قطع شد</value>
