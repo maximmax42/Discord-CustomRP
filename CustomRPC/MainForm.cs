@@ -132,7 +132,7 @@ namespace CustomRPC
 
         /// <summary>
         /// A part of the URL path for docs.customrp.xyz links used in the app.
-        /// Has the form of empty string if the app is in English or the docs aren't translated to the current UI language, "v/[locale]/" or "v/[locale]-[country]/"
+        /// Has the form of empty string if the app is in English or the docs aren't translated to the current UI language, "v/[locale]/" or "v/[locale]-[country]/" otherwise.
         /// </summary>
         string localeUrl = "";
 

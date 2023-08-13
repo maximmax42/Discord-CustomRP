@@ -65,6 +65,7 @@
             this.sampleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openTheManualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.faqToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gitHubPageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparatorHelp1 = new System.Windows.Forms.ToolStripSeparator();
             this.supportersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -355,6 +356,7 @@
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.openTheManualToolStripMenuItem,
+            this.faqToolStripMenuItem,
             this.gitHubPageToolStripMenuItem,
             this.toolStripSeparatorHelp1,
             this.supportersToolStripMenuItem,
@@ -371,6 +373,13 @@
             resources.ApplyResources(this.openTheManualToolStripMenuItem, "openTheManualToolStripMenuItem");
             this.openTheManualToolStripMenuItem.Tag = "https://docs.customrp.xyz/setting-up";
             this.openTheManualToolStripMenuItem.Click += new System.EventHandler(this.OpenSite);
+            // 
+            // faqToolStripMenuItem
+            // 
+            this.faqToolStripMenuItem.Name = "faqToolStripMenuItem";
+            resources.ApplyResources(this.faqToolStripMenuItem, "faqToolStripMenuItem");
+            this.faqToolStripMenuItem.Tag = "https://docs.customrp.xyz/faq";
+            this.faqToolStripMenuItem.Click += new System.EventHandler(this.OpenSite);
             // 
             // gitHubPageToolStripMenuItem
             // 
@@ -1023,6 +1032,7 @@
         private System.Windows.Forms.ToolStripMenuItem supportersToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem testSupporterToolStripMenuItem;
         private System.Windows.Forms.RadioButton radioButtonPresence;
+        private System.Windows.Forms.ToolStripMenuItem faqToolStripMenuItem;
     }
 }
 

@@ -495,4 +495,7 @@
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>Показывает, сколько времени прошло после подключения или обновления статуса.</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Часто задаваемые вопросы</value>
+  </data>
 </root>
