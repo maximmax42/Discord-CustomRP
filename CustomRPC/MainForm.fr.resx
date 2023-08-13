@@ -465,4 +465,7 @@ Pour prendre effet, les deux champs doivent être supérieurs à 0.</value>
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
     <value>Supporters</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Question posées fréquement</value>
+  </data>
 </root>

@@ -314,4 +314,7 @@
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>연결되거나 활동 상태가 업데이트되고 얼마나 지났는지를 표시합니다.</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>자주 묻는 질문</value>
+  </data>
 </root>

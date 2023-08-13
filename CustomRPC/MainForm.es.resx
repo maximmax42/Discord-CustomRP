@@ -453,4 +453,7 @@ Para que tome efecto, ambos campos deben ser mayores que 0.</value>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>de</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Preguntas Más Frecuentes</value>
+  </data>
 </root>

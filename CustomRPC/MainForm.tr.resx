@@ -498,4 +498,7 @@ Etkili olması için, iki alan da 0'dan büyük olmadılır.</value>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>Son bağlandığınızdan ya da durumu güncellediğinizden beri ne kadar süre geçtiğini gösterir.</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sıkça Sorulan Sorular</value>
+  </data>
 </root>

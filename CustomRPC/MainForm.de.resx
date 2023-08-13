@@ -465,4 +465,7 @@ Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>von</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Häufig gestellte Fragen</value>
+  </data>
 </root>

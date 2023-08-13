@@ -471,4 +471,7 @@ Voimaantulo edellyttää, että molempien kenttien arvo on suurempi kuin 0.</val
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>/</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Usein Kysyttyjä Kysymyksiä</value>
+  </data>
 </root>

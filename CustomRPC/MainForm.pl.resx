@@ -405,4 +405,7 @@ Jeżeli ma mieć jakikolwiek efekt, obydwa pola muszą być większe od 0.</valu
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>Pokazuje ile czasu upłynęło odkąd ostatnio włączyłeś lub zmieniłeś status.</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Często zadawane pytania</value>
+  </data>
 </root>

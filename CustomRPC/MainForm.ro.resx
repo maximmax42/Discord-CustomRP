@@ -314,4 +314,7 @@ Pentru a intra în vigoare, ambele câmpuri trebuie să fie mai mari de 0.</valu
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>Afișează cât timp a trecut de la ultima conectare sau de la actualizarea prezenței.</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Întrebări frecvente</value>
+  </data>
 </root>
