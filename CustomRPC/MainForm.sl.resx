@@ -471,4 +471,7 @@ Za veljavo morata biti obe polji večji od 0.</value>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>od</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pogosta vprašanja</value>
+  </data>
 </root>
