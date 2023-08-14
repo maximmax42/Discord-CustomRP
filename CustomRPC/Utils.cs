@@ -568,8 +568,8 @@ namespace CustomRPC
                     EnglishName = "Burmese",
                     Code = "my",
                     Translators = new Person[] {
-                        new Person { Name = "Bad Infer_#0069" },
-                        new Person { Name = "BBbear#7149" }
+                        new Person { Name = "infer_", Url = "http://rentry.org/infer" },
+                        new Person { Name = "bearinthewonderland" }
                     }
                 },
                 new Language {
