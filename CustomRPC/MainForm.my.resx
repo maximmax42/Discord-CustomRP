@@ -118,173 +118,125 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>နောက်တစ်ကြိမ်ဖွင့်ရန် app ကိုနှစ်ကြိမ်နှိပ်၍ ထွက်ရန် ညာခလုတ်ကို နှိပ်ပါ</value>
+    <value>နောက်တစ်ကြိမ်ဖွင့်ရန် app ကိုနှစ်ချက်နှိပ်၍ ထွက်ရန် right-click ကို နှိပ်ပါ</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>App ကို tray ထဲတွင် run မည်</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
+    <value>app သည် tray တွင် ဆက်လက် run နေပါမည်</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
-    <value>ဖွင့်သည်</value>
-  </data>
-  <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 6</value>
-  </data>
-  <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
+    <value>ဖွင့်ပါ</value>
   </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
-    <value>ပြန်လည်ချိတ်ဆက်ပါ</value>
-  </data>
-  <data name="trayMenuDisconnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
-  </data>
-  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 6</value>
-  </data>
-  <data name="trayMenuQuit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
+    <value>ပြန်ချိတ်</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
-    <value>ထွက်သည်</value>
+    <value>ထွက်မည်</value>
   </data>
-  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 104</value>
-  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 22</value>
+    <value>270, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>ကြိုတင်သတ်မှတ်ချက်ကို load မည်</value>
+    <value>Save ထားသော data ကို load မည်</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 22</value>
+    <value>270, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>ကြိုတင်သတ်မှတ်ချက်ကို save မည်</value>
+    <value>Data တေကို save မည်</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>263, 6</value>
+    <value>267, 6</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 22</value>
+    <value>270, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>ကြိုတင်သတ်မှတ်ချက်ကို Upload မည်</value>
+    <value>Assets များကို Upload မည်</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>263, 6</value>
+    <value>267, 6</value>
   </data>
   <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 22</value>
+    <value>270, 22</value>
   </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>ထွက်သည်</value>
+    <value>ထွက်မည်</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>231, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Computer စတင်လျှင် Run ပါ</value>
+    <value>Computer စလျှင် Run ပါ</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>231, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>နောက်ခံတွင် စတင်သည်</value>
+    <value>Computer စလျှင် နောက်ခံ မှာ run ပါ</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>231, 22</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
     <value>အလိုအလျောက်ချိတ်ဆက်ပါ</value>
   </data>
   <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 6</value>
+    <value>228, 6</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>231, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Update များကို စစ်ဆေးပါ</value>
+    <value>Update အသစ် စစ်ဆေးပါ</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>231, 22</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>စိစစ်ချက်ကို ခွင့်ပြုပါ</value>
+    <value>စိစစ်ချက်များ ခွင့်ပြုပါ</value>
   </data>
   <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 6</value>
+    <value>228, 6</value>
   </data>
   <data name="darkModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>231, 22</value>
   </data>
   <data name="toolStripSeparatorSettings3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 6</value>
+    <value>228, 6</value>
   </data>
   <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
     <value>နဂိုပုံစံ</value>
   </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>231, 22</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>ဘာသာစကား</value>
   </data>
-  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 20</value>
-  </data>
-  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>ဆက်တင်များ</value>
-  </data>
-  <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
-  </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
     <value>Manual ကိုဖွင့်မည်</value>
   </data>
-  <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
-  </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>GitHub စာမျက်နှာ</value>
+    <value>GitHub ကိုဖွင့်မည်</value>
   </data>
-  <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 6</value>
-  </data>
-  <data name="supportersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
-  </data>
-  <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>ထောက်ပံ့ပေးသူများ</value>
   </data>
   <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
     <value>ဘာသာပြန်များ</value>
   </data>
-  <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 6</value>
-  </data>
-  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
-  </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>Updates များအတွက် စစ်ဆေးပါ...</value>
   </data>
-  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
-  </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>အကြောင်းအရာ...</value>
+    <value>CustomRP အကြောင်း...</value>
   </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 20</value>
+    <value>83, 20</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>ကူညီပါ</value>
+    <value>အကူအညီရယူရန်</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>83, 20</value>
@@ -299,28 +251,28 @@
     <value>151, 24</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>လုပ်ဆောင်ချက်ကို update တင်ပါ</value>
+    <value>Status ကို update တင်မည်</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>လုပ်ဆောင်ချက်ကို updates တင်ပါ.</value>
+    <value>status ကို update တင်သည်</value>
   </data>
   <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>226, 50</value>
+    <value>222, 50</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
-    <value>ချိတ်ဆက်ပါ</value>
+    <value>ချိတ်မယ်</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
     <value>App ကိုသင့် ID ဖြင့် ချိတ်ဆက်ပါ</value>
   </data>
   <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>318, 50</value>
+    <value>310, 50</value>
   </data>
   <data name="buttonDisconnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 24</value>
+    <value>105, 24</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
-    <value>အဆက်အသွယ်ဖြတ်ပါ</value>
+    <value>ချိတ်ဆက်မှုကို ဖျက်မယ်</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
     <value>App ကို Discord မှ ထွက်ပါ. အချိန်အနည်းငယ်ကြာနိုင်သည်</value>
@@ -329,22 +281,22 @@
     <value>Discord Developers ဝက်ဆိုဒ်မှ app ၏ ID</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>လုပ်ဆောင်ချက်၏ ပထမအကြောင်း</value>
+    <value>status ၏ ပထမအကြောင်း</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>လုပ်ဆောင်ချက်၏ ဒုတိယအကြောင်း</value>
+    <value>status ၏ ဒုတိယအကြောင်း</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>ရုပ်ပုံသေး (သို့မဟုတ်) ရုပ်ပုံ URL ၏အမည်</value>
+    <value>ရုပ်ပုံသေး (သို့မဟုတ်) ရုပ်ပုံ ၏URL</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>ရုပ်ပုံသေး ရပ်တန့်ချိန်တွင်ပေါ်သည့်စာ</value>
+    <value>ရုပ်ပုံသေအပေါ် mouseရှိလျှင် ပြသထားတဲ့ စာသာ</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>ရုပ်ပုံကြီး ရပ်တန့်ချိန်တွင် ပေါ်သည့်စာ</value>
+    <value>ရုပ်ပုံကြီးအပေါ် mouseရှိလျှင် ပြသထားတဲ့ စာသာ</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>ရုပ်ပုံကြီး (သို့မဟုတ်) ရုပ်ပုံ URL ၏အမည်</value>
+    <value>ရုပ်ပုံကြီး (သို့မဟုတ်) ရုပ်ပုံ ၏URL</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>42, 14</value>
@@ -371,16 +323,16 @@
     <value>မရှိပါ</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>အချိန်သက်မှတ်ချက် များကို ဖွင့်ထားခြင်းမရှိပါ</value>
+    <value>အချိန်ပြသချက် များကို ဖွင့်ထားခြင်းမရှိပါ</value>
   </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 18</value>
+    <value>172, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>CustomRP စတင်ကတည်းက အချိန်ကို ပြသမည်</value>
+    <value>CustomRP စတင်ကတည်းက အချိန်</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>App ကို စတင်ကတည်းက အချိန်ကို ပြသမည်</value>
+    <value>App ကို စတင်ကတည်းက အချိန်</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>95, 18</value>
@@ -415,7 +367,7 @@
     <value>ခလုတ် ၁</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>သင့်ကိုယ်ရေးအကျဉ်းအောက် တွင်ပေါ်သည့် ခလုတ်နှစ်ခု ၏ပထမတစ်ခု</value>
+    <value>သင့် status တွင်ပေါ်သည့် ခလုတ်နှစ်ခု ၏ပထမတစ်ခု</value>
   </data>
   <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 14</value>
@@ -427,16 +379,25 @@
     <value>ပထမ ခလုတ်၏အောက် (သို့မဟုတ်) ပထမခလုတ်အစားပေါ်သည့် ဒုတိယ ခလုတ်</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>ခလုတ်ကို နှိပ်လိုက်သည်နှင့် user ကို URL သို့ခေါ်ဆောင်သွားမည်ဖြစ်သည်.</value>
+    <value>ခလုတ်ကို နှိပ်လျှင် ရောက်သွားမည် URL</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>ခလုတ်ကို နှိပ်လိုက်သည်နှင့် user ကို URL သို့ခေါ်ဆောင်သွားမည်ဖြစ်သည်.</value>
+    <value>ခလုတ်ကို နှိပ်လျှင် ရောက်သွားမည် URL</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
-    <value>ပထမခလုတ်၏အမှတ်တံဆိပ်</value>
+    <value>ပထမခလုတ်၏ label</value>
   </data>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
-    <value>ဒုတိယခလုတ်၏အမှတ်တံဆိပ်</value>
+    <value>ဒုတိယခလုတ်၏ label</value>
+  </data>
+  <data name="radioButtonPresence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 18</value>
+  </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>နောက်ဆုံး presence အသစ်ပြင်ဆင်ကတည်းက</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>presence ကို နောက်ဆုံး ပြင်ဆင်ခဲ့ကတည်းက အချိန်ဘယ်လောက် ကုန်လွန်သွားတယ်ဆိုတာ ပြပါသည်။</value>
   </data>
   <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
     <value>16, 14</value>
