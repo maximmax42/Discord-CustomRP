@@ -459,4 +459,7 @@ Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>Open</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Veel Gestelde Vragen</value>
+  </data>
 </root>

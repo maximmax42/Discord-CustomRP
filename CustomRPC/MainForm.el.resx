@@ -474,4 +474,7 @@
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>Δείχνει πόσος χρόνος έχει περάσει από την τελευταία φορά που συνδεθήκατε ή ενημερώσατε την παρουσία.</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Συχνές Ερωτήσεις που έχουν Απαντηθεί</value>
+  </data>
 </root>

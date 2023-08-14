@@ -482,4 +482,7 @@
   <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>الأسئلة المتكررة</value>
+  </data>
 </root>
