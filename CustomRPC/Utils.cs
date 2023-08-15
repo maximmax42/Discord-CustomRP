@@ -963,8 +963,8 @@ namespace CustomRPC
                 new Supporter {
                     Name = "Maracesh",
                     Url = "https://bio.link/maracesh",
-                    USDAmount = "3.68",
-                    AltAmount = "295.00 RUB"
+                    USDAmount = "5.77",
+                    AltAmount = "500.00 RUB"
                 },
                 new Supporter {
                     Name = "Crohnus1965",

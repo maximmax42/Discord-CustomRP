@@ -26,9 +26,9 @@ Custom Discord Rich Presence Manager for Windows 7+. Some of its features are ru
 * [BennyKun](https://github.com/Benny-Kun) - $6.93 (0.00023698 BTC)
 * [GreenRosie](https://www.twitch.tv/greenrosie) - $6.00
 * [Bilal_786](https://discord.gg/zabPuE78ne) - $5.79 (5.80 EUR)
+* [Maracesh](https://bio.link/maracesh) - $5.77 (500.00 RUB)
 * [Eli404](https://linktr.ee/404femboy) - $5.09 (5.00 EUR)
 * [Kushgo](https://opensea.io/collection/worldtowers) - $5.00 (0.00313295 ETH)
-* [Maracesh](https://bio.link/maracesh) - $3.68 (295.00 RUB)
 * Lucid - $3.59 (300.00 RUB)
 * Yoshi - $3.28 (200.00 RUB)
 * Anonymous - $2.62 (0.00011304 BTC)
