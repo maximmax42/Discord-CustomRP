@@ -976,6 +976,12 @@ namespace CustomRPC
                     USDAmount = "24.05",
                     AltAmount = "2405.25 RUB"
                 },
+                new Supporter {
+                    Name = "umamidayo",
+                    Url = "https://www.roblox.com/users/6757996/profile",
+                    USDAmount = "152.67",
+                    AltAmount = "15000.00 RUB"
+                },
             };
 
             NonMonetarySupporters = new List<NonMonetarySupporter>
