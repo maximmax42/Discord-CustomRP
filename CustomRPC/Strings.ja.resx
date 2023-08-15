@@ -128,7 +128,7 @@
 "はい"を押して再試行するか、"いいえ"を押して手動でダウンロードします。</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>初回起動</value>
+    <value>お困りですか？</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>マニュアルを開きますか？

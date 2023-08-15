@@ -490,7 +490,7 @@
     <value>サポーター</value>
   </data>
   <data name="radioButtonPresence.Text" xml:space="preserve">
-    <value>前回のプレゼンスの更新から</value>
+    <value>前回のプレゼンスの更新からの経過時間</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>最後に接続またはプレゼンスを更新してからどれだけの時間が経過したかを表示します。</value>
