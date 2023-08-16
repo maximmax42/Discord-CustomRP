@@ -453,4 +453,7 @@
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>显示自上次的连接或更新状态以来所经过的时间。</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>常见问题与解答</value>
+  </data>
 </root>

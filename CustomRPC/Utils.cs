@@ -790,12 +790,12 @@ namespace CustomRPC
             LanguageProgress["my"] = "100";
             LanguageProgress["ca"] = "99";
             LanguageProgress["zh-hans"] = "99";
-            LanguageProgress["zh-hant"] = "99";
+            LanguageProgress["zh-hant"] = "100";
             LanguageProgress["hr"] = "99";
             LanguageProgress["cs"] = "99";
             LanguageProgress["da"] = "99";
             LanguageProgress["nl"] = "100";
-            LanguageProgress["et"] = "99";
+            LanguageProgress["et"] = "100";
             LanguageProgress["fil"] = "99";
             LanguageProgress["fi"] = "100";
             LanguageProgress["fr"] = "100";

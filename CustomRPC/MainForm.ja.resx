@@ -495,4 +495,7 @@
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>最後に接続またはプレゼンスを更新してからどれだけの時間が経過したかを表示します。</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>よくある質問</value>
+  </data>
 </root>

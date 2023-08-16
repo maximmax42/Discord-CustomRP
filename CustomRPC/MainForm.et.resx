@@ -477,4 +477,7 @@ Töötamiseks peavad mõlemad väljad olema suuremad kui 0.</value>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>/</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Korduma kippuvad küsimused</value>
+  </data>
 </root>
