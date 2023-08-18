@@ -386,7 +386,7 @@
     <value>小さい画像</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>大きい画像の右下に表示される画像。</value>
+    <value>大きい画像の右下に表示される小さい画像。</value>
   </data>
   <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
     <value>62, 14</value>

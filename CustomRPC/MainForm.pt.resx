@@ -438,4 +438,7 @@ Para funcionar, ambos os numero têm de ter um numero maior que 0.</value>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>de</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Perguntas frequentes</value>
+  </data>
 </root>
