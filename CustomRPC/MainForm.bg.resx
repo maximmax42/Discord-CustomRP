@@ -323,13 +323,13 @@
     <value>Промени богато присъствие</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Актуализира Rich Presence.</value>
+    <value>Актуализира богато присъствие.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>Свържи</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Свързва приложението със специфичния ID на зададеният Rich Presence.</value>
+    <value>Свързва приложението със специфичния ID на зададеното богато присъствие.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
     <value>Прекъсни</value>
@@ -341,13 +341,13 @@
     <value>ID на приложението от уебсайта на Discord Developers.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>Първи ред в Rich Presence.</value>
+    <value>Първи ред в присъствие.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>Втори ред в Rich Presence.</value>
+    <value>Втори ред в присъствие.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Име на предварително зададено малко изображение или връзка към изображение.</value>
+    <value>Име на малко изображение или връзка към изображение.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Tекст, показан при задържане на курсора върху малкото изображение.</value>
@@ -356,7 +356,7 @@
     <value>Текст, показан при задържане на курсора върху голямото изображение.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Име на предварително зададено голямо изображение или връзка към изображение.</value>
+    <value>Име на зададено голямо изображение или връзка към изображение.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 14</value>
@@ -467,5 +467,8 @@
   </data>
   <data name="trayMenuDisconnect.Text" xml:space="preserve">
     <value>Прекъсни връзката</value>
+  </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Постоянно Зададени Въпроси</value>
   </data>
 </root>

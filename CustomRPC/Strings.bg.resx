@@ -128,7 +128,7 @@
 Натиснете "Да", за да опитате отново или "Не" за да изтеглите ръчно.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Пускане за първи път</value>
+    <value>Нужда от помощ?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Искате ли да отворите ръководството?
@@ -166,7 +166,7 @@
 Натиснете Да, за да нулирате настройките, натиснете Не, за да излезете.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Неуспешно импортиране на предварително зададени настройки; файлът липсва, повреден е или не е неправилно форматиран.</value>
+    <value>Неуспешно импортиране на предварително зададени настройки; файлът липсва, е повреден или не е неправилно форматиран.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
     <value>Позволявате ли на CustomRP, да изпраща данни за използването на приложението към разработчика на приложението?
@@ -182,6 +182,6 @@
     <value>Връзката към изображението е твърде дълга!</value>
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
-    <value>Неуспешно добавяне или премахване на пряк път.</value>
+    <value>Неуспешно добавяне или премахване на пряк път:</value>
   </data>
 </root>
