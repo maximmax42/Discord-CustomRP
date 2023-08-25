@@ -714,6 +714,7 @@ namespace CustomRPC
                         new Person { Name = "YuuabyssSSID" },
                         new Person { Name = "SabbKor" },
                         new Person { Name = "OHMKUB" },
+                        new Person { Name = "toonnongaeoy" },
                         new Person { Name = "Game" }, //0 translations currently
                     }
                 },

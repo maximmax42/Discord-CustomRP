@@ -438,4 +438,7 @@
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>แสดงระยะเวลาที่ผ่านไปนับตั้งแต่ที่คุณเชื่อมต่อหรืออัปเดตการสถานะครั้งล่าสุด</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>คำถามที่พบบ่อย</value>
+  </data>
 </root>
