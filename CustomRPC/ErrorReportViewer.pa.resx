@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="buttonOK.Text" xml:space="preserve">
-    <value>ਠੀਕ</value>
+    <value>ਠੀਕ ਹੈ</value>
   </data>
   <data name="labelInfo.Text" xml:space="preserve">
-    <value>CustomRP ਪਿਛਲੇ ਸੈਸ਼ਨ ਵਿੱਚ ਨਿਮਨਲਿਖਤ ਅਣ-ਹੈਂਡਲਡ ਅਪਵਾਦ ਦੇ ਕਾਰਨ ਕਰੈਸ਼ ਹੋ ਗਿਆ ਹੈ:</value>
+    <value>ਪਿਛਲੇ ਸੈਸ਼ਨ ਵਿੱਚ CustomRP ਨੇ ਨਿਰਚਿਤ ਅਨ-ਸਾਬਜ਼ ਅਸਮਰੱਥ ਵੱਜੋਂ ਕ੍ਰੈਸ਼ ਹੋ ਗਈ ਹੈ:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ਰਿਪੋਰਟ ਗੜਬੜ</value>
+    <value>ਤਰੁੱਟੀ ਰਿਪੋਰਟ</value>
   </data>
 </root>
