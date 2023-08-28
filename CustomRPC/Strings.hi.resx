@@ -118,70 +118,70 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="error" xml:space="preserve">
-    <value>गलती</value>
+    <value>त्रुटि</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>कोई आईडी निर्दिष्ट नहीं!</value>
+    <value>कोई आईडी निर्दिष्ट नहीं की गई!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
-    <value>किसी अपडेट को डाउनलोड या इंस्टॉल करने में त्रुटि हुई थी।
-पुन: प्रयास करने के लिए "हां" दबाएं या मैन्युअल रूप से डाउनलोड करने के लिए "नहीं" दबाएं।</value>
+    <value>एक अपडेट डाउनलोड करने या इंस्टॉल करने में एक त्रुटि हुई थी।
+"हाँ" पर क्लिक करें या "नहीं" पर क्लिक करें आत्म से प्राप्त करने के लिए।</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>मदद की ज़रूरत है?</value>
+    <value>क्या आपको सहायता चाहिए?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>क्या आप मैनुअल खोलना चाहेंगे?
-आप इसे किसी भी समय हेल्प -&gt; मैनुअल खोलें या F1 दबाकर खोल सकते हैं।</value>
+आप कभी भी Help -&gt; Open the Manual जाकर या F1 दबाकर खोल सकते हैं।</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>जानकारी</value>
   </data>
   <data name="statusConnected" xml:space="preserve">
-    <value>जुड़े हुए</value>
+    <value>कनेक्टेड</value>
   </data>
   <data name="statusConnecting" xml:space="preserve">
     <value>कनेक्ट हो रहा है...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>कनेक्शन विफल (क्या Discord चल रहा है?)</value>
+    <value>कनेक्शन फ़ेल हो गया (क्या Discord चल रहा है?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
-    <value>डिस्कनेक्ट किया गया</value>
+    <value>डिस्कनेक्टेड</value>
   </data>
   <data name="statusError" xml:space="preserve">
     <value>कनेक्शन त्रुटि (गलत आईडी?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>बटन या टेक्स्ट के लिए निर्दिष्ट अमान्य URL बहुत लंबा है!</value>
+    <value>बटन(ओं) के लिए निर्दिष्ट URL अवैध है या पाठ बहुत लंबा है!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
-    <value>इंटरनेट से कनेक्ट नहीं हो सकता!</value>
+    <value>इंटरनेट से कनेक्ट नहीं किया जा सकता!</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
     <value>कोई अपडेट नहीं मिला!</value>
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
-    <value>सेटिंग्स फ़ाइल दूषित है।
-सेटिंग्स को रीसेट करने के लिए हाँ दबाएँ, बाहर निकलने के लिए नहीं दबाएँ।</value>
+    <value>सेटिंग्स फ़ाइल करप्ट है।
+सेटिंग्स को रीसेट करने के लिए Yes दबाएँ, बंद करने के लिए No दबाएँ।</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>प्रीसेट आयात करने में विफल; फ़ाइल या तो गुम है, दूषित है, या ठीक से स्वरूपित नहीं है।</value>
+    <value>प्रीसेट आयात करने में विफल; फ़ाइल या तो गायब है, करप्ट है, या सही ढंग से फ़ॉर्मेट नहीं है।</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>क्या आप CustomRP को डेवलपर को अपना उपयोग विश्लेषण भेजने की अनुमति देते हैं?
-(सभी डेटा प्रतिरूपित हैं।)</value>
+    <value>आपको अनुमति है कि CustomRP डेवलपर को आपका उपयोग एनालिटिक्स भेज सके?
+(सभी डेटा व्यक्तिगतता रहित होता है।)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
-    <value>सेटिंग सहेजते समय एक त्रुटि हुई:</value>
+    <value>सेटिंग्स को सहेजने में त्रुटि हुई:</value>
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>कृपया अपने एंटीवायरस के अपवादों में "{0}" पथ जोड़ें। यदि यह त्रुटि बनी रहती है तो CustomRP को पुनर्स्थापित करें।</value>
+    <value>कृपया अपने एंटीवायरस के अपवाद में "{0}" पथ जोड़ें। यदि यह त्रुटि बनी रहती है तो CustomRP पुनः स्थापित करें।</value>
   </data>
   <data name="errorInvalidImageURL" xml:space="preserve">
-    <value>छवि URL बहुत लंबा है!</value>
+    <value>छवि का URL बहुत लंबा है!</value>
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
-    <value>स्टार्टअप शॉर्टकट जोड़ने या निकालने में विफल रहा</value>
+    <value>स्टार्टअप शॉर्टकट जोड़ने या हटाने में विफल:</value>
   </data>
 </root>

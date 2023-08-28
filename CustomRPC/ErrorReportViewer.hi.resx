@@ -121,9 +121,9 @@
     <value>ठीक है</value>
   </data>
   <data name="labelInfo.Text" xml:space="preserve">
-    <value>कस्टमआरपी पिछले सत्र में निम्नलिखित हैंडल न किए गए अपवाद के कारण क्रैश हो गया है:</value>
+    <value>पिछले सत्र में CustomRP क्रैश हो गया है इस कारण से असंचित अप्रत्यक्ष कारण:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>त्रुटि की रिपोर्ट</value>
+    <value>त्रुटि रिपोर्ट</value>
   </data>
 </root>

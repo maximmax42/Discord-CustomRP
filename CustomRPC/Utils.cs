@@ -428,10 +428,10 @@ namespace CustomRPC
                     EnglishName = "Hindi",
                     Code = "hi",
                     Translators = new Person[] {
+                        MridunGupta,
                         new Person { Name = "regex", Url = "https://github.com/REGEX777" },
                         Julian,
                         new Person { Name = "mochiron desu" },
-                        MridunGupta,
                     }
                 },
                 new Language {
@@ -807,7 +807,7 @@ namespace CustomRPC
             LanguageProgress["de-ch"] = "99";
             LanguageProgress["el"] = "100";
             LanguageProgress["he"] = "99";
-            LanguageProgress["hi"] = "99";
+            LanguageProgress["hi"] = "100";
             LanguageProgress["hu"] = "99";
             LanguageProgress["is"] = "99";
             LanguageProgress["id"] = "99";

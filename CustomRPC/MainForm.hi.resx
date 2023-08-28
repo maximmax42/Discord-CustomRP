@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>इसे फिर से दिखाने के लिए आइकन पर डबल क्लिक करें, या बाहर निकलने के लिए राइट-क्लिक करें।</value>
+    <value>डबल क्लिक करें ताकि पुन: इसे दिखाया जा सके, या बंद करने के लिए राइट-क्लिक करें।</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
     <value>ऐप ट्रे में चलेगा।</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
-    <value>खुला हुआ</value>
+    <value>खोलें</value>
   </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
-    <value>रिकनेक्ट</value>
+    <value>पुनः कनेक्ट करें</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
-    <value>छोड़ना</value>
+    <value>बंद करें</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -143,7 +143,7 @@
     <value>226, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>प्रीसेट सहेजें</value>
+    <value>प्रीसेट सेव करें</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>223, 6</value>
@@ -152,7 +152,7 @@
     <value>226, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>अपनी चीज अपलोड करें</value>
+    <value>एसेट्स अपलोड करें</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>223, 6</value>
@@ -161,7 +161,7 @@
     <value>226, 22</value>
   </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>छोड़ना</value>
+    <value>बंद करें</value>
   </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 20</value>
@@ -179,13 +179,13 @@
     <value>185, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>छोटा करके स्टार्ट करे</value>
+    <value>छोटे में शुरू करें</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 22</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>ऑटो कनेक्ट</value>
+    <value>स्वचालित कनेक्ट</value>
   </data>
   <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
     <value>182, 6</value>
@@ -194,13 +194,13 @@
     <value>185, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>नई चीजो लिए जाँच करे</value>
+    <value>छोटे में शुरू करें</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 22</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>विश्लेषिकी की अनुमति दें</value>
+    <value>एनालिटिक्स की अनुमति दें</value>
   </data>
   <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
     <value>182, 6</value>
@@ -215,7 +215,7 @@
     <value>182, 6</value>
   </data>
   <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
-    <value>पहले से</value>
+    <value>डिफ़ॉल्ट</value>
   </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 22</value>
@@ -227,7 +227,7 @@
     <value>65, 20</value>
   </data>
   <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>समायोजन</value>
+    <value>सेटिंग्स</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
@@ -239,7 +239,7 @@
     <value>180, 22</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>गिटहब पेज</value>
+    <value>GitHub पेज</value>
   </data>
   <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
     <value>177, 6</value>
@@ -248,13 +248,13 @@
     <value>180, 22</value>
   </data>
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
-    <value>समर्थकों</value>
+    <value>समर्थक</value>
   </data>
   <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>अनुवादकों</value>
+    <value>अनुवादक</value>
   </data>
   <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
     <value>177, 6</value>
@@ -263,7 +263,7 @@
     <value>180, 22</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>अद्यतन के लिए जाँच...</value>
+    <value>अपडेट्स की जांच करें...</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
@@ -275,52 +275,52 @@
     <value>70, 20</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>मदद करना</value>
+    <value>सहायता</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>अद्यतन डाउनलोड करे</value>
+    <value>अपडेट डाउनलोड करें</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>अद्यतन गतिविधि</value>
+    <value>अपडेट प्रासेंस</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>गतिविधि अद्यतन करता है</value>
+    <value>प्रासेंस को अपडेट करें।</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
-    <value>जुडिये</value>
+    <value>कनेक्ट करें</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>एप्लिकेशन को सेट गतिविधि के साथ निर्दिष्ट आईडी से लिंक करता है।</value>
+    <value>आवेदन को निर्दिष्ट आईडी से संबंधित प्रासेंस के साथ लिंक करें।</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
-    <value>डिस्कनेक्ट</value>
+    <value>डिस्कनेक्ट करें</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>एप्लिकेशन को डिस्कॉर्ड से डिस्कनेक्ट करता है। कृपया ध्यान दें कि इसमें कुछ समय लग सकता है।</value>
+    <value>ऐप को Discord से डिस्कनेक्ट करें। कृपया ध्यान दें कि यह कुछ समय लग सकता है।</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>डिस्कॉर्ड डेवलपर्स साइट से ऐप की आईडी।</value>
+    <value>Discord डेवलपर साइट से एप्लिकेशन की आईडी।</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>गतिविधि में पहली लाईन।</value>
+    <value>प्रासेंस की पहली पंक्ति।</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>गतिविधि में दूसरी लाईन।</value>
+    <value>प्रासेंस की दूसरी पंक्ति।</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>छोटी इमेज या इमेज यूआरएल के लिए एसेट का नाम.</value>
+    <value>छोटे छवि के लिए संपत्ति का नाम या एक छवि URL।</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>छोटी छवि को मँडराते समय प्रदर्शित पाठ।</value>
+    <value>छोटे छवि पर होवर करते समय दिखाए गए टेक्स्ट।</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>बड़ी छवि को मँडराते समय प्रदर्शित पाठ।</value>
+    <value>बड़े छवि पर होवर करते समय दिखाए गए टेक्स्ट।</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>बड़ी छवि या छवि URL के लिए संपत्ति का नाम।</value>
+    <value>बड़े छवि के लिए संपत्ति का नाम या एक छवि URL।</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 14</value>
@@ -329,7 +329,7 @@
     <value>छोटी छवि</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>छवि जो बड़ी छवि के निचले दाएं कोने में दिखाई देती है।</value>
+    <value>बड़े छवि के निचले दाएं कोने में दिखाई देती है।</value>
   </data>
   <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
     <value>43, 14</value>
@@ -338,38 +338,38 @@
     <value>बड़ी छवि</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>छवि जो ऊपर सेट किए गए पाठ के लिए बाईं ओर दिखाई देती है।</value>
+    <value>पहले ऊपर सेट किए गए पाठ के बाएं ओर छवि दिखाई देती है।</value>
   </data>
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>74, 18</value>
   </data>
   <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>कोई भी नहीं</value>
+    <value>कोई नहीं</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>कोई टाइमस्टैम्प सक्षम नहीं है।</value>
+    <value>कोई टाइमस्टैम्प नहीं सक्षम।</value>
   </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>157, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>जब से CustomRP शुरू हुआ है</value>
+    <value>सिंस CustomRP शुरू हुआ</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>ऐप शुरू होने के बाद से समय दिखाता है।</value>
+    <value>ऐप की शुरुआत से कितना समय बित गया है दिखाता है।</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 18</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>आपका स्थानीय समय</value>
+    <value>आपका स्थानिक समय</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>आपके वर्तमान समय को 24 घंटे के प्रारूप में दिखाता है।</value>
+    <value>24-घंटे के प्रारूप में आपका वर्तमान समय दिखाता है।</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>स्थिति के लिए टाइमस्टैम्प सेट करता है, जो ऊपर दिए गए सभी टेक्स्ट के नीचे दिखाई देता है।
-स्टेटस टाइमर में 24 घंटे की सीमा होती है, जिसका अर्थ है कि 24 घंटे के बाद समय वापस 0:00 पर चला जाएगा।</value>
+    <value>प्रासेंस के लिए टाइमस्टैम्प सेट करता है, जो ऊपर के सभी पाठ के नीचे दिखाई देता है।
+स्थिति टाइमर की 24-घंटे की सीमा होती है, इसका मतलब है कि 24 घंटे के बाद समय 0:00 पर वापस जाएगा।</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
     <value>वर्तमान गतिविधि में सदस्यों की संख्या, यह गतिविधि में स्थिति फ़ील्ड के बगल में दिखता है।
@@ -382,7 +382,7 @@
     <value>कस्टम टाइमस्टैम्प</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
-    <value>दिखाता है कि नीचे निर्धारित तिथि को कितना समय बीत चुका है या शेष है।</value>
+    <value>निम्नलिखित तारीख से या उस दिन तक कितना समय बित गया है दिखात</value>
   </data>
   <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>33, 14</value>
@@ -391,7 +391,7 @@
     <value>बटन 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>दो बटनों में से पहला जो आपके प्रोफ़ाइल पॉपअप में आपकी स्थिति के नीचे और पूर्ण प्रोफ़ाइल में दाईं ओर दिखाई देता है।</value>
+    <value>दो बटनों में से पहला बटन जो आपके प्रोफ़ाइल पॉपअप में और पूरी प्रोफ़ाइल में दिखता है।</value>
   </data>
   <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>33, 14</value>
@@ -400,33 +400,36 @@
     <value>बटन 2</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>दूसरा बटन, जो पहले बटन के ठीक नीचे दिखाई देता है, या इसके बजाय, यदि पहला बटन सेट नहीं है।</value>
+    <value>दूसरा बटन, जो पहले बटन के नीचे सही ओर दिखता है, या यदि पहला बटन सेट नहीं है, तो उसके स्थान पर।</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>यूआरएल बटन क्लिक करने पर उपयोगकर्ता को ले जाएगा।</value>
+    <value>उपयोगकर्ता को क्लिक करने पर बटन उपयोगकर्ता को ले जाएगा URL।</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>यूआरएल बटन क्लिक करने पर उपयोगकर्ता को ले जाएगा।</value>
+    <value>उपयोगकर्ता को क्लिक करने पर बटन उपयोगकर्ता को ले जाएगा URL।</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
-    <value>पहले बटन का लेबल।</value>
+    <value>पहले बटन की लेबल।</value>
   </data>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
-    <value>दूसरे बटन का लेबल।</value>
+    <value>दूसरे बटन की लेबल।</value>
   </data>
   <data name="radioButtonPresence.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 18</value>
   </data>
   <data name="radioButtonPresence.Text" xml:space="preserve">
-    <value>पिछली उपस्थिति अद्यतन के बाद से</value>
+    <value>पिछले उपस्थिति के बाद से</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
-    <value>दिखाता है कि आपने पिछली बार उपस्थिति को कनेक्ट या अपडेट किए हुए कितना समय बीत चुका है।</value>
+    <value>दिखाता है कि कितना समय बीत गया है कि आपने अंतिम बार कनेक्ट किया या उपस्थिति को अपडेट किया।</value>
   </data>
   <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
     <value>19, 14</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
-    <value>का</value>
+    <value>में से</value>
+  </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>अक्सर पूछे जाने वाले प्रश्न</value>
   </data>
 </root>
