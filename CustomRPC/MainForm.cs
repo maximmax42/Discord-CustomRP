@@ -720,6 +720,14 @@ namespace CustomRPC
 
             Uri tempUri;
 
+            string Proxify(string key)
+            {
+                if (key != null)
+                    return Regex.Replace(key, "//((cdn)|(media))\\.discordapp\\.((com)|(net))/", "//customrp.xyz/proxy/");
+
+                return key;
+            };
+
             try
             {
                 if (Uri.TryCreate(settings.smallKey, UriKind.Absolute, out tempUri))
@@ -736,13 +744,8 @@ namespace CustomRPC
                     LargeImageText = settings.largeText,
                 };
 
-                // Is there a way to not write this code twice? I don't think so since strings are immutable.
-
-                if (rp.Assets.SmallImageKey != null)
-                    rp.Assets.SmallImageKey = Regex.Replace(rp.Assets.SmallImageKey, "//((cdn)|(media))\\.discordapp\\.((com)|(net))/", "//customrp.xyz/proxy/");
-
-                if (rp.Assets.LargeImageKey != null)
-                    rp.Assets.LargeImageKey = Regex.Replace(rp.Assets.LargeImageKey, "//((cdn)|(media))\\.discordapp\\.((com)|(net))/", "//customrp.xyz/proxy/"); ;
+                rp.Assets.SmallImageKey = Proxify(rp.Assets.SmallImageKey);
+                rp.Assets.LargeImageKey = Proxify(rp.Assets.LargeImageKey);
             }
             catch
             {
@@ -756,11 +759,18 @@ namespace CustomRPC
 
             buttonsList.Clear();
 
-            if (!settings.button1URL.Contains("://"))
-                settings.button1URL = ("https://" + settings.button1URL).Substring(0, Math.Min(textBoxButton1URL.MaxLength, settings.button1URL.Length));
+            string AddProtocol(string url)
+            {
+                string protocol = "https://";
 
-            if (!settings.button2URL.Contains("://"))
-                settings.button2URL = ("https://" + settings.button2URL).Substring(0, Math.Min(textBoxButton2URL.MaxLength, settings.button2URL.Length));
+                if (!url.Contains("://"))
+                    return (protocol + url).Substring(0, Math.Min(textBoxButton1URL.MaxLength, url.Length + protocol.Length));
+
+                return url;
+            }
+
+            settings.button1URL = AddProtocol(settings.button1URL);
+            settings.button2URL = AddProtocol(settings.button2URL);
 
             try
             {
