@@ -686,16 +686,12 @@ namespace CustomRPC
             // Add ZWS character if details or state textboxes start a no-break space character
             foreach (var paramBox in new[] { textBoxDetails, textBoxState })
             {
-                // U200B is 3 bytes long, so we need to make sure it will fit
-                if (paramBox.Text.StartsWith(U00A0) && StringTools.WithinLength(paramBox.Text, paramBox.MaxLength - 3))
+                if (paramBox.Text.StartsWith(U00A0) && paramBox.Text.Length < paramBox.MaxLength)
                     paramBox.Text = paramBox.Text.Insert(0, U200B);
                 // In case it doesn't fit but there's at least 2 space symbols, we can replace one of them with the zws
-                // U00A0 is 2 bytes, so that means it'll still require one additional byte
-                else if (paramBox.Text.StartsWith(U00A0 + U00A0) && StringTools.WithinLength(paramBox.Text, paramBox.MaxLength - 1))
+                else if (paramBox.Text.StartsWith(U00A0 + U00A0))
                     paramBox.Text = U200B + paramBox.Text.Substring(1);
-                // In case it still doesn't fit but there's at least 3 space symbols, we replace first 2 with zws
-                else if (paramBox.Text.StartsWith(U00A0 + U00A0 + U00A0))
-                    paramBox.Text = U200B + paramBox.Text.Substring(2);
+                // In case it still doesn't fit, why would you even use spaces then, 128 characters is a long string
             }
 
             if (settings.partySize > settings.partyMax)
@@ -1366,6 +1362,8 @@ namespace CustomRPC
         private void TrimTextBoxes(object sender, EventArgs e)
         {
             Control box = (Control)sender;
+            if (box.Text.StartsWith(U00A0))
+                return;
             box.Text = box.Text.Trim();
         }
 
