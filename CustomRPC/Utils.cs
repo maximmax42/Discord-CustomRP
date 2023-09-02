@@ -479,7 +479,8 @@ namespace CustomRPC
                     EnglishName = "Italian",
                     Code = "it",
                     Translators = new Person[] {
-                        new Person { Name = "DJD320" },
+                        new Person { Name = "DJD320" }, // + mine
+                        new Person { Name = "NEKO", Url = "https://www.youtube.com/@ilcanaledineko" },
                         new Person { Name = "Frin" },
                         new Person { Name = "Bay" },
                         Matthww,
@@ -811,7 +812,7 @@ namespace CustomRPC
             LanguageProgress["hu"] = "99";
             LanguageProgress["is"] = "99";
             LanguageProgress["id"] = "99";
-            LanguageProgress["it"] = "99";
+            LanguageProgress["it"] = "100";
             LanguageProgress["ja"] = "100";
             LanguageProgress["kn"] = "99";
             LanguageProgress["ko"] = "100";

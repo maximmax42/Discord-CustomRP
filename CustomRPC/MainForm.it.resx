@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>Fare un doppio clic sull'icona per mostrarla di nuovo, o cliccate con il tasto destro per uscire.</value>
+    <value>Clicca due volte sull'icona per mostrarla di nuovo, o clicca con il tasto destro per uscire.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
     <value>L'applicazione verrà eseguita nella tray.</value>
@@ -329,25 +329,25 @@
     <value>Disconnettiti</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Disconnette l'app da Discord. Si prega di prendere nota che potrebbe volerci un po' di tempo.</value>
+    <value>Disconnette l'app da Discord. Potrebbe volerci un po'.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>ID dell'applicazione dal sito degli sviluppatori di Discord.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>La prima linea nella presenza.</value>
+    <value>La prima linea della presenza.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>Seconda linea nella presenza.</value>
+    <value>Seconda linea della presenza.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
     <value>Nome della risorsa per l'immagine piccola o l'URL di un'immagine.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>Testo visualizzato quando si passa il mouse sull'immagine piccola.</value>
+    <value>Testo da visualizzare quando si passa il mouse sull'immagine piccola.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>Testo visualizzato quando si passa il mouse sull'immagine grande.</value>
+    <value>Testo da visualizzare quando si passa il mouse sull'immagine grande.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>Nome della risorsa per l'immagine grande o l'URL di un'immagine.</value>
@@ -374,7 +374,7 @@
     <value>71, 18</value>
   </data>
   <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>Nessuno</value>
+    <value>Niente</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
     <value>Nessun timestamp abilitato.</value>
@@ -398,21 +398,21 @@
     <value>Mostra l'ora attuale in formato 24 ore.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Imposta il tempo per lo stato, che viene mostrato sotto tutto il testo sopra.
-I timer di stato hanno un limite di 24 ore, il che significa che dopo 24 ore il tempo tornerà a 0:00.</value>
+    <value>Imposta il tempo per lo stato, che viene mostrato sotto il testo sopra.
+I timer di stato hanno un limite di 24 ore, dopo 24 ore il tempo tornerà a 0:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
     <value>Quantità di giocatori nel party corrente che appare accanto allo stato.
-Per avere effetto, entrambi i valori devono essere superiori a 0.</value>
+Perché funzioni, entrambi i valori devono essere superiori a 0.</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
     <value>143, 18</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>Tempo personalizzato</value>
+    <value>Timestamp personalizzato</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
-    <value>Mostra quanto tempo è passato o è rimasto fino alla data impostata di seguito.</value>
+    <value>Mostra quanto tempo è passato o è rimasto alla data impostata di seguito.</value>
   </data>
   <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 14</value>
@@ -430,7 +430,7 @@ Per avere effetto, entrambi i valori devono essere superiori a 0.</value>
     <value>Pulsante 2</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>Secondo pulsante, che appare proprio sotto il primo pulsante, o al suo posto, se il primo non è impostato.</value>
+    <value>Secondo pulsante, che appare proprio sotto il primo pulsante, o al posto del primo se non è impostato.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
     <value>URL a cui verrà indirizzato l'utente dopo aver fatto clic.</value>
@@ -461,5 +461,8 @@ Per avere effetto, entrambi i valori devono essere superiori a 0.</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>File</value>
+  </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Domande chieste spesso</value>
   </data>
 </root>

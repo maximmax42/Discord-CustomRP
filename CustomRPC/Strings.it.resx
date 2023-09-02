@@ -121,18 +121,18 @@
     <value>Errore</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>Nessun ID è stato specificato!</value>
+    <value>Nessun ID specificato!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
     <value>Si è verificato un errore durante il download o l'installazione di un aggiornamento.
-Premi "Sì" per riprovare o "No" per scaricare manualmente.</value>
+Premi "Sì" per riprovare o "No" per scaricarlo manualmente.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Prima esecuzione</value>
+    <value>Serve aiuto?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Vuoi aprire un manuale?
-Puoi aprirlo in qualsiasi momento andando su Help -&gt; Apri il manuale o premendo F1.</value>
+Puoi aprirlo in qualsiasi momento andando su Aiuto -&gt; Apri il manuale o premendo F1.</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>Informazioni</value>
@@ -153,7 +153,7 @@ Puoi aprirlo in qualsiasi momento andando su Help -&gt; Apri il manuale o premen
     <value>Errore di connessione (ID errato?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>URL non valido specificato per i pulsanti o il testo è troppo lungo!</value>
+    <value>URL non valido specificato per uno o più pulsanti oppure il testo è troppo lungo!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
     <value>Non riesco a connettermi a internet!</value>
@@ -166,7 +166,7 @@ Puoi aprirlo in qualsiasi momento andando su Help -&gt; Apri il manuale o premen
 Premi Sì per resettare le impostazioni oppure premi No per uscire.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Non ho potuto importare il preset; il file è mancante, corrotto o non formattato.</value>
+    <value>Non ho potuto importare il preset; il file è mancante, corrotto o non formattato nel modo corretto.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
     <value>Consenti a CustomRP di inviare le tue analisi di utilizzo allo sviluppatore?
