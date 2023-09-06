@@ -823,7 +823,7 @@ namespace CustomRPC
             LanguageProgress["ml"] = "99";
             LanguageProgress["no"] = "99";
             LanguageProgress["pa"] = "100";
-            LanguageProgress["fa"] = "99";
+            LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "100";
             LanguageProgress["pt"] = "100";
             LanguageProgress["pt-br"] = "99";
