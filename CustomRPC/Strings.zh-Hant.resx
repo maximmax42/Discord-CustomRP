@@ -121,7 +121,7 @@
     <value>錯誤</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>沒有指定 ID ！</value>
+    <value>沒有指定 ID！</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
     <value>下載或安裝更新時出錯。
@@ -144,16 +144,16 @@
     <value>連線中...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>連線失敗 （Discord 有打開嗎？）</value>
+    <value>連線失敗（有啟動 Discord 嗎？）</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>已取消連線</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>連線錯誤 （錯誤的ID？）</value>
+    <value>連線錯誤（錯誤的 ID？）</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>為按鈕指定的連結無效或字數太長了！</value>
+    <value>為按鈕指定的 URL 無效，或字數太長了！</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
     <value>無法連線至網路！</value>
@@ -169,11 +169,11 @@
     <value>預設檔案匯入失敗；可能是檔案遺失、損毀或格式錯誤。</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>您是否允許 CustomRP 將您的使用情形分析傳送給開發人員？
-（所有數據都是去識別化的。）</value>
+    <value>您是否允許 CustomRP 將您的使用情形傳送給開發人員？
+（所有資料都是去識別化的。）</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
-    <value>儲存以下設定時發生錯誤：</value>
+    <value>儲存下列設定時發生錯誤：</value>
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>請將路徑 "{0}" 加入至防病毒軟體的白名單中。如果此錯誤仍然存在，請重新安裝 CustomRP。</value>

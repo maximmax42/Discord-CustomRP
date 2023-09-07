@@ -762,7 +762,7 @@ namespace CustomRPC
                     }
                 },
                 new Language {
-                    Name = "汉语",
+                    Name = "简体中文",
                     EnglishName = "Simplified Chinese",
                     Code = "zh-hans",
                     Translators = new Person[] {
@@ -772,7 +772,7 @@ namespace CustomRPC
                     }
                 },
                 new Language {
-                    Name = "漢語",
+                    Name = "繁體中文",
                     EnglishName = "Traditional Chinese",
                     Code = "zh-hant",
                     Translators = new Person[] {

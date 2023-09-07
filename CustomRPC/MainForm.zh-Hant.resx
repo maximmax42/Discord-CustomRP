@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>雙擊圖標以再次顯示，或按右鍵離開。</value>
+    <value>雙擊圖示以再次顯示，或按右鍵離開。</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
     <value>程式將於工作列托盤中執行。</value>
@@ -184,7 +184,7 @@
     <value>連線</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>將本程式連接到具有設置狀態的指定 ID 。</value>
+    <value>將本程式連線至具有設定動態的指定 ID。</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
     <value>取消連線</value>
@@ -196,10 +196,10 @@
     <value>在 Discord Developers 網頁的應用程式 ID 。</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>動態欄的第一行。</value>
+    <value>動態文字的第一行。</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>動態欄的第二行。</value>
+    <value>動態文字的第二行。</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>滑鼠移動到小圖示時所顯示的文字。</value>
@@ -211,7 +211,7 @@
     <value>小圖示</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>大圖示右下角的小圖示。</value>
+    <value>顯示於大圖示右下角的圖示。</value>
   </data>
   <data name="labelLarge.Text" xml:space="preserve">
     <value>大圖示</value>
@@ -223,7 +223,7 @@
     <value>無</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>不顯示時間。</value>
+    <value>不顯示時間戳記。</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
     <value>自 CustomRP 開啟時</value>
@@ -232,18 +232,18 @@
     <value>顯示本程式自開啟後所經過的時間。</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>你的當地時間</value>
+    <value>您的當地時間</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>以 24 小時制顯示你的時間。</value>
+    <value>以 24 小時制顯示您當前的時間。</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>為動態設定時間戳，顯示在以上所有的文字下方。
-狀態計時器有 24 小時的限制，這表示 24 小時後時間將回到 0:00。</value>
+    <value>為狀態設定時間戳記，顯示在以上所有文字的下方。
+狀態計時器有 24 小時的限制，這表示 24 小時後，時間將重新從 0:00 開始。</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>在動態欄位旁邊顯示目前一起遊玩中的玩家數。
-為了確保生效，兩個數字都要大於 0 。</value>
+    <value>在動態欄位旁，顯示目前一起遊玩的玩家數量。
+如要生效，兩個數字都要大於 0。</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
     <value>自訂時間</value>
@@ -264,10 +264,10 @@
     <value>按鈕二會顯示在按鈕一底下，如果沒有設定按鈕一，將取代按鈕一的位置。</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>點擊按鈕一後所開啟的連結。</value>
+    <value>點擊按鈕一後，所開啟的連結。</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>點擊按鈕二後所開啟的連結。</value>
+    <value>點擊按鈕二後，所開啟的連結。</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
     <value>按鈕一顯示的文字。</value>
@@ -294,7 +294,7 @@
     <value>自動連線</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>允許分析</value>
+    <value>允許統計資訊</value>
   </data>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>黑暗模式</value>
@@ -312,7 +312,7 @@
     <value>自上次狀態更新以來</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
-    <value>顯示自上次的連接或更新狀態以來所經過的時間。</value>
+    <value>顯示自上次的連線或更新狀態以來所經過的時間。</value>
   </data>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>常見問題與解答</value>
