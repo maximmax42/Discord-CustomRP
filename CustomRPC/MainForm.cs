@@ -757,6 +757,9 @@ namespace CustomRPC
 
             string AddProtocol(string url)
             {
+                if (string.IsNullOrEmpty(url))
+                    return url;
+
                 string protocol = "https://";
 
                 if (!url.Contains("://"))
