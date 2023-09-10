@@ -763,7 +763,7 @@ namespace CustomRPC
                 },
                 new Language {
                     Name = "简体中文",
-                    EnglishName = "Simplified Chinese",
+                    EnglishName = "Chinese (simplified)",
                     Code = "zh-hans",
                     Translators = new Person[] {
                         westxlu,
@@ -773,7 +773,7 @@ namespace CustomRPC
                 },
                 new Language {
                     Name = "繁體中文",
-                    EnglishName = "Traditional Chinese",
+                    EnglishName = "Chinese (traditional)",
                     Code = "zh-hant",
                     Translators = new Person[] {
                         westxlu,
