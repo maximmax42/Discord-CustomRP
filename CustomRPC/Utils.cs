@@ -985,6 +985,12 @@ namespace CustomRPC
                     USDAmount = "152.67",
                     AltAmount = "15000.00 RUB"
                 },
+                new Supporter {
+                    Name = "JME",
+                    Url = "https://jme.bio/",
+                    USDAmount = "12.47",
+                    AltAmount = "0.00047618 BTC"
+                },
             };
 
             NonMonetarySupporters = new List<NonMonetarySupporter>
