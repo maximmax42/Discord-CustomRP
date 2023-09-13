@@ -696,6 +696,7 @@ namespace CustomRPC
                         new Person { Name = "leadattic_", Url = "https://leadattic.leadattic953788.repl.co/"}, // Axel
                         new Person { Name = "Rose Liljensten" },
                         new Person { Name = "James" },
+                        new Person { Name = "Marcus" },
                     }
                 },
                 new Language {
@@ -833,7 +834,7 @@ namespace CustomRPC
             LanguageProgress["sk"] = "99";
             LanguageProgress["sl"] = "100";
             LanguageProgress["es"] = "100";
-            LanguageProgress["sv"] = "99";
+            LanguageProgress["sv"] = "100";
             LanguageProgress["ta"] = "97";
             LanguageProgress["th"] = "100";
             LanguageProgress["tr"] = "100";
