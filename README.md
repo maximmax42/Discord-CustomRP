@@ -103,7 +103,7 @@ So far, the app supports these languages:
 * [Lithuanian](https://poeditor.com/projects/po_edit?id_language=96&per_page=100&id=409229) (thanks to [GreenRosie](https://www.twitch.tv/greenrosie) and Flix3ris)
 * [Macedonian](https://poeditor.com/projects/po_edit?id_language=99&per_page=100&id=409229) (thanks to falcon)
 * [Malayalam](https://poeditor.com/projects/po_edit?id_language=102&per_page=100&id=409229) (thanks to Strawberrywithchoco and veirvn)
-* [Norwegian](https://poeditor.com/projects/po_edit?id_language=116&per_page=100&id=409229) (thanks to Sveinung and Seth)
+* [Norwegian](https://poeditor.com/projects/po_edit?id_language=116&per_page=100&id=409229) (thanks to Sveinung, Seth and [Codiaz](https://codiaz.com/))
 * [Panjabi](https://poeditor.com/projects/po_edit?id_language=125&per_page=100&id=409229) (thanks to [Mridun Gupta](https://contact.mridungupta.eu.org))
 * [Persian](https://poeditor.com/projects/po_edit?id_language=126&per_page=100&id=409229) (thanks to [Mohammad Mahdi](https://mo-mahdihh.ir/), [Nima](https://github.com/nima-globals/) and Sunnystew)
 * [Polish](https://poeditor.com/projects/po_edit?id_language=127&per_page=100&id=409229) (thanks to Lol1112345.lol12345, Liso, Piter, Oscar, [Marcel Gustin](https://marcelgustin.de), Tofix.rs and KM127PL)

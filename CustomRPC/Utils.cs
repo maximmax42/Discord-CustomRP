@@ -193,6 +193,7 @@ namespace CustomRPC
         static List<NonMonetarySupporter> NonMonetarySupporters { get; set; }
 
         // List of people who appear in the lists more than one time
+        static Person Codiaz = new Person { Name = "Codiaz", Url = "https://codiaz.com/" };
         static Person DarlingChan = new Person { Name = "Darling-Chan", Url = "https://meap.gg/" };
         static Person dragonGRaf = new Person { Name = "dragon GRaf", Url = "https://github.com/dragonGRaf1312/mycustomrichpresence" };
         static Person falcon = new Person { Name = "falcon" };
@@ -292,7 +293,7 @@ namespace CustomRPC
                     EnglishName = "Danish",
                     Code = "da",
                     Translators = new Person[] {
-                        new Person { Name = "Codiaz", Url = "https://codiaz.com/" },
+                        Codiaz,
                         new Person { Name = "Sebastian Hviid" },
                         new Person { Name = "Tobias" }, // ***@gmail.com
                         new Person { Name = "wimblim" },
@@ -591,6 +592,7 @@ namespace CustomRPC
                     Translators = new Person[] {
                         new Person { Name = "Sveinung" },
                         new Person { Name = "Seth" },
+                        Codiaz
                     }
                 },
                  new Language {
@@ -797,7 +799,7 @@ namespace CustomRPC
             LanguageProgress["zh-hant"] = "100";
             LanguageProgress["hr"] = "99";
             LanguageProgress["cs"] = "99";
-            LanguageProgress["da"] = "99";
+            LanguageProgress["da"] = "100";
             LanguageProgress["nl"] = "100";
             LanguageProgress["et"] = "100";
             LanguageProgress["fil"] = "99";
@@ -822,7 +824,7 @@ namespace CustomRPC
             LanguageProgress["lt"] = "99";
             LanguageProgress["mk"] = "99";
             LanguageProgress["ml"] = "99";
-            LanguageProgress["no"] = "99";
+            LanguageProgress["no"] = "100";
             LanguageProgress["pa"] = "100";
             LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "100";

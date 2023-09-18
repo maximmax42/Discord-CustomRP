@@ -459,4 +459,7 @@ For å aktivere, så må begge feltene være mer en 0.</value>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>av</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ofte Stilte Spørsmål</value>
+  </data>
 </root>
