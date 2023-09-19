@@ -910,8 +910,8 @@ namespace CustomRPC
                 },
                 new Supporter(
                     dragonGRaf,
-                    USDAmount: "30.00",
-                    AltAmount: "1949.00 RUB"
+                    USDAmount: "45.00",
+                    AltAmount: "1949.00 RUB + 15.00 USDT"
                 ),
                 new Supporter {
                     Name = "DIGITAREZ SPACE", // Josenrique
