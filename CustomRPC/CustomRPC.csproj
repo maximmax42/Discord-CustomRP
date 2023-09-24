@@ -1178,7 +1178,7 @@
       <Version>5.2.9</Version>
     </PackageReference>
     <PackageReference Include="Octokit">
-      <Version>7.1.0</Version>
+      <Version>8.0.0</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
