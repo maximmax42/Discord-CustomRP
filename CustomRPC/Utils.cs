@@ -198,7 +198,6 @@ namespace CustomRPC
         static Person dragonGRaf = new Person { Name = "dragon GRaf", Url = "https://github.com/dragonGRaf1312/mycustomrichpresence" };
         static Person falcon = new Person { Name = "falcon" };
         static Person GreenRosie = new Person { Name = "GreenRosie", Url = "https://www.twitch.tv/greenrosie" };
-        static Person iRetrozx = new Person { Name = "iRetrozx#7283", Url = "https://posted.adalo.com/iretrozx" };
         static Person Julian = new Person { Name = "Julian", Url = "https://julian-idl.codes/" };
         static Person MarcelGustin = new Person { Name = "Marcel Gustin", Url = "https://marcelgustin.de" };
         static Person Matthww = new Person { Name = "Matthww" };
@@ -208,6 +207,7 @@ namespace CustomRPC
         static Person TofixRs = new Person { Name = "Tofix.rs" };
         static Person Yoshi = new Person { Name = "Yoshi" };
         static Person westxlu = new Person { Name = "蘆筍 (aka westxlu)", Url = "https://linktr.ee/westxlu" };
+        static Person whoscanel = new Person { Name = "whoscanel", Url = "https://canel.cloud" }; // ex iRetrozx
 
         static Utils()
         {
@@ -313,7 +313,7 @@ namespace CustomRPC
                         new Person { Name = "Revax812" },
                         Yoshi,
                         new Person { Name = "Felix", Url = "https://github.com/fbrettnich" },
-                        iRetrozx,
+                        whoscanel,
                         new Person { Name = "Tom" },
                     }
                 },
@@ -441,7 +441,7 @@ namespace CustomRPC
                     Code = "hr",
                     Translators = new Person[] {
                         new Person { Name = "Monika" },
-                        iRetrozx,
+                        whoscanel,
                     }
                 },
                 new Language {
