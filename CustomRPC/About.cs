@@ -23,7 +23,7 @@ namespace CustomRPC
 
         private void OpenWebsite(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://www.customrp.xyz");
+            Utils.OpenInBrowser("https://www.customrp.xyz");
         }
     }
 }

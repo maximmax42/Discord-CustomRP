@@ -295,7 +295,7 @@ namespace CustomRPC
 
                 if (messageBox == DialogResult.Yes)
                     // Opens the setup manual
-                    Process.Start("https://docs.customrp.xyz/" + localeUrl + "setting-up");
+                    Utils.OpenInBrowser("https://docs.customrp.xyz/" + localeUrl + "setting-up");
 
                 settings.firstStart = false;
                 Utils.SaveSettings();
@@ -545,7 +545,7 @@ namespace CustomRPC
                     if (result == DialogResult.Yes)
                         continue;
                     else if (result == DialogResult.No)
-                        Process.Start(latestRelease.Assets[fileType].BrowserDownloadUrl);
+                        Utils.OpenInBrowser(latestRelease.Assets[fileType].BrowserDownloadUrl);
 
                     downloadUpdateToolStripMenuItem.Enabled = true;
                     downloadUpdateToolStripMenuItem.Text = res.GetString("downloadUpdateToolStripMenuItem.Text");
@@ -1088,7 +1088,7 @@ namespace CustomRPC
                 return;
             }
 
-            Process.Start("https://discord.com/developers/applications/" + settings.id + "/rich-presence/assets");
+            Utils.OpenInBrowser("https://discord.com/developers/applications/" + settings.id + "/rich-presence/assets");
         }
 
         /// <summary>
@@ -1171,7 +1171,7 @@ namespace CustomRPC
             var item = (ToolStripMenuItem)sender;
             var url = (string)item.Tag;
 
-            Process.Start(url.Replace("docs.customrp.xyz/", "docs.customrp.xyz/" + localeUrl));
+            Utils.OpenInBrowser(url.Replace("docs.customrp.xyz/", "docs.customrp.xyz/" + localeUrl));
         }
 
         /// <summary>
@@ -1201,7 +1201,7 @@ namespace CustomRPC
                 { "URL", personUrl }
             });
 
-            Process.Start(personUrl);
+            Utils.OpenInBrowser(personUrl);
         }
 
         /// <summary>

@@ -1032,6 +1032,15 @@ namespace CustomRPC
         }
 
         /// <summary>
+        /// Opens given URL in the default browser.
+        /// </summary>
+        /// <param name="url">The URL to open.</param>
+        public static void OpenInBrowser(string url)
+        {
+            Process.Start("explorer", url);
+        }
+
+        /// <summary>
         /// A function to populate Settings -> Languages and Help -> Translators menus with languages and its translators.
         /// </summary>
         /// <param name="translatorsParent">Always <see cref="MainForm.translatorsToolStripMenuItem"/>.</param>
@@ -1134,7 +1143,7 @@ namespace CustomRPC
                 {
                     string txt = new System.ComponentModel.ComponentResourceManager(typeof(MainForm)).GetString("openToolStripMenuItem.Text");
 
-                    item.DropDownItems.Add(new ToolStripMenuItem(txt, null, (o, e) => Process.Start(nmSupporter.DonationUrl))
+                    item.DropDownItems.Add(new ToolStripMenuItem(txt, null, (o, e) => OpenInBrowser(nmSupporter.DonationUrl))
                     {
                         ToolTipText = nmSupporter.DonationUrl
                     });
