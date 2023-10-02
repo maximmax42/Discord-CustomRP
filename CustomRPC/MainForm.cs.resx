@@ -468,4 +468,7 @@ Aby se projevily, obě pole by měla být větší než 0.</value>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>z</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Často kladené otázky</value>
+  </data>
 </root>
