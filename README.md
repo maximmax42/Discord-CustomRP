@@ -68,8 +68,8 @@ So far, the app supports these languages:
 
 * [Arabic](https://poeditor.com/projects/po_edit?id_language=233&per_page=100&id=409229) (thanks to [FiberAhmed](https://github.com/FiberAhmed), ShadowlGamer, [karimawi](https://github.com/karimawiihttps://github.com/karimawii) and Bo Raghad)
 * [Bengali](https://poeditor.com/projects/po_edit?id_language=19&per_page=100&id=409229) (thanks to [mrimran](https://github.com/mr-Imran) and BlackBox-cmd)
-* [Bosnian](https://poeditor.com/projects/po_edit?id_language=22&per_page=100&id=409229) (thanks to Trax and Ammar)
 * [Belarusian](https://poeditor.com/projects/po_edit?id_language=18&per_page=100&id=409229) (thanks to Alibical)
+* [Bosnian](https://poeditor.com/projects/po_edit?id_language=22&per_page=100&id=409229) (thanks to Trax and Ammar)
 * [Bulgarian](https://poeditor.com/projects/po_edit?id_language=24&per_page=100&id=409229) (thanks to [Nikolay Shangov (aka 21)](https://discord.gg/hqvMaxBAew), TheLocalSlavic and [EmeraldCeat](https://discord.gg/reformedcityrp))
 * [Burmese](https://poeditor.com/projects/po_edit?id_language=25&per_page=100&id=409229) (thanks to [infer_](http://rentry.org/infer) and bearinthewonderland)
 * [Catalan](https://poeditor.com/projects/po_edit?id_language=26&per_page=100&id=409229) (thanks to [Darling-Chan](https://meap.gg/) and Alte87)
