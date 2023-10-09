@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -117,36 +117,284 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+  <data name="buttonUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 326</value>
+  </data>
+  <data name="buttonUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+  <data name="buttonUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="buttonUpdate.Text" xml:space="preserve">
     <value>Ano</value>
+  </data>
+  <data name="&gt;&gt;buttonUpdate.Name" xml:space="preserve">
+    <value>buttonUpdate</value>
+  </data>
+  <data name="&gt;&gt;buttonUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonUpdate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonUpdate.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+  <data name="pictureBoxLogo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBoxLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="pictureBoxLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="pictureBoxLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBoxLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxLogo.Name" xml:space="preserve">
+    <value>pictureBoxLogo</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxLogo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxLogo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="buttonNotNow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonNotNow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 326</value>
+  </data>
+  <data name="buttonNotNow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonNotNow.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="buttonNotNow.Text" xml:space="preserve">
     <value>Nyní ne</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="&gt;&gt;buttonNotNow.Name" xml:space="preserve">
+    <value>buttonNotNow</value>
+  </data>
+  <data name="&gt;&gt;buttonNotNow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonNotNow.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonNotNow.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelQuestion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelQuestion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 276</value>
+  </data>
   <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 14</value>
+    <value>232, 14</value>
+  </data>
+  <data name="labelQuestion.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="labelQuestion.Text" xml:space="preserve">
     <value>Chcete si stáhnout tuto aktualizaci?</value>
   </data>
+  <data name="&gt;&gt;labelQuestion.Name" xml:space="preserve">
+    <value>labelQuestion</value>
+  </data>
+  <data name="&gt;&gt;labelQuestion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelQuestion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelQuestion.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkBoxNeverNotify.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxNeverNotify.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 302</value>
+  </data>
   <data name="checkBoxNeverNotify.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 18</value>
+    <value>191, 18</value>
+  </data>
+  <data name="checkBoxNeverNotify.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="checkBoxNeverNotify.Text" xml:space="preserve">
     <value>Znovu nekontrolovat aktualizace</value>
+  </data>
+  <data name="&gt;&gt;checkBoxNeverNotify.Name" xml:space="preserve">
+    <value>checkBoxNeverNotify</value>
+  </data>
+  <data name="&gt;&gt;checkBoxNeverNotify.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxNeverNotify.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxNeverNotify.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelVersionsText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 14.25pt</value>
+  </data>
+  <data name="labelVersionsText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelVersionsText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 12</value>
+  </data>
+  <data name="labelVersionsText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 50</value>
+  </data>
+  <data name="labelVersionsText.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="labelVersionsText.Text" xml:space="preserve">
     <value>Současná verze:
 Nejnovější verze:</value>
   </data>
+  <data name="labelVersionsText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelVersionsText.Name" xml:space="preserve">
+    <value>labelVersionsText</value>
+  </data>
+  <data name="&gt;&gt;labelVersionsText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelVersionsText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelVersionsText.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelVersions.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 14.25pt</value>
+  </data>
+  <data name="labelVersions.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelVersions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 12</value>
+  </data>
+  <data name="labelVersions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 50</value>
+  </data>
+  <data name="labelVersions.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelVersions.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelVersions.Name" xml:space="preserve">
+    <value>labelVersions</value>
+  </data>
+  <data name="&gt;&gt;labelVersions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelVersions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelVersions.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonSkipUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 326</value>
+  </data>
   <data name="buttonSkipUpdate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 23</value>
+    <value>107, 23</value>
+  </data>
+  <data name="buttonSkipUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="buttonSkipUpdate.Text" xml:space="preserve">
     <value>Přeskočit tuto verzi</value>
   </data>
+  <data name="&gt;&gt;buttonSkipUpdate.Name" xml:space="preserve">
+    <value>buttonSkipUpdate</value>
+  </data>
+  <data name="&gt;&gt;buttonSkipUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSkipUpdate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonSkipUpdate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="htmlPanelChangelog.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="htmlPanelChangelog.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
+    <value>356, 166</value>
+  </data>
+  <data name="htmlPanelChangelog.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="htmlPanelChangelog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 68</value>
+  </data>
+  <data name="htmlPanelChangelog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 205</value>
+  </data>
+  <data name="htmlPanelChangelog.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;htmlPanelChangelog.Name" xml:space="preserve">
+    <value>htmlPanelChangelog</value>
+  </data>
+  <data name="&gt;&gt;htmlPanelChangelog.Type" xml:space="preserve">
+    <value>TheArtOfDev.HtmlRenderer.WinForms.HtmlPanel, HtmlRenderer.WinForms, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;htmlPanelChangelog.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;htmlPanelChangelog.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 14</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>384, 361</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Je k dispozici nová aktualizace</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>UpdatePrompt</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
