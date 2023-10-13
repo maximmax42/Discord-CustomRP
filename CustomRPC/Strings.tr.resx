@@ -121,14 +121,14 @@
     <value>Hata</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>Belirtilmiş kimlik yok!</value>
+    <value>Kimlik belirtilmemiş!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
     <value>Bir güncelleme indirilirken veya yüklenirken bir hata oluştu.
 Yeniden denemek için "Evet"e veya manuel olarak indirmek için "Hayır"a basın.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>İlk Çalıştırma</value>
+    <value>Yardım?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Kılavuzu açmak ister misiniz?
@@ -144,7 +144,7 @@ Yeniden denemek için "Evet"e veya manuel olarak indirmek için "Hayır"a basın
     <value>Bağlanılıyor...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Bağlantı başarısız (Discord halihazırda çalışıyor mu?)</value>
+    <value>Bağlantı başarısız (Discord çalışıyor mu?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>Bağlantı kesildi</value>
@@ -182,6 +182,6 @@ Ayarları sıfırlamak için Evet'e, çıkmak için Hayır'a basın.</value>
     <value>Resim URL'si çok uzun!</value>
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
-    <value>Bir başlangıç kısayolu ekleme yada silme başarısız oldu:</value>
+    <value>Başlangıç kısayolu ekleme ya da silme başarısız oldu:</value>
   </data>
 </root>

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>Tekrar göstermek için ikona çift tıklayın, ya da çıkmak için sağ tıklayın.</value>
+    <value>Tekrar göstermek için ikona çift tıklayın ya da çıkmak için sağ tıklayın.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
     <value>Uygulama sistem tepsisinde çalışacak.</value>
@@ -305,7 +305,7 @@
     <value>216, 22</value>
   </data>
   <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Çevirenler</value>
+    <value>Çevirmenler</value>
   </data>
   <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 6</value>
@@ -365,7 +365,7 @@
     <value>Uygulamanın Discord ile bağlantısını keser. Biraz zaman alabileceğini unutmayın.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>Discord Geliştiricileri sitesindeki uygulama kimliği.</value>
+    <value>Discord Developers sitesindeki uygulama kimliği.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
     <value>Durumun ilk satırı.</value>
@@ -374,7 +374,7 @@
     <value>Durumun ikinci satırı.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>Küçük Resimin üstüne gelindiğinde çıkması istenen metin.</value>
+    <value>Küçük resmin üstüne gelindiğinde çıkması istenen metin.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
     <value>Büyük resmin üstüne gelindiğinde çıkması istenen metin.</value>
@@ -481,7 +481,7 @@ Etkili olması için, iki alan da 0'dan büyük olmadılır.</value>
     <value>Analitiğe İzin Ver</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Küçük resim için resimin adı ya da bir resim URL'si.</value>
+    <value>Küçük resim için resmin adı ya da bir resim URL'si.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>Büyük resim için resimin adı ya da bir resim URL'si.</value>
