@@ -477,4 +477,7 @@
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>ад</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Часта задаваемыя пытанні</value>
+  </data>
 </root>

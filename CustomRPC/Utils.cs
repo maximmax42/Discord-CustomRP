@@ -199,6 +199,7 @@ namespace CustomRPC
         static Person falcon = new Person { Name = "falcon" };
         static Person GreenRosie = new Person { Name = "GreenRosie", Url = "https://www.twitch.tv/greenrosie" };
         static Person Julian = new Person { Name = "Julian", Url = "https://julian-idl.codes/" };
+        static Person l0ngg = new Person { Name = "l0ngg" };
         static Person MarcelGustin = new Person { Name = "Marcel Gustin", Url = "https://marcelgustin.de" };
         static Person Matthww = new Person { Name = "Matthww" };
         static Person Meelis = new Person { Name = "Meelis" };
@@ -229,6 +230,7 @@ namespace CustomRPC
                     Code = "be",
                     Translators = new Person[] {
                         new Person { Name = "Alibical" }, // Chloe N.
+                        l0ngg, 
                     }
                 },
                 new Language {
@@ -741,6 +743,7 @@ namespace CustomRPC
                         new Person { Name = "MechaniX" },
                         new Person { Name = "Dmitromintenko" },
                         new Person { Name = "Desinger" },
+                        l0ngg,
                     }
                 },
                 new Language {
@@ -790,8 +793,7 @@ namespace CustomRPC
             LanguageProgress = new Dictionary<string, string>();
             #region Generated code for progress
             LanguageProgress["ar"] = "100";
-            LanguageProgress["hy"] = "0";
-            LanguageProgress["be"] = "99";
+            LanguageProgress["be"] = "100";
             LanguageProgress["bn"] = "99";
             LanguageProgress["bs"] = "99";
             LanguageProgress["bg"] = "100";
@@ -842,10 +844,11 @@ namespace CustomRPC
             LanguageProgress["ta"] = "97";
             LanguageProgress["th"] = "100";
             LanguageProgress["tr"] = "100";
-            LanguageProgress["uk"] = "99";
+            LanguageProgress["uk"] = "100";
             LanguageProgress["ur"] = "99";
             LanguageProgress["vi"] = "100";
             LanguageProgress["cy"] = "99";
+
             #endregion
 
             Supporters = new List<Supporter>

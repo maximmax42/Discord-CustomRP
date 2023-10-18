@@ -181,4 +181,7 @@
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>URL малюнка занадта доўга!</value>
   </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>Немагчыма дадаць або Выдаліць ярлык пры запуску:</value>
+  </data>
 </root>

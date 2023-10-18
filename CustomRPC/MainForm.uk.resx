@@ -450,4 +450,7 @@
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>Відображає, скільки часу минуло з моменту останнього підключення або оновлення інформації.</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Часто задавані питання</value>
+  </data>
 </root>

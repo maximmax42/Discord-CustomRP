@@ -68,7 +68,7 @@ So far, the app supports these languages:
 
 * [Arabic](https://poeditor.com/projects/po_edit?id_language=233&per_page=100&id=409229) (thanks to [FiberAhmed](https://github.com/FiberAhmed), ShadowlGamer, [karimawi](https://github.com/karimawiihttps://github.com/karimawii) and Bo Raghad)
 * [Bengali](https://poeditor.com/projects/po_edit?id_language=19&per_page=100&id=409229) (thanks to [mrimran](https://github.com/mr-Imran) and BlackBox-cmd)
-* [Belarusian](https://poeditor.com/projects/po_edit?id_language=18&per_page=100&id=409229) (thanks to Alibical)
+* [Belarusian](https://poeditor.com/projects/po_edit?id_language=18&per_page=100&id=409229) (thanks to Alibical and l0ngg)
 * [Bosnian](https://poeditor.com/projects/po_edit?id_language=22&per_page=100&id=409229) (thanks to Trax and Ammar)
 * [Bulgarian](https://poeditor.com/projects/po_edit?id_language=24&per_page=100&id=409229) (thanks to [Nikolay Shangov (aka 21)](https://discord.gg/hqvMaxBAew), TheLocalSlavic and [EmeraldCeat](https://discord.gg/reformedcityrp))
 * [Burmese](https://poeditor.com/projects/po_edit?id_language=25&per_page=100&id=409229) (thanks to [infer_](http://rentry.org/infer) and bearinthewonderland)
@@ -119,7 +119,7 @@ So far, the app supports these languages:
 * [Tamil](https://poeditor.com/projects/po_edit?id_language=160&per_page=100&id=409229) (thanks to [Julian](https://julian-idl.codes/))
 * [Thai](https://poeditor.com/projects/po_edit?id_language=163&per_page=100&id=409229) (thanks to Squishee Freshy, YuuabyssSSID, SabbKor, OHMKUB, toonnongaeoy and Game)
 * [Turkish](https://poeditor.com/projects/po_edit?id_language=169&per_page=100&id=409229) (thanks to Ozan Akyüz, [josephisticated](https://github.com/josephisticated) and vLaDeR)
-* [Ukrainian](https://poeditor.com/projects/po_edit?id_language=173&per_page=100&id=409229) (thanks to MechaniX, Dmitromintenko and Desinger)
+* [Ukrainian](https://poeditor.com/projects/po_edit?id_language=173&per_page=100&id=409229) (thanks to MechaniX, Dmitromintenko, Desinger and l0ngg)
 * [Urdu](https://poeditor.com/projects/po_edit?id_language=174&per_page=100&id=409229) (thanks to [xq34](https://github.com/S3ntryPositive) and Muhammad Ali Ashraf)
 * [Vietnamese](https://poeditor.com/projects/po_edit?id_language=177&per_page=100&id=409229) (thanks to [Mykm](https://github.com/yumiruuwu), Nhathungtran2011, Phnthnhnm0612, dsbachle, Ayano, 03_Trần and kcott)
 * [Welsh](https://poeditor.com/projects/po_edit?id_language=180&per_page=100&id=409229) (thanks to [Pxmpkxn](https://discord.gg/36Z4u8Q5uN))
