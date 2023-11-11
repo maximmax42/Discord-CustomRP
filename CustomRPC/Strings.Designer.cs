@@ -154,6 +154,15 @@ namespace CustomRPC {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Failed to open the URL. It has been copied to the clipboard..
+        /// </summary>
+        internal static string errorOpeningURL {
+            get {
+                return ResourceManager.GetString("errorOpeningURL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на An error occurred while saving the settings:.
         /// </summary>
         internal static string errorSavingSettings {

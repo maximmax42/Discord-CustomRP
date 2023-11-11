@@ -190,4 +190,7 @@
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Не удалось создать или удалить ярлык автозагрузки:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Не удалось открыть ссылку. Она была скопирована в буфер обмена.</value>
+  </data>
 </root>

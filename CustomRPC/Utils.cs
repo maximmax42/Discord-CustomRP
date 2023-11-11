@@ -1042,7 +1042,30 @@ namespace CustomRPC
         /// <param name="url">The URL to open.</param>
         public static void OpenInBrowser(string url)
         {
-            Process.Start("explorer", url);
+            bool success = false;
+
+            try
+            {
+                Process.Start("explorer", url);
+                success = true;
+            }
+            catch { }
+
+            if (success)
+                return;
+
+            try
+            {
+                Process.Start(url);
+                success = true;
+            }
+            catch { }
+
+            if (success)
+                return;
+
+            Clipboard.SetText(url);
+            MessageBox.Show(MainForm.ActiveForm, Strings.errorOpeningURL, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         /// <summary>
