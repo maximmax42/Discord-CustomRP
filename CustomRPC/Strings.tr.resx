@@ -184,4 +184,7 @@ Ayarları sıfırlamak için Evet'e, çıkmak için Hayır'a basın.</value>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Başlangıç kısayolu ekleme ya da silme başarısız oldu:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>URL'yi açmada başarısız olundu. Panoya kopyalandı.</value>
+  </data>
 </root>

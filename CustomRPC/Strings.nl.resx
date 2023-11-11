@@ -184,4 +184,7 @@ Druk op Ja om de instellingen te resetten, druk op Nee om te stoppen.</value>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Kon niet een start-koppeling maken of verwijderen:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Het is niet gelukt om de URL te openen. De URL is gekopieerd.</value>
+  </data>
 </root>

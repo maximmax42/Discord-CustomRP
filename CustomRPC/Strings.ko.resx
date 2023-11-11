@@ -184,4 +184,7 @@
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>시작 프로그램 바로가기 추가 또는 제거에 실패했습니다:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>URL을 열지 못했습니다. 클립보드에 복사되었습니다.</value>
+  </data>
 </root>

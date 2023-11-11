@@ -184,4 +184,7 @@
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>ਸਟਾਰਟਅੱਪ ਸ਼ਾਰਟਕਟ ਜੋੜਨ ਜਾਂ ਹਟਾਉਣ ਵਿੱਚ ਅਸਫਲ:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>URL खोलने में विफल रहा। यह क्लिपबोर्ड पर कॉपी किया गया है।</value>
+  </data>
 </root>

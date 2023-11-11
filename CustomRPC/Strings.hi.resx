@@ -184,4 +184,7 @@
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>स्टार्टअप शॉर्टकट जोड़ने या हटाने में विफल:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>URL ਖੋਲਣ ਵਿੱਚ ਅਸਫਲ ਰਹਿਆ ਹੈ। ਇਹ ਕਲਿੱਪਬੋਰਡ 'ਤੇ ਕਾਪੀ ਕੀਤਾ ਗਿਆ ਹੈ।</value>
+  </data>
 </root>
