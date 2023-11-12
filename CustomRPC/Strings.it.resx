@@ -184,4 +184,7 @@ Premi Sì per resettare le impostazioni oppure premi No per uscire.</value>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Impossibile aggiungere o rimuovere un collegamento di avvio:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>C'è stato un errore cercando di aprire l'URL. È stato quindi copiato negli appunti.</value>
+  </data>
 </root>

@@ -184,4 +184,7 @@ Chọn Có để đặt lại thiết lập, chọn Không để thoát.</value>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Không thể thêm hoặc xóa lối tắt khởi động:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Lỗi khi mở URL. Nó đã được sao chép vào bảng nhớ tạm.</value>
+  </data>
 </root>

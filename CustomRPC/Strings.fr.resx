@@ -184,4 +184,7 @@ Cliquez sur "oui" pour réinitialiser la configuration, cliquez sur "non" pour q
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Erreur lors de l'ajout ou de la suppression du raccourcis de demarrage:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Échec de l'ouverture de l'URL. Elle a été copiée dans le presse-papiers.</value>
+  </data>
 </root>
