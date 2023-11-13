@@ -569,6 +569,15 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Монгол",
+                    EnglishName = "Mongolian",
+                    Code = "mn",
+                    Translators = new Person[] {
+                        new Person { Name = "SenMN", Url = "https://senmn.tech/" },
+                        new Person { Name = "AnarErdene" },
+                    }
+                },
+                new Language {
                     Name = "မြန်မာဘာသာ",
                     EnglishName = "Burmese",
                     Code = "my",
@@ -828,6 +837,7 @@ namespace CustomRPC
             LanguageProgress["lt"] = "98.02";
             LanguageProgress["mk"] = "98.02";
             LanguageProgress["ml"] = "98.02";
+            LanguageProgress["mn"] = "100";
             LanguageProgress["no"] = "99.01";
             LanguageProgress["pa"] = "100";
             LanguageProgress["fa"] = "99.01";
