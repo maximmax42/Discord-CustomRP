@@ -184,4 +184,7 @@
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>スタートアップのショートカットの追加または削除に失敗しました:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>URLを開くのに失敗したのでクリップボードにコピーしました。</value>
+  </data>
 </root>
