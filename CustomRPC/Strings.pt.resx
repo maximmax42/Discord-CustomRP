@@ -184,4 +184,7 @@ Clique Sim para redefinir as Definições ou clique Não para fechar.</value>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Ocorreu um erro ao adicionar ou remover um atalho para iniciar com o Windows:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Ocorreu um erro ao abrir o Link. Ele foi copiado para a Área de Transferência.</value>
+  </data>
 </root>

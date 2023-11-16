@@ -504,4 +504,7 @@ agar bekerja, kedua bidang harus lebih dari 0.</value>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>Menunjukkan berapa lama waktu telah berlalu sejak terakhir kali Anda terhubung atau memperbarui tampilan.</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pertanyaan yang Sering Diajukan</value>
+  </data>
 </root>

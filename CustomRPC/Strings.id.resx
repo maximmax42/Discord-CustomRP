@@ -128,7 +128,7 @@
 Tekan "Ya" untuk mencoba lagi atau "Tidak" untuk mengunduh secara manual.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Pertama Kali</value>
+    <value>Butuh Bantuan?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Apakah Anda ingin membuka manual?
@@ -183,5 +183,8 @@ Tekan Ya untuk mereset pengaturan, tekan Tidak untuk keluar.</value>
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Gagal menambah atau menghapus pintasan mulai:</value>
+  </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Gagal membuka URL. Telah disalin ke papan klip.</value>
   </data>
 </root>
