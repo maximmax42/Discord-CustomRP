@@ -1009,6 +1009,11 @@ namespace CustomRPC
                     USDAmount = "12.47",
                     AltAmount = "0.00047618 BTC"
                 },
+                new Supporter {
+                    Name = "Nicola Occhipinti",
+                    USDAmount = "3.44",
+                    AltAmount = "309.00 RUB"
+                },
             };
 
             NonMonetarySupporters = new List<NonMonetarySupporter>
