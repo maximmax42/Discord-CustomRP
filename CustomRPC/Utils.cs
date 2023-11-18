@@ -205,6 +205,7 @@ namespace CustomRPC
         static Person Meelis = new Person { Name = "Meelis" };
         static Person MridunGupta = new Person { Name = "Mridun Gupta", Url = "https://contact.mridungupta.eu.org" };
         static Person Mykm = new Person { Name = "Mykm", Url = "https://github.com/yumiruuwu" };
+        static Person NicolaOcchipinti = new Person { Name = "Nicola Occhipinti" };
         static Person TofixRs = new Person { Name = "Tofix.rs" };
         static Person Yoshi = new Person { Name = "Yoshi" };
         static Person westxlu = new Person { Name = "蘆筍 (aka westxlu)", Url = "https://linktr.ee/westxlu" };
@@ -355,6 +356,7 @@ namespace CustomRPC
                         new Person { Name = "Luciousmc" },
                         new Person { Name = "Alvaro203204" },
                         new Person { Name = "JugandoMiguel", Url = "https://fiverr.com/jugandomiguel" },
+                        NicolaOcchipinti,
                         new Person { Name = "Epic" }, // 0 translations
                     }
                 },
@@ -648,6 +650,7 @@ namespace CustomRPC
                         new Person { Name = "Felipe B. Pansani" },
                         new Person { Name = "DeusDrizzyy" },
                         new Person { Name = "Leo" },
+                        NicolaOcchipinti
                     }
                 },
                 new Language {
@@ -843,13 +846,13 @@ namespace CustomRPC
             LanguageProgress["fa"] = "99.01";
             LanguageProgress["pl"] = "99.01";
             LanguageProgress["pt"] = "100";
-            LanguageProgress["pt-br"] = "98.02";
+            LanguageProgress["pt-br"] = "100";
             LanguageProgress["ro"] = "99.01";
             LanguageProgress["ru"] = "100";
             LanguageProgress["sr"] = "98.02";
             LanguageProgress["sk"] = "98.02";
             LanguageProgress["sl"] = "99.01";
-            LanguageProgress["es"] = "99.01";
+            LanguageProgress["es"] = "100";
             LanguageProgress["sv"] = "99.01";
             LanguageProgress["ta"] = "96.04";
             LanguageProgress["th"] = "99.01";

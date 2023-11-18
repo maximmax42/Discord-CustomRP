@@ -438,4 +438,7 @@ Para ter efeito, ambos os campos devem ser maiores que 0.</value>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>Mostra quanto tempo se passou desde que você conectou ou atualizou o Rich Presence pela última vez.</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Perguntas Frequentes</value>
+  </data>
 </root>

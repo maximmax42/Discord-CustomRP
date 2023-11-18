@@ -184,4 +184,7 @@ Pulse Sí para restablecer la configuración, pulse No para salir.</value>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Error al agregar o eliminar un acceso directo de inicio:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Fallo al abrir la URL. Ha sido copiado al portapapeles.</value>
+  </data>
 </root>
