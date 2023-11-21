@@ -184,4 +184,7 @@
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>新增或删除捷径失败：</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>无法开启URL。已将其复制到剪贴簿。</value>
+  </data>
 </root>
