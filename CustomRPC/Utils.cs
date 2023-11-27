@@ -756,6 +756,7 @@ namespace CustomRPC
                         new Person { Name = "Dmitromintenko" },
                         new Person { Name = "Desinger" },
                         l0ngg,
+                        new Person { Name = "stefanbanderovych" },
                     }
                 },
                 new Language {
@@ -811,8 +812,8 @@ namespace CustomRPC
             LanguageProgress["bg"] = "99.01";
             LanguageProgress["my"] = "99.01";
             LanguageProgress["ca"] = "98.02";
-            LanguageProgress["zh-hans"] = "99.01";
-            LanguageProgress["zh-hant"] = "99.01";
+            LanguageProgress["zh-hans"] = "100";
+            LanguageProgress["zh-hant"] = "100";
             LanguageProgress["hr"] = "98.02";
             LanguageProgress["cs"] = "99.01";
             LanguageProgress["da"] = "99.01";
@@ -857,7 +858,7 @@ namespace CustomRPC
             LanguageProgress["ta"] = "96.04";
             LanguageProgress["th"] = "99.01";
             LanguageProgress["tr"] = "100";
-            LanguageProgress["uk"] = "99.01";
+            LanguageProgress["uk"] = "100";
             LanguageProgress["ur"] = "98.02";
             LanguageProgress["vi"] = "100";
             LanguageProgress["cy"] = "98.02";

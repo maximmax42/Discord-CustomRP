@@ -184,4 +184,7 @@
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Не вдалося додати або видалити ярлик запуску:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Не вдалося відкрити URL-адресу. Її було скопійовано до буфера обміну.</value>
+  </data>
 </root>
