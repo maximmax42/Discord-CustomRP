@@ -161,7 +161,7 @@
     <value>212, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Wrzuć zdjęcie</value>
+    <value>Wrzuć zdjęcia</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>209, 6</value>
@@ -400,7 +400,7 @@ Jeżeli ma mieć jakikolwiek efekt, obydwa pola muszą być większe od 0.</valu
     <value>Wspierający</value>
   </data>
   <data name="radioButtonPresence.Text" xml:space="preserve">
-    <value>Od ostatniej aktualizacji obecności</value>
+    <value>Od ostatniej aktualizacji statusu</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>Pokazuje ile czasu upłynęło odkąd ostatnio włączyłeś lub zmieniłeś status.</value>

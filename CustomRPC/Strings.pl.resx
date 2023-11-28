@@ -184,4 +184,7 @@ Aby go zresetować kliknij Tak, lub Nie żeby wyjść.</value>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Nie można dodać lub usunąć skrótu startowego:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Nie udało się otworzyć linku. Skopiowano do schowka.</value>
+  </data>
 </root>
