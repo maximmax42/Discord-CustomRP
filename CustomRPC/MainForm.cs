@@ -154,7 +154,7 @@ namespace CustomRPC
         /// <summary>
         /// List of locales docs.customrp.xyz is translated to.
         /// </summary>
-        readonly List<string> translatedWikiLocales = new List<string> { "de", "es", "fi", "fr", "hi", "ko", "pl", "ro", "ru", "vi" };
+        readonly List<string> translatedWikiLocales = new List<string> { "de", "es", "fi", "fr", "hi", "ko", "pl", "ro", "ru", "uk", "vi" };
 
         /// <summary>
         /// Unicode character "No-Break Space" (" ").
