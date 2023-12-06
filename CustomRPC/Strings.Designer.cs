@@ -271,5 +271,14 @@ namespace CustomRPC {
                 return ResourceManager.GetString("statusError", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Updating presence....
+        /// </summary>
+        internal static string statusUpdatingPresence {
+            get {
+                return ResourceManager.GetString("statusUpdatingPresence", resourceCulture);
+            }
+        }
     }
 }

@@ -192,4 +192,7 @@ Press Yes to reset the settings, press No to quit.</value>
   <data name="errorOpeningURL" xml:space="preserve">
     <value>Failed to open the URL. It has been copied to the clipboard.</value>
   </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Updating presence...</value>
+  </data>
 </root>

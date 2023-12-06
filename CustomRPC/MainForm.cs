@@ -641,7 +641,7 @@ namespace CustomRPC
         }
 
         /// <summary>
-        /// Will be called if failed connecting (mostly due to Discord being closed).
+        /// Will be called if failed connecting (usually due to Discord being closed).
         /// </summary>
         private void ClientOnConnFailed(object sender, DiscordRPC.Message.ConnectionFailedMessage args)
         {
@@ -671,6 +671,8 @@ namespace CustomRPC
             {
                 Text = $"{res.GetString("$this.Text")}{(Program.IsSecondInstance ? " 2" : "")} ({client.CurrentUser})";
                 trayIcon.Text = $"{res.GetString("trayIcon.Text")}{(Program.IsSecondInstance ? " 2" : "")}\n{client.CurrentUser}";
+
+                toolStripStatusLabelStatus.Text = Strings.statusUpdatingPresence;
             }));
         }
 
@@ -819,6 +821,7 @@ namespace CustomRPC
                     break;
             }
 
+            toolStripStatusLabelStatus.Text = Strings.statusUpdatingPresence;
             client.SetPresence(rp);
 
             return true;

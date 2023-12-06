@@ -193,4 +193,7 @@
   <data name="errorOpeningURL" xml:space="preserve">
     <value>Не удалось открыть ссылку. Она была скопирована в буфер обмена.</value>
   </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Обновление статуса...</value>
+  </data>
 </root>
