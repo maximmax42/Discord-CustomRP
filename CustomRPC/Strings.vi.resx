@@ -187,4 +187,7 @@ Chọn Có để đặt lại thiết lập, chọn Không để thoát.</value>
   <data name="errorOpeningURL" xml:space="preserve">
     <value>Lỗi khi mở URL. Nó đã được sao chép vào bảng nhớ tạm.</value>
   </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Đang cập nhật trạng thái...</value>
+  </data>
 </root>

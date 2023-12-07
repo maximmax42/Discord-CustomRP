@@ -187,4 +187,7 @@ Clique Sim para redefinir as Definições ou clique Não para fechar.</value>
   <data name="errorOpeningURL" xml:space="preserve">
     <value>Ocorreu um erro ao abrir o Link. Ele foi copiado para a Área de Transferência.</value>
   </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Atualizando presença...</value>
+  </data>
 </root>

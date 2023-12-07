@@ -187,4 +187,7 @@
   <data name="errorOpeningURL" xml:space="preserve">
     <value>无法开启URL。已将其复制到剪贴簿。</value>
   </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>正在更新動態……</value>
+  </data>
 </root>

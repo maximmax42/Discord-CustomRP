@@ -187,4 +187,7 @@ Cliquez sur "oui" pour réinitialiser la configuration, cliquez sur "non" pour q
   <data name="errorOpeningURL" xml:space="preserve">
     <value>Échec de l'ouverture de l'URL. Elle a été copiée dans le presse-papiers.</value>
   </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Mise à jour de la présence...</value>
+  </data>
 </root>

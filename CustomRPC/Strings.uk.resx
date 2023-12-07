@@ -187,4 +187,7 @@
   <data name="errorOpeningURL" xml:space="preserve">
     <value>Не вдалося відкрити URL-адресу. Її було скопійовано до буфера обміну.</value>
   </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Оновлення статусу...</value>
+  </data>
 </root>

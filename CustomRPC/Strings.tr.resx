@@ -187,4 +187,7 @@ Ayarları sıfırlamak için Evet'e, çıkmak için Hayır'a basın.</value>
   <data name="errorOpeningURL" xml:space="preserve">
     <value>URL'yi açmada başarısız olundu. Panoya kopyalandı.</value>
   </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Durum güncelleniyor...</value>
+  </data>
 </root>

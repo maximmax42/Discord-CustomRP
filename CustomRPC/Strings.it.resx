@@ -187,4 +187,7 @@ Premi Sì per resettare le impostazioni oppure premi No per uscire.</value>
   <data name="errorOpeningURL" xml:space="preserve">
     <value>C'è stato un errore cercando di aprire l'URL. È stato quindi copiato negli appunti.</value>
   </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>La presenza si sta aggiornando...</value>
+  </data>
 </root>

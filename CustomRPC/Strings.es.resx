@@ -187,4 +187,7 @@ Pulse Sí para restablecer la configuración, pulse No para salir.</value>
   <data name="errorOpeningURL" xml:space="preserve">
     <value>Fallo al abrir la URL. Ha sido copiado al portapapeles.</value>
   </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Actualizando presencia...</value>
+  </data>
 </root>

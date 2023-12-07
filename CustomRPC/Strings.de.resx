@@ -193,4 +193,7 @@ Drücke "Ja", um sie zurückzusetzen oder "Nein", um das Programm zu beenden.</v
   <data name="errorOpeningURL" xml:space="preserve">
     <value>Öffnen der URL fehlgeschlagen. Es wurde in die Zwischenablage kopiert.</value>
   </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Aktualisierung der Präsenz...</value>
+  </data>
 </root>

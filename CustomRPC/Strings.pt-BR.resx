@@ -187,4 +187,7 @@ Pressione Sim para redefinir as configurações, pressione Não para sair.</valu
   <data name="errorOpeningURL" xml:space="preserve">
     <value>Falha ao abrir a URL. Ela foi copiada para a área de transferência.</value>
   </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Atualizando presença...</value>
+  </data>
 </root>

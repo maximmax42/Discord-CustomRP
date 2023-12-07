@@ -187,4 +187,7 @@ Druk op Ja om de instellingen te resetten, druk op Nee om te stoppen.</value>
   <data name="errorOpeningURL" xml:space="preserve">
     <value>Het is niet gelukt om de URL te openen. De URL is gekopieerd.</value>
   </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Status aan het bijwerken...</value>
+  </data>
 </root>
