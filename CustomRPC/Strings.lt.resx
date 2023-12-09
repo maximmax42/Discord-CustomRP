@@ -184,4 +184,10 @@ Paspauskite Taip kad atstatyti nustatymus, paspauskite Ne kad išeiti.</value>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Nepavyko pridėti ar pašalinti paleidimo nuorodos:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Nepavyko atidaryti nuorodos. Kuri buvo nukopijuota.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Atnaujinama prezentacija...</value>
+  </data>
 </root>
