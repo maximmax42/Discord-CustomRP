@@ -187,4 +187,7 @@
   <data name="errorOpeningURL" xml:space="preserve">
     <value>URL खोलने में विफल रहा। यह क्लिपबोर्ड पर कॉपी किया गया है।</value>
   </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>ਗਤੀਵਿਧੀ ਅਪਡੇਟ ਹੋ ਰਈ ਹੈ...</value>
+  </data>
 </root>

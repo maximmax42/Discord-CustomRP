@@ -187,4 +187,7 @@
   <data name="errorOpeningURL" xml:space="preserve">
     <value>URL ਖੋਲਣ ਵਿੱਚ ਅਸਫਲ ਰਹਿਆ ਹੈ। ਇਹ ਕਲਿੱਪਬੋਰਡ 'ਤੇ ਕਾਪੀ ਕੀਤਾ ਗਿਆ ਹੈ।</value>
   </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>प्रासेंस अपडेट हो रहा है...</value>
+  </data>
 </root>
