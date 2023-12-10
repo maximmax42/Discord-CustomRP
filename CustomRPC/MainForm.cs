@@ -718,10 +718,26 @@ namespace CustomRPC
 
             Uri tempUri;
 
+            string GetProcessedURL(Uri origUri)
+            {
+                if (!origUri.Host.Contains("discordapp"))
+                    return origUri.AbsoluteUri;
+
+                var newUri = new UriBuilder(origUri.AbsoluteUri);
+                var newQuery = origUri.ParseQueryString();
+
+                newQuery.Remove("ex");
+                newQuery.Remove("is");
+                newQuery.Remove("hm");
+                newUri.Query = newQuery.ToString();
+
+                return newUri.Uri.AbsoluteUri;
+            }
+
             string Proxify(string key)
             {
                 if (key != null)
-                    return Regex.Replace(key, "//((cdn)|(media))\\.discordapp\\.((com)|(net))/", "//customrp.xyz/proxy/");
+                    return Regex.Replace(key, @"//((cdn)|(media))\.discordapp\.((com)|(net))/", "//customrp.xyz/proxy/");
 
                 return key;
             };
@@ -729,10 +745,10 @@ namespace CustomRPC
             try
             {
                 if (Uri.TryCreate(settings.smallKey, UriKind.Absolute, out tempUri))
-                    settings.smallKey = tempUri.AbsoluteUri;
+                    settings.smallKey = GetProcessedURL(tempUri);
 
                 if (Uri.TryCreate(settings.largeKey, UriKind.Absolute, out tempUri))
-                    settings.largeKey = tempUri.AbsoluteUri;
+                    settings.largeKey = GetProcessedURL(tempUri);
 
                 rp.Assets = new Assets()
                 {
