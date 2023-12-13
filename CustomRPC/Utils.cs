@@ -985,8 +985,8 @@ namespace CustomRPC
                     AltAmount = "300.00 RUB"
                 },
                 new Supporter {
-                    Name = "Maracesh",
-                    Url = "https://bio.link/maracesh",
+                    Name = "✞ 4ng3l ✞",
+                    Url = "https://maracesh.ru/",
                     USDAmount = "5.77",
                     AltAmount = "500.00 RUB"
                 },
