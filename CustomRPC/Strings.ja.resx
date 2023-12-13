@@ -187,4 +187,7 @@
   <data name="errorOpeningURL" xml:space="preserve">
     <value>URLを開くのに失敗しました。クリップボードにURLをコピーしました。</value>
   </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>プレゼンスの更新...</value>
+  </data>
 </root>
