@@ -187,4 +187,7 @@ Aby go zresetować kliknij Tak, lub Nie żeby wyjść.</value>
   <data name="errorOpeningURL" xml:space="preserve">
     <value>Nie udało się otworzyć linku. Skopiowano do schowka.</value>
   </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Aktualizowanie statusu...</value>
+  </data>
 </root>
