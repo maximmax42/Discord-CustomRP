@@ -184,4 +184,10 @@
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>فشل إضافة أو إزالة اختصار بدء التشغيل:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>فشل فتح الرابط. تم نسخه إلى الحافظة.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>جاري تحديث الحالة...</value>
+  </data>
 </root>
