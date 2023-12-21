@@ -1017,6 +1017,12 @@ namespace CustomRPC
                     USDAmount = "3.44",
                     AltAmount = "309.00 RUB"
                 },
+                new Supporter {
+                    Name = "WoomyAisaka",
+                    Url = "https://woomyaisaka.com",
+                    USDAmount = "1.00",
+                    AltAmount = "87.00 RUB"
+                },
             };
 
             NonMonetarySupporters = new List<NonMonetarySupporter>
