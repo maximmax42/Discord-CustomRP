@@ -323,7 +323,7 @@ namespace CustomRPC
             }
             else if (message.Msg == Program.WM_IMPORTPRESET)
             {
-                LoadPreset(Path.GetTempPath() + "preset.crp");
+                LoadPreset(File.ReadAllText(Program.IPCPath));
             }
 
             base.WndProc(ref message);

@@ -4,6 +4,7 @@ using Microsoft.AppCenter.Crashes;
 using System;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
@@ -16,6 +17,10 @@ namespace CustomRPC
         /// A mutex for the app. Prevents users from opening more than one instance of the app.
         /// </summary>
         public static Mutex AppMutex { get; private set; }
+        /// <summary>
+        /// Path to IPC data file.
+        /// </summary>
+        public static string IPCPath { get; private set; }
         /// <summary>
         /// <see langword="True"/> if the user started the app with the --second-instance command line argument.
         /// </summary>
@@ -46,18 +51,25 @@ namespace CustomRPC
             if (args.Length > 0 && (args[0] == "--help" || args[0] == "-?"))
             {
                 var helpText = new StringBuilder();
-                helpText.AppendLine("Usage: CustomRP.exe [options] [file]");
+                helpText.AppendLine("Usage: CustomRP.exe [options] [preset file path]");
+                helpText.AppendLine();
+                helpText.AppendLine("List of options:");
                 helpText.AppendLine("-2, --second-instance: open as second instance");
                 helpText.AppendLine("-s, --silent-import: silent preset import");
                 helpText.AppendLine("-?, --help: shows this help text");
+                helpText.AppendLine();
+                helpText.AppendLine("Option(s) and file path(s) can be included in any order. Including more than one file path will result in the last valid one being used.");
                 MessageBox.Show(helpText.ToString(), Application.ProductName);
                 return;
             }
 
-            foreach (string arg in args)
+            foreach (string arg in args.Distinct())
             {
                 if (arg == "--second-instance" || arg == "-2")
                 {
+                    if (IsSecondInstance)
+                        continue;
+
                     IsSecondInstance = true;
                     mutexName += " 2";
                 }
@@ -71,6 +83,7 @@ namespace CustomRPC
             WM_IMPORTPRESET = WinApi.RegisterWindowMessage("WM_IMPORTPRESET|" + mutexName);
 
             AppMutex = new Mutex(true, mutexName, out bool createdNew);
+            IPCPath = Path.GetTempPath() + mutexName + ".pipe";
 
             if (!createdNew)
             {
@@ -81,7 +94,7 @@ namespace CustomRPC
                 {
                     try
                     {
-                        File.Copy(presetFile, Path.GetTempPath() + "preset.crp", true);
+                        File.WriteAllText(IPCPath, presetFile);
                         WinApi.PostMessage(new IntPtr(0xffff), WM_IMPORTPRESET, IntPtr.Zero, IntPtr.Zero);
                     }
                     catch

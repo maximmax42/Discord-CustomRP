@@ -231,7 +231,7 @@ namespace CustomRPC
                     Code = "be",
                     Translators = new Person[] {
                         new Person { Name = "Alibical" }, // Chloe N.
-                        l0ngg, 
+                        l0ngg,
                     }
                 },
                 new Language {
