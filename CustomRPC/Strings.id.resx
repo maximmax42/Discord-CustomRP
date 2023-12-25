@@ -187,4 +187,7 @@ Tekan Ya untuk mereset pengaturan, tekan Tidak untuk keluar.</value>
   <data name="errorOpeningURL" xml:space="preserve">
     <value>Gagal membuka URL. Telah disalin ke papan klip.</value>
   </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Updating presence...</value>
+  </data>
 </root>
