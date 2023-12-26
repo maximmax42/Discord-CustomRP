@@ -672,6 +672,8 @@ namespace CustomRPC
                 Text = $"{res.GetString("$this.Text")}{(Program.IsSecondInstance ? " 2" : "")} ({client.CurrentUser})";
                 trayIcon.Text = $"{res.GetString("trayIcon.Text")}{(Program.IsSecondInstance ? " 2" : "")}\n{client.CurrentUser}";
 
+                buttonUpdatePresence.Enabled = true;
+
                 toolStripStatusLabelStatus.Text = Strings.statusUpdatingPresence;
             }));
         }
@@ -1323,7 +1325,6 @@ namespace CustomRPC
                 buttonDisconnect.Enabled = true; // ...enable Disconnect button...
                 trayMenuDisconnect.Enabled = true; // ...enable Disconnect button in tray menu...
                 textBoxID.ReadOnly = true; // ...make the ID field read only...
-                buttonUpdatePresence.Enabled = true; // ...enable Update Presence button...
                 toolStripStatusLabelStatus.Text = Strings.statusConnecting; // and update the connection status label
             }
         }
