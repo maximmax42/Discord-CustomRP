@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="error" xml:space="preserve">
-    <value>غلط</value>
+    <value>غلطی</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
     <value>کوئی ID متعین نہیں!</value>
@@ -180,5 +180,14 @@
   </data>
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>تصویر کا لنک بہت لمبا ہے!</value>
+  </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>اسٹارٹ اپ شارٹ کٹ شامل کرنے یا ہٹانے میں ناکام:</value>
+  </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>URL کھولنے میں ناکامی. اسکو کاپی کر لیا گیا ہے.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>موجودگی اپڈیٹ کر رہا ہے...</value>
   </data>
 </root>

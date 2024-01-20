@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>اسے دوبار دکھانے کے لیے آئیکن پر ڈبل کلک کریں، یا چھوڑنے کے لیے دائیں کلک کریں</value>
+    <value>اسے دوبارہ دکھانے کے لیے آئکن پر ڈبل کلک کریں، یا بند کرنے کے لیے دائیں کلک کریں</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
     <value>یہ ایپ ٹرے میں چلے گی</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
-    <value>کھولین</value>
+    <value>کھولیں</value>
   </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
     <value>دوبارہ جڑیں</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
-    <value>چھوڑو</value>
+    <value>بندکریں</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -143,13 +143,13 @@
     <value>204, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>لادو پیش سیٹ کو</value>
+    <value>لوڈ کریں پھلے بنا ھوا</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>204, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>بچاو پیش سیٹ کو</value>
+    <value>درج زیل کو سیو کریں</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>201, 6</value>
@@ -167,7 +167,7 @@
     <value>204, 22</value>
   </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>چھوڑو</value>
+    <value>بندکریں</value>
   </data>
   <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>59, 20</value>
@@ -179,19 +179,19 @@
     <value>199, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>سٹارٹ اپ پر چلیں</value>
+    <value>سٹارٹ اپ پر چلائیں</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>199, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>کم سے کم شروع کریں</value>
+    <value>چھپا کر شروع کریں</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>199, 22</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>خود بخود تعلق</value>
+    <value>خود بخود رابطہ</value>
   </data>
   <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
     <value>196, 6</value>
@@ -233,13 +233,13 @@
     <value>43, 20</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>مدٹ</value>
+    <value>مدد</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>207, 22</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>ہدایٹ ناما</value>
+    <value>ہدایت ناما</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>207, 22</value>
@@ -394,7 +394,7 @@
     <value>40, 14</value>
   </data>
   <data name="labelButton1.Text" xml:space="preserve">
-    <value>تکمہ ۱</value>
+    <value>بٹن ۱</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
     <value>پہلے دو بٹن جو آپ کے پروفائل پاپ اپ میں آپ کے اسٹیٹس کے نیچے اور مکمل پروفائل میں دائیں جانب ظاہر ہوتے ہیں.</value>
@@ -403,7 +403,7 @@
     <value>40, 14</value>
   </data>
   <data name="labelButton2.Text" xml:space="preserve">
-    <value>تکمہ ۲</value>
+    <value>بٹن ۲</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
     <value>دوسرا بٹن، جو پہلے بٹن کے نیچے، یا اس کے بجائے ظاہر ہوتا ہے، اگر پہلا سیٹ نہیں ہے.</value>
@@ -442,5 +442,8 @@
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>بار بار پوچھے جانے والے سوالات</value>
   </data>
 </root>

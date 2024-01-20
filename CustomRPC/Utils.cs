@@ -775,6 +775,7 @@ namespace CustomRPC
                     Translators = new Person[] {
                         new Person { Name = "xq34", Url = "https://github.com/S3ntryPositive" },
                         new Person { Name = "Muhammad Ali Ashraf" },
+                        new Person { Name = "ATTiQ OP" },
                     }
                 },
                 new Language {
@@ -869,7 +870,7 @@ namespace CustomRPC
             LanguageProgress["th"] = "98.04";
             LanguageProgress["tr"] = "100";
             LanguageProgress["uk"] = "100";
-            LanguageProgress["ur"] = "97.06";
+            LanguageProgress["ur"] = "100";
             LanguageProgress["vi"] = "100";
             LanguageProgress["cy"] = "97.06";
             #endregion
