@@ -127,7 +127,7 @@
     <value>Doriți să descărcați această actualizare?</value>
   </data>
   <data name="checkBoxNeverNotify.Text" xml:space="preserve">
-    <value>Nu mai verifica pentru actualizări niciodată</value>
+    <value>Nu mai verifica dacă există actualizări noi</value>
   </data>
   <data name="labelVersionsText.Text" xml:space="preserve">
     <value>Versiune curentă:

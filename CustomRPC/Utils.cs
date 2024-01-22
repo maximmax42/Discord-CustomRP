@@ -667,14 +667,15 @@ namespace CustomRPC
                     EnglishName = "Romanian",
                     Code = "ro",
                     Translators = new Person[] {
+                        new Person { Name = "JPN", Url = "https://isaidpower.dev/" },
                         new Person { Name = "DiDYRO", Url = "https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w" },
                         new Person { Name = "inter", Url = "https://github.com/Electro7777" },
-                        new Person { Name = "KTSGod", Url = "https://ktsgod.carrd.co/" }, // Developer316
                         new Person { Name = "Denisbolba" },
+                        new Person { Name = "KTSGod", Url = "https://ktsgod.carrd.co/" }, // Developer316
                         new Person { Name = "Eddie", Url = "https://github.com/EdiRo" },
-                        new Person { Name = "veirvn" },
-                        Matthww,
-                        new Person { Name = "BlockBuzzters" },
+                        new Person { Name = "veirvn" }, // 0 translations
+                        Matthww, // 0 translations
+                        new Person { Name = "BlockBuzzters" }, // 0 translations
                     }
                 },
                 new Language {
@@ -859,7 +860,7 @@ namespace CustomRPC
             LanguageProgress["pl"] = "100";
             LanguageProgress["pt"] = "100";
             LanguageProgress["pt-br"] = "100";
-            LanguageProgress["ro"] = "98.04";
+            LanguageProgress["ro"] = "100";
             LanguageProgress["ru"] = "100";
             LanguageProgress["sr"] = "97.06";
             LanguageProgress["sk"] = "97.06";

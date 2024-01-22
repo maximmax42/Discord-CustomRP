@@ -130,7 +130,7 @@
     <value>Ieșire</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Fișiere</value>
+    <value>Fișier</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Încarcă configurația</value>
@@ -139,7 +139,7 @@
     <value>Salvează configurația</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Încarcă bunurile</value>
+    <value>Încarcă imaginile</value>
   </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
     <value>Ieșire</value>
@@ -151,10 +151,10 @@
     <value>Pornește deodată cu calculatorul</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Pornește minimalizat</value>
+    <value>Pornește minimizat</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Verifică pentru actualizări</value>
+    <value>Verifică actualizări noi</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>Ajutor</value>
@@ -175,7 +175,7 @@
     <value>Descarcă actualizarea</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Reîncarcă prezența</value>
+    <value>Actualizează prezența</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
     <value>Actualizează prezența.</value>
@@ -211,7 +211,7 @@
     <value>Text afișat când treceți cu mouse-ul pe imaginea mare.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Numele materialului pentru imaginea mare sau adresă URL.</value>
+    <value>Numele imaginii pentru imaginea mare sau adresă URL.</value>
   </data>
   <data name="labelSmall.Text" xml:space="preserve">
     <value>Imaginea mică</value>
@@ -223,19 +223,19 @@
     <value>Imaginea mare</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>Imaginea care apare la stânga de la textul setat sus.</value>
+    <value>Imaginea care apare la stânga textului setat mai sus.</value>
   </data>
   <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>Nimic</value>
+    <value>Niciuna</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Niciun timestamp activat momentan.</value>
+    <value>Fără marcaj de timp.</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>De când CustomRP a început</value>
+    <value>De când a pornit CustomRP</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>Arată timpul de când aplicația s-a deschis.</value>
+    <value>Arată timpul de când a pornit aplicația.</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
     <value>Timpul tău local</value>
@@ -244,15 +244,15 @@
     <value>Arată timpul tău în format de 24h.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Configurați marcajul de timp pentru starea, care apare sub tot textul de mai sus.
+    <value>Configurează marcajul de timp pentru status, care apare sub tot textul de mai sus.
 Temporizatoarele de stare au o limită de 24 de ore, ceea ce înseamnă că, după 24 de ore, timpul va reveni la 0:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>Numărul de jucători din grupul curent care apare lângă câmpul State.
+    <value>Numărul de jucători din grupul curent care apare lângă câmpul Stare.
 Pentru a intra în vigoare, ambele câmpuri trebuie să fie mai mari de 0.</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>Timestamp custom</value>
+    <value>Marcaj de timp personalizat</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
     <value>Afișează cât timp a trecut sau a mai rămas până la data stabilită mai jos.</value>
@@ -270,19 +270,19 @@ Pentru a intra în vigoare, ambele câmpuri trebuie să fie mai mari de 0.</valu
     <value>Al doilea buton, care apare chiar sub primul buton, sau în locul lui, dacă primul nu este setat.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>URL la care butonul va duce utilizatorul după ce face clic.</value>
+    <value>URL-ul care se va deschide apăsând butonul.</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>URL la care butonul va duce utilizatorul după ce face clic.</value>
+    <value>URL-ul care se va deschide apăsând butonul.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
-    <value>Eticheta primului buton.</value>
+    <value>Textul primului buton.</value>
   </data>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
-    <value>Eticheta al doileaului buton.</value>
+    <value>Textul celui de-al doilea buton.</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
-    <value>de</value>
+    <value>din</value>
   </data>
   <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
     <value>Prestabilit</value>
@@ -291,16 +291,16 @@ Pentru a intra în vigoare, ambele câmpuri trebuie să fie mai mari de 0.</valu
     <value>Limbă</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Verifică pentru actualizări...</value>
+    <value>Verifică dacă există actualizări noi...</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
-    <value>Deschid</value>
+    <value>Deschide</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>Autoconectează</value>
+    <value>Conectează automat</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Permite analizelor</value>
+    <value>Permite analizele</value>
   </data>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>Tema întunecată</value>
@@ -309,7 +309,7 @@ Pentru a intra în vigoare, ambele câmpuri trebuie să fie mai mari de 0.</valu
     <value>Suporteri</value>
   </data>
   <data name="radioButtonPresence.Text" xml:space="preserve">
-    <value>De la ultima actualizare a prezenței</value>
+    <value>Ultima actualizare a prezenței</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>Afișează cât timp a trecut de la ultima conectare sau de la actualizarea prezenței.</value>
