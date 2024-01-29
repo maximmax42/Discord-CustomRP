@@ -121,7 +121,7 @@
     <value>Clique duas vezes no ícone para o voltar a mostrar, clique com o lado direito do rato para fechar.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>A aplicação vai ficar aberta na barra.</value>
+    <value>A aplicação vai ficar aberta em segundo plano.</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>Abrir</value>
@@ -143,7 +143,7 @@
     <value>231, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Salvar pré-feito</value>
+    <value>Guardar pré-feito</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>228, 6</value>
@@ -152,7 +152,7 @@
     <value>231, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Upload de imagens</value>
+    <value>Enviar imagens</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>228, 6</value>
@@ -218,7 +218,7 @@
     <value>143, 22</value>
   </data>
   <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
-    <value>Predefenição</value>
+    <value>Predefinição</value>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 6</value>
@@ -257,7 +257,7 @@
     <value>194, 22</value>
   </data>
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
-    <value>Apoiadores</value>
+    <value>Doadores</value>
   </data>
   <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>194, 22</value>
@@ -293,19 +293,19 @@
     <value>Transferir Atualização</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Atualizar Presença</value>
+    <value>Atualizar Atividade</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Atualiza a presença.</value>
+    <value>Atualiza a atividade.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>Conectar</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Liga a aplicação ao ID especificado com a presença.</value>
+    <value>Liga a aplicação ao ID especificado com a atividade.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
-    <value>Disconectar</value>
+    <value>Desconectar</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
     <value>Desconecta a aplicação do Discord. Isto pode demorar um pouco.</value>
@@ -314,22 +314,22 @@
     <value>ID da aplicação da pagina de desenvolvedores do Discord.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>Primeira linha da presença.</value>
+    <value>Primeira linha da atividade.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>Segunda linha da presença.</value>
+    <value>Segunda linha da atividade.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Nome do ficheiro ou link da imagem para a Imagem Pequena.</value>
+    <value>Nome do ficheiro ou link para a Imagem Pequena.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>Texto mostrado ao por o rato em cima da Imagem Pequena.</value>
+    <value>Texto mostrado ao colocar o rato em cima da Imagem Pequena.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>Texto mostrado ao por o rato em cima da Imagem Grande.</value>
+    <value>Texto mostrado ao colocar o rato em cima da Imagem Grande.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Nome do ficheiro ou link da imagem para a Imagem Grande.</value>
+    <value>Nome do ficheiro ou link para a Imagem Grande.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>103, 14</value>
@@ -347,7 +347,7 @@
     <value>Imagem Grande</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>Imagem que aparece á esquerda do texto escrito em cima.</value>
+    <value>Imagem que aparece à esquerda do texto escrito em cima.</value>
   </data>
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 18</value>
@@ -371,17 +371,17 @@
     <value>130, 18</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>As tuas horas locais</value>
+    <value>Horas locais</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>Mostra as tuas horas Locais em formato de 24 horas.</value>
+    <value>Mostra as horas Locais em formato de 24 horas.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Prepara indicadores de tempo para o status, que vai ser mostrado debaixo de todo o texto em cima.
-Temporizadores do status têm um limite de 24 horas, isso significa que após 24 horas o temporizador irá voltar para 0:00.</value>
+    <value>Prepara indicadores de tempo para a presença, que vai ser mostrado debaixo de todo o texto em cima.
+Temporizadores da presença têm um limite de 24 horas, isso significa que após 24 horas o temporizador irá voltar para 0:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>Quantidade de jogadores do grupo, é mostrado ao lado do indicador de Status.
+    <value>Quantidade de jogadores do grupo, é mostrado ao lado do indicador de preseça.
 Para funcionar, ambos os numero têm de ter um numero maior que 0.</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
@@ -391,7 +391,7 @@ Para funcionar, ambos os numero têm de ter um numero maior que 0.</value>
     <value>Temporizador personalizado</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
-    <value>Mostra quanto tempo começou desde ou quando falta na data indicada a baixo.</value>
+    <value>Mostra quanto tempo começou desde, ou quanto falta na data indicada a baixo.</value>
   </data>
   <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 14</value>
@@ -400,7 +400,7 @@ Para funcionar, ambos os numero têm de ter um numero maior que 0.</value>
     <value>Botão 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>Primeiro dos dois botões que são mostrados debaixo do seu status.</value>
+    <value>Primeiro dos dois botões que são mostrados debaixo do seu perfil.</value>
   </data>
   <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 14</value>
@@ -412,10 +412,10 @@ Para funcionar, ambos os numero têm de ter um numero maior que 0.</value>
     <value>Segundo botão, aparece debaixo do primeiro botão ou no local dele caso o primeiro botão não esteja configurado.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>O Website que o botão irá abrir.</value>
+    <value>O link que o botão irá abrir.</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>O Website que o botão irá abrir.</value>
+    <value>O link que o botão irá abrir.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
     <value>Texto do primeiro botão.</value>
@@ -427,10 +427,10 @@ Para funcionar, ambos os numero têm de ter um numero maior que 0.</value>
     <value>238, 18</value>
   </data>
   <data name="radioButtonPresence.Text" xml:space="preserve">
-    <value>Desde a ultima atualização de presença</value>
+    <value>Desde a ultima atualização de atividade</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
-    <value>Mostra quanto tempo se passou desde de a ultima vez que você se conectou ou atualizou a presença.</value>
+    <value>Mostra quanto tempo se passou desde de a ultima vez que você se conectou ou atualizou a atividade.</value>
   </data>
   <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
     <value>21, 14</value>

@@ -144,25 +144,25 @@ Você poderá o abrir a qualquer momento em Ajuda -&gt; Abrir o Manual ou ao cli
     <value>A Conectar...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Conexão falhada (Tem o Discord aberto?)</value>
+    <value>Conexão falhada (O Discord está aberto?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
-    <value>Disconectado</value>
+    <value>Desconectado</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>Erro de conexão (Provavelmente ID errado?)</value>
+    <value>Erro de conexão (ID errado?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
     <value>Endereço errado para um dos botões ou o texto é muito longo!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
-    <value>Impossível conectar á internet!</value>
+    <value>Impossível conectar à internet!</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
-    <value>Nenhuma atualização foi encontrada!</value>
+    <value>Nenhuma atualização encontrada!</value>
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
-    <value>Ficheiro de definições esta corrompido.
+    <value>O ficheiro de definições esta corrompido.
 Clique Sim para redefinir as Definições ou clique Não para fechar.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
@@ -173,7 +173,7 @@ Clique Sim para redefinir as Definições ou clique Não para fechar.</value>
 (Todas as informações são despersonalizadas.)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
-    <value>Um erro ocorreu ao salvar as defenições:</value>
+    <value>Ocorreu erro ocorreu ao salvar as definições:</value>
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Por favor adicione "{0}" ás exceções do seu antivírus. Reinstale o CustomRP se este erro persistir.</value>
@@ -188,6 +188,6 @@ Clique Sim para redefinir as Definições ou clique Não para fechar.</value>
     <value>Ocorreu um erro ao abrir o Link. Ele foi copiado para a Área de Transferência.</value>
   </data>
   <data name="statusUpdatingPresence" xml:space="preserve">
-    <value>Atualizando presença...</value>
+    <value>A atualizar a atividade...</value>
   </data>
 </root>
