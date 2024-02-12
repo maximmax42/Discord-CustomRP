@@ -720,6 +720,7 @@ namespace CustomRPC
 
             Uri tempUri;
 
+            /* Unused
             string GetProcessedURL(Uri origUri)
             {
                 if (!origUri.Host.Contains("discordapp"))
@@ -735,6 +736,7 @@ namespace CustomRPC
 
                 return newUri.Uri.AbsoluteUri;
             }
+            */
 
             string Proxify(string key)
             {
@@ -747,10 +749,10 @@ namespace CustomRPC
             try
             {
                 if (Uri.TryCreate(settings.smallKey, UriKind.Absolute, out tempUri))
-                    settings.smallKey = GetProcessedURL(tempUri);
+                    settings.smallKey = tempUri.AbsoluteUri;
 
                 if (Uri.TryCreate(settings.largeKey, UriKind.Absolute, out tempUri))
-                    settings.largeKey = GetProcessedURL(tempUri);
+                    settings.largeKey = tempUri.AbsoluteUri;
 
                 rp.Assets = new Assets()
                 {
