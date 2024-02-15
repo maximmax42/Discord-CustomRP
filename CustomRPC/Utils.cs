@@ -998,7 +998,7 @@ namespace CustomRPC
                 },
                 new Supporter {
                     Name = "✞ 4ng3l ✞",
-                    Url = "https://maracesh.ru/",
+                    Url = "https://4ng3l.com/",
                     USDAmount = "5.77",
                     AltAmount = "500.00 RUB"
                 },
