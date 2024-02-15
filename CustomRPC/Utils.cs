@@ -997,7 +997,7 @@ namespace CustomRPC
                     AltAmount = "300.00 RUB"
                 },
                 new Supporter {
-                    Name = "✞ 4ng3l ✞",
+                    Name = "4NG3L",
                     Url = "https://4ng3l.com/",
                     USDAmount = "5.77",
                     AltAmount = "500.00 RUB"
