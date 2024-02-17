@@ -407,9 +407,11 @@ namespace CustomRPC
                     EnglishName = "French",
                     Code = "fr",
                     Translators = new Person[] {
-                        new Person { Name = "Nenaff" },
+                        new Person { Name = "Nenaff" }, // Account deleted
                         new Person { Name = "RedNix" },
                         new Person { Name = "VaporCorp" }, // Account deleted
+                        new Person { Name = "SkyDream" },
+                        new Person { Name = "Prototyx5" },
                     }
                 },
                 new Language {

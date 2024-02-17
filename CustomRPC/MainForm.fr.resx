@@ -194,7 +194,7 @@
     <value>250, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Automatiquement lancer au démarrage</value>
+    <value>Lancer automatiquement au démarrage</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 22</value>

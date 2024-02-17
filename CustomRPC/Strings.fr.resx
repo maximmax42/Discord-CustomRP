@@ -128,7 +128,7 @@
 Cliquez sur "Oui" pour réessayer, ou "Non" pour la télécharger manuellement.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Premier lancement</value>
+    <value>Besoin d'aide ?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Souhaitez-vous ouvrir le manuel?
