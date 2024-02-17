@@ -246,7 +246,7 @@ namespace CustomRPC
                 settings.customTimestamp = DateTime.Now;
 
             // Change the earliest date user can choose according to user's timezone
-            dateTimePickerTimestamp.MinDate = new DateTime(2001, 9, 9, 1, 46, 40, DateTimeKind.Utc).ToLocalTime();
+            dateTimePickerTimestamp.MinDate = new DateTime(1970, 1, 1, 0, 0, 1, DateTimeKind.Utc).ToLocalTime();
 
             // Localize the header of the tooltip because Visual Studio can't do that for some reason
             toolTipInfo.ToolTipTitle = Strings.information;
@@ -833,10 +833,24 @@ namespace CustomRPC
             {
                 case TimestampType.None: break;
                 case TimestampType.SinceStartup: rp.Timestamps = new Timestamps(timestampStarted); break;
-                case TimestampType.SincePresenceUpdate: rp.Timestamps = new Timestamps(DateTime.UtcNow); break;
+                case TimestampType.SincePresenceUpdate: rp.Timestamps = Timestamps.Now; break;
                 case TimestampType.LocalTime: rp.Timestamps = new Timestamps(DateTime.UtcNow.Subtract(new TimeSpan(DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second))); break;
                 case TimestampType.Custom:
                     DateTime customTimestamp = dateTimePickerTimestamp.Value.ToUniversalTime();
+                    /// I must apologize preemptively for this monster of an if-statement
+                    /// Timestamps before 2001-09-09 01:46:40 UTC only work if you have a "dumb" presence (the one that only has ID,
+                    /// timestamp and small image fields set)
+                    /// Technically, it doesn't even matter what date you put in the rich presence timestamp, since it only shows the hours
+                    /// since/to the timestamp
+                    if (customTimestamp.CompareTo(new DateTime(2001, 9, 9, 1, 46, 40, DateTimeKind.Utc)) < 0 &&
+                        !(string.IsNullOrEmpty(settings.details) && string.IsNullOrEmpty(settings.state) && settings.partySize == 0 &&
+                        settings.partyMax == 0 && string.IsNullOrEmpty(settings.largeKey) && string.IsNullOrEmpty(settings.largeText) &&
+                        string.IsNullOrEmpty(settings.smallText) && string.IsNullOrEmpty(settings.button1Text) &&
+                        string.IsNullOrEmpty(settings.button1URL) && string.IsNullOrEmpty(settings.button2Text) &&
+                        string.IsNullOrEmpty(settings.button2URL)))
+                    {
+                        customTimestamp = new DateTime(2002, 1, 1, customTimestamp.Hour, customTimestamp.Minute, customTimestamp.Second, DateTimeKind.Utc);
+                    }
                     rp.Timestamps = customTimestamp.CompareTo(DateTime.UtcNow) < 0 ? new Timestamps(customTimestamp) : new Timestamps(DateTime.UtcNow, customTimestamp);
                     break;
             }
