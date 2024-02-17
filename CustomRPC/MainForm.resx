@@ -557,6 +557,9 @@
     <value>ID</value>
     <comment>@Invariant</comment>
   </data>
+  <data name="labelID.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>ID of the application from Discord Developers site.</value>
   </data>
@@ -590,6 +593,9 @@
   <data name="labelDetails.Text" xml:space="preserve">
     <value>Details</value>
     <comment>@Invariant</comment>
+  </data>
+  <data name="labelDetails.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
     <value>First line in the presence.</value>
@@ -625,6 +631,9 @@
     <value>State</value>
     <comment>@Invariant</comment>
   </data>
+  <data name="labelState.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
   <data name="labelState.ToolTip" xml:space="preserve">
     <value>Second line in the presence.</value>
   </data>
@@ -659,6 +668,9 @@
     <value>Key</value>
     <comment>@Invariant</comment>
   </data>
+  <data name="labelSmallKey.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
     <value>Name of the asset for small image or an image URL.</value>
   </data>
@@ -681,7 +693,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelSmallText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 341</value>
+    <value>226, 341</value>
   </data>
   <data name="labelSmallText.Size" type="System.Drawing.Size, System.Drawing">
     <value>33, 14</value>
@@ -692,6 +704,9 @@
   <data name="labelSmallText.Text" xml:space="preserve">
     <value>Text</value>
     <comment>@Invariant</comment>
+  </data>
+  <data name="labelSmallText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Text displayed when hovering the small image.</value>
@@ -727,6 +742,9 @@
     <value>Text</value>
     <comment>@Invariant</comment>
   </data>
+  <data name="labelLargeText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
     <value>Text displayed when hovering the large image.</value>
   </data>
@@ -760,6 +778,9 @@
   <data name="labelLargeKey.Text" xml:space="preserve">
     <value>Key</value>
     <comment>@Invariant</comment>
+  </data>
+  <data name="labelLargeKey.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>Name of the asset for large image or an image URL.</value>
@@ -960,6 +981,9 @@
     <value>Timestamp</value>
     <comment>@Invariant</comment>
   </data>
+  <data name="labelTimestamp.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>Sets up timestamp for the status, which shows up under all the text above.
 Status timers have 24 hour limit, meaning that after 24 hours time will go back to 0:00.</value>
@@ -994,6 +1018,9 @@ Status timers have 24 hour limit, meaning that after 24 hours time will go back 
   <data name="labelParty.Text" xml:space="preserve">
     <value>Party</value>
     <comment>@Invariant</comment>
+  </data>
+  <data name="labelParty.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
     <value>Amount of players in the current party that shows next to State field.
@@ -1129,6 +1156,9 @@ To take effect, both fields should be more than 0.</value>
     <value>URL</value>
     <comment>@Invariant</comment>
   </data>
+  <data name="labelButton1URL.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
     <value>URL the button will take user to upon clicking.</value>
   </data>
@@ -1162,6 +1192,9 @@ To take effect, both fields should be more than 0.</value>
   <data name="labelButton2URL.Text" xml:space="preserve">
     <value>URL</value>
     <comment>@Invariant</comment>
+  </data>
+  <data name="labelButton2URL.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
     <value>URL the button will take user to upon clicking.</value>
@@ -1197,6 +1230,9 @@ To take effect, both fields should be more than 0.</value>
     <value>Text</value>
     <comment>@Invariant</comment>
   </data>
+  <data name="labelButton1Text.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
     <value>Label of the first button.</value>
   </data>
@@ -1219,7 +1255,7 @@ To take effect, both fields should be more than 0.</value>
     <value>NoControl</value>
   </data>
   <data name="labelButton2Text.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 388</value>
+    <value>226, 388</value>
   </data>
   <data name="labelButton2Text.Size" type="System.Drawing.Size, System.Drawing">
     <value>33, 14</value>
@@ -1230,6 +1266,9 @@ To take effect, both fields should be more than 0.</value>
   <data name="labelButton2Text.Text" xml:space="preserve">
     <value>Text</value>
     <comment>@Invariant</comment>
+  </data>
+  <data name="labelButton2Text.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
     <value>Label of the second button.</value>
