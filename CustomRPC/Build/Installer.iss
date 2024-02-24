@@ -106,7 +106,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 
 [Files]
 ; Source: "Release\CustomRP.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "Release\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Excludes: "*.pdb,*.xml,*.log*,\logs\"
+Source: "CustomRP\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Excludes: "*.pdb,*.xml,*.log*,\logs\"
 Source: "Windows 7\*"; DestDir: "{app}"; Flags: ignoreversion; OnlyBelowVersion: 6.2
 Source: "ndp48-web.exe"; DestDir: "{tmp}";
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
