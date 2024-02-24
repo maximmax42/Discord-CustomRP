@@ -275,6 +275,12 @@ namespace CustomRPC
                 return loc == currentLocale || loc == currentLocale.Split('-')[0];
             }
 
+            // Set up shortcuts for certain menu elements
+            loadPresetToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.O;
+            savePresetToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.S;
+            uploadAssetsToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.U;
+            openTheManualToolStripMenuItem.ShortcutKeys = Keys.F1;
+
             loading = false;
 
             // Starts minimized to tray by default, unless you just changed language
