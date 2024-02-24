@@ -1,5 +1,5 @@
 if (-not(Test-Path -Path .appSecret -PathType Leaf)) {
-	echo No .appSecret present, ignoring...
+	echo "No .appSecret present, ignoring..."
 	return
 }
 
