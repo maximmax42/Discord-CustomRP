@@ -34,7 +34,7 @@ PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=commandline
 OutputDir=Artifacts
 OutputBaseFilename=CustomRP {#MyAppVersion}
-SetupIconFile=D:\Projects\Visual Studio\CustomRPC\CustomRPC\Resources\favicon.ico
+SetupIconFile=..\Resources\favicon.ico
 WizardImageFile=wizimg.bmp
 WizardSmallImageFile=wizsmallimg.bmp
 
