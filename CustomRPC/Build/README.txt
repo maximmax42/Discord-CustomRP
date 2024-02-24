@@ -1,0 +1,1 @@
+If you are using Windows 7, please copy the .dll files from the "Windows 7" folder and paste them into CustomRP folder, overwriting the existing ones.
