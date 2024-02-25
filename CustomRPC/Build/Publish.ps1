@@ -17,4 +17,4 @@ $hashes = "CustomRP $ver.exe`n    $((Get-FileHash "Artifacts\CustomRP $ver.exe" 
 $hashes
 "====================="
 
-$hashes > "Artifacts\CustomRP $ver Hashes.txt"
+$hashes > "Artifacts\CustomRP Hashes $ver.txt"
