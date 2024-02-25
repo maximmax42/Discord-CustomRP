@@ -12,6 +12,6 @@ echo "start CustomRP.exe --second-instance" > "CustomRP\Start Second Instance.ba
 Compress-Archive -Path CustomRP,"Windows 7",README.txt -DestinationPath "Artifacts\CustomRP $ver.zip" -CompressionLevel Optimal
 
 "=== SHA256 Hashes ==="
-"CustomRP $ver.exe`n    $((Get-FileHash "CustomRP $ver.exe" -Algorithm SHA384).Hash)"
-"CustomRP $ver.zip`n    $((Get-FileHash "CustomRP $ver.zip" -Algorithm SHA384).Hash)"
+"CustomRP $ver.exe`n    $((Get-FileHash "Artifacts\CustomRP $ver.exe" -Algorithm SHA384).Hash)"
+"CustomRP $ver.zip`n    $((Get-FileHash "Artifacts\CustomRP $ver.zip" -Algorithm SHA384).Hash)"
 "====================="
