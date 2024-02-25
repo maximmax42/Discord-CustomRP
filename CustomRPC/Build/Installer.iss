@@ -44,7 +44,7 @@ SolidCompression=yes
 WizardStyle=classic
 CloseApplications=force
 AppCopyright=Copyright (C) 2018-{#CurrentYear} maximmax42
-LicenseFile=License.txt
+LicenseFile=License combined.txt
 ChangesAssociations=yes
 
 ; No German (CH), Welsh (cy), Filipino, Kannada, Panjabi, Malayalam, Burmese (my), Tamil

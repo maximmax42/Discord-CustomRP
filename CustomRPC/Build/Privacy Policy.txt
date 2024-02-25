@@ -1,0 +1,32 @@
+CustomRP collects this non-personal information during the usage of the app:
+- OS Version
+- OS Language
+- Device Model (laptop or motherboard)
+- Country based on OS settings (does not use geolocation)
+- App Version
+
+As well as these user interactions:
+- Connected to Discord
+- Disconnected from Discord
+- Connection error (wrong ID, etc)
+- Connection failure (Discord isn't running, etc)
+- Updated presence:
+  - Does it have party?
+  - What timestamp type is used?
+  - Does it have big image set?
+  - Does it have small image set?
+  - How many buttons are set?
+- New version was ignored:
+  - Which version?
+- Saved a preset
+- Loaded a preset
+- Clicked on a translator menu item:
+  - Name of the translator
+  - URL of the translator
+- Opened pipe select window
+- Opened about window
+
+Crash reports send your settings (except ID) to help understand the cause of the crash.
+
+This information is collected to understand how the application is used, improve features and catch unexpected crashes as soon as they appear. The information is stored in the Microsoft App Center for 90 days and is not shared with any third parties.
+Users can opt out at any time in the Settings menu.
