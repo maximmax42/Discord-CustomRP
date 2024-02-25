@@ -11,7 +11,10 @@ C:\Program` Files` `(x86`)\Inno` Setup` 6\ISCC.exe /DMyAppVersion=$ver Installer
 echo "start CustomRP.exe --second-instance" > "CustomRP\Start Second Instance.bat"
 Compress-Archive -Path CustomRP,"Windows 7",README.txt -DestinationPath "Artifacts\CustomRP $ver.zip" -CompressionLevel Optimal
 
+$hashes = "CustomRP $ver.exe`n    $((Get-FileHash "Artifacts\CustomRP $ver.exe" -Algorithm SHA384).Hash)`nCustomRP $ver.zip`n    $((Get-FileHash "Artifacts\CustomRP $ver.zip" -Algorithm SHA384).Hash)"
+
 "=== SHA256 Hashes ==="
-"CustomRP $ver.exe`n    $((Get-FileHash "Artifacts\CustomRP $ver.exe" -Algorithm SHA384).Hash)"
-"CustomRP $ver.zip`n    $((Get-FileHash "Artifacts\CustomRP $ver.zip" -Algorithm SHA384).Hash)"
+$hashes
 "====================="
+
+$hashes > "Artifacts\CustomRP $ver Hashes.txt"
