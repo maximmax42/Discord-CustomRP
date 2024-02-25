@@ -5,6 +5,8 @@
   <br>
   <a href="https://boosty.to/maximmax42"><img alt="Support on Boosty" src="https://img.shields.io/badge/support%20on-boosty-19e2e2"></a>
   <a href="https://www.customrp.xyz/discordserver"><img alt="Discord Server" src="https://img.shields.io/discord/928333025652121630?color=19e2e2&label=server&logo=discord&logoColor=white"></a>
+  <br>
+  <a href="https://ci.appveyor.com/project/maximmax42/customrp"><img alt="Build status" src="https://ci.appveyor.com/api/projects/status/gon87e7t4hgblh9o?svg=true"></a>
 </p>
 
 # <img src=https://www.customrp.xyz/assets/logo.png style="height:1em;"/> Custom Discord Rich Presence Manager
