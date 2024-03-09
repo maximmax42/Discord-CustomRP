@@ -6,6 +6,7 @@ if ($verRaw.FilePrivatePart -ne 0) { $ver += ".$($verRaw.FilePrivatePart)" }
 xcopy ..\bin\Release CustomRP /e /i /s /y /exclude:exclude.txt
 xcopy License.txt CustomRP
 xcopy "Privacy Policy.txt" CustomRP
+git clone https://github.com/jrsoftware/issrc
 C:\Program` Files` `(x86`)\Inno` Setup` 6\ISCC.exe /DMyAppVersion=$ver Installer.iss
 
 echo "start CustomRP.exe --second-instance" > "CustomRP\Start Second Instance.bat"
