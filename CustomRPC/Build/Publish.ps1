@@ -1,3 +1,5 @@
+$env:GIT_REDIRECT_STDERR = '2>&1'
+
 $verRaw = (Get-Item ..\bin\Release\CustomRP.exe).VersionInfo
 $ver = "$($verRaw.FileMajorPart).$($verRaw.FileMinorPart)"
 if ($verRaw.FileBuildPart -ne 0 -or $verRaw.FilePrivatePart -ne 0) { $ver += ".$($verRaw.FileBuildPart)" }
