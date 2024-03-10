@@ -111,7 +111,7 @@ So far, the app supports these languages:
 * [Mongolian](https://poeditor.com/projects/po_edit?id_language=109&per_page=100&id=409229) (thanks to [SenMN](https://senmn.tech/) and AnarErdene)
 * [Norwegian](https://poeditor.com/projects/po_edit?id_language=116&per_page=100&id=409229) (thanks to Sveinung, Seth and [Codiaz](https://codiaz.com/))
 * [Panjabi](https://poeditor.com/projects/po_edit?id_language=125&per_page=100&id=409229) (thanks to [Mridun Gupta](https://contact.mridungupta.eu.org))
-* [Persian](https://poeditor.com/projects/po_edit?id_language=126&per_page=100&id=409229) (thanks to [Mohammad Mahdi](https://mo-mahdihh.ir/), [Nima](https://github.com/nima-globals/) and Sunnystew)
+* [Persian](https://poeditor.com/projects/po_edit?id_language=126&per_page=100&id=409229) (thanks to [Mohammad Mahdi](https://mo-mahdihh.ir/), AliGhanbarzadeh, [Nima](https://github.com/nima-globals/) and Sunnystew)
 * [Polish](https://poeditor.com/projects/po_edit?id_language=127&per_page=100&id=409229) (thanks to Lol1112345.lol12345, Liso, Piter, Oscar, [Marcel Gustin](https://marcelgustin.de), Tofix.rs and KM127PL)
 * [Portugese](https://poeditor.com/projects/po_edit?id_language=128&per_page=100&id=409229) (thanks to Verygafanhot)
 * [Portugese (BR)](https://poeditor.com/projects/po_edit?id_language=190&per_page=100&id=409229) (thanks to viniciotricolor, Slimakoi, Felipe B. Pansani, DeusDrizzyy and Leo)

@@ -376,6 +376,7 @@ namespace CustomRPC
                     Code = "fa",
                     Translators = new Person[] {
                         new Person { Name = "Mohammad Mahdi", Url = "https://mo-mahdihh.ir/" },
+                        new Person { Name = "AliGhanbarzadeh" },
                         new Person { Name = "Nima", Url = "https://github.com/nima-globals/" },
                         new Person { Name = "Sunnystew" },
                     }
@@ -858,7 +859,7 @@ namespace CustomRPC
             LanguageProgress["mn"] = "99.02";
             LanguageProgress["no"] = "98.04";
             LanguageProgress["pa"] = "100";
-            LanguageProgress["fa"] = "98.04";
+            LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "100";
             LanguageProgress["pt"] = "100";
             LanguageProgress["pt-br"] = "100";

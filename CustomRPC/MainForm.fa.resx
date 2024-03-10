@@ -158,7 +158,7 @@
     <value>214, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>آپلود فایل</value>
+    <value>آپلود تنظیمات</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 6</value>
@@ -200,7 +200,7 @@
     <value>206, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>بررسی کردن برای بروزرسانی نرم افزار</value>
+    <value>بررسی برای بروزرسانی ها</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>206, 22</value>
@@ -254,7 +254,7 @@
     <value>187, 22</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>صفحه گیتهاب</value>
+    <value>صفحه گیت هاب</value>
   </data>
   <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 6</value>
@@ -293,16 +293,16 @@
     <value>نصب بروزرسانی</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>بروزرسانی پرسنس</value>
+    <value>بروزرسانی وضعیت</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>بروزرسانی ها پرسنس</value>
+    <value>بروزرسانی وضعیت</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>اتصال</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>برنامه را با حضور تنظیم شده به شناسه مشخص شده پیوند می دهد.</value>
+    <value>نرم افزار را با وضعیت تنظیم شده به شناسه مشخص شده پیوند می دهد.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
     <value>قطع اتصال</value>
@@ -311,22 +311,22 @@
     <value>نرم افزار های متصل به دیسکورد را قطع می کند. توجه کنید که ممکن است کمی طول بکشد.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>کد یا آیدی اپلیکیشن شما که از سایت دیسکورد دولوپر دریافت کرده اید.</value>
+    <value>آیدی اپلیکیشن شما که از سایت توسعه دهندگان دیسکورد دریافت کرده اید.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>اولین خط در پرسنس.</value>
+    <value>اولین خط در وضعیت.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>دومین خط در پرسنس.</value>
+    <value>دومین خط در وضعیت.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
     <value>اسم فایل برای قرار دادن در جایگاه عکس کوچک.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>متنی که وقتی رو عکس کوچک کلیک میشود یا به جای نبود عکس نشان داده میشود.</value>
+    <value>متنی که وقتی روی عکس کوچک کلیک میشود یا به جای نبود عکس نشان داده میشود.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>متنی که وقتی رو عکس بزرگ کلیک میشود یا به جای نبود عکس نشان داده میشود.</value>
+    <value>متنی که وقتی روی عکس بزرگ کلیک میشود یا به جای نبود عکس نشان داده میشود.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>اسم فایل برای قرار دادن در جایگاه عکس بزرگ.</value>
@@ -383,11 +383,11 @@
     <value>زمان محلی شما</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>زمان فعلی شما را در قالب ساعت 24 ساعته نشان میدهد</value>
+    <value>زمان فعلی شما را در قالب زمان 24 ساعته نشان میدهد</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>برچسب زمانی را تنظیم می نماید که تمام متن بالای زمان نشان داده شود
-ساعت استاتوس شما 24 ساعت حداکثر کار میکند بعد از 24 ساعت از صفر شروع بکار خواهد کرد</value>
+ساعت وضعیت شما حداکثر 24 ساعت کار میکند ، بعد از 24 ساعت از صفر شروع بکار خواهد کرد</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
     <value>تعداد افراد هایی که در گروه شما هستند و بعد از متن State به نمایش در می آید
@@ -412,7 +412,7 @@
     <value>دکمه 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>دو دکمه ای پایین استاتوس تون به نمایش در میاد و در پروفایل تون که از لیست اعضا کلیک میشود یا پروفایل تون کامل باز میشود نمایش داده میشود</value>
+    <value>دو دکمه ای پایین وضعیت تان به نمایش در می آید و در پروفایل تان که از لیست اعضا کلیک میشود یا پروفایل تان کامل باز میشود نمایش داده میشود</value>
   </data>
   <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 14</value>

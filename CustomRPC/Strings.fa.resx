@@ -153,7 +153,7 @@
     <value>خطا در اتصال(آیا آیدی درست است؟)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>خطا لینک دکمه(های) که وارد کردی اید لینک یا متن بسیار طولانی است!</value>
+    <value>خطا لینک دکمه (ها) که وارد کرده اید لینک یا متن بسیار طولانی است!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
     <value>نمیتوان به اینترنت وصل شد!</value>
@@ -170,8 +170,8 @@
 فایل یا گم شده یا خراب است یا به درستی فرمت نشده است.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>آیا اجازه میدهید CustomRP اطلاعات کار شما را برای سازنده ارسال نماید؟
-(به جز داده های شخصی مانند توکن حساب کاربری و..)</value>
+    <value>آیا اجازه میدهید کاستوم آر پی اطلاعات نرم افزاری شما را برای سازنده ارسال نماید؟
+(به جز داده های شخصی مانند توکن حساب کاربری و...)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
     <value>خطا در ذخیره کردن تنظیمات:</value>
@@ -184,5 +184,11 @@
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>خطا در اضافه یا حذف کردن میانبر استارت آپ:</value>
+  </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>متأسفانه باز کردن آدرس با مشکل مواجه شد. آدرس به کلیپ بورد شما کپی شده است.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>به روز رسانی وضعیت...</value>
   </data>
 </root>

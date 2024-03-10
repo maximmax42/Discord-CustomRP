@@ -137,7 +137,7 @@
     <value>دیگر برای بروزرسانی ها چک نکن</value>
   </data>
   <data name="labelVersionsText.Text" xml:space="preserve">
-    <value>نسخه کنونی:
+    <value>نسخه فعلی:
 آخرین نسخه:</value>
   </data>
   <data name="buttonSkipUpdate.Size" type="System.Drawing.Size, System.Drawing">
