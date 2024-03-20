@@ -128,7 +128,7 @@
 Πατήστε "Ναι" για επανάληψη ή "Όχι" για μη αυτόματη λήψη.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Τρέξιμο για Πρώτη Φορά</value>
+    <value>Χρειάζεστε βοήθεια;</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Θα θέλατε να ανοίξετε ένα εγχειρίδιο;
@@ -183,5 +183,11 @@
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Αποτυχία προσθήκης ή κατάργησης συντόμευσης εκκίνησης:</value>
+  </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Απέτυχε το άνοιγμα της διεύθυνσης URL. Έχει αντιγραφεί στο πρόχειρο.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Ενημέρωση παρουσίας...</value>
   </data>
 </root>

@@ -93,7 +93,7 @@ So far, the app supports these languages:
 * [Georgian](https://poeditor.com/projects/po_edit?id_language=54&per_page=100&id=409229) (thanks to [Turashviliguro](https://turashviliguro.github.io/daddyexe/))
 * [German](https://poeditor.com/projects/po_edit?id_language=55&per_page=100&id=409229) (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), [Marcel Gustin](https://marcelgustin.de), ahmad, binarynoise, Revax812, Yoshi, [Felix](https://github.com/fbrettnich), [whoscanel](https://canel.cloud) and Tom)
 * [Swiss German](https://poeditor.com/projects/po_edit?id_language=208&per_page=100&id=409229) (thanks to [Foolian](https://foolian.com/) and [dragon GRaf](https://github.com/dragonGRaf1312/mycustomrichpresence))
-* [Greek](https://poeditor.com/projects/po_edit?id_language=56&per_page=100&id=409229) (thanks to Alex Grivas and [NetworkTips#0001](https://discord.gg/Qb8RPjH6sD))
+* [Greek](https://poeditor.com/projects/po_edit?id_language=56&per_page=100&id=409229) (thanks to Alex Grivas, [NetworkTips#0001](https://discord.gg/Qb8RPjH6sD) and gsina97)
 * [Hebrew](https://poeditor.com/projects/po_edit?id_language=61&per_page=100&id=409229) (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg), [Kahpot Vanilla](https://linktr.ee/KahpotVanilla) and Amit)
 * [Hindi](https://poeditor.com/projects/po_edit?id_language=63&per_page=100&id=409229) (thanks to [Mridun Gupta](https://contact.mridungupta.eu.org), [regex](https://github.com/REGEX777), [Julian](https://julian-idl.codes/) and mochiron desu)
 * [Hungarian](https://poeditor.com/projects/po_edit?id_language=65&per_page=100&id=409229) (thanks to [Botond Balla](https://github.com/BallaBotond), Noxie and BunDzsi)
