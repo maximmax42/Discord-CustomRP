@@ -755,10 +755,10 @@ namespace CustomRPC
             try
             {
                 if (Uri.TryCreate(settings.smallKey, UriKind.Absolute, out tempUri))
-                    settings.smallKey = tempUri.AbsoluteUri;
+                    settings.smallKey = tempUri.AbsoluteUri.Replace(tempUri.Host, tempUri.IdnHost);
 
                 if (Uri.TryCreate(settings.largeKey, UriKind.Absolute, out tempUri))
-                    settings.largeKey = tempUri.AbsoluteUri;
+                    settings.largeKey = tempUri.AbsoluteUri.Replace(tempUri.Host, tempUri.IdnHost);
 
                 rp.Assets = new Assets()
                 {
@@ -802,10 +802,10 @@ namespace CustomRPC
             try
             {
                 if (Uri.TryCreate(settings.button1URL, UriKind.Absolute, out tempUri))
-                    settings.button1URL = tempUri.AbsoluteUri;
+                    settings.button1URL = tempUri.AbsoluteUri.Replace(tempUri.Host, tempUri.IdnHost);
 
                 if (Uri.TryCreate(settings.button2URL, UriKind.Absolute, out tempUri))
-                    settings.button2URL = tempUri.AbsoluteUri;
+                    settings.button2URL = tempUri.AbsoluteUri.Replace(tempUri.Host, tempUri.IdnHost);
 
                 Utils.SaveSettings();
 
