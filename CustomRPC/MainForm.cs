@@ -638,6 +638,7 @@ namespace CustomRPC
 
                 textBoxID.BackColor = CurrentColors.BgTextFieldsError;
                 toolStripStatusLabelStatus.Text = Strings.statusError;
+                MessageBox.Show(this, args.Message, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }));
 
             if (ConnectionManager.HasChanged()) // Ignore repeated calls caused by auto reconnect
