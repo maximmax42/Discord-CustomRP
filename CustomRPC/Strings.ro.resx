@@ -128,7 +128,7 @@
 Apăsați "Da" pentru a reîncerca sau "Nu" pentru a descărca manual.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Nevoie de ajutor?</value>
+    <value>Ai nevoie de ajutor?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Doriți să deschideți manualul?
@@ -182,7 +182,7 @@ Apăsați Da pentru a reseta setările, apăsați Nu pentru a ieși.</value>
     <value>URL-ul imaginii este prea lung!</value>
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
-    <value>Adăugarea sau ștergerea unei scurtături de start-up a eșuat:</value>
+    <value>Nu s-a putut adăuga sau elimina o scurtătură de pornire automată:</value>
   </data>
   <data name="errorOpeningURL" xml:space="preserve">
     <value>Deschiderea URL-ului a eșuat. În schimb a fost copiat în clipboard.</value>

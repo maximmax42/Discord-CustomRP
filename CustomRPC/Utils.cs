@@ -673,6 +673,7 @@ namespace CustomRPC
                     Translators = new Person[] {
                         new Person { Name = "JPN", Url = "https://isaidpower.dev/" },
                         new Person { Name = "DiDYRO", Url = "https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w" },
+                        new Person { Name = "ShadowTiger_9" },
                         new Person { Name = "inter", Url = "https://github.com/Electro7777" },
                         new Person { Name = "Denisbolba" },
                         new Person { Name = "KTSGod", Url = "https://ktsgod.carrd.co/" }, // Developer316

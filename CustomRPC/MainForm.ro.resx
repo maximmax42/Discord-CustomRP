@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>Dă click de două ori pe iconiță ca să o vezi din nou, ori apasă click dreapta să ieși.</value>
+    <value>Dă click de două ori pe iconiță ca să o vezi din nou, ori apasă click dreapta ca să ieși din program.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
     <value>Aplicația va merge în tray icons.</value>
@@ -145,16 +145,16 @@
     <value>Ieșire</value>
   </data>
   <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Setări</value>
+    <value>Setări program</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
     <value>Pornește deodată cu calculatorul</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Pornește minimizat</value>
+    <value>Pornește minimalizat</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Verifică actualizări noi</value>
+    <value>Verifică pentru actualizări noi</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>Ajutor</value>
@@ -169,7 +169,7 @@
     <value>Traducători</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>Despre...</value>
+    <value>Despre</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
     <value>Descarcă actualizarea</value>
@@ -178,16 +178,16 @@
     <value>Actualizează prezența</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Actualizează prezența.</value>
+    <value>Actualizarea prezenței.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
-    <value>Conectează</value>
+    <value>Conectează-te</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Conectează aplicația la ID-ul specificat cu prezența setată.</value>
+    <value>Leagă aplicația de ID-ul specificat cu prezența setată.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
-    <value>Deconectează</value>
+    <value>Deconectează-te</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
     <value>Deconectează aplicația de la Discord. Vă rugăm să rețineți că poate dura ceva timp.</value>
@@ -205,10 +205,10 @@
     <value>Numele materialului pentru imaginea mică sau adresa URL a imaginii.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>Text afișat când treceți cu mouse-ul pe imaginea mică.</value>
+    <value>Text care se afișează atunci când treceți cu mouse-ul pe imaginea mică.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>Text afișat când treceți cu mouse-ul pe imaginea mare.</value>
+    <value>Text-ul care se afișează atunci când treceți cu mouse-ul pe imaginea mare.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>Numele imaginii pentru imaginea mare sau adresă URL.</value>
@@ -226,16 +226,16 @@
     <value>Imaginea care apare la stânga textului setat mai sus.</value>
   </data>
   <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>Niciuna</value>
+    <value>Nimic</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Fără marcaj de timp.</value>
+    <value>Fără marcaje de timp activate.</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>De când a pornit CustomRP</value>
+    <value>Din momentul în care CustomRP a început.</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>Arată timpul de când a pornit aplicația.</value>
+    <value>Afișează timpul de la pornirea aplicației.</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
     <value>Timpul tău local</value>
@@ -244,12 +244,11 @@
     <value>Arată timpul tău în format de 24h.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Configurează marcajul de timp pentru status, care apare sub tot textul de mai sus.
-Temporizatoarele de stare au o limită de 24 de ore, ceea ce înseamnă că, după 24 de ore, timpul va reveni la 0:00.</value>
+    <value>Stabilește marcajul de timp pentru status, care apare sub textul de mai sus. Cronometrele de status au o limită de 24 de ore, ceea ce înseamnă că după 24 de ore timpul se va întoarce la 0:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>Numărul de jucători din grupul curent care apare lângă câmpul Stare.
-Pentru a intra în vigoare, ambele câmpuri trebuie să fie mai mari de 0.</value>
+    <value>Numărul de jucători din petrecerea curentă care apare lângă câmpul 'Stare'.
+Pentru a avea efect,ambele câmpuri trebuie să aibă o valoare mai mare decât 0.</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
     <value>Marcaj de timp personalizat</value>
@@ -261,13 +260,13 @@ Pentru a intra în vigoare, ambele câmpuri trebuie să fie mai mari de 0.</valu
     <value>Butonul 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>Primul dintre cele două butoane care apar sub starea dvs în pop-up-ul profilului dvs și în partea dreaptă în profilul complet.</value>
+    <value>Primul dintre cele două butoane care apar sub starea dvs. în pop-up-ul profilului dvs. și în partea dreaptă în profilul complet.</value>
   </data>
   <data name="labelButton2.Text" xml:space="preserve">
     <value>Butonul 2</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>Al doilea buton, care apare chiar sub primul buton, sau în locul lui, dacă primul nu este setat.</value>
+    <value>Al doilea buton, care apare chiar sub primul buton, sau în locul lui, dacă primul buton nu este setat.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
     <value>URL-ul care se va deschide apăsând butonul.</value>
@@ -285,7 +284,7 @@ Pentru a intra în vigoare, ambele câmpuri trebuie să fie mai mari de 0.</valu
     <value>din</value>
   </data>
   <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
-    <value>Prestabilit</value>
+    <value>Predefinit</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>Limbă</value>
@@ -303,7 +302,7 @@ Pentru a intra în vigoare, ambele câmpuri trebuie să fie mai mari de 0.</valu
     <value>Permite analizele</value>
   </data>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tema întunecată</value>
+    <value>Mod întunecat</value>
   </data>
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
     <value>Suporteri</value>
