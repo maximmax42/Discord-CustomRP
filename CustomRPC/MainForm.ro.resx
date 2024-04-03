@@ -145,7 +145,7 @@
     <value>Ieșire</value>
   </data>
   <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Setări program</value>
+    <value>Setări</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
     <value>Pornește deodată cu calculatorul</value>
@@ -205,10 +205,10 @@
     <value>Numele materialului pentru imaginea mică sau adresa URL a imaginii.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>Text care se afișează atunci când treceți cu mouse-ul pe imaginea mică.</value>
+    <value>Text afișat când treceți cu mouse-ul pe imaginea mică.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>Text-ul care se afișează atunci când treceți cu mouse-ul pe imaginea mare.</value>
+    <value>Text afișat când treceți cu mouse-ul pe imaginea mare.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>Numele imaginii pentru imaginea mare sau adresă URL.</value>
@@ -232,7 +232,7 @@
     <value>Fără marcaje de timp activate.</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>Din momentul în care CustomRP a început.</value>
+    <value>De când a pornit CustomRP</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
     <value>Afișează timpul de la pornirea aplicației.</value>
