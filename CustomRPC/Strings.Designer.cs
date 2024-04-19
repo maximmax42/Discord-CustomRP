@@ -219,6 +219,16 @@ namespace CustomRPC {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Are you sure you want to start from scratch?
+        ///This cannot be undone..
+        /// </summary>
+        internal static string newPresetConfirmation {
+            get {
+                return ResourceManager.GetString("newPresetConfirmation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на No updates found!.
         /// </summary>
         internal static string noUpdatesFound {

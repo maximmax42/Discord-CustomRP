@@ -195,4 +195,8 @@ Press Yes to reset the settings, press No to quit.</value>
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>Updating presence...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Are you sure you want to start from scratch?
+This cannot be undone.</value>
+  </data>
 </root>

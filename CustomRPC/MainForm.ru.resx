@@ -498,4 +498,7 @@
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>Часто задаваемые вопросы</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Новый пресет</value>
+  </data>
 </root>

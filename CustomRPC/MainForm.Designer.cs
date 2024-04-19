@@ -122,6 +122,7 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
+            this.newPresetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -199,6 +200,7 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newPresetToolStripMenuItem,
             this.loadPresetToolStripMenuItem,
             this.savePresetToolStripMenuItem,
             this.toolStripSeparatorFile1,
@@ -875,6 +877,12 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
+            // newPresetToolStripMenuItem
+            // 
+            this.newPresetToolStripMenuItem.Name = "newPresetToolStripMenuItem";
+            resources.ApplyResources(this.newPresetToolStripMenuItem, "newPresetToolStripMenuItem");
+            this.newPresetToolStripMenuItem.Click += new System.EventHandler(this.NewPreset);
+            // 
             // MainForm
             // 
             this.AllowDrop = true;
@@ -1033,6 +1041,7 @@
         private System.Windows.Forms.ToolStripMenuItem testSupporterToolStripMenuItem;
         private System.Windows.Forms.RadioButton radioButtonPresence;
         private System.Windows.Forms.ToolStripMenuItem faqToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem newPresetToolStripMenuItem;
     }
 }
 

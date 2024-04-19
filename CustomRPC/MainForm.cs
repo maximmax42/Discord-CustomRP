@@ -276,6 +276,7 @@ namespace CustomRPC
             }
 
             // Set up shortcuts for certain menu elements
+            newPresetToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.N;
             loadPresetToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.O;
             savePresetToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.S;
             uploadAssetsToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.U;
@@ -970,6 +971,28 @@ namespace CustomRPC
 
             Show();
             Activate();
+        }
+
+        /// <summary>
+        /// Called when you press New Preset button.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void NewPreset(object sender, EventArgs e)
+        {
+            if (MessageBox.Show(this, Strings.newPresetConfirmation, Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+                return;
+
+            if (ConnectionManager.State != ConnectionType.Disconnected)
+                Disconnect();
+
+            textBoxID.Text = textBoxDetails.Text = textBoxState.Text =
+                comboBoxLargeKey.Text = textBoxLargeText.Text =
+                comboBoxSmallKey.Text = textBoxSmallText.Text =
+                textBoxButton1Text.Text = textBoxButton1URL.Text =
+                textBoxButton2Text.Text = textBoxButton2URL.Text = "";
+            numericUpDownPartySize.Value = numericUpDownPartyMax.Value = 0;
+            radioButtonNone.Checked = true;
         }
 
         /// <summary>

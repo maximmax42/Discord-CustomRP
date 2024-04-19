@@ -196,4 +196,8 @@
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>Обновление статуса...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Вы уверены, что хотите начать с нуля?
+Это действие невозможно отменить.</value>
+  </data>
 </root>
