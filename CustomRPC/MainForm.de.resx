@@ -468,4 +468,7 @@ Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>Häufig gestellte Fragen</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Neue Voreinstellung</value>
+  </data>
 </root>

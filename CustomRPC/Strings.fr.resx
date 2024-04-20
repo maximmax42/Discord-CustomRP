@@ -190,4 +190,8 @@ Cliquez sur "oui" pour réinitialiser la configuration, cliquez sur "non" pour q
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>Mise à jour de la présence...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir tout recommencer à zéro ?
+Cette opération ne peut être annulée.</value>
+  </data>
 </root>
