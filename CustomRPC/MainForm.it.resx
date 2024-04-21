@@ -465,4 +465,7 @@ Perché funzioni, entrambi i valori devono essere superiori a 0.</value>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>Domande chieste spesso</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nuovo Preset</value>
+  </data>
 </root>

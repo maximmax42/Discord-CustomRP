@@ -190,4 +190,8 @@ Premi Sì per resettare le impostazioni oppure premi No per uscire.</value>
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>La presenza si sta aggiornando...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Sei sicuro di voler ricominciare da zero?
+Questa azione non può essere annullata.</value>
+  </data>
 </root>

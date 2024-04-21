@@ -190,4 +190,8 @@ Chọn Có để đặt lại thiết lập, chọn Không để thoát.</value>
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>Đang cập nhật trạng thái...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn làm lại từ đầu không? 
+Điều này không thể hoàn tác.</value>
+  </data>
 </root>

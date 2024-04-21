@@ -849,7 +849,7 @@ namespace CustomRPC
             LanguageProgress["hu"] = "95.19";
             LanguageProgress["is"] = "95.19";
             LanguageProgress["id"] = "98.08";
-            LanguageProgress["it"] = "98.08";
+            LanguageProgress["it"] = "100";
             LanguageProgress["ja"] = "98.08";
             LanguageProgress["kn"] = "95.19";
             LanguageProgress["kk"] = "0";
@@ -878,7 +878,7 @@ namespace CustomRPC
             LanguageProgress["tr"] = "98.08";
             LanguageProgress["uk"] = "98.08";
             LanguageProgress["ur"] = "98.08";
-            LanguageProgress["vi"] = "98.08";
+            LanguageProgress["vi"] = "100";
             LanguageProgress["cy"] = "95.19";
             #endregion
 

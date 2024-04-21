@@ -371,16 +371,16 @@
     <value>Không có</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Không có dấu thời gian.</value>
+    <value>Không có mốc thời gian được kích hoạt.</value>
   </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>Ngay sau khi ứng dụng bắt đầu</value>
+    <value>Kể từ khi CustomRP bắt đầu</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>Hiển thị thời gian khi ứng dụng bắt đầu chạy.</value>
+    <value>Hiển thị thời gian từ khi ứng dụng bắt đầu chạy.</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>188, 18</value>
@@ -389,10 +389,10 @@
     <value>Thời gian địa phương của bạn</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>Hiển thị thời gian hiện tại của bạn.</value>
+    <value>Hiển thị thời gian hiện tại của bạn ở định dạng 24 giờ.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Thiết lập dấu thời gian cho trạng thái, dấu này sẽ hiển thị bên dưới tất cả văn bản đã được thiết lập ở trên.
+    <value>Thiết lập mốc thời gian cho trạng thái, mốc này sẽ hiển thị bên dưới tất cả văn bản đã được thiết lập ở trên.
 Thời gian của trạng thái có giới hạn là 24 giờ, nghĩa là sau 24 giờ thời gian sẽ quay trở lại 0:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
@@ -403,7 +403,7 @@ Thời gian của trạng thái có giới hạn là 24 giờ, nghĩa là sau 24
     <value>152, 18</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>Dấu thời gian tuỳ chỉnh</value>
+    <value>Mốc thời gian tuỳ chỉnh</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
     <value>Hiển thị lượng thời gian đã trôi qua kể từ hoặc còn lại cho đến ngày đặt bên dưới.</value>
@@ -442,10 +442,10 @@ Thời gian của trạng thái có giới hạn là 24 giờ, nghĩa là sau 24
     <value>214, 18</value>
   </data>
   <data name="radioButtonPresence.Text" xml:space="preserve">
-    <value>Kể từ lần cập nhật hoạt động cuối</value>
+    <value>Kể từ lần cập nhật trạng thái cuối cùng</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
-    <value>Hiện thời gian đã qua kể từ lần cuối bạn kết nối hoặc cập nhật hoạt động.</value>
+    <value>Hiện thời gian đã qua kể từ lần cuối bạn kết nối hoặc cập nhật trạng thái.</value>
   </data>
   <data name="labelPartyOf.Location" type="System.Drawing.Point, System.Drawing">
     <value>338, 114</value>
@@ -458,5 +458,8 @@ Thời gian của trạng thái có giới hạn là 24 giờ, nghĩa là sau 24
   </data>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>Các câu hỏi thường gặp</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tạo thiết lập mới</value>
   </data>
 </root>
