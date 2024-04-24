@@ -190,4 +190,8 @@
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>प्रासेंस अपडेट हो रहा है...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>क्या आप सुनिश्चित हैं कि आप शुरू करना चाहते हैं?
+यह वापस नहीं किया जा सकता।</value>
+  </data>
 </root>

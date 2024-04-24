@@ -190,4 +190,8 @@
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>ਗਤੀਵਿਧੀ ਅਪਡੇਟ ਹੋ ਰਈ ਹੈ...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ 'ਤੇ ਸ਼ੁਰੂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?
+ਇਹ ਵਾਪਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।</value>
+  </data>
 </root>

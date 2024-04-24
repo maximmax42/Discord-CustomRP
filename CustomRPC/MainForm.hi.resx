@@ -432,4 +432,7 @@
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>अक्सर पूछे जाने वाले प्रश्न</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>नई प्रीसेट</value>
+  </data>
 </root>

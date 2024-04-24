@@ -465,4 +465,7 @@
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>ਵਿੱਚੋਂ</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>ਨਵਾਂ ਪ੍ਰੀਸੈਟ</value>
+  </data>
 </root>

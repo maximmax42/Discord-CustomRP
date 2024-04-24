@@ -190,4 +190,8 @@ Klikněte Ano pro reset nastavení, klikněte Ne pro opuštění.</value>
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>Aktualizuji přítomnost...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Jsi si jistý že chceš začít znovu?
+Tato akce nemůže být vrácena.</value>
+  </data>
 </root>

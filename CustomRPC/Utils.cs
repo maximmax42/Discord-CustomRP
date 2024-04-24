@@ -280,9 +280,11 @@ namespace CustomRPC
                         new Person { Name = "SunightMC" },
                         new Person { Name = "Tobias" }, // ***@***.cz
                         new Person { Name = "Daniel Dan" },
+                        new Person { Name = "After Klain" },
+                        new Person { Name = "Wrexik" },
                         new Person { Name = "MakoPog" },
-                        new Person { Name = "Sebastian" },
                         new Person { Name = "Jan" },
+                        new Person { Name = "Sebastian" }, // 0 translations
                     }
                 },
                 new Language {
@@ -832,7 +834,7 @@ namespace CustomRPC
             LanguageProgress["zh-hans"] = "98.08";
             LanguageProgress["zh-hant"] = "98.08";
             LanguageProgress["hr"] = "95.19";
-            LanguageProgress["cs"] = "98.08";
+            LanguageProgress["cs"] = "100";
             LanguageProgress["da"] = "96.15";
             LanguageProgress["nl"] = "98.08";
             LanguageProgress["et"] = "96.15";
@@ -845,7 +847,7 @@ namespace CustomRPC
             LanguageProgress["de-ch"] = "95.19";
             LanguageProgress["el"] = "98.08";
             LanguageProgress["he"] = "95.19";
-            LanguageProgress["hi"] = "98.08";
+            LanguageProgress["hi"] = "100";
             LanguageProgress["hu"] = "95.19";
             LanguageProgress["is"] = "95.19";
             LanguageProgress["id"] = "98.08";
@@ -861,7 +863,7 @@ namespace CustomRPC
             LanguageProgress["ml"] = "95.19";
             LanguageProgress["mn"] = "97.12";
             LanguageProgress["no"] = "96.15";
-            LanguageProgress["pa"] = "98.08";
+            LanguageProgress["pa"] = "100";
             LanguageProgress["fa"] = "98.08";
             LanguageProgress["pl"] = "98.08";
             LanguageProgress["pt"] = "98.08";

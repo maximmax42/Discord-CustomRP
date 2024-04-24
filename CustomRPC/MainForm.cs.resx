@@ -149,7 +149,7 @@
     <value>149, 22</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
-    <value>Ukončit</value>
+    <value>Zavřít</value>
   </data>
   <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 104</value>
@@ -200,7 +200,7 @@
     <value>197, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Spustit skrytě</value>
+    <value>Spustit na pozadí</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 22</value>
@@ -470,5 +470,8 @@ Aby se projevily, obě pole by měla být větší než 0.</value>
   </data>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>Často kladené otázky</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nová předvolba</value>
   </data>
 </root>
