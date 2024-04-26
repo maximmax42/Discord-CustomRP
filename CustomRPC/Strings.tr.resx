@@ -190,4 +190,8 @@ Ayarları sıfırlamak için Evet'e, çıkmak için Hayır'a basın.</value>
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>Durum güncelleniyor...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Sıfırdan başlamak istediğine emin misin?
+Bu geri alınamaz.</value>
+  </data>
 </root>

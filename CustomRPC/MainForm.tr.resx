@@ -501,4 +501,7 @@ Etkili olması için, iki alan da 0'dan büyük olmadılır.</value>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>Sıkça Sorulan Sorular</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Yeni Ön Ayar</value>
+  </data>
 </root>
