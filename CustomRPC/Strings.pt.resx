@@ -144,7 +144,7 @@ Você poderá o abrir a qualquer momento em Ajuda -&gt; Abrir o Manual ou ao cli
     <value>A Conectar...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Conexão falhada (O Discord está aberto?)</value>
+    <value>A Conexão falhou (O Discord está aberto?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>Desconectado</value>
@@ -189,5 +189,9 @@ Clique Sim para redefinir as Definições ou clique Não para fechar.</value>
   </data>
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>A atualizar a atividade...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Tem a certeza que pretende começar de novo? 
+Esta ação é irreversível.</value>
   </data>
 </root>

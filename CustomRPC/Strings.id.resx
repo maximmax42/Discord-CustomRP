@@ -190,4 +190,8 @@ Tekan Ya untuk mereset pengaturan, tekan Tidak untuk keluar.</value>
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>Updating presence...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Apakah kamu yakin ingin mengulangi dari awal?
+Ini tidak dapat diurungkan.</value>
+  </data>
 </root>

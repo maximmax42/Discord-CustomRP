@@ -121,7 +121,7 @@
     <value>Clique duas vezes no ícone para o voltar a mostrar, clique com o lado direito do rato para fechar.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>A aplicação vai ficar aberta em segundo plano.</value>
+    <value>A aplicação vai correr em segundo plano.</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>Abrir</value>
@@ -137,13 +137,13 @@
     <value>231, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Carregar pré-feito</value>
+    <value>Importar Configurações</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>231, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Guardar pré-feito</value>
+    <value>Exportar Configurações</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>228, 6</value>
@@ -152,7 +152,7 @@
     <value>231, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Enviar imagens</value>
+    <value>Carregar Imagens</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>228, 6</value>
@@ -440,5 +440,8 @@ Para funcionar, ambos os numero têm de ter um numero maior que 0.</value>
   </data>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>Perguntas frequentes</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nova Pré-Definição</value>
   </data>
 </root>

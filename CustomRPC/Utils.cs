@@ -652,6 +652,7 @@ namespace CustomRPC
                     Code = "pt",
                     Translators = new Person[] {
                         new Person { Name = "Verygafanhot" },
+                        new Person { Name = "Alexandre Calvario" },
                     }
                 },
                 new Language {
@@ -850,7 +851,7 @@ namespace CustomRPC
             LanguageProgress["hi"] = "100";
             LanguageProgress["hu"] = "95.19";
             LanguageProgress["is"] = "95.19";
-            LanguageProgress["id"] = "98.08";
+            LanguageProgress["id"] = "100";
             LanguageProgress["it"] = "100";
             LanguageProgress["ja"] = "98.08";
             LanguageProgress["kn"] = "95.19";
@@ -866,7 +867,7 @@ namespace CustomRPC
             LanguageProgress["pa"] = "100";
             LanguageProgress["fa"] = "98.08";
             LanguageProgress["pl"] = "98.08";
-            LanguageProgress["pt"] = "98.08";
+            LanguageProgress["pt"] = "100";
             LanguageProgress["pt-br"] = "98.08";
             LanguageProgress["ro"] = "98.08";
             LanguageProgress["ru"] = "100";

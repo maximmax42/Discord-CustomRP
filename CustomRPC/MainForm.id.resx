@@ -507,4 +507,7 @@ agar bekerja, kedua bidang harus lebih dari 0.</value>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>Pertanyaan yang Sering Diajukan</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Preset Baru</value>
+  </data>
 </root>
