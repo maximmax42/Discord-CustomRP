@@ -456,4 +456,7 @@
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>常见问题与解答</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>新预设</value>
+  </data>
 </root>

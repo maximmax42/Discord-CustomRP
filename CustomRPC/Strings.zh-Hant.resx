@@ -190,4 +190,8 @@
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>正在更新動態……</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>您确定要从头开始吗?
+这不能被撤销。</value>
+  </data>
 </root>

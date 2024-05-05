@@ -184,4 +184,14 @@
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>ไม่สามารถเพิ่มหรือลบทางลัดเริ่มต้น:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>ไม่สามารถเปิด URL. มันถูกคัดลอกไปยังคลิปบอร์ดแล้ว.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>กำลังอัพเดตสถานะ...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>คุณแน่ใจหรือไม่ว่าต้องการเริ่มต้นจากศูนย์?
+สิ่งนี้ไม่สามารถแก้ไขได้.</value>
+  </data>
 </root>

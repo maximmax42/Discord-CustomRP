@@ -194,6 +194,7 @@ namespace CustomRPC
 
         // List of people who appear in the lists more than one time
         static Person Codiaz = new Person { Name = "Codiaz", Url = "https://codiaz.com/" };
+        static Person crohmthz = new Person { Name = "cr.ohmthz" };
         static Person DarlingChan = new Person { Name = "Darling-Chan", Url = "https://meap.gg/" };
         static Person dragonGRaf = new Person { Name = "dragon GRaf", Url = "https://github.com/dragonGRaf1312/mycustomrichpresence" };
         static Person falcon = new Person { Name = "falcon" };
@@ -749,6 +750,7 @@ namespace CustomRPC
                     Translators = new Person[] {
                         new Person { Name = "Squishee Freshy" },
                         new Person { Name = "YuuabyssSSID" },
+                        crohmthz,
                         new Person { Name = "SabbKor" },
                         new Person { Name = "OHMKUB" },
                         new Person { Name = "toonnongaeoy" },
@@ -818,6 +820,7 @@ namespace CustomRPC
                     Translators = new Person[] {
                         westxlu,
                         new Person { Name = "DragonTaki", Url = "https://steamcommunity.com/id/DragonTaki/" },
+                        crohmthz,
                     }
                 }
             };
@@ -832,8 +835,8 @@ namespace CustomRPC
             LanguageProgress["bg"] = "96.15";
             LanguageProgress["my"] = "96.15";
             LanguageProgress["ca"] = "95.19";
-            LanguageProgress["zh-hans"] = "98.08";
-            LanguageProgress["zh-hant"] = "98.08";
+            LanguageProgress["zh-hans"] = "100";
+            LanguageProgress["zh-hant"] = "100";
             LanguageProgress["hr"] = "95.19";
             LanguageProgress["cs"] = "100";
             LanguageProgress["da"] = "96.15";
@@ -877,7 +880,7 @@ namespace CustomRPC
             LanguageProgress["es"] = "98.08";
             LanguageProgress["sv"] = "96.15";
             LanguageProgress["ta"] = "93.27";
-            LanguageProgress["th"] = "96.15";
+            LanguageProgress["th"] = "100";
             LanguageProgress["tr"] = "100";
             LanguageProgress["uk"] = "98.08";
             LanguageProgress["ur"] = "98.08";
