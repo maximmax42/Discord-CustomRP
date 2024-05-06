@@ -190,4 +190,8 @@
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>プレゼンスの更新...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>本当に最初からやり直しますか？
+この操作を取り消すことはできません。</value>
+  </data>
 </root>

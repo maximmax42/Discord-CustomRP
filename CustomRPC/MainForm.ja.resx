@@ -498,4 +498,7 @@
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>よくある質問</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>新しいプリセット</value>
+  </data>
 </root>
