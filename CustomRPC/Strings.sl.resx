@@ -128,7 +128,7 @@
 Pritisnite »Da« za ponovni poskus ali »Ne« za ročni prenos.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Prvi zagon</value>
+    <value>Potrebujete pomoč?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Ali želite odpreti priročnik?
@@ -176,12 +176,21 @@ Pritisnite Da za ponastavitev nastavitev, pritisnite Ne za izhod.</value>
     <value>Med shranjevanjem nastavitev je prišlo do napake:</value>
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>Dodajte pot »{0}« k izjemam protivirusnega programa. Znova namestite CustomRP, če se ta napaka ponovi.</value>
+    <value>Dodajte pot "{0}" k izjemam protivirusnega programa. Znova namestite CustomRP, če se ta napaka ponovi.</value>
   </data>
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>URL slike je predolg!</value>
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Zagonske bližnjice ni bilo mogoče dodati ali odstraniti:</value>
+  </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Težava pri odpiranju povezave. Povezava je bila kopirana.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Posodabljanje izgleda...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Ali si prepričan da želiš začeti znova? Odločitve ne moreš spremniti.</value>
   </data>
 </root>

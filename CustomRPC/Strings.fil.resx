@@ -125,7 +125,7 @@
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
     <value>Nabigo ang pag-download o install ng update.
-Pindotin ang "Yes" para ma retry o "No" para ma-download manually.</value>
+Pindutin ang "Yes" para ma ulit o kaya'y "No" para ma-download manually.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
     <value>Kailangan mo ba ng tulong?</value>
@@ -183,5 +183,15 @@ Pindotin ang Oo para ma-reset ang settings, pindotin ang No to quit.</value>
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Pumalyang magdagdag o magtangal ng startup shortcut:</value>
+  </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Nabigo buksan ang URL. Nakopya na ito sa clipboard.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Updating ng presensya...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Sigurado ka bang gusto mong magsimula ulit?
+Hindi na ito maaaring bawiin.</value>
   </data>
 </root>

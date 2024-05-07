@@ -474,4 +474,7 @@ Za veljavo morata biti obe polji večji od 0.</value>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>Pogosta vprašanja</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nova prednastavitev</value>
+  </data>
 </root>

@@ -402,6 +402,7 @@ namespace CustomRPC
                     Code = "fil",
                     Translators = new Person[] {
                         new Person { Name = "CtrlAltDelicious", Url = "https://www.youtube.com/c/CtrlAltDelicious_" },
+                        new Person { Name = "_missingo", Url = "https://www.youtube.com/channel/UCxNVq2Esevsdp2v1jGQNu5A" },
                         new Person { Name = "syp" },
                         new Person { Name = "jericko" },
                         new Person { Name = "Hachiki" },
@@ -711,6 +712,7 @@ namespace CustomRPC
                     Code = "sl",
                     Translators = new Person[] {
                         new Person { Name = "BMKoscak" },
+                        new Person { Name = "like button", Url = "https://www.youtube.com/channel/UCVt43CrPLKNjaPs1r5Pcdnw" },
                     }
                 },
                 new Language {
@@ -842,7 +844,7 @@ namespace CustomRPC
             LanguageProgress["da"] = "96.15";
             LanguageProgress["nl"] = "98.08";
             LanguageProgress["et"] = "96.15";
-            LanguageProgress["fil"] = "95.19";
+            LanguageProgress["fil"] = "100";
             LanguageProgress["fi"] = "96.15";
             LanguageProgress["fr"] = "100";
             LanguageProgress["gl"] = "95.19";
@@ -876,7 +878,7 @@ namespace CustomRPC
             LanguageProgress["ru"] = "100";
             LanguageProgress["sr"] = "95.19";
             LanguageProgress["sk"] = "95.19";
-            LanguageProgress["sl"] = "96.15";
+            LanguageProgress["sl"] = "100";
             LanguageProgress["es"] = "98.08";
             LanguageProgress["sv"] = "96.15";
             LanguageProgress["ta"] = "93.27";
