@@ -528,6 +528,14 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Қазақша",
+                    EnglishName = "Kazakh",
+                    Code = "kk",
+                    Translators = new Person[] {
+                        new Person { Name = "aaron" },
+                    }
+                },
+                new Language {
                     Name = "ಕನ್ನಡ",
                     EnglishName = "Kannada",
                     Code = "kn",
@@ -860,7 +868,7 @@ namespace CustomRPC
             LanguageProgress["it"] = "100";
             LanguageProgress["ja"] = "100";
             LanguageProgress["kn"] = "95.19";
-            LanguageProgress["kk"] = "0";
+            LanguageProgress["kk"] = "100";
             LanguageProgress["ko"] = "98.08";
             LanguageProgress["ku"] = "95.19";
             LanguageProgress["lv"] = "95.19";
