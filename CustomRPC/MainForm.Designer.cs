@@ -43,6 +43,7 @@
             this.trayMenuQuit = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.newPresetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loadPresetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.savePresetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparatorFile1 = new System.Windows.Forms.ToolStripSeparator();
@@ -122,7 +123,6 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.newPresetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -138,6 +138,7 @@
             this.trayIcon.ContextMenuStrip = this.trayMenuStrip;
             this.trayIcon.Icon = global::CustomRPC.Properties.Resources.favicon;
             this.trayIcon.BalloonTipClicked += new System.EventHandler(this.MaximizeFromTray);
+            this.trayIcon.Click += new System.EventHandler(this.MaximizeFromTray);
             this.trayIcon.DoubleClick += new System.EventHandler(this.MaximizeFromTray);
             // 
             // trayMenuStrip
@@ -209,6 +210,12 @@
             this.quitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
+            // 
+            // newPresetToolStripMenuItem
+            // 
+            this.newPresetToolStripMenuItem.Name = "newPresetToolStripMenuItem";
+            resources.ApplyResources(this.newPresetToolStripMenuItem, "newPresetToolStripMenuItem");
+            this.newPresetToolStripMenuItem.Click += new System.EventHandler(this.NewPreset);
             // 
             // loadPresetToolStripMenuItem
             // 
@@ -876,12 +883,6 @@
             this.textBoxID.Name = "textBoxID";
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
-            // 
-            // newPresetToolStripMenuItem
-            // 
-            this.newPresetToolStripMenuItem.Name = "newPresetToolStripMenuItem";
-            resources.ApplyResources(this.newPresetToolStripMenuItem, "newPresetToolStripMenuItem");
-            this.newPresetToolStripMenuItem.Click += new System.EventHandler(this.NewPreset);
             // 
             // MainForm
             // 
