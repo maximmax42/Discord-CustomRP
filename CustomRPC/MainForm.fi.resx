@@ -474,4 +474,7 @@ Voimaantulo edellyttää, että molempien kenttien arvo on suurempi kuin 0.</val
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>Usein kysytyt kysymykset</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Uusi esiasetus</value>
+  </data>
 </root>

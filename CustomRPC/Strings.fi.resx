@@ -184,4 +184,14 @@ Paina Kyllä nollataksesi asetukset, ja paina Ei lopettaaksesi.</value>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Käynnistyksen pikakuvakkeen lisääminen tai poistaminen epäonnistui:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>URL-osoitteen avaaminen epäonnistui. Se on kopioitu leikepöydälle.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Läsnäolon päivittäminen...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Oletko varma, että haluat aloittaa alusta?
+Tätä ei voi peruuttaa.</value>
+  </data>
 </root>

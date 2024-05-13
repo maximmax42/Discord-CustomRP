@@ -785,8 +785,9 @@ namespace CustomRPC
                         new Person { Name = "MechaniX" },
                         new Person { Name = "Dmitromintenko" },
                         new Person { Name = "Desinger" },
-                        l0ngg,
+                        new Person { Name = "Illia" },
                         new Person { Name = "stefanbanderovych" },
+                        l0ngg,
                     }
                 },
                 new Language {
@@ -853,7 +854,7 @@ namespace CustomRPC
             LanguageProgress["nl"] = "98.08";
             LanguageProgress["et"] = "96.15";
             LanguageProgress["fil"] = "100";
-            LanguageProgress["fi"] = "96.15";
+            LanguageProgress["fi"] = "100";
             LanguageProgress["fr"] = "100";
             LanguageProgress["gl"] = "95.19";
             LanguageProgress["ka"] = "95.19";
@@ -892,7 +893,7 @@ namespace CustomRPC
             LanguageProgress["ta"] = "93.27";
             LanguageProgress["th"] = "100";
             LanguageProgress["tr"] = "100";
-            LanguageProgress["uk"] = "98.08";
+            LanguageProgress["uk"] = "100";
             LanguageProgress["ur"] = "98.08";
             LanguageProgress["vi"] = "100";
             LanguageProgress["cy"] = "95.19";

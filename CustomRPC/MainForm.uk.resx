@@ -164,13 +164,13 @@
     <value>283, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Завантажити налаштування</value>
+    <value>Завантажити шаблон</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>283, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Зберегти налаштування</value>
+    <value>Зберегти шаблон</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>280, 6</value>
@@ -245,7 +245,7 @@
     <value>225, 22</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>Відкрити мануал</value>
+    <value>Відкрити порадник</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>225, 22</value>
@@ -299,7 +299,7 @@
     <value>Підключити</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Підключити програму до ID щоб встановити статус.</value>
+    <value>Підключає програму до ID, щоб встановити статус.</value>
   </data>
   <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>335, 50</value>
@@ -365,10 +365,10 @@
     <value>229, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>З моменту, як CustomRP запущений</value>
+    <value>Відколи CustomRP запущений</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>Показує час з моменту запуска застосунка.</value>
+    <value>Показує час відколи застосунок запущений.</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 18</value>
@@ -421,10 +421,10 @@
     <value>URL який відкриється за натисканням кнопки.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
-    <value>Надпис на першій кнопці.</value>
+    <value>Напис на першій кнопці.</value>
   </data>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
-    <value>Надпис на другій кнопці.</value>
+    <value>Напис на другій кнопці.</value>
   </data>
   <data name="labelPartyOf.Location" type="System.Drawing.Point, System.Drawing">
     <value>344, 114</value>
@@ -452,5 +452,8 @@
   </data>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>Часто задавані питання</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Новий шаблон</value>
   </data>
 </root>
