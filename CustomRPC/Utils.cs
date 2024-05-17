@@ -852,7 +852,7 @@ namespace CustomRPC
             LanguageProgress["cs"] = "100";
             LanguageProgress["da"] = "96.15";
             LanguageProgress["nl"] = "98.08";
-            LanguageProgress["et"] = "96.15";
+            LanguageProgress["et"] = "100";
             LanguageProgress["fil"] = "100";
             LanguageProgress["fi"] = "100";
             LanguageProgress["fr"] = "100";

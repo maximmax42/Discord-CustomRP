@@ -480,4 +480,7 @@ Töötamiseks peavad mõlemad väljad olema suuremad kui 0.</value>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>Korduma kippuvad küsimused</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Uus eelseadistus</value>
+  </data>
 </root>

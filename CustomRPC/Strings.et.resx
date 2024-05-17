@@ -184,4 +184,13 @@ Seadete lähtestamiseks vajutage Jah, väljumiseks vajutage Ei.</value>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Käivituse otsetee lisamine või eemaldamine ebaõnnestus:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>URL-i avamine ebaõnnestus. See on kopeeritud lõikelauale.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Kohaloleku värskendamine...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Kas olete kindel, et soovite alustada nullist?</value>
+  </data>
 </root>
