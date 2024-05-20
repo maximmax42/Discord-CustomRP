@@ -123,56 +123,210 @@
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
     <value>Aplicația va merge în tray icons.</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 104</value>
+  </data>
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Deschide</value>
+  </data>
+  <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 6</value>
+  </data>
+  <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
-    <value>Reconectează-te</value>
+    <value>Reconectează</value>
+  </data>
+  <data name="trayMenuDisconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 6</value>
+  </data>
+  <data name="trayMenuQuit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
     <value>Ieșire</value>
   </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>Fișier</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Încarcă configurația</value>
   </data>
+  <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Salvează configurația</value>
+  </data>
+  <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 6</value>
+  </data>
+  <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
     <value>Încarcă imaginile</value>
   </data>
+  <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 6</value>
+  </data>
+  <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
     <value>Ieșire</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
   </data>
   <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
     <value>Setări</value>
   </data>
+  <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
     <value>Pornește deodată cu calculatorul</value>
+  </data>
+  <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
     <value>Pornește minimalizat</value>
   </data>
+  <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Conectează automat</value>
+  </data>
+  <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 6</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>Verifică pentru actualizări noi</value>
+  </data>
+  <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Permite analizele</value>
+  </data>
+  <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 6</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mod întunecat</value>
+  </data>
+  <data name="toolStripSeparatorSettings3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 6</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Limbă</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 22</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>Predefinit</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 6</value>
+  </data>
+  <data name="sampleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 22</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>Ajutor</value>
   </data>
+  <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 22</value>
+  </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
     <value>Deschide Manualul</value>
+  </data>
+  <data name="faqToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 22</value>
+  </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Întrebări frecvente</value>
+  </data>
+  <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 22</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
     <value>Pagina de GitHub</value>
   </data>
+  <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 6</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 22</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Suporteri</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 22</value>
+  </data>
   <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
     <value>Traducători</value>
+  </data>
+  <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 6</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 22</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verifică dacă există actualizări noi...</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 22</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>Despre</value>
   </data>
+  <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 20</value>
+  </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
     <value>Descarcă actualizarea</value>
+  </data>
+  <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 456</value>
+  </data>
+  <data name="buttonUpdatePresence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 24</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
     <value>Actualizează prezența</value>
@@ -180,14 +334,23 @@
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
     <value>Actualizarea prezenței.</value>
   </data>
+  <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 50</value>
+  </data>
   <data name="buttonConnect.Text" xml:space="preserve">
-    <value>Conectează-te</value>
+    <value>Conectează</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
     <value>Leagă aplicația de ID-ul specificat cu prezența setată.</value>
   </data>
+  <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 50</value>
+  </data>
+  <data name="buttonDisconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 24</value>
+  </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
-    <value>Deconectează-te</value>
+    <value>Deconectează</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
     <value>Deconectează aplicația de la Discord. Vă rugăm să rețineți că poate dura ceva timp.</value>
@@ -213,11 +376,17 @@
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>Numele imaginii pentru imaginea mare sau adresă URL.</value>
   </data>
+  <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 14</value>
+  </data>
   <data name="labelSmall.Text" xml:space="preserve">
     <value>Imaginea mică</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
     <value>Imaginea care apare în colțul din dreapta jos a imaginii mari.</value>
+  </data>
+  <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 14</value>
   </data>
   <data name="labelLarge.Text" xml:space="preserve">
     <value>Imaginea mare</value>
@@ -225,17 +394,26 @@
   <data name="labelLarge.ToolTip" xml:space="preserve">
     <value>Imaginea care apare la stânga textului setat mai sus.</value>
   </data>
+  <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 18</value>
+  </data>
   <data name="radioButtonNone.Text" xml:space="preserve">
     <value>Nimic</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
     <value>Fără marcaje de timp activate.</value>
   </data>
+  <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 18</value>
+  </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
     <value>De când a pornit CustomRP</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
     <value>Afișează timpul de la pornirea aplicației.</value>
+  </data>
+  <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 18</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
     <value>Timpul tău local</value>
@@ -250,17 +428,26 @@
     <value>Numărul de jucători din petrecerea curentă care apare lângă câmpul 'Stare'.
 Pentru a avea efect,ambele câmpuri trebuie să aibă o valoare mai mare decât 0.</value>
   </data>
+  <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 18</value>
+  </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
     <value>Marcaj de timp personalizat</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
     <value>Afișează cât timp a trecut sau a mai rămas până la data stabilită mai jos.</value>
   </data>
+  <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 14</value>
+  </data>
   <data name="labelButton1.Text" xml:space="preserve">
     <value>Butonul 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
     <value>Primul dintre cele două butoane care apar sub starea dvs. în pop-up-ul profilului dvs. și în partea dreaptă în profilul complet.</value>
+  </data>
+  <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 14</value>
   </data>
   <data name="labelButton2.Text" xml:space="preserve">
     <value>Butonul 2</value>
@@ -280,32 +467,8 @@ Pentru a avea efect,ambele câmpuri trebuie să aibă o valoare mai mare decât 
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
     <value>Textul celui de-al doilea buton.</value>
   </data>
-  <data name="labelPartyOf.Text" xml:space="preserve">
-    <value>din</value>
-  </data>
-  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
-    <value>Predefinit</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Limbă</value>
-  </data>
-  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Verifică dacă există actualizări noi...</value>
-  </data>
-  <data name="openToolStripMenuItem.Text" xml:space="preserve">
-    <value>Deschide</value>
-  </data>
-  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>Conectează automat</value>
-  </data>
-  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Permite analizele</value>
-  </data>
-  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Mod întunecat</value>
-  </data>
-  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
-    <value>Suporteri</value>
+  <data name="radioButtonPresence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 18</value>
   </data>
   <data name="radioButtonPresence.Text" xml:space="preserve">
     <value>Ultima actualizare a prezenței</value>
@@ -313,7 +476,10 @@ Pentru a avea efect,ambele câmpuri trebuie să aibă o valoare mai mare decât 
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>Afișează cât timp a trecut de la ultima conectare sau de la actualizarea prezenței.</value>
   </data>
-  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
-    <value>Întrebări frecvente</value>
+  <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 14</value>
+  </data>
+  <data name="labelPartyOf.Text" xml:space="preserve">
+    <value>din</value>
   </data>
 </root>
