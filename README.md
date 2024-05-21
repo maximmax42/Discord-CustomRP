@@ -27,7 +27,7 @@ Custom Discord Rich Presence Manager for Windows 7+. Some of its features are ru
 * [DIGITAREZ SPACE](https://digitarez.space/ref?customrp=default) - $9.15 (617.00 RUB)
 * [Zag](https://zag.rip) - $7.45 (431.55 RUB)
 * [BennyKun](https://github.com/Benny-Kun) - $6.93 (0.00023698 BTC)
-* [GreenRosie](https://www.twitch.tv/greenrosie) - $6.00
+* [VerdantWanderer](https://www.twitch.tv/verdant_wanderer) - $6.00
 * [Bilal_786](https://discord.gg/zabPuE78ne) - $5.79 (5.80 EUR)
 * [4NG3L](https://4ng3l.com/) - $5.77 (500.00 RUB)
 * [Eli404](https://linktr.ee/404femboy) - $5.09 (5.00 EUR)
@@ -106,7 +106,7 @@ So far, the app supports these languages:
 * [Korean](https://poeditor.com/projects/po_edit?id_language=88&per_page=100&id=409229) (thanks to [Yeongaori](https://github.com/yeongaori))
 * [Kurdish](https://poeditor.com/projects/po_edit?id_language=90&per_page=100&id=409229) (thanks to [SamTheNoob](https://linktr.ee/stn69) and JakeAnthrax420)
 * [Latvian](https://poeditor.com/projects/po_edit?id_language=93&per_page=100&id=409229) (thanks to Buckneraaron07 and Jaroslavs)
-* [Lithuanian](https://poeditor.com/projects/po_edit?id_language=96&per_page=100&id=409229) (thanks to [GreenRosie](https://www.twitch.tv/greenrosie) and Flix3ris)
+* [Lithuanian](https://poeditor.com/projects/po_edit?id_language=96&per_page=100&id=409229) (thanks to [VerdantWanderer](https://www.twitch.tv/verdant_wanderer) and Flix3ris)
 * [Macedonian](https://poeditor.com/projects/po_edit?id_language=99&per_page=100&id=409229) (thanks to falcon)
 * [Malayalam](https://poeditor.com/projects/po_edit?id_language=102&per_page=100&id=409229) (thanks to Strawberrywithchoco and veirvn)
 * [Mongolian](https://poeditor.com/projects/po_edit?id_language=109&per_page=100&id=409229) (thanks to [SenMN](https://senmn.tech/) and AnarErdene)

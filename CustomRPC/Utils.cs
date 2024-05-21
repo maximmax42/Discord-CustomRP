@@ -198,7 +198,6 @@ namespace CustomRPC
         static Person DarlingChan = new Person { Name = "Darling-Chan", Url = "https://meap.gg/" };
         static Person dragonGRaf = new Person { Name = "dragon GRaf", Url = "https://github.com/dragonGRaf1312/mycustomrichpresence" };
         static Person falcon = new Person { Name = "falcon" };
-        static Person GreenRosie = new Person { Name = "GreenRosie", Url = "https://www.twitch.tv/greenrosie" };
         static Person Julian = new Person { Name = "Julian", Url = "https://julian-idl.codes/" };
         static Person l0ngg = new Person { Name = "l0ngg" };
         static Person MarcelGustin = new Person { Name = "Marcel Gustin", Url = "https://marcelgustin.de" };
@@ -208,6 +207,7 @@ namespace CustomRPC
         static Person Mykm = new Person { Name = "Mykm", Url = "https://github.com/yumiruuwu" };
         static Person NicolaOcchipinti = new Person { Name = "Nicola Occhipinti" };
         static Person TofixRs = new Person { Name = "Tofix.rs" };
+        static Person VerdantWanderer = new Person { Name = "VerdantWanderer", Url = "https://www.twitch.tv/verdant_wanderer" };
         static Person Yoshi = new Person { Name = "Yoshi" };
         static Person westxlu = new Person { Name = "蘆筍 (aka westxlu)", Url = "https://linktr.ee/westxlu" };
         static Person whoscanel = new Person { Name = "whoscanel", Url = "https://canel.cloud" }; // ex iRetrozx
@@ -565,7 +565,7 @@ namespace CustomRPC
                     EnglishName = "Lithuanian",
                     Code = "lt",
                     Translators = new Person[] {
-                        GreenRosie,
+                        VerdantWanderer,
                         new Person { Name = "Flix3ris" },
                     }
                 },
@@ -908,7 +908,7 @@ namespace CustomRPC
                     AltAmount = "0.0008328 BTC"
                 },
                 new Supporter(
-                    GreenRosie,
+                    VerdantWanderer,
                     USDAmount: "6.00"
                 ),
                 new Supporter {
