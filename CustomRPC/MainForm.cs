@@ -95,6 +95,11 @@ namespace CustomRPC
         bool toAvoidRecursion = false;
 
         /// <summary>
+        /// This bool makes sure the "The app will run in the tray" tooltip shows only once per session
+        /// </summary>
+        bool wasTooltipShown = false;
+
+        /// <summary>
         /// A timer for automatic restart on connection error. Currently set to 10 seconds.
         /// </summary>
         Timer restartTimer = new Timer(10 * 1000);
@@ -930,11 +935,11 @@ namespace CustomRPC
                 e.Cancel = true;
                 Hide();
 
-                if (!(settings.startMinimized || settings.wasTooltipShown))
+                if (!(settings.startMinimized || wasTooltipShown))
                 {
                     // Show a tooltip if it wasn't shown already and if the app doesn't start minimized 
                     trayIcon.ShowBalloonTip(500);
-                    settings.wasTooltipShown = true;
+                    wasTooltipShown = true;
                 }
             }
         }
