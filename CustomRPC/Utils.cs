@@ -222,7 +222,7 @@ namespace CustomRPC
                     Translators = new Person[] {
                         new Person { Name = "FiberAhmed", Url = "https://github.com/FiberAhmed" },
                         new Person { Name = "ShadowlGamer" },
-                        new Person { Name = "karimawi", Url = "https://github.com/karimawii" },
+                        new Person { Name = "karimawi", Url = "https://github.com/karimawi" },
                         new Person { Name = "Bo Raghad" },
                     }
                 },
