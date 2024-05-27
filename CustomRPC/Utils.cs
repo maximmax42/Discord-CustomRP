@@ -614,6 +614,14 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "Bahasa Melayu",
+                    EnglishName = "Malay",
+                    Code = "ms",
+                    Translators = new Person[] {
+                        new Person { Name = "NuruddinPlays" },
+                    }
+                },
+                new Language {
                     Name = "မြန်မာဘာသာ",
                     EnglishName = "Burmese",
                     Code = "my",
@@ -886,6 +894,7 @@ namespace CustomRPC
             LanguageProgress["lv"] = "95.19";
             LanguageProgress["lt"] = "98.08";
             LanguageProgress["mk"] = "95.19";
+            LanguageProgress["ms"] = "100";
             LanguageProgress["ml"] = "95.19";
             LanguageProgress["mn"] = "97.12";
             LanguageProgress["no"] = "96.15";
