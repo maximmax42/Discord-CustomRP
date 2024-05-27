@@ -126,7 +126,7 @@ So far, the app supports these languages:
 * [Swedish](https://poeditor.com/projects/po_edit?id_language=156&per_page=100&id=409229) (thanks to [leadattic_](https://leadattic.leadattic953788.repl.co/), Rose Liljensten, James and Marcus)
 * [Tamil](https://poeditor.com/projects/po_edit?id_language=160&per_page=100&id=409229) (thanks to [Julian](https://julian-idl.codes/))
 * [Thai](https://poeditor.com/projects/po_edit?id_language=163&per_page=100&id=409229) (thanks to Squishee Freshy, YuuabyssSSID, cr.ohmthz, SabbKor, OHMKUB, toonnongaeoy and Game)
-* [Turkish](https://poeditor.com/projects/po_edit?id_language=169&per_page=100&id=409229) (thanks to Ozan Akyüz, [josephisticated](https://github.com/josephisticated) and vLaDeR)
+* [Turkish](https://poeditor.com/projects/po_edit?id_language=169&per_page=100&id=409229) (thanks to Ozan Akyüz, [josephisticated](https://github.com/josephisticated), vLaDeR and Murat_Efendi)
 * [Ukrainian](https://poeditor.com/projects/po_edit?id_language=173&per_page=100&id=409229) (thanks to MechaniX, Dmitromintenko, Desinger, Illia, stefanbanderovych and l0ngg)
 * [Urdu](https://poeditor.com/projects/po_edit?id_language=174&per_page=100&id=409229) (thanks to [xq34](https://github.com/S3ntryPositive), Muhammad Ali Ashraf and ATTiQ OP)
 * [Vietnamese](https://poeditor.com/projects/po_edit?id_language=177&per_page=100&id=409229) (thanks to [Mykm](https://github.com/yumiruuwu), Nhathungtran2011, Phnthnhnm0612, dsbachle, Ayano, 03_Trần and kcott)

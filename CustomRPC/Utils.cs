@@ -784,6 +784,7 @@ namespace CustomRPC
                         new Person { Name = "Ozan Akyüz" },
                         new Person { Name = "josephisticated", Url = "https://github.com/josephisticated" },
                         new Person { Name = "vLaDeR" },
+                        Murat_Efendi,
                     }
                 },
                 new Language {

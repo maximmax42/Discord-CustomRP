@@ -502,6 +502,6 @@ Etkili olması için, iki alan da 0'dan büyük olmadılır.</value>
     <value>Sıkça Sorulan Sorular</value>
   </data>
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Yeni Ön Ayar</value>
+    <value>Yeni İlerleme</value>
   </data>
 </root>
