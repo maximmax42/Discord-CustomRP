@@ -204,6 +204,7 @@ namespace CustomRPC
         static Person Matthww = new Person { Name = "Matthww" };
         static Person Meelis = new Person { Name = "Meelis" };
         static Person MridunGupta = new Person { Name = "Mridun Gupta", Url = "https://contact.mridungupta.eu.org" };
+        static Person Murat_Efendi = new Person { Name = "Murat_Efendi" };
         static Person Mykm = new Person { Name = "Mykm", Url = "https://github.com/yumiruuwu" };
         static Person NicolaOcchipinti = new Person { Name = "Nicola Occhipinti" };
         static Person TofixRs = new Person { Name = "Tofix.rs" };
@@ -224,6 +225,14 @@ namespace CustomRPC
                         new Person { Name = "ShadowlGamer" },
                         new Person { Name = "karimawi", Url = "https://github.com/karimawi" },
                         new Person { Name = "Bo Raghad" },
+                    }
+                },
+                new Language {
+                    Name = "Azərbaycan",
+                    EnglishName = "Azerbaijani",
+                    Code = "az",
+                    Translators = new Person[] {
+                        Murat_Efendi,
                     }
                 },
                 new Language {
@@ -840,6 +849,7 @@ namespace CustomRPC
             #region Generated code for progress
             LanguageProgress["ar"] = "98.08";
             LanguageProgress["hy"] = "98.08";
+            LanguageProgress["az"] = "100";
             LanguageProgress["be"] = "96.15";
             LanguageProgress["bn"] = "95.19";
             LanguageProgress["bs"] = "95.19";

@@ -72,6 +72,7 @@ So far, the app supports these languages:
 
 * [Arabic](https://poeditor.com/projects/po_edit?id_language=7&per_page=100&id=409229) (thanks to [FiberAhmed](https://github.com/FiberAhmed), ShadowlGamer, [karimawi](https://github.com/karimawi) and Bo Raghad)
 * [Armenian](https://poeditor.com/projects/po_edit?id_language=9&per_page=100&id=409229) (thanks to Vahe Mnats)
+* [Azerbaijani](https://poeditor.com/projects/po_edit?id_language=14&per_page=100&id=409229) (thanks to Murat_Efendi)
 * [Bengali](https://poeditor.com/projects/po_edit?id_language=19&per_page=100&id=409229) (thanks to [mrimran](https://github.com/mr-Imran) and BlackBox-cmd)
 * [Belarusian](https://poeditor.com/projects/po_edit?id_language=18&per_page=100&id=409229) (thanks to Alibical and l0ngg)
 * [Bosnian](https://poeditor.com/projects/po_edit?id_language=22&per_page=100&id=409229) (thanks to Trax and Ammar)
