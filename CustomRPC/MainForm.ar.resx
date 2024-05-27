@@ -485,4 +485,7 @@
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>الأسئلة المتكررة</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>إعداد مسبق جديد</value>
+  </data>
 </root>

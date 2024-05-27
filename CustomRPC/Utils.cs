@@ -848,7 +848,7 @@ namespace CustomRPC
 
             LanguageProgress = new Dictionary<string, string>();
             #region Generated code for progress
-            LanguageProgress["ar"] = "98.08";
+            LanguageProgress["ar"] = "100";
             LanguageProgress["hy"] = "98.08";
             LanguageProgress["az"] = "100";
             LanguageProgress["be"] = "96.15";

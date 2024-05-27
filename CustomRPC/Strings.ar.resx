@@ -190,4 +190,8 @@
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>جاري تحديث الحالة...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>هل متأكدٌ انك تريد البدء من لا شئ؟
+لا يمكن إستعادة هذا.</value>
+  </data>
 </root>
