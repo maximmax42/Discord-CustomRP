@@ -184,4 +184,14 @@ Drück ja zum istellige zrugsetze, drück nei zum beände.</value>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Ufstart shortcut mache oder lösche isch nöd gange:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Url het sich ned göffnet. isch zu zwüscheablag kopiert wordä.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Präsenz wird updated...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Bisch sicher das alles neu mache wilsch?
+das cha ned rückgängig gmacht werde.</value>
+  </data>
 </root>

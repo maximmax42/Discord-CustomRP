@@ -121,7 +121,7 @@
     <value>Zwei mol ufs symbol klicke oder rächts kick zums zuämachä.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>Es wird im hindergrund läufä.</value>
+    <value>Im hindergrund läufä lah.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
@@ -272,7 +272,7 @@
     <value>206, 22</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>GitHub siete</value>
+    <value>GitHub site</value>
   </data>
   <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 6</value>
@@ -281,7 +281,7 @@
     <value>206, 22</value>
   </data>
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
-    <value>Unterstützär</value>
+    <value>Unterstützer</value>
   </data>
   <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>206, 22</value>
@@ -317,7 +317,7 @@
     <value>Verbinde</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Verknüpf die awändig mit de ID mit de gesetzi präsenz.</value>
+    <value>Verknüpf s program mit de ID mit de gesetzi präsenz.</value>
   </data>
   <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>309, 50</value>
@@ -344,10 +344,10 @@
     <value>Name des wärt fürs chlinere bild oder ä Bild-URL.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>Text wird azeigt wänn mer übers chlinere bild isch.</value>
+    <value>Text wird azeigt wänn mer übers chline bild gaht.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>Text wird azeigt wänn mer über dem grossä bild isch.</value>
+    <value>Text wird azeigt wänn mer überem grossä bild isch.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>Name vom wärt fürs grossä bild odär en bild link.</value>
@@ -454,9 +454,15 @@ damit es funktioniert münd bi beidne fälder meh als 0 si.</value>
     <value>Über...</value>
   </data>
   <data name="labelButton1.Text" xml:space="preserve">
-    <value>Knopf 1</value>
+    <value>Chnopf 1</value>
   </data>
   <data name="labelButton2.Text" xml:space="preserve">
     <value>Knopf 2</value>
+  </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Widerholti frage</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Neus Preset</value>
   </data>
 </root>

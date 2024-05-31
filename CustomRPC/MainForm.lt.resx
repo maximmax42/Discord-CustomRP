@@ -429,4 +429,7 @@ Kad abu laukai įsigaliotų, jie turėtų būti didesni nei 0.</value>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>Dažniausiai Klausiami Klausimai</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Naujas išankstinis nustatymas</value>
+  </data>
 </root>

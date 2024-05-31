@@ -878,7 +878,7 @@ namespace CustomRPC
             LanguageProgress["gl"] = "95.19";
             LanguageProgress["ka"] = "95.19";
             LanguageProgress["de"] = "100";
-            LanguageProgress["de-ch"] = "95.19";
+            LanguageProgress["de-ch"] = "100";
             LanguageProgress["el"] = "98.08";
             LanguageProgress["he"] = "95.19";
             LanguageProgress["hi"] = "100";
@@ -892,7 +892,7 @@ namespace CustomRPC
             LanguageProgress["ko"] = "98.08";
             LanguageProgress["ku"] = "95.19";
             LanguageProgress["lv"] = "95.19";
-            LanguageProgress["lt"] = "98.08";
+            LanguageProgress["lt"] = "100";
             LanguageProgress["mk"] = "95.19";
             LanguageProgress["ms"] = "100";
             LanguageProgress["ml"] = "95.19";
@@ -908,7 +908,7 @@ namespace CustomRPC
             LanguageProgress["sr"] = "95.19";
             LanguageProgress["sk"] = "95.19";
             LanguageProgress["sl"] = "100";
-            LanguageProgress["es"] = "98.08";
+            LanguageProgress["es"] = "100";
             LanguageProgress["sv"] = "96.15";
             LanguageProgress["ta"] = "93.27";
             LanguageProgress["th"] = "100";

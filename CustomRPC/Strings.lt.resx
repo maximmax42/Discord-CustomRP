@@ -190,4 +190,8 @@ Paspauskite Taip kad atstatyti nustatymus, paspauskite Ne kad išeiti.</value>
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>Atnaujinama prezentacija...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Ar norite pradėti iš naujo?
+To nebus galima atstatyti.</value>
+  </data>
 </root>
