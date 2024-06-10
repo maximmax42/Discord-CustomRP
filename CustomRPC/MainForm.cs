@@ -945,9 +945,15 @@ namespace CustomRPC
         }
 
         /// <summary>
-        /// Called when you double click the tray icon.
+        /// Called when you click the tray icon, balloon tip, or the "Open" option in the tray menu.
         /// </summary>
-        private void MaximizeFromTray(object sender, EventArgs e) => MaximizeFromTray();
+        private void MaximizeFromTray(object sender, EventArgs e)
+        {
+            if (e is MouseEventArgs ev && ev.Button != MouseButtons.Left)
+                return;
+
+            MaximizeFromTray();
+        }
 
         /// <summary>
         /// Maximizes the window.

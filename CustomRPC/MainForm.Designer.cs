@@ -138,8 +138,7 @@
             this.trayIcon.ContextMenuStrip = this.trayMenuStrip;
             this.trayIcon.Icon = global::CustomRPC.Properties.Resources.favicon;
             this.trayIcon.BalloonTipClicked += new System.EventHandler(this.MaximizeFromTray);
-            this.trayIcon.Click += new System.EventHandler(this.MaximizeFromTray);
-            this.trayIcon.DoubleClick += new System.EventHandler(this.MaximizeFromTray);
+            this.trayIcon.MouseClick += new System.Windows.Forms.MouseEventHandler(this.MaximizeFromTray);
             // 
             // trayMenuStrip
             // 
