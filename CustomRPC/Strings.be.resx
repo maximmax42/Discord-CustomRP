@@ -128,7 +128,7 @@
 Націсніце "так", каб паўтарыць спробу, або "НЕ", каб загрузіць ўручную.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Першы запуск</value>
+    <value>Патрэбна дапамога?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Хочаце адкрыць кіраўніцтва?
@@ -183,5 +183,15 @@
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Немагчыма дадаць або Выдаліць ярлык пры запуску:</value>
+  </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Не атрамалася адкрыць URL. Ён быў скапіяваны ў буфер абмену.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Абнаўленне актыўнасці...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Вы ўпэўнены, што хочаце пачаць з нуля?
+Гэта не можа быць адменена.</value>
   </data>
 </root>

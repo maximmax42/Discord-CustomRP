@@ -320,10 +320,10 @@
     <value>141, 24</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Абнавіць прысутнасць</value>
+    <value>Абнавіць актыўнасць</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Абнаўляе прысутнасць.</value>
+    <value>Абнаўляе актыўнасць.</value>
   </data>
   <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>228, 50</value>
@@ -479,5 +479,8 @@
   </data>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>Часта задаваемыя пытанні</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Новае Прадусталяванне</value>
   </data>
 </root>

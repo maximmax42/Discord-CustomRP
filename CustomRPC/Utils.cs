@@ -241,6 +241,7 @@ namespace CustomRPC
                     Code = "be",
                     Translators = new Person[] {
                         new Person { Name = "Alibical" }, // Chloe N.
+                        new Person { Name = "haydaay" },
                         l0ngg,
                     }
                 },
@@ -859,7 +860,7 @@ namespace CustomRPC
             LanguageProgress["ar"] = "100";
             LanguageProgress["hy"] = "98.08";
             LanguageProgress["az"] = "100";
-            LanguageProgress["be"] = "96.15";
+            LanguageProgress["be"] = "100";
             LanguageProgress["bn"] = "95.19";
             LanguageProgress["bs"] = "95.19";
             LanguageProgress["bg"] = "96.15";
