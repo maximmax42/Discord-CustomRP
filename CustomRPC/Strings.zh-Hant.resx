@@ -191,7 +191,7 @@
     <value>正在更新動態……</value>
   </data>
   <data name="newPresetConfirmation" xml:space="preserve">
-    <value>您确定要从头开始吗?
-这不能被撤销。</value>
+    <value>您確定要重新開始嗎？
+此項行為無法復原。</value>
   </data>
 </root>
