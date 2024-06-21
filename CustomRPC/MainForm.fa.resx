@@ -464,4 +464,7 @@
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>سوالات پرتکرار</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>تنظیمات جدید</value>
+  </data>
 </root>

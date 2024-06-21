@@ -191,4 +191,8 @@
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>به روز رسانی وضعیت...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>آیا مطمئن اید که میخواید از صفر شروع کنید؟
+این غیرقابل بازگشت است.</value>
+  </data>
 </root>
