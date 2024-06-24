@@ -184,4 +184,14 @@ Stlačte Áno pre resetovanie nastavení, stlačte Nie pre ukončenie.</value>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Nepodarilo sa pridať alebo odstrániť skratku pri spustení:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Nepodaril sa otvoriť odkaz. Bol uložený do schránky.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Aktualizácia prítomnosti...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Ste si istý že chcete začať od zaciatku?
+Toto nemôžete dať naspäť.</value>
+  </data>
 </root>

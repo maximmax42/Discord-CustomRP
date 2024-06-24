@@ -907,7 +907,7 @@ namespace CustomRPC
             LanguageProgress["ro"] = "98.08";
             LanguageProgress["ru"] = "100";
             LanguageProgress["sr"] = "95.19";
-            LanguageProgress["sk"] = "95.19";
+            LanguageProgress["sk"] = "100";
             LanguageProgress["sl"] = "100";
             LanguageProgress["es"] = "100";
             LanguageProgress["sv"] = "96.15";

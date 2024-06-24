@@ -468,4 +468,10 @@ Aby nadobudli účinnosť, obe polia by mali byť väčšie ako 0.</value>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>z</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Často Kladené Otázky</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nové nastavenie</value>
+  </data>
 </root>
