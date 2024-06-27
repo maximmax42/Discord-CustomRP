@@ -644,7 +644,8 @@ namespace CustomRPC
 
                 textBoxID.BackColor = CurrentColors.BgTextFieldsError;
                 toolStripStatusLabelStatus.Text = Strings.statusError;
-                MessageBox.Show(this, args.Message, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if (args.Code != DiscordRPC.Message.ErrorCode.UnkownError) // Yes, there is a typo in the DiscordRPC lib
+                    MessageBox.Show(this, args.Message, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }));
 
             if (ConnectionManager.HasChanged()) // Ignore repeated calls caused by auto reconnect
