@@ -1085,15 +1085,21 @@ namespace CustomRPC
             {
                 new NonMonetarySupporter {
                     Name = "vouivre",
-                    Url = "https://twitter.com/vvouivre",
+                    Url = "https://x.com/vvouivre",
                     DonationType = "A furry art",
-                    DonationUrl = "https://cdn.discordapp.com/attachments/1028632852969033839/1028632881179922522/unknown.png"
+                    DonationUrl = "https://www.customrp.xyz/donations/vouivre.png"
                 },
                 new NonMonetarySupporter {
                     Name = "Sojpan",
-                    Url = "https://twitter.com/Illeg__al",
+                    Url = "https://x.com/Illeg__al",
                     DonationType = "A furry art",
-                    DonationUrl = "https://cdn.discordapp.com/attachments/1092251869490978816/1092264289215184978/image.png"
+                    DonationUrl = "https://www.customrp.xyz/donations/Sojpan.png"
+                },
+                new NonMonetarySupporter {
+                    Name = "NearbyFish",
+                    Url = "https://x.com/Nearbyfish1",
+                    DonationType = "A furry art",
+                    DonationUrl = "https://www.customrp.xyz/donations/NearbyFish.png"
                 },
             };
         }

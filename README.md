@@ -48,8 +48,9 @@ Custom Discord Rich Presence Manager for Windows 7+. Some of its features are ru
 
 ### Non-monetary supporters
 
-* [vouivre](https://twitter.com/vvouivre) - [A furry art](https://cdn.discordapp.com/attachments/1028632852969033839/1028632881179922522/unknown.png)
-* [Sojpan](https://twitter.com/Illeg__al) - [A furry art](https://cdn.discordapp.com/attachments/1092251869490978816/1092264289215184978/image.png)
+* [vouivre](https://x.com/vvouivre) - [A furry art](https://www.customrp.xyz/donations/vouivre.png)
+* [Sojpan](https://x.com/Illeg__al) - [A furry art](https://www.customrp.xyz/donations/Sojpan.png)
+* [NearbyFish](https://x.com/Nearbyfish1) - [A furry art](https://www.customrp.xyz/donations/NearbyFish.png)
 
 If you don't see your donation here after a day or two - ping me on Discord.
 
