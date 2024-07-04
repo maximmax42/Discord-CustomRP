@@ -1586,7 +1586,7 @@ To take effect, both fields should be more than 0.</value>
     <value>2, 4, 2, 4</value>
   </data>
   <data name="comboBoxSmallKey.MaxDropDownItems" type="System.Int32, mscorlib">
-    <value>100</value>
+    <value>30</value>
   </data>
   <data name="comboBoxSmallKey.MaxLength" type="System.Int32, mscorlib">
     <value>256</value>
@@ -1670,7 +1670,7 @@ To take effect, both fields should be more than 0.</value>
     <value>2, 4, 2, 4</value>
   </data>
   <data name="comboBoxLargeKey.MaxDropDownItems" type="System.Int32, mscorlib">
-    <value>100</value>
+    <value>30</value>
   </data>
   <data name="comboBoxLargeKey.MaxLength" type="System.Int32, mscorlib">
     <value>256</value>
