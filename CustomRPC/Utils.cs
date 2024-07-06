@@ -667,6 +667,7 @@ namespace CustomRPC
                     Translators = new Person[] {
                         new Person { Name = "Lol1112345.lol12345" },
                         new Person { Name = "Liso" },
+                        new Person { Name = "japanesegirl_99", Url = "https://japanesegirl99.muzes.xyz/" },
                         new Person { Name = "Piter" },
                         new Person { Name = "Oscar" },
                         MarcelGustin,
@@ -901,7 +902,7 @@ namespace CustomRPC
             LanguageProgress["no"] = "96.15";
             LanguageProgress["pa"] = "100";
             LanguageProgress["fa"] = "100";
-            LanguageProgress["pl"] = "98.08";
+            LanguageProgress["pl"] = "100";
             LanguageProgress["pt"] = "100";
             LanguageProgress["pt-br"] = "98.08";
             LanguageProgress["ro"] = "98.08";

@@ -161,7 +161,7 @@
     <value>212, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Wrzuć zdjęcia</value>
+    <value>Dodaj zdjęcia</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>209, 6</value>
@@ -245,7 +245,7 @@
     <value>Zaktualizuj status</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Aktualizuje status.</value>
+    <value>Aktualizacja statusu.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>Połącz</value>
@@ -407,5 +407,8 @@ Jeżeli ma mieć jakikolwiek efekt, obydwa pola muszą być większe od 0.</valu
   </data>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>Często zadawane pytania</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Utwórz nowy szablon</value>
   </data>
 </root>
