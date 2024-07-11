@@ -826,10 +826,12 @@ namespace CustomRPC
                     Code = "vi",
                     Translators = new Person[] {
                         Mykm,
-                        new Person { Name = "Nhathungtran2011" },
-                        new Person { Name = "Phnthnhnm0612" },
                         new Person { Name = "dsbachle" },
+                        new Person { Name = "Nhathungtran2011" },
+                        new Person { Name = "Rinka Ch. リンカタカナシ" },
+                        new Person { Name = "Phnthnhnm0612" },
                         new Person { Name = "Ayano" },
+                        new Person { Name = "igijtykvj" },
                         new Person { Name = "03_Trần" },
                         new Person { Name = "kcott" },
                     }

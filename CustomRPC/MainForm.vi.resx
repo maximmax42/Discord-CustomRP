@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>Đúp chuột vào biểu tượng để hiển thị nó, hoặc nhấn chuột phải để thoát.</value>
+    <value>Nhấn đúp vào icon để hiển thị nó, hoặc nhấn chuột phải để thoát.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>Ứng dụng này sẽ chạy trong khay.</value>
+    <value>Ứng dụng sẽ chạy ẩn.</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>Mở</value>
