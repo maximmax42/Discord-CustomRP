@@ -482,4 +482,7 @@ Pentru a avea efect,ambele câmpuri trebuie să aibă o valoare mai mare decât 
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>din</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Preset nou</value>
+  </data>
 </root>

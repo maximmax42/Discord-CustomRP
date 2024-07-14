@@ -441,4 +441,7 @@ Para ter efeito, ambos os campos devem ser maiores que 0.</value>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>Perguntas Frequentes</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nova Predefinição</value>
+  </data>
 </root>

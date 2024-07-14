@@ -118,7 +118,7 @@ So far, the app supports these languages:
 * [Persian](https://poeditor.com/projects/po_edit?id_language=126&per_page=100&id=409229) (thanks to [Mohammad Mahdi](https://mo-mahdihh.ir/), AliGhanbarzadeh, [Nima](https://github.com/nima-globals/) and Sunnystew)
 * [Polish](https://poeditor.com/projects/po_edit?id_language=127&per_page=100&id=409229) (thanks to Lol1112345.lol12345, Liso, [japanesegirl_99](https://japanesegirl99.muzes.xyz/) Piter, Oscar, [Marcel Gustin](https://marcelgustin.de), Tofix.rs and KM127PL)
 * [Portugese](https://poeditor.com/projects/po_edit?id_language=128&per_page=100&id=409229) (thanks to Verygafanhot and Alexandre Calvario)
-* [Portugese (BR)](https://poeditor.com/projects/po_edit?id_language=190&per_page=100&id=409229) (thanks to viniciotricolor, Slimakoi, Felipe B. Pansani, DeusDrizzyy and Leo)
+* [Portugese (BR)](https://poeditor.com/projects/po_edit?id_language=190&per_page=100&id=409229) (thanks to viniciotricolor, Slimakoi, Felipe B. Pansani, DeusDrizzyy, Leo, Nicola Occhipinti and João)
 * [Romanian](https://poeditor.com/projects/po_edit?id_language=131&per_page=100&id=409229) (thanks to [JPN](https://isaidpower.dev/), [DiDYRO](https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w), ShadowTiger_9, [inter](https://github.com/Electro7777), Denisbolba, [KTSGod](https://ktsgod.carrd.co/), [Eddie](https://github.com/EdiRo), veirvn, Matthww and BlockBuzzters)
 * [Russian](https://poeditor.com/projects/po_edit?id_language=134&per_page=100&id=409229)
 * [Serbian](https://poeditor.com/projects/po_edit?id_language=141&per_page=100&id=409229) (thanks to Vihaan, ToShibaToShamara, falcon and Veljko)

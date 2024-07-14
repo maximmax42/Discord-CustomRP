@@ -190,4 +190,8 @@ Pressione Sim para redefinir as configurações, pressione Não para sair.</valu
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>Atualizando presença...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Você tem certeza de que quer começar do zero?
+Isso não pode ser desfeito.</value>
+  </data>
 </root>

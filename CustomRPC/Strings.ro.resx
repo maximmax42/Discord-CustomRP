@@ -190,4 +190,8 @@ Apăsați Da pentru a reseta setările, apăsați Nu pentru a ieși.</value>
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>Se actualizează prezența...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Sigur vrei să începi de la zero?
+Acest lucru nu poate fi anulat.</value>
+  </data>
 </root>

@@ -695,7 +695,8 @@ namespace CustomRPC
                         new Person { Name = "Felipe B. Pansani" },
                         new Person { Name = "DeusDrizzyy" },
                         new Person { Name = "Leo" },
-                        NicolaOcchipinti
+                        NicolaOcchipinti,
+                        new Person { Name = "João" },
                     }
                 },
                 new Language {
@@ -906,8 +907,8 @@ namespace CustomRPC
             LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "100";
             LanguageProgress["pt"] = "100";
-            LanguageProgress["pt-br"] = "98.08";
-            LanguageProgress["ro"] = "98.08";
+            LanguageProgress["pt-br"] = "100";
+            LanguageProgress["ro"] = "100";
             LanguageProgress["ru"] = "100";
             LanguageProgress["sr"] = "95.19";
             LanguageProgress["sk"] = "100";
