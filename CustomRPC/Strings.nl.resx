@@ -190,4 +190,8 @@ Druk op Ja om de instellingen te resetten, druk op Nee om te stoppen.</value>
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>Status aan het bijwerken...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Weet je zeker dat je vanaf nul wil beginnen? 
+Dit kan niet ongedaan gemaakt worden.</value>
+  </data>
 </root>

@@ -638,7 +638,8 @@ namespace CustomRPC
                     Translators = new Person[] {
                         new Person { Name = "Jeremyzijlemans", Url = "https://sionteam.com/" },
                         new Person { Name = "Screitsma64" },
-                        new Person { Name = "sys-256", Url = "https://sys-256.me/" }, // Bramdevogel
+                        new Person { Name = "sys-256", Url = "https://sys-256.me/" },
+                        new Person { Name = "Not_H3", Url = "https://github.com/damger9" },
                         new Person { Name = "DutchSlav" },
                     }
                 },
@@ -875,7 +876,7 @@ namespace CustomRPC
             LanguageProgress["hr"] = "95.19";
             LanguageProgress["cs"] = "100";
             LanguageProgress["da"] = "96.15";
-            LanguageProgress["nl"] = "98.08";
+            LanguageProgress["nl"] = "100";
             LanguageProgress["et"] = "100";
             LanguageProgress["fil"] = "100";
             LanguageProgress["fi"] = "100";
