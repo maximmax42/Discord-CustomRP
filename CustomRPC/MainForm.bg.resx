@@ -206,7 +206,7 @@
     <value>312, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Стартирай на заден фон</value>
+    <value>Стартирай минимизирано</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>312, 22</value>
@@ -320,22 +320,22 @@
     <value>178, 24</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Промени богато присъствие</value>
+    <value>Промени присъствие</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Актуализира богато присъствие.</value>
+    <value>Актуализира присъствие.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>Свържи</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Свързва приложението със специфичния ID на зададеното богато присъствие.</value>
+    <value>Свързва приложението със специфичния ID на зададеното присъствие.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
     <value>Прекъсни</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Прекъсва връзката между приложението и Discord. Това може да отнеме извесно време.</value>
+    <value>Прекъсва връзката между приложението и Discord. Това може да отнеме известно време.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>ID на приложението от уебсайта на Discord Developers.</value>
@@ -470,5 +470,8 @@
   </data>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>Постоянно Зададени Въпроси</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Нова конфигурация</value>
   </data>
 </root>

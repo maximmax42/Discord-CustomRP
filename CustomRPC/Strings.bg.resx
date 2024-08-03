@@ -144,7 +144,7 @@
     <value>Свръзване...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Връзката е неуспешна (Пуснат ли е Discord?)</value>
+    <value>Връзката е неуспешна (Discord върви ли?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>Връзката е прекъсната</value>
@@ -183,5 +183,15 @@
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Неуспешно добавяне или премахване на пряк път:</value>
+  </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Проблем при копирането на връзка. Копирана в буферната памет.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Актуализация на присъствие...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Сигурни ли сте, че искате да започнете от начало?
+Това не може да отмени.</value>
   </data>
 </root>
