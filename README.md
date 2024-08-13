@@ -1,3 +1,35 @@
+<br>
+<pre align="center">
+ ________  ___  ___  ________  _________  ________  _____ ______           ________  ________   
+|\   ____\|\  \|\  \|\   ____\|\___   ___\\   __  \|\   _ \  _   \        |\   __  \|\   __  \  
+\ \  \___|\ \  \\\  \ \  \___|\|___ \  \_\ \  \|\  \ \  \\\__\ \  \       \ \  \|\  \ \  \|\  \ 
+ \ \  \    \ \  \\\  \ \_____  \   \ \  \ \ \  \\\  \ \  \\|__| \  \       \ \   _  _\ \   ____\
+  \ \  \____\ \  \\\  \|____|\  \   \ \  \ \ \  \\\  \ \  \    \ \  \       \ \  \\  \\ \  \___|
+   \ \_______\ \_______\____\_\  \   \ \__\ \ \_______\ \__\    \ \__\       \ \__\\ _\\ \__\   
+    \|_______|\|_______|\_________\   \|__|  \|_______|\|__|     \|__|        \|__|\|__|\|__|   
+                       \|_________|                                                             
+                                                                                                                                                                                                
+ <h3>maximmax42 - Discord-CustomRP.</h3>
+
+Not "an experienced developer" 
+
+</pre>
+
+#### About the Project
+- Simple & Elegant: A streamlined Rich Presence manager for Discord.
+- Windows 7 & Above: Exclusively designed for these operating systems.
+- Custom "Playing" Status: Easily personalize your Discord status.
+- Auto Startup: Launches automatically when your system boots up.
+- Minimize to Tray: Keeps your taskbar clutter-free by minimizing to the system tray.
+- Multilingual Support: Translated into multiple languages for global accessibility.
+### Help
+- Support:   Go to [Discord Server](https://discord.com/invite/9qX9eGxCxC) - For Any Kind Of Help 
+- Contacts:  [Website](https://www.customrp.xyz/) PLease Here
+
+#### For any questions or support, feel free to open an issue on the respective repository or contact us directly at [Discord Server](https://discord.com/invite/9qX9eGxCxC) , [Website](https://www.customrp.xyz/)
+
+#
+
 <p align=center>
   <a href="https://github.com/maximmax42/Discord-CustomRP/releases/latest"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/tag/maximmax42/Discord-CustomRP?color=19e2e2&label=latest&logo=github"></a>
   <a href="https://github.com/maximmax42/Discord-CustomRP/releases/latest"><img alt="GitHub Releases" src="https://img.shields.io/github/downloads/maximmax42/Discord-CustomRP/latest/total?color=19e2e2&label=downloads&logo=github"></a>
