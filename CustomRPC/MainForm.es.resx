@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>Haz doble click en el icono para ver de nuevo, o click derecho para salir.</value>
+    <value>Haz doble clic en el ícono para mostrarlo de nuevo, o haz clic derecho para salir.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
     <value>La aplicación se ejecutara en la bandeja.</value>
@@ -137,13 +137,13 @@
     <value>197, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Cargar Ajustes Guardados</value>
+    <value>Cargar Preajuste</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Guardar Ajustes Guardados</value>
+    <value>Guardar Preajuste</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>194, 6</value>
@@ -173,19 +173,19 @@
     <value>221, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Abrir al iniciar el sistema</value>
+    <value>Ejecutar al Inicio</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>221, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Iniciar minimizado</value>
+    <value>Inicio Minimizado</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>221, 22</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>Conectar Automáticamente</value>
+    <value>Autoconectar</value>
   </data>
   <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
     <value>218, 6</value>
@@ -200,7 +200,7 @@
     <value>221, 22</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Permitir analíticas</value>
+    <value>Permitir Analíticas</value>
   </data>
   <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
     <value>218, 6</value>
@@ -236,13 +236,13 @@
     <value>95, 20</value>
   </data>
   <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Configuración</value>
+    <value>Configuraciónes</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 22</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>Abrir la guía</value>
+    <value>Abrir el Manual</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 22</value>
@@ -257,7 +257,7 @@
     <value>203, 22</value>
   </data>
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
-    <value>Donantes</value>
+    <value>Donadores</value>
   </data>
   <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 22</value>
@@ -278,7 +278,7 @@
     <value>203, 22</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>Acerca de...</value>
+    <value>Acerca De...</value>
   </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 20</value>
@@ -290,7 +290,7 @@
     <value>145, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Instalar actualización</value>
+    <value>Descargar Actualización</value>
   </data>
   <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
     <value>182, 456</value>
@@ -302,7 +302,7 @@
     <value>Actualizar Presencia</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Actualizar presencia.</value>
+    <value>Actualiza la presencia.</value>
   </data>
   <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>234, 50</value>
@@ -311,7 +311,7 @@
     <value>Conectar</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>Vincula la aplicación a la identificación de bots con presencia establecida.</value>
+    <value>Vincula la aplicación al ID especificado con presencia establecida.</value>
   </data>
   <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>332, 50</value>
@@ -323,28 +323,28 @@
     <value>Desconectar</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Desconecta la aplicación de Discord. Toma en cuenta que esto puede tardar un rato.</value>
+    <value>Desconecta la aplicación de Discord. Ten en cuenta que puede tardar un poco.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>ID de la aplicación del sitio de Desarrolladores de Discord.</value>
+    <value>ID de la aplicación del sitio Discord Developers.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>Primer renglón en la presencia.</value>
+    <value>Primera linea en la presencia.</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>Segundo renglón en la presencia.</value>
+    <value>Segunda linea en la presencia.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Nombre del recurso para una imagen pequeña o una URL de imagen.</value>
+    <value>Nombre del recurso de la imagen pequeña o URL de la imagen.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>Texto que se muestra al arrastrar el mouse sobre la imagen pequeña.</value>
+    <value>Texto mostrado al pasar el cursor sobre la imagen pequeña.</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>Texto que se muestra al arrastrar el mouse sobre la imagen grande.</value>
+    <value>Texto mostrado al pasar el cursor sobre la imagen grande.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Nombre del activo para una imagen grande o una URL de imagen.</value>
+    <value>Nombre del recurso de la imagen grande o URL de la imagen.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 14</value>
@@ -353,7 +353,7 @@
     <value>Imagen Pequeña</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
-    <value>Imagen que aparece en la esquina derecha inferior de la imagen grande.</value>
+    <value>Imagen que aparece en la esquina inferior derecha de la imagen grande.</value>
   </data>
   <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
     <value>91, 14</value>
@@ -362,7 +362,7 @@
     <value>Imagen Grande</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>Imagen que aparece a la izquierda de el texto establecido arriba.</value>
+    <value>Imagen que aparece a la izquierda del texto establecido anteriormente.</value>
   </data>
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 18</value>
@@ -377,10 +377,10 @@
     <value>189, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>Desde que abrió CustomRP</value>
+    <value>Desde que inicio CustomRP</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>Muestra el tiempo desde que la aplicación se inicio.</value>
+    <value>Muestra el tiempo desde que la aplicación se inició.</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>95, 18</value>
@@ -389,15 +389,15 @@
     <value>Tu hora local</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>Muestra tu hora local en el formato de 24 horas.</value>
+    <value>Muestra tu hora actual en formato de 24 horas.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Establece una marca de tiempo para el estado, el cual aparece debajo de todo el texto de arriba.
-Los temporizadores de estado tienen un limite de 24 horas, esto quiere decir que después de 24 horas el tiempo regresara a 0:00.</value>
+    <value>Configura la marca de tiempo para el estado, que aparece debajo de todo el texto anterior. 
+Los temporizadores de estado tienen un límite de 24 horas, lo que significa que después de 24 horas el tiempo volverá a 0:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>Cantidad de jugadores en el grupo actual que se muestra junto al campo del estado.
-Para que tome efecto, ambos campos deben ser mayores que 0.</value>
+    <value>Cantidad de jugadores en el grupo actual que se muestra junto al campo de Estado. 
+Para que surta efecto, ambos campos deben ser mayores que 0.</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 18</value>
@@ -406,7 +406,7 @@ Para que tome efecto, ambos campos deben ser mayores que 0.</value>
     <value>Marca de tiempo personalizada</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
-    <value>Muestra el tiempo que ha pasado o hace falta para la fecha establecida.</value>
+    <value>Muestra cuánto tiempo ha pasado desde o cuánto tiempo queda hasta la fecha establecida a continuación.</value>
   </data>
   <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 14</value>
@@ -415,7 +415,7 @@ Para que tome efecto, ambos campos deben ser mayores que 0.</value>
     <value>Botón 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>El primer de los dos botones que aparecen debajo de tu estado en la ventana de tu perfil y en lado derecho del perfil completo.</value>
+    <value>El primero de los dos botones que aparece debajo de tu estado en el popup de tu perfil y en el lado derecho en el perfil completo.</value>
   </data>
   <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 14</value>
@@ -424,13 +424,13 @@ Para que tome efecto, ambos campos deben ser mayores que 0.</value>
     <value>Botón 2</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>El segundo de los dos botones que aparecen debajo de tu estado en la ventana de tu perfil y en lado derecho del perfil completo.</value>
+    <value>Segundo botón, que aparece justo debajo del primer botón, o en su lugar, si el primero no está configurado.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>Direccion URL a donde seran redirigidos los usuarios.</value>
+    <value>URL a la que llevará al usuario al hacer clic en el botón.</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>URL al cual el usuario será dirigido al dar click al botón.</value>
+    <value>URL a la que llevará el botón al hacer clic.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
     <value>Etiqueta del primer botón.</value>
@@ -442,10 +442,10 @@ Para que tome efecto, ambos campos deben ser mayores que 0.</value>
     <value>251, 18</value>
   </data>
   <data name="radioButtonPresence.Text" xml:space="preserve">
-    <value>Desde la última actualización de presencia</value>
+    <value>Desde la última actualización de la presencia</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
-    <value>Muestra cuánto tiempo ha pasado desde la última vez que se conectó o actualizó la presencia.</value>
+    <value>Muestra cuánto tiempo ha pasado desde que te conectaste o actualizaste la presencia por última vez.</value>
   </data>
   <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
     <value>21, 14</value>
@@ -454,6 +454,9 @@ Para que tome efecto, ambos campos deben ser mayores que 0.</value>
     <value>de</value>
   </data>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
-    <value>Preguntas Más Frecuentes</value>
+    <value>Preguntas Frecuentes - FAQ</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nuevo Preajuste</value>
   </data>
 </root>

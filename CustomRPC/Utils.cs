@@ -363,16 +363,18 @@ namespace CustomRPC
                     EnglishName = "Spanish",
                     Code = "es",
                     Translators = new Person[] {
-                        new Person { Name = "Vexot" },
-                        new Person { Name = "SirAmong" },
+                        new Person { Name = "Korsinemi" }, // +1
+                        new Person { Name = "Vexot" }, // +4
                         new Person { Name = "Pablo" },
+                        new Person { Name = "Luciousmc" },
+                        new Person { Name = "SirAmong" },
+                        NicolaOcchipinti,
+                        // 0 translations:
                         DarlingChan,
                         new Person { Name = "UncleGeek" },
-                        new Person { Name = "Luciousmc" },
                         new Person { Name = "Alvaro203204" },
                         new Person { Name = "JugandoMiguel", Url = "https://fiverr.com/jugandomiguel" },
-                        NicolaOcchipinti,
-                        new Person { Name = "Epic" }, // 0 translations
+                        new Person { Name = "Epic" },
                     }
                 },
                 new Language {

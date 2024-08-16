@@ -121,7 +121,7 @@
     <value>Ok</value>
   </data>
   <data name="labelInfo.Text" xml:space="preserve">
-    <value>CustomRP ha fallado en la sesión previa a causa de la siguiente excepción sin manejar:</value>
+    <value>CustomRP ha colapsado en la sesión anterior debido a la siguiente excepción no controlada:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Reporte de Error</value>
