@@ -1,13 +1,14 @@
 ﻿namespace CustomRPC
 {
     /// <summary>
-    /// Connection types for the app.
+    /// Connection states for the app.
     /// </summary>
-    public enum ConnectionType
+    public enum ConnectionState
     {
         None = -1,
         Disconnected,
         Connecting,
+        UpdatingPresence,
         Connected,
         Error,
     }
@@ -17,13 +18,13 @@
     /// </summary>
     public static class ConnectionManager
     {
-        static ConnectionType current = ConnectionType.Disconnected;
-        static ConnectionType previous = ConnectionType.None;
+        static ConnectionState current = ConnectionState.Disconnected;
+        static ConnectionState previous = ConnectionState.None;
 
         /// <summary>
         /// Current state of the connection.
         /// </summary>
-        public static ConnectionType State
+        public static ConnectionState State
         {
             get
             {
@@ -31,10 +32,10 @@
             }
             set
             {
-                if (value == ConnectionType.None)
-                    throw new System.ComponentModel.InvalidEnumArgumentException("Attempt to set State to ConnectionType.None.");
+                if (value == ConnectionState.None)
+                    throw new System.ComponentModel.InvalidEnumArgumentException("Attempt to set State to ConnectionState.None.");
 
-                if (current != ConnectionType.Connecting)
+                if (current != ConnectionState.Connecting)
                     previous = current;
                 current = value;
             }

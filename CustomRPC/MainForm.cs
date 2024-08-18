@@ -369,14 +369,15 @@ namespace CustomRPC
 
             switch (ConnectionManager.State)
             {
-                case ConnectionType.Disconnected:
-                case ConnectionType.Connecting:
+                case ConnectionState.Disconnected:
+                case ConnectionState.Connecting:
+                case ConnectionState.UpdatingPresence:
                     textBoxID.BackColor = CurrentColors.BgTextFields;
                     break;
-                case ConnectionType.Connected:
+                case ConnectionState.Connected:
                     textBoxID.BackColor = CurrentColors.BgTextFieldsSuccess;
                     break;
-                case ConnectionType.Error:
+                case ConnectionState.Error:
                     textBoxID.BackColor = CurrentColors.BgTextFieldsError;
                     break;
             }
@@ -610,7 +611,7 @@ namespace CustomRPC
         {
             var presence = client.CurrentPresence;
 
-            ConnectionManager.State = ConnectionType.Connected;
+            ConnectionManager.State = ConnectionState.Connected;
 
             Invoke(new MethodInvoker(() =>
             {
@@ -635,7 +636,7 @@ namespace CustomRPC
         /// </summary>
         private void ClientOnError(object sender, DiscordRPC.Message.ErrorMessage args)
         {
-            ConnectionManager.State = ConnectionType.Error;
+            ConnectionManager.State = ConnectionState.Error;
 
             Invoke(new MethodInvoker(() =>
             {
@@ -659,7 +660,7 @@ namespace CustomRPC
         /// </summary>
         private void ClientOnConnFailed(object sender, DiscordRPC.Message.ConnectionFailedMessage args)
         {
-            ConnectionManager.State = ConnectionType.Error;
+            ConnectionManager.State = ConnectionState.Error;
 
             Invoke(new MethodInvoker(() =>
             {
@@ -688,6 +689,7 @@ namespace CustomRPC
 
                 buttonUpdatePresence.Enabled = true;
 
+                ConnectionManager.State = ConnectionState.UpdatingPresence;
                 toolStripStatusLabelStatus.Text = Strings.statusUpdatingPresence;
             }));
         }
@@ -869,6 +871,7 @@ namespace CustomRPC
                     break;
             }
 
+            ConnectionManager.State = ConnectionState.UpdatingPresence;
             toolStripStatusLabelStatus.Text = Strings.statusUpdatingPresence;
             client.SetPresence(rp);
 
@@ -963,19 +966,23 @@ namespace CustomRPC
         {
             switch (ConnectionManager.State) // Because invoking doesn't work while the form is hidden
             {
-                case ConnectionType.Disconnected:
+                case ConnectionState.Disconnected:
                     textBoxID.BackColor = CurrentColors.BgTextFields;
                     toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
                     break;
-                case ConnectionType.Connecting:
+                case ConnectionState.Connecting:
                     textBoxID.BackColor = CurrentColors.BgTextFields;
                     toolStripStatusLabelStatus.Text = Strings.statusConnecting;
                     break;
-                case ConnectionType.Connected:
+                case ConnectionState.UpdatingPresence:
+                    textBoxID.BackColor = CurrentColors.BgTextFields;
+                    toolStripStatusLabelStatus.Text = Strings.statusUpdatingPresence;
+                    break;
+                case ConnectionState.Connected:
                     textBoxID.BackColor = CurrentColors.BgTextFieldsSuccess;
                     toolStripStatusLabelStatus.Text = Strings.statusConnected;
                     break;
-                case ConnectionType.Error:
+                case ConnectionState.Error:
                     textBoxID.BackColor = CurrentColors.BgTextFieldsError;
                     toolStripStatusLabelStatus.Text = Strings.statusError;
                     break;
@@ -995,7 +1002,7 @@ namespace CustomRPC
             if (MessageBox.Show(this, Strings.newPresetConfirmation, Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
                 return;
 
-            if (ConnectionManager.State != ConnectionType.Disconnected)
+            if (ConnectionManager.State != ConnectionState.Disconnected)
                 Disconnect();
 
             textBoxID.Text = textBoxDetails.Text = textBoxState.Text =
@@ -1052,7 +1059,7 @@ namespace CustomRPC
                 if (!wasConnected)
                     return;
 
-                if (isNewID || ConnectionManager.State != ConnectionType.Connected)
+                if (isNewID || ConnectionManager.State != ConnectionState.Connected)
                     Reconnect();
                 else
                     SetPresence();
@@ -1374,10 +1381,10 @@ namespace CustomRPC
 
             if (Init()) // If successfully initialized...
             {
-                if (ConnectionManager.State == ConnectionType.Disconnected)
+                if (ConnectionManager.State == ConnectionState.Disconnected)
                     Analytics.TrackEvent("Connected"); // Only send analytics if connect function was called from disconnected state
 
-                ConnectionManager.State = ConnectionType.Connecting;
+                ConnectionManager.State = ConnectionState.Connecting;
 
                 buttonConnect.Enabled = false; // ...disable Connect button...
                 buttonDisconnect.Enabled = true; // ...enable Disconnect button...
@@ -1407,7 +1414,7 @@ namespace CustomRPC
             trayIcon.Text = $"{res.GetString("trayIcon.Text")}{(Program.IsSecondInstance ? " 2" : "")}";
 
             textBoxID.BackColor = CurrentColors.BgTextFields;
-            ConnectionManager.State = ConnectionType.Disconnected;
+            ConnectionManager.State = ConnectionState.Disconnected;
 
             restartTimer.Stop();
 
@@ -1430,7 +1437,7 @@ namespace CustomRPC
             Utils.SaveSettings();
             if (Init())
             {
-                ConnectionManager.State = ConnectionType.Connecting;
+                ConnectionManager.State = ConnectionState.Connecting;
                 toolStripStatusLabelStatus.Text = Strings.statusConnecting;
             }
             else
