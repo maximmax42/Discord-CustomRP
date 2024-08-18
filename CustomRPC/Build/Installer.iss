@@ -47,7 +47,7 @@ AppCopyright=Copyright (C) 2018-{#CurrentYear} maximmax42
 LicenseFile=License combined.txt
 ChangesAssociations=yes
 
-; No German (CH), Welsh (cy), Filipino, Kannada, Panjabi, Malayalam, Burmese (my), Tamil
+; No Azerbaijani (az), Welsh (cy), German CH (de-ch), Filipino (fil), Kannada (kn), Malayalam (ml), Malay (ms), Burmese (my), Panjabi (pa), Tamil (ta)
 [Languages]
 Name: "ar";     MessagesFile: "issrc\Files\Languages\Unofficial\Arabic.isl"
 Name: "be";     MessagesFile: "issrc\Files\Languages\Unofficial\Belarusian.isl"
@@ -76,6 +76,7 @@ Name: "is";     MessagesFile: "compiler:Languages\Icelandic.isl"
 Name: "it";     MessagesFile: "compiler:Languages\Italian.isl"
 Name: "ja";     MessagesFile: "compiler:Languages\Japanese.isl"
 Name: "ka";     MessagesFile: "issrc\Files\Languages\Unofficial\Georgian.isl"
+Name: "kk";     MessagesFile: "issrc\Files\Languages\Unofficial\Kazakh.islu"
 Name: "ko";     MessagesFile: "issrc\Files\Languages\Korean.isl"
 Name: "ku";     MessagesFile: "issrc\Files\Languages\Unofficial\Kurdish.isl"
 Name: "lt";     MessagesFile: "issrc\Files\Languages\Unofficial\Lithuanian.isl"
