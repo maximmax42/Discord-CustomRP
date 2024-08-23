@@ -184,4 +184,14 @@
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>startup ಶಾರ್ಟ್‌ಕಟ್ ಅನ್ನು ಸೇರಿಸಲು ಅಥವಾ ತೆಗೆದುಹಾಕಲು ವಿಫಲವಾಗಿದೆ:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>URL ತೆರೆಯಲು ವಿಫಲವಾಗಿದೆ. ಇದನ್ನು ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾಗಿದೆ.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Presence ಅನ್ನು ನವೀಕರಿಸಲಾಗುತ್ತಿದೆ...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>ನೀವು ಮೊದಲಿನಿಂದ ಪ್ರಾರಂಭಿಸಲು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?
+ಇದನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗುವುದಿಲ್ಲ.</value>
+  </data>
 </root>

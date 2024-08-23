@@ -477,4 +477,10 @@
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>ನ</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>ಆಗಾಗ್ಗೆ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>ಹೊಸ ಪೂರ್ವನಿಗದಿ</value>
+  </data>
 </root>
