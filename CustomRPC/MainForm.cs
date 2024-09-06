@@ -113,6 +113,11 @@ namespace CustomRPC
         int restartAttemptsLeft = -1;
 
         /// <summary>
+        /// A timer that updates presence at midnight.
+        /// </summary>
+        Timer localTimeTimer = new Timer();
+
+        /// <summary>
         /// Settings of the application. Self-explanatory.
         /// </summary>
         Properties.Settings settings = Properties.Settings.Default;
@@ -195,6 +200,10 @@ namespace CustomRPC
             // Setting up a restart timer
             restartTimer.AutoReset = false;
             restartTimer.Elapsed += RestartTimer_Elapsed;
+
+            // Setting up a midnight presence update timer
+            localTimeTimer.AutoReset = false;
+            localTimeTimer.Elapsed += LocalTimeTimer_Elapsed;
 
             // If we supply a preset file to import on load, load it right away
             if (preset is string)
@@ -412,6 +421,10 @@ namespace CustomRPC
             restartAttemptsLeft--;
 
             Invoke(new MethodInvoker(() => Connect()));
+        }
+        private void LocalTimeTimer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
+        {
+            Invoke(new MethodInvoker(() => SetPresence()));
         }
 
         /// <summary>
@@ -703,6 +716,8 @@ namespace CustomRPC
             if (client == null || client.IsDisposed)
                 return false;
 
+            localTimeTimer.Stop();
+
             // Add ZWS character if details or state textboxes start a no-break space character
             foreach (var paramBox in new[] { textBoxDetails, textBoxState })
             {
@@ -850,7 +865,11 @@ namespace CustomRPC
                 case TimestampType.None: break;
                 case TimestampType.SinceStartup: rp.Timestamps = new Timestamps(timestampStarted); break;
                 case TimestampType.SincePresenceUpdate: rp.Timestamps = Timestamps.Now; break;
-                case TimestampType.LocalTime: rp.Timestamps = new Timestamps(DateTime.UtcNow.Subtract(new TimeSpan(DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second))); break;
+                case TimestampType.LocalTime:
+                    rp.Timestamps = new Timestamps(DateTime.UtcNow.Subtract(new TimeSpan(DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second)));
+                    localTimeTimer.Interval = DateTime.Today.AddDays(1).Subtract(DateTime.Now).TotalMilliseconds;
+                    localTimeTimer.Start();
+                    break;
                 case TimestampType.Custom:
                     DateTime customTimestamp = dateTimePickerTimestamp.Value.ToUniversalTime();
                     /// I must apologize preemptively for this monster of an if-statement
@@ -1417,6 +1436,7 @@ namespace CustomRPC
             ConnectionManager.State = ConnectionState.Disconnected;
 
             restartTimer.Stop();
+            localTimeTimer.Stop();
 
             client.Dispose();
 
@@ -1430,6 +1450,7 @@ namespace CustomRPC
         {
             // Quick disconnect
             restartTimer.Stop();
+            localTimeTimer.Stop();
             client.Dispose();
             textBoxID.BackColor = CurrentColors.BgTextFields;
 
