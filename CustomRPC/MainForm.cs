@@ -422,6 +422,9 @@ namespace CustomRPC
 
             Invoke(new MethodInvoker(() => Connect()));
         }
+        /// <summary>
+        /// Will be called at midnight to update presence.
+        /// </summary>
         private void LocalTimeTimer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
             Invoke(new MethodInvoker(() => SetPresence()));
