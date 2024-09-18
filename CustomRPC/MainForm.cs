@@ -870,7 +870,7 @@ namespace CustomRPC
                 case TimestampType.SincePresenceUpdate: rp.Timestamps = Timestamps.Now; break;
                 case TimestampType.LocalTime:
                     rp.Timestamps = new Timestamps(DateTime.UtcNow.Subtract(new TimeSpan(DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second)));
-                    localTimeTimer.Interval = DateTime.Today.AddDays(1).Subtract(DateTime.Now).TotalMilliseconds;
+                    localTimeTimer.Interval = DateTime.Today.AddDays(1).AddSeconds(5).Subtract(DateTime.Now).TotalMilliseconds;
                     localTimeTimer.Start();
                     break;
                 case TimestampType.Custom:
