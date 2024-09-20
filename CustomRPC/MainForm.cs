@@ -202,7 +202,7 @@ namespace CustomRPC
             restartTimer.Elapsed += RestartTimer_Elapsed;
 
             // Setting up a midnight presence update timer
-            localTimeTimer.AutoReset = false;
+            localTimeTimer.AutoReset = true;
             localTimeTimer.Elapsed += LocalTimeTimer_Elapsed;
 
             // If we supply a preset file to import on load, load it right away
