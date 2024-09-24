@@ -2,6 +2,7 @@
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
 using System;
+using System.Configuration;
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -60,6 +61,18 @@ namespace CustomRPC
                 helpText.AppendLine();
                 helpText.AppendLine("Option(s) and file path(s) can be included in any order. Including more than one file path will result in the last valid one being used.");
                 MessageBox.Show(helpText.ToString(), Application.ProductName);
+                return;
+            }
+
+            if (args.Length > 0 && args[0] == "uninstall")
+            {
+                if (MessageBox.Show(Strings.deleteSettings, Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+                {
+                    string settingsPath = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.PerUserRoamingAndLocal).FilePath;
+                    settingsPath = Path.GetFullPath(Path.Combine(settingsPath, @"..\.."));
+                    Directory.Delete(settingsPath, true);
+                }
+                
                 return;
             }
 

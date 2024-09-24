@@ -71,6 +71,16 @@ namespace CustomRPC {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Do you want to delete application&apos;s settings?
+        ///This cannot be undone..
+        /// </summary>
+        internal static string deleteSettings {
+            get {
+                return ResourceManager.GetString("deleteSettings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Error.
         /// </summary>
         internal static string error {

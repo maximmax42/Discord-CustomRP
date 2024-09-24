@@ -199,4 +199,8 @@ Press Yes to reset the settings, press No to quit.</value>
     <value>Are you sure you want to start from scratch?
 This cannot be undone.</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Do you want to delete application's settings?
+This cannot be undone.</value>
+  </data>
 </root>
