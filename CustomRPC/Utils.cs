@@ -196,7 +196,7 @@ namespace CustomRPC
         static Person Codiaz = new Person { Name = "Codiaz", Url = "https://codiaz.com/" };
         static Person crohmthz = new Person { Name = "cr.ohmthz" };
         static Person DarlingChan = new Person { Name = "Darling-Chan", Url = "https://meap.gg/" };
-        static Person dragonGRaf = new Person { Name = "dragon GRaf", Url = "https://github.com/dragonGRaf1312/mycustomrichpresence" };
+        static Person dragonGRaf = new Person { Name = "dragon GRaf", Url = "https://github.com/dragongrafdiscord/mycustomrichpresence" };
         static Person falcon = new Person { Name = "falcon" };
         static Person Julian = new Person { Name = "Julian", Url = "https://julian-idl.codes/" };
         static Person l0ngg = new Person { Name = "l0ngg" };
