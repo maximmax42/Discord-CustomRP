@@ -200,4 +200,8 @@ Drücke "Ja", um sie zurückzusetzen oder "Nein", um das Programm zu beenden.</v
     <value>Bist du sicher, dass du noch einmal von vorne anfangen willst?
 Dies kann nicht rückgänig gemacht werden.</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Möchten Sie die Anwendungseinstellungen löschen?
+Dies kann nicht rückgängig gemacht werden.</value>
+  </data>
 </root>
