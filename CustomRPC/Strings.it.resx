@@ -194,4 +194,8 @@ Premi Sì per resettare le impostazioni oppure premi No per uscire.</value>
     <value>Sei sicuro di voler ricominciare da zero?
 Questa azione non può essere annullata.</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Vuoi eliminare le impostazioni dell'applicazione?
+Questa azione non può essere annullata.</value>
+  </data>
 </root>
