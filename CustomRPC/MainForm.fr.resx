@@ -194,7 +194,7 @@
     <value>250, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Lancer automatiquement au démarrage</value>
+    <value>Exécuter au démarrage</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 22</value>
@@ -260,7 +260,7 @@
     <value>202, 22</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Page github</value>
+    <value>Page GitHub</value>
   </data>
   <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
     <value>199, 6</value>
@@ -311,7 +311,7 @@
     <value>Mettre à jour la présence</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Mettre à jour la présence.</value>
+    <value>Met à jour la présence.</value>
   </data>
   <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>232, 50</value>

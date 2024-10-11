@@ -192,6 +192,10 @@ Cliquez sur "oui" pour réinitialiser la configuration, cliquez sur "non" pour q
   </data>
   <data name="newPresetConfirmation" xml:space="preserve">
     <value>Êtes-vous sûr de vouloir tout recommencer à zéro ?
-Cette opération ne peut être annulée.</value>
+Cette action est irréversible.</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Voulez-vous supprimer les paramètres de l'application ?
+Cette action est irréversible.</value>
   </data>
 </root>
