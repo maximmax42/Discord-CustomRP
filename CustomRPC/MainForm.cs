@@ -782,11 +782,27 @@ namespace CustomRPC
 
             try
             {
+                // Thank you Discord, very cool
+                bool IsMpExternalStringOverLimit(Uri uri)
+                {
+                    return $"mp:external/43 characters that probably represent an id/{Uri.EscapeDataString(tempUri.Query)}/{tempUri.Scheme}/{(tempUri.IdnHost == "media.discordapp.net" ? "cdn.discordapp.com" : tempUri.IdnHost)}{tempUri.AbsolutePath}".Length > 256;
+                }
+
                 if (Uri.TryCreate(settings.smallKey, UriKind.Absolute, out tempUri))
+                {
+                    if (IsMpExternalStringOverLimit(tempUri))
+                        throw new ArgumentException("Small");
+
                     settings.smallKey = tempUri.AbsoluteUri.Replace(tempUri.Host, tempUri.IdnHost);
+                }
 
                 if (Uri.TryCreate(settings.largeKey, UriKind.Absolute, out tempUri))
+                {
+                    if (IsMpExternalStringOverLimit(tempUri))
+                        throw new ArgumentException("Large");
+
                     settings.largeKey = tempUri.AbsoluteUri.Replace(tempUri.Host, tempUri.IdnHost);
+                }
 
                 rp.Assets = new Assets()
                 {
@@ -799,9 +815,13 @@ namespace CustomRPC
                 rp.Assets.SmallImageKey = Proxify(rp.Assets.SmallImageKey);
                 rp.Assets.LargeImageKey = Proxify(rp.Assets.LargeImageKey);
             }
-            catch
+            catch (Exception e)
             {
-                MessageBox.Show(Strings.errorInvalidImageURL, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                if (e is ArgumentException)
+                    MessageBox.Show(Strings.errorInvalidImageURL + " (" + res.GetString("label" + e.Message + ".Text") + ")", Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                else
+                    MessageBox.Show(e.Message, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+
                 return false;
             }
             finally
