@@ -13,6 +13,7 @@ using System.Net;
 using System.Net.Http;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 using System.Xml.Serialization;
 using Application = System.Windows.Forms.Application;
 using Button = System.Windows.Forms.Button;
@@ -1615,9 +1616,11 @@ namespace CustomRPC
         private void ButtonPaint(object sender, PaintEventArgs e)
         {
             Button btn = (Button)sender;
-            btn.Text = string.Empty;
+            if (btn.Enabled)
+                return;
+
             TextFormatFlags flags = TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter;
-            TextRenderer.DrawText(e.Graphics, res.GetString($"{btn.Name}.Text"), btn.Font, e.ClipRectangle, btn.Enabled ? btn.ForeColor : CurrentColors.TextInactive, flags);
+            TextRenderer.DrawText(e.Graphics, btn.Text, btn.Font, e.ClipRectangle, CurrentColors.TextInactive, flags);
         }
 
         /// <summary>
