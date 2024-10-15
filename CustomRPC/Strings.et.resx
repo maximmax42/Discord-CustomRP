@@ -193,4 +193,8 @@ Seadete lähtestamiseks vajutage Jah, väljumiseks vajutage Ei.</value>
   <data name="newPresetConfirmation" xml:space="preserve">
     <value>Kas olete kindel, et soovite alustada nullist?</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Kas soovite rakenduse seaded kustutada?
+Seda ei saa tühistada.</value>
+  </data>
 </root>
