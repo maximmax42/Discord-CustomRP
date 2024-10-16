@@ -104,12 +104,15 @@
             this.labelButton1Text = new System.Windows.Forms.Label();
             this.labelButton2Text = new System.Windows.Forms.Label();
             this.radioButtonPresence = new System.Windows.Forms.RadioButton();
+            this.labelType = new System.Windows.Forms.Label();
             this.panelTimestamps = new System.Windows.Forms.Panel();
             this.dateTimePickerTimestamp = new System.Windows.Forms.DateTimePicker();
             this.labelPartyOf = new System.Windows.Forms.Label();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabelPadding = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabelStatus = new System.Windows.Forms.ToolStripStatusLabel();
+            this.tableLayoutPanelButtons = new System.Windows.Forms.TableLayoutPanel();
+            this.comboBoxType = new System.Windows.Forms.ComboBox();
             this.textBoxButton2Text = new System.Windows.Forms.TextBox();
             this.textBoxButton2URL = new System.Windows.Forms.TextBox();
             this.textBoxButton1URL = new System.Windows.Forms.TextBox();
@@ -127,6 +130,7 @@
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
             this.statusStrip.SuspendLayout();
+            this.tableLayoutPanelButtons.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPartySize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPartyMax)).BeginInit();
             this.SuspendLayout();
@@ -460,7 +464,6 @@
             // buttonUpdatePresence
             // 
             resources.ApplyResources(this.buttonUpdatePresence, "buttonUpdatePresence");
-            this.buttonUpdatePresence.AutoEllipsis = true;
             this.buttonUpdatePresence.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(25)))), ((int)(((byte)(28)))));
             this.buttonUpdatePresence.FlatAppearance.BorderSize = 0;
             this.buttonUpdatePresence.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(73)))), ((int)(((byte)(162)))));
@@ -473,12 +476,11 @@
             // 
             // buttonConnect
             // 
-            this.buttonConnect.AutoEllipsis = true;
+            resources.ApplyResources(this.buttonConnect, "buttonConnect");
             this.buttonConnect.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(25)))), ((int)(((byte)(28)))));
             this.buttonConnect.FlatAppearance.BorderSize = 0;
             this.buttonConnect.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(73)))), ((int)(((byte)(162)))));
             this.buttonConnect.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(86)))), ((int)(((byte)(193)))));
-            resources.ApplyResources(this.buttonConnect, "buttonConnect");
             this.buttonConnect.Name = "buttonConnect";
             this.toolTipInfo.SetToolTip(this.buttonConnect, resources.GetString("buttonConnect.ToolTip"));
             this.buttonConnect.UseVisualStyleBackColor = true;
@@ -487,9 +489,8 @@
             // 
             // buttonDisconnect
             // 
-            this.buttonDisconnect.AutoEllipsis = true;
-            this.buttonDisconnect.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(25)))), ((int)(((byte)(28)))));
             resources.ApplyResources(this.buttonDisconnect, "buttonDisconnect");
+            this.buttonDisconnect.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(25)))), ((int)(((byte)(28)))));
             this.buttonDisconnect.FlatAppearance.BorderSize = 0;
             this.buttonDisconnect.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(73)))), ((int)(((byte)(162)))));
             this.buttonDisconnect.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(86)))), ((int)(((byte)(193)))));
@@ -673,6 +674,13 @@
             this.radioButtonPresence.UseVisualStyleBackColor = true;
             this.radioButtonPresence.CheckedChanged += new System.EventHandler(this.TimestampsChanged);
             // 
+            // labelType
+            // 
+            resources.ApplyResources(this.labelType, "labelType");
+            this.labelType.Cursor = System.Windows.Forms.Cursors.Help;
+            this.labelType.Name = "labelType";
+            this.toolTipInfo.SetToolTip(this.labelType, resources.GetString("labelType.ToolTip"));
+            // 
             // panelTimestamps
             // 
             this.panelTimestamps.Controls.Add(this.radioButtonPresence);
@@ -718,6 +726,23 @@
             // 
             this.toolStripStatusLabelStatus.Name = "toolStripStatusLabelStatus";
             resources.ApplyResources(this.toolStripStatusLabelStatus, "toolStripStatusLabelStatus");
+            // 
+            // tableLayoutPanelButtons
+            // 
+            resources.ApplyResources(this.tableLayoutPanelButtons, "tableLayoutPanelButtons");
+            this.tableLayoutPanelButtons.Controls.Add(this.buttonUpdatePresence, 3, 0);
+            this.tableLayoutPanelButtons.Controls.Add(this.buttonConnect, 0, 0);
+            this.tableLayoutPanelButtons.Controls.Add(this.buttonDisconnect, 1, 0);
+            this.tableLayoutPanelButtons.Name = "tableLayoutPanelButtons";
+            // 
+            // comboBoxType
+            // 
+            this.comboBoxType.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
+            this.comboBoxType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.comboBoxType, "comboBoxType");
+            this.comboBoxType.ForeColor = System.Drawing.Color.White;
+            this.comboBoxType.Name = "comboBoxType";
+            this.comboBoxType.SelectedValueChanged += new System.EventHandler(this.PresenceTypeChanged);
             // 
             // textBoxButton2Text
             // 
@@ -801,8 +826,8 @@
             // 
             this.comboBoxSmallKey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
             this.comboBoxSmallKey.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "smallKey", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.comboBoxSmallKey.ForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.comboBoxSmallKey, "comboBoxSmallKey");
+            this.comboBoxSmallKey.ForeColor = System.Drawing.Color.White;
             this.comboBoxSmallKey.Name = "comboBoxSmallKey";
             this.comboBoxSmallKey.Sorted = true;
             this.comboBoxSmallKey.Text = global::CustomRPC.Properties.Settings.Default.smallKey;
@@ -839,8 +864,8 @@
             // 
             this.comboBoxLargeKey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
             this.comboBoxLargeKey.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "largeKey", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.comboBoxLargeKey.ForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.comboBoxLargeKey, "comboBoxLargeKey");
+            this.comboBoxLargeKey.ForeColor = System.Drawing.Color.White;
             this.comboBoxLargeKey.Name = "comboBoxLargeKey";
             this.comboBoxLargeKey.Sorted = true;
             this.comboBoxLargeKey.Text = global::CustomRPC.Properties.Settings.Default.largeKey;
@@ -889,6 +914,9 @@
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
+            this.Controls.Add(this.labelType);
+            this.Controls.Add(this.comboBoxType);
+            this.Controls.Add(this.tableLayoutPanelButtons);
             this.Controls.Add(this.labelButton2Text);
             this.Controls.Add(this.labelButton1Text);
             this.Controls.Add(this.labelButton2URL);
@@ -917,9 +945,6 @@
             this.Controls.Add(this.labelState);
             this.Controls.Add(this.labelDetails);
             this.Controls.Add(this.labelID);
-            this.Controls.Add(this.buttonDisconnect);
-            this.Controls.Add(this.buttonConnect);
-            this.Controls.Add(this.buttonUpdatePresence);
             this.Controls.Add(this.textBoxLargeText);
             this.Controls.Add(this.comboBoxLargeKey);
             this.Controls.Add(this.textBoxState);
@@ -943,6 +968,8 @@
             this.panelTimestamps.PerformLayout();
             this.statusStrip.ResumeLayout(false);
             this.statusStrip.PerformLayout();
+            this.tableLayoutPanelButtons.ResumeLayout(false);
+            this.tableLayoutPanelButtons.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPartySize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPartyMax)).EndInit();
             this.ResumeLayout(false);
@@ -1042,6 +1069,9 @@
         private System.Windows.Forms.RadioButton radioButtonPresence;
         private System.Windows.Forms.ToolStripMenuItem faqToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newPresetToolStripMenuItem;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanelButtons;
+        private System.Windows.Forms.Label labelType;
+        private System.Windows.Forms.ComboBox comboBoxType;
     }
 }
 

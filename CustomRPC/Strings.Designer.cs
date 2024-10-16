@@ -248,6 +248,42 @@ namespace CustomRPC {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Competing.
+        /// </summary>
+        internal static string presenceTypeCompeting {
+            get {
+                return ResourceManager.GetString("presenceTypeCompeting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Listening.
+        /// </summary>
+        internal static string presenceTypeListening {
+            get {
+                return ResourceManager.GetString("presenceTypeListening", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Playing.
+        /// </summary>
+        internal static string presenceTypePlaying {
+            get {
+                return ResourceManager.GetString("presenceTypePlaying", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Watching.
+        /// </summary>
+        internal static string presenceTypeWatching {
+            get {
+                return ResourceManager.GetString("presenceTypeWatching", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Connected.
         /// </summary>
         internal static string statusConnected {

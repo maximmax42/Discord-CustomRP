@@ -13,7 +13,6 @@ using System.Net;
 using System.Net.Http;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
-using System.Windows.Forms.VisualStyles;
 using System.Xml.Serialization;
 using Application = System.Windows.Forms.Application;
 using Button = System.Windows.Forms.Button;
@@ -57,6 +56,21 @@ namespace CustomRPC
         public string ID;
         public string Type;
         public string Name;
+    }
+
+    /// <summary>
+    /// A struct describing activity types to use in a type selection combobox.
+    /// </summary>
+    public struct PresenceType
+    {
+        public string Name { get; private set; }
+        public ActivityType Type { get; private set; }
+
+        public PresenceType(string name, ActivityType type)
+        {
+            Name = name;
+            Type = type;
+        }
     }
 
     /// <summary>
@@ -168,6 +182,17 @@ namespace CustomRPC
         readonly List<string> translatedWikiLocales = new List<string> { "de", "es", "fi", "fr", "hi", "ko", "nl", "pl", "ro", "ru", "th", "uk", "vi" };
 
         /// <summary>
+        /// List of available activity types.
+        /// </summary>
+        readonly List<PresenceType> presenceTypes = new List<PresenceType>
+            {
+                new PresenceType(Strings.presenceTypePlaying, ActivityType.Playing),
+                new PresenceType(Strings.presenceTypeListening, ActivityType.Listening),
+                new PresenceType(Strings.presenceTypeWatching, ActivityType.Watching),
+                new PresenceType(Strings.presenceTypeCompeting, ActivityType.Competing),
+            };
+
+        /// <summary>
         /// Unicode character "No-Break Space" (" ").
         /// </summary>
         readonly string U00A0 = "\u00A0";
@@ -232,6 +257,12 @@ namespace CustomRPC
                     break;
                 }
             }
+
+            // Setting up activity type combobox
+            comboBoxType.DisplayMember = "Name";
+            comboBoxType.ValueMember = "Type";
+            comboBoxType.DataSource = presenceTypes;
+            comboBoxType.SelectedValue = (ActivityType)settings.type;
 
             // Set up tags for the radio buttons
             radioButtonNone.Tag = TimestampType.None;
@@ -743,6 +774,7 @@ namespace CustomRPC
 
             var rp = new RichPresence()
             {
+                Type = (ActivityType)settings.type,
                 Details = settings.details,
                 State = settings.state,
                 Party = new Party()
@@ -1396,97 +1428,29 @@ namespace CustomRPC
         }
 
         /// <summary>
-        /// Called when you press the Connect button or right-click on the tray icon and choose Reconnect.
+        /// Called when a presence type is changed in comboBoxType.
         /// </summary>
-        private void Connect(object sender, EventArgs e)
+        private void PresenceTypeChanged(object sender, EventArgs e)
         {
-#if DEBUG
-            if (ModifierKeys == (Keys.Control | Keys.Alt) && sender is Button)
-                Crashes.GenerateTestCrash();
-#endif
-            if (ModifierKeys == (Keys.Control | Keys.Shift) && sender is Button)
-            {
-                Analytics.TrackEvent("Opened pipe selector window");
-
-                new PipeSelector().ShowDialog(this);
+            if (comboBoxType.Items.Count == 0)
                 return;
-            }
 
-            Connect();
-        }
+            ActivityType type = (ActivityType)comboBoxType.SelectedValue;
 
-        /// <summary>
-        /// Connects to Discord and makes UI changes.
-        /// </summary>
-        private void Connect()
-        {
+            settings.type = (int)type;
             Utils.SaveSettings();
 
-            if (Init()) // If successfully initialized...
-            {
-                if (ConnectionManager.State == ConnectionState.Disconnected)
-                    Analytics.TrackEvent("Connected"); // Only send analytics if connect function was called from disconnected state
+            bool canHaveParty = true, canHaveTimestamps = true;
 
-                ConnectionManager.State = ConnectionState.Connecting;
+            if (type != ActivityType.Playing)
+                canHaveParty = false;
 
-                buttonConnect.Enabled = false; // ...disable Connect button...
-                buttonDisconnect.Enabled = true; // ...enable Disconnect button...
-                trayMenuDisconnect.Enabled = true; // ...enable Disconnect button in tray menu...
-                textBoxID.ReadOnly = true; // ...make the ID field read only...
-                toolStripStatusLabelStatus.Text = Strings.statusConnecting; // and update the connection status label
-            }
-        }
+            if (type == ActivityType.Competing)
+                canHaveTimestamps = false;
 
-        /// <summary>
-        /// Called when you press the Disconnect button.
-        /// </summary>
-        private void Disconnect(object sender, EventArgs e) => Disconnect();
-
-        /// <summary>
-        /// Disconnects from Discord and makes UI changes.
-        /// </summary>
-        private void Disconnect()
-        {
-            buttonConnect.Enabled = true;
-            buttonDisconnect.Enabled = false;
-            trayMenuDisconnect.Enabled = false;
-            buttonUpdatePresence.Enabled = false;
-            textBoxID.ReadOnly = false;
-            toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
-            Text = $"{res.GetString("$this.Text")}{(Program.IsSecondInstance ? " 2" : "")}";
-            trayIcon.Text = $"{res.GetString("trayIcon.Text")}{(Program.IsSecondInstance ? " 2" : "")}";
-
-            textBoxID.BackColor = CurrentColors.BgTextFields;
-            ConnectionManager.State = ConnectionState.Disconnected;
-
-            restartTimer.Stop();
-            localTimeTimer.Stop();
-
-            client.Dispose();
-
-            Analytics.TrackEvent("Disconnected");
-        }
-
-        /// <summary>
-        /// Disconnects from Discord and instantly connects back.
-        /// </summary>
-        private void Reconnect()
-        {
-            // Quick disconnect
-            restartTimer.Stop();
-            localTimeTimer.Stop();
-            client.Dispose();
-            textBoxID.BackColor = CurrentColors.BgTextFields;
-
-            // Quick connect
-            Utils.SaveSettings();
-            if (Init())
-            {
-                ConnectionManager.State = ConnectionState.Connecting;
-                toolStripStatusLabelStatus.Text = Strings.statusConnecting;
-            }
-            else
-                Disconnect(); // In case something goes wrong, disconnect fully.
+            numericUpDownPartySize.Enabled = canHaveParty;
+            numericUpDownPartyMax.Enabled = canHaveParty;
+            panelTimestamps.Enabled = canHaveTimestamps;
         }
 
         /// <summary>
@@ -1621,6 +1585,100 @@ namespace CustomRPC
 
             TextFormatFlags flags = TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter;
             TextRenderer.DrawText(e.Graphics, btn.Text, btn.Font, e.ClipRectangle, CurrentColors.TextInactive, flags);
+        }
+
+        /// <summary>
+        /// Called when you press the Connect button or right-click on the tray icon and choose Reconnect.
+        /// </summary>
+        private void Connect(object sender, EventArgs e)
+        {
+#if DEBUG
+            if (ModifierKeys == (Keys.Control | Keys.Alt) && sender is Button)
+                Crashes.GenerateTestCrash();
+#endif
+            if (ModifierKeys == (Keys.Control | Keys.Shift) && sender is Button)
+            {
+                Analytics.TrackEvent("Opened pipe selector window");
+
+                new PipeSelector().ShowDialog(this);
+                return;
+            }
+
+            Connect();
+        }
+
+        /// <summary>
+        /// Connects to Discord and makes UI changes.
+        /// </summary>
+        private void Connect()
+        {
+            Utils.SaveSettings();
+
+            if (Init()) // If successfully initialized...
+            {
+                if (ConnectionManager.State == ConnectionState.Disconnected)
+                    Analytics.TrackEvent("Connected"); // Only send analytics if connect function was called from disconnected state
+
+                ConnectionManager.State = ConnectionState.Connecting;
+
+                buttonConnect.Enabled = false; // ...disable Connect button...
+                buttonDisconnect.Enabled = true; // ...enable Disconnect button...
+                trayMenuDisconnect.Enabled = true; // ...enable Disconnect button in tray menu...
+                textBoxID.ReadOnly = true; // ...make the ID field read only...
+                toolStripStatusLabelStatus.Text = Strings.statusConnecting; // and update the connection status label
+            }
+        }
+
+        /// <summary>
+        /// Called when you press the Disconnect button.
+        /// </summary>
+        private void Disconnect(object sender, EventArgs e) => Disconnect();
+
+        /// <summary>
+        /// Disconnects from Discord and makes UI changes.
+        /// </summary>
+        private void Disconnect()
+        {
+            buttonConnect.Enabled = true;
+            buttonDisconnect.Enabled = false;
+            trayMenuDisconnect.Enabled = false;
+            buttonUpdatePresence.Enabled = false;
+            textBoxID.ReadOnly = false;
+            toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
+            Text = $"{res.GetString("$this.Text")}{(Program.IsSecondInstance ? " 2" : "")}";
+            trayIcon.Text = $"{res.GetString("trayIcon.Text")}{(Program.IsSecondInstance ? " 2" : "")}";
+
+            textBoxID.BackColor = CurrentColors.BgTextFields;
+            ConnectionManager.State = ConnectionState.Disconnected;
+
+            restartTimer.Stop();
+            localTimeTimer.Stop();
+
+            client.Dispose();
+
+            Analytics.TrackEvent("Disconnected");
+        }
+
+        /// <summary>
+        /// Disconnects from Discord and instantly connects back.
+        /// </summary>
+        private void Reconnect()
+        {
+            // Quick disconnect
+            restartTimer.Stop();
+            localTimeTimer.Stop();
+            client.Dispose();
+            textBoxID.BackColor = CurrentColors.BgTextFields;
+
+            // Quick connect
+            Utils.SaveSettings();
+            if (Init())
+            {
+                ConnectionManager.State = ConnectionState.Connecting;
+                toolStripStatusLabelStatus.Text = Strings.statusConnecting;
+            }
+            else
+                Disconnect(); // In case something goes wrong, disconnect fully.
         }
 
         /// <summary>

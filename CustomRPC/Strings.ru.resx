@@ -204,4 +204,16 @@
     <value>Вы хотите удалить настройки приложения?
 Это действие невозможно отменить.</value>
   </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Играет</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Слушает</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Смотрит</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Соревнуется</value>
+  </data>
 </root>

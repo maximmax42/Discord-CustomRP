@@ -203,4 +203,16 @@ This cannot be undone.</value>
     <value>Do you want to delete application's settings?
 This cannot be undone.</value>
   </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Playing</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Listening</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Watching</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Competing</value>
+  </data>
 </root>
