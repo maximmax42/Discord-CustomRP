@@ -72,7 +72,7 @@ namespace CustomRPC
                     settingsPath = Path.GetFullPath(Path.Combine(settingsPath, @"..\.."));
                     Directory.Delete(settingsPath, true);
                 }
-                
+
                 return;
             }
 
@@ -128,14 +128,14 @@ namespace CustomRPC
                 // In case the settings file goes corrupt, trying to read any property will throw an exception.
                 culture = settings.language;
             }
-            catch (System.Configuration.ConfigurationErrorsException e)
+            catch (ConfigurationErrorsException e)
             {
                 var result = MessageBox.Show(Strings.errorCorruptSettings, Strings.error, MessageBoxButtons.YesNo, MessageBoxIcon.Error);
 
                 if (result == DialogResult.Yes)
                 {
                     // I can't just do settings.Reset() since it will throw the same exception, so instead I have to delete the config file.
-                    string filename = ((System.Configuration.ConfigurationErrorsException)e.InnerException).Filename;
+                    string filename = ((ConfigurationErrorsException)e.InnerException).Filename;
                     File.Delete(filename);
                     AppMutex.Close();
                     Application.Restart();
@@ -179,7 +179,7 @@ namespace CustomRPC
                 {
                     StringBuilder settingsTxt = new StringBuilder();
 
-                    foreach (System.Configuration.SettingsPropertyValue setting in settings.PropertyValues)
+                    foreach (SettingsPropertyValue setting in settings.PropertyValues)
                     {
                         if (setting.Name == "id")
                             continue;
@@ -188,14 +188,14 @@ namespace CustomRPC
                     }
 
                     StringBuilder rpcLog = new StringBuilder();
-                    string[] temp = File.ReadAllLines(Application.StartupPath + "\\rpc.log");
+                    string[] temp = File.ReadAllLines(Application.StartupPath + "\\logs\\" + report.AppErrorTime.ToString("yyyy-MM-dd") + ".log");
 
-                    for (int i = temp.Length - 1; i >= 0 && i >= temp.Length - 200; i--)
+                    foreach (string line in temp)
                     {
-                        if (temp[i].Contains("applicationID"))
+                        if (line.Contains("applicationID"))
                             continue;
 
-                        rpcLog.Insert(0, temp[i] + "\r\n");
+                        rpcLog.AppendLine(line);
                     }
 
                     return new ErrorAttachmentLog[]
