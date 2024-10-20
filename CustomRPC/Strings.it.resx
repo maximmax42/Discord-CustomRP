@@ -198,4 +198,16 @@ Questa azione non può essere annullata.</value>
     <value>Vuoi eliminare le impostazioni dell'applicazione?
 Questa azione non può essere annullata.</value>
   </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Gioca a</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Sta ascoltando</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Sta guardando</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>In competizione su</value>
+  </data>
 </root>

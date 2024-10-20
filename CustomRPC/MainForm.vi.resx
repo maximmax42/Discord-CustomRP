@@ -462,4 +462,7 @@ Thời gian của trạng thái có giới hạn là 24 giờ, nghĩa là sau 24
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Tạo thiết lập mới</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Loại hoạt động của trạng thái.</value>
+  </data>
 </root>

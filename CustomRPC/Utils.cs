@@ -413,8 +413,8 @@ namespace CustomRPC
                     EnglishName = "Filipino",
                     Code = "fil",
                     Translators = new Person[] {
+                        new Person { Name = "_missingo", Url = "https://www.youtube.com/channel/UCxNVq2Esevsdp2v1jGQNu5A" }, // 阿什利 基拉
                         new Person { Name = "CtrlAltDelicious", Url = "https://www.youtube.com/c/CtrlAltDelicious_" },
-                        new Person { Name = "_missingo", Url = "https://www.youtube.com/channel/UCxNVq2Esevsdp2v1jGQNu5A" },
                         new Person { Name = "syp" },
                         new Person { Name = "jericko" },
                         new Person { Name = "Hachiki" },
@@ -428,9 +428,9 @@ namespace CustomRPC
                         new Person { Name = "Nenaff" }, // Account deleted
                         new Person { Name = "RedNix" },
                         new Person { Name = "VaporCorp" }, // Account deleted
+                        new Person { Name = "20syl", Url = "https://github.com/20syldev" },
                         new Person { Name = "jojoblackFr" },
                         new Person { Name = "Prototyx5" },
-                        new Person { Name = "20syl", Url = "https://github.com/20syldev" },
                         new Person { Name = "SkyDream" }, // 0 translations
                     }
                 },
@@ -797,8 +797,8 @@ namespace CustomRPC
                     EnglishName = "Turkish",
                     Code = "tr",
                     Translators = new Person[] {
-                        new Person { Name = "Ozan Akyüz" },
                         new Person { Name = "josephisticated", Url = "https://github.com/josephisticated" },
+                        new Person { Name = "Ozan Akyüz" },
                         new Person { Name = "vLaDeR" },
                         Murat_Efendi,
                     }
@@ -866,68 +866,68 @@ namespace CustomRPC
 
             LanguageProgress = new Dictionary<string, string>();
             #region Generated code for progress
-            LanguageProgress["ar"] = "99.05";
-            LanguageProgress["hy"] = "97.14";
-            LanguageProgress["az"] = "99.05";
-            LanguageProgress["be"] = "99.05";
-            LanguageProgress["bn"] = "94.29";
-            LanguageProgress["bs"] = "94.29";
-            LanguageProgress["bg"] = "99.05";
-            LanguageProgress["my"] = "95.24";
-            LanguageProgress["ca"] = "94.29";
-            LanguageProgress["zh-hans"] = "99.05";
-            LanguageProgress["zh-hant"] = "99.05";
-            LanguageProgress["hr"] = "94.29";
-            LanguageProgress["cs"] = "99.05";
-            LanguageProgress["da"] = "95.24";
-            LanguageProgress["nl"] = "99.05";
+            LanguageProgress["ar"] = "94.55";
+            LanguageProgress["hy"] = "92.73";
+            LanguageProgress["az"] = "94.55";
+            LanguageProgress["be"] = "94.55";
+            LanguageProgress["bn"] = "90";
+            LanguageProgress["bs"] = "90";
+            LanguageProgress["bg"] = "94.55";
+            LanguageProgress["my"] = "90.91";
+            LanguageProgress["ca"] = "90";
+            LanguageProgress["zh-hans"] = "94.55";
+            LanguageProgress["zh-hant"] = "94.55";
+            LanguageProgress["hr"] = "90";
+            LanguageProgress["cs"] = "94.55";
+            LanguageProgress["da"] = "90.91";
+            LanguageProgress["nl"] = "94.55";
             LanguageProgress["et"] = "100";
-            LanguageProgress["fil"] = "99.05";
-            LanguageProgress["fi"] = "99.05";
+            LanguageProgress["fil"] = "100";
+            LanguageProgress["fi"] = "94.55";
             LanguageProgress["fr"] = "100";
-            LanguageProgress["gl"] = "94.29";
-            LanguageProgress["ka"] = "94.29";
-            LanguageProgress["de"] = "100";
-            LanguageProgress["de-ch"] = "99.05";
-            LanguageProgress["el"] = "97.14";
-            LanguageProgress["he"] = "94.29";
-            LanguageProgress["hi"] = "99.05";
-            LanguageProgress["hu"] = "94.29";
-            LanguageProgress["is"] = "94.29";
-            LanguageProgress["id"] = "99.05";
-            LanguageProgress["it"] = "100";
-            LanguageProgress["ja"] = "99.05";
-            LanguageProgress["kn"] = "99.05";
-            LanguageProgress["kk"] = "99.05";
-            LanguageProgress["ko"] = "97.14";
-            LanguageProgress["ku"] = "94.29";
-            LanguageProgress["lv"] = "94.29";
-            LanguageProgress["lt"] = "99.05";
-            LanguageProgress["mk"] = "94.29";
-            LanguageProgress["ms"] = "99.05";
-            LanguageProgress["ml"] = "94.29";
-            LanguageProgress["mn"] = "96.19";
-            LanguageProgress["no"] = "95.24";
-            LanguageProgress["pa"] = "99.05";
-            LanguageProgress["fa"] = "99.05";
-            LanguageProgress["pl"] = "99.05";
-            LanguageProgress["pt"] = "99.05";
-            LanguageProgress["pt-br"] = "99.05";
+            LanguageProgress["gl"] = "90";
+            LanguageProgress["ka"] = "90";
+            LanguageProgress["de"] = "96.36";
+            LanguageProgress["de-ch"] = "94.55";
+            LanguageProgress["el"] = "92.73";
+            LanguageProgress["he"] = "100";
+            LanguageProgress["hi"] = "94.55";
+            LanguageProgress["hu"] = "90";
+            LanguageProgress["is"] = "90";
+            LanguageProgress["id"] = "94.55";
+            LanguageProgress["it"] = "99.09";
+            LanguageProgress["ja"] = "94.55";
+            LanguageProgress["kn"] = "94.55";
+            LanguageProgress["kk"] = "94.55";
+            LanguageProgress["ko"] = "92.73";
+            LanguageProgress["ku"] = "90";
+            LanguageProgress["lv"] = "90";
+            LanguageProgress["lt"] = "94.55";
+            LanguageProgress["mk"] = "90";
+            LanguageProgress["ms"] = "94.55";
+            LanguageProgress["ml"] = "90";
+            LanguageProgress["mn"] = "91.82";
+            LanguageProgress["no"] = "90.91";
+            LanguageProgress["pa"] = "94.55";
+            LanguageProgress["fa"] = "94.55";
+            LanguageProgress["pl"] = "94.55";
+            LanguageProgress["pt"] = "94.55";
+            LanguageProgress["pt-br"] = "94.55";
             LanguageProgress["qu"] = "0";
-            LanguageProgress["ro"] = "99.05";
+            LanguageProgress["ro"] = "94.55";
             LanguageProgress["ru"] = "100";
-            LanguageProgress["sr"] = "94.29";
-            LanguageProgress["sk"] = "99.05";
-            LanguageProgress["sl"] = "99.05";
-            LanguageProgress["es"] = "99.05";
-            LanguageProgress["sv"] = "95.24";
-            LanguageProgress["ta"] = "92.38";
-            LanguageProgress["th"] = "99.05";
-            LanguageProgress["tr"] = "99.05";
-            LanguageProgress["uk"] = "99.05";
-            LanguageProgress["ur"] = "97.14";
-            LanguageProgress["vi"] = "99.05";
-            LanguageProgress["cy"] = "94.29";
+            LanguageProgress["sr"] = "90";
+            LanguageProgress["sk"] = "94.55";
+            LanguageProgress["sl"] = "94.55";
+            LanguageProgress["es"] = "94.55";
+            LanguageProgress["sv"] = "90.91";
+            LanguageProgress["ta"] = "88.18";
+            LanguageProgress["th"] = "94.55";
+            LanguageProgress["tr"] = "100";
+            LanguageProgress["uk"] = "94.55";
+            LanguageProgress["ur"] = "92.73";
+            LanguageProgress["vi"] = "100";
+            LanguageProgress["cy"] = "90";
             #endregion
 
             Supporters = new List<Supporter>

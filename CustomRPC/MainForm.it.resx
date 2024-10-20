@@ -468,4 +468,7 @@ Perché funzioni, entrambi i valori devono essere superiori a 0.</value>
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Nuovo Preset</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Tipo di attività per la presenza.</value>
+  </data>
 </root>

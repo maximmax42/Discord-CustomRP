@@ -227,7 +227,7 @@
     <value>191, 22</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>הרשה ניתוח</value>
+    <value>הרשה ניתוח שימוש</value>
   </data>
   <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
     <value>188, 6</value>
@@ -490,5 +490,14 @@
   </data>
   <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>שאלות נפוצות</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>הגדרה חדשה</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>סוג פעילות לסטטוס.</value>
   </data>
 </root>

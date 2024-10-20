@@ -185,4 +185,30 @@
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>הוספה או הסרה של הפעלת קיצור דרך נכשלה:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>פתיחת הקישור נכשלה. אך הקישור הועתק.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>מעדכן סטטוס...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>האם ברצונך להתחיל הכל מהתחלה?
+לא ניתן לבטל את הפעולה לאחר מכן.</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>האם ברצונך למחוק את הגדרות האפליקציה?
+לא ניתן לבטל את הפעולה לאחר מכן.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Playing</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Listening</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Watching</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Competing</value>
+  </data>
 </root>

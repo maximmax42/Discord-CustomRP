@@ -194,4 +194,20 @@ Ayarları sıfırlamak için Evet'e, çıkmak için Hayır'a basın.</value>
     <value>Sıfırdan başlamak istediğine emin misin?
 Bu geri alınamaz.</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Uygulamanın ayarlarını silmek istiyor musunuz?
+Bu geri alınamaz.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Oynuyor</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Dinliyor</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Izliyor</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Yarışmasında yarışıyor</value>
+  </data>
 </root>

@@ -197,4 +197,16 @@ Seadete lähtestamiseks vajutage Jah, väljumiseks vajutage Ei.</value>
     <value>Kas soovite rakenduse seaded kustutada?
 Seda ei saa tühistada.</value>
   </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Mängib</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Kuulab</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Vaatab</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Võistleb</value>
+  </data>
 </root>

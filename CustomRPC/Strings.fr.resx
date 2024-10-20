@@ -198,4 +198,16 @@ Cette action est irréversible.</value>
     <value>Voulez-vous supprimer les paramètres de l'application ?
 Cette action est irréversible.</value>
   </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Joue à</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Écoute</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Regarde</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>En compétition</value>
+  </data>
 </root>

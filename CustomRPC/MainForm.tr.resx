@@ -504,4 +504,7 @@ Etkili olması için, iki alan da 0'dan büyük olmadılır.</value>
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Yeni İlerleme</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Presence için aktivite tipi.</value>
+  </data>
 </root>

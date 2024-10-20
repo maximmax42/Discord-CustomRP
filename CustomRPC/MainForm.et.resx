@@ -483,4 +483,7 @@ Töötamiseks peavad mõlemad väljad olema suuremad kui 0.</value>
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Uus eelseadistus</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Kohaloleku tegevuse tüüp.</value>
+  </data>
 </root>

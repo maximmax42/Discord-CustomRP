@@ -194,4 +194,20 @@ Chọn Có để đặt lại thiết lập, chọn Không để thoát.</value>
     <value>Bạn có chắc chắn muốn làm lại từ đầu không? 
 Điều này không thể hoàn tác.</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Bạn có muốn xóa cài đặt của ứng dụng không?
+Điều này không thể hoàn tác.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Đang chơi</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Đang nghe</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Đang xem</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Đang cạnh tranh</value>
+  </data>
 </root>

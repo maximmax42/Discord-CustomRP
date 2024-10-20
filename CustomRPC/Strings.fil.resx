@@ -125,14 +125,14 @@
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
     <value>Nabigo ang pag-download o install ng update.
-Pindutin ang "Yes" para ma ulit o kaya'y "No" para ma-download manually.</value>
+Pindutin ang "Oo" para ma ulit o kaya'y "Hindi" para ma-download manually.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
     <value>Kailangan mo ba ng tulong?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Gusto mo ba buksan ang manual?
-Pwede mo buksan kahit kailan, pumunta ka lang sa Help -&gt; Buksan ang Manual o pindotin ang F1.</value>
+Pwede mo buksan kahit kailan, pumunta ka lang sa Help -&gt; Buksan ang Manual o pindutin ang F1.</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>Impormasyon</value>
@@ -163,7 +163,7 @@ Pwede mo buksan kahit kailan, pumunta ka lang sa Help -&gt; Buksan ang Manual o 
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
     <value>Ang settings file ay corrupted.
-Pindotin ang Oo para ma-reset ang settings, pindotin ang No to quit.</value>
+Pindutin ang Oo para ma-reset ang settings, pindutin ang No to quit.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
     <value>Nabigo mag import ng preset; nawawala ang file ,o corrupted, o hindi tamang formatted.</value>
@@ -193,5 +193,21 @@ Pindotin ang Oo para ma-reset ang settings, pindotin ang No to quit.</value>
   <data name="newPresetConfirmation" xml:space="preserve">
     <value>Sigurado ka bang gusto mong magsimula ulit?
 Hindi na ito maaaring bawiin.</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Gusto mo bang tanggalin ang mga setting ng application?
+Hindi na ito maaaring bawiin.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Naglalaro</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Nakikinig</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Nanunuod</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Nakikicompetisyon</value>
   </data>
 </root>

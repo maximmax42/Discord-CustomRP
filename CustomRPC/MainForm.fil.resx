@@ -281,7 +281,7 @@
     <value>I-Update ang Presensya</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Ina-update ang presence.</value>
+    <value>Ina-update ang presensya.</value>
   </data>
   <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>233, 50</value>
@@ -382,7 +382,7 @@ Upang bumisa, ang parehong field ay dapat na higit sa 0.</value>
     <value>144, 18</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>Custom na timestamp</value>
+    <value>Pasadya na timestamp</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
     <value>Pinapakita ang oras na dumaan o natitira sa date set sa ilalim.</value>
@@ -394,7 +394,7 @@ Upang bumisa, ang parehong field ay dapat na higit sa 0.</value>
     <value>Buton 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>Ang una sa dalawang pindotan ang nagpapakita sa ilalim ng status mo sa profile popup at sa kanan ng buong profile.</value>
+    <value>Ang una sa dalawang pindutan ang nagpapakita sa ilalim ng status mo sa profile popup at sa kanan ng buong profile.</value>
   </data>
   <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 14</value>
@@ -403,13 +403,13 @@ Upang bumisa, ang parehong field ay dapat na higit sa 0.</value>
     <value>Buton 2</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>Pangalawang button, na lumalabas sa ilalim ng unang button, or papaltan kung hindi nakatakda ang una.</value>
+    <value>Pangalawang button, na lumalabas sa ilalim ng unang pindutan, or papaltan kung hindi nakatakda ang una.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>URL na pupuntahan ng user pag-click ng button.</value>
+    <value>URL na pupuntahan ng user pag-pinindut ang pindutan.</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>URL na pupuntahan ng user pag-click ng button.</value>
+    <value>URL na pupuntahan ng user pag-pinindut ang pindutan.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
     <value>Label ng unang buton.</value>
@@ -446,5 +446,8 @@ Upang bumisa, ang parehong field ay dapat na higit sa 0.</value>
   </data>
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Bagong preset</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Uri ng aktibidad para sa presensya.</value>
   </data>
 </root>

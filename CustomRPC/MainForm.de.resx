@@ -471,4 +471,7 @@ Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Neue Voreinstellung</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Art der Aktivität für die Präsenz.</value>
+  </data>
 </root>
