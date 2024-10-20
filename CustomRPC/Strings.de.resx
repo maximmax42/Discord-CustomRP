@@ -204,4 +204,16 @@ Dies kann nicht rückgänig gemacht werden.</value>
     <value>Möchten Sie die Anwendungseinstellungen löschen?
 Dies kann nicht rückgängig gemacht werden.</value>
   </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Spielen</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Zuhören</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Zuschauen</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Wettstreiten</value>
+  </data>
 </root>
