@@ -1143,8 +1143,10 @@ namespace CustomRPC
             {
                 MessageBox.Show(Strings.errorInvalidPresetFile, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
+            finally
+            {
             file.Close();
+        }
         }
 
         /// <summary>
