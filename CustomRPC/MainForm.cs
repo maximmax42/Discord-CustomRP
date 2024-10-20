@@ -32,6 +32,7 @@ namespace CustomRPC
     public struct Preset
     {
         public string ID;
+        public int Type;
         public string Details;
         public string State;
         public int PartySize;
@@ -1085,6 +1086,7 @@ namespace CustomRPC
                 comboBoxSmallKey.Text = textBoxSmallText.Text =
                 textBoxButton1Text.Text = textBoxButton1URL.Text =
                 textBoxButton2Text.Text = textBoxButton2URL.Text = "";
+            comboBoxType.SelectedValue = ActivityType.Playing;
             numericUpDownPartySize.Value = numericUpDownPartyMax.Value = 0;
             radioButtonNone.Checked = true;
         }
@@ -1104,6 +1106,7 @@ namespace CustomRPC
                 bool isNewID = settings.id != preset.ID;
 
                 settings.id = preset.ID;
+                settings.type = preset.Type;
                 settings.details = preset.Details;
                 settings.state = preset.State;
                 settings.partySize = preset.PartySize;
@@ -1119,6 +1122,8 @@ namespace CustomRPC
                 settings.button2Text = preset.Button2Text;
                 settings.button2URL = preset.Button2URL;
                 Utils.SaveSettings();
+
+                comboBoxType.SelectedValue = (ActivityType)settings.type;
 
                 switch ((TimestampType)settings.timestamps)
                 {
@@ -1145,8 +1150,8 @@ namespace CustomRPC
             }
             finally
             {
-            file.Close();
-        }
+                file.Close();
+            }
         }
 
         /// <summary>
@@ -1211,6 +1216,7 @@ namespace CustomRPC
                         xs.Serialize(file, new Preset()
                         {
                             ID = settings.id,
+                            Type = settings.type,
                             Details = settings.details,
                             State = settings.state,
                             PartySize = (int)settings.partySize,
@@ -1434,7 +1440,7 @@ namespace CustomRPC
         /// </summary>
         private void PresenceTypeChanged(object sender, EventArgs e)
         {
-            if (comboBoxType.Items.Count == 0)
+            if (comboBoxType.Items.Count == 0 || comboBoxType.SelectedItem == null)
                 return;
 
             ActivityType type = (ActivityType)comboBoxType.SelectedValue;
