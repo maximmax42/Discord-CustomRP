@@ -194,4 +194,20 @@ Pressione Sim para redefinir as configurações, pressione Não para sair.</valu
     <value>Você tem certeza de que quer começar do zero?
 Isso não pode ser desfeito.</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Deseja apagar as configurações do aplicativo?
+Isso não pode ser desfeito.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Jogando</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Escutando</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Assistindo</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Competindo</value>
+  </data>
 </root>

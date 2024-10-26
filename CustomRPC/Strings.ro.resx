@@ -192,6 +192,22 @@ Apăsați Da pentru a reseta setările, apăsați Nu pentru a ieși.</value>
   </data>
   <data name="newPresetConfirmation" xml:space="preserve">
     <value>Sigur vrei să începi de la zero?
-Acest lucru nu poate fi anulat.</value>
+Această acțiune nu poate fi revertată.</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Dorești să ștergi setările aplicației?
+Această acțiune nu poate fi revertată.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Jucând</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Ascultând</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Vizionând</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Concurând</value>
   </data>
 </root>

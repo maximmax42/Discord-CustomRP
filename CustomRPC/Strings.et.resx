@@ -128,7 +128,7 @@
 Uuesti proovimiseks vajutage "Jah" või käsitsi allalaadimiseks "Ei".</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Esmakordne Käivitamine</value>
+    <value>Vajad abi?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Kas soovite juhendi avada?
@@ -191,7 +191,8 @@ Seadete lähtestamiseks vajutage Jah, väljumiseks vajutage Ei.</value>
     <value>Kohaloleku värskendamine...</value>
   </data>
   <data name="newPresetConfirmation" xml:space="preserve">
-    <value>Kas olete kindel, et soovite alustada nullist?</value>
+    <value>Kas olete kindel, et soovite alustada nullist?
+Seda ei saa tagasi võtta.</value>
   </data>
   <data name="deleteSettings" xml:space="preserve">
     <value>Kas soovite rakenduse seaded kustutada?

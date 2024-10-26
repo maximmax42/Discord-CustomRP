@@ -698,6 +698,7 @@ namespace CustomRPC
                         new Person { Name = "Vinicio Henrique (viniciotricolor)" },
                         new Person { Name = "Slimakoi" },
                         new Person { Name = "Felipe B. Pansani" },
+                        new Person { Name = "Ninja Music" },
                         new Person { Name = "DeusDrizzyy" },
                         new Person { Name = "Leo" },
                         NicolaOcchipinti,
@@ -712,6 +713,7 @@ namespace CustomRPC
                         new Person { Name = "JPN", Url = "https://isaidpower.dev/" },
                         new Person { Name = "DiDYRO", Url = "https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w" },
                         new Person { Name = "ShadowTiger_9" },
+                        new Person { Name = "Electro" },
                         new Person { Name = "inter", Url = "https://github.com/Electro7777" },
                         new Person { Name = "Denisbolba" },
                         new Person { Name = "KTSGod", Url = "https://ktsgod.carrd.co/" }, // Developer316
@@ -912,9 +914,9 @@ namespace CustomRPC
             LanguageProgress["fa"] = "94.55";
             LanguageProgress["pl"] = "94.55";
             LanguageProgress["pt"] = "94.55";
-            LanguageProgress["pt-br"] = "94.55";
+            LanguageProgress["pt-br"] = "100";
             LanguageProgress["qu"] = "0";
-            LanguageProgress["ro"] = "94.55";
+            LanguageProgress["ro"] = "100";
             LanguageProgress["ru"] = "100";
             LanguageProgress["sr"] = "90";
             LanguageProgress["sk"] = "94.55";

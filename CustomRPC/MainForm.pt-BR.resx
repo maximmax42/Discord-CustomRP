@@ -444,4 +444,7 @@ Para ter efeito, ambos os campos devem ser maiores que 0.</value>
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Nova Predefinição</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Tipo de atividade para a presença.</value>
+  </data>
 </root>
