@@ -1445,8 +1445,11 @@ namespace CustomRPC
 
             ActivityType type = (ActivityType)comboBoxType.SelectedValue;
 
-            settings.type = (int)type;
-            Utils.SaveSettings();
+            if (!loading)
+            {
+                settings.type = (int)type;
+                Utils.SaveSettings();
+            }
 
             bool canHaveParty = true, canHaveTimestamps = true;
 
