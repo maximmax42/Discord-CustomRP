@@ -194,4 +194,20 @@
     <value>本当に最初からやり直しますか？
 この操作を取り消すことはできません。</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>アプリケーションの設定を削除しますか？
+この操作を取り消すことはできません。</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>プレイ中</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>再生中</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>視聴中</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>参戦中</value>
+  </data>
 </root>

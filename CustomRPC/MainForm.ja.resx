@@ -501,4 +501,7 @@
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>新しいプリセット</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>プレゼンスに関するアクティビティーの種類。</value>
+  </data>
 </root>
