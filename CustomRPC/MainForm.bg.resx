@@ -200,7 +200,7 @@
     <value>312, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Отвори на старт</value>
+    <value>Стартирай приложението с Windows</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>312, 22</value>
@@ -469,9 +469,12 @@
     <value>Прекъсни връзката</value>
   </data>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
-    <value>Постоянно Зададени Въпроси</value>
+    <value>Често задавани въпроси</value>
   </data>
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Нова конфигурация</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Тип на активност за статус.</value>
   </data>
 </root>

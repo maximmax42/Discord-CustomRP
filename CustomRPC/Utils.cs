@@ -250,7 +250,7 @@ namespace CustomRPC
                     EnglishName = "Bulgarian",
                     Code = "bg",
                     Translators = new Person[] {
-                        new Person { Name = "Nikolay Shangov (aka 21)", Url = "https://discord.gg/hqvMaxBAew" },
+                        new Person { Name = "Nikolay Shangov (aka 21)", Url = "https://www.nikolayshangov.com/" },
                         new Person { Name = "TheLocalSlavic" },
                         new Person { Name = "EmeraldCeat", Url = "https://discord.gg/reformedcityrp" },
                     }
@@ -874,7 +874,7 @@ namespace CustomRPC
             LanguageProgress["be"] = "94.55";
             LanguageProgress["bn"] = "90";
             LanguageProgress["bs"] = "90";
-            LanguageProgress["bg"] = "94.55";
+            LanguageProgress["bg"] = "100";
             LanguageProgress["my"] = "90.91";
             LanguageProgress["ca"] = "90";
             LanguageProgress["zh-hans"] = "94.55";

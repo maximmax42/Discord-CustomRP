@@ -176,7 +176,7 @@
     <value>Възникна грешка при запазване на настройките:</value>
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>Моля, добавете "{0}" path към изключенията на вашата антивирусна програма. Инсталирайте CustomRP отново, ако този проблем продължава.</value>
+    <value>Моля, добавете "{0}" path към изключенията на вашата антивирусна програма. Инсталирайте CustomRP отново, ако този проблем още съществува.</value>
   </data>
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>Връзката към изображението е твърде дълга!</value>
@@ -185,13 +185,29 @@
     <value>Неуспешно добавяне или премахване на пряк път:</value>
   </data>
   <data name="errorOpeningURL" xml:space="preserve">
-    <value>Проблем при копирането на връзка. Копирана в буферната памет.</value>
+    <value>Проблем при отварянето на връзка. Копирана в буферната памет.</value>
   </data>
   <data name="statusUpdatingPresence" xml:space="preserve">
-    <value>Актуализация на присъствие...</value>
+    <value>Актуализация на статус...</value>
   </data>
   <data name="newPresetConfirmation" xml:space="preserve">
     <value>Сигурни ли сте, че искате да започнете от начало?
-Това не може да отмени.</value>
+Това не може да бъде отменено.</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Наистина ли искате да изтриете настройките на приложението?
+Това не може да бъде отменено.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Играе</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Слуша</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Гледа</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Състезава се в</value>
   </data>
 </root>
