@@ -459,4 +459,7 @@ Para que surta efecto, ambos campos deben ser mayores que 0.</value>
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Nuevo Preajuste</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Tipo de actividad para la presencia.</value>
+  </data>
 </root>

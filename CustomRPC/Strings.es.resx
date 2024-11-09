@@ -194,4 +194,20 @@ Presiona "Sí" para restablecer la configuración, presiona "No" para salir.</va
     <value>¿Estás seguro de que quieres empezar desde cero? 
 Esto es irreversible.</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>¿Quieres eliminar la configuración de la aplicación?
+Esto no se puede deshacer.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Jugando</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Escuchando</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Viendo</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Compitiendo</value>
+  </data>
 </root>

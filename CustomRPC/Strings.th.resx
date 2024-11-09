@@ -194,4 +194,16 @@
     <value>คุณแน่ใจหรือไม่ว่าต้องการเริ่มต้นจากศูนย์?
 สิ่งนี้ไม่สามารถแก้ไขได้.</value>
   </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>กำลังเล่น</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>กำลังฟัง</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>กำลังดู</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>กำลังแข่ง</value>
+  </data>
 </root>
