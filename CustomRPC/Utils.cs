@@ -207,6 +207,7 @@ namespace CustomRPC
         static Person Murat_Efendi = new Person { Name = "Murat_Efendi" };
         static Person Mykm = new Person { Name = "Mykm", Url = "https://github.com/yumiruuwu" };
         static Person NicolaOcchipinti = new Person { Name = "Nicola Occhipinti" };
+        static Person OHMKUB = new Person { Name = "OHMKUB" };
         static Person TofixRs = new Person { Name = "Tofix.rs" };
         static Person VerdantWanderer = new Person { Name = "VerdantWanderer", Url = "https://www.twitch.tv/verdant_wanderer" };
         static Person Yoshi = new Person { Name = "Yoshi" };
@@ -497,8 +498,9 @@ namespace CustomRPC
                     Code = "id",
                     Translators = new Person[] {
                         new Person { Name = "Hapnan" },
-                        new Person { Name = "Apolycious" },
                         new Person { Name = "Bayu Sopwan", Url = "https://bayusopwan.github.io/" },
+                        new Person { Name = "Apolycious" },
+                        OHMKUB,
                         new Person { Name = "xChellz" },
                     }
                 },
@@ -787,12 +789,12 @@ namespace CustomRPC
                     Code = "th",
                     Translators = new Person[] {
                         new Person { Name = "Squishee Freshy" },
+                        OHMKUB,
                         new Person { Name = "YuuabyssSSID" },
                         crohmthz,
+                        new Person { Name = "Game" },
                         new Person { Name = "SabbKor" },
-                        new Person { Name = "OHMKUB" },
                         new Person { Name = "toonnongaeoy" },
-                        new Person { Name = "Game" }, //0 translations currently
                     }
                 },
                 new Language {
@@ -897,7 +899,7 @@ namespace CustomRPC
             LanguageProgress["hi"] = "94.55";
             LanguageProgress["hu"] = "90";
             LanguageProgress["is"] = "90";
-            LanguageProgress["id"] = "94.55";
+            LanguageProgress["id"] = "100";
             LanguageProgress["it"] = "100";
             LanguageProgress["ja"] = "100";
             LanguageProgress["kn"] = "94.55";
@@ -916,7 +918,6 @@ namespace CustomRPC
             LanguageProgress["pl"] = "94.55";
             LanguageProgress["pt"] = "94.55";
             LanguageProgress["pt-br"] = "100";
-            LanguageProgress["qu"] = "0";
             LanguageProgress["ro"] = "100";
             LanguageProgress["ru"] = "100";
             LanguageProgress["sr"] = "90";
@@ -925,7 +926,7 @@ namespace CustomRPC
             LanguageProgress["es"] = "100";
             LanguageProgress["sv"] = "90.91";
             LanguageProgress["ta"] = "88.18";
-            LanguageProgress["th"] = "98.18";
+            LanguageProgress["th"] = "100";
             LanguageProgress["tr"] = "100";
             LanguageProgress["uk"] = "94.55";
             LanguageProgress["ur"] = "92.73";

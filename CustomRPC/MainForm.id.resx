@@ -510,4 +510,7 @@ agar bekerja, kedua bidang harus lebih dari 0.</value>
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Preset Baru</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Jenis kegiatan untuk kehadiran.</value>
+  </data>
 </root>

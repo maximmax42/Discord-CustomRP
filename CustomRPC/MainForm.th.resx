@@ -444,4 +444,7 @@
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>พรีเซ็ตใหม่</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>ประเภทของกิจกรรมเพื่อการปรากฏตัว</value>
+  </data>
 </root>

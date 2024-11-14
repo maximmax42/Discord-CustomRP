@@ -204,6 +204,10 @@
     <value>กำลังดู</value>
   </data>
   <data name="presenceTypeCompeting" xml:space="preserve">
-    <value>กำลังแข่ง</value>
+    <value>กำลังแข่งขัน</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>คุณต้องการลบการตั้งค่าแอปพลิเคชันหรือไม่?
+ไม่สามารถย้อนกลับได้.</value>
   </data>
 </root>
