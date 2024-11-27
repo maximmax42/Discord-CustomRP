@@ -124,7 +124,7 @@ So far, the app supports these languages:
 * [Serbian](https://poeditor.com/projects/po_edit?id_language=141&per_page=100&id=409229) (thanks to Vihaan, ToShibaToShamara, falcon and Veljko)
 * [Slovak](https://poeditor.com/projects/po_edit?id_language=147&per_page=100&id=409229) (thanks to [richi](https://e-z.bio/shelovesrichi), Maros Mihalek and eRko)
 * [Slovenian](https://poeditor.com/projects/po_edit?id_language=148&per_page=100&id=409229) (thanks to BMKoscak and [like button](https://www.youtube.com/channel/UCVt43CrPLKNjaPs1r5Pcdnw))
-* [Spanish](https://poeditor.com/projects/po_edit?id_language=152&per_page=100&id=409229) (thanks to Korsinemi, Vexot, samykat1, Pablo, Luciousmc, SirAmong, Nicola Occhipinti, [Darling-Chan](https://meap.gg/), UncleGeek, Alvaro203204, [JugandoMiguel](https://fiverr.com/jugandomiguel) and Epic)
+* [Spanish](https://poeditor.com/projects/po_edit?id_language=152&per_page=100&id=409229) (thanks to Korsinemi, Vexot, samykat1, Santiago, Pablo, Luciousmc, SirAmong, Nicola Occhipinti, [Darling-Chan](https://meap.gg/), UncleGeek, Alvaro203204, [JugandoMiguel](https://fiverr.com/jugandomiguel) and Epic)
 * [Swedish](https://poeditor.com/projects/po_edit?id_language=156&per_page=100&id=409229) (thanks to [leadattic_](https://leadattic.leadattic953788.repl.co/), Rose Liljensten, James and Marcus)
 * [Tamil](https://poeditor.com/projects/po_edit?id_language=160&per_page=100&id=409229) (thanks to [Julian](https://julian-idl.codes/))
 * [Thai](https://poeditor.com/projects/po_edit?id_language=163&per_page=100&id=409229) (thanks to Squishee Freshy, OHMKUB, YuuabyssSSID, cr.ohmthz, Game, SabbKor and toonnongaeoy)

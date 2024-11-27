@@ -367,6 +367,7 @@ namespace CustomRPC
                         new Person { Name = "Korsinemi" }, // +1
                         new Person { Name = "Vexot" }, // +4
                         new Person { Name = "samykat1" },
+                        new Person { Name = "Santiago" },
                         new Person { Name = "Pablo" },
                         new Person { Name = "Luciousmc" },
                         new Person { Name = "SirAmong" },
