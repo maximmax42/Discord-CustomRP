@@ -190,4 +190,24 @@
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>활동 상태 업데이트 중...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>처음부터 다시 설정하시겠습니까?
+이 작업은 되돌릴 수 없습니다.</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>정말 애플리케이션의 설정을 삭제하시겠습니까?
+이 작업은 되돌릴 수 없습니다.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>하는 중</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>듣는 중</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>시청 중</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>경쟁 중</value>
+  </data>
 </root>

@@ -317,4 +317,10 @@
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>자주 묻는 질문</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>새로운 프리셋</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>활동 상태를 위한 활동의 종류입니다.</value>
+  </data>
 </root>
