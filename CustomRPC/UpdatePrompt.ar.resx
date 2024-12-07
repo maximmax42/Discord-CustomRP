@@ -128,13 +128,13 @@
     <value>148, 14</value>
   </data>
   <data name="labelQuestion.Text" xml:space="preserve">
-    <value>هل تود تحميل هذا التحديث؟</value>
+    <value>هل تود تنزيل هذا التحديث؟</value>
   </data>
   <data name="checkBoxNeverNotify.Size" type="System.Drawing.Size, System.Drawing">
     <value>156, 18</value>
   </data>
   <data name="checkBoxNeverNotify.Text" xml:space="preserve">
-    <value>لا تتحقق عن التحديثات مرة أخرى</value>
+    <value>لا تتحقق من التحديثات مرة أخرى</value>
   </data>
   <data name="labelVersionsText.Text" xml:space="preserve">
     <value>الإصدار الحالي:

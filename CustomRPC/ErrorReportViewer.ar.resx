@@ -126,12 +126,12 @@
     <value>True</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>التقرير عن خطأ</value>
+    <value>الإبلاغ عن خطأ</value>
   </data>
   <data name="buttonOK.Text" xml:space="preserve">
     <value>موافق</value>
   </data>
   <data name="labelInfo.Text" xml:space="preserve">
-    <value>تعطل CustomRP في الجلسة السابقة بسبب الاستثناء التالي الذي لم تتم معالجته:</value>
+    <value>تعطَل CustomRP في الجلسة السابقة بسبب الاستثناء التالي الذي لم يُعالَج:</value>
   </data>
 </root>

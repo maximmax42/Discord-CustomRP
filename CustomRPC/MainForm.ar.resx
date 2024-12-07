@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>انقر ضغطتين فوق الرمز لإظهاره مرة أخرى، أو انقر بزر الفأرة الأيمن للإنهاء.</value>
+    <value>انقر مرتين على رمز التطبيق لإظهاره مرةً أخرى، أو انقر بزرّ الفأرة الأيمن لإغلاقه.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>سيتم تشغيل التّطبيق في الخلفية.</value>
+    <value>سيعمل التّطبيق في الخلفية.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -149,7 +149,7 @@
     <value>139, 22</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
-    <value>خروج</value>
+    <value>إغلاق</value>
   </data>
   <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 104</value>
@@ -206,7 +206,7 @@
     <value>195, 22</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>إتصال تلقائي</value>
+    <value>اتصال تلقائي</value>
   </data>
   <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
     <value>192, 6</value>
@@ -239,7 +239,7 @@
     <value>120, 22</value>
   </data>
   <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
-    <value>الإفتراضي</value>
+    <value>الافتراضي</value>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 6</value>
@@ -311,7 +311,7 @@
     <value>107, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>قم بتنزيل التحديث</value>
+    <value>نزل التحديث</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
     <value>تحديث الحالة</value>
@@ -323,7 +323,7 @@
     <value>اتصال</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>ربط التطبيق بمعرف محدد مع الحالة.</value>
+    <value>ربط التطبيق بمعرف محدّد مع الحالة.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
     <value>قطع الاتصال</value>
@@ -380,7 +380,7 @@
     <value>لا شيء</value>
   </data>
   <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>لم يتم تمكين الطابع الزمني.</value>
+    <value>لم يُفعّل الطابع الزمني.</value>
   </data>
   <data name="radioButtonStartTime.Location" type="System.Drawing.Point, System.Drawing">
     <value>217, 28</value>
@@ -407,8 +407,8 @@
     <value>يظهر الوقت الحالي بتنسيق 24 ساعة.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>يقوم بإعداد الطابع الزمني للحالة، والذي يظهر تحت كل النص أعلاه.
-مؤقتات الحالة لها حد 24 ساعة، مما يعني أنه بعد 24 ساعة سيعود الوقت إلى 0:00.</value>
+    <value>يقوم بإعداد الطابع الزمني للحالة، والذي يظهر تحت كلّ النص أعلاه.
+حد مؤقتات الحالة 24 ساعة، ممّا يعني أنّه بعد 24 ساعة سيعُود الوقت إلى 0:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
     <value>عدد اللاعبين في الردهة الحالية الذي يظهر بجانب حقل الولاية.
@@ -445,10 +445,10 @@
     <value>الزر الثاني، الذي يظهر مباشرة أسفل الزر الأول، أو بدلًا مِنه، إذا لم يتم تعيين الزر الأول.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>الرابط الذي سيأخذ الزر المستخدم إليه عند النقر عليه.</value>
+    <value>الرابط الذي سيحول المستخدم إليه عند النقر على الزر.</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>الرابط الذي سيأخذ الزر المستخدم إليه عند النقر عليه.</value>
+    <value>الرابط الذي سيحول المستخدم إليه عند النقر على الزر.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
     <value>كِتابة الزر الاول.</value>
@@ -487,5 +487,8 @@
   </data>
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>إعداد مسبق جديد</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>نوع نشاط الحالة.</value>
   </data>
 </root>

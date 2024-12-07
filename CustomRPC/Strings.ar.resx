@@ -125,10 +125,10 @@
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
     <value>حدث خطأ أثناء تنزيل التحديث أو تثبيته.
-اضغط على "نعم" لإعادة المحاولة أو "لا" للتنزيل يدويًا.</value>
+اضغط على "نعم" لإعادة المحاولة أو «لا» للتنزيل يدويًا.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>بحاجة للمساعدة؟</value>
+    <value>بحاجة مساعدة؟</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>هل تود فتح دليل المستخدم؟
@@ -138,7 +138,7 @@
     <value>معلومات</value>
   </data>
   <data name="statusConnected" xml:space="preserve">
-    <value>مُتصل</value>
+    <value>متصل</value>
   </data>
   <data name="statusConnecting" xml:space="preserve">
     <value>يتصل...</value>
@@ -147,13 +147,13 @@
     <value>فشل الاتصال (هل الـDiscord يعمل؟)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
-    <value>انقطع الإتصال</value>
+    <value>انقطع الاتصال</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>خطا فاِلإتصال (رقم معرف خاطئ؟)</value>
+    <value>خطا في الاتصال (رقم معرّف خاطئ؟)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>رابط خاطئ للأزرار او الكتابة طويلة جدًا!</value>
+    <value>رابطٌ خاطئ للأزرار أو أنّ الكتابة طويلة جدًا!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
     <value>لا يُمكن الاتصال بالإنترنت!</value>
@@ -163,20 +163,20 @@
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
     <value>ملف الإعدادات تالِف.
-اضغط على "نعم" لإعادة ضبط الإعدادات، اضغط على "لا" للإنهاء.</value>
+اضغط على «نعم» لإعادة ضبط الإعدادات، اضغط على «لا» للإنهاء.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
     <value>فشل استيراد الإعداد المسبق؛ الملف إما مفقود أو تالف أو غير منسق بشكلٍ صحيح.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
     <value>هل تسمح لـCustomRP بإرسال تحليلات الاستخدام الخاصة بك إلى المطور؟
-(جميع البيانات غير شخصية.)</value>
+(كافة البيانات غير شخصية.)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
     <value>حدث خطأ أثناء حفظ الإعدادات:</value>
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>الرجاء إضافة مسار "{0}" إلى برنامج مكافحة الفيروسات. أعد تثبيت CustomRP إذا استمر هذا الخطأ.</value>
+    <value>الرجاء إضافة مسار "{0}" إلى برنامج مكافحة الفيروسات. أعد تثبيت CustomRP إذا استمرت المشكلة.</value>
   </data>
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>رابط الصورة طويل للغاية!</value>
@@ -185,13 +185,29 @@
     <value>فشل إضافة أو إزالة اختصار بدء التشغيل:</value>
   </data>
   <data name="errorOpeningURL" xml:space="preserve">
-    <value>فشل فتح الرابط. تم نسخه إلى الحافظة.</value>
+    <value>فشل فتح الرابط. نُسخ إلى الحافظة.</value>
   </data>
   <data name="statusUpdatingPresence" xml:space="preserve">
-    <value>جاري تحديث الحالة...</value>
+    <value>جارٍ تحديث الحالة...</value>
   </data>
   <data name="newPresetConfirmation" xml:space="preserve">
-    <value>هل متأكدٌ انك تريد البدء من لا شئ؟
-لا يمكن إستعادة هذا.</value>
+    <value>هل أنت متأكدٌ أنك تريد البدء من لا شيء؟
+لا يمكن استعادة هذا.</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>هل تريد حذف إعدادات التطبيق؟
+لا يمكن التراجع عن هذا.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>يلعب</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>يستمع</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>يشاهد</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>ينافس</value>
   </data>
 </root>
