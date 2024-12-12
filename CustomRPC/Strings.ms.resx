@@ -194,4 +194,20 @@ Tekan Ya untuk menetapkan semula tetapan, tekan Tidak untuk keluar.</value>
     <value>Adakah anda pasti mahu bermula dari awal?
 Ini tidak boleh dibuat asal.</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Adakah anda mahu memadam tetapan aplikasi ini?
+Ini tidak boleh dibuat asal.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Bermain</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Mendengar</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Menonton</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Bertanding</value>
+  </data>
 </root>

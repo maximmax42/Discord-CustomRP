@@ -317,7 +317,7 @@
     <value>Kemas Kini Status</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>Kemas kini status</value>
+    <value>Kemas kini status.</value>
   </data>
   <data name="buttonConnect.Text" xml:space="preserve">
     <value>Sambung</value>
@@ -383,7 +383,7 @@
     <value>Sejak CustomRP dimulakan</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>Menunjukkan masa sejak aplikasi ini dimulakan</value>
+    <value>Menunjukkan masa sejak aplikasi ini dimulakan.</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>138, 18</value>
@@ -392,7 +392,7 @@
     <value>Masa tempatan anda</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>Menunjukkan masa tempatan anda dalam format 24 jam</value>
+    <value>Menunjukkan masa tempatan anda dalam format 24 jam.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>Menetapkan cap masa untuk status, yang dipaparkan di bawah semua teks di atas.
@@ -458,5 +458,8 @@ Untuk berkuat kuasa, kedua-dua nilai dalam kotak perlulah lebih daripada 0.</val
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>dari</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Jenis aktiviti untuk status.</value>
   </data>
 </root>
