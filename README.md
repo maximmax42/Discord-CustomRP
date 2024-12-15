@@ -11,6 +11,7 @@
 
 # <img src=https://www.customrp.xyz/assets/logo.png style="height:1em;"/> Custom Discord Rich Presence Manager
 ![App Screenshot](https://www.customrp.xyz/assets/screenshot.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmaximmax42%2FDiscord-CustomRP.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmaximmax42%2FDiscord-CustomRP?ref=badge_shield)
 
 Custom Discord Rich Presence Manager for Windows 7+. Some of its features are run on startup and tray minimization. Uses [Lachee's DiscordRPC for C#](https://github.com/Lachee/discord-rpc-csharp).
 
@@ -138,3 +139,7 @@ If you want to help translate the app to your language, please go to the [POEdit
 
 # Privacy Policy
 Privacy policy is listed [here](https://github.com/maximmax42/Discord-CustomRP/blob/master/PRIVACY.md).
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmaximmax42%2FDiscord-CustomRP.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmaximmax42%2FDiscord-CustomRP?ref=badge_large)
