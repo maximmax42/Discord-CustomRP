@@ -124,6 +124,6 @@
     <value>CustomRP გაითიშა წინა სესიაში არასწორად მოქცევის გამო:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>შეცდომა</value>
+    <value>შეცდომის დადგენა</value>
   </data>
 </root>

@@ -207,6 +207,7 @@ namespace CustomRPC
         static Person Murat_Efendi = new Person { Name = "Murat_Efendi" };
         static Person Mykm = new Person { Name = "Mykm", Url = "https://github.com/yumiruuwu" };
         static Person NicolaOcchipinti = new Person { Name = "Nicola Occhipinti" };
+        static Person NoahPombas = new Person { Name = "Noah Pombas", Url = "https://noahpombas.ch" };
         static Person OHMKUB = new Person { Name = "OHMKUB" };
         static Person TofixRs = new Person { Name = "Tofix.rs" };
         static Person VerdantWanderer = new Person { Name = "VerdantWanderer", Url = "https://www.twitch.tv/verdant_wanderer" };
@@ -343,6 +344,7 @@ namespace CustomRPC
                     Translators = new Person[] {
                         new Person { Name = "Foolian", Url = "https://foolian.com/" },
                         dragonGRaf,
+                        NoahPombas,
                     }
                 },
                 new Language {
@@ -398,6 +400,7 @@ namespace CustomRPC
                         new Person { Name = "AliGhanbarzadeh" },
                         new Person { Name = "Nima", Url = "https://github.com/nima-globals/" },
                         new Person { Name = "Sunnystew" },
+                        new Person { Name = "Nythsha" },
                     }
                 },
                 new Language {
@@ -526,6 +529,7 @@ namespace CustomRPC
                         new Person { Name = "Bay" },
                         Matthww,
                         new Person { Name = "ItsMrCube", Url = "https://mrcube.dev/" },
+                        // NoahPombas, 2 translations but none are new
                         new Person { Name = "Patrick Canal" },
                     }
                 },
@@ -543,6 +547,7 @@ namespace CustomRPC
                     Code = "ka",
                     Translators = new Person[] {
                         new Person { Name = "Turashviliguro", Url = "https://turashviliguro.github.io/daddyexe/" },
+                        new Person { Name = "blessed" },
                     }
                 },
                 new Language {
@@ -691,6 +696,7 @@ namespace CustomRPC
                     Translators = new Person[] {
                         new Person { Name = "Verygafanhot" },
                         new Person { Name = "Alexandre Calvario" },
+                        NoahPombas,
                     }
                 },
                 new Language {
@@ -892,9 +898,9 @@ namespace CustomRPC
             LanguageProgress["fi"] = "94.55";
             LanguageProgress["fr"] = "100";
             LanguageProgress["gl"] = "90";
-            LanguageProgress["ka"] = "90";
+            LanguageProgress["ka"] = "100";
             LanguageProgress["de"] = "100";
-            LanguageProgress["de-ch"] = "94.55";
+            LanguageProgress["de-ch"] = "100";
             LanguageProgress["el"] = "92.73";
             LanguageProgress["he"] = "100";
             LanguageProgress["hi"] = "94.55";
@@ -915,9 +921,9 @@ namespace CustomRPC
             LanguageProgress["mn"] = "91.82";
             LanguageProgress["no"] = "90.91";
             LanguageProgress["pa"] = "94.55";
-            LanguageProgress["fa"] = "94.55";
+            LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "94.55";
-            LanguageProgress["pt"] = "94.55";
+            LanguageProgress["pt"] = "100";
             LanguageProgress["pt-br"] = "100";
             LanguageProgress["ro"] = "100";
             LanguageProgress["ru"] = "100";

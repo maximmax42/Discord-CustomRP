@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="error" xml:space="preserve">
-    <value>Öpis isch schief glofe</value>
+    <value>Fehler</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
     <value>Kei ID feschtgleit!</value>
@@ -162,11 +162,11 @@ Du chasch es jederziit öffne mit Hilfe -&gt; Handbuäch öffne oder drück F1.<
     <value>Kei updates gfunde!</value>
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
-    <value>Istellig datei isch corupt.
+    <value>Istellig datei isch korrupt.
 Drück ja zum istellige zrugsetze, drück nei zum beände.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Vorlag importiere fälgschlage; datei isch corupt, nöd corräckt formatiert oder nöd exsistent.</value>
+    <value>Vorlag importiere fälgschlage; datei isch korrupt, nöd korrekt formatiert oder nöd exsistent.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
     <value>Lasch du CustomRP dini benutzer analyse zum dev sendä?
@@ -193,5 +193,21 @@ Drück ja zum istellige zrugsetze, drück nei zum beände.</value>
   <data name="newPresetConfirmation" xml:space="preserve">
     <value>Bisch sicher das alles neu mache wilsch?
 das cha ned rückgängig gmacht werde.</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Wötsch d App-Einstellungen lösche?
+Das cha nümme rüchgängig gmacht werde.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Spile</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Lose</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Luege</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Wettkämpfe</value>
   </data>
 </root>

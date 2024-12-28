@@ -195,4 +195,20 @@
     <value>آیا مطمئن اید که میخواید از صفر شروع کنید؟
 این غیرقابل بازگشت است.</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>آیا میخواهید تنظیمات برنامه را ریست کنید؟
+این همه چیز را پاک خواهد کرد.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>بازی</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>گوش دادن</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>تماشا</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>رقابت</value>
+  </data>
 </root>

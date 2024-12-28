@@ -128,7 +128,7 @@
 დააჭირე "დიახ"რომ სცადო თავიდან ან"არა"რომ გადმოწერო მანუალურად.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>პირველი გაშვება</value>
+    <value>გჭირდება დახმარება?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>გსურთ გახსნათ თქვენით?
@@ -144,7 +144,7 @@
     <value>უკავშირდება...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>დაკავშირება არ მოხდა(Discord ჩართულია?)</value>
+    <value>დაკავშირება ვერ მოხდა(Discord ჩართულია?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>კავშირი გაწყდა</value>
@@ -166,10 +166,10 @@
 დააჭირეთ "დიახ" რომ გადატვირთოთ პარამეტრები,დააჭირეთ "არა" რომ გათიშოთ.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>პარამეტრების შემოტანა ვერ მოხერხდა, ფაილი აკლია, ან დამახინჯებულია.</value>
+    <value>პარამეტრების ატვირთვა ვერ მოხერხდა, ფაილი აკლია, დამახინჯებულია ან არარის სწორად დაფორმატებული</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>ნებას რთავ CustomRP-ს რომ შენი გამოყენების ანალიტიკა დეველოპერებს გაუგზავნოს?
+    <value>ნებას რთავ CustomRP-ს რომ გამოიყენოს შენი ანალიტიკა და დეველოპერებს გაუგზავნოს?
 (ყველა ინფორმაცია შენახულია დაცულად.)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
@@ -182,6 +182,30 @@
     <value>სურათის ლინკი დიდია!</value>
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
-    <value>მალსახმობის დამატება ან წაშლა ვერ შევძელი:</value>
+    <value>მალსახმობის დამატება ან წაშლა ვერ მოხერხდა:</value>
+  </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>ლინკის გახსნა ვერ მოხერხდა, ის დაკოპირდა</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>არსებობის განახლება...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>დარწმუნებული ხართ რომ გინდათ თავიდან დაიწყოთ? ეს ვერ გაუქმდება</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>გინდათ რომ წაშალოთ აპლიკაციის პარამეტრები? ეს ვერ გაუქმდება</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>თამაშობს</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>უსმენს</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>უყურებს</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>შეჯიბრში მონაწილეობს</value>
   </data>
 </root>

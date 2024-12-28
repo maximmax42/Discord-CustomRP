@@ -218,13 +218,13 @@
     <value>191, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Nach updäts suche</value>
+    <value>Nach updates sueche</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 22</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Analytike erlaube</value>
+    <value>Analytik erlaube</value>
   </data>
   <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
     <value>188, 6</value>
@@ -353,7 +353,7 @@
     <value>Name vom wärt fürs grossä bild odär en bild link.</value>
   </data>
   <data name="labelSmall.Text" xml:space="preserve">
-    <value>Chilnes bild</value>
+    <value>Chlins Bild</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
     <value>Bild das une rechts vom grosse bild chunt.</value>
@@ -365,7 +365,7 @@
     <value>Grosses bild</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>Bild das zeigt wird links neben text obä.</value>
+    <value>Bild das zeigt wird links neben text obe.</value>
   </data>
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>45, 18</value>
@@ -457,12 +457,15 @@ damit es funktioniert münd bi beidne fälder meh als 0 si.</value>
     <value>Chnopf 1</value>
   </data>
   <data name="labelButton2.Text" xml:space="preserve">
-    <value>Knopf 2</value>
+    <value>Chnopf 1</value>
   </data>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>Widerholti frage</value>
   </data>
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Neus Preset</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Art vo Aktivität für d Präsenz.</value>
   </data>
 </root>

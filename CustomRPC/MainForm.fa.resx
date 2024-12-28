@@ -467,4 +467,7 @@
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>تنظیمات جدید</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>نوع فعالیت در حال انجام.</value>
+  </data>
 </root>

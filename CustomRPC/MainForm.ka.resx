@@ -152,7 +152,7 @@
     <value>212, 22</value>
   </data>
   <data name="trayMenuQuit.Text" xml:space="preserve">
-    <value>გათიშვა</value>
+    <value>გამოსვლა</value>
   </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 20</value>
@@ -164,7 +164,7 @@
     <value>259, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>ჩატვირთე პარამეტრები</value>
+    <value>გახსენი პარამეტრები</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>259, 22</value>
@@ -179,7 +179,7 @@
     <value>259, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>ატვირთე პარამეტრები</value>
+    <value>ატვირთე რესურსები</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>256, 6</value>
@@ -188,7 +188,7 @@
     <value>259, 22</value>
   </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>გათიშვა</value>
+    <value>გამოსვლა</value>
   </data>
   <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>97, 20</value>
@@ -200,7 +200,7 @@
     <value>243, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>გაუშვას ჩართვისას</value>
+    <value>ჩაირთოს ჩართვისას</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>243, 22</value>
@@ -269,7 +269,7 @@
     <value>222, 22</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>გახსენი ცნობარი</value>
+    <value>გახსენი სახელმძღვანელო</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>222, 22</value>
@@ -323,7 +323,7 @@
     <value>განაახლე არსებობა</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>განახლებების არსებობა.</value>
+    <value>ანახლებს არსებობას</value>
   </data>
   <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>234, 50</value>
@@ -335,7 +335,7 @@
     <value>დაკავშირება</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>ბმულები კონკრეტული ID-ით რომელიც დაკავშირებულია.</value>
+    <value>აკავშირებს აპლიკაციას მითითებულ ID-თან და განსაზღვრულ წარმომავლობასთან</value>
   </data>
   <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>334, 50</value>
@@ -347,7 +347,7 @@
     <value>გათიშვა</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>გათიშავს პროგრამას Discord-დან. ამან შეიძლება დრო წაიღოს.</value>
+    <value>გათიშავს პროგრამას Discord-იდან. ამას შეიძლება ბევრი დრო დასჭირდეს.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>აპლიკაციის ID, Discord-ის დეველოპერის საიტიდან.</value>
@@ -359,7 +359,7 @@
     <value>მეორე ხაზი.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>სახელი პატარა სურათისთვის,ან ბმული.</value>
+    <value>სახელი რესურსის პატარა სურათისთვის,ან ბმული.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>ტექსტი გამოჩნდეს როცა ლივლივებს პატარა სურათი.</value>
@@ -368,7 +368,7 @@
     <value>ტექსტი გამოჩნდეს როცა ლივლივებს დიდი სურათი.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>სახელი პატარა სურათისთვის,ან ბმული.</value>
+    <value>სახელი რესურსის დიდი სურათისთვის,ან ბმული.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>89, 14</value>
@@ -401,10 +401,10 @@
     <value>180, 18</value>
   </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
-    <value>სანამ CustomRP დაიწყებოდა</value>
+    <value>მას შემდეგ რაც CustomRP ჩაირთო</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>აჩვენებს დროს როცა აპლიკაცია ჩაირთო.</value>
+    <value>აჩვენებს დროს მას შემდეგ რაც აპლიკაცია ჩაირთო</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 18</value>
@@ -439,7 +439,7 @@
     <value>ღილაკი 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>პირველი ღილაკი რომელიც შენს სტატუსის ქვეშ არის მარჯვენა მხარეს მთლიან პროფილზე.</value>
+    <value>პირველი ორი ღილაკი რომელიც შენს სტატუსის ქვემოთ არის მარჯვენა მხარეს მთლიან პროფილზე.</value>
   </data>
   <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>59, 14</value>
@@ -448,10 +448,10 @@
     <value>ღილაკი 2</value>
   </data>
   <data name="labelButton2.ToolTip" xml:space="preserve">
-    <value>მეორე ღილაკი,რომელიც გამოჩნდება შენი სტატუსის ქვეშ,ან მარჯვენა მხარეს პირველი ღილაკის ადგილას.</value>
+    <value>მეორე ღილაკი,რომელიც გამოჩნდება შენი სტატუსის ქვემოთ,ან მარჯვენა მხარეს პირველი ღილაკის ადგილას.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>ლინკი პირველი ღილაკისთვის.</value>
+    <value>ლინკი მეორე ღილაკისთვის.</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
     <value>ლინკი მეორე ღილაკისთვის.</value>
@@ -479,5 +479,14 @@
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>/</value>
+  </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>ხშირად დასმული შეკითხვები</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>ახალი პარამეტრები</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>წარმომავლობის აქტივობის ტიპი</value>
   </data>
 </root>

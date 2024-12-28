@@ -194,4 +194,20 @@ Clique Sim para redefinir as Definições ou clique Não para fechar.</value>
     <value>Tem a certeza que pretende começar de novo? 
 Esta ação é irreversível.</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Deseja eliminar as definições da aplicação?
+Esta ação não pode ser revertida.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Jogando</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Ouvindo</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Assistindo</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Competindo</value>
+  </data>
 </root>
