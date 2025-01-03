@@ -332,7 +332,7 @@
     <value>Déconnexion</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Déconnecter l'app de discord. Attention, cela peut prendre un moment.</value>
+    <value>Déconnecter l'application de discord. Attention, cela peut prendre un moment.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>ID de l'application sur le site développeur de discord.</value>
@@ -371,7 +371,7 @@
     <value>Grande image</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>Une image à gauche du texte qui est juste au dessus.</value>
+    <value>Une image à gauche du texte juste au dessus.</value>
   </data>
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 18</value>
@@ -389,7 +389,7 @@
     <value>Depuis que CustomRP est lancé</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>Montre le temps qui s'est écoulé depuis le démarrage de l'app.</value>
+    <value>Montre le temps qui s'est écoulé depuis le démarrage de l'application.</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 18</value>
@@ -402,11 +402,11 @@
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>Définis l'horodotage pour le statut, qui se montre en dessous de tout le texte ci-dessus.
-Les timers de statut ont une limite de 24h, ce qui signifie qu'après 24h, le temps reviendra à 00:00.</value>
+Les minuteurs de statut ont une limite de 24h, ce qui signifie qu'après 24h, le temps reviendra à 00:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>Nombre de joueurs, qui se montre à coté de "State".
-Pour prendre effet, les deux champs doivent être supérieurs à 0.</value>
+    <value>Nombre de joueurs qui se montre à coté de "State".
+Pour prendre effet les deux champs doivent être supérieurs à 0.</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 18</value>
@@ -415,7 +415,7 @@ Pour prendre effet, les deux champs doivent être supérieurs à 0.</value>
     <value>Horodotage personnalisé</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
-    <value>Affiche le temps écoulé par rapport à la date spécifiée.</value>
+    <value>Affiche le temps écoulé ou restant par rapport à la date spécifiée.</value>
   </data>
   <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>58, 14</value>
@@ -424,7 +424,7 @@ Pour prendre effet, les deux champs doivent être supérieurs à 0.</value>
     <value>Bouton 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>Le premier des deux boutons, soit sous votre statut dans le pop-up ou du coté droit de votre profil.</value>
+    <value>Le premier des deux boutons qui apparaît sous votre statut dans la fenêtre contextuelle de votre profil et sur le côté droit dans le profil.</value>
   </data>
   <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>58, 14</value>
