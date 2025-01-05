@@ -411,4 +411,7 @@ Jeżeli ma mieć jakikolwiek efekt, obydwa pola muszą być większe od 0.</valu
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Utwórz nowy szablon</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Rodzaj aktywności statusu.</value>
+  </data>
 </root>

@@ -748,7 +748,7 @@ namespace CustomRPC
                     Code = "sk",
                     Translators = new Person[] {
                         new Person { Name = "richi", Url = "https://e-z.bio/shelovesrichi" }, // rci1337
-                        new Person { Name = "Maros Mihalek" },
+                        new Person { Name = "maros" },
                         new Person { Name = "eRko" },
                     }
                 },
@@ -923,13 +923,13 @@ namespace CustomRPC
             LanguageProgress["no"] = "90.91";
             LanguageProgress["pa"] = "94.55";
             LanguageProgress["fa"] = "100";
-            LanguageProgress["pl"] = "94.55";
+            LanguageProgress["pl"] = "100";
             LanguageProgress["pt"] = "100";
             LanguageProgress["pt-br"] = "100";
             LanguageProgress["ro"] = "100";
             LanguageProgress["ru"] = "100";
             LanguageProgress["sr"] = "90";
-            LanguageProgress["sk"] = "94.55";
+            LanguageProgress["sk"] = "100";
             LanguageProgress["sl"] = "94.55";
             LanguageProgress["es"] = "100";
             LanguageProgress["sv"] = "90.91";

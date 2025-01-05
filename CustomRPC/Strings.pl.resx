@@ -194,4 +194,20 @@ Aby go zresetować kliknij Tak, lub Nie żeby wyjść.</value>
     <value>Czy na pewno chcesz zacząć od zera?
 Nie można tego cofnąć.</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Chcesz usunąć ustawienia aplikacji?
+Nie da się tego cofnąć.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>W grze</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Słucha</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Ogląda</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Rywalizuje w</value>
+  </data>
 </root>

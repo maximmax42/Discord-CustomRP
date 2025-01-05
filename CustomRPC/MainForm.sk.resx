@@ -474,4 +474,7 @@ Aby nadobudli účinnosť, obe polia by mali byť väčšie ako 0.</value>
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Nové nastavenie</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Typ aktivity.</value>
+  </data>
 </root>

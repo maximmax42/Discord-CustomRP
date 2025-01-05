@@ -188,10 +188,26 @@ Stlačte Áno pre resetovanie nastavení, stlačte Nie pre ukončenie.</value>
     <value>Nepodaril sa otvoriť odkaz. Bol uložený do schránky.</value>
   </data>
   <data name="statusUpdatingPresence" xml:space="preserve">
-    <value>Aktualizácia prítomnosti...</value>
+    <value>Aktualizácia aktivity...</value>
   </data>
   <data name="newPresetConfirmation" xml:space="preserve">
     <value>Ste si istý že chcete začať od zaciatku?
 Toto nemôžete dať naspäť.</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Chcete odstrániť nastavenia aplikácie?
+Táto akcia je nevratná.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Hrá</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Počúva</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Pozerá</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Súťaží</value>
   </data>
 </root>
