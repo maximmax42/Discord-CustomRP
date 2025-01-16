@@ -194,4 +194,20 @@ Paina Kyllä nollataksesi asetukset, ja paina Ei lopettaaksesi.</value>
     <value>Oletko varma, että haluat aloittaa alusta?
 Tätä ei voi peruuttaa.</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Haluatko poistaa sovelluksen asetukset?
+Tätä ei voi perua.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Pelaa</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Kuuntelee</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Katselee</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Kilpailee</value>
+  </data>
 </root>

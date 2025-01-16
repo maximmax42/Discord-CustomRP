@@ -477,4 +477,7 @@ Voimaantulo edellyttää, että molempien kenttien arvo on suurempi kuin 0.</val
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Uusi esiasetus</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Läsnäoloon liittyvän toiminnan tyyppi.</value>
+  </data>
 </root>
