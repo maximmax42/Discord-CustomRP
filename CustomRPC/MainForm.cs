@@ -672,8 +672,8 @@ namespace CustomRPC
             Analytics.TrackEvent("Updated presence", new Dictionary<string, string> {
                 { "Party", presence.HasParty().ToString() },
                 { "Timestamp", ((TimestampType)settings.timestamps).ToString() },
-                { "Big image", presence.Assets.LargeImageID.HasValue.ToString() },
-                { "Small image", presence.Assets.SmallImageID.HasValue.ToString() },
+                { "Big image", presence.Assets?.LargeImageID.HasValue.ToString() },
+                { "Small image", presence.Assets?.SmallImageID.HasValue.ToString() },
                 { "Buttons", buttonsList.Count.ToString() }
             });
 
@@ -949,7 +949,7 @@ namespace CustomRPC
 
             ConnectionManager.State = ConnectionState.UpdatingPresence;
             toolStripStatusLabelStatus.Text = Strings.statusUpdatingPresence;
-            client.SetPresence(rp);
+            client.SetPresence(rp.WithAssets(null)); // disabling assets while Discord is having a moment (tm)
 
             return true;
         }
