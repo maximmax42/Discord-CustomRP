@@ -1101,6 +1101,12 @@ namespace CustomRPC
                     USDAmount = "1.00",
                     AltAmount = "87.00 RUB"
                 },
+                new Supporter {
+                    Name = "5wi",
+                    Url = "https://github.com/5wi5wi",
+                    USDAmount = "4.82",
+                    AltAmount = "471.00 RUB"
+                },
             };
 
             NonMonetarySupporters = new List<NonMonetarySupporter>

@@ -32,6 +32,7 @@ Custom Discord Rich Presence Manager for Windows 7+. Some of its features are ru
 * [4NG3L](https://4ng3l.com/) - $5.77 (500.00 RUB)
 * [Eli404](https://linktr.ee/404femboy) - $5.09 (5.00 EUR)
 * [Kushgo](https://opensea.io/collection/worldtowers) - $5.00 (0.00313295 ETH)
+* [5wi](https://github.com/5wi5wi) - $4.82 (471.00 RUB)
 * Lucid - $3.59 (300.00 RUB)
 * Nicola Occhipinti - $3.44 (309.00 RUB)
 * Yoshi - $3.28 (200.00 RUB)
