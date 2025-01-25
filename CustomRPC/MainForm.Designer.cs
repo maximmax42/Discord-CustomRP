@@ -126,8 +126,6 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.labelAssetsUnavailable = new System.Windows.Forms.Label();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -135,7 +133,6 @@
             this.tableLayoutPanelButtons.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPartySize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPartyMax)).BeginInit();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // trayIcon
@@ -843,8 +840,8 @@
             // 
             this.textBoxSmallText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
             this.textBoxSmallText.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "smallText", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            resources.ApplyResources(this.textBoxSmallText, "textBoxSmallText");
             this.textBoxSmallText.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.textBoxSmallText, "textBoxSmallText");
             this.textBoxSmallText.Name = "textBoxSmallText";
             this.textBoxSmallText.Text = global::CustomRPC.Properties.Settings.Default.smallText;
             this.textBoxSmallText.TextChanged += new System.EventHandler(this.LengthValidation);
@@ -855,8 +852,8 @@
             // 
             this.textBoxLargeText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
             this.textBoxLargeText.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "largeText", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            resources.ApplyResources(this.textBoxLargeText, "textBoxLargeText");
             this.textBoxLargeText.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.textBoxLargeText, "textBoxLargeText");
             this.textBoxLargeText.Name = "textBoxLargeText";
             this.textBoxLargeText.Text = global::CustomRPC.Properties.Settings.Default.largeText;
             this.textBoxLargeText.TextChanged += new System.EventHandler(this.LengthValidation);
@@ -911,24 +908,12 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.labelAssetsUnavailable);
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Name = "panel1";
-            // 
-            // labelAssetsUnavailable
-            // 
-            resources.ApplyResources(this.labelAssetsUnavailable, "labelAssetsUnavailable");
-            this.labelAssetsUnavailable.Name = "labelAssetsUnavailable";
-            // 
             // MainForm
             // 
             this.AllowDrop = true;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.labelType);
             this.Controls.Add(this.comboBoxType);
             this.Controls.Add(this.tableLayoutPanelButtons);
@@ -987,7 +972,6 @@
             this.tableLayoutPanelButtons.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPartySize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPartyMax)).EndInit();
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1088,8 +1072,6 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanelButtons;
         private System.Windows.Forms.Label labelType;
         private System.Windows.Forms.ComboBox comboBoxType;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label labelAssetsUnavailable;
     }
 }
 

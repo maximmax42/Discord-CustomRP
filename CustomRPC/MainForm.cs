@@ -949,7 +949,7 @@ namespace CustomRPC
 
             ConnectionManager.State = ConnectionState.UpdatingPresence;
             toolStripStatusLabelStatus.Text = Strings.statusUpdatingPresence;
-            client.SetPresence(rp.WithAssets(null)); // disabling assets while Discord is having a moment (tm)
+            client.SetPresence(rp);
 
             return true;
         }
