@@ -320,4 +320,7 @@
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>新增 預設設定</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>動態的類型。</value>
+  </data>
 </root>

@@ -459,4 +459,7 @@
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>新预设</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>动态的类型。</value>
+  </data>
 </root>

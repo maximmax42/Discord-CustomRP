@@ -154,6 +154,7 @@
   </data>
   <data name="trayMenuDisconnect.Text" xml:space="preserve">
     <value>Disconnect</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 6</value>
@@ -175,6 +176,7 @@
   </data>
   <data name="trayIcon.Text" xml:space="preserve">
     <value>CustomRP</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="trayIcon.Visible" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -283,6 +285,7 @@
   </data>
   <data name="sampleToolStripMenuItem.Text" xml:space="preserve">
     <value>Sample</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 22</value>
@@ -322,6 +325,7 @@
   </data>
   <data name="testSupporterToolStripMenuItem.Text" xml:space="preserve">
     <value>Test Supporter - $6.9</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="supportersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>221, 22</value>
@@ -334,12 +338,14 @@
   </data>
   <data name="samplePersonToolStripMenuItem.Text" xml:space="preserve">
     <value>Sample Person</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="sampleLanguageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>266, 22</value>
   </data>
   <data name="sampleLanguageToolStripMenuItem.Text" xml:space="preserve">
     <value>Sample Language (Sample) - 69.69%</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>221, 22</value>
@@ -392,6 +398,7 @@
   </data>
   <data name="menuStrip.Text" xml:space="preserve">
     <value>menuStrip1</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;menuStrip.Name" xml:space="preserve">
     <value>menuStrip</value>
@@ -575,6 +582,7 @@
   </data>
   <data name="labelID.Text" xml:space="preserve">
     <value>ID</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelID.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -611,6 +619,7 @@
   </data>
   <data name="labelDetails.Text" xml:space="preserve">
     <value>Details</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelDetails.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -647,6 +656,7 @@
   </data>
   <data name="labelState.Text" xml:space="preserve">
     <value>State</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelState.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -683,6 +693,7 @@
   </data>
   <data name="labelSmallKey.Text" xml:space="preserve">
     <value>Key</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelSmallKey.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -719,6 +730,7 @@
   </data>
   <data name="labelSmallText.Text" xml:space="preserve">
     <value>Text</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelSmallText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -755,6 +767,7 @@
   </data>
   <data name="labelLargeText.Text" xml:space="preserve">
     <value>Text</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelLargeText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -791,6 +804,7 @@
   </data>
   <data name="labelLargeKey.Text" xml:space="preserve">
     <value>Key</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelLargeKey.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -992,6 +1006,7 @@
   </data>
   <data name="labelTimestamp.Text" xml:space="preserve">
     <value>Timestamp</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelTimestamp.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -1029,6 +1044,7 @@ Status timers have 24 hour limit, meaning that after 24 hours time will go back 
   </data>
   <data name="labelParty.Text" xml:space="preserve">
     <value>Party</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelParty.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -1165,6 +1181,7 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="labelButton1URL.Text" xml:space="preserve">
     <value>URL</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelButton1URL.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -1201,6 +1218,7 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="labelButton2URL.Text" xml:space="preserve">
     <value>URL</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelButton2URL.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -1237,6 +1255,7 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="labelButton1Text.Text" xml:space="preserve">
     <value>Text</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelButton1Text.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -1273,6 +1292,7 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="labelButton2Text.Text" xml:space="preserve">
     <value>Text</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelButton2Text.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -1342,6 +1362,7 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="labelType.Text" xml:space="preserve">
     <value>Type</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="labelType.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -1363,6 +1384,7 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="dateTimePickerTimestamp.CustomFormat" xml:space="preserve">
     <value>dd.MM.yyyy hh:mm:ss</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="dateTimePickerTimestamp.DropDownAlign" type="System.Windows.Forms.LeftRightAlignment, System.Windows.Forms">
     <value>Right</value>
@@ -1447,12 +1469,14 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="toolStripStatusLabelPadding.Text" xml:space="preserve">
     <value> </value>
+    <comment>@Invariant</comment>
   </data>
   <data name="toolStripStatusLabelStatus.Size" type="System.Drawing.Size, System.Drawing">
     <value>79, 17</value>
   </data>
   <data name="toolStripStatusLabelStatus.Text" xml:space="preserve">
     <value>Disconnected</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 499</value>
@@ -1924,6 +1948,7 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Custom Rich Presence</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;trayIcon.Name" xml:space="preserve">
     <value>trayIcon</value>

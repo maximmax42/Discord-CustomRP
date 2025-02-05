@@ -888,8 +888,8 @@ namespace CustomRPC
             LanguageProgress["bg"] = "100";
             LanguageProgress["my"] = "90.91";
             LanguageProgress["ca"] = "90";
-            LanguageProgress["zh-hans"] = "94.55";
-            LanguageProgress["zh-hant"] = "94.55";
+            LanguageProgress["zh-hans"] = "100";
+            LanguageProgress["zh-hant"] = "100";
             LanguageProgress["hr"] = "90";
             LanguageProgress["cs"] = "94.55";
             LanguageProgress["da"] = "90.91";

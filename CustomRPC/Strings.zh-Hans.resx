@@ -194,4 +194,20 @@
     <value>您确定要从头开始吗?
 这不能被撤销。</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>您想删除应用程式的设定吗？
+此操作无法撤销。</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>正在玩</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>正在听</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>正在看</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>竞争</value>
+  </data>
 </root>
