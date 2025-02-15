@@ -173,7 +173,7 @@
     <value>277, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ajouter des ressources</value>
+    <value>Ajouter des assets</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>274, 6</value>
@@ -230,7 +230,7 @@
     <value>250, 22</value>
   </data>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Mode sombre</value>
+    <value>Thème sombre</value>
   </data>
   <data name="toolStripSeparatorSettings3.Size" type="System.Drawing.Size, System.Drawing">
     <value>247, 6</value>
@@ -242,7 +242,7 @@
     <value>250, 22</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Langage</value>
+    <value>Langue</value>
   </data>
   <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>78, 20</value>
@@ -332,10 +332,10 @@
     <value>Déconnexion</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Déconnecter l'application de discord. Attention, cela peut prendre un moment.</value>
+    <value>Déconnecter l'application de Discord. Cela peut prendre un moment.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>ID de l'application sur le site développeur de discord.</value>
+    <value>ID de l'application sur le site développeur de Discord.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
     <value>Première ligne de la présence.</value>
@@ -401,18 +401,18 @@
     <value>Montre votre temps actuel dans un format de 24 heures.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Définis l'horodotage pour le statut, qui se montre en dessous de tout le texte ci-dessus.
+    <value>Définit l'horodatage pour le statut, qui s'affiche en dessous de tout le texte ci-dessus.
 Les minuteurs de statut ont une limite de 24h, ce qui signifie qu'après 24h, le temps reviendra à 00:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>Nombre de joueurs qui se montre à coté de "State".
+    <value>Nombre de joueurs qui se montre à côté de "State".
 Pour prendre effet les deux champs doivent être supérieurs à 0.</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 18</value>
   </data>
   <data name="radioButtonCustom.Text" xml:space="preserve">
-    <value>Horodotage personnalisé</value>
+    <value>Horodatage personnalisé</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
     <value>Affiche le temps écoulé ou restant par rapport à la date spécifiée.</value>
@@ -463,10 +463,10 @@ Pour prendre effet les deux champs doivent être supérieurs à 0.</value>
     <value>sur</value>
   </data>
   <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
-    <value>Supporters</value>
+    <value>Donateurs</value>
   </data>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
-    <value>Question posées fréquement</value>
+    <value>Questions posées fréquemment</value>
   </data>
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Nouveau préréglage</value>

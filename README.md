@@ -91,7 +91,7 @@ So far, the app supports these languages:
 * [Estonian](https://poeditor.com/projects/po_edit?id_language=45&per_page=100&id=409229) (thanks to [z1](https://github.com/Erkkii) and Meelis)
 * [Filipino](https://poeditor.com/projects/po_edit?id_language=219&per_page=100&id=409229) (thanks to [_missingo](https://www.youtube.com/channel/UCxNVq2Esevsdp2v1jGQNu5A), [CtrlAltDelicious](https://www.youtube.com/c/CtrlAltDelicious_), syp, jericko and Hachiki)
 * [Finnish](https://poeditor.com/projects/po_edit?id_language=49&per_page=100&id=409229) (thanks to Deluxeria, Zunikuu, [jes](https://jesperiz.carrd.co/) and Super)
-* [French](https://poeditor.com/projects/po_edit?id_language=50&per_page=100&id=409229) (thanks to Nenaff, RedNix, CercleRouge1, VaporCorp, [20syl](https://github.com/20syldev), jojoblackFr, Prototyx5, and SkyDream)
+* [French](https://poeditor.com/projects/po_edit?id_language=50&per_page=100&id=409229) (thanks to Nenaff, Yo-3DS, RedNix, [20syl](https://github.com/20syldev), CercleRouge1, VaporCorp, jojoblackFr, Prototyx5, and SkyDream)
 * [Galician](https://poeditor.com/projects/po_edit?id_language=52&per_page=100&id=409229) (thanks to Unknown)
 * [Georgian](https://poeditor.com/projects/po_edit?id_language=54&per_page=100&id=409229) (thanks to [Turashviliguro](https://turashviliguro.github.io/daddyexe/) and blessed)
 * [German](https://poeditor.com/projects/po_edit?id_language=55&per_page=100&id=409229) (thanks to [Ypsol](https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA), [Marcel Gustin](https://marcelgustin.de), ahmad, binarynoise, Revax812, Yoshi, [Felix](https://github.com/fbrettnich), [whoscanel](https://canel.cloud) and Tom)

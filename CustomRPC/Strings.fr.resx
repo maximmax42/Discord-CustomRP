@@ -128,11 +128,11 @@
 Cliquez sur "Oui" pour réessayer ou sur "Non" pour la télécharger manuellement.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Besoin d'assistance ?</value>
+    <value>Besoin d'aide ?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
-    <value>Souhaitez-vous ouvrir le manuel?
-Vous pouvez l'ouvrir à tout moment en accédant à Aide -&gt; Ouvrir le manuel ou en pressant F1.</value>
+    <value>Souhaitez-vous ouvrir le manuel ?
+Vous pouvez l'ouvrir à tout moment en allant dans Aide -&gt; Ouvrir le manuel ou avec F1.</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>Information</value>
@@ -144,45 +144,45 @@ Vous pouvez l'ouvrir à tout moment en accédant à Aide -&gt; Ouvrir le manuel 
     <value>Connexion...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Connexion échouée (Est-ce que Discord est lancé ?)</value>
+    <value>Connexion échouée (Discord est-il lancé ?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>Déconnecté</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>Erreur de connexion (ID invalide?)</value>
+    <value>Erreur de connexion (Mauvais ID ?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>L'URL spécifiée pour le(s) bouton(s) est invalide ou bien le texte est trop long!</value>
+    <value>URL entrée pour le(s) bouton(s) invalide ou texte trop long !</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
-    <value>Impossible de se connecter à Internet!</value>
+    <value>Connexion à Internet échouée !</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
-    <value>Aucune mise à jour trouvée!</value>
+    <value>Aucune mise à jour trouvée !</value>
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
     <value>Le fichier de configuration est corrompu.
-Cliquez sur "oui" pour réinitialiser la configuration, cliquez sur "non" pour quitter.</value>
+Cliquez sur "Oui" pour réinitialiser la configuration, cliquez sur "Non" pour quitter.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Échec d'importation de la préconfiguration; le fichier est peut-être manquant, corrompu, ou mal formaté.</value>
+    <value>Échec d'importation de la préconfiguration ; le fichier est peut-être manquant, corrompu, ou mal formaté.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
     <value>Autorisez-vous CustomRP à envoyer vos données analytiques au développeur ?
-(Toutes vos données sont anonymes.)</value>
+(Toutes vos données seront anonymes.)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
-    <value>Une erreur est survenue durant l'enregistrement des paramètres:</value>
+    <value>Une erreur est survenue durant l'enregistrement des paramètres :</value>
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>Veuillez ajouter le répertoire "{0}" aux exceptions de votre antivirus. Si l'erreur persiste, réinstallez CustomRP.</value>
   </data>
   <data name="errorInvalidImageURL" xml:space="preserve">
-    <value>L'URL de cette image est trop long !</value>
+    <value>L'URL de l'image est trop longue !</value>
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
-    <value>Erreur lors de l'ajout ou de la suppression du raccourcis de demarrage:</value>
+    <value>Erreur lors de l'ajout ou de la suppression du raccourci de démarrage :</value>
   </data>
   <data name="errorOpeningURL" xml:space="preserve">
     <value>Échec de l'ouverture de l'URL. Elle a été copiée dans le presse-papiers.</value>
@@ -191,7 +191,7 @@ Cliquez sur "oui" pour réinitialiser la configuration, cliquez sur "non" pour q
     <value>Mise à jour de la présence...</value>
   </data>
   <data name="newPresetConfirmation" xml:space="preserve">
-    <value>Êtes-vous sûr de vouloir tout recommencer à zéro ?
+    <value>Voulez-vous vraiment tout recommencer à zéro ?
 Cette action est irréversible.</value>
   </data>
   <data name="deleteSettings" xml:space="preserve">

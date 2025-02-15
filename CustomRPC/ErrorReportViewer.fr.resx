@@ -124,6 +124,6 @@
     <value>OK</value>
   </data>
   <data name="labelInfo.Text" xml:space="preserve">
-    <value>CustomRP a planté lors de la session précédente en raison de l'erreur suivante :</value>
+    <value>CustomRP a planté lors de la session précédente à cause de l'erreur suivante :</value>
   </data>
 </root>

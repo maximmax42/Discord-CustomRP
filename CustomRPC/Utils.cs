@@ -432,10 +432,11 @@ namespace CustomRPC
                     Code = "fr",
                     Translators = new Person[] {
                         new Person { Name = "Nenaff" }, // Account deleted, +8
+                        new Person { Name = "Yo-3DS" },
                         new Person { Name = "RedNix" },
+                        new Person { Name = "20syl", Url = "https://github.com/20syldev" },
                         new Person { Name = "CercleRouge1" },
                         new Person { Name = "VaporCorp" }, // Account deleted
-                        new Person { Name = "20syl", Url = "https://github.com/20syldev" },
                         new Person { Name = "jojoblackFr" },
                         new Person { Name = "Prototyx5" }, // 0 translations
                         new Person { Name = "SkyDream" }, // 0 translations
