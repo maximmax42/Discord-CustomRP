@@ -138,3 +138,7 @@ Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChang
 [UninstallRun]
 Filename: "taskkill"; Parameters: "/f /im CustomRP.exe"; Flags: shellexec runhidden waituntilterminated
 Filename: "{app}\{#MyAppExeName}"; Parameters: "uninstall"; Flags: waituntilterminated
+
+[UninstallDelete]
+Type: files; Name: "{userstartup}\CustomRP.lnk"
+Type: files; Name: "{userstartup}\CustomRP 2.lnk"
