@@ -23,7 +23,7 @@ AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppSupportURL}
 AppUpdatesURL={#MyAppUpdatesURL}
-; AppMutex=CustomRP
+AppMutex=CustomRP
 DefaultDirName={userappdata}\{#MyAppName}
 DisableDirPage=yes
 DefaultGroupName={#MyAppName}
@@ -42,7 +42,7 @@ UninstallDisplayIcon={app}\{#MyAppExeName}
 Compression=lzma2/ultra64
 SolidCompression=yes
 WizardStyle=classic
-CloseApplications=no
+CloseApplications=force
 AppCopyright=Copyright (C) 2018-{#CurrentYear} maximmax42
 LicenseFile=License combined.txt
 ChangesAssociations=yes
@@ -131,7 +131,7 @@ begin
 end;
 
 [Run]
-Filename: "taskkill"; Parameters: "/f /im CustomRP.exe"; Flags: shellexec runhidden waituntilterminated
+; Filename: "taskkill"; Parameters: "/f /im CustomRP.exe"; Flags: shellexec runhidden waituntilterminated
 Filename: "{tmp}\ndp48-web.exe"; StatusMsg: "Installing .NET Framework 4.8..."; Parameters: "/NoRestart /Passive /ShowFinalError /ShowRmui"; Check: NeedToInstallDotNet
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall 
 
