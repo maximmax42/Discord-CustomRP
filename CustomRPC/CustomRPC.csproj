@@ -1249,10 +1249,10 @@
       <Version>1.5.1-beta1</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AppCenter.Analytics">
-      <Version>5.0.6</Version>
+      <Version>5.0.7</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AppCenter.Crashes">
-      <Version>5.0.6</Version>
+      <Version>5.0.7</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AspNet.WebApi.Client">
       <Version>6.0.0</Version>
