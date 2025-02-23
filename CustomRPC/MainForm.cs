@@ -379,6 +379,11 @@ namespace CustomRPC
             {
                 LoadPreset(File.ReadAllText(Program.IPCPath));
             }
+            else if (message.Msg == 0x0016) // WM_ENDSESSION
+            {
+                Utils.SaveSettings();
+                Application.Exit();
+            }
 
             base.WndProc(ref message);
         }
