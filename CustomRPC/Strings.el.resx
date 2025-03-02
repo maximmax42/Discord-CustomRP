@@ -190,4 +190,24 @@
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>Ενημέρωση παρουσίας...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Είστε σίγουροι πως θέλετε να ξεκινήσετε απο την αρχή?
+Αυτό δεν μπορεί να αναιρεθεί.</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Είστε σίγουροι πως θέλετε να διαγράψετε τις ρυθμίσεις αυτής της εφαρμογής?
+Αυτό δεν μπορεί να αναιρεθεί.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Παίζει</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Ακούει</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Βλέπει</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Ανταγωνίζεται</value>
+  </data>
 </root>

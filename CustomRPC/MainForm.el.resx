@@ -477,4 +477,10 @@
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>Συχνές Ερωτήσεις που έχουν Απαντηθεί</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Νέο Προκαθορισμένο</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Τύπος δραστηριότητας για το παρουσιαστικό.</value>
+  </data>
 </root>
