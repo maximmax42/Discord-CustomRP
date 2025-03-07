@@ -103,7 +103,7 @@ So far, the app supports these languages:
 * [Icelandic](https://poeditor.com/projects/po_edit?id_language=66&per_page=100&id=409229) (thanks to phoenix, Meelis and Amr Ezzat)
 * [Indonesian](https://poeditor.com/projects/po_edit?id_language=69&per_page=100&id=409229) (thanks to Hapnan, [Bayu Sopwan](https://bayusopwan.github.io), Apolycious, OHMKUB and xChellz)
 * [Italian](https://poeditor.com/projects/po_edit?id_language=75&per_page=100&id=409229) (thanks to DJD320, [NEKO](https://www.youtube.com/@ilcanaledineko),  Frin, Bay, Matthww, [ItsMrCube](https://mrcube.dev/) and Patrick Canal)
-* [Japanese](https://poeditor.com/projects/po_edit?id_language=76&per_page=100&id=409229) (thanks to KABIKIRA000)
+* [Japanese](https://poeditor.com/projects/po_edit?id_language=76&per_page=100&id=409229) (thanks to KABIKIRA000 and mititt)
 * [Kannada](https://poeditor.com/projects/po_edit?id_language=79&per_page=100&id=409229) (thanks to [Naagu](https://github.com/NaaguYT/))
 * [Kazakh](https://poeditor.com/projects/po_edit?id_language=82&per_page=100&id=409229) (thanks to aaron)
 * [Korean](https://poeditor.com/projects/po_edit?id_language=88&per_page=100&id=409229) (thanks to [Yeongaori](https://github.com/yeongaori))

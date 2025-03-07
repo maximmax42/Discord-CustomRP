@@ -419,7 +419,7 @@
     <value>112, 18</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>あなたの現在遅刻</value>
+    <value>あなたの現在時刻</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
     <value>現在の時刻を24時間形式で表示します</value>

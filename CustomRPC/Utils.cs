@@ -542,6 +542,7 @@ namespace CustomRPC
                     Code = "ja",
                     Translators = new Person[] {
                         new Person { Name = "KABIKIRA000" },
+                        new Person { Name = "mititt" },
                     }
                 },
                 new Language {
