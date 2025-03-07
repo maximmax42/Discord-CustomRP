@@ -24,7 +24,7 @@ Custom Discord Rich Presence Manager for Windows 7+. Some of its features are ru
 * Js9 - $24.05 (2405.25 RUB)
 * [Boefjim](https://boefjim.com) - $16.13 (1000.00 RUB)
 * [JME](https://jme.bio/) - $12.47 (0.00047618 BTC)
-* [DIGITAREZ SPACE](https://digitarez.space/ref?customrp=default) - $9.15 (617.00 RUB)
+* [SrNrike](https://kyhlus.net/staff/srnrike) - $9.15 (617.00 RUB)
 * [Zag](https://zag.rip) - $7.45 (431.55 RUB)
 * [BennyKun](https://github.com/Benny-Kun) - $6.93 (0.00023698 BTC)
 * [VerdantWanderer](https://www.twitch.tv/verdant_wanderer) - $6.00
