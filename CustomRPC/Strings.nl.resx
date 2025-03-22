@@ -194,4 +194,19 @@ Druk op Ja om de instellingen te resetten, druk op Nee om te stoppen.</value>
     <value>Weet je zeker dat je vanaf nul wil beginnen? 
 Dit kan niet ongedaan gemaakt worden.</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Wil je de app instellingen verwijderen? Dit kun je niet ongedaan maken.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Spelen</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Luisteren</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Kijken</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Concurreren</value>
+  </data>
 </root>

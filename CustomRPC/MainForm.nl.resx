@@ -374,7 +374,7 @@
     <value>98, 18</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>De lokale tijd</value>
+    <value>Jou lokale tijd</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
     <value>Toont uw huidige tijd in 24-uurs formaat.</value>
@@ -464,5 +464,8 @@ Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
   </data>
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Nieuwe Voorinstelling</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Tijd van activiteit voor Status.</value>
   </data>
 </root>

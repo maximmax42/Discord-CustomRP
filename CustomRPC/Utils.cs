@@ -653,9 +653,10 @@ namespace CustomRPC
                     EnglishName = "Dutch",
                     Code = "nl",
                     Translators = new Person[] {
-                        new Person { Name = "Jeremyzijlemans", Url = "https://sionteam.com/" },
+                        new Person { Name = "Jeremyzijlemans", Url = "https://sionteam.com/" }, // +7
                         new Person { Name = "Screitsma64" },
-                        new Person { Name = "sys-256", Url = "https://sys-256.me/" },
+                        new Person { Name = "Vince C." },
+                        new Person { Name = "sys-256", Url = "https://sys-256.me/" }, // account removed
                         new Person { Name = "Not_H3", Url = "https://github.com/damger9" },
                         new Person { Name = "DutchSlav" },
                     }
@@ -847,15 +848,15 @@ namespace CustomRPC
                     EnglishName = "Vietnamese",
                     Code = "vi",
                     Translators = new Person[] {
-                        Mykm,
+                        Mykm, // +2
                         new Person { Name = "dsbachle" },
+                        new Person { Name = "Ayano" },
                         new Person { Name = "Nhathungtran2011" },
                         new Person { Name = "Rinka Ch. リンカタカナシ" },
-                        new Person { Name = "Phnthnhnm0612" },
-                        new Person { Name = "Ayano" },
-                        new Person { Name = "igijtykvj" },
+                        new Person { Name = "Phnthnhnm0612" }, // +1
                         new Person { Name = "03_Trần" },
-                        new Person { Name = "kcott" },
+                        new Person { Name = "igijtykvj" },
+                        new Person { Name = "kcott" }, // 0 translations
                     }
                 },
                 new Language {
