@@ -188,14 +188,21 @@ namespace CustomRPC
                     }
 
                     StringBuilder rpcLog = new StringBuilder();
-                    string[] temp = File.ReadAllLines(Application.StartupPath + "\\logs\\" + report.AppErrorTime.ToString("yyyy-MM-dd") + ".log");
-
-                    foreach (string line in temp)
+                    try
                     {
-                        if (line.Contains("applicationID"))
-                            continue;
+                        string[] temp = File.ReadAllLines(Application.StartupPath + "\\logs\\" + report.AppErrorTime.ToString("yyyy-MM-dd") + ".log");
+                        
+                        foreach (string line in temp)
+                        {
+                            if (line.Contains("applicationID"))
+                                continue;
 
-                        rpcLog.AppendLine(line);
+                            rpcLog.AppendLine(line);
+                        }
+                    }
+                    catch
+                    {
+                        rpcLog.AppendLine("No log was found!");
                     }
 
                     return new ErrorAttachmentLog[]
