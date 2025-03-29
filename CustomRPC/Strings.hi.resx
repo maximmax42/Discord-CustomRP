@@ -195,7 +195,19 @@
 यह वापस नहीं किया जा सकता।</value>
   </data>
   <data name="deleteSettings" xml:space="preserve">
-    <value>क्या आप एप्लिकेशन की सेटिंग हटाना चाहते हैं?
-इसे पूर्ववत नहीं किया जा सकता।</value>
+    <value>क्या आप एप्लिकेशन की सेटिंग्स हटाना चाहते हैं?
+यह क्रिया पूर्ववत नहीं की जा सकती।</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>खेल</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>सुनना</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>देखना</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>प्रतिस्पर्धा</value>
   </data>
 </root>

@@ -588,6 +588,14 @@ namespace CustomRPC
                     }
                 },
                 new Language {
+                    Name = "ລາວ",
+                    EnglishName = "Lao",
+                    Code = "lo",
+                    Translators = new Person[] {
+                        new Person { Name = "emjay.la" },
+                    }
+                },
+                new Language {
                     Name = "Lietuvių",
                     EnglishName = "Lithuanian",
                     Code = "lt",
@@ -897,7 +905,7 @@ namespace CustomRPC
             LanguageProgress["hr"] = "90";
             LanguageProgress["cs"] = "94.55";
             LanguageProgress["da"] = "90.91";
-            LanguageProgress["nl"] = "94.55";
+            LanguageProgress["nl"] = "100";
             LanguageProgress["et"] = "100";
             LanguageProgress["fil"] = "100";
             LanguageProgress["fi"] = "100";
@@ -908,7 +916,7 @@ namespace CustomRPC
             LanguageProgress["de-ch"] = "100";
             LanguageProgress["el"] = "100";
             LanguageProgress["he"] = "100";
-            LanguageProgress["hi"] = "95.45";
+            LanguageProgress["hi"] = "100";
             LanguageProgress["hu"] = "90";
             LanguageProgress["is"] = "90";
             LanguageProgress["id"] = "100";
@@ -918,6 +926,7 @@ namespace CustomRPC
             LanguageProgress["kk"] = "94.55";
             LanguageProgress["ko"] = "100";
             LanguageProgress["ku"] = "90";
+            LanguageProgress["lo"] = "100";
             LanguageProgress["lv"] = "90";
             LanguageProgress["lt"] = "94.55";
             LanguageProgress["mk"] = "90";
@@ -925,7 +934,7 @@ namespace CustomRPC
             LanguageProgress["ml"] = "90";
             LanguageProgress["mn"] = "91.82";
             LanguageProgress["no"] = "90.91";
-            LanguageProgress["pa"] = "94.55";
+            LanguageProgress["pa"] = "100";
             LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "100";
             LanguageProgress["pt"] = "100";

@@ -118,96 +118,96 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="error" xml:space="preserve">
-    <value>ਗਲਤੀ</value>
+    <value>ຜິດພາດ</value>
   </data>
   <data name="errorNoID" xml:space="preserve">
-    <value>ID ਦਰਜ ਨਹੀਂ ਕੀਤਾ ਗਿਆ!</value>
+    <value>ບໍ່ໄດ້ລະບຸ ID!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
-    <value>ਅਪਡੇਟ ਡਾਊਨਲੋਡ ਕਰਨ ਜਾਂ ਸਥਾਪਨ ਕਰਨ ਵਿਚ ਗਲਤੀ ਹੋਈ।
-ਮੁੜ "Yes" ਤੇ ਕਲਿੱਕ ਕਰੋ ਜਾਂ "No" ਤੇ ਕਲਿੱਕ ਕਰੋ ਅਤੇ ਸੁਖਾਲੀ ਕਰਨ ਲਈ ਦਸ਼ਾਂਤਰ ਵਰਤੋ।</value>
+    <value>ເກີດຄວາມຜິດພາດໃນການດາວໂຫຼດ ຫຼືຕິດຕັ້ງການອັບເດດ.
+ກົດ "ແມ່ນ" ເພື່ອລອງໃໝ່ ຫຼື "ບໍ່" ເພື່ອດາວໂຫລດດ້ວຍຕົນເອງ.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>ਮਦਦ ਚਾਹੀਦੀ ਹੈ?</value>
+    <value>ຕ້ອງການຄວາມຊ່ວຍເຫຼືອບໍ?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
-    <value>"ਕੀ ਤੁਸੀਂ ਮਾਨੁਅਲ ਖੋਲਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?
-ਤੁਸੀਂ ਕਦੇ ਵੀ ਮਦਦ ਵਿੱਚ Help -&gt; ਮੈਨੁਅਲ ਖੋਲੋ ਜਾਂ F1 ਦਬਾ ਕੇ ਖੋਲ ਸਕਦੇ ਹੋ।"</value>
+    <value>ທ່ານຕ້ອງການເປີດຄູ່ມືບໍ?
+ທ່ານສາມາດເປີດມັນໄດ້ທຸກເວລາໂດຍການໄປທີ່ Help -&gt; ເປີດຄູ່ມື ຫຼືກົດ F1.</value>
   </data>
   <data name="information" xml:space="preserve">
-    <value>ਜਾਣਕਾਰੀ</value>
+    <value>ຂໍ້ມູນ</value>
   </data>
   <data name="statusConnected" xml:space="preserve">
-    <value>ਕੁਨੈਕਟ</value>
+    <value>ເຊື່ອມຕໍ່</value>
   </data>
   <data name="statusConnecting" xml:space="preserve">
-    <value>ਕੁਨੈਕਟ ਕਰ ਰਿਹਾ ਹੈ...</value>
+    <value>ກຳລັງເຊື່ອມຕໍ່...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>ਕੁਨੈਕਟ ਫੇਲ ਹੋਇਆ (ਕੀ ਡਿਸਕਨੈਕ ਚਾਲ ਰਿਹਾ ਹੈ?)</value>
+    <value>ການ​ເຊື່ອມ​ຕໍ່​ບໍ່​ສໍາ​ເລັດ (Discord ແລ່ນ​ບໍ?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
-    <value>ਡਿਸਕਨੈਕਟ</value>
+    <value>ຕັດການເຊື່ອມຕໍ່</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>ਕੁਨੈਕਟ਼ਨ ਗਲਤੀ (ਗਲਤ ID?)</value>
+    <value>ການເຊື່ອມຕໍ່ຜິດພາດ (ID ຜິດ?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>ਬਟਨਾਂ ਲਈ ਅਥਾਹ ਯੂਆਰਐਲ ਦਾ ਨਾਮ ਜਾਂ ਵਧੀਕ ਟੈਕਸਟ ਦਰਜ ਕੀਤਾ ਗਿਆ ਹੈ!</value>
+    <value>URL ບໍ່ຖືກຕ້ອງທີ່ລະບຸໄວ້ສໍາລັບປຸ່ມ ຫຼືຂໍ້ຄວາມຍາວເກີນໄປ!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
-    <value>ਇੰਟਰਨੈਟ ਨਾਲ ਕੁਨੈਕਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ!</value>
+    <value>ບໍ່ສາມາດເຊື່ອມຕໍ່ອິນເຕີເນັດໄດ້!</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
-    <value>ਕੋਈ ਅੱਪਡੇਟ ਨਹੀਂ ਮਿਲੀ!</value>
+    <value>ບໍ່ພົບການອັບເດດ!</value>
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
-    <value>ਸੈਟਿੰਗਜ਼ ਫਾਈਲ ਨਿਕਾਰਾ ਹੈ।
-ਸੈਟਿੰਗਾਂ ਨੂੰ ਰੀਸੈਟ ਕਰਨ ਲਈ ਹਾਂ ਦਬਾਓ, ਬੰਦ ਕਰਨ ਲਈ ਨਹੀਂ ਦਬਾਓ।</value>
+    <value>ໄຟລ໌ການຕັ້ງຄ່າເສຍຫາຍ.
+ກົດແມ່ນແລ້ວເພື່ອປັບການຕັ້ງຄ່າ, ກົດບໍ່ເພື່ອອອກ.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>ਪ੍ਰੀਸੈਟ ਦਾ ਆਯਾਤ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ; ਫਾਇਲ ਗੁਆਈ ਜਾਂ, ਕੋਰੁਪਟ ਜਾਂ ਸਹੀ ਤਰੀਕੇ ਨਾਲ ਫਾਰਮੈਟ ਨਹੀਂ ਕੀਤਾ ਗਿਆ।</value>
+    <value>ລົ້ມເຫລວໃນການນໍາເຂົ້າ preset; ໄຟລ໌ຂາດຫາຍໄປ, ເສຍຫາຍ, ຫຼືບໍ່ມີຮູບແບບຢ່າງຖືກຕ້ອງ.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>ਕੀ ਤੁਸੀਂ ਦੇਣ ਦੇਣ ਦਾ ਅਨੁਮਤੀ ਦਿਵਾਉਣੀ ਹੈ ਕਿ CustomRP ਵਿਕਸ਼ਲਨ ਸੱਦਾਂ ਨੂੰ ਵਿਕਸ਼ਿਪਕ ਦੇਣ ਲਈ?
-(ਸਾਰੇ ਡੇਟਾ ਵਿਅਕਤਗਤ ਬਣਾਇਆ ਜਾਂਦਾ ਹੈ।)</value>
+    <value>ທ່ານອະນຸຍາດໃຫ້ CustomRP ສົ່ງການວິເຄາະການນໍາໃຊ້ຂອງທ່ານໃຫ້ກັບນັກພັດທະນາບໍ?
+(ຂໍ້​ມູນ​ທັງ​ຫມົດ​ແມ່ນ​ແຍກ​ຕ່າງ​ຫາກ.​)</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
-    <value>ਸੈਟਿੰਗਾਂ ਸੰਭਾਲਣ ਦੌਰਾਨ ਗਲਤੀ ਹੋਈ:</value>
+    <value>ເກີດຄວາມຜິດພາດໃນຂະນະທີ່ບັນທຶກການຕັ້ງຄ່າ:</value>
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਏਂਟੀਵਾਇਰਸ ਦੇ ਬਿਨਾਂਨਾਂ ਸਮੱਸਿਆਵਾਂ ਵਿੱਚ "{0}" ਪਾਥ ਸ਼ਾਮਲ ਕਰੋ। ਯਦਿ ਇਹ ਗਲਤੀ ਬਣੀ ਰਹੀ ਹੈ ਤਾਂ CustomRP ਨੂੰ ਮੁੜ ਸਥਾਪਿਤ ਕਰੋ।</value>
+    <value>ກະ​ລຸ​ນາ​ເພີ່ມ​ເສັ້ນ​ທາງ "{0}" ການ​ຍົກ​ເວັ້ນ​ການ​ຕ້ານ​ໄວຣ​ັ​ສ​ຂອງ​ທ່ານ. ຕິດຕັ້ງ CustomRP ຄືນໃໝ່ຖ້າຂໍ້ຜິດພາດນີ້ຍັງຄົງຢູ່.</value>
   </data>
   <data name="errorInvalidImageURL" xml:space="preserve">
-    <value>ਚਿੱਤਰ ਦੀ URL ਖੋਜਣ ਲਈ ਗੁਆਈ ਹੈ!</value>
+    <value>URL ຮູບພາບຍາວເກີນໄປ!</value>
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
-    <value>ਸਟਾਰਟਅੱਪ ਸ਼ਾਰਟਕਟ ਜੋੜਨ ਜਾਂ ਹਟਾਉਣ ਵਿੱਚ ਅਸਫਲ:</value>
+    <value>ເພີ່ມ ຫຼືລຶບທາງລັດການເລີ່ມຕົ້ນບໍ່ສຳເລັດ:</value>
   </data>
   <data name="errorOpeningURL" xml:space="preserve">
-    <value>URL खोलने में विफल रहा। यह क्लिपबोर्ड पर कॉपी किया गया है।</value>
+    <value>ເປີດ URL ບໍ່ສຳເລັດ. ມັນໄດ້ຖືກຄັດລອກໃສ່ clipboard.</value>
   </data>
   <data name="statusUpdatingPresence" xml:space="preserve">
-    <value>ਗਤੀਵਿਧੀ ਅਪਡੇਟ ਹੋ ਰਈ ਹੈ...</value>
+    <value>ກຳລັງອັບເດດການມີຢູ່...</value>
   </data>
   <data name="newPresetConfirmation" xml:space="preserve">
-    <value>ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ 'ਤੇ ਸ਼ੁਰੂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?
-ਇਹ ਵਾਪਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।</value>
+    <value>ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການເລີ່ມຕົ້ນຈາກຈຸດເລີ່ມຕົ້ນ?
+ອັນນີ້ບໍ່ສາມາດຍົກເລີກໄດ້.</value>
   </data>
   <data name="deleteSettings" xml:space="preserve">
-    <value>ਕੀ ਤੁਸੀਂ ਐਪਲੀਕੇਸ਼ਨ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਹਟਾਉਣੀ ਚਾਹੁੰਦੇ ਹੋ?
-ਇਹ ਕਾਰਵਾਈ ਵਾਪਸ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ।</value>
+    <value>ທ່ານຕ້ອງການລຶບການຕັ້ງຄ່າຂອງແອັບພລິເຄຊັນບໍ?
+ອັນນີ້ບໍ່ສາມາດຍົກເລີກໄດ້.</value>
   </data>
   <data name="presenceTypePlaying" xml:space="preserve">
-    <value>ਖੇਡ</value>
+    <value>ຫຼີ້ນ</value>
   </data>
   <data name="presenceTypeListening" xml:space="preserve">
-    <value>ਸੁਣਨਾ</value>
+    <value>ຟັງ</value>
   </data>
   <data name="presenceTypeWatching" xml:space="preserve">
-    <value>ਦੇਖਣਾ</value>
+    <value>ການສັງເກດເບິ່ງ</value>
   </data>
   <data name="presenceTypeCompeting" xml:space="preserve">
-    <value>ਮੁਕਾਬਲਾ</value>
+    <value>ແຂ່ງຂັນ</value>
   </data>
 </root>

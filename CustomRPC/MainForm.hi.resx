@@ -435,4 +435,7 @@
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>नई प्रीसेट</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>उपस्थिति के लिए गतिविधि का प्रकार।</value>
+  </data>
 </root>

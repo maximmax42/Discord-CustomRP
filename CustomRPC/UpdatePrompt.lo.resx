@@ -117,97 +117,33 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="error" xml:space="preserve">
-    <value>ਗਲਤੀ</value>
+  <data name="buttonUpdate.Text" xml:space="preserve">
+    <value>ແມ່ນແລ້ວ</value>
   </data>
-  <data name="errorNoID" xml:space="preserve">
-    <value>ID ਦਰਜ ਨਹੀਂ ਕੀਤਾ ਗਿਆ!</value>
+  <data name="buttonNotNow.Text" xml:space="preserve">
+    <value>ບໍ່ແມ່ນດຽວນີ້</value>
   </data>
-  <data name="errorUpdateFailed" xml:space="preserve">
-    <value>ਅਪਡੇਟ ਡਾਊਨਲੋਡ ਕਰਨ ਜਾਂ ਸਥਾਪਨ ਕਰਨ ਵਿਚ ਗਲਤੀ ਹੋਈ।
-ਮੁੜ "Yes" ਤੇ ਕਲਿੱਕ ਕਰੋ ਜਾਂ "No" ਤੇ ਕਲਿੱਕ ਕਰੋ ਅਤੇ ਸੁਖਾਲੀ ਕਰਨ ਲਈ ਦਸ਼ਾਂਤਰ ਵਰਤੋ।</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 14</value>
   </data>
-  <data name="firstTimeRun" xml:space="preserve">
-    <value>ਮਦਦ ਚਾਹੀਦੀ ਹੈ?</value>
+  <data name="labelQuestion.Text" xml:space="preserve">
+    <value>ທ່ານຕ້ອງການດາວໂຫຼດການອັບເດດນີ້ບໍ?</value>
   </data>
-  <data name="firstTimeRunText" xml:space="preserve">
-    <value>"ਕੀ ਤੁਸੀਂ ਮਾਨੁਅਲ ਖੋਲਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?
-ਤੁਸੀਂ ਕਦੇ ਵੀ ਮਦਦ ਵਿੱਚ Help -&gt; ਮੈਨੁਅਲ ਖੋਲੋ ਜਾਂ F1 ਦਬਾ ਕੇ ਖੋਲ ਸਕਦੇ ਹੋ।"</value>
+  <data name="checkBoxNeverNotify.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 18</value>
   </data>
-  <data name="information" xml:space="preserve">
-    <value>ਜਾਣਕਾਰੀ</value>
+  <data name="checkBoxNeverNotify.Text" xml:space="preserve">
+    <value>ຢ່າກວດເບິ່ງການອັບເດດອີກຄັ້ງ</value>
   </data>
-  <data name="statusConnected" xml:space="preserve">
-    <value>ਕੁਨੈਕਟ</value>
+  <data name="labelVersionsText.Text" xml:space="preserve">
+    <value>ສະ​ບັບ​ປະ​ຈຸ​ບັນ​:
+ຮຸ່ນຫຼ້າສຸດ:</value>
   </data>
-  <data name="statusConnecting" xml:space="preserve">
-    <value>ਕੁਨੈਕਟ ਕਰ ਰਿਹਾ ਹੈ...</value>
+  <data name="buttonSkipUpdate.Text" xml:space="preserve">
+    <value>ຂ້າມສະບັບນີ້</value>
   </data>
-  <data name="statusConnectionFailed" xml:space="preserve">
-    <value>ਕੁਨੈਕਟ ਫੇਲ ਹੋਇਆ (ਕੀ ਡਿਸਕਨੈਕ ਚਾਲ ਰਿਹਾ ਹੈ?)</value>
-  </data>
-  <data name="statusDisconnected" xml:space="preserve">
-    <value>ਡਿਸਕਨੈਕਟ</value>
-  </data>
-  <data name="statusError" xml:space="preserve">
-    <value>ਕੁਨੈਕਟ਼ਨ ਗਲਤੀ (ਗਲਤ ID?)</value>
-  </data>
-  <data name="errorInvalidURL" xml:space="preserve">
-    <value>ਬਟਨਾਂ ਲਈ ਅਥਾਹ ਯੂਆਰਐਲ ਦਾ ਨਾਮ ਜਾਂ ਵਧੀਕ ਟੈਕਸਟ ਦਰਜ ਕੀਤਾ ਗਿਆ ਹੈ!</value>
-  </data>
-  <data name="errorNoInternet" xml:space="preserve">
-    <value>ਇੰਟਰਨੈਟ ਨਾਲ ਕੁਨੈਕਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ!</value>
-  </data>
-  <data name="noUpdatesFound" xml:space="preserve">
-    <value>ਕੋਈ ਅੱਪਡੇਟ ਨਹੀਂ ਮਿਲੀ!</value>
-  </data>
-  <data name="errorCorruptSettings" xml:space="preserve">
-    <value>ਸੈਟਿੰਗਜ਼ ਫਾਈਲ ਨਿਕਾਰਾ ਹੈ।
-ਸੈਟਿੰਗਾਂ ਨੂੰ ਰੀਸੈਟ ਕਰਨ ਲਈ ਹਾਂ ਦਬਾਓ, ਬੰਦ ਕਰਨ ਲਈ ਨਹੀਂ ਦਬਾਓ।</value>
-  </data>
-  <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>ਪ੍ਰੀਸੈਟ ਦਾ ਆਯਾਤ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ; ਫਾਇਲ ਗੁਆਈ ਜਾਂ, ਕੋਰੁਪਟ ਜਾਂ ਸਹੀ ਤਰੀਕੇ ਨਾਲ ਫਾਰਮੈਟ ਨਹੀਂ ਕੀਤਾ ਗਿਆ।</value>
-  </data>
-  <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>ਕੀ ਤੁਸੀਂ ਦੇਣ ਦੇਣ ਦਾ ਅਨੁਮਤੀ ਦਿਵਾਉਣੀ ਹੈ ਕਿ CustomRP ਵਿਕਸ਼ਲਨ ਸੱਦਾਂ ਨੂੰ ਵਿਕਸ਼ਿਪਕ ਦੇਣ ਲਈ?
-(ਸਾਰੇ ਡੇਟਾ ਵਿਅਕਤਗਤ ਬਣਾਇਆ ਜਾਂਦਾ ਹੈ।)</value>
-  </data>
-  <data name="errorSavingSettings" xml:space="preserve">
-    <value>ਸੈਟਿੰਗਾਂ ਸੰਭਾਲਣ ਦੌਰਾਨ ਗਲਤੀ ਹੋਈ:</value>
-  </data>
-  <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਏਂਟੀਵਾਇਰਸ ਦੇ ਬਿਨਾਂਨਾਂ ਸਮੱਸਿਆਵਾਂ ਵਿੱਚ "{0}" ਪਾਥ ਸ਼ਾਮਲ ਕਰੋ। ਯਦਿ ਇਹ ਗਲਤੀ ਬਣੀ ਰਹੀ ਹੈ ਤਾਂ CustomRP ਨੂੰ ਮੁੜ ਸਥਾਪਿਤ ਕਰੋ।</value>
-  </data>
-  <data name="errorInvalidImageURL" xml:space="preserve">
-    <value>ਚਿੱਤਰ ਦੀ URL ਖੋਜਣ ਲਈ ਗੁਆਈ ਹੈ!</value>
-  </data>
-  <data name="errorStartupShortcut" xml:space="preserve">
-    <value>ਸਟਾਰਟਅੱਪ ਸ਼ਾਰਟਕਟ ਜੋੜਨ ਜਾਂ ਹਟਾਉਣ ਵਿੱਚ ਅਸਫਲ:</value>
-  </data>
-  <data name="errorOpeningURL" xml:space="preserve">
-    <value>URL खोलने में विफल रहा। यह क्लिपबोर्ड पर कॉपी किया गया है।</value>
-  </data>
-  <data name="statusUpdatingPresence" xml:space="preserve">
-    <value>ਗਤੀਵਿਧੀ ਅਪਡੇਟ ਹੋ ਰਈ ਹੈ...</value>
-  </data>
-  <data name="newPresetConfirmation" xml:space="preserve">
-    <value>ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ 'ਤੇ ਸ਼ੁਰੂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?
-ਇਹ ਵਾਪਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।</value>
-  </data>
-  <data name="deleteSettings" xml:space="preserve">
-    <value>ਕੀ ਤੁਸੀਂ ਐਪਲੀਕੇਸ਼ਨ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਹਟਾਉਣੀ ਚਾਹੁੰਦੇ ਹੋ?
-ਇਹ ਕਾਰਵਾਈ ਵਾਪਸ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ।</value>
-  </data>
-  <data name="presenceTypePlaying" xml:space="preserve">
-    <value>ਖੇਡ</value>
-  </data>
-  <data name="presenceTypeListening" xml:space="preserve">
-    <value>ਸੁਣਨਾ</value>
-  </data>
-  <data name="presenceTypeWatching" xml:space="preserve">
-    <value>ਦੇਖਣਾ</value>
-  </data>
-  <data name="presenceTypeCompeting" xml:space="preserve">
-    <value>ਮੁਕਾਬਲਾ</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ອັບເດດມີໃຫ້</value>
   </data>
 </root>
