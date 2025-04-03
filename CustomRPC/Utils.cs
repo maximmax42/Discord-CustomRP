@@ -252,7 +252,7 @@ namespace CustomRPC
                     EnglishName = "Bulgarian",
                     Code = "bg",
                     Translators = new Person[] {
-                        new Person { Name = "Nikolay Shangov (aka 21)", Url = "https://www.nikolayshangov.com/" },
+                        new Person { Name = "21" },
                         new Person { Name = "TheLocalSlavic" },
                         new Person { Name = "EmeraldCeat", Url = "https://discord.gg/reformedcityrp" },
                     }
