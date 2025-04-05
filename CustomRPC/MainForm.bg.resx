@@ -200,7 +200,7 @@
     <value>312, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Стартирай приложението с Windows</value>
+    <value>Стартирай с Windows</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>312, 22</value>
@@ -374,7 +374,7 @@
     <value>Голямо изображение</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
-    <value>Изображение, което се показва в ляво от текста зададен отгоре.</value>
+    <value>Изображение, което се показва вляво от текста зададен отгоре.</value>
   </data>
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 18</value>

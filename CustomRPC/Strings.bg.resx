@@ -144,7 +144,7 @@
     <value>Свръзване...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Връзката е неуспешна (Discord върви ли?)</value>
+    <value>Връзката е неуспешна (Discord отворен ли е?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>Връзката е прекъсната</value>
