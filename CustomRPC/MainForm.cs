@@ -633,7 +633,7 @@ namespace CustomRPC
         /// <summary>
         /// Initializes connection to the Discord API.
         /// </summary>
-        /// <returns><see langword="False"/> if ID isn't set or something is wrong with the presence, otherwise <see langword="true"/>.</returns>
+        /// <returns><see langword="False"/> if ID isn't set or something happened when establishing the connection, otherwise <see langword="true"/>.</returns>
         private bool Init()
         {
             if (settings.id == "")
@@ -653,9 +653,7 @@ namespace CustomRPC
 
             client.Logger = new TimestampFileLogger(Application.StartupPath + "\\logs");
 
-            client.Initialize();
-
-            return SetPresence();
+            return client.Initialize();
         }
 
         /// <summary>
@@ -714,8 +712,6 @@ namespace CustomRPC
         /// </summary>
         private void ClientOnConnFailed(object sender, DiscordRPC.Message.ConnectionFailedMessage args)
         {
-            ConnectionManager.State = ConnectionState.Error;
-
             Invoke(new MethodInvoker(() =>
             {
                 if (buttonConnect.Enabled) // Ignore if the user disconnected before connection was established
@@ -724,6 +720,8 @@ namespace CustomRPC
                 textBoxID.BackColor = CurrentColors.BgTextFieldsError;
                 toolStripStatusLabelStatus.Text = Strings.statusConnectionFailed;
             }));
+
+            ConnectionManager.State = ConnectionState.Error;
 
             if (ConnectionManager.HasChanged()) // Ignore repeated calls caused by auto reconnect
                 Analytics.TrackEvent("Connection failed");
@@ -745,6 +743,8 @@ namespace CustomRPC
 
                 ConnectionManager.State = ConnectionState.UpdatingPresence;
                 toolStripStatusLabelStatus.Text = Strings.statusUpdatingPresence;
+
+                SetPresence();
             }));
         }
 
