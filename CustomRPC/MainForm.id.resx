@@ -152,13 +152,13 @@
     <value>195, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Muat Setelan</value>
+    <value>Muat Preset</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Simpan Setelan</value>
+    <value>Simpan Preset</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>192, 6</value>
@@ -167,7 +167,7 @@
     <value>195, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Unggah Aset</value>
+    <value>Unggah Preset</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>192, 6</value>
@@ -481,7 +481,7 @@ agar bekerja, kedua bidang harus lebih dari 0.</value>
     <value>Stempel waktu khusus</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sambungan otomatis</value>
+    <value>Otomatis tersambung</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
     <value>Izinkan Analisa</value>

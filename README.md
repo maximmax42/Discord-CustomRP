@@ -101,7 +101,7 @@ So far, the app supports these languages:
 * [Hindi](https://poeditor.com/projects/po_edit?id_language=63&per_page=100&id=409229) (thanks to [Mridun Gupta](https://contact.mridungupta.eu.org), [regex](https://github.com/REGEX777), [Julian](https://julian-idl.codes/) and mochiron desu)
 * [Hungarian](https://poeditor.com/projects/po_edit?id_language=65&per_page=100&id=409229) (thanks to [Botond Balla](https://github.com/BallaBotond), Noxie and BunDzsi)
 * [Icelandic](https://poeditor.com/projects/po_edit?id_language=66&per_page=100&id=409229) (thanks to phoenix, Meelis and Amr Ezzat)
-* [Indonesian](https://poeditor.com/projects/po_edit?id_language=69&per_page=100&id=409229) (thanks to Hapnan, [Bayu Sopwan](https://bayusopwan.github.io), Apolycious, OHMKUB and xChellz)
+* [Indonesian](https://poeditor.com/projects/po_edit?id_language=69&per_page=100&id=409229) (thanks to Hapnan, [Bayu Sopwan](https://bayusopwan.github.io), Apolycious, OHMKUB, xChellz and delaragon)
 * [Italian](https://poeditor.com/projects/po_edit?id_language=75&per_page=100&id=409229) (thanks to DJD320, [NEKO](https://www.youtube.com/@ilcanaledineko),  Frin, Bay, Matthww, [ItsMrCube](https://mrcube.dev/) and Patrick Canal)
 * [Japanese](https://poeditor.com/projects/po_edit?id_language=76&per_page=100&id=409229) (thanks to KABIKIRA000 and mititt)
 * [Kannada](https://poeditor.com/projects/po_edit?id_language=79&per_page=100&id=409229) (thanks to [Naagu](https://github.com/NaaguYT/))

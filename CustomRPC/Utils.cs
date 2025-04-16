@@ -506,9 +506,10 @@ namespace CustomRPC
                     Translators = new Person[] {
                         new Person { Name = "Hapnan" },
                         new Person { Name = "Bayu Sopwan", Url = "https://bayusopwan.github.io/" },
-                        new Person { Name = "Apolycious" },
+                        new Person { Name = "Apolycious" }, // +1
                         OHMKUB,
-                        new Person { Name = "xChellz" },
+                        new Person { Name = "xChellz" }, // +1?
+                        new Person { Name = "delaragon" }, // Rean
                     }
                 },
                 new Language {
