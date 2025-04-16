@@ -890,7 +890,10 @@
       <DependentUpon>Strings.resx</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Strings.lo.resx" />
+    <EmbeddedResource Include="Strings.lo.resx">
+      <DependentUpon>Strings.resx</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Strings.lt.resx">
       <DependentUpon>Strings.resx</DependentUpon>
       <SubType>Designer</SubType>
