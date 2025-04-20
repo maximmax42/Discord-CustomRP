@@ -932,13 +932,14 @@ namespace CustomRPC
             this.presetComboBox.FormattingEnabled = true;
             resources.ApplyResources(this.presetComboBox, "presetComboBox");
             this.presetComboBox.Name = "presetComboBox";
+            this.presetComboBox.Enabled = false;
             this.presetComboBox.SelectedIndexChanged += new EventHandler(PresetComboBox_SelectedIndexChanged);
             // 
             // label1
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            // 
+            //
             // MainForm
             // 
             this.AllowDrop = true;

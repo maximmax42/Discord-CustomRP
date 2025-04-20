@@ -1755,13 +1755,21 @@ namespace CustomRPC
         private void LoadPresetsFromDirectory(Uri directory)
         {
             settings.presetDirectory = directory.AbsolutePath.ToString();
+            Utils.SaveSettings();
             var directoryInfo = new DirectoryInfo(directory.AbsolutePath.ToString());
             var files = directoryInfo.GetFiles("*.crp");
             var presets = files.Select(f => this.MapPreset(f));
+            presetComboBox.Items.Clear();
+            presetComboBox.Text = string.Empty;
             presetComboBox.Items.AddRange(presets.ToArray());
 
+            if (presetComboBox.Items.Count > 0)
+            {
+                presetComboBox.Enabled = true;
+            }
+
             // Set selection to active preset
-            if(!string.IsNullOrWhiteSpace(settings.id) && presets.Any(p => p.ID == settings.id))
+            if (!string.IsNullOrWhiteSpace(settings.id) && presets.Any(p => p.ID == settings.id))
             {
                 var activePreset = presets.First(p => p.ID.Equals(settings.id, StringComparison.OrdinalIgnoreCase));
                 presetComboBox.Text = activePreset.FriendlyName;
