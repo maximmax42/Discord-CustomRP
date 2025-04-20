@@ -1763,10 +1763,7 @@ namespace CustomRPC
             presetComboBox.Text = string.Empty;
             presetComboBox.Items.AddRange(presets.ToArray());
 
-            if (presetComboBox.Items.Count > 0)
-            {
-                presetComboBox.Enabled = true;
-            }
+            presetComboBox.Enabled = presetComboBox.Items.Count > 0 ? true : false;
 
             // Set selection to active preset
             if (!string.IsNullOrWhiteSpace(settings.id) && presets.Any(p => p.ID == settings.id))
