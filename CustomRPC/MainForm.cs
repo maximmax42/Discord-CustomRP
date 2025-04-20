@@ -26,30 +26,6 @@ namespace CustomRPC
      */
 
     /// <summary>
-    /// A struct for handling preset importing/exporting.
-    /// </summary>
-    [Serializable]
-    public struct Preset
-    {
-        public string ID;
-        public int Type;
-        public string Details;
-        public string State;
-        public int PartySize;
-        public int PartyMax;
-        public int Timestamps;
-        public DateTime CustomTimestamp;
-        public string LargeKey;
-        public string LargeText;
-        public string SmallKey;
-        public string SmallText;
-        public string Button1Text;
-        public string Button1URL;
-        public string Button2Text;
-        public string Button2URL;
-    }
-
-    /// <summary>
     /// A struct for getting available image assets for current application.
     /// </summary>
     public struct ImageAssets
@@ -97,6 +73,21 @@ namespace CustomRPC
         /// List of presence buttons.
         /// </summary>
         List<DButton> buttonsList = new List<DButton>();
+
+        /// <summary>
+        /// The list of all the presets in the user's set preset directory.
+        /// </summary>
+        List<Preset> presetsInDirectory = new List<Preset>();
+
+        /// <summary>
+        /// The names of every preset in the user's set preset directory.
+        /// </summary>
+        List<string> presetNames = new List<string>();
+
+        /// <summary>
+        /// The directory in which presets are located.
+        /// </summary>
+        Uri presetDirectory = null;
 
         /// <summary>
         /// Prevents some event handlers from executing while the app is loading.
@@ -1704,6 +1695,35 @@ namespace CustomRPC
         {
             Utils.SaveSettings();
             SetPresence();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void setPresetDirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var dialog = new FolderBrowserDialog();
+            dialog.ShowDialog();
+
+            if(Uri.TryCreate(dialog.SelectedPath, UriKind.Absolute, out var uri))
+            {
+                this.presetDirectory = uri;
+                var directoryInfo = new DirectoryInfo(uri.AbsolutePath.ToString());
+                var files = directoryInfo.GetFiles("*.crp");
+                foreach (var file in files)
+                {
+                    settings.presetDirectory = uri.AbsolutePath.ToString();
+                    var formattedFileName = file.Name
+                        .Replace("_", " ")
+                        .Replace("-", " ")
+                        .Replace(".crp", string.Empty)
+                        .Trim();
+                    this.presetNames.Add(formattedFileName);
+                    presetComboBox.Items.Add(formattedFileName);
+                }
+            }
         }
     }
 }

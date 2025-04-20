@@ -64,6 +64,8 @@
             this.defaultToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.sampleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.setPresetDirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openTheManualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.faqToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -126,6 +128,8 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
+            this.presetComboBox = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -266,7 +270,9 @@
             this.toolStripSeparatorSettings2,
             this.darkModeToolStripMenuItem,
             this.toolStripSeparatorSettings3,
-            this.languageToolStripMenuItem});
+            this.languageToolStripMenuItem,
+            this.toolStripSeparator1,
+            this.setPresetDirToolStripMenuItem});
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
             resources.ApplyResources(this.settingsToolStripMenuItem, "settingsToolStripMenuItem");
             // 
@@ -363,6 +369,17 @@
             resources.ApplyResources(this.sampleToolStripMenuItem, "sampleToolStripMenuItem");
             this.sampleToolStripMenuItem.Tag = "lol";
             this.sampleToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguage);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
+            // 
+            // setPresetDirToolStripMenuItem
+            // 
+            this.setPresetDirToolStripMenuItem.Name = "setPresetDirToolStripMenuItem";
+            resources.ApplyResources(this.setPresetDirToolStripMenuItem, "setPresetDirToolStripMenuItem");
+            this.setPresetDirToolStripMenuItem.Click += new System.EventHandler(this.setPresetDirToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -908,12 +925,25 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
+            // presetComboBox
+            // 
+            this.presetComboBox.FormattingEnabled = true;
+            resources.ApplyResources(this.presetComboBox, "presetComboBox");
+            this.presetComboBox.Name = "presetComboBox";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
             // MainForm
             // 
             this.AllowDrop = true;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.presetComboBox);
             this.Controls.Add(this.labelType);
             this.Controls.Add(this.comboBoxType);
             this.Controls.Add(this.tableLayoutPanelButtons);
@@ -959,6 +989,7 @@
             this.MinimizeBox = false;
             this.Name = "MainForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MinimizeToTray);
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.DragDropHandler);
             this.DragEnter += new System.Windows.Forms.DragEventHandler(this.DragDropEnter);
             this.trayMenuStrip.ResumeLayout(false);
@@ -1072,6 +1103,10 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanelButtons;
         private System.Windows.Forms.Label labelType;
         private System.Windows.Forms.ComboBox comboBoxType;
+        private System.Windows.Forms.ComboBox presetComboBox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripMenuItem setPresetDirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
     }
 }
 

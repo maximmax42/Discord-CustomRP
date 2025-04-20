@@ -95,6 +95,7 @@
     </Compile>
     <Compile Include="AppCenterSecret.cs" />
     <Compile Include="ConnectionManager.cs" />
+    <Compile Include="Preset.cs" />
     <Compile Include="Themes.cs" />
     <Compile Include="ErrorReportViewer.cs">
       <SubType>Form</SubType>
