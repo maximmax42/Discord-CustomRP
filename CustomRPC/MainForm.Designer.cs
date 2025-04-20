@@ -1,4 +1,6 @@
-﻿namespace CustomRPC
+﻿using System;
+
+namespace CustomRPC
 {
     partial class MainForm
     {
@@ -128,8 +130,8 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.presetComboBox = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.presetComboBox = new System.Windows.Forms.ComboBox();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -930,6 +932,7 @@
             this.presetComboBox.FormattingEnabled = true;
             resources.ApplyResources(this.presetComboBox, "presetComboBox");
             this.presetComboBox.Name = "presetComboBox";
+            this.presetComboBox.SelectedIndexChanged += new EventHandler(PresetComboBox_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -1103,10 +1106,10 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanelButtons;
         private System.Windows.Forms.Label labelType;
         private System.Windows.Forms.ComboBox comboBoxType;
-        private System.Windows.Forms.ComboBox presetComboBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolStripMenuItem setPresetDirToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ComboBox presetComboBox;
     }
 }
 
