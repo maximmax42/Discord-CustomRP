@@ -210,4 +210,7 @@ Bu geri alınamaz.</value>
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>Yarışmasında yarışıyor</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

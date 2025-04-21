@@ -194,4 +194,7 @@
     <value>ನೀವು ಮೊದಲಿನಿಂದ ಪ್ರಾರಂಭಿಸಲು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?
 ಇದನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗುವುದಿಲ್ಲ.</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

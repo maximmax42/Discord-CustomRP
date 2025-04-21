@@ -211,4 +211,7 @@
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>Competing</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

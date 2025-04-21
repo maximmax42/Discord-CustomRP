@@ -190,4 +190,7 @@
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>Ներկայությունը թարմացվում է...</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

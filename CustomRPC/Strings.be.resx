@@ -194,4 +194,7 @@
     <value>Вы ўпэўнены, што хочаце пачаць з нуля?
 Гэта не можа быць адменена.</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

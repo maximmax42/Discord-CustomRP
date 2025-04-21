@@ -172,16 +172,19 @@ Tryk på Ja for at nulstille indstillingerne, og tryk på Nej for at afslutte.</
     <value>Vil du tillade CustomRP at sende forbrugs analyser til udvikleren?
 (Alt data er ikke forbundet til dig som bruger.)</value>
   </data>
-  <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>Tilføj venligst "{0}" stien til dit antivirus-undtagelser. Geninstaller CustomRP, hvis denne fejl fortsætter.</value>
-  </data>
   <data name="errorSavingSettings" xml:space="preserve">
     <value>Der opstod en fejl under gemning af indstillingerne:</value>
+  </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>Tilføj venligst "{0}" stien til dit antivirus-undtagelser. Geninstaller CustomRP, hvis denne fejl fortsætter.</value>
   </data>
   <data name="errorInvalidImageURL" xml:space="preserve">
     <value>Billedets URL er for lang!</value>
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Det er ikke lykkedes at tilføje eller fjerne en genvej til opstart:</value>
+  </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
   </data>
 </root>

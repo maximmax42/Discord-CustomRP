@@ -194,4 +194,7 @@ Parametrləri sıfırlamaq üçün Bəli və ya çıxmaq üçün Xeyr düyməsin
     <value>Sıfırdan başlamaq istədiyinizə əminsiniz?
 Bu geri qaytarıla bilməz.</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

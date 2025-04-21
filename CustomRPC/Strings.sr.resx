@@ -184,4 +184,7 @@
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Грешком док додавања или уклањање пречице за покретање:</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

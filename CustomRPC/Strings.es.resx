@@ -210,4 +210,7 @@ Esto no se puede deshacer.</value>
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>Compitiendo</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

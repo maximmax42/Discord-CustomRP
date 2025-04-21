@@ -184,4 +184,7 @@
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>ഒരു സ്റ്റാർട്ടപ്പ് കുറുക്കുവഴി ചേർക്കാനോ നീക്കംചെയ്യാനോ പരാജയപ്പെട്ടു:</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

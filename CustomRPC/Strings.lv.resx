@@ -184,4 +184,7 @@ Nospiediet Jā, lai atjaunotu iestatījumus, nospiediet Nē, lai beigtu.</value>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Neizdevās pievienot vai noņemt starta saīsni:</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

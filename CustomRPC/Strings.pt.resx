@@ -210,4 +210,7 @@ Esta ação não pode ser revertida.</value>
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>Competindo</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

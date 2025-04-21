@@ -194,4 +194,7 @@ Paspauskite Taip kad atstatyti nustatymus, paspauskite Ne kad išeiti.</value>
     <value>Ar norite pradėti iš naujo?
 To nebus galima atstatyti.</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

@@ -209,4 +209,7 @@ Dit kan niet ongedaan gemaakt worden.</value>
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>Concurreren</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

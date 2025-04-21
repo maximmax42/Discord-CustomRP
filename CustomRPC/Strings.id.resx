@@ -210,4 +210,7 @@ Tindakan ini tidak dapat dibatalkan.</value>
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>Bersaing</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

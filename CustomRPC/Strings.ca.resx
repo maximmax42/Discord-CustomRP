@@ -184,4 +184,7 @@ Premeu Sí per restablir la configuració, premeu No per sortir.</value>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>No s'ha pogut afegir o eliminar una drecera d'inici:</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

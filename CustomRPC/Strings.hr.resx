@@ -184,4 +184,7 @@ Pritisnite Da da biste ponovno postavili postavke, pritisnite Ne da biste odusta
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Dodavanje ili uklanjanje prečaca za pokretanje nije uspjelo:</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

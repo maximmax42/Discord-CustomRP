@@ -194,4 +194,7 @@
     <value>Нөлден бастағыңыз келетініне сенімдісіз бе?
 Бұл әрекетті қайтару мүмкін емес.</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

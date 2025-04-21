@@ -120,6 +120,11 @@
   <data name="error" xml:space="preserve">
     <value>Fehler</value>
   </data>
+  <data name="errorCannotConnect" xml:space="preserve">
+    <value />
+    <comment>Es kann keine Verbindung zum Discord-Client hergestellt werden.
+Bist du sicher, dass es läuft?</comment>
+  </data>
   <data name="errorNoID" xml:space="preserve">
     <value>Keine ID wurde festgelegt!</value>
   </data>
@@ -152,11 +157,6 @@ Du kannst sie jederzeit öffnen, indem du auf Hilfe -&gt; Handbuch öffnen gehst
   </data>
   <data name="statusError" xml:space="preserve">
     <value>Verbindungsfehler (Falsche ID?)</value>
-  </data>
-  <data name="errorCannotConnect" xml:space="preserve">
-    <value></value>
-    <comment>Es kann keine Verbindung zum Discord-Client hergestellt werden.
-Bist du sicher, dass es läuft?</comment>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
     <value>Ungültige URL für die Schaltfläche(n) angegeben oder der Text ist zu lang!</value>
@@ -215,5 +215,8 @@ Dies kann nicht rückgängig gemacht werden.</value>
   </data>
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>Wettstreiten</value>
+  </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
   </data>
 </root>

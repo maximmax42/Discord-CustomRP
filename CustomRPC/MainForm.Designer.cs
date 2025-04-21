@@ -380,6 +380,7 @@ namespace CustomRPC
             // setPresetDirToolStripMenuItem
             // 
             this.setPresetDirToolStripMenuItem.Name = "setPresetDirToolStripMenuItem";
+            this.setPresetDirToolStripMenuItem.Text = Strings.setPresetDirectory;
             resources.ApplyResources(this.setPresetDirToolStripMenuItem, "setPresetDirToolStripMenuItem");
             this.setPresetDirToolStripMenuItem.Click += new System.EventHandler(this.setPresetDirToolStripMenuItem_Click);
             // 

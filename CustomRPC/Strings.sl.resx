@@ -193,4 +193,7 @@ Pritisnite Da za ponastavitev nastavitev, pritisnite Ne za izhod.</value>
   <data name="newPresetConfirmation" xml:space="preserve">
     <value>Ali si prepričan da želiš začeti znova? Odločitve ne moreš spremniti.</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

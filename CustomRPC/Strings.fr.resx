@@ -210,4 +210,7 @@ Cette action est irréversible.</value>
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>En compétition</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

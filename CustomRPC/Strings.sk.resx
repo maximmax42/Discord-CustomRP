@@ -210,4 +210,7 @@ Táto akcia je nevratná.</value>
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>Súťaží</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

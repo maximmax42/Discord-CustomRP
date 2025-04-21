@@ -184,4 +184,7 @@ Nyomd meg az Igen-t hogy újraállísd a beállításokat, nyomd meg a Nem-et ho
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Parancsikon hozzáadása vagy törlése sikertelen:</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

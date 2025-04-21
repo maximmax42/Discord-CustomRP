@@ -194,6 +194,10 @@
     <value>คุณแน่ใจหรือไม่ว่าต้องการเริ่มต้นจากศูนย์?
 สิ่งนี้ไม่สามารถแก้ไขได้.</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>คุณต้องการลบการตั้งค่าแอปพลิเคชันหรือไม่?
+ไม่สามารถย้อนกลับได้.</value>
+  </data>
   <data name="presenceTypePlaying" xml:space="preserve">
     <value>กำลังเล่น</value>
   </data>
@@ -206,8 +210,7 @@
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>กำลังแข่งขัน</value>
   </data>
-  <data name="deleteSettings" xml:space="preserve">
-    <value>คุณต้องการลบการตั้งค่าแอปพลิเคชันหรือไม่?
-ไม่สามารถย้อนกลับได้.</value>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
   </data>
 </root>

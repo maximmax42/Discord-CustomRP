@@ -210,4 +210,7 @@ Chọn Có để đặt lại thiết lập, chọn Không để thoát.</value>
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>Đang cạnh tranh</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

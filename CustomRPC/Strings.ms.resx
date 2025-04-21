@@ -210,4 +210,7 @@ Ini tidak boleh dibuat asal.</value>
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>Bertanding</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

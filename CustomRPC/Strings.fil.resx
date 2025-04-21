@@ -210,4 +210,7 @@ Hindi na ito maaaring bawiin.</value>
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>Nakikicompetisyon</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

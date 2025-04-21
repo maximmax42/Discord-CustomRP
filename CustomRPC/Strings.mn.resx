@@ -187,4 +187,7 @@
   <data name="errorOpeningURL" xml:space="preserve">
     <value>Линк луу орход алдаа гарлаа. Энэ алдаа хадагдалдсан.</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

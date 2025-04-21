@@ -184,4 +184,7 @@ Klikk Ja for å nullstille innstillinger, klikk Nei for å lukke.</value>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Kunne ikke lage eller slette en oppstarts snarvei:</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

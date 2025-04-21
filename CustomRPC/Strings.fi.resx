@@ -210,4 +210,7 @@ Tätä ei voi perua.</value>
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>Kilpailee</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

@@ -155,11 +155,11 @@ Você pode abri-lo a qualquer momento em Ajuda -&gt; Abra o manual ou pressionan
   <data name="errorInvalidURL" xml:space="preserve">
     <value>URL inválida especificada ou o texto é longo demais!</value>
   </data>
-  <data name="noUpdatesFound" xml:space="preserve">
-    <value>Nenhuma atualização encontrada!</value>
-  </data>
   <data name="errorNoInternet" xml:space="preserve">
     <value>Não consigo me conectar à internet!</value>
+  </data>
+  <data name="noUpdatesFound" xml:space="preserve">
+    <value>Nenhuma atualização encontrada!</value>
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
     <value>O arquivo de configurações está corrompido.
@@ -209,5 +209,8 @@ Isso não pode ser desfeito.</value>
   </data>
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>Competindo</value>
+  </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
   </data>
 </root>

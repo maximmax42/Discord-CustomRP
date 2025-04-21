@@ -210,4 +210,7 @@ Questa azione non può essere annullata.</value>
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>In competizione su</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

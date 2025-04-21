@@ -184,4 +184,7 @@ Tryck Ja för att återställa inställningarna, tryck Nej för att avsluta.</va
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Misslyckades med att lägga till eller ta bort en uppstartninggenväg:</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

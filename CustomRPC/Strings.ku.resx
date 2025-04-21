@@ -184,4 +184,7 @@
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>سەرکەوتوو نابوو لە زیاد کردن یان لابردنی دامەزراندی کورتە ڕێیی:</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

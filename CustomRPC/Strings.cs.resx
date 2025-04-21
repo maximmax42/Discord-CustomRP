@@ -194,4 +194,7 @@ Klikněte Ano pro reset nastavení, klikněte Ne pro opuštění.</value>
     <value>Jsi si jistý že chceš začít znovu?
 Tato akce nemůže být vrácena.</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

@@ -210,4 +210,7 @@
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>参戦中</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

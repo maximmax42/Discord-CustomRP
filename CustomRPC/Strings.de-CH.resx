@@ -210,4 +210,7 @@ Das cha nümme rüchgängig gmacht werde.</value>
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>Wettkämpfe</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

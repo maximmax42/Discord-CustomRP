@@ -178,4 +178,7 @@
   <data name="errorLoadingAssembly" xml:space="preserve">
     <value>உங்கள் வைரஸ் தடுப்பு விதிவிலக்குகளில் "{0}" பாதையைச் சேர்க்கவும். இந்த பிழை தொடர்ந்தால் CustomRP ஐ மீண்டும் நிறுவவும்.</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>

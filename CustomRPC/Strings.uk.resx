@@ -194,4 +194,7 @@
     <value>Ви хочете почати все з нуля?
 Ваші дані вже не будуть повернені.</value>
   </data>
+  <data name="setPresetDirectory" xml:space="preserve">
+    <value />
+  </data>
 </root>
