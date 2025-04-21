@@ -1083,9 +1083,9 @@ namespace CustomRPC
                 comboBoxSmallKey.Text = textBoxSmallText.Text =
                 textBoxButton1Text.Text = textBoxButton1URL.Text =
                 textBoxButton2Text.Text = textBoxButton2URL.Text = "";
-            comboBoxType.SelectedValue = ActivityType.Playing;
-            numericUpDownPartySize.Value = numericUpDownPartyMax.Value = 0;
-            radioButtonNone.Checked = true;
+                comboBoxType.SelectedValue = ActivityType.Playing;
+                numericUpDownPartySize.Value = numericUpDownPartyMax.Value = 0;
+                radioButtonNone.Checked = true;
         }
 
         /// <summary>
@@ -1096,17 +1096,20 @@ namespace CustomRPC
         private Preset MapPreset(FileInfo file)
         {
             Preset preset = null;
-            preset = this.MapPreset(file.OpenRead());
-
-            // If the file doesn't have a friendly name (because it was created in a previous version of the app), set it now.
-            if (preset != null && string.IsNullOrWhiteSpace(preset.FriendlyName))
+            using (var stream = file.Open(System.IO.FileMode.Open))
             {
-                preset.FriendlyName = file.Name
-                .Replace("_", " ")
-                .Replace("-", " ")
-                .Replace(".crp", string.Empty)
-                .Trim();
+                preset = this.MapPreset(stream);
+                // If the file doesn't have a friendly name (because it was created in a previous version of the app, for example), set it now.
+                if (preset != null && string.IsNullOrWhiteSpace(preset.FriendlyName))
+                {
+                    preset.FriendlyName = file.Name;
+                    stream.SetLength(0); // Clear the stream
+                    var xmlSerializer = new XmlSerializer(typeof(Preset));
+                    xmlSerializer.Serialize(stream, preset);
+                    stream.Close();
+                }
             }
+
 
             return preset;
         }
@@ -1209,7 +1212,10 @@ namespace CustomRPC
 
             try
             {
-                LoadPreset(presetFile.OpenFile());
+                using (Stream stream = presetFile.OpenFile())
+                {
+                    LoadPreset(stream);
+                }
             }
             catch
             {
@@ -1271,11 +1277,13 @@ namespace CustomRPC
                             Button1URL = settings.button1URL,
                             Button2Text = settings.button2Text,
                             Button2URL = settings.button2URL,
-                            FriendlyName = presetFile.FileName,
+                            FriendlyName = Path.GetFileName(presetFile.FileName),
                         });
                     }
 
                     Analytics.TrackEvent("Saved a preset");
+
+                    this.LoadPresetsFromDirectory(presetDirectory);
 
                     return;
                 }

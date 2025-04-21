@@ -8,6 +8,8 @@ namespace CustomRPC
     [Serializable]
     public sealed class Preset
     {
+        private string _friendlyName;
+
         public string ID;
         public int Type;
         public string Details;
@@ -24,7 +26,20 @@ namespace CustomRPC
         public string Button1URL;
         public string Button2Text;
         public string Button2URL;
-        public string FriendlyName;
+        public string FriendlyName { 
+            get
+            {
+                return _friendlyName;
+            }
+            set
+            {
+                _friendlyName = value
+                    .Replace("_", " ")
+                    .Replace("-", " ")
+                    .Replace(".crp", string.Empty)
+                    .Trim();
+            } 
+        }
 
         public override string ToString()
         {
