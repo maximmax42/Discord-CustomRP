@@ -37,7 +37,7 @@ Custom Discord Rich Presence Manager for Windows 7+. Some of its features are ru
 * Nicola Occhipinti - $3.44 (309.00 RUB)
 * Yoshi - $3.28 (200.00 RUB)
 * Anonymous - $2.62 (0.00011304 BTC)
-* RÏÇH KËÊD - $2.10 (30.00 TRX)
+* [ᏒᎥፈᏂᏦᏋᏋᎴ](https://github.com/RICH-KEED) - $2.10 (30.00 TRX)
 * Death - $1.93 (142.00 RUB)
 * Jan - $1.49 (100.00 RUB)
 * [Mykm](https://github.com/yumiruuwu) - $1.30 (100.00 RUB)
