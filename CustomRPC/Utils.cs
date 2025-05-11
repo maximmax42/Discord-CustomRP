@@ -1056,7 +1056,7 @@ namespace CustomRPC
                     AltAmount = "142.00 RUB"
                 },
                 new Supporter {
-                    Name = "ᏒᎥፈᏂᏦᏋᏋᎴ",
+                    Name = "RICHKEED",
                     Url = "https://github.com/RICH-KEED",
                     USDAmount = "2.10",
                     AltAmount = "30.00 TRX"
