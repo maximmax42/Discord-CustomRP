@@ -468,4 +468,7 @@ Effektiv olmaq üçün heç bir sahə 0-dan böyük olmamalıdır.</value>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>/</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Məvcudluq üçün fəaliyyət növü.</value>
+  </data>
 </root>

@@ -121,7 +121,7 @@
     <value>Haz doble clic en el ícono para mostrarlo de nuevo, o haz clic derecho para salir.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>La aplicación se ejecutara en la bandeja.</value>
+    <value>La aplicación se ejecutará en la bandeja del sistema.</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>Abrir</value>
@@ -173,7 +173,7 @@
     <value>221, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ejecutar al Inicio</value>
+    <value>Ejecutar al Inicio de Windows</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>221, 22</value>
@@ -236,7 +236,7 @@
     <value>95, 20</value>
   </data>
   <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Configuraciones</value>
+    <value>Ajustes</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 22</value>
@@ -323,7 +323,7 @@
     <value>Desconectar</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Desconecta la aplicación de Discord. Ten en cuenta que puede tardar un poco.</value>
+    <value>Desconecta la aplicación de Discord. Ten en cuenta que esto podría tardar un poco.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>ID de la aplicación del sitio Discord Developers.</value>

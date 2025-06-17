@@ -144,7 +144,7 @@ Puedes abrirlo en cualquier momento yendo a Ayuda -&gt; Abrir el Manual o presio
     <value>Conectando...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Conexión fallida (¿Discord se está ejecutando?)</value>
+    <value>Conexión fallida (¿Está ejecutándose Discord?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>Desconectado</value>
@@ -195,8 +195,8 @@ Presiona "Sí" para restablecer la configuración, presiona "No" para salir.</va
 Esto es irreversible.</value>
   </data>
   <data name="deleteSettings" xml:space="preserve">
-    <value>¿Quieres eliminar la configuración de la aplicación?
-Esto no se puede deshacer.</value>
+    <value>¿Deseas eliminar los datos de configuración de la aplicación? 
+Esta acción es irreversible.</value>
   </data>
   <data name="presenceTypePlaying" xml:space="preserve">
     <value>Jugando</value>

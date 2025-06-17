@@ -456,4 +456,13 @@ Da bi se išta desilo, oba polja bi trebala biti veća od 0.</value>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>od</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Često postavljana pitanja</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Novi Preset</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Vrsta aktivnosti za prisutnost.</value>
+  </data>
 </root>

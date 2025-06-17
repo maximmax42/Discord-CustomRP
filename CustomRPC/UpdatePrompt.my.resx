@@ -134,19 +134,19 @@
     <value>168, 18</value>
   </data>
   <data name="checkBoxNeverNotify.Text" xml:space="preserve">
-    <value>Update များကို ထပ်မစစ်ဆေးပါနှင့်</value>
+    <value>နောက်တစ်ခါ ထပ်မစစ်ဆေးပါနှင့်။</value>
   </data>
   <data name="labelVersionsText.Text" xml:space="preserve">
-    <value>လက်ရှိ version:
-နောက်ဆုံးထွက် version:</value>
+    <value>လက်ရှိဗားရှင်း:
+နောက်ဆုံးဗားရှင်း:</value>
   </data>
   <data name="buttonSkipUpdate.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 23</value>
   </data>
   <data name="buttonSkipUpdate.Text" xml:space="preserve">
-    <value>ဤ Version ကို ကျော် ပါ</value>
+    <value>ဤဗားရှင်းကို ကျော်သွားပါ။</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Update အသစ် ရနိုင်ပါ ပြီ</value>
+    <value>အပ်ဒိတ်ရရှိနိုင်ပါသည်။</value>
   </data>
 </root>

@@ -453,4 +453,13 @@
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>অফ</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>সাধারণ জিজ্ঞাসা</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>নতুন প্রিসেট</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>অবস্থার কার্যকলাপের ধরণ।</value>
+  </data>
 </root>

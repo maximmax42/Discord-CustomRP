@@ -163,7 +163,7 @@ Bármikor megteheted ha a Segítség -&gt; Használati Utasítás megnyitására
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
     <value>Beállítások fájl megsérült.
-Nyomd meg az Igen-t hogy újraállísd a beállításokat, nyomd meg a Nem-et hogy kilépj.</value>
+Nyomj Igen-t hogy visszaállísd a beállításokat, nyomj Nem-et hogy kilépj.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
     <value>Nem sikerült betölteni a sémát. Lehet, hogy a fájl hiányzik, károsodott vagy rossz a formátuma.</value>
@@ -183,5 +183,30 @@ Nyomd meg az Igen-t hogy újraállísd a beállításokat, nyomd meg a Nem-et ho
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Parancsikon hozzáadása vagy törlése sikertelen:</value>
+  </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Nem sikerült megnyitni az URL-t. Ki lett másolva a vágólapra.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Állapot frissítése...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Biztos, hogy az elejétől akarsz kezdeni? Ezt nem lehet visszacsinálni.</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Törölni szeretnéd az alkalmazás beállításait?
+Ezt nem lehet visszacsinálni.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Játékban</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Hallgatja</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Nézi</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Versenyez</value>
   </data>
 </root>

@@ -121,7 +121,7 @@
     <value>နောက်တစ်ကြိမ်ဖွင့်ရန် app ကိုနှစ်ချက်နှိပ်၍ ထွက်ရန် right-click ကို နှိပ်ပါ</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>app သည် tray တွင် ဆက်လက် run နေပါမည်</value>
+    <value>App သည် tray တွင် ဆက်လက် run နေပါမည်</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>ဖွင့်ပါ</value>
@@ -227,7 +227,7 @@
     <value>ဘာသာပြန်များ</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Updates များအတွက် စစ်ဆေးပါ...</value>
+    <value>အပ်ဒိတ်များ စစ်ဆေးနေသည်...</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>CustomRP အကြောင်း...</value>
@@ -254,7 +254,7 @@
     <value>Status ကို update တင်မည်</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
-    <value>status ကို update တင်သည်</value>
+    <value>Status ကို update တင်သည်</value>
   </data>
   <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>222, 50</value>
@@ -263,7 +263,7 @@
     <value>ချိတ်မယ်</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>App ကိုသင့် ID ဖြင့် ချိတ်ဆက်ပါ</value>
+    <value>အပလီကေးရှင်းကို သတ်မှတ်ထားသော ID ဖြင့် တည်ရှိမှုကို ချိတ်ဆက်သည်။</value>
   </data>
   <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>310, 50</value>
@@ -275,25 +275,25 @@
     <value>ချိတ်ဆက်မှုကို ဖျက်မယ်</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>App ကို Discord မှ ထွက်ပါ. အချိန်အနည်းငယ်ကြာနိုင်သည်</value>
+    <value>အက်ပ်ကို Discord မှ ချိတ်ဆက်မှု ဖြတ်တောက်ပါသည်။ အချိန်အတန်ကြာနိုင်ကြောင်း သတိပြုပါ။</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>Discord Developers ဝက်ဆိုဒ်မှ app ၏ ID</value>
+    <value>Discord Developers ဆိုက်မှ အပလီကေးရှင်း၏ ID ။</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
-    <value>status ၏ ပထမအကြောင်း</value>
+    <value>တည်ရှိမှုတွင် ပထမစာကြောင်း။</value>
   </data>
   <data name="labelState.ToolTip" xml:space="preserve">
-    <value>status ၏ ဒုတိယအကြောင်း</value>
+    <value>တည်ရှိမှုတွင် ဒုတိယစာကြောင်း။</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>ရုပ်ပုံသေး (သို့မဟုတ်) ရုပ်ပုံ ၏URL</value>
+    <value>ပုံသေးအတွက် ပိုင်ဆိုင်မှုအမည် သို့မဟုတ် ပုံ URL ။</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
-    <value>ရုပ်ပုံသေအပေါ် mouseရှိလျှင် ပြသထားတဲ့ စာသာ</value>
+    <value>ပုံသေးပေါ်တွင် မောက်စ်တင်လိုက်သောအခါ ပြသသည့် စာသား။</value>
   </data>
   <data name="labelLargeText.ToolTip" xml:space="preserve">
-    <value>ရုပ်ပုံကြီးအပေါ် mouseရှိလျှင် ပြသထားတဲ့ စာသာ</value>
+    <value>ပုံကြီးပေါ်တွင် မောက်စ်တင်လိုက်သောအခါ ပြသသည့် စာသား။</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
     <value>ရုပ်ပုံကြီး (သို့မဟုတ်) ရုပ်ပုံ ၏URL</value>
@@ -394,15 +394,33 @@
     <value>212, 18</value>
   </data>
   <data name="radioButtonPresence.Text" xml:space="preserve">
-    <value>နောက်ဆုံး presence အသစ်ပြင်ဆင်ကတည်းက</value>
+    <value>နောက်ဆုံး အခြေအနေ အပ်ဒိတ်လုပ်ပြီးနောက်ပိုင်း</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
-    <value>presence ကို နောက်ဆုံး ပြင်ဆင်ခဲ့ကတည်းက အချိန်ဘယ်လောက် ကုန်လွန်သွားတယ်ဆိုတာ ပြပါသည်။</value>
+    <value>Presence ကို နောက်ဆုံး ပြင်ဆင်ခဲ့ကတည်းက အချိန်ဘယ်လောက် ကုန်လွန်သွားတယ်ဆိုတာ ပြပါသည်။</value>
   </data>
   <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
     <value>16, 14</value>
   </data>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>၏</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>အမှောင်စနစ်</value>
+  </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>အမေးများ သောမေးခွန်းများ</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>కొత్త Preset</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Presences కోసం కార్యకలాపాల రకం.</value>
   </data>
 </root>

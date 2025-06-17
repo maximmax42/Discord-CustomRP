@@ -194,4 +194,20 @@
     <value>Вы ўпэўнены, што хочаце пачаць з нуля?
 Гэта не можа быць адменена.</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Вы хочаце выдаліць налады прыкладання?
+Гэта нельга адклікаць.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Гуляе</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Слухае</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Глядзець</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Удзельнічае</value>
+  </data>
 </root>

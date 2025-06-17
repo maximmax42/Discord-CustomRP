@@ -199,6 +199,7 @@ namespace CustomRPC
         static Person dragonGRaf = new Person { Name = "dragon GRaf", Url = "https://github.com/dragongrafdiscord/mycustomrichpresence" };
         static Person falcon = new Person { Name = "falcon" };
         static Person Julian = new Person { Name = "Julian", Url = "https://julian-idl.codes/" };
+        static Person Korsinemi = new Person { Name = "Korsinemi" };
         static Person l0ngg = new Person { Name = "l0ngg" };
         static Person MarcelGustin = new Person { Name = "Marcel Gustin", Url = "https://marcelgustin.de" };
         static Person Matthww = new Person { Name = "Matthww" };
@@ -234,7 +235,8 @@ namespace CustomRPC
                     EnglishName = "Azerbaijani",
                     Code = "az",
                     Translators = new Person[] {
-                        Murat_Efendi,
+                        Murat_Efendi, // +2
+                        Korsinemi,
                     }
                 },
                 new Language {
@@ -242,8 +244,9 @@ namespace CustomRPC
                     EnglishName = "Belarusian",
                     Code = "be",
                     Translators = new Person[] {
-                        new Person { Name = "Alibical" }, // Chloe N.
-                        new Person { Name = "haydaay" },
+                        new Person { Name = "Alibical" }, // Chloe N., +5
+                        new Person { Name = "haydaay" }, // +1
+                        Korsinemi,
                         l0ngg,
                     }
                 },
@@ -262,7 +265,8 @@ namespace CustomRPC
                     EnglishName = "Bengali",
                     Code = "bn",
                     Translators = new Person[] {
-                        new Person { Name = "mrimran", Url = "https://github.com/mr-Imran" },
+                        new Person { Name = "mrimran", Url = "https://github.com/mr-Imran" }, // +1
+                        Korsinemi,
                         new Person { Name = "BlackBox-cmd" },
                     }
                 },
@@ -272,6 +276,7 @@ namespace CustomRPC
                     Code = "bs",
                     Translators = new Person[] {
                         new Person { Name = "Trax" }, // Emin
+                        Korsinemi,
                         new Person { Name = "Ammar" },
                     }
                 },
@@ -367,7 +372,7 @@ namespace CustomRPC
                     EnglishName = "Spanish",
                     Code = "es",
                     Translators = new Person[] {
-                        new Person { Name = "Korsinemi" }, // +1
+                        Korsinemi, // +1
                         new Person { Name = "Vexot" }, // +4
                         new Person { Name = "samykat1" },
                         new Person { Name = "Santiago" },
@@ -487,6 +492,7 @@ namespace CustomRPC
                     Code = "hu",
                     Translators = new Person[] {
                         new Person { Name = "Balla Botond", Url = "https://github.com/BallaBotond" },
+                        new Person { Name = "Levi" },
                         new Person { Name = "Noxie" },
                         new Person { Name = "BunDzsi" },
                     }
@@ -496,7 +502,8 @@ namespace CustomRPC
                     EnglishName = "Armenian",
                     Code = "hy",
                     Translators = new Person[] {
-                        new Person { Name = "Vahe Mnats" },
+                        new Person { Name = "Vahe Mnats" }, // +1
+                        Korsinemi,
                     }
                 },
                 new Language {
@@ -653,8 +660,9 @@ namespace CustomRPC
                     EnglishName = "Burmese",
                     Code = "my",
                     Translators = new Person[] {
-                        new Person { Name = "infer_", Url = "http://rentry.org/infer" },
-                        new Person { Name = "bearinthewonderland" }
+                        new Person { Name = "infer_", Url = "http://rentry.org/infer" }, // +5
+                        Korsinemi,
+                        new Person { Name = "bearinthewonderland" },
                     }
                 },
                 new Language {
@@ -893,14 +901,14 @@ namespace CustomRPC
             LanguageProgress = new Dictionary<string, string>();
             #region Generated code for progress
             LanguageProgress["ar"] = "100";
-            LanguageProgress["hy"] = "92.73";
-            LanguageProgress["az"] = "94.55";
-            LanguageProgress["be"] = "94.55";
-            LanguageProgress["bn"] = "90";
-            LanguageProgress["bs"] = "90";
+            LanguageProgress["hy"] = "100";
+            LanguageProgress["az"] = "100";
+            LanguageProgress["be"] = "100";
+            LanguageProgress["bn"] = "100";
+            LanguageProgress["bs"] = "100";
             LanguageProgress["bg"] = "100";
-            LanguageProgress["my"] = "90.91";
-            LanguageProgress["ca"] = "90";
+            LanguageProgress["my"] = "100";
+            LanguageProgress["ca"] = "100";
             LanguageProgress["zh-hans"] = "100";
             LanguageProgress["zh-hant"] = "100";
             LanguageProgress["hr"] = "90";
@@ -918,7 +926,7 @@ namespace CustomRPC
             LanguageProgress["el"] = "100";
             LanguageProgress["he"] = "100";
             LanguageProgress["hi"] = "100";
-            LanguageProgress["hu"] = "90";
+            LanguageProgress["hu"] = "100";
             LanguageProgress["is"] = "90";
             LanguageProgress["id"] = "100";
             LanguageProgress["it"] = "100";

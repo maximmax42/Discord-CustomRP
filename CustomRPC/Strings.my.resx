@@ -124,16 +124,15 @@
     <value>ID ဖော်ပြထားခြင်းမရှိပါ!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
-    <value>Update ကို ဒေါင်းလုဒ်လုပ်ခြင်း တွင် error ရှိခဲ့ပါသည်။
-ထပ်မံကြိုးစားရန် "Yes" ကိုနှိပ်ပါ။
-ကိုယ်တိုင် Download လုပ်ရန် "No" ကိုနှိပ်ပါ။</value>
+    <value>အပ်ဒိတ်ကို ဒေါင်းလုဒ်လုပ်ရာ သို့မဟုတ် ထည့်သွင်းရာတွင် အမှားတစ်ခု ဖြစ်ပွားခဲ့သည်။
+ပြန်လည်ကြိုးစားရန် "Yes" ကိုနှိပ်ပါ သို့မဟုတ် ကိုယ်တိုင်ဒေါင်းလုဒ်လုပ်ရန် "No" ကိုနှိပ်ပါ။</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
     <value>အကူအညီလိုပါသလား?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
-    <value>လက်စွဲစာအုပ်ကို ဖွင့်လိုပါသလား?
-Help -&gt; Manual ကိုဖွင့်ပါ သို့မဟုတ် F1 ကိုနှိပ်ခြင်းဖြင့် လက်စွဲစာအုပ်ကို အချိန်မရွေးဖွင့်နိုင်သည်</value>
+    <value>လက်စွဲကို ဖွင့်လိုပါသလား။
+၎င်းကို Help -&gt; Open the Manual မှတစ်ဆင့် သို့မဟုတ် F1 ကိုနှိပ်၍ အချိန်မရွေး ဖွင့်နိုင်ပါသည်။</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>သတင်းအချက်အလက် များ</value>
@@ -160,11 +159,11 @@ Help -&gt; Manual ကိုဖွင့်ပါ သို့မဟုတ် F1 
     <value>အင်တာနက်ချိတ်ဆက်၍မရပါ!</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
-    <value>Update အသစ်များမတွေ့ပါ!</value>
+    <value>အပ်ဒိတ်များ မတွေ့ရှိပါ။</value>
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
-    <value>Files များ ပျက်စီးနေသည်.
-Files များကို ပြန်လည်ပြုပြင်ရန် Yes ကိုနှိပ်ပါ၊ ထွက်ရန် No ကိုနှိပ်ပါ.</value>
+    <value>ဆက်တင်ဖိုင် ပျက်စီးနေပါသည်။
+ဆက်တင်များကို ပြန်လည်သတ်မှတ်ရန် Yes ကိုနှိပ်ပါ၊ ထွက်ရန် No ကိုနှိပ်ပါ။</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
     <value>Data ကို ထည့်လို့မရပါ။ file သည် ပျောက်ဆုံးနေ၊ ပျက်စီးနေ သို့မဟုတ် မှန်ကန်စွာ format မချထားပါ။</value>
@@ -173,15 +172,41 @@ Files များကို ပြန်လည်ပြုပြင်ရန် 
     <value>သင့်အသုံးပြုမှုစိစစ်ချက်ကို ဆော့ဖ်ဝဲရေးသားသူထံ ပေးပို့ရန် သင်ခွင့်ပြုပါသလား</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
-    <value>Settings များကို သိမ်းဆည်းနေစဉ် error တစ်ခု ဖြစ်ပေါ်ခဲ့ပါသည်:</value>
+    <value>ဆက်တင်များကို သိမ်းဆည်းနေစဉ် အမှားတစ်ခု ဖြစ်ပွားခဲ့သည်။</value>
   </data>
   <data name="errorLoadingAssembly" xml:space="preserve">
-    <value>ကျေးဇူးပြု၍ သင်၏ Antivirus ခြွင်းချက်များသို့ "{0}"ကို ထည့်ပေးပါ။ ဤ error ဆက်လက်ရှိနေပါက CustomRP ကို ​​ပြန်လည် install ပါ</value>
+    <value>"{0}" လမ်းကြောင်းကို သင့်ဗိုင်းရပ်စ်နှိမ်နင်းရေးဆော့ဖ်ဝဲလ်၏ ချွင်းချက်များထဲသို့ ထည့်သွင်းပါ။ ဤအမှားဆက်ဖြစ်နေပါက CustomRP ကို ပြန်လည်ထည့်သွင်းပါ။</value>
   </data>
   <data name="errorInvalidImageURL" xml:space="preserve">
-    <value>Image URL ကရှည်နေပါသည်!</value>
+    <value>ပုံ URL သည် အလွန်ရှည်လျားနေပါသည်။</value>
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
-    <value>Shortcut ကို ထည့်ဖို့ ဒါမှမဟုတ် ဖယ်ရှားဖို့ fail ပါတယ်:</value>
+    <value>စတင်ဖြတ်လမ်းလင့်ခ်ကို ထည့်သွင်းရန် သို့မဟုတ် ဖယ်ရှားရန် မအောင်မြင်ပါ။</value>
+  </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>URL ကိုဖွင့်နိုင်வில்லை။ Clipboard ထဲတွင် కాపీ చేయబడింది.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Presences నవీకరించబడుతోంది...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>మొత్తం నుండి ప్రారంభించాలనుకుంటున్నారా?
+ఇది వెనక్కి తీసుకోబడదు.</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>అప్లికేషన్ సెట్టింగ్‌లను తొలగించాలనుకుంటున్నారా?
+ఇది వెనక్కి తీసుకోబడదు.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>ఆడుతోంది</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>వినడం</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>చూడడం</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>పోటీ చేయడం</value>
   </data>
 </root>

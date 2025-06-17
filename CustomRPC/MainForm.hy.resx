@@ -468,4 +468,10 @@
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>-ից</value>
   </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Նոր նախապատրաստի</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Գործունեության տեսակը ներկայության համար</value>
+  </data>
 </root>

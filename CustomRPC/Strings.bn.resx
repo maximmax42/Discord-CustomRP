@@ -184,4 +184,30 @@
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>স্টার্টআপ শর্টকাট যোগ করতে বা সরাতে ব্যর্থ হয়েছে:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>URL খুলতে ব্যর্থ হয়েছে। এটি ক্লিপবোর্ডে কপি করা হয়েছে।</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>অবস্থা আপডেট করা হচ্ছে...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>আপনি কি একেবারে নতুন করে শুরু করতে চান?
+এটি আর পূর্বাবস্থা করা যাবে না।</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>আপনি কি অ্যাপ্লিকেশনের সেটিংস মুছে ফেলতে চান?
+এটি আর পূর্বাবস্থা করা যাবে না।</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>খেলছে</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>শোনা</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>দেখছে</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>প্রতিযোগিতা করছে</value>
+  </data>
 </root>

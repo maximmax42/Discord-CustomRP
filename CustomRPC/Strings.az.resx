@@ -194,4 +194,20 @@ Parametrləri sıfırlamaq üçün Bəli və ya çıxmaq üçün Xeyr düyməsin
     <value>Sıfırdan başlamaq istədiyinizə əminsiniz?
 Bu geri qaytarıla bilməz.</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Tətbiqin ayarlarını silmək istəyirsinizmi?
+Bu geri alınılmazdır.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Oyun oynamaq</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Dinləmək</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Yoxlamaq</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Rəqabət yürüşü</value>
+  </data>
 </root>

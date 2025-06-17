@@ -131,7 +131,7 @@
     <value>CustomRP သည် ယခင် session တွင် crash သွားပါသည်:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Error ကို Report ပါ</value>
+    <value>အမှားအစီရင်ခံစာ</value>
   </data>
   <data name="buttonOK.Text" xml:space="preserve">
     <value>OK</value>

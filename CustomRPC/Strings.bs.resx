@@ -184,4 +184,30 @@ Pritisnite Da da bi resetovali podešavanja, pritisnite Ne da izađete.</value>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Dodavanje ili uklanjanje prečice za pokretanje nije uspjelo:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Pojao se pogreška pri otvaranju URL-a. Kopiran je u sortirnicu.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Ažuriranje prisutnosti...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Je li siguran da želite početi ispočetka?
+Ovo se ne može poništiti.</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Želite li izbrisati postavke aplikacije?
+Ovo se ne može poništiti.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Reprodukcija</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Slušanje</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Gledanje</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Natjecanje</value>
+  </data>
 </root>

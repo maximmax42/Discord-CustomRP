@@ -190,4 +190,24 @@
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>Ներկայությունը թարմացվում է...</value>
   </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Վստա՞հ եք, որ ցանկանում եք սկսել զրոյից:
+Սա հնարավոր չէ հետ շրջել։</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Կիրառական ծրագրի կարգավորումները ջնջե՞լ?
+Սա հնարավոր չէ հետ շրջել։</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Խաղալիս</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Լսելիս</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Դիտելիս</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Մրցելիս</value>
+  </data>
 </root>

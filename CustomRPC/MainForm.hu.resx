@@ -507,4 +507,13 @@ A működéshez mindkét mezőnek 0-nál nagyobbnak kell lennie.</value>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>Kijelzi mennyi idő telt el az állapot utolsó kapcsolódása vagy fríssítése óta.</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Gyakran Ismételt Kérdések</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Új állapot</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Aktivitás fajtája az állapotodhoz.</value>
+  </data>
 </root>

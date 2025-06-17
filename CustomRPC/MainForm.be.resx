@@ -483,4 +483,7 @@
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Новае Прадусталяванне</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Тýп дзейнасцi для прысутнасцi.</value>
+  </data>
 </root>
