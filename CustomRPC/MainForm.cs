@@ -736,8 +736,8 @@ namespace CustomRPC
         {
             Invoke(new MethodInvoker(() =>
             {
-                Text = $"{res.GetString("$this.Text")}{(Program.IsSecondInstance ? " 2" : "")} ({client.CurrentUser})";
-                trayIcon.Text = $"{res.GetString("trayIcon.Text")}{(Program.IsSecondInstance ? " 2" : "")}\n{client.CurrentUser}";
+                toolStripStatusLabelUsername.Text = client.CurrentUser.Username;
+                trayIcon.Text = $"{res.GetString("trayIcon.Text")}{(Program.IsSecondInstance ? " 2" : "")}\n{client.CurrentUser.Username}";
 
                 buttonUpdatePresence.Enabled = true;
 
@@ -1660,8 +1660,8 @@ namespace CustomRPC
             trayMenuDisconnect.Enabled = false;
             buttonUpdatePresence.Enabled = false;
             textBoxID.ReadOnly = false;
+            toolStripStatusLabelUsername.Text = "";
             toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
-            Text = $"{res.GetString("$this.Text")}{(Program.IsSecondInstance ? " 2" : "")}";
             trayIcon.Text = $"{res.GetString("trayIcon.Text")}{(Program.IsSecondInstance ? " 2" : "")}";
 
             textBoxID.BackColor = CurrentColors.BgTextFields;

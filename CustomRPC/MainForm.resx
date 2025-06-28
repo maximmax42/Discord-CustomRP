@@ -1464,12 +1464,14 @@ To take effect, both fields should be more than 0.</value>
   <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>460, 17</value>
   </metadata>
-  <data name="toolStripStatusLabelPadding.Size" type="System.Drawing.Size, System.Drawing">
-    <value>386, 17</value>
+  <data name="toolStripStatusLabelUsername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 17</value>
   </data>
-  <data name="toolStripStatusLabelPadding.Text" xml:space="preserve">
+  <data name="toolStripStatusLabelUsername.Text" xml:space="preserve">
     <value> </value>
     <comment>@Invariant</comment>
+  <data name="toolStripStatusLabelUsername.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="toolStripStatusLabelStatus.Size" type="System.Drawing.Size, System.Drawing">
     <value>79, 17</value>
@@ -2214,10 +2216,10 @@ To take effect, both fields should be more than 0.</value>
   <data name="&gt;&gt;toolTipInfo.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripStatusLabelPadding.Name" xml:space="preserve">
-    <value>toolStripStatusLabelPadding</value>
+  <data name="&gt;&gt;toolStripStatusLabelUsername.Name" xml:space="preserve">
+    <value>toolStripStatusLabelUsername</value>
   </data>
-  <data name="&gt;&gt;toolStripStatusLabelPadding.Type" xml:space="preserve">
+  <data name="&gt;&gt;toolStripStatusLabelUsername.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripStatusLabelStatus.Name" xml:space="preserve">

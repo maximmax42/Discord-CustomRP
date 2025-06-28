@@ -109,7 +109,7 @@
             this.dateTimePickerTimestamp = new System.Windows.Forms.DateTimePicker();
             this.labelPartyOf = new System.Windows.Forms.Label();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabelPadding = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabelUsername = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabelStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.tableLayoutPanelButtons = new System.Windows.Forms.TableLayoutPanel();
             this.comboBoxType = new System.Windows.Forms.ComboBox();
@@ -709,18 +709,18 @@
             // statusStrip
             // 
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabelPadding,
+            this.toolStripStatusLabelUsername,
             this.toolStripStatusLabelStatus});
             resources.ApplyResources(this.statusStrip, "statusStrip");
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.ManagerRenderMode;
             this.statusStrip.SizingGrip = false;
             // 
-            // toolStripStatusLabelPadding
+            // toolStripStatusLabelUsername
             // 
-            this.toolStripStatusLabelPadding.Name = "toolStripStatusLabelPadding";
-            resources.ApplyResources(this.toolStripStatusLabelPadding, "toolStripStatusLabelPadding");
-            this.toolStripStatusLabelPadding.Spring = true;
+            this.toolStripStatusLabelUsername.Name = "toolStripStatusLabelUsername";
+            resources.ApplyResources(this.toolStripStatusLabelUsername, "toolStripStatusLabelUsername");
+            this.toolStripStatusLabelUsername.Spring = true;
             // 
             // toolStripStatusLabelStatus
             // 
@@ -1035,7 +1035,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDownPartyMax;
         private System.Windows.Forms.NumericUpDown numericUpDownPartySize;
         private System.Windows.Forms.StatusStrip statusStrip;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabelPadding;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabelUsername;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabelStatus;
         private System.Windows.Forms.DateTimePicker dateTimePickerTimestamp;
         private System.Windows.Forms.RadioButton radioButtonCustom;
