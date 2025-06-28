@@ -1469,7 +1469,7 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="toolStripStatusLabelUsername.Text" xml:space="preserve">
     <value> </value>
-    <comment>@Invariant</comment>
+  </data>
   <data name="toolStripStatusLabelUsername.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
