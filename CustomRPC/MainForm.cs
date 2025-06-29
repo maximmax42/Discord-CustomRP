@@ -275,9 +275,9 @@ namespace CustomRPC
             // Checks the needed timestamp radiobuttons because settings binding can't do that
             switch ((TimestampType)settings.timestamps)
             {
-                case TimestampType.None: radioButtonNone.Checked = true; break;
-                case TimestampType.SinceStartup: radioButtonStartTime.Checked = true; break;
+                case TimestampType.None: // radioButtonNone.Checked = true; break;
                 case TimestampType.SincePresenceUpdate: radioButtonPresence.Checked = true; break;
+                case TimestampType.SinceStartup: radioButtonStartTime.Checked = true; break;
                 case TimestampType.LocalTime: radioButtonLocalTime.Checked = true; break;
                 case TimestampType.Custom: radioButtonCustom.Checked = true; break;
             }
@@ -1132,9 +1132,9 @@ namespace CustomRPC
 
                 switch ((TimestampType)settings.timestamps)
                 {
-                    case TimestampType.None: radioButtonNone.Checked = true; break;
-                    case TimestampType.SinceStartup: radioButtonStartTime.Checked = true; break;
+                    case TimestampType.None: // radioButtonNone.Checked = true; break;
                     case TimestampType.SincePresenceUpdate: radioButtonPresence.Checked = true; break;
+                    case TimestampType.SinceStartup: radioButtonStartTime.Checked = true; break;
                     case TimestampType.LocalTime: radioButtonLocalTime.Checked = true; break;
                     case TimestampType.Custom: radioButtonCustom.Checked = true; break;
                 }
