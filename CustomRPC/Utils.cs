@@ -703,7 +703,7 @@ namespace CustomRPC
                     Translators = new Person[] {
                         new Person { Name = "Lol1112345.lol12345" },
                         new Person { Name = "Liso" },
-                        new Person { Name = "PixelCoderX", Url = "https://pixelcoderx.muzes.xyz/" },
+                        new Person { Name = "Muzes", Url = "https://radio.muzes.xyz/" },
                         new Person { Name = "Piter" },
                         new Person { Name = "Oscar" },
                         MarcelGustin,
