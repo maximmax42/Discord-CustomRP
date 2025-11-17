@@ -1153,6 +1153,12 @@ namespace CustomRPC
                     DonationType = "A furry art",
                     DonationUrl = "https://www.customrp.xyz/donations/NearbyFish.png"
                 },
+                new NonMonetarySupporter {
+                    Name = "Nekura",
+                    Url = "https://x.com/nekumellow",
+                    DonationType = "A furry art",
+                    DonationUrl = "https://www.customrp.xyz/donations/nekumellow.png"
+                },
             };
         }
 

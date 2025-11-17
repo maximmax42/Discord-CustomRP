@@ -52,6 +52,7 @@ Custom Discord Rich Presence Manager for Windows 7+. Some of its features are ru
 * [vouivre](https://x.com/vvouivre) - [A furry art](https://www.customrp.xyz/donations/vouivre.png)
 * [Sojpan](https://x.com/Illeg__al) - [A furry art](https://www.customrp.xyz/donations/Sojpan.png)
 * [NearbyFish](https://x.com/Nearbyfish1) - [A furry art](https://www.customrp.xyz/donations/NearbyFish.png)
+* [Nekura](https://x.com/nekumellow) - [A furry art](https://www.customrp.xyz/donations/nekumellow.png)
 
 If you don't see your donation here after a day or two - ping me on Discord.
 
@@ -131,7 +132,7 @@ So far, the app supports these languages:
 * [Tamil](https://poeditor.com/projects/po_edit?id_language=160&per_page=100&id=409229) (thanks to [Julian](https://julian-idl.codes/))
 * [Thai](https://poeditor.com/projects/po_edit?id_language=163&per_page=100&id=409229) (thanks to Squishee Freshy, OHMKUB, YuuabyssSSID, cr.ohmthz, Game, SabbKor and toonnongaeoy)
 * [Turkish](https://poeditor.com/projects/po_edit?id_language=169&per_page=100&id=409229) (thanks to [josephisticated](https://github.com/josephisticated), Ozan Akyüz, vLaDeR and Murat_Efendi)
-* [Ukrainian](https://poeditor.com/projects/po_edit?id_language=173&per_page=100&id=409229) (thanks to MechaniX, Dmitromintenko, Desinger, Illia, stefanbanderovych and l0ngg)
+* [Ukrainian](https://poeditor.com/projects/po_edit?id_language=173&per_page=100&id=409229) (thanks to MechaniX, Dmitromintenko, Desinger, Illia, stefanbanderovych, l0ngg and Black Cat)
 * [Urdu](https://poeditor.com/projects/po_edit?id_language=174&per_page=100&id=409229) (thanks to [xq34](https://github.com/S3ntryPositive), Muhammad Ali Ashraf and ATTiQ OP)
 * [Vietnamese](https://poeditor.com/projects/po_edit?id_language=177&per_page=100&id=409229) (thanks to [Mykm](https://github.com/yumiruuwu), dsbachle, Ayano, Nhathungtran2011, Rinka Ch. リンカタカナシ, Phnthnhnm0612, 03_Trần, igijtykvj and kcott)
 * [Welsh](https://poeditor.com/projects/po_edit?id_language=180&per_page=100&id=409229) (thanks to [Pxmpkxn](https://discord.gg/36Z4u8Q5uN))
