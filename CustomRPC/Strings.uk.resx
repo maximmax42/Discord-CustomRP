@@ -194,4 +194,7 @@
     <value>Ви хочете почати все з нуля?
 Ваші дані вже не будуть повернені.</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Ви хочете видалити налаштування програми? Це не можливо скасувати.</value>
+  </data>
 </root>

@@ -848,6 +848,7 @@ namespace CustomRPC
                         new Person { Name = "Illia" },
                         new Person { Name = "stefanbanderovych" },
                         l0ngg,
+                        new Person { Name = "Black Cat" },
                     }
                 },
                 new Language {
@@ -958,7 +959,7 @@ namespace CustomRPC
             LanguageProgress["ta"] = "88.18";
             LanguageProgress["th"] = "100";
             LanguageProgress["tr"] = "100";
-            LanguageProgress["uk"] = "94.55";
+            LanguageProgress["uk"] = "95.45";
             LanguageProgress["ur"] = "92.73";
             LanguageProgress["vi"] = "100";
             LanguageProgress["cy"] = "90";
