@@ -337,12 +337,6 @@
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 18</value>
   </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>Nenhum</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Sem nenhum horário ativado.</value>
-  </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>208, 18</value>
   </data>

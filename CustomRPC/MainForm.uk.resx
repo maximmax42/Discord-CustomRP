@@ -355,12 +355,6 @@
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 18</value>
   </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>Тут нічого немає</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Відмітки часу вимкненні.</value>
-  </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 18</value>
   </data>

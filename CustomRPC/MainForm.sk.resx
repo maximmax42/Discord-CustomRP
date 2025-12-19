@@ -379,12 +379,6 @@
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 18</value>
   </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>Źiadne</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Nie sú povolené žiadne časové úseky.</value>
-  </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>147, 18</value>
   </data>

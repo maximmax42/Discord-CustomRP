@@ -355,12 +355,6 @@
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 18</value>
   </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>هیچکدام</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>برچسب زمانی روشن نمی باشد</value>
-  </data>
   <data name="radioButtonStartTime.Location" type="System.Drawing.Point, System.Drawing">
     <value>160, 27</value>
   </data>

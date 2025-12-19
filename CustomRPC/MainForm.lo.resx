@@ -225,12 +225,6 @@
   <data name="labelLarge.ToolTip" xml:space="preserve">
     <value>ຮູບພາບທີ່ສະແດງຊ້າຍໄປຫາຂໍ້ຄວາມທີ່ກໍານົດໄວ້ຂ້າງເທິງ.</value>
   </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>ບໍ່ມີ</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>ບໍ່​ມີ​ການ​ເປີດ​ໃຊ້​ງານ​ສະ​ແຕມ​ເວ​ລາ​.</value>
-  </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
     <value>ນັບຕັ້ງແຕ່ CustomRP ເລີ່ມຕົ້ນ</value>
   </data>

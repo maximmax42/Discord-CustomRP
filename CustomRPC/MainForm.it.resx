@@ -373,12 +373,6 @@
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 18</value>
   </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>Niente</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Nessun timestamp abilitato.</value>
-  </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>228, 18</value>
   </data>

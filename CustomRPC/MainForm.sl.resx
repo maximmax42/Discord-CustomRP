@@ -382,12 +382,6 @@
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 18</value>
   </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>Nič</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Ni omogočenih časovnih žigov.</value>
-  </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 18</value>
   </data>

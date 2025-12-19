@@ -319,12 +319,6 @@
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>45, 18</value>
   </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>မရှိပါ</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>အချိန်ပြသချက် များကို ဖွင့်ထားခြင်းမရှိပါ</value>
-  </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>172, 18</value>
   </data>

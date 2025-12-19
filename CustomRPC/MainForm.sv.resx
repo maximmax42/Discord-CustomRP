@@ -225,12 +225,6 @@
   <data name="labelLarge.ToolTip" xml:space="preserve">
     <value>Bild som visas till vänster om texten vald ovanför.</value>
   </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>Ingen</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Inga tidpunkter aktiverade.</value>
-  </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
     <value>Sedan CustomRP startades</value>
   </data>

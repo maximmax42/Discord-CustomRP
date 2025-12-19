@@ -890,43 +890,37 @@
   <data name="&gt;&gt;labelLarge.ZOrder" xml:space="preserve">
     <value>27</value>
   </data>
-  <data name="radioButtonNone.AutoSize" type="System.Boolean, mscorlib">
+  <data name="radioButtonLastConnection.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="radioButtonNone.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="radioButtonNone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="radioButtonLastConnection.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="radioButtonNone.Location" type="System.Drawing.Point, System.Drawing">
-    <value>285, 4</value>
+  <data name="radioButtonLastConnection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
   </data>
-  <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 18</value>
+  <data name="radioButtonLastConnection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 18</value>
   </data>
-  <data name="radioButtonNone.TabIndex" type="System.Int32, mscorlib">
+  <data name="radioButtonLastConnection.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>None</value>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>Since last connection</value>
   </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>No timestamps enabled.</value>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Shows how much time has passed since you last connected.</value>
   </data>
-  <data name="radioButtonNone.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;radioButtonLastConnection.Name" xml:space="preserve">
+    <value>radioButtonLastConnection</value>
   </data>
-  <data name="&gt;&gt;radioButtonNone.Name" xml:space="preserve">
-    <value>radioButtonNone</value>
-  </data>
-  <data name="&gt;&gt;radioButtonNone.Type" xml:space="preserve">
+  <data name="&gt;&gt;radioButtonLastConnection.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioButtonNone.Parent" xml:space="preserve">
+  <data name="&gt;&gt;radioButtonLastConnection.Parent" xml:space="preserve">
     <value>panelTimestamps</value>
   </data>
-  <data name="&gt;&gt;radioButtonNone.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;radioButtonLastConnection.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="radioButtonStartTime.AutoSize" type="System.Boolean, mscorlib">
@@ -936,7 +930,7 @@
     <value>NoControl</value>
   </data>
   <data name="radioButtonStartTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 28</value>
+    <value>3, 51</value>
   </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>156, 18</value>
@@ -969,7 +963,7 @@
     <value>NoControl</value>
   </data>
   <data name="radioButtonLocalTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 52</value>
+    <value>3, 75</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>106, 18</value>
@@ -1078,7 +1072,7 @@ To take effect, both fields should be more than 0.</value>
     <value>NoControl</value>
   </data>
   <data name="radioButtonCustom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 76</value>
+    <value>3, 99</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
     <value>127, 18</value>
@@ -1325,7 +1319,7 @@ To take effect, both fields should be more than 0.</value>
     <value>NoControl</value>
   </data>
   <data name="radioButtonPresence.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 4</value>
+    <value>3, 27</value>
   </data>
   <data name="radioButtonPresence.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 18</value>
@@ -1411,7 +1405,7 @@ To take effect, both fields should be more than 0.</value>
     <value>MiddleRight</value>
   </data>
   <data name="labelName.ToolTip" xml:space="preserve">
-    <value>The name of the activity.</value>
+    <value>The name of the application.</value>
   </data>
   <data name="&gt;&gt;labelName.Name" xml:space="preserve">
     <value>labelName</value>
@@ -2012,9 +2006,6 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 9pt</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 4, 2, 4</value>

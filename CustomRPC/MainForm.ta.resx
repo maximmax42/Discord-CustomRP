@@ -391,12 +391,6 @@
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 18</value>
   </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>இல்லை</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>நேர முத்திரைகள் எதுவும் இயக்கப்படவில்லை.</value>
-  </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>202, 18</value>
   </data>

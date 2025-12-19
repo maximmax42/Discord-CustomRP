@@ -400,12 +400,6 @@
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 18</value>
   </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>無し</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>タイムスタンプが有効になっていません。</value>
-  </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>207, 18</value>
   </data>

@@ -355,12 +355,6 @@
   <data name="labelLarge.ToolTip" xml:space="preserve">
     <value>Afbeelding die links naar de bovenstaande tekst laat zien.</value>
   </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>Geen</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Geen tijdpunten ingeschakeld.</value>
-  </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>166, 18</value>
   </data>

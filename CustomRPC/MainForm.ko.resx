@@ -225,12 +225,6 @@
   <data name="labelLarge.ToolTip" xml:space="preserve">
     <value>상단의 텍스트의 왼쪽에 표시되는 이미지입니다.</value>
   </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>없음</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>타임스탬프가 활성화되지 않았습니다.</value>
-  </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
     <value>CustomRP가 시작되었을 때부터</value>
   </data>

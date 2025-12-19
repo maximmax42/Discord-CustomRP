@@ -219,12 +219,6 @@
   <data name="labelLarge.ToolTip" xml:space="preserve">
     <value>Slika koja se prikazuje lijevo od zadanog teksta iznad.</value>
   </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>Prazno</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Nijedna vremenska oznaka odabrana.</value>
-  </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
     <value>Odkad je CustomRP pokrenut</value>
   </data>

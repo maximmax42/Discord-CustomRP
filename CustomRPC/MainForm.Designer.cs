@@ -91,7 +91,7 @@
             this.labelSmall = new System.Windows.Forms.Label();
             this.labelLarge = new System.Windows.Forms.Label();
             this.toolTipInfo = new System.Windows.Forms.ToolTip(this.components);
-            this.radioButtonNone = new System.Windows.Forms.RadioButton();
+            this.radioButtonLastConnection = new System.Windows.Forms.RadioButton();
             this.radioButtonStartTime = new System.Windows.Forms.RadioButton();
             this.radioButtonLocalTime = new System.Windows.Forms.RadioButton();
             this.labelTimestamp = new System.Windows.Forms.Label();
@@ -570,15 +570,15 @@
             this.toolTipInfo.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.toolTipInfo.ToolTipTitle = "Information";
             // 
-            // radioButtonNone
+            // radioButtonLastConnection
             // 
-            resources.ApplyResources(this.radioButtonNone, "radioButtonNone");
-            this.radioButtonNone.Name = "radioButtonNone";
-            this.radioButtonNone.TabStop = true;
-            this.radioButtonNone.Tag = "";
-            this.toolTipInfo.SetToolTip(this.radioButtonNone, resources.GetString("radioButtonNone.ToolTip"));
-            this.radioButtonNone.UseVisualStyleBackColor = true;
-            this.radioButtonNone.CheckedChanged += new System.EventHandler(this.TimestampsChanged);
+            resources.ApplyResources(this.radioButtonLastConnection, "radioButtonLastConnection");
+            this.radioButtonLastConnection.Name = "radioButtonLastConnection";
+            this.radioButtonLastConnection.TabStop = true;
+            this.radioButtonLastConnection.Tag = "";
+            this.toolTipInfo.SetToolTip(this.radioButtonLastConnection, resources.GetString("radioButtonLastConnection.ToolTip"));
+            this.radioButtonLastConnection.UseVisualStyleBackColor = true;
+            this.radioButtonLastConnection.CheckedChanged += new System.EventHandler(this.TimestampsChanged);
             // 
             // radioButtonStartTime
             // 
@@ -696,7 +696,7 @@
             this.panelTimestamps.Controls.Add(this.dateTimePickerTimestamp);
             this.panelTimestamps.Controls.Add(this.radioButtonCustom);
             this.panelTimestamps.Controls.Add(this.radioButtonLocalTime);
-            this.panelTimestamps.Controls.Add(this.radioButtonNone);
+            this.panelTimestamps.Controls.Add(this.radioButtonLastConnection);
             this.panelTimestamps.Controls.Add(this.radioButtonStartTime);
             resources.ApplyResources(this.panelTimestamps, "panelTimestamps");
             this.panelTimestamps.Name = "panelTimestamps";
@@ -1038,7 +1038,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparatorFile1;
         private System.Windows.Forms.RadioButton radioButtonLocalTime;
         private System.Windows.Forms.RadioButton radioButtonStartTime;
-        private System.Windows.Forms.RadioButton radioButtonNone;
+        private System.Windows.Forms.RadioButton radioButtonLastConnection;
         private System.Windows.Forms.Panel panelTimestamps;
         private System.Windows.Forms.Label labelTimestamp;
         private System.Windows.Forms.ToolStripMenuItem downloadUpdateToolStripMenuItem;

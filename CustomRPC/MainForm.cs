@@ -80,7 +80,7 @@ namespace CustomRPC
     /// </summary>
     public enum TimestampType
     {
-        None = 0,
+        SinceLastConnection = 0,
         SinceStartup = 1,
         LocalTime = 2,
         Custom = 3, // These are hardcoded for backwards compatibility
@@ -162,6 +162,11 @@ namespace CustomRPC
         /// Has the form of empty string if the app is in English or the docs aren't translated to the current UI language, "v/[locale]/" or "v/[locale]-[country]/" otherwise.
         /// </summary>
         string localeUrl = "";
+
+        /// <summary>
+        /// Timestamp of when was the last time app was connected to Discord.
+        /// </summary>
+        DateTime timestampConnected = DateTime.UtcNow;
 
         /// <summary>
         /// Timestamp of when the app started.
@@ -271,8 +276,8 @@ namespace CustomRPC
             comboBoxType.DataSource = presenceTypes;
             comboBoxType.SelectedValue = (ActivityType)settings.type;
 
-            // Set up tags for the radio buttons
-            radioButtonNone.Tag = TimestampType.None;
+        // Set up tags for the radio buttons
+            radioButtonLastConnection.Tag = TimestampType.SinceLastConnection;
             radioButtonStartTime.Tag = TimestampType.SinceStartup;
             radioButtonPresence.Tag = TimestampType.SincePresenceUpdate;
             radioButtonLocalTime.Tag = TimestampType.LocalTime;
@@ -281,7 +286,7 @@ namespace CustomRPC
             // Checks the needed timestamp radiobuttons because settings binding can't do that
             switch ((TimestampType)settings.timestamps)
             {
-                case TimestampType.None: // radioButtonNone.Checked = true; break;
+                case TimestampType.SinceLastConnection: radioButtonLastConnection.Checked = true; break;
                 case TimestampType.SincePresenceUpdate: radioButtonPresence.Checked = true; break;
                 case TimestampType.SinceStartup: radioButtonStartTime.Checked = true; break;
                 case TimestampType.LocalTime: radioButtonLocalTime.Checked = true; break;
@@ -928,7 +933,7 @@ namespace CustomRPC
 
             switch ((TimestampType)settings.timestamps)
             {
-                case TimestampType.None: break;
+                case TimestampType.SinceLastConnection: rp.Timestamps = new Timestamps(timestampConnected); break;
                 case TimestampType.SinceStartup: rp.Timestamps = new Timestamps(timestampStarted); break;
                 case TimestampType.SincePresenceUpdate: rp.Timestamps = Timestamps.Now; break;
                 case TimestampType.LocalTime:
@@ -1098,7 +1103,7 @@ namespace CustomRPC
                 textBoxButton2Text.Text = textBoxButton2URL.Text = "";
             comboBoxType.SelectedValue = ActivityType.Playing;
             numericUpDownPartySize.Value = numericUpDownPartyMax.Value = 0;
-            radioButtonNone.Checked = true;
+            radioButtonLastConnection.Checked = true;
         }
 
         /// <summary>
@@ -1138,7 +1143,7 @@ namespace CustomRPC
 
                 switch ((TimestampType)settings.timestamps)
                 {
-                    case TimestampType.None: // radioButtonNone.Checked = true; break;
+                    case TimestampType.SinceLastConnection: radioButtonLastConnection.Checked = true; break;
                     case TimestampType.SincePresenceUpdate: radioButtonPresence.Checked = true; break;
                     case TimestampType.SinceStartup: radioButtonStartTime.Checked = true; break;
                     case TimestampType.LocalTime: radioButtonLocalTime.Checked = true; break;
@@ -1643,6 +1648,8 @@ namespace CustomRPC
                     Analytics.TrackEvent("Connected"); // Only send analytics if connect function was called from disconnected state
 
                 ConnectionManager.State = ConnectionState.Connecting;
+
+                timestampConnected = DateTime.UtcNow;
 
                 buttonConnect.Enabled = false; // ...disable Connect button...
                 buttonDisconnect.Enabled = true; // ...enable Disconnect button...

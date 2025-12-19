@@ -400,12 +400,6 @@
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 18</value>
   </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>Нет</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>Отключить строку со временем.</value>
-  </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>190, 18</value>
   </data>
@@ -506,5 +500,11 @@
   </data>
   <data name="labelName.ToolTip" xml:space="preserve">
     <value>Название активности.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>С момента подключения</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Показывает, сколько времени прошло после подключения.</value>
   </data>
 </root>

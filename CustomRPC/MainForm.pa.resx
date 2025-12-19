@@ -379,12 +379,6 @@
   <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>58, 18</value>
   </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>ਕੋਈ ਨਹੀਂ</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>ਕੋਈ ਟਾਈਮਸਟੈਂਪ ਸਮਰੱਥ ਨਹੀਂ ਹੈ।</value>
-  </data>
   <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>172, 18</value>
   </data>

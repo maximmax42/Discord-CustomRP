@@ -219,12 +219,6 @@
   <data name="labelLarge.ToolTip" xml:space="preserve">
     <value>顯示於動態左邊的圖示。</value>
   </data>
-  <data name="radioButtonNone.Text" xml:space="preserve">
-    <value>無</value>
-  </data>
-  <data name="radioButtonNone.ToolTip" xml:space="preserve">
-    <value>不顯示時間戳記。</value>
-  </data>
   <data name="radioButtonStartTime.Text" xml:space="preserve">
     <value>自 CustomRP 開啟時</value>
   </data>
