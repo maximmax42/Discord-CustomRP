@@ -675,8 +675,8 @@ namespace CustomRPC
             Analytics.TrackEvent("Updated presence", new Dictionary<string, string> {
                 { "Party", presence.HasParty().ToString() },
                 { "Timestamp", ((TimestampType)settings.timestamps).ToString() },
-                { "Big image", presence.Assets?.LargeImageID.HasValue.ToString() },
-                { "Small image", presence.Assets?.SmallImageID.HasValue.ToString() },
+                { "Big image", (!string.IsNullOrEmpty(presence.Assets?.LargeImageID)).ToString() },
+                { "Small image", (!string.IsNullOrEmpty(presence.Assets?.SmallImageID)).ToString() },
                 { "Buttons", buttonsList.Count.ToString() }
             });
 
@@ -697,7 +697,7 @@ namespace CustomRPC
 
                 textBoxID.BackColor = CurrentColors.BgTextFieldsError;
                 toolStripStatusLabelStatus.Text = Strings.statusError;
-                if (args.Code != DiscordRPC.Message.ErrorCode.UnkownError) // Yes, there is a typo in the DiscordRPC lib
+                if (args.Code != DiscordRPC.Message.ErrorCode.UnknownError)
                     MessageBox.Show(this, args.Message, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }));
 
