@@ -1411,7 +1411,7 @@ To take effect, both fields should be more than 0.</value>
     <value>MiddleRight</value>
   </data>
   <data name="labelName.ToolTip" xml:space="preserve">
-    <value>The name of the application.</value>
+    <value>The name of the activity.</value>
   </data>
   <data name="&gt;&gt;labelName.Name" xml:space="preserve">
     <value>labelName</value>

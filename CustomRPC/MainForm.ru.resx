@@ -504,4 +504,7 @@
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>Тип активности, показываемый в статусе.</value>
   </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>Название активности.</value>
+  </data>
 </root>
