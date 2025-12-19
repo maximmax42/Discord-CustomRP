@@ -33,6 +33,7 @@ namespace CustomRPC
     {
         public string ID;
         public int Type;
+        public string Name;
         public string Details;
         public string State;
         public int PartySize;
@@ -203,6 +204,11 @@ namespace CustomRPC
         readonly string U200B = "\u200B";
 
         /// <summary>
+        /// Default ID to connect with if the user doesn't provide any.
+        /// </summary>
+        readonly string defaultID = "896771305108553788";
+
+        /// <summary>
         /// The constructor of the form.
         /// </summary>
         /// <param name="preset">File location of a preset to load on startup or <see langword="null"/>.</param>
@@ -355,7 +361,7 @@ namespace CustomRPC
                 Utils.SaveSettings();
             }
 
-            if (settings.id != "" && ((settings.changedLanguage && settings.wasConnected) || (settings.autoconnect && !settings.changedLanguage)))
+            if ((settings.changedLanguage && settings.wasConnected) || (settings.autoconnect && !settings.changedLanguage))
                 Connect();
 
             CheckIfCrashed();
@@ -460,6 +466,7 @@ namespace CustomRPC
 
             Invoke(new MethodInvoker(() => Connect()));
         }
+
         /// <summary>
         /// Will be called at midnight to update presence.
         /// </summary>
@@ -636,16 +643,12 @@ namespace CustomRPC
         /// <returns><see langword="False"/> if ID isn't set or something happened when establishing the connection, otherwise <see langword="true"/>.</returns>
         private bool Init()
         {
-            if (settings.id == "")
-            {
-                MessageBox.Show(Strings.errorNoID, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
-                return false;
-            }
+            string id = settings.id != "" ? settings.id : defaultID;
 
             if (client != null && !client.IsDisposed)
                 client.Dispose(); // This stuff needs proper disposal
 
-            client = new DiscordRpcClient(settings.id, (int)settings.pipe); // Assigning the ID
+            client = new DiscordRpcClient(id, (int)settings.pipe); // Assigning the ID
             client.OnPresenceUpdate += ClientOnPresenceUpdate;
             client.OnError += ClientOnError;
             client.OnConnectionFailed += ClientOnConnFailed;
@@ -780,6 +783,7 @@ namespace CustomRPC
 
             var rp = new RichPresence()
             {
+                Name = settings.name,
                 Type = (ActivityType)settings.type,
                 Details = settings.details,
                 State = settings.state,
@@ -1086,7 +1090,8 @@ namespace CustomRPC
             if (ConnectionManager.State != ConnectionState.Disconnected)
                 Disconnect();
 
-            textBoxID.Text = textBoxDetails.Text = textBoxState.Text =
+            textBoxID.Text = textBoxName.Text =
+                textBoxDetails.Text = textBoxState.Text =
                 comboBoxLargeKey.Text = textBoxLargeText.Text =
                 comboBoxSmallKey.Text = textBoxSmallText.Text =
                 textBoxButton1Text.Text = textBoxButton1URL.Text =
@@ -1112,6 +1117,7 @@ namespace CustomRPC
 
                 settings.id = preset.ID;
                 settings.type = preset.Type;
+                settings.name = preset.Name;
                 settings.details = preset.Details;
                 settings.state = preset.State;
                 settings.partySize = preset.PartySize;
@@ -1222,6 +1228,7 @@ namespace CustomRPC
                         {
                             ID = settings.id,
                             Type = settings.type,
+                            Name = settings.name,
                             Details = settings.details,
                             State = settings.state,
                             PartySize = (int)settings.partySize,

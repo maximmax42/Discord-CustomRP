@@ -105,6 +105,7 @@
             this.labelButton2Text = new System.Windows.Forms.Label();
             this.radioButtonPresence = new System.Windows.Forms.RadioButton();
             this.labelType = new System.Windows.Forms.Label();
+            this.labelName = new System.Windows.Forms.Label();
             this.panelTimestamps = new System.Windows.Forms.Panel();
             this.dateTimePickerTimestamp = new System.Windows.Forms.DateTimePicker();
             this.labelPartyOf = new System.Windows.Forms.Label();
@@ -113,6 +114,7 @@
             this.toolStripStatusLabelStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.tableLayoutPanelButtons = new System.Windows.Forms.TableLayoutPanel();
             this.comboBoxType = new System.Windows.Forms.ComboBox();
+            this.textBoxName = new System.Windows.Forms.TextBox();
             this.textBoxButton2Text = new System.Windows.Forms.TextBox();
             this.textBoxButton2URL = new System.Windows.Forms.TextBox();
             this.textBoxButton1URL = new System.Windows.Forms.TextBox();
@@ -681,6 +683,13 @@
             this.labelType.Name = "labelType";
             this.toolTipInfo.SetToolTip(this.labelType, resources.GetString("labelType.ToolTip"));
             // 
+            // labelName
+            // 
+            resources.ApplyResources(this.labelName, "labelName");
+            this.labelName.Cursor = System.Windows.Forms.Cursors.Help;
+            this.labelName.Name = "labelName";
+            this.toolTipInfo.SetToolTip(this.labelName, resources.GetString("labelName.ToolTip"));
+            // 
             // panelTimestamps
             // 
             this.panelTimestamps.Controls.Add(this.radioButtonPresence);
@@ -743,6 +752,18 @@
             this.comboBoxType.ForeColor = System.Drawing.Color.White;
             this.comboBoxType.Name = "comboBoxType";
             this.comboBoxType.SelectedValueChanged += new System.EventHandler(this.PresenceTypeChanged);
+            // 
+            // textBoxName
+            // 
+            this.textBoxName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
+            this.textBoxName.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "name", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.textBoxName.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.textBoxName, "textBoxName");
+            this.textBoxName.Name = "textBoxName";
+            this.textBoxName.Text = global::CustomRPC.Properties.Settings.Default.name;
+            this.textBoxName.TextChanged += new System.EventHandler(this.LengthValidation);
+            this.textBoxName.Leave += new System.EventHandler(this.TrimTextBoxes);
+            this.textBoxName.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxButton2Text
             // 
@@ -914,6 +935,8 @@
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
+            this.Controls.Add(this.labelName);
+            this.Controls.Add(this.textBoxName);
             this.Controls.Add(this.labelType);
             this.Controls.Add(this.comboBoxType);
             this.Controls.Add(this.tableLayoutPanelButtons);
@@ -1072,6 +1095,8 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanelButtons;
         private System.Windows.Forms.Label labelType;
         private System.Windows.Forms.ComboBox comboBoxType;
+        private System.Windows.Forms.Label labelName;
+        private System.Windows.Forms.TextBox textBoxName;
     }
 }
 
