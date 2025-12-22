@@ -128,7 +128,7 @@
 按“是”重试或按“否”手动下载。</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>第一次运行</value>
+    <value>需要帮助吗？</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>你想打开手册吗？
@@ -138,19 +138,19 @@
     <value>资讯</value>
   </data>
   <data name="statusConnected" xml:space="preserve">
-    <value>已链接</value>
+    <value>已连接</value>
   </data>
   <data name="statusConnecting" xml:space="preserve">
-    <value>链接中。。。</value>
+    <value>连接中...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>链接</value>
+    <value>连接失败(Discord是否启动？)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
-    <value>链接失败</value>
+    <value>连接失败</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>链接错误（请查看ID？）</value>
+    <value>连接错误（错误的ID？）</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
     <value>为按钮指定的 URL 无效或文本太长！</value>

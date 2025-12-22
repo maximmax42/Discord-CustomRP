@@ -144,6 +144,6 @@
     <value>跳过此版本</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>请查看新更新</value>
+    <value>更新可用</value>
   </data>
 </root>

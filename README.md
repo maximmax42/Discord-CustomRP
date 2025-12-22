@@ -82,7 +82,7 @@ So far, the app supports these languages:
 * [Bulgarian](https://poeditor.com/projects/po_edit?id_language=24&per_page=100&id=409229) (thanks to 21, TheLocalSlavic and [EmeraldCeat](https://discord.gg/reformedcityrp))
 * [Burmese](https://poeditor.com/projects/po_edit?id_language=25&per_page=100&id=409229) (thanks to [infer_](http://rentry.org/infer), Korsinemi and bearinthewonderland)
 * [Catalan](https://poeditor.com/projects/po_edit?id_language=26&per_page=100&id=409229) (thanks to [Darling-Chan](https://meap.gg/) and Alte87)
-* [Chinese (simplified)](https://poeditor.com/projects/po_edit?id_language=274&per_page=100&id=409229) (thanks to [蘆筍 (aka westxlu)](https://linktr.ee/westxlu), Zjsun.ca and zozocha)
+* [Chinese (simplified)](https://poeditor.com/projects/po_edit?id_language=274&per_page=100&id=409229) (thanks to [蘆筍 (aka westxlu)](https://linktr.ee/westxlu), Zjsun.ca, zozocha and Aaadddsssvvvavc)
 * [Chinese (traditional)](https://poeditor.com/projects/po_edit?id_language=275&per_page=100&id=409229) (thanks to [蘆筍 (aka westxlu)](https://linktr.ee/westxlu), [DragonTaki](https://steamcommunity.com/id/DragonTaki/) and cr.ohmthz)
 * [Croatian](https://poeditor.com/projects/po_edit?id_language=37&per_page=100&id=409229) (thanks to Monika and [whoscanel](https://canel.cloud))
 * [Czech](https://poeditor.com/projects/po_edit?id_language=38&per_page=100&id=409229) (thanks to [JayJake](https://jayjake.eu/), SunightMC, Tobias, Daniel Dan, After Klain, Wrexik, MakoPog, Jan and Sebastian)
