@@ -100,7 +100,7 @@ So far, the app supports these languages:
 * [Greek](https://poeditor.com/projects/po_edit?id_language=56&per_page=100&id=409229) (thanks to Alex Grivas, [NetworkTips#0001](https://discord.gg/Qb8RPjH6sD), Areti and gsina97)
 * [Hebrew](https://poeditor.com/projects/po_edit?id_language=61&per_page=100&id=409229) (thanks to [Galaxy6430](https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg), [Kahpot Vanilla](https://linktr.ee/KahpotVanilla) and Amit)
 * [Hindi](https://poeditor.com/projects/po_edit?id_language=63&per_page=100&id=409229) (thanks to [Mridun Gupta](https://contact.mridungupta.eu.org), [regex](https://github.com/REGEX777), [Julian](https://julian-idl.codes/) and mochiron desu)
-* [Hungarian](https://poeditor.com/projects/po_edit?id_language=65&per_page=100&id=409229) (thanks to [Botond Balla](https://github.com/BallaBotond), Levi, Noxie and BunDzsi)
+* [Hungarian](https://poeditor.com/projects/po_edit?id_language=65&per_page=100&id=409229) (thanks to [Botond Balla](https://github.com/BallaBotond), [BunDzsi](https://github.com/bundzsiman), Levi and Noxie)
 * [Icelandic](https://poeditor.com/projects/po_edit?id_language=66&per_page=100&id=409229) (thanks to phoenix, Meelis and Amr Ezzat)
 * [Indonesian](https://poeditor.com/projects/po_edit?id_language=69&per_page=100&id=409229) (thanks to Hapnan, [Bayu Sopwan](https://bayusopwan.github.io), Apolycious, OHMKUB, xChellz and delaragon)
 * [Italian](https://poeditor.com/projects/po_edit?id_language=75&per_page=100&id=409229) (thanks to DJD320, [NEKO](https://www.youtube.com/@ilcanaledineko),  Frin, Bay, Matthww, [ItsMrCube](https://mrcube.dev/) and Patrick Canal)

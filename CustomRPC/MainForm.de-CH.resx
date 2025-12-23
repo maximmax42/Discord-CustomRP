@@ -462,4 +462,13 @@ damit es funktioniert münd bi beidne fälder meh als 0 si.</value>
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>Art vo Aktivität für d Präsenz.</value>
   </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>Dä Name vom Program.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>Sit dä letzte verbindig</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Zeigt wie lang sit du zletzt verbunde hesch.</value>
+  </data>
 </root>

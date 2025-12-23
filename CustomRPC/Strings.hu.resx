@@ -128,11 +128,11 @@
 Nyomj "Igen"-t az újrapróbáláshoz vagy "Nem"-et, hogy manuálisan töltsd le.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Első indítás</value>
+    <value>Segítségre van szüksége?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Meg akarod nyitni a Használati Utasítást?
-Bármikor megteheted ha a Segítség -&gt; Használati Utasítás megnyitására nyomsz vagy csak lenyomod az F1 billentyűt.</value>
+Bármikor megteheted ha a Segítség -&gt; Használati Utasítás megnyitására nyomsz vagy lenyomod az F1 billentyűt.</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>Információ</value>
@@ -191,7 +191,8 @@ Nyomj Igen-t hogy visszaállísd a beállításokat, nyomj Nem-et hogy kilépj.<
     <value>Állapot frissítése...</value>
   </data>
   <data name="newPresetConfirmation" xml:space="preserve">
-    <value>Biztos, hogy az elejétől akarsz kezdeni? Ezt nem lehet visszacsinálni.</value>
+    <value>Biztos, hogy az elejéről akarod kezdeni?
+Ezt nem lehet visszacsinálni.</value>
   </data>
   <data name="deleteSettings" xml:space="preserve">
     <value>Törölni szeretnéd az alkalmazás beállításait?

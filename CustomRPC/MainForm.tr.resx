@@ -499,6 +499,15 @@ Etkili olması için, iki alan da 0'dan büyük olmadılır.</value>
     <value>Yeni İlerleme</value>
   </data>
   <data name="labelType.ToolTip" xml:space="preserve">
-    <value>Presence için aktivite tipi.</value>
+    <value>Durum için aktivite tipi.</value>
+  </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>Uygulamanın adı.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>Son bağlantıdan beri</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Son bağlandığınızdan beri ne kadar zaman geçtiğini gösterir.</value>
   </data>
 </root>

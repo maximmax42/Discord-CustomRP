@@ -492,9 +492,9 @@ namespace CustomRPC
                     Code = "hu",
                     Translators = new Person[] {
                         new Person { Name = "Balla Botond", Url = "https://github.com/BallaBotond" },
+                        new Person { Name = "BunDzsi", Url = "https://github.com/bundzsiman" },
                         new Person { Name = "Levi" },
                         new Person { Name = "Noxie" },
-                        new Person { Name = "BunDzsi" },
                     }
                 },
                 new Language {
@@ -924,11 +924,11 @@ namespace CustomRPC
             LanguageProgress["gl"] = "87.39";
             LanguageProgress["ka"] = "97.3";
             LanguageProgress["de"] = "100";
-            LanguageProgress["de-ch"] = "97.3";
+            LanguageProgress["de-ch"] = "100";
             LanguageProgress["el"] = "97.3";
             LanguageProgress["he"] = "97.3";
             LanguageProgress["hi"] = "97.3";
-            LanguageProgress["hu"] = "97.3";
+            LanguageProgress["hu"] = "100";
             LanguageProgress["is"] = "87.39";
             LanguageProgress["id"] = "97.3";
             LanguageProgress["it"] = "97.3";
@@ -959,7 +959,7 @@ namespace CustomRPC
             LanguageProgress["sv"] = "88.29";
             LanguageProgress["ta"] = "85.59";
             LanguageProgress["th"] = "97.3";
-            LanguageProgress["tr"] = "97.3";
+            LanguageProgress["tr"] = "100";
             LanguageProgress["uk"] = "92.79";
             LanguageProgress["ur"] = "90.09";
             LanguageProgress["vi"] = "97.3";

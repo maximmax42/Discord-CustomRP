@@ -121,7 +121,7 @@
     <value>Kattints duplán az ikonra, hogy újra megjelenjen vagy jobb egérgombbal, hogy kilépj.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>Az app a Tray-ben fog futni.</value>
+    <value>Az app a tálcán fog futni.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
@@ -368,7 +368,7 @@
     <value>Lecsatlakozás</value>
   </data>
   <data name="buttonDisconnect.ToolTip" xml:space="preserve">
-    <value>Szétkapcsolja a programot a Discord-tól. Számolj vele, hogy ez eltarthat egy ideig.</value>
+    <value>Szétkapcsolás a Discord-tól. Ez eltarthat egy ideig.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
     <value>Az applikáció azonosítója a Discord Fejlesztőknek oldalról.</value>
@@ -413,23 +413,23 @@
     <value>Mióta a CustomRP elindult</value>
   </data>
   <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
-    <value>Azt az időt mutatja mióta az app elindult.</value>
+    <value>Az app ennyi ideje fut.</value>
   </data>
   <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 18</value>
   </data>
   <data name="radioButtonLocalTime.Text" xml:space="preserve">
-    <value>A te helyi időd</value>
+    <value>Helyi idő</value>
   </data>
   <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
-    <value>Mutatja a helyi időd 24 órás formátumban.</value>
+    <value>Mutatja a helyi időt 24 órás formátumban.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>Időbélyeget állít be az állapothoz, amely megjelenik a szövegek alatt.
 Az állapot időzítők 24 órás korlátot tartalmaznak, ami azt jelenti, hogy 24 óra elteltével az idő visszaáll 0:00-ra.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>Az aktuális partiban szereplő játékosok száma, amely megjelenik az Állás mező mellett.
+    <value>Az aktuális partiban szereplő játékosok száma, amely megjelenik az Állapot mező mellett.
 A működéshez mindkét mezőnek 0-nál nagyobbnak kell lennie.</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
@@ -460,10 +460,10 @@ A működéshez mindkét mezőnek 0-nál nagyobbnak kell lennie.</value>
     <value>A második gomb, ami rögtön az első alatt jelenik meg vagy helyette ha az nincs beállítva.</value>
   </data>
   <data name="labelButton1URL.ToolTip" xml:space="preserve">
-    <value>URL ahová a felhasználó kerül amint rákattint.</value>
+    <value>URL ahová a gomb vezet.</value>
   </data>
   <data name="labelButton2URL.ToolTip" xml:space="preserve">
-    <value>URL ahová a felhasználó kerül amint rákattint.</value>
+    <value>URL ahová a gomb vezet.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
     <value>Az első gomb felirata.</value>
@@ -481,13 +481,13 @@ A működéshez mindkét mezőnek 0-nál nagyobbnak kell lennie.</value>
     <value>/</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Statisztikák küldése a fejlesztőnek</value>
+    <value>Telemetria engedélyezése</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Az elem neve a kis képhez.</value>
+    <value>Az elem neve a kis képhez vagy URL a képhez.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Az elem neve a nagy képhez.</value>
+    <value>Az elem neve a nagy képhez vagy URL a képhez.</value>
   </data>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>Sötét Mód</value>
@@ -496,7 +496,7 @@ A működéshez mindkét mezőnek 0-nál nagyobbnak kell lennie.</value>
     <value>Támogatók</value>
   </data>
   <data name="radioButtonPresence.Text" xml:space="preserve">
-    <value>Az előző</value>
+    <value>Az előző állapotfrissítés óta eltelt idő</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>Kijelzi mennyi idő telt el az állapot utolsó kapcsolódása vagy fríssítése óta.</value>
@@ -508,6 +508,15 @@ A működéshez mindkét mezőnek 0-nál nagyobbnak kell lennie.</value>
     <value>Új állapot</value>
   </data>
   <data name="labelType.ToolTip" xml:space="preserve">
-    <value>Aktivitás fajtája az állapotodhoz.</value>
+    <value>Aktivitás fajtája az állapothoz.</value>
+  </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>Az app neve.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>Utolsó kapcsolódás óta eltelt idő</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Utolsó kapcsolódás óta eltelt idő.</value>
   </data>
 </root>

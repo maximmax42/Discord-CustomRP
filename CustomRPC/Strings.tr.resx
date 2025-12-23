@@ -205,7 +205,7 @@ Bu geri alınamaz.</value>
     <value>Dinliyor</value>
   </data>
   <data name="presenceTypeWatching" xml:space="preserve">
-    <value>Izliyor</value>
+    <value>İzliyor</value>
   </data>
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>Yarışmasında yarışıyor</value>
