@@ -317,4 +317,13 @@
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>動態的類型。</value>
   </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>該應用程式的名稱。</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>自最後一次連線以來</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>顯示自最後一次連線以來所經歷的時間。</value>
+  </data>
 </root>

@@ -769,7 +769,7 @@ namespace CustomRPC
                     Code = "sk",
                     Translators = new Person[] {
                         new Person { Name = "richi", Url = "https://e-z.bio/shelovesrichi" }, // rci1337
-                        new Person { Name = "maros" },
+                        new Person { Name = "Maroš" },
                         new Person { Name = "eRko" },
                     }
                 },
@@ -911,19 +911,19 @@ namespace CustomRPC
             LanguageProgress["bg"] = "97.3";
             LanguageProgress["my"] = "97.3";
             LanguageProgress["ca"] = "97.3";
-            LanguageProgress["zh-hans"] = "97.3";
-            LanguageProgress["zh-hant"] = "97.3";
+            LanguageProgress["zh-hans"] = "100";
+            LanguageProgress["zh-hant"] = "100";
             LanguageProgress["hr"] = "87.39";
             LanguageProgress["cs"] = "91.89";
             LanguageProgress["da"] = "88.29";
-            LanguageProgress["nl"] = "97.3";
+            LanguageProgress["nl"] = "100";
             LanguageProgress["et"] = "97.3";
             LanguageProgress["fil"] = "97.3";
             LanguageProgress["fi"] = "97.3";
             LanguageProgress["fr"] = "97.3";
             LanguageProgress["gl"] = "87.39";
             LanguageProgress["ka"] = "97.3";
-            LanguageProgress["de"] = "97.3";
+            LanguageProgress["de"] = "100";
             LanguageProgress["de-ch"] = "97.3";
             LanguageProgress["el"] = "97.3";
             LanguageProgress["he"] = "97.3";
@@ -935,7 +935,7 @@ namespace CustomRPC
             LanguageProgress["ja"] = "97.3";
             LanguageProgress["kn"] = "91.89";
             LanguageProgress["kk"] = "91.89";
-            LanguageProgress["ko"] = "97.3";
+            LanguageProgress["ko"] = "100";
             LanguageProgress["ku"] = "87.39";
             LanguageProgress["lo"] = "97.3";
             LanguageProgress["lv"] = "87.39";
@@ -953,7 +953,7 @@ namespace CustomRPC
             LanguageProgress["ro"] = "97.3";
             LanguageProgress["ru"] = "100";
             LanguageProgress["sr"] = "87.39";
-            LanguageProgress["sk"] = "97.3";
+            LanguageProgress["sk"] = "100";
             LanguageProgress["sl"] = "91.89";
             LanguageProgress["es"] = "97.3";
             LanguageProgress["sv"] = "88.29";

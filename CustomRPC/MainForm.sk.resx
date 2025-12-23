@@ -121,7 +121,7 @@
     <value>Dvakrát kliknite na ikonu, aby sa znova zobrazila, alebo kliknite pravým tlačidlom na ukončenie.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>Aplikácia sa spustí v pozadí.</value>
+    <value>Aplikácia bude bežať v pozadí.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
@@ -164,13 +164,13 @@
     <value>236, 22</value>
   </data>
   <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Načítať Prednastavené</value>
+    <value>Načítať prednastavené</value>
   </data>
   <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Uložiť Prednastavené</value>
+    <value>Uložiť prednastavené</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>233, 6</value>
@@ -188,7 +188,7 @@
     <value>236, 22</value>
   </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Skončiť</value>
+    <value>Ukončiť</value>
   </data>
   <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 20</value>
@@ -269,13 +269,13 @@
     <value>201, 22</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>Otvorte príručku</value>
+    <value>Otvoriť príručku</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>201, 22</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>GitHub Stránka</value>
+    <value>GitHub stránka</value>
   </data>
   <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
     <value>198, 6</value>
@@ -311,7 +311,7 @@
     <value>105, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Stiahnuť Update</value>
+    <value>Stiahnuť aktualizáciu</value>
   </data>
   <data name="buttonUpdatePresence.Location" type="System.Drawing.Point, System.Drawing">
     <value>167, 456</value>
@@ -347,7 +347,7 @@
     <value>Druhý riadok v aktivite.</value>
   </data>
   <data name="labelSmallKey.ToolTip" xml:space="preserve">
-    <value>Názov diela pre malý obrázok alebo webovú adresu obrázka.</value>
+    <value>Názov diela pre malý obrázok alebo webová adresa obrázka.</value>
   </data>
   <data name="labelSmallText.ToolTip" xml:space="preserve">
     <value>Text zobrazený pri umiestnení kurzora myši na malý obrázok.</value>
@@ -356,7 +356,7 @@
     <value>Text zobrazený pri umiestnení kurzora myši na veľký obrázok.</value>
   </data>
   <data name="labelLargeKey.ToolTip" xml:space="preserve">
-    <value>Názov diela pre veľký obrázok alebo webovú adresu obrázka.</value>
+    <value>Názov diela pre veľký obrázok alebo webová adresa obrázka.</value>
   </data>
   <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 14</value>
@@ -399,7 +399,7 @@
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
     <value>Nastaví časovú pečiatku pre stav, ktorý sa zobrazí pod celým textom vyššie.
-Stavové časovače majú 24-hodinový limit, čo znamená, že po 24 hodinách sa čas vráti späť na 00:00.</value>
+Časovače majú 24-hodinový limit, čo znamená, že po 24 hodinách sa čas vráti na 00:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
     <value>Množstvo hráčov v aktuálnej skupine, ktoré sa zobrazujú vedľa stavového poľa.
@@ -463,12 +463,21 @@ Aby nadobudli účinnosť, obe polia by mali byť väčšie ako 0.</value>
     <value>z</value>
   </data>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
-    <value>Často Kladené Otázky</value>
+    <value>Často kladené otázky</value>
   </data>
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Nové nastavenie</value>
   </data>
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>Typ aktivity.</value>
+  </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>Názov aplikácie.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>Od posledného pripojenia</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Zobraziť, koľko času uplynulo od posledného pripojenia.</value>
   </data>
 </root>

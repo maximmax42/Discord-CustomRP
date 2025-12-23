@@ -184,7 +184,7 @@
     <value>연결</value>
   </data>
   <data name="buttonConnect.ToolTip" xml:space="preserve">
-    <value>응용프로그램을 설정된 활동 상태로 지정된 ID에 연결합니다.</value>
+    <value>애플리케이션을 설정된 활동 상태로 지정된 ID에 연결합니다.</value>
   </data>
   <data name="buttonDisconnect.Text" xml:space="preserve">
     <value>연결 끊기</value>
@@ -193,7 +193,7 @@
     <value>Discord에서 앱의 연결을 끊습니다. 잠시 시간이 걸릴 수 있습니다.</value>
   </data>
   <data name="labelID.ToolTip" xml:space="preserve">
-    <value>Discord 개발자 사이트에 있는 응용프로그램의 ID입니다.</value>
+    <value>Discord 개발자 사이트에 있는 애플리케이션의 ID입니다.</value>
   </data>
   <data name="labelDetails.ToolTip" xml:space="preserve">
     <value>활동 상태의 첫 번째 줄입니다.</value>
@@ -316,5 +316,14 @@
   </data>
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>활동 상태를 위한 활동의 종류입니다.</value>
+  </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>애플리케이션의 이름</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>마지막 연결 이후</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>마지막으로 연결한 이후 얼마나 많은 시간이 지났는지 보여줍니다.</value>
   </data>
 </root>

@@ -205,15 +205,15 @@ Dies kann nicht rückgänig gemacht werden.</value>
 Dies kann nicht rückgängig gemacht werden.</value>
   </data>
   <data name="presenceTypePlaying" xml:space="preserve">
-    <value>Spielen</value>
+    <value>Spielt</value>
   </data>
   <data name="presenceTypeListening" xml:space="preserve">
-    <value>Zuhören</value>
+    <value>Hört</value>
   </data>
   <data name="presenceTypeWatching" xml:space="preserve">
-    <value>Zuschauen</value>
+    <value>Schaut</value>
   </data>
   <data name="presenceTypeCompeting" xml:space="preserve">
-    <value>Wettstreiten</value>
+    <value>Tritt</value>
   </data>
 </root>

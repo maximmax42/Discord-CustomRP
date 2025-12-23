@@ -132,7 +132,7 @@ Stlačením tlačidla „Áno“ to zopakujete alebo stlačením tlačidla „Ni
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Chcete otvoriť príručku?
-Môžete ju kedykoľvek otvoriť tak, že prejdete na Pomocník -&gt; Otvoriť príručku alebo stlačíte klávesu F1.</value>
+Môžete ju kedykoľvek otvoriť cez Pomocník -&gt; Otvoriť príručku alebo stlačením klávesy F1.</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>Informácie</value>
@@ -166,7 +166,7 @@ Môžete ju kedykoľvek otvoriť tak, že prejdete na Pomocník -&gt; Otvoriť p
 Stlačte Áno pre resetovanie nastavení, stlačte Nie pre ukončenie.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Nepodarilo sa importovať predvoľbu; súbor buď chýba, je poškodený alebo nie je správne naformátovaný.</value>
+    <value>Nepodarilo sa importovať predvolené nastavenia; súbor chýba, je poškodený, alebo je nesprávne formátovaný.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
     <value>Povoľujete CustomRP odosielať vaše analýzy používania vývojárovi?
@@ -185,14 +185,14 @@ Stlačte Áno pre resetovanie nastavení, stlačte Nie pre ukončenie.</value>
     <value>Nepodarilo sa pridať alebo odstrániť skratku pri spustení:</value>
   </data>
   <data name="errorOpeningURL" xml:space="preserve">
-    <value>Nepodaril sa otvoriť odkaz. Bol uložený do schránky.</value>
+    <value>Nepodarilo sa otvoriť odkaz. Bol skopírovaný do schránky.</value>
   </data>
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>Aktualizácia aktivity...</value>
   </data>
   <data name="newPresetConfirmation" xml:space="preserve">
-    <value>Ste si istý že chcete začať od zaciatku?
-Toto nemôžete dať naspäť.</value>
+    <value>Ste si istí, že chcete začať od začiatku?
+Toto je nevratné.</value>
   </data>
   <data name="deleteSettings" xml:space="preserve">
     <value>Chcete odstrániť nastavenia aplikácie?

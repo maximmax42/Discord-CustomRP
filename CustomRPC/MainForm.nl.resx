@@ -462,4 +462,13 @@ Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>Tijd van activiteit voor Status.</value>
   </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>De naam van de applicatie.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>Sinds laatste verbinding</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Laat zien hoeveel tijd er is verstreken sinds de laatste verbinding.</value>
+  </data>
 </root>

@@ -456,4 +456,13 @@
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>动态的类型。</value>
   </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>该应用程式的名称。</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>自最后一次连线以来</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>显示自最后一次连线以来所经历的时间。</value>
+  </data>
 </root>
