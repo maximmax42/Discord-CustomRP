@@ -786,11 +786,13 @@ namespace CustomRPC
             settings.button1URL = settings.button1URL.Trim();
             settings.button2URL = settings.button2URL.Trim();
 
+            string settingsWithCountdown = Countdownify(settings.details);
+
             var rp = new RichPresence()
             {
                 Name = settings.name,
                 Type = (ActivityType)settings.type,
-                Details = settings.details,
+                Details = settingsWithCountdown,
                 State = settings.state,
                 Party = new Party()
                 {
@@ -826,7 +828,8 @@ namespace CustomRPC
                     return Regex.Replace(key, @"//((cdn)|(media))\.discordapp\.((com)|(net))/", "//customrp.xyz/proxy/");
 
                 return key;
-            };
+            }
+            ;
 
             try
             {
@@ -1718,6 +1721,37 @@ namespace CustomRPC
         {
             Utils.SaveSettings();
             SetPresence();
+        }
+
+        /// <summary>
+        /// Replace {countdown: dd/mm/yyyy} with number of days until that day
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        private string Countdownify(string input)
+        {
+            string[] split = input.Split('{', '}');
+            string output = "";
+
+            foreach (var s in split)
+            {
+                if (s.StartsWith("countdown: ") && s.Length == 21)
+                {
+                    string date = s.Substring(11, 10);
+
+                    DateTime dateTime = DateTime.ParseExact(date, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                    int daysUntilDate = dateTime.Subtract(DateTime.Now).Days;
+                    int daysLeft = Math.Max(daysUntilDate, 0); // If we pass the day we don't want to go negative
+
+                    output += daysLeft;
+                }
+                else
+                {
+                    output += s;
+                }
+            }
+
+            return output;
         }
     }
 }
