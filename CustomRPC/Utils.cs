@@ -211,7 +211,7 @@ namespace CustomRPC
         static Person NoahPombas = new Person { Name = "Noah Pombas", Url = "https://noahpombas.ch" };
         static Person OHMKUB = new Person { Name = "OHMKUB" };
         static Person TofixRs = new Person { Name = "Tofix.rs" };
-        static Person VerdantWanderer = new Person { Name = "VerdantWanderer", Url = "https://www.twitch.tv/verdant_wanderer" };
+        static Person NoctusRaven = new Person { Name = "NoctusRaven", Url = "https://www.twitch.tv/noctusraven" };
         static Person Yoshi = new Person { Name = "Yoshi" };
         static Person westxlu = new Person { Name = "蘆筍 (aka westxlu)", Url = "https://linktr.ee/westxlu" };
         static Person whoscanel = new Person { Name = "whoscanel", Url = "https://canel.cloud" }; // ex iRetrozx
@@ -608,7 +608,7 @@ namespace CustomRPC
                     EnglishName = "Lithuanian",
                     Code = "lt",
                     Translators = new Person[] {
-                        VerdantWanderer,
+                        NoctusRaven,
                         new Person { Name = "Flix3ris" },
                     }
                 },
@@ -975,7 +975,7 @@ namespace CustomRPC
                     AltAmount = "0.0008328 BTC"
                 },
                 new Supporter(
-                    VerdantWanderer,
+                    NoctusRaven,
                     USDAmount: "6.00"
                 ),
                 new Supporter {
