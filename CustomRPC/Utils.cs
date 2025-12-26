@@ -437,7 +437,7 @@ namespace CustomRPC
                     EnglishName = "French",
                     Code = "fr",
                     Translators = new Person[] {
-                        new Person { Name = "Nenaff" }, // Account deleted, +8
+                        new Person { Name = "Nenaff" }, // Account deleted, +7
                         new Person { Name = "Yo-3DS" },
                         new Person { Name = "RedNix" },
                         new Person { Name = "20syl", Url = "https://github.com/20syldev" },
@@ -538,10 +538,10 @@ namespace CustomRPC
                         new Person { Name = "NEKO", Url = "https://www.youtube.com/@ilcanaledineko" },
                         new Person { Name = "Frin" },
                         new Person { Name = "Bay" },
+                        new Person { Name = "Patrick Canal" },
                         Matthww,
                         new Person { Name = "ItsMrCube", Url = "https://mrcube.dev/" },
                         // NoahPombas, 2 translations but none are new
-                        new Person { Name = "Patrick Canal" },
                     }
                 },
                 new Language {
@@ -706,9 +706,9 @@ namespace CustomRPC
                         new Person { Name = "Muzes", Url = "https://radio.muzes.xyz/" },
                         new Person { Name = "Piter" },
                         new Person { Name = "Oscar" },
-                        MarcelGustin,
                         TofixRs,
                         new Person { Name = "KM127PL" },
+                        MarcelGustin, // 0 translations
                     }
                 },
                 new Language {
@@ -895,7 +895,7 @@ namespace CustomRPC
                     Translators = new Person[] {
                         westxlu,
                         new Person { Name = "DragonTaki", Url = "https://steamcommunity.com/id/DragonTaki/" },
-                        crohmthz,
+                        crohmthz, // 0 translations
                     }
                 }
             };
@@ -920,7 +920,7 @@ namespace CustomRPC
             LanguageProgress["et"] = "97.3";
             LanguageProgress["fil"] = "97.3";
             LanguageProgress["fi"] = "97.3";
-            LanguageProgress["fr"] = "97.3";
+            LanguageProgress["fr"] = "100";
             LanguageProgress["gl"] = "87.39";
             LanguageProgress["ka"] = "97.3";
             LanguageProgress["de"] = "100";
@@ -931,7 +931,7 @@ namespace CustomRPC
             LanguageProgress["hu"] = "100";
             LanguageProgress["is"] = "87.39";
             LanguageProgress["id"] = "97.3";
-            LanguageProgress["it"] = "97.3";
+            LanguageProgress["it"] = "100";
             LanguageProgress["ja"] = "97.3";
             LanguageProgress["kn"] = "91.89";
             LanguageProgress["kk"] = "91.89";
@@ -939,7 +939,7 @@ namespace CustomRPC
             LanguageProgress["ku"] = "87.39";
             LanguageProgress["lo"] = "97.3";
             LanguageProgress["lv"] = "87.39";
-            LanguageProgress["lt"] = "91.89";
+            LanguageProgress["lt"] = "100";
             LanguageProgress["mk"] = "87.39";
             LanguageProgress["ms"] = "97.3";
             LanguageProgress["ml"] = "87.39";
@@ -947,7 +947,7 @@ namespace CustomRPC
             LanguageProgress["no"] = "88.29";
             LanguageProgress["pa"] = "97.3";
             LanguageProgress["fa"] = "97.3";
-            LanguageProgress["pl"] = "97.3";
+            LanguageProgress["pl"] = "100";
             LanguageProgress["pt"] = "97.3";
             LanguageProgress["pt-br"] = "97.3";
             LanguageProgress["ro"] = "97.3";

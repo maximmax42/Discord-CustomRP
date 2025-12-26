@@ -465,4 +465,13 @@ Perché funzioni, entrambi i valori devono essere superiori a 0.</value>
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>Tipo di attività per la presenza.</value>
   </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>Il nome dell'applicazione.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>Dall'ultima connessione</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Mostra quanto è passato dall'ultima connessione.</value>
+  </data>
 </root>

@@ -408,4 +408,13 @@ Jeżeli ma mieć jakikolwiek efekt, obydwa pola muszą być większe od 0.</valu
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>Rodzaj aktywności statusu.</value>
   </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>Nazwa aplikacji.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>Od ostatniego połączenia</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Pokazuje, ile czasu minęło od ostatniego połączenia.</value>
+  </data>
 </root>

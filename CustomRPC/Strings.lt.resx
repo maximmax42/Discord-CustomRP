@@ -194,4 +194,20 @@ Paspauskite Taip kad atstatyti nustatymus, paspauskite Ne kad išeiti.</value>
     <value>Ar norite pradėti iš naujo?
 To nebus galima atstatyti.</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Ar norite ištrint programos nustatymus?
+To nebus galima sugražinti.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Žaidžia</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Klauso</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Žiūri</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Varžosi</value>
+  </data>
 </root>

@@ -426,4 +426,16 @@ Kad abu laukai įsigaliotų, jie turėtų būti didesni nei 0.</value>
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Naujas išankstinis nustatymas</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Aktyvios prezentacijos tipas.</value>
+  </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>Aplikacijos pavadinimas.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>Nuo paskutinio prisijungimo</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Rodo kiek laiko praleista, nuo paskutinio prisijungimo.</value>
+  </data>
 </root>

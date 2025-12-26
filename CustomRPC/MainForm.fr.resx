@@ -468,4 +468,13 @@ Pour prendre effet les deux champs doivent être supérieurs à 0.</value>
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>Type d'activité de la présence.</value>
   </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>Le nom de l'application.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>Depuis la dernière connexion</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Indique combien de temps s'est écoulé depuis votre dernière connexion.</value>
+  </data>
 </root>
