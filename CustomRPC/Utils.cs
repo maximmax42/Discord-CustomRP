@@ -908,13 +908,13 @@ namespace CustomRPC
             LanguageProgress["be"] = "97.3";
             LanguageProgress["bn"] = "97.3";
             LanguageProgress["bs"] = "97.3";
-            LanguageProgress["bg"] = "97.3";
+            LanguageProgress["bg"] = "100";
             LanguageProgress["my"] = "97.3";
             LanguageProgress["ca"] = "97.3";
             LanguageProgress["zh-hans"] = "100";
             LanguageProgress["zh-hant"] = "100";
             LanguageProgress["hr"] = "87.39";
-            LanguageProgress["cs"] = "91.89";
+            LanguageProgress["cs"] = "100";
             LanguageProgress["da"] = "88.29";
             LanguageProgress["nl"] = "100";
             LanguageProgress["et"] = "97.3";
@@ -962,7 +962,7 @@ namespace CustomRPC
             LanguageProgress["tr"] = "100";
             LanguageProgress["uk"] = "92.79";
             LanguageProgress["ur"] = "90.09";
-            LanguageProgress["vi"] = "97.3";
+            LanguageProgress["vi"] = "100";
             LanguageProgress["cy"] = "87.39";
             #endregion
 

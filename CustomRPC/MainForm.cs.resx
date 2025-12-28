@@ -468,4 +468,16 @@ Aby se projevily, obě pole by měla být větší než 0.</value>
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Nová předvolba</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Typ aktivity přítomnosti.</value>
+  </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>Název aplikace.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>Od posledního připojení</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Ukazuje kolik času uběhlo od posledního připojení</value>
+  </data>
 </root>

@@ -194,4 +194,20 @@ Klikněte Ano pro reset nastavení, klikněte Ne pro opuštění.</value>
     <value>Jsi si jistý že chceš začít znovu?
 Tato akce nemůže být vrácena.</value>
   </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Jsi si jistý že chceš smazat nastavení aplikace?
+Toto rozhodnutí je nevratné.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Hraje</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Poslouchá</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Sleduje</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Soutěží</value>
+  </data>
 </root>

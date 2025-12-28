@@ -459,4 +459,13 @@ Thời gian của trạng thái có giới hạn là 24 giờ, nghĩa là sau 24
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>Loại hoạt động của trạng thái.</value>
   </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>Tên ứng dụng.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>Kể từ lần kết nối cuối</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Hiện thời gian đã qua kể từ lần cuối bạn kết nối.</value>
+  </data>
 </root>
