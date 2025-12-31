@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("maximmax42")]
 [assembly: AssemblyProduct("CustomRP")]
-[assembly: AssemblyCopyright("maximmax42 © 2018-2025")]
+[assembly: AssemblyCopyright("maximmax42 © 2018-2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
