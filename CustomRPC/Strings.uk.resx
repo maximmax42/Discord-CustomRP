@@ -197,4 +197,16 @@
   <data name="deleteSettings" xml:space="preserve">
     <value>Ви хочете видалити налаштування програми? Це не можливо скасувати.</value>
   </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Грає</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Слухає</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Дивиться</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Змагання</value>
+  </data>
 </root>

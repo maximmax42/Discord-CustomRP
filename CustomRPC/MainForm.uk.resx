@@ -450,4 +450,16 @@
   <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
     <value>Новий шаблон</value>
   </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Тип діяльності для статусу.</value>
+  </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>Назва програми.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>З останнього підключення</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Показує скільки часу пройшло з останнього з'єднання.</value>
+  </data>
 </root>

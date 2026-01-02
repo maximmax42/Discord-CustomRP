@@ -846,6 +846,7 @@ namespace CustomRPC
                         new Person { Name = "Dmitromintenko" },
                         new Person { Name = "Desinger" },
                         new Person { Name = "Illia" },
+                        new Person { Name = "jostua" },
                         new Person { Name = "stefanbanderovych" },
                         l0ngg,
                         new Person { Name = "Black Cat" },
@@ -960,7 +961,7 @@ namespace CustomRPC
             LanguageProgress["ta"] = "85.59";
             LanguageProgress["th"] = "97.3";
             LanguageProgress["tr"] = "100";
-            LanguageProgress["uk"] = "92.79";
+            LanguageProgress["uk"] = "100";
             LanguageProgress["ur"] = "90.09";
             LanguageProgress["vi"] = "100";
             LanguageProgress["cy"] = "87.39";
