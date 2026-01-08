@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Text.RegularExpressions;
@@ -416,13 +417,18 @@ namespace CustomRPC
             BackColor = CurrentColors.BgColor;
             ForeColor = CurrentColors.TextColor;
 
-            foreach (dynamic ctrl in Controls)
+            var allControls = Controls.Cast<Control>().Concat(flowLayoutPanelParty.Controls.Cast<Control>());
+
+            foreach (Control ctrl in allControls)
             {
                 if (ctrl is TextBox || ctrl is ComboBox || ctrl is NumericUpDown)
                 {
                     ctrl.BackColor = CurrentColors.BgTextFields;
                     ctrl.ForeColor = CurrentColors.TextColor;
                 }
+
+                if (ctrl is Panel panel && panel.Name.StartsWith("panelSeparator"))
+                    panel.BackColor = CurrentColors.TextColor;
             }
 
             switch (ConnectionManager.State)
