@@ -394,5 +394,29 @@ namespace CustomRPC.Properties {
                 this["name"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string detailsURL {
+            get {
+                return ((string)(this["detailsURL"]));
+            }
+            set {
+                this["detailsURL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string stateURL {
+            get {
+                return ((string)(this["stateURL"]));
+            }
+            set {
+                this["stateURL"] = value;
+            }
+        }
     }
 }

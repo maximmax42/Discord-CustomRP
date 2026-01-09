@@ -36,7 +36,9 @@ namespace CustomRPC
         public int Type;
         public string Name;
         public string Details;
+        public string DetailsURL;
         public string State;
+        public string StateURL;
         public int PartySize;
         public int PartyMax;
         public int Timestamps;
@@ -277,7 +279,7 @@ namespace CustomRPC
             comboBoxType.DataSource = presenceTypes;
             comboBoxType.SelectedValue = (ActivityType)settings.type;
 
-        // Set up tags for the radio buttons
+            // Set up tags for the radio buttons
             radioButtonLastConnection.Tag = TimestampType.SinceLastConnection;
             radioButtonStartTime.Tag = TimestampType.SinceStartup;
             radioButtonPresence.Tag = TimestampType.SincePresenceUpdate;
@@ -787,6 +789,8 @@ namespace CustomRPC
             if (settings.partySize > settings.partyMax)
                 settings.partyMax = settings.partySize;
 
+            settings.detailsURL = settings.detailsURL.Trim();
+            settings.stateURL = settings.stateURL.Trim();
             settings.smallKey = settings.smallKey.Trim();
             settings.largeKey = settings.largeKey.Trim();
             settings.button1URL = settings.button1URL.Trim();
@@ -826,6 +830,35 @@ namespace CustomRPC
             }
             */
 
+            string ProcessURL(string url)
+            {
+                if (string.IsNullOrEmpty(url))
+                    return url;
+
+                string protocol = "https://";
+
+                if (!url.Contains("://"))
+                    return (protocol + url).Substring(0, Math.Min(textBoxButton1URL.MaxLength, url.Length + protocol.Length));
+
+                try
+                {
+                    if (Uri.TryCreate(url, UriKind.Absolute, out tempUri))
+                        url = tempUri.AbsoluteUri.Replace(tempUri.Host, tempUri.IdnHost);
+                }
+                catch
+                {
+                    // Sometimes TryCreate throws errors, even when it's not supposed to, so we can just let it fail quietly
+                }
+
+                return url;
+            }
+
+            settings.detailsURL = ProcessURL(settings.detailsURL);
+            settings.stateURL = ProcessURL(settings.stateURL);
+
+            rp.DetailsUrl = settings.detailsURL;
+            rp.StateUrl = settings.stateURL;
+
             string Proxify(string key)
             {
                 if (key != null)
@@ -839,7 +872,7 @@ namespace CustomRPC
                 // Thank you Discord, very cool
                 bool IsMpExternalStringOverLimit(Uri uri)
                 {
-                    return $"mp:external/43 characters that probably represent an id/{Uri.EscapeDataString(tempUri.Query)}/{tempUri.Scheme}/{(tempUri.IdnHost == "media.discordapp.net" ? "cdn.discordapp.com" : tempUri.IdnHost)}{tempUri.AbsolutePath}".Length > 256;
+                    return $"mp:external/43 characters that probably represent an id/{Uri.EscapeDataString(uri.Query)}/{uri.Scheme}/{(uri.IdnHost == "media.discordapp.net" ? "cdn.discordapp.com" : uri.IdnHost)}{uri.AbsolutePath}".Length > 256;
                 }
 
                 if (Uri.TryCreate(settings.smallKey, UriKind.Absolute, out tempUri))
@@ -885,45 +918,28 @@ namespace CustomRPC
 
             buttonsList.Clear();
 
-            string AddProtocol(string url)
-            {
-                if (string.IsNullOrEmpty(url))
-                    return url;
+            settings.button1URL = ProcessURL(settings.button1URL);
+            settings.button2URL = ProcessURL(settings.button2URL);
 
-                string protocol = "https://";
+            Utils.SaveSettings();
 
-                if (!url.Contains("://"))
-                    return (protocol + url).Substring(0, Math.Min(textBoxButton1URL.MaxLength, url.Length + protocol.Length));
+            if (settings.button1Text != "" && settings.button1URL != "")
+                buttonsList.Add(new DButton()
+                {
+                    Label = settings.button1Text,
+                    Url = settings.button1URL
+                });
 
-                return url;
-            }
+            if (settings.button2Text != "" && settings.button2URL != "")
+                buttonsList.Add(new DButton()
+                {
+                    Label = settings.button2Text,
+                    Url = settings.button2URL
+                });
 
-            settings.button1URL = AddProtocol(settings.button1URL);
-            settings.button2URL = AddProtocol(settings.button2URL);
-
+            /* I don't think that this catch block ever worked
             try
             {
-                if (Uri.TryCreate(settings.button1URL, UriKind.Absolute, out tempUri))
-                    settings.button1URL = tempUri.AbsoluteUri.Replace(tempUri.Host, tempUri.IdnHost);
-
-                if (Uri.TryCreate(settings.button2URL, UriKind.Absolute, out tempUri))
-                    settings.button2URL = tempUri.AbsoluteUri.Replace(tempUri.Host, tempUri.IdnHost);
-
-                Utils.SaveSettings();
-
-                if (settings.button1Text != "" && settings.button1URL != "")
-                    buttonsList.Add(new DButton()
-                    {
-                        Label = settings.button1Text,
-                        Url = settings.button1URL
-                    });
-
-                if (settings.button2Text != "" && settings.button2URL != "")
-                    buttonsList.Add(new DButton()
-                    {
-                        Label = settings.button2Text,
-                        Url = settings.button2URL
-                    });
             }
             catch
             {
@@ -934,6 +950,7 @@ namespace CustomRPC
             {
                 Utils.SaveSettings();
             }
+            */
 
             rp.Buttons = buttonsList.ToArray();
 
@@ -945,7 +962,6 @@ namespace CustomRPC
                 case TimestampType.LocalTime:
                     rp.Timestamps = new Timestamps(DateTime.UtcNow.Subtract(new TimeSpan(DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second)));
                     localTimeTimer.Interval = DateTime.Today.AddDays(1).AddSeconds(5).Subtract(DateTime.Now).TotalMilliseconds;
-                    localTimeTimer.Start();
                     break;
                 case TimestampType.Custom:
                     DateTime customTimestamp = dateTimePickerTimestamp.Value.ToUniversalTime();
@@ -969,7 +985,19 @@ namespace CustomRPC
 
             ConnectionManager.State = ConnectionState.UpdatingPresence;
             toolStripStatusLabelStatus.Text = Strings.statusUpdatingPresence;
-            client.SetPresence(rp);
+
+            try
+            {
+                client.SetPresence(rp);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            
+            if ((TimestampType)settings.timestamps == TimestampType.LocalTime)
+                localTimeTimer.Start();
 
             return true;
         }
@@ -1102,7 +1130,8 @@ namespace CustomRPC
                 Disconnect();
 
             textBoxID.Text = textBoxName.Text =
-                textBoxDetails.Text = textBoxState.Text =
+                textBoxDetails.Text = textBoxDetailsURL.Text =
+                textBoxState.Text = textBoxStateURL.Text =
                 comboBoxLargeKey.Text = textBoxLargeText.Text =
                 comboBoxSmallKey.Text = textBoxSmallText.Text =
                 textBoxButton1Text.Text = textBoxButton1URL.Text =
@@ -1130,7 +1159,9 @@ namespace CustomRPC
                 settings.type = preset.Type;
                 settings.name = preset.Name;
                 settings.details = preset.Details;
+                settings.detailsURL = preset.DetailsURL;
                 settings.state = preset.State;
+                settings.stateURL = preset.StateURL;
                 settings.partySize = preset.PartySize;
                 settings.partyMax = preset.PartyMax;
                 settings.timestamps = preset.Timestamps;
@@ -1241,7 +1272,9 @@ namespace CustomRPC
                             Type = settings.type,
                             Name = settings.name,
                             Details = settings.details,
+                            DetailsURL = settings.detailsURL,
                             State = settings.state,
+                            StateURL = settings.stateURL,
                             PartySize = (int)settings.partySize,
                             PartyMax = (int)settings.partyMax,
                             Timestamps = settings.timestamps,

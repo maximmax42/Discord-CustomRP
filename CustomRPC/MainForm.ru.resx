@@ -507,4 +507,10 @@
   <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
     <value>Показывает, сколько времени прошло после подключения.</value>
   </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>Ссылка, которая откроется при нажатии на текст поля Details.</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>Ссылка, которая откроется при нажатии на текст поля State.</value>
+  </data>
 </root>

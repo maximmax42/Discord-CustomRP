@@ -106,6 +106,8 @@
             this.buttonDisconnect = new System.Windows.Forms.Button();
             this.buttonConnect = new System.Windows.Forms.Button();
             this.buttonUpdatePresence = new System.Windows.Forms.Button();
+            this.labelDetailsURL = new System.Windows.Forms.Label();
+            this.labelStateURL = new System.Windows.Forms.Label();
             this.panelTimestamps = new System.Windows.Forms.Panel();
             this.dateTimePickerTimestamp = new System.Windows.Forms.DateTimePicker();
             this.labelPartyOf = new System.Windows.Forms.Label();
@@ -113,13 +115,21 @@
             this.toolStripStatusLabelUsername = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabelStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.comboBoxType = new System.Windows.Forms.ComboBox();
+            this.panelSeparator1 = new System.Windows.Forms.Panel();
+            this.panelSeparator2 = new System.Windows.Forms.Panel();
+            this.panelSeparator3 = new System.Windows.Forms.Panel();
+            this.panelSeparator4 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanelButtons = new System.Windows.Forms.TableLayoutPanel();
+            this.flowLayoutPanelParty = new System.Windows.Forms.FlowLayoutPanel();
+            this.numericUpDownPartySize = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownPartyMax = new System.Windows.Forms.NumericUpDown();
+            this.textBoxStateURL = new System.Windows.Forms.TextBox();
+            this.textBoxDetailsURL = new System.Windows.Forms.TextBox();
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.textBoxButton2Text = new System.Windows.Forms.TextBox();
             this.textBoxButton2URL = new System.Windows.Forms.TextBox();
             this.textBoxButton1URL = new System.Windows.Forms.TextBox();
             this.textBoxButton1Text = new System.Windows.Forms.TextBox();
-            this.numericUpDownPartySize = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDownPartyMax = new System.Windows.Forms.NumericUpDown();
             this.comboBoxSmallKey = new System.Windows.Forms.ComboBox();
             this.textBoxSmallText = new System.Windows.Forms.TextBox();
             this.textBoxLargeText = new System.Windows.Forms.TextBox();
@@ -127,20 +137,14 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.panelSeparator1 = new System.Windows.Forms.Panel();
-            this.panelSeparator2 = new System.Windows.Forms.Panel();
-            this.panelSeparator3 = new System.Windows.Forms.Panel();
-            this.panelSeparator4 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanelButtons = new System.Windows.Forms.TableLayoutPanel();
-            this.flowLayoutPanelParty = new System.Windows.Forms.FlowLayoutPanel();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
             this.statusStrip.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPartySize)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPartyMax)).BeginInit();
             this.tableLayoutPanelButtons.SuspendLayout();
             this.flowLayoutPanelParty.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPartySize)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPartyMax)).BeginInit();
             this.SuspendLayout();
             // 
             // trayIcon
@@ -696,6 +700,20 @@
             this.buttonUpdatePresence.Click += new System.EventHandler(this.Update);
             this.buttonUpdatePresence.Paint += new System.Windows.Forms.PaintEventHandler(this.ButtonPaint);
             // 
+            // labelDetailsURL
+            // 
+            resources.ApplyResources(this.labelDetailsURL, "labelDetailsURL");
+            this.labelDetailsURL.Cursor = System.Windows.Forms.Cursors.Help;
+            this.labelDetailsURL.Name = "labelDetailsURL";
+            this.toolTipInfo.SetToolTip(this.labelDetailsURL, resources.GetString("labelDetailsURL.ToolTip"));
+            // 
+            // labelStateURL
+            // 
+            resources.ApplyResources(this.labelStateURL, "labelStateURL");
+            this.labelStateURL.Cursor = System.Windows.Forms.Cursors.Help;
+            this.labelStateURL.Name = "labelStateURL";
+            this.toolTipInfo.SetToolTip(this.labelStateURL, resources.GetString("labelStateURL.ToolTip"));
+            // 
             // panelTimestamps
             // 
             this.panelTimestamps.Controls.Add(this.radioButtonPresence);
@@ -750,6 +768,100 @@
             this.comboBoxType.ForeColor = System.Drawing.Color.White;
             this.comboBoxType.Name = "comboBoxType";
             this.comboBoxType.SelectedValueChanged += new System.EventHandler(this.PresenceTypeChanged);
+            // 
+            // panelSeparator1
+            // 
+            this.panelSeparator1.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.panelSeparator1, "panelSeparator1");
+            this.panelSeparator1.Name = "panelSeparator1";
+            // 
+            // panelSeparator2
+            // 
+            this.panelSeparator2.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.panelSeparator2, "panelSeparator2");
+            this.panelSeparator2.Name = "panelSeparator2";
+            // 
+            // panelSeparator3
+            // 
+            this.panelSeparator3.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.panelSeparator3, "panelSeparator3");
+            this.panelSeparator3.Name = "panelSeparator3";
+            // 
+            // panelSeparator4
+            // 
+            this.panelSeparator4.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.panelSeparator4, "panelSeparator4");
+            this.panelSeparator4.Name = "panelSeparator4";
+            // 
+            // tableLayoutPanelButtons
+            // 
+            resources.ApplyResources(this.tableLayoutPanelButtons, "tableLayoutPanelButtons");
+            this.tableLayoutPanelButtons.Controls.Add(this.buttonUpdatePresence, 3, 0);
+            this.tableLayoutPanelButtons.Controls.Add(this.buttonConnect, 0, 0);
+            this.tableLayoutPanelButtons.Controls.Add(this.buttonDisconnect, 1, 0);
+            this.tableLayoutPanelButtons.Name = "tableLayoutPanelButtons";
+            // 
+            // flowLayoutPanelParty
+            // 
+            this.flowLayoutPanelParty.Controls.Add(this.numericUpDownPartySize);
+            this.flowLayoutPanelParty.Controls.Add(this.labelPartyOf);
+            this.flowLayoutPanelParty.Controls.Add(this.numericUpDownPartyMax);
+            resources.ApplyResources(this.flowLayoutPanelParty, "flowLayoutPanelParty");
+            this.flowLayoutPanelParty.Name = "flowLayoutPanelParty";
+            // 
+            // numericUpDownPartySize
+            // 
+            this.numericUpDownPartySize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
+            this.numericUpDownPartySize.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "partySize", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.numericUpDownPartySize.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.numericUpDownPartySize, "numericUpDownPartySize");
+            this.numericUpDownPartySize.Maximum = new decimal(new int[] {
+            2147483647,
+            0,
+            0,
+            0});
+            this.numericUpDownPartySize.Name = "numericUpDownPartySize";
+            this.numericUpDownPartySize.Value = global::CustomRPC.Properties.Settings.Default.partySize;
+            this.numericUpDownPartySize.Validating += new System.ComponentModel.CancelEventHandler(this.PartySizeValidation);
+            // 
+            // numericUpDownPartyMax
+            // 
+            this.numericUpDownPartyMax.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
+            this.numericUpDownPartyMax.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "partyMax", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.numericUpDownPartyMax.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.numericUpDownPartyMax, "numericUpDownPartyMax");
+            this.numericUpDownPartyMax.Maximum = new decimal(new int[] {
+            2147483647,
+            0,
+            0,
+            0});
+            this.numericUpDownPartyMax.Name = "numericUpDownPartyMax";
+            this.numericUpDownPartyMax.Value = global::CustomRPC.Properties.Settings.Default.partyMax;
+            this.numericUpDownPartyMax.Validating += new System.ComponentModel.CancelEventHandler(this.PartySizeValidation);
+            // 
+            // textBoxStateURL
+            // 
+            this.textBoxStateURL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
+            this.textBoxStateURL.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "stateURL", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.textBoxStateURL.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.textBoxStateURL, "textBoxStateURL");
+            this.textBoxStateURL.Name = "textBoxStateURL";
+            this.textBoxStateURL.Text = global::CustomRPC.Properties.Settings.Default.stateURL;
+            this.textBoxStateURL.TextChanged += new System.EventHandler(this.LengthValidation);
+            this.textBoxStateURL.Leave += new System.EventHandler(this.TrimTextBoxes);
+            this.textBoxStateURL.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
+            // 
+            // textBoxDetailsURL
+            // 
+            this.textBoxDetailsURL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
+            this.textBoxDetailsURL.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "detailsURL", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.textBoxDetailsURL.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.textBoxDetailsURL, "textBoxDetailsURL");
+            this.textBoxDetailsURL.Name = "textBoxDetailsURL";
+            this.textBoxDetailsURL.Text = global::CustomRPC.Properties.Settings.Default.detailsURL;
+            this.textBoxDetailsURL.TextChanged += new System.EventHandler(this.LengthValidation);
+            this.textBoxDetailsURL.Leave += new System.EventHandler(this.TrimTextBoxes);
+            this.textBoxDetailsURL.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxName
             // 
@@ -810,36 +922,6 @@
             this.textBoxButton1Text.TextChanged += new System.EventHandler(this.LengthValidation);
             this.textBoxButton1Text.Leave += new System.EventHandler(this.TrimTextBoxes);
             this.textBoxButton1Text.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
-            // 
-            // numericUpDownPartySize
-            // 
-            this.numericUpDownPartySize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
-            this.numericUpDownPartySize.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "partySize", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.numericUpDownPartySize.ForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.numericUpDownPartySize, "numericUpDownPartySize");
-            this.numericUpDownPartySize.Maximum = new decimal(new int[] {
-            2147483647,
-            0,
-            0,
-            0});
-            this.numericUpDownPartySize.Name = "numericUpDownPartySize";
-            this.numericUpDownPartySize.Value = global::CustomRPC.Properties.Settings.Default.partySize;
-            this.numericUpDownPartySize.Validating += new System.ComponentModel.CancelEventHandler(this.PartySizeValidation);
-            // 
-            // numericUpDownPartyMax
-            // 
-            this.numericUpDownPartyMax.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
-            this.numericUpDownPartyMax.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "partyMax", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.numericUpDownPartyMax.ForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.numericUpDownPartyMax, "numericUpDownPartyMax");
-            this.numericUpDownPartyMax.Maximum = new decimal(new int[] {
-            2147483647,
-            0,
-            0,
-            0});
-            this.numericUpDownPartyMax.Name = "numericUpDownPartyMax";
-            this.numericUpDownPartyMax.Value = global::CustomRPC.Properties.Settings.Default.partyMax;
-            this.numericUpDownPartyMax.Validating += new System.ComponentModel.CancelEventHandler(this.PartySizeValidation);
             // 
             // comboBoxSmallKey
             // 
@@ -927,52 +1009,16 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
-            // panelSeparator1
-            // 
-            this.panelSeparator1.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.panelSeparator1, "panelSeparator1");
-            this.panelSeparator1.Name = "panelSeparator1";
-            // 
-            // panelSeparator2
-            // 
-            this.panelSeparator2.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.panelSeparator2, "panelSeparator2");
-            this.panelSeparator2.Name = "panelSeparator2";
-            // 
-            // panelSeparator3
-            // 
-            this.panelSeparator3.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.panelSeparator3, "panelSeparator3");
-            this.panelSeparator3.Name = "panelSeparator3";
-            // 
-            // panelSeparator4
-            // 
-            this.panelSeparator4.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.panelSeparator4, "panelSeparator4");
-            this.panelSeparator4.Name = "panelSeparator4";
-            // 
-            // tableLayoutPanelButtons
-            // 
-            resources.ApplyResources(this.tableLayoutPanelButtons, "tableLayoutPanelButtons");
-            this.tableLayoutPanelButtons.Controls.Add(this.buttonUpdatePresence, 3, 0);
-            this.tableLayoutPanelButtons.Controls.Add(this.buttonConnect, 0, 0);
-            this.tableLayoutPanelButtons.Controls.Add(this.buttonDisconnect, 1, 0);
-            this.tableLayoutPanelButtons.Name = "tableLayoutPanelButtons";
-            // 
-            // flowLayoutPanelParty
-            // 
-            this.flowLayoutPanelParty.Controls.Add(this.numericUpDownPartySize);
-            this.flowLayoutPanelParty.Controls.Add(this.labelPartyOf);
-            this.flowLayoutPanelParty.Controls.Add(this.numericUpDownPartyMax);
-            resources.ApplyResources(this.flowLayoutPanelParty, "flowLayoutPanelParty");
-            this.flowLayoutPanelParty.Name = "flowLayoutPanelParty";
-            // 
             // MainForm
             // 
             this.AllowDrop = true;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
+            this.Controls.Add(this.labelStateURL);
+            this.Controls.Add(this.textBoxStateURL);
+            this.Controls.Add(this.labelDetailsURL);
+            this.Controls.Add(this.textBoxDetailsURL);
             this.Controls.Add(this.flowLayoutPanelParty);
             this.Controls.Add(this.panelSeparator4);
             this.Controls.Add(this.panelSeparator3);
@@ -1031,12 +1077,12 @@
             this.panelTimestamps.PerformLayout();
             this.statusStrip.ResumeLayout(false);
             this.statusStrip.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPartySize)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPartyMax)).EndInit();
             this.tableLayoutPanelButtons.ResumeLayout(false);
             this.tableLayoutPanelButtons.PerformLayout();
             this.flowLayoutPanelParty.ResumeLayout(false);
             this.flowLayoutPanelParty.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPartySize)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPartyMax)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1144,6 +1190,10 @@
         private System.Windows.Forms.Button buttonUpdatePresence;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanelButtons;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelParty;
+        private System.Windows.Forms.Label labelDetailsURL;
+        private System.Windows.Forms.TextBox textBoxDetailsURL;
+        private System.Windows.Forms.Label labelStateURL;
+        private System.Windows.Forms.TextBox textBoxStateURL;
     }
 }
 
