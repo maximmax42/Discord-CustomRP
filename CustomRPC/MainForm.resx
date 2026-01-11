@@ -403,7 +403,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
-    <value>45</value>
+    <value>47</value>
   </data>
   <data name="labelID.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -442,7 +442,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelID.ZOrder" xml:space="preserve">
-    <value>39</value>
+    <value>41</value>
   </data>
   <data name="labelDetails.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -478,7 +478,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelDetails.ZOrder" xml:space="preserve">
-    <value>38</value>
+    <value>40</value>
   </data>
   <data name="labelState.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -514,7 +514,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelState.ZOrder" xml:space="preserve">
-    <value>37</value>
+    <value>39</value>
   </data>
   <data name="labelSmallKey.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -550,7 +550,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelSmallKey.ZOrder" xml:space="preserve">
-    <value>31</value>
+    <value>33</value>
   </data>
   <data name="labelSmallText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -586,7 +586,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelSmallText.ZOrder" xml:space="preserve">
-    <value>32</value>
+    <value>34</value>
   </data>
   <data name="labelLargeText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -622,7 +622,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelLargeText.ZOrder" xml:space="preserve">
-    <value>35</value>
+    <value>37</value>
   </data>
   <data name="labelLargeKey.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -658,7 +658,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelLargeKey.ZOrder" xml:space="preserve">
-    <value>36</value>
+    <value>38</value>
   </data>
   <data name="labelSmall.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -691,7 +691,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelSmall.ZOrder" xml:space="preserve">
-    <value>34</value>
+    <value>36</value>
   </data>
   <data name="labelLarge.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -724,7 +724,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelLarge.ZOrder" xml:space="preserve">
-    <value>33</value>
+    <value>35</value>
   </data>
   <data name="radioButtonLastConnection.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -860,7 +860,7 @@ Status timers have 24 hour limit, meaning that after 24 hours time will go back 
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelTimestamp.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>29</value>
   </data>
   <data name="labelParty.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -897,7 +897,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelParty.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>28</value>
   </data>
   <data name="radioButtonCustom.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -963,7 +963,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelButton1.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>22</value>
   </data>
   <data name="labelButton2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -996,7 +996,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelButton2.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>23</value>
   </data>
   <data name="labelButton1URL.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1032,7 +1032,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelButton1URL.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>24</value>
   </data>
   <data name="labelButton2URL.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1068,7 +1068,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelButton2URL.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>19</value>
   </data>
   <data name="labelButton1Text.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1104,7 +1104,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelButton1Text.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>18</value>
   </data>
   <data name="labelButton2Text.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1140,7 +1140,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelButton2Text.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>17</value>
   </data>
   <data name="radioButtonPresence.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1182,7 +1182,7 @@ To take effect, both fields should be more than 0.</value>
     <value>NoControl</value>
   </data>
   <data name="labelType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>275, 42</value>
+    <value>181, 42</value>
   </data>
   <data name="labelType.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 14</value>
@@ -1209,7 +1209,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelType.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>14</value>
   </data>
   <data name="labelName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1245,7 +1245,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelName.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>12</value>
   </data>
   <data name="buttonDisconnect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1431,7 +1431,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelDetailsURL.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="labelStateURL.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1467,6 +1467,42 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelStateURL.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelDisplay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDisplay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelDisplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 42</value>
+  </data>
+  <data name="labelDisplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 14</value>
+  </data>
+  <data name="labelDisplay.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="labelDisplay.Text" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="labelDisplay.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>Controls which field is displayed in the user's status text in the member list.</value>
+  </data>
+  <data name="&gt;&gt;labelDisplay.Name" xml:space="preserve">
+    <value>labelDisplay</value>
+  </data>
+  <data name="&gt;&gt;labelDisplay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDisplay.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelDisplay.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="tableLayoutPanelCustomTimestamps.ColumnCount" type="System.Int32, mscorlib">
@@ -1656,7 +1692,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panelTimestamps.ZOrder" xml:space="preserve">
-    <value>28</value>
+    <value>30</value>
   </data>
   <data name="labelPartyOf.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -1731,13 +1767,13 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>27</value>
   </data>
   <data name="comboBoxType.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
   <data name="comboBoxType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>315, 39</value>
+    <value>221, 39</value>
   </data>
   <data name="comboBoxType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 15, 2, 4</value>
@@ -1749,7 +1785,7 @@ To take effect, both fields should be more than 0.</value>
     <value>256</value>
   </data>
   <data name="comboBoxType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
+    <value>131, 22</value>
   </data>
   <data name="comboBoxType.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1764,7 +1800,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;comboBoxType.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>15</value>
   </data>
   <data name="panelSeparator1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 68</value>
@@ -1785,7 +1821,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panelSeparator1.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="panelSeparator2.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 193</value>
@@ -1806,7 +1842,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panelSeparator2.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="panelSeparator3.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 363</value>
@@ -1827,7 +1863,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panelSeparator3.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="panelSeparator4.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 444</value>
@@ -1848,7 +1884,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panelSeparator4.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="tableLayoutPanelButtons.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom</value>
@@ -1893,7 +1929,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanelButtons.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>16</value>
   </data>
   <data name="tableLayoutPanelButtons.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="buttonUpdatePresence" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="buttonConnect" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="buttonDisconnect" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0,Percent,100,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
@@ -1971,7 +2007,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;flowLayoutPanelParty.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="textBoxStateURL.Location" type="System.Drawing.Point, System.Drawing">
     <value>315, 136</value>
@@ -1998,7 +2034,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxStateURL.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="textBoxDetailsURL.Location" type="System.Drawing.Point, System.Drawing">
     <value>315, 106</value>
@@ -2025,7 +2061,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxDetailsURL.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="textBoxName.Location" type="System.Drawing.Point, System.Drawing">
     <value>59, 76</value>
@@ -2052,7 +2088,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxName.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>13</value>
   </data>
   <data name="textBoxButton2Text.Location" type="System.Drawing.Point, System.Drawing">
     <value>279, 466</value>
@@ -2079,7 +2115,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxButton2Text.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>20</value>
   </data>
   <data name="textBoxButton2URL.Location" type="System.Drawing.Point, System.Drawing">
     <value>279, 496</value>
@@ -2106,7 +2142,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxButton2URL.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>21</value>
   </data>
   <data name="textBoxButton1URL.Location" type="System.Drawing.Point, System.Drawing">
     <value>50, 496</value>
@@ -2133,7 +2169,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxButton1URL.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>25</value>
   </data>
   <data name="textBoxButton1Text.Location" type="System.Drawing.Point, System.Drawing">
     <value>50, 466</value>
@@ -2160,7 +2196,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxButton1Text.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>26</value>
   </data>
   <data name="comboBoxSmallKey.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -2193,7 +2229,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;comboBoxSmallKey.ZOrder" xml:space="preserve">
-    <value>29</value>
+    <value>31</value>
   </data>
   <data name="textBoxSmallText.Location" type="System.Drawing.Point, System.Drawing">
     <value>279, 415</value>
@@ -2220,7 +2256,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxSmallText.ZOrder" xml:space="preserve">
-    <value>30</value>
+    <value>32</value>
   </data>
   <data name="textBoxLargeText.Location" type="System.Drawing.Point, System.Drawing">
     <value>50, 415</value>
@@ -2247,7 +2283,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxLargeText.ZOrder" xml:space="preserve">
-    <value>40</value>
+    <value>42</value>
   </data>
   <data name="comboBoxLargeKey.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -2280,7 +2316,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;comboBoxLargeKey.ZOrder" xml:space="preserve">
-    <value>41</value>
+    <value>43</value>
   </data>
   <data name="textBoxState.Location" type="System.Drawing.Point, System.Drawing">
     <value>59, 136</value>
@@ -2307,7 +2343,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxState.ZOrder" xml:space="preserve">
-    <value>42</value>
+    <value>44</value>
   </data>
   <data name="textBoxDetails.Location" type="System.Drawing.Point, System.Drawing">
     <value>59, 106</value>
@@ -2334,7 +2370,7 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxDetails.ZOrder" xml:space="preserve">
-    <value>43</value>
+    <value>45</value>
   </data>
   <data name="textBoxID.Location" type="System.Drawing.Point, System.Drawing">
     <value>36, 39</value>
@@ -2364,7 +2400,40 @@ To take effect, both fields should be more than 0.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxID.ZOrder" xml:space="preserve">
-    <value>44</value>
+    <value>46</value>
+  </data>
+  <data name="comboBoxDisplay.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="comboBoxDisplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 39</value>
+  </data>
+  <data name="comboBoxDisplay.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 15, 2, 4</value>
+  </data>
+  <data name="comboBoxDisplay.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="comboBoxDisplay.MaxLength" type="System.Int32, mscorlib">
+    <value>256</value>
+  </data>
+  <data name="comboBoxDisplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 22</value>
+  </data>
+  <data name="comboBoxDisplay.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDisplay.Name" xml:space="preserve">
+    <value>comboBoxDisplay</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDisplay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDisplay.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDisplay.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

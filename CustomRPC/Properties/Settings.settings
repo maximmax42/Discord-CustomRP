@@ -2,47 +2,49 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CustomRPC.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <!-- Presence settings -->
     <Setting Name="id" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-	<Setting Name="type" Type="System.Int32" Scope="User">
+    <Setting Name="type" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
-	<Setting Name="name" Type="System.String" Scope="User">
+	<Setting Name="display" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="name" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="details" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-	<Setting Name="detailsURL" Type="System.String" Scope="User">
+    <Setting Name="detailsURL" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="state" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-	<Setting Name="stateURL" Type="System.String" Scope="User">
+    <Setting Name="stateURL" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-	<Setting Name="partySize" Type="System.Decimal" Scope="User">
+    <Setting Name="partySize" Type="System.Decimal" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
     <Setting Name="partyMax" Type="System.Decimal" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
-	<Setting Name="timestamps" Type="System.Int32" Scope="User">
+    <Setting Name="timestamps" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
-	<Setting Name="customTimestamp" Type="System.DateTime" Scope="User">
+    <Setting Name="customTimestamp" Type="System.DateTime" Scope="User">
       <Value Profile="(Default)">1969-01-01</Value>
     </Setting>
-	<Setting Name="customTimestampEndEnabled" Type="System.Boolean" Scope="User">
+    <Setting Name="customTimestampEndEnabled" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
-	<Setting Name="customTimestampEnd" Type="System.DateTime" Scope="User">
+    <Setting Name="customTimestampEnd" Type="System.DateTime" Scope="User">
       <Value Profile="(Default)">1969-01-01</Value>
     </Setting>
-	<Setting Name="largeKey" Type="System.String" Scope="User">
+    <Setting Name="largeKey" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="largeText" Type="System.String" Scope="User">
@@ -54,7 +56,7 @@
     <Setting Name="smallText" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-	<Setting Name="button1Text" Type="System.String" Scope="User">
+    <Setting Name="button1Text" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="button1URL" Type="System.String" Scope="User">
@@ -66,7 +68,6 @@
     <Setting Name="button2URL" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-	<!-- Application settings -->
     <Setting Name="startMinimized" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>

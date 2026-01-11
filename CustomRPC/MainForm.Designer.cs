@@ -108,6 +108,7 @@
             this.buttonUpdatePresence = new System.Windows.Forms.Button();
             this.labelDetailsURL = new System.Windows.Forms.Label();
             this.labelStateURL = new System.Windows.Forms.Label();
+            this.labelDisplay = new System.Windows.Forms.Label();
             this.panelTimestamps = new System.Windows.Forms.Panel();
             this.tableLayoutPanelCustomTimestamps = new System.Windows.Forms.TableLayoutPanel();
             this.dateTimePickerTimestampEnd = new System.Windows.Forms.DateTimePicker();
@@ -141,6 +142,7 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
+            this.comboBoxDisplay = new System.Windows.Forms.ComboBox();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -719,6 +721,13 @@
             this.labelStateURL.Name = "labelStateURL";
             this.toolTipInfo.SetToolTip(this.labelStateURL, resources.GetString("labelStateURL.ToolTip"));
             // 
+            // labelDisplay
+            // 
+            resources.ApplyResources(this.labelDisplay, "labelDisplay");
+            this.labelDisplay.Cursor = System.Windows.Forms.Cursors.Help;
+            this.labelDisplay.Name = "labelDisplay";
+            this.toolTipInfo.SetToolTip(this.labelDisplay, resources.GetString("labelDisplay.ToolTip"));
+            // 
             // panelTimestamps
             // 
             this.panelTimestamps.Controls.Add(this.tableLayoutPanelCustomTimestamps);
@@ -1046,12 +1055,23 @@
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
             // 
+            // comboBoxDisplay
+            // 
+            this.comboBoxDisplay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
+            this.comboBoxDisplay.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.comboBoxDisplay, "comboBoxDisplay");
+            this.comboBoxDisplay.ForeColor = System.Drawing.Color.White;
+            this.comboBoxDisplay.Name = "comboBoxDisplay";
+            this.comboBoxDisplay.SelectedValueChanged += new System.EventHandler(this.DisplayTypeChanged);
+            // 
             // MainForm
             // 
             this.AllowDrop = true;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
+            this.Controls.Add(this.labelDisplay);
+            this.Controls.Add(this.comboBoxDisplay);
             this.Controls.Add(this.labelStateURL);
             this.Controls.Add(this.textBoxStateURL);
             this.Controls.Add(this.labelDetailsURL);
@@ -1237,6 +1257,8 @@
         private System.Windows.Forms.DateTimePicker dateTimePickerTimestampEnd;
         private System.Windows.Forms.Label labelTimestampStart;
         private System.Windows.Forms.CheckBox checkBoxTimestampEnd;
+        private System.Windows.Forms.Label labelDisplay;
+        private System.Windows.Forms.ComboBox comboBoxDisplay;
     }
 }
 

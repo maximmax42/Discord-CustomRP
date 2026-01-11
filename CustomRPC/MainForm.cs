@@ -34,6 +34,7 @@ namespace CustomRPC
     {
         public string ID;
         public int Type;
+        public int Display;
         public string Name;
         public string Details;
         public string DetailsURL;
@@ -76,6 +77,21 @@ namespace CustomRPC
         public PresenceType(string name, ActivityType type)
         {
             Name = name;
+            Type = type;
+        }
+    }
+
+    /// <summary>
+    /// A struct describing display types to use in a display selection combobox.
+    /// </summary>
+    public struct DisplayType
+    {
+        public string Name { get; private set; }
+        public StatusDisplayType Type { get; private set; }
+
+        public DisplayType(StatusDisplayType type)
+        {
+            Name = type.ToString();
             Type = type;
         }
     }
@@ -205,6 +221,16 @@ namespace CustomRPC
             };
 
         /// <summary>
+        /// List of available display types.
+        /// </summary>
+        readonly List<DisplayType> displayTypes = new List<DisplayType>
+            {
+                new DisplayType(StatusDisplayType.Name),
+                new DisplayType(StatusDisplayType.Details),
+                new DisplayType(StatusDisplayType.State),
+            };
+
+        /// <summary>
         /// Unicode character "No-Break Space" (" ").
         /// </summary>
         readonly string U00A0 = "\u00A0";
@@ -280,6 +306,12 @@ namespace CustomRPC
             comboBoxType.ValueMember = "Type";
             comboBoxType.DataSource = presenceTypes;
             comboBoxType.SelectedValue = (ActivityType)settings.type;
+
+            // Setting up display combobox
+            comboBoxDisplay.DisplayMember = "Name";
+            comboBoxDisplay.ValueMember = "Type";
+            comboBoxDisplay.DataSource = displayTypes;
+            comboBoxDisplay.SelectedValue = (StatusDisplayType)settings.display;
 
             // Set up tags for the radio buttons
             radioButtonLastConnection.Tag = TimestampType.SinceLastConnection;
@@ -810,6 +842,7 @@ namespace CustomRPC
             {
                 Name = settings.name,
                 Type = (ActivityType)settings.type,
+                StatusDisplay = (StatusDisplayType)settings.display,
                 Details = settings.details,
                 State = settings.state,
                 Party = new Party()
@@ -1152,6 +1185,7 @@ namespace CustomRPC
                 textBoxButton1Text.Text = textBoxButton1URL.Text =
                 textBoxButton2Text.Text = textBoxButton2URL.Text = "";
             comboBoxType.SelectedValue = ActivityType.Playing;
+            comboBoxDisplay.SelectedValue = StatusDisplayType.Name;
             numericUpDownPartySize.Value = numericUpDownPartyMax.Value = 0;
             radioButtonLastConnection.Checked = true;
             checkBoxTimestampEnd.Checked = false;
@@ -1173,6 +1207,7 @@ namespace CustomRPC
 
                 settings.id = preset.ID;
                 settings.type = preset.Type;
+                settings.display = preset.Display;
                 settings.name = preset.Name;
                 settings.details = preset.Details;
                 settings.detailsURL = preset.DetailsURL;
@@ -1195,6 +1230,7 @@ namespace CustomRPC
                 Utils.SaveSettings();
 
                 comboBoxType.SelectedValue = (ActivityType)settings.type;
+                comboBoxDisplay.SelectedValue = (StatusDisplayType)settings.display;
 
                 switch ((TimestampType)settings.timestamps)
                 {
@@ -1288,6 +1324,7 @@ namespace CustomRPC
                         {
                             ID = settings.id,
                             Type = settings.type,
+                            Display = settings.display,
                             Name = settings.name,
                             Details = settings.details,
                             DetailsURL = settings.detailsURL,
@@ -1538,6 +1575,25 @@ namespace CustomRPC
             numericUpDownPartySize.Enabled = canHaveParty;
             numericUpDownPartyMax.Enabled = canHaveParty;
             panelTimestamps.Enabled = canHaveTimestamps;
+        }
+
+        /// <summary>
+        /// Called when a display type is changed in comboBoxDisplay.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void DisplayTypeChanged(object sender, EventArgs e)
+        {
+            if (comboBoxDisplay.Items.Count == 0 || comboBoxDisplay.SelectedItem == null)
+                return;
+
+            StatusDisplayType display = (StatusDisplayType)comboBoxDisplay.SelectedValue;
+
+            if (!loading)
+            {
+                settings.display = (int)display;
+                Utils.SaveSettings();
+            }
         }
 
         /// <summary>
