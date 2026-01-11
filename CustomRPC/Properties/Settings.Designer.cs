@@ -418,5 +418,29 @@ namespace CustomRPC.Properties {
                 this["stateURL"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1969-01-01")]
+        public global::System.DateTime customTimestampEnd {
+            get {
+                return ((global::System.DateTime)(this["customTimestampEnd"]));
+            }
+            set {
+                this["customTimestampEnd"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool customTimestampEndEnabled {
+            get {
+                return ((bool)(this["customTimestampEndEnabled"]));
+            }
+            set {
+                this["customTimestampEndEnabled"] = value;
+            }
+        }
     }
 }

@@ -43,6 +43,8 @@ namespace CustomRPC
         public int PartyMax;
         public int Timestamps;
         public DateTime CustomTimestamp;
+        public bool CustomTimestampEndEnabled;
+        public DateTime CustomTimestampEnd;
         public string LargeKey;
         public string LargeText;
         public string SmallKey;
@@ -296,18 +298,26 @@ namespace CustomRPC
                 case TimestampType.Custom: radioButtonCustom.Checked = true; break;
             }
 
-            // Enable or disable the date and time picker depending on whether a custom timestamp setting is chosen
-            dateTimePickerTimestamp.Enabled = radioButtonCustom.Checked;
+            // Enable or disable the date and time pickers depending on whether a custom timestamp setting is chosen
+            tableLayoutPanelCustomTimestamps.Enabled = radioButtonCustom.Checked;
 
-            // Change the date and time picker's format according to system's culture
-            dateTimePickerTimestamp.CustomFormat = CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern + " " + CultureInfo.CurrentCulture.DateTimeFormat.LongTimePattern;
+            // Enable or disable End timestamp picker
+            dateTimePickerTimestampEnd.Enabled = checkBoxTimestampEnd.Checked;
+
+            // Change the date and time pickers' format according to system's culture
+            dateTimePickerTimestampStart.CustomFormat = dateTimePickerTimestampEnd.CustomFormat = 
+                CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern + " "
+                + CultureInfo.CurrentCulture.DateTimeFormat.LongTimePattern;
 
             // If the app was launched for the first time (including since update), set the default time to current one
             if (settings.customTimestamp.CompareTo(new DateTime(1969, 1, 1, 0, 0, 0)) == 0)
                 settings.customTimestamp = DateTime.Now;
+            if (settings.customTimestampEnd.CompareTo(new DateTime(1969, 1, 1, 0, 0, 0)) == 0)
+                settings.customTimestampEnd = DateTime.Now;
 
             // Change the earliest date user can choose according to user's timezone
-            dateTimePickerTimestamp.MinDate = new DateTime(1970, 1, 1, 0, 0, 1, DateTimeKind.Utc).ToLocalTime();
+            dateTimePickerTimestampStart.MinDate = dateTimePickerTimestampEnd.MinDate =
+                new DateTime(1970, 1, 1, 0, 0, 1, DateTimeKind.Utc).ToLocalTime();
 
             // Localize the header of the tooltip because Visual Studio can't do that for some reason
             toolTipInfo.ToolTipTitle = Strings.information;
@@ -830,7 +840,7 @@ namespace CustomRPC
             }
             */
 
-            string ProcessURL(string url)
+            string ProcessURL(string url, int maxLength)
             {
                 if (string.IsNullOrEmpty(url))
                     return url;
@@ -838,7 +848,7 @@ namespace CustomRPC
                 string protocol = "https://";
 
                 if (!url.Contains("://"))
-                    return (protocol + url).Substring(0, Math.Min(textBoxButton1URL.MaxLength, url.Length + protocol.Length));
+                    return (protocol + url).Substring(0, Math.Min(maxLength, url.Length + protocol.Length));
 
                 try
                 {
@@ -853,8 +863,8 @@ namespace CustomRPC
                 return url;
             }
 
-            settings.detailsURL = ProcessURL(settings.detailsURL);
-            settings.stateURL = ProcessURL(settings.stateURL);
+            settings.detailsURL = ProcessURL(settings.detailsURL, textBoxDetailsURL.MaxLength);
+            settings.stateURL = ProcessURL(settings.stateURL, textBoxStateURL.MaxLength);
 
             rp.DetailsUrl = settings.detailsURL;
             rp.StateUrl = settings.stateURL;
@@ -918,8 +928,8 @@ namespace CustomRPC
 
             buttonsList.Clear();
 
-            settings.button1URL = ProcessURL(settings.button1URL);
-            settings.button2URL = ProcessURL(settings.button2URL);
+            settings.button1URL = ProcessURL(settings.button1URL, textBoxButton1URL.MaxLength);
+            settings.button2URL = ProcessURL(settings.button2URL, textBoxButton2URL.MaxLength);
 
             Utils.SaveSettings();
 
@@ -964,31 +974,36 @@ namespace CustomRPC
                     localTimeTimer.Interval = DateTime.Today.AddDays(1).AddSeconds(5).Subtract(DateTime.Now).TotalMilliseconds;
                     break;
                 case TimestampType.Custom:
-                    DateTime customTimestamp = dateTimePickerTimestamp.Value.ToUniversalTime();
+                    DateTime customTimestampStart = dateTimePickerTimestampStart.Value.ToUniversalTime();
+                    DateTime customTimestampEnd = dateTimePickerTimestampEnd.Value.ToUniversalTime();
+                    /* Not needed anymore
                     /// I must apologize preemptively for this monster of an if-statement
                     /// Timestamps before 2001-09-09 01:46:40 UTC only work if you have a "dumb" presence (the one that only has ID,
                     /// timestamp and small image fields set)
                     /// Technically, it doesn't even matter what date you put in the rich presence timestamp, since it only shows the hours
                     /// since/to the timestamp
-                    if (customTimestamp.CompareTo(new DateTime(2001, 9, 9, 1, 46, 40, DateTimeKind.Utc)) < 0 &&
+                    if (customTimestampStart.CompareTo(new DateTime(2001, 9, 9, 1, 46, 40, DateTimeKind.Utc)) < 0 &&
                         !(string.IsNullOrEmpty(settings.details) && string.IsNullOrEmpty(settings.state) && settings.partySize == 0 &&
                         settings.partyMax == 0 && string.IsNullOrEmpty(settings.largeKey) && string.IsNullOrEmpty(settings.largeText) &&
                         string.IsNullOrEmpty(settings.smallText) && string.IsNullOrEmpty(settings.button1Text) &&
                         string.IsNullOrEmpty(settings.button1URL) && string.IsNullOrEmpty(settings.button2Text) &&
                         string.IsNullOrEmpty(settings.button2URL)))
                     {
-                        customTimestamp = new DateTime(2002, 1, 1, customTimestamp.Hour, customTimestamp.Minute, customTimestamp.Second, DateTimeKind.Utc);
-                    }
-                    rp.Timestamps = customTimestamp.CompareTo(DateTime.UtcNow) < 0 ? new Timestamps(customTimestamp) : new Timestamps(DateTime.UtcNow, customTimestamp);
+                        customTimestampStart = new DateTime(2002, 1, 1, customTimestampStart.Hour, customTimestampStart.Minute, customTimestampStart.Second, DateTimeKind.Utc);
+                    */
+                    if (checkBoxTimestampEnd.Checked)
+                        rp.Timestamps = new Timestamps(customTimestampStart, customTimestampEnd);
+                    else
+                        rp.Timestamps = customTimestampStart.CompareTo(DateTime.UtcNow) < 0
+                            ? new Timestamps(customTimestampStart) : new Timestamps(DateTime.UtcNow, customTimestampStart);
                     break;
             }
-
-            ConnectionManager.State = ConnectionState.UpdatingPresence;
-            toolStripStatusLabelStatus.Text = Strings.statusUpdatingPresence;
 
             try
             {
                 client.SetPresence(rp);
+                ConnectionManager.State = ConnectionState.UpdatingPresence;
+                toolStripStatusLabelStatus.Text = Strings.statusUpdatingPresence;
             }
             catch (Exception e)
             {
@@ -1139,6 +1154,7 @@ namespace CustomRPC
             comboBoxType.SelectedValue = ActivityType.Playing;
             numericUpDownPartySize.Value = numericUpDownPartyMax.Value = 0;
             radioButtonLastConnection.Checked = true;
+            checkBoxTimestampEnd.Checked = false;
         }
 
         /// <summary>
@@ -1166,6 +1182,8 @@ namespace CustomRPC
                 settings.partyMax = preset.PartyMax;
                 settings.timestamps = preset.Timestamps;
                 settings.customTimestamp = preset.CustomTimestamp;
+                settings.customTimestampEndEnabled = preset.CustomTimestampEndEnabled;
+                settings.customTimestampEnd = preset.CustomTimestampEnd;
                 settings.largeKey = preset.LargeKey;
                 settings.largeText = preset.LargeText;
                 settings.smallKey = preset.SmallKey;
@@ -1279,6 +1297,8 @@ namespace CustomRPC
                             PartyMax = (int)settings.partyMax,
                             Timestamps = settings.timestamps,
                             CustomTimestamp = settings.customTimestamp,
+                            CustomTimestampEndEnabled = settings.customTimestampEndEnabled,
+                            CustomTimestampEnd = settings.customTimestampEnd,
                             LargeKey = settings.largeKey,
                             LargeText = settings.largeText,
                             SmallKey = settings.smallKey,
@@ -1594,7 +1614,18 @@ namespace CustomRPC
             settings.timestamps = (int)btn.Tag;
             Utils.SaveSettings();
 
-            dateTimePickerTimestamp.Enabled = (TimestampType)settings.timestamps == TimestampType.Custom;
+            tableLayoutPanelCustomTimestamps.Enabled = (TimestampType)settings.timestamps == TimestampType.Custom;
+            dateTimePickerTimestampEnd.Enabled = checkBoxTimestampEnd.Checked;
+        }
+
+        /// <summary>
+        /// Called when End timestamp checkbox changed.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void TimestampEndChanged(object sender, EventArgs e)
+        {
+            dateTimePickerTimestampEnd.Enabled = checkBoxTimestampEnd.Checked;
         }
 
         /// <summary>

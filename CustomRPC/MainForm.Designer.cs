@@ -109,7 +109,11 @@
             this.labelDetailsURL = new System.Windows.Forms.Label();
             this.labelStateURL = new System.Windows.Forms.Label();
             this.panelTimestamps = new System.Windows.Forms.Panel();
-            this.dateTimePickerTimestamp = new System.Windows.Forms.DateTimePicker();
+            this.tableLayoutPanelCustomTimestamps = new System.Windows.Forms.TableLayoutPanel();
+            this.dateTimePickerTimestampEnd = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePickerTimestampStart = new System.Windows.Forms.DateTimePicker();
+            this.labelTimestampStart = new System.Windows.Forms.Label();
+            this.checkBoxTimestampEnd = new System.Windows.Forms.CheckBox();
             this.labelPartyOf = new System.Windows.Forms.Label();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabelUsername = new System.Windows.Forms.ToolStripStatusLabel();
@@ -140,6 +144,7 @@
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
+            this.tableLayoutPanelCustomTimestamps.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.tableLayoutPanelButtons.SuspendLayout();
             this.flowLayoutPanelParty.SuspendLayout();
@@ -716,8 +721,8 @@
             // 
             // panelTimestamps
             // 
+            this.panelTimestamps.Controls.Add(this.tableLayoutPanelCustomTimestamps);
             this.panelTimestamps.Controls.Add(this.radioButtonPresence);
-            this.panelTimestamps.Controls.Add(this.dateTimePickerTimestamp);
             this.panelTimestamps.Controls.Add(this.radioButtonCustom);
             this.panelTimestamps.Controls.Add(this.radioButtonLocalTime);
             this.panelTimestamps.Controls.Add(this.radioButtonLastConnection);
@@ -725,14 +730,46 @@
             resources.ApplyResources(this.panelTimestamps, "panelTimestamps");
             this.panelTimestamps.Name = "panelTimestamps";
             // 
-            // dateTimePickerTimestamp
+            // tableLayoutPanelCustomTimestamps
             // 
-            resources.ApplyResources(this.dateTimePickerTimestamp, "dateTimePickerTimestamp");
-            this.dateTimePickerTimestamp.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "customTimestamp", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.dateTimePickerTimestamp.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePickerTimestamp.MinDate = new System.DateTime(1969, 1, 1, 0, 0, 0, 0);
-            this.dateTimePickerTimestamp.Name = "dateTimePickerTimestamp";
-            this.dateTimePickerTimestamp.Value = global::CustomRPC.Properties.Settings.Default.customTimestamp;
+            resources.ApplyResources(this.tableLayoutPanelCustomTimestamps, "tableLayoutPanelCustomTimestamps");
+            this.tableLayoutPanelCustomTimestamps.Controls.Add(this.dateTimePickerTimestampEnd, 3, 0);
+            this.tableLayoutPanelCustomTimestamps.Controls.Add(this.dateTimePickerTimestampStart, 1, 0);
+            this.tableLayoutPanelCustomTimestamps.Controls.Add(this.labelTimestampStart, 0, 0);
+            this.tableLayoutPanelCustomTimestamps.Controls.Add(this.checkBoxTimestampEnd, 2, 0);
+            this.tableLayoutPanelCustomTimestamps.Name = "tableLayoutPanelCustomTimestamps";
+            // 
+            // dateTimePickerTimestampEnd
+            // 
+            resources.ApplyResources(this.dateTimePickerTimestampEnd, "dateTimePickerTimestampEnd");
+            this.dateTimePickerTimestampEnd.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "customTimestampEnd", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.dateTimePickerTimestampEnd.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerTimestampEnd.MinDate = new System.DateTime(1969, 1, 1, 0, 0, 0, 0);
+            this.dateTimePickerTimestampEnd.Name = "dateTimePickerTimestampEnd";
+            this.dateTimePickerTimestampEnd.Value = global::CustomRPC.Properties.Settings.Default.customTimestampEnd;
+            // 
+            // dateTimePickerTimestampStart
+            // 
+            resources.ApplyResources(this.dateTimePickerTimestampStart, "dateTimePickerTimestampStart");
+            this.dateTimePickerTimestampStart.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "customTimestamp", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.dateTimePickerTimestampStart.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerTimestampStart.MinDate = new System.DateTime(1969, 1, 1, 0, 0, 0, 0);
+            this.dateTimePickerTimestampStart.Name = "dateTimePickerTimestampStart";
+            this.dateTimePickerTimestampStart.Value = global::CustomRPC.Properties.Settings.Default.customTimestamp;
+            // 
+            // labelTimestampStart
+            // 
+            resources.ApplyResources(this.labelTimestampStart, "labelTimestampStart");
+            this.labelTimestampStart.Name = "labelTimestampStart";
+            // 
+            // checkBoxTimestampEnd
+            // 
+            resources.ApplyResources(this.checkBoxTimestampEnd, "checkBoxTimestampEnd");
+            this.checkBoxTimestampEnd.Checked = global::CustomRPC.Properties.Settings.Default.customTimestampEndEnabled;
+            this.checkBoxTimestampEnd.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::CustomRPC.Properties.Settings.Default, "customTimestampEndEnabled", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.checkBoxTimestampEnd.Name = "checkBoxTimestampEnd";
+            this.checkBoxTimestampEnd.UseVisualStyleBackColor = true;
+            this.checkBoxTimestampEnd.CheckedChanged += new System.EventHandler(this.TimestampEndChanged);
             // 
             // labelPartyOf
             // 
@@ -1075,6 +1112,8 @@
             this.menuStrip.PerformLayout();
             this.panelTimestamps.ResumeLayout(false);
             this.panelTimestamps.PerformLayout();
+            this.tableLayoutPanelCustomTimestamps.ResumeLayout(false);
+            this.tableLayoutPanelCustomTimestamps.PerformLayout();
             this.statusStrip.ResumeLayout(false);
             this.statusStrip.PerformLayout();
             this.tableLayoutPanelButtons.ResumeLayout(false);
@@ -1145,7 +1184,7 @@
         private System.Windows.Forms.StatusStrip statusStrip;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabelUsername;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabelStatus;
-        private System.Windows.Forms.DateTimePicker dateTimePickerTimestamp;
+        private System.Windows.Forms.DateTimePicker dateTimePickerTimestampStart;
         private System.Windows.Forms.RadioButton radioButtonCustom;
         private System.Windows.Forms.TextBox textBoxButton2Text;
         private System.Windows.Forms.TextBox textBoxButton2URL;
@@ -1194,6 +1233,10 @@
         private System.Windows.Forms.TextBox textBoxDetailsURL;
         private System.Windows.Forms.Label labelStateURL;
         private System.Windows.Forms.TextBox textBoxStateURL;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanelCustomTimestamps;
+        private System.Windows.Forms.DateTimePicker dateTimePickerTimestampEnd;
+        private System.Windows.Forms.Label labelTimestampStart;
+        private System.Windows.Forms.CheckBox checkBoxTimestampEnd;
     }
 }
 
