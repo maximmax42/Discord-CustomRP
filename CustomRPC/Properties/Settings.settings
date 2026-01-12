@@ -8,7 +8,7 @@
     <Setting Name="type" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
-	<Setting Name="display" Type="System.Int32" Scope="User">
+    <Setting Name="display" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
     <Setting Name="name" Type="System.String" Scope="User">
@@ -50,10 +50,16 @@
     <Setting Name="largeText" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
+	<Setting Name="largeURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
     <Setting Name="smallKey" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="smallText" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="smallURL" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="button1Text" Type="System.String" Scope="User">

@@ -48,8 +48,10 @@ namespace CustomRPC
         public DateTime CustomTimestampEnd;
         public string LargeKey;
         public string LargeText;
+        public string LargeURL;
         public string SmallKey;
         public string SmallText;
+        public string SmallURL;
         public string Button1Text;
         public string Button1URL;
         public string Button2Text;
@@ -833,8 +835,10 @@ namespace CustomRPC
 
             settings.detailsURL = settings.detailsURL.Trim();
             settings.stateURL = settings.stateURL.Trim();
-            settings.smallKey = settings.smallKey.Trim();
             settings.largeKey = settings.largeKey.Trim();
+            settings.largeURL = settings.largeURL.Trim();
+            settings.smallKey = settings.smallKey.Trim();
+            settings.smallURL = settings.smallURL.Trim();
             settings.button1URL = settings.button1URL.Trim();
             settings.button2URL = settings.button2URL.Trim();
 
@@ -934,16 +938,18 @@ namespace CustomRPC
                     settings.largeKey = tempUri.AbsoluteUri.Replace(tempUri.Host, tempUri.IdnHost);
                 }
 
+                settings.largeURL = ProcessURL(settings.largeURL, textBoxLargeURL.MaxLength);
+                settings.smallURL = ProcessURL(settings.smallURL, textBoxSmallURL.MaxLength);
+
                 rp.Assets = new Assets()
                 {
-                    SmallImageKey = settings.smallKey,
-                    SmallImageText = settings.smallText,
-                    LargeImageKey = settings.largeKey,
+                    LargeImageKey = Proxify(settings.largeKey),
                     LargeImageText = settings.largeText,
+                    LargeImageUrl = settings.largeURL,
+                    SmallImageKey = Proxify(settings.smallKey),
+                    SmallImageText = settings.smallText,
+                    SmallImageUrl = settings.smallURL,
                 };
-
-                rp.Assets.SmallImageKey = Proxify(rp.Assets.SmallImageKey);
-                rp.Assets.LargeImageKey = Proxify(rp.Assets.LargeImageKey);
             }
             catch (Exception e)
             {
@@ -1180,8 +1186,9 @@ namespace CustomRPC
             textBoxID.Text = textBoxName.Text =
                 textBoxDetails.Text = textBoxDetailsURL.Text =
                 textBoxState.Text = textBoxStateURL.Text =
-                comboBoxLargeKey.Text = textBoxLargeText.Text =
-                comboBoxSmallKey.Text = textBoxSmallText.Text =
+                comboBoxLargeKey.Text = comboBoxSmallKey.Text =
+                textBoxLargeText.Text = textBoxSmallText.Text =
+                textBoxLargeURL.Text = textBoxSmallURL.Text =
                 textBoxButton1Text.Text = textBoxButton1URL.Text =
                 textBoxButton2Text.Text = textBoxButton2URL.Text = "";
             comboBoxType.SelectedValue = ActivityType.Playing;
@@ -1221,8 +1228,10 @@ namespace CustomRPC
                 settings.customTimestampEnd = preset.CustomTimestampEnd;
                 settings.largeKey = preset.LargeKey;
                 settings.largeText = preset.LargeText;
+                settings.largeURL = preset.LargeURL;
                 settings.smallKey = preset.SmallKey;
                 settings.smallText = preset.SmallText;
+                settings.smallURL = preset.SmallURL;
                 settings.button1Text = preset.Button1Text;
                 settings.button1URL = preset.Button1URL;
                 settings.button2Text = preset.Button2Text;
@@ -1338,8 +1347,10 @@ namespace CustomRPC
                             CustomTimestampEnd = settings.customTimestampEnd,
                             LargeKey = settings.largeKey,
                             LargeText = settings.largeText,
+                            LargeURL = settings.largeURL,
                             SmallKey = settings.smallKey,
                             SmallText = settings.smallText,
+                            SmallURL = settings.smallURL,
                             Button1Text = settings.button1Text,
                             Button1URL = settings.button1URL,
                             Button2Text = settings.button2Text,

@@ -109,6 +109,8 @@
             this.labelDetailsURL = new System.Windows.Forms.Label();
             this.labelStateURL = new System.Windows.Forms.Label();
             this.labelDisplay = new System.Windows.Forms.Label();
+            this.labelSmallURL = new System.Windows.Forms.Label();
+            this.labelLargeURL = new System.Windows.Forms.Label();
             this.panelTimestamps = new System.Windows.Forms.Panel();
             this.tableLayoutPanelCustomTimestamps = new System.Windows.Forms.TableLayoutPanel();
             this.dateTimePickerTimestampEnd = new System.Windows.Forms.DateTimePicker();
@@ -143,6 +145,8 @@
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
             this.comboBoxDisplay = new System.Windows.Forms.ComboBox();
+            this.textBoxSmallURL = new System.Windows.Forms.TextBox();
+            this.textBoxLargeURL = new System.Windows.Forms.TextBox();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -728,6 +732,20 @@
             this.labelDisplay.Name = "labelDisplay";
             this.toolTipInfo.SetToolTip(this.labelDisplay, resources.GetString("labelDisplay.ToolTip"));
             // 
+            // labelSmallURL
+            // 
+            resources.ApplyResources(this.labelSmallURL, "labelSmallURL");
+            this.labelSmallURL.Cursor = System.Windows.Forms.Cursors.Help;
+            this.labelSmallURL.Name = "labelSmallURL";
+            this.toolTipInfo.SetToolTip(this.labelSmallURL, resources.GetString("labelSmallURL.ToolTip"));
+            // 
+            // labelLargeURL
+            // 
+            resources.ApplyResources(this.labelLargeURL, "labelLargeURL");
+            this.labelLargeURL.Cursor = System.Windows.Forms.Cursors.Help;
+            this.labelLargeURL.Name = "labelLargeURL";
+            this.toolTipInfo.SetToolTip(this.labelLargeURL, resources.GetString("labelLargeURL.ToolTip"));
+            // 
             // panelTimestamps
             // 
             this.panelTimestamps.Controls.Add(this.tableLayoutPanelCustomTimestamps);
@@ -1064,12 +1082,34 @@
             this.comboBoxDisplay.Name = "comboBoxDisplay";
             this.comboBoxDisplay.SelectedValueChanged += new System.EventHandler(this.DisplayTypeChanged);
             // 
+            // textBoxSmallURL
+            // 
+            this.textBoxSmallURL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
+            this.textBoxSmallURL.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "smallURL", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.textBoxSmallURL.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.textBoxSmallURL, "textBoxSmallURL");
+            this.textBoxSmallURL.Name = "textBoxSmallURL";
+            this.textBoxSmallURL.Text = global::CustomRPC.Properties.Settings.Default.smallURL;
+            // 
+            // textBoxLargeURL
+            // 
+            this.textBoxLargeURL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
+            this.textBoxLargeURL.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "largeURL", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.textBoxLargeURL.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.textBoxLargeURL, "textBoxLargeURL");
+            this.textBoxLargeURL.Name = "textBoxLargeURL";
+            this.textBoxLargeURL.Text = global::CustomRPC.Properties.Settings.Default.largeURL;
+            // 
             // MainForm
             // 
             this.AllowDrop = true;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
+            this.Controls.Add(this.labelSmallURL);
+            this.Controls.Add(this.textBoxSmallURL);
+            this.Controls.Add(this.labelLargeURL);
+            this.Controls.Add(this.textBoxLargeURL);
             this.Controls.Add(this.labelDisplay);
             this.Controls.Add(this.comboBoxDisplay);
             this.Controls.Add(this.labelStateURL);
@@ -1259,6 +1299,10 @@
         private System.Windows.Forms.CheckBox checkBoxTimestampEnd;
         private System.Windows.Forms.Label labelDisplay;
         private System.Windows.Forms.ComboBox comboBoxDisplay;
+        private System.Windows.Forms.Label labelSmallURL;
+        private System.Windows.Forms.TextBox textBoxSmallURL;
+        private System.Windows.Forms.Label labelLargeURL;
+        private System.Windows.Forms.TextBox textBoxLargeURL;
     }
 }
 

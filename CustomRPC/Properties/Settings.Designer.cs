@@ -49,6 +49,18 @@ namespace CustomRPC.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int display {
+            get {
+                return ((int)(this["display"]));
+            }
+            set {
+                this["display"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string name {
             get {
@@ -445,13 +457,25 @@ namespace CustomRPC.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0")]
-        public int display {
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string largeURL {
             get {
-                return ((int)(this["display"]));
+                return ((string)(this["largeURL"]));
             }
             set {
-                this["display"] = value;
+                this["largeURL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string smallURL {
+            get {
+                return ((string)(this["smallURL"]));
+            }
+            set {
+                this["smallURL"] = value;
             }
         }
     }
