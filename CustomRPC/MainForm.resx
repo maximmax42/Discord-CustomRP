@@ -1815,7 +1815,6 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="labelTimestampStart.Text" xml:space="preserve">
     <value>Start</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;labelTimestampStart.Name" xml:space="preserve">
     <value>labelTimestampStart</value>
@@ -1849,7 +1848,6 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
     <value>End</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;checkBoxTimestampEnd.Name" xml:space="preserve">
     <value>checkBoxTimestampEnd</value>

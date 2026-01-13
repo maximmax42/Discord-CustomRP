@@ -513,4 +513,19 @@
   <data name="labelStateURL.ToolTip" xml:space="preserve">
     <value>Ссылка, которая откроется при нажатии на текст поля State.</value>
   </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>Определяет, какое поле отображается в тексте статуса в списках пользователей.</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>Ссылка, которая открывается при нажатии на маленькое изображение.</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>Ссылка, которая открывается при нажатии на большое изображение.</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>Начало</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>Конец</value>
+  </data>
 </root>
