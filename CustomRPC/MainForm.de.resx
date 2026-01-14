@@ -477,4 +477,25 @@ Um wirksam zu werden, sollten beide Felder größer als 0 sein.</value>
   <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
     <value>Zeigt an, wie viel Zeit seit Ihrer letzten Verbindung vergangen ist.</value>
   </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>Ein Link, der sich öffnet, wenn der Benutzer auf den Text „Details“ klickt.</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>Ein Link, der sich öffnet, wenn der Benutzer auf den Text „Status“ klickt.</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>Steuert, welches Feld im Statustext des Benutzers in der Mitgliederliste angezeigt wird.</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>Ein Link, der sich öffnet, wenn der Benutzer auf das kleine Bild klickt.</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>Ein Link, der sich öffnet, wenn der Benutzer auf das große Bild klickt.</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>Ende</value>
+  </data>
 </root>

@@ -468,4 +468,25 @@ Thời gian của trạng thái có giới hạn là 24 giờ, nghĩa là sau 24
   <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
     <value>Hiện thời gian đã qua kể từ lần cuối bạn kết nối.</value>
   </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>Một liên kết sẽ mở khi người dùng nhấn vào văn bản Details.</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>Một liên kết sẽ mở khi người dùng nhấn vào văn bản State.</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>Kiểm soát trường nào được hiển thị trong văn bản trạng thái của người dùng trong danh sách thành viên.</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>Một liên kết sẽ mở khi người dùng nhấn vào hình ảnh nhỏ.</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>Một liên kết sẽ mở khi người dùng nhấn vào hình ảnh lớn.</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>Bắt đầu</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>Kết thúc</value>
+  </data>
 </root>
