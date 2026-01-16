@@ -113,10 +113,7 @@
             this.labelLargeURL = new System.Windows.Forms.Label();
             this.panelTimestamps = new System.Windows.Forms.Panel();
             this.tableLayoutPanelCustomTimestamps = new System.Windows.Forms.TableLayoutPanel();
-            this.dateTimePickerTimestampEnd = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePickerTimestampStart = new System.Windows.Forms.DateTimePicker();
             this.labelTimestampStart = new System.Windows.Forms.Label();
-            this.checkBoxTimestampEnd = new System.Windows.Forms.CheckBox();
             this.labelPartyOf = new System.Windows.Forms.Label();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabelUsername = new System.Windows.Forms.ToolStripStatusLabel();
@@ -128,15 +125,21 @@
             this.panelSeparator4 = new System.Windows.Forms.Panel();
             this.tableLayoutPanelButtons = new System.Windows.Forms.TableLayoutPanel();
             this.flowLayoutPanelParty = new System.Windows.Forms.FlowLayoutPanel();
-            this.numericUpDownPartySize = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDownPartyMax = new System.Windows.Forms.NumericUpDown();
+            this.comboBoxDisplay = new System.Windows.Forms.ComboBox();
+            this.textBoxSmallURL = new System.Windows.Forms.TextBox();
+            this.textBoxLargeURL = new System.Windows.Forms.TextBox();
             this.textBoxStateURL = new System.Windows.Forms.TextBox();
             this.textBoxDetailsURL = new System.Windows.Forms.TextBox();
+            this.numericUpDownPartySize = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownPartyMax = new System.Windows.Forms.NumericUpDown();
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.textBoxButton2Text = new System.Windows.Forms.TextBox();
             this.textBoxButton2URL = new System.Windows.Forms.TextBox();
             this.textBoxButton1URL = new System.Windows.Forms.TextBox();
             this.textBoxButton1Text = new System.Windows.Forms.TextBox();
+            this.dateTimePickerTimestampEnd = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePickerTimestampStart = new System.Windows.Forms.DateTimePicker();
+            this.checkBoxTimestampEnd = new System.Windows.Forms.CheckBox();
             this.comboBoxSmallKey = new System.Windows.Forms.ComboBox();
             this.textBoxSmallText = new System.Windows.Forms.TextBox();
             this.textBoxLargeText = new System.Windows.Forms.TextBox();
@@ -144,9 +147,6 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
-            this.comboBoxDisplay = new System.Windows.Forms.ComboBox();
-            this.textBoxSmallURL = new System.Windows.Forms.TextBox();
-            this.textBoxLargeURL = new System.Windows.Forms.TextBox();
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -766,37 +766,10 @@
             this.tableLayoutPanelCustomTimestamps.Controls.Add(this.checkBoxTimestampEnd, 2, 0);
             this.tableLayoutPanelCustomTimestamps.Name = "tableLayoutPanelCustomTimestamps";
             // 
-            // dateTimePickerTimestampEnd
-            // 
-            resources.ApplyResources(this.dateTimePickerTimestampEnd, "dateTimePickerTimestampEnd");
-            this.dateTimePickerTimestampEnd.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "customTimestampEnd", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.dateTimePickerTimestampEnd.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePickerTimestampEnd.MinDate = new System.DateTime(1969, 1, 1, 0, 0, 0, 0);
-            this.dateTimePickerTimestampEnd.Name = "dateTimePickerTimestampEnd";
-            this.dateTimePickerTimestampEnd.Value = global::CustomRPC.Properties.Settings.Default.customTimestampEnd;
-            // 
-            // dateTimePickerTimestampStart
-            // 
-            resources.ApplyResources(this.dateTimePickerTimestampStart, "dateTimePickerTimestampStart");
-            this.dateTimePickerTimestampStart.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "customTimestamp", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.dateTimePickerTimestampStart.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePickerTimestampStart.MinDate = new System.DateTime(1969, 1, 1, 0, 0, 0, 0);
-            this.dateTimePickerTimestampStart.Name = "dateTimePickerTimestampStart";
-            this.dateTimePickerTimestampStart.Value = global::CustomRPC.Properties.Settings.Default.customTimestamp;
-            // 
             // labelTimestampStart
             // 
             resources.ApplyResources(this.labelTimestampStart, "labelTimestampStart");
             this.labelTimestampStart.Name = "labelTimestampStart";
-            // 
-            // checkBoxTimestampEnd
-            // 
-            resources.ApplyResources(this.checkBoxTimestampEnd, "checkBoxTimestampEnd");
-            this.checkBoxTimestampEnd.Checked = global::CustomRPC.Properties.Settings.Default.customTimestampEndEnabled;
-            this.checkBoxTimestampEnd.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::CustomRPC.Properties.Settings.Default, "customTimestampEndEnabled", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.checkBoxTimestampEnd.Name = "checkBoxTimestampEnd";
-            this.checkBoxTimestampEnd.UseVisualStyleBackColor = true;
-            this.checkBoxTimestampEnd.CheckedChanged += new System.EventHandler(this.TimestampEndChanged);
             // 
             // labelPartyOf
             // 
@@ -873,6 +846,57 @@
             resources.ApplyResources(this.flowLayoutPanelParty, "flowLayoutPanelParty");
             this.flowLayoutPanelParty.Name = "flowLayoutPanelParty";
             // 
+            // comboBoxDisplay
+            // 
+            this.comboBoxDisplay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
+            this.comboBoxDisplay.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.comboBoxDisplay, "comboBoxDisplay");
+            this.comboBoxDisplay.ForeColor = System.Drawing.Color.White;
+            this.comboBoxDisplay.Name = "comboBoxDisplay";
+            this.comboBoxDisplay.SelectedValueChanged += new System.EventHandler(this.DisplayTypeChanged);
+            // 
+            // textBoxSmallURL
+            // 
+            this.textBoxSmallURL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
+            this.textBoxSmallURL.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "smallURL", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.textBoxSmallURL.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.textBoxSmallURL, "textBoxSmallURL");
+            this.textBoxSmallURL.Name = "textBoxSmallURL";
+            this.textBoxSmallURL.Text = global::CustomRPC.Properties.Settings.Default.smallURL;
+            // 
+            // textBoxLargeURL
+            // 
+            this.textBoxLargeURL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
+            this.textBoxLargeURL.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "largeURL", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.textBoxLargeURL.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.textBoxLargeURL, "textBoxLargeURL");
+            this.textBoxLargeURL.Name = "textBoxLargeURL";
+            this.textBoxLargeURL.Text = global::CustomRPC.Properties.Settings.Default.largeURL;
+            // 
+            // textBoxStateURL
+            // 
+            this.textBoxStateURL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
+            this.textBoxStateURL.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "stateURL", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.textBoxStateURL.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.textBoxStateURL, "textBoxStateURL");
+            this.textBoxStateURL.Name = "textBoxStateURL";
+            this.textBoxStateURL.Text = global::CustomRPC.Properties.Settings.Default.stateURL;
+            this.textBoxStateURL.TextChanged += new System.EventHandler(this.LengthValidation);
+            this.textBoxStateURL.Leave += new System.EventHandler(this.TrimTextBoxes);
+            this.textBoxStateURL.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
+            // 
+            // textBoxDetailsURL
+            // 
+            this.textBoxDetailsURL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
+            this.textBoxDetailsURL.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "detailsURL", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.textBoxDetailsURL.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.textBoxDetailsURL, "textBoxDetailsURL");
+            this.textBoxDetailsURL.Name = "textBoxDetailsURL";
+            this.textBoxDetailsURL.Text = global::CustomRPC.Properties.Settings.Default.detailsURL;
+            this.textBoxDetailsURL.TextChanged += new System.EventHandler(this.LengthValidation);
+            this.textBoxDetailsURL.Leave += new System.EventHandler(this.TrimTextBoxes);
+            this.textBoxDetailsURL.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
+            // 
             // numericUpDownPartySize
             // 
             this.numericUpDownPartySize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
@@ -902,30 +926,6 @@
             this.numericUpDownPartyMax.Name = "numericUpDownPartyMax";
             this.numericUpDownPartyMax.Value = global::CustomRPC.Properties.Settings.Default.partyMax;
             this.numericUpDownPartyMax.Validating += new System.ComponentModel.CancelEventHandler(this.PartySizeValidation);
-            // 
-            // textBoxStateURL
-            // 
-            this.textBoxStateURL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
-            this.textBoxStateURL.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "stateURL", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.textBoxStateURL.ForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.textBoxStateURL, "textBoxStateURL");
-            this.textBoxStateURL.Name = "textBoxStateURL";
-            this.textBoxStateURL.Text = global::CustomRPC.Properties.Settings.Default.stateURL;
-            this.textBoxStateURL.TextChanged += new System.EventHandler(this.LengthValidation);
-            this.textBoxStateURL.Leave += new System.EventHandler(this.TrimTextBoxes);
-            this.textBoxStateURL.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
-            // 
-            // textBoxDetailsURL
-            // 
-            this.textBoxDetailsURL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
-            this.textBoxDetailsURL.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "detailsURL", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.textBoxDetailsURL.ForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.textBoxDetailsURL, "textBoxDetailsURL");
-            this.textBoxDetailsURL.Name = "textBoxDetailsURL";
-            this.textBoxDetailsURL.Text = global::CustomRPC.Properties.Settings.Default.detailsURL;
-            this.textBoxDetailsURL.TextChanged += new System.EventHandler(this.LengthValidation);
-            this.textBoxDetailsURL.Leave += new System.EventHandler(this.TrimTextBoxes);
-            this.textBoxDetailsURL.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxName
             // 
@@ -986,6 +986,33 @@
             this.textBoxButton1Text.TextChanged += new System.EventHandler(this.LengthValidation);
             this.textBoxButton1Text.Leave += new System.EventHandler(this.TrimTextBoxes);
             this.textBoxButton1Text.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
+            // 
+            // dateTimePickerTimestampEnd
+            // 
+            resources.ApplyResources(this.dateTimePickerTimestampEnd, "dateTimePickerTimestampEnd");
+            this.dateTimePickerTimestampEnd.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "customTimestampEnd", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.dateTimePickerTimestampEnd.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerTimestampEnd.MinDate = new System.DateTime(1969, 1, 1, 0, 0, 0, 0);
+            this.dateTimePickerTimestampEnd.Name = "dateTimePickerTimestampEnd";
+            this.dateTimePickerTimestampEnd.Value = global::CustomRPC.Properties.Settings.Default.customTimestampEnd;
+            // 
+            // dateTimePickerTimestampStart
+            // 
+            resources.ApplyResources(this.dateTimePickerTimestampStart, "dateTimePickerTimestampStart");
+            this.dateTimePickerTimestampStart.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "customTimestamp", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.dateTimePickerTimestampStart.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerTimestampStart.MinDate = new System.DateTime(1969, 1, 1, 0, 0, 0, 0);
+            this.dateTimePickerTimestampStart.Name = "dateTimePickerTimestampStart";
+            this.dateTimePickerTimestampStart.Value = global::CustomRPC.Properties.Settings.Default.customTimestamp;
+            // 
+            // checkBoxTimestampEnd
+            // 
+            resources.ApplyResources(this.checkBoxTimestampEnd, "checkBoxTimestampEnd");
+            this.checkBoxTimestampEnd.Checked = global::CustomRPC.Properties.Settings.Default.customTimestampEndEnabled;
+            this.checkBoxTimestampEnd.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::CustomRPC.Properties.Settings.Default, "customTimestampEndEnabled", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.checkBoxTimestampEnd.Name = "checkBoxTimestampEnd";
+            this.checkBoxTimestampEnd.UseVisualStyleBackColor = true;
+            this.checkBoxTimestampEnd.CheckedChanged += new System.EventHandler(this.TimestampEndChanged);
             // 
             // comboBoxSmallKey
             // 
@@ -1072,33 +1099,6 @@
             this.textBoxID.Name = "textBoxID";
             this.textBoxID.Text = global::CustomRPC.Properties.Settings.Default.id;
             this.textBoxID.TextChanged += new System.EventHandler(this.OnlyNumbers);
-            // 
-            // comboBoxDisplay
-            // 
-            this.comboBoxDisplay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
-            this.comboBoxDisplay.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.comboBoxDisplay, "comboBoxDisplay");
-            this.comboBoxDisplay.ForeColor = System.Drawing.Color.White;
-            this.comboBoxDisplay.Name = "comboBoxDisplay";
-            this.comboBoxDisplay.SelectedValueChanged += new System.EventHandler(this.DisplayTypeChanged);
-            // 
-            // textBoxSmallURL
-            // 
-            this.textBoxSmallURL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
-            this.textBoxSmallURL.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "smallURL", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.textBoxSmallURL.ForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.textBoxSmallURL, "textBoxSmallURL");
-            this.textBoxSmallURL.Name = "textBoxSmallURL";
-            this.textBoxSmallURL.Text = global::CustomRPC.Properties.Settings.Default.smallURL;
-            // 
-            // textBoxLargeURL
-            // 
-            this.textBoxLargeURL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
-            this.textBoxLargeURL.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CustomRPC.Properties.Settings.Default, "largeURL", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.textBoxLargeURL.ForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.textBoxLargeURL, "textBoxLargeURL");
-            this.textBoxLargeURL.Name = "textBoxLargeURL";
-            this.textBoxLargeURL.Text = global::CustomRPC.Properties.Settings.Default.largeURL;
             // 
             // MainForm
             // 

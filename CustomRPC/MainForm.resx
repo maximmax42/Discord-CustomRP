@@ -1720,6 +1720,9 @@ To take effect, both fields should be more than 0.</value>
   <data name="checkBoxTimestampEnd.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="checkBoxTimestampEnd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="checkBoxTimestampEnd.Location" type="System.Drawing.Point, System.Drawing">
     <value>223, 2</value>
   </data>
@@ -2111,6 +2114,93 @@ To take effect, both fields should be more than 0.</value>
   </data>
   <data name="&gt;&gt;flowLayoutPanelParty.ZOrder" xml:space="preserve">
     <value>11</value>
+  </data>
+  <data name="comboBoxDisplay.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="comboBoxDisplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 39</value>
+  </data>
+  <data name="comboBoxDisplay.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 15, 2, 4</value>
+  </data>
+  <data name="comboBoxDisplay.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="comboBoxDisplay.MaxLength" type="System.Int32, mscorlib">
+    <value>256</value>
+  </data>
+  <data name="comboBoxDisplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 22</value>
+  </data>
+  <data name="comboBoxDisplay.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDisplay.Name" xml:space="preserve">
+    <value>comboBoxDisplay</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDisplay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDisplay.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDisplay.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textBoxSmallURL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 445</value>
+  </data>
+  <data name="textBoxSmallURL.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="textBoxSmallURL.MaxLength" type="System.Int32, mscorlib">
+    <value>256</value>
+  </data>
+  <data name="textBoxSmallURL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="textBoxSmallURL.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;textBoxSmallURL.Name" xml:space="preserve">
+    <value>textBoxSmallURL</value>
+  </data>
+  <data name="&gt;&gt;textBoxSmallURL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxSmallURL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxSmallURL.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBoxLargeURL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 445</value>
+  </data>
+  <data name="textBoxLargeURL.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="textBoxLargeURL.MaxLength" type="System.Int32, mscorlib">
+    <value>256</value>
+  </data>
+  <data name="textBoxLargeURL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="textBoxLargeURL.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;textBoxLargeURL.Name" xml:space="preserve">
+    <value>textBoxLargeURL</value>
+  </data>
+  <data name="&gt;&gt;textBoxLargeURL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxLargeURL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxLargeURL.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="textBoxStateURL.Location" type="System.Drawing.Point, System.Drawing">
     <value>315, 136</value>
@@ -2505,93 +2595,6 @@ To take effect, both fields should be more than 0.</value>
   <data name="&gt;&gt;textBoxID.ZOrder" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="comboBoxDisplay.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="comboBoxDisplay.Location" type="System.Drawing.Point, System.Drawing">
-    <value>405, 39</value>
-  </data>
-  <data name="comboBoxDisplay.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 15, 2, 4</value>
-  </data>
-  <data name="comboBoxDisplay.MaxDropDownItems" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="comboBoxDisplay.MaxLength" type="System.Int32, mscorlib">
-    <value>256</value>
-  </data>
-  <data name="comboBoxDisplay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 22</value>
-  </data>
-  <data name="comboBoxDisplay.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;comboBoxDisplay.Name" xml:space="preserve">
-    <value>comboBoxDisplay</value>
-  </data>
-  <data name="&gt;&gt;comboBoxDisplay.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBoxDisplay.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;comboBoxDisplay.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="textBoxSmallURL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>279, 445</value>
-  </data>
-  <data name="textBoxSmallURL.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 4, 2, 4</value>
-  </data>
-  <data name="textBoxSmallURL.MaxLength" type="System.Int32, mscorlib">
-    <value>256</value>
-  </data>
-  <data name="textBoxSmallURL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="textBoxSmallURL.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;textBoxSmallURL.Name" xml:space="preserve">
-    <value>textBoxSmallURL</value>
-  </data>
-  <data name="&gt;&gt;textBoxSmallURL.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxSmallURL.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBoxSmallURL.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="textBoxLargeURL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 445</value>
-  </data>
-  <data name="textBoxLargeURL.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 4, 2, 4</value>
-  </data>
-  <data name="textBoxLargeURL.MaxLength" type="System.Int32, mscorlib">
-    <value>256</value>
-  </data>
-  <data name="textBoxLargeURL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="textBoxLargeURL.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;textBoxLargeURL.Name" xml:space="preserve">
-    <value>textBoxLargeURL</value>
-  </data>
-  <data name="&gt;&gt;textBoxLargeURL.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxLargeURL.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBoxLargeURL.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -2607,6 +2610,9 @@ To take effect, both fields should be more than 0.</value>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 9pt</value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 4, 2, 4</value>
   </data>
@@ -2614,7 +2620,7 @@ To take effect, both fields should be more than 0.</value>
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Custom Rich Presence</value>
+    <value>CustomRP</value>
     <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;trayIcon.Name" xml:space="preserve">
