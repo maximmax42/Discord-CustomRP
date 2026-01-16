@@ -363,11 +363,17 @@ namespace CustomRPC
             // Localize the statusbar text in case the autoconnect is disabled
             toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
 
+            // Add version info to main window title
+            Text += " v" + VersionHelper.GetVersionString(Application.ProductVersion);
+#if DEBUG
+            Text += " DEV";
+#endif
+
             // Slightly changing the name of the tray tooptip and main window title for a second instance of the app
             if (Program.IsSecondInstance)
             {
-                trayIcon.Text += " 2";
-                Text += " 2";
+                trayIcon.Text += " (2)";
+                Text += " (2)";
             }
 
             // Set up a localeUrl variable if docs are translated to the current UI language.
@@ -797,7 +803,7 @@ namespace CustomRPC
             Invoke(new MethodInvoker(() =>
             {
                 toolStripStatusLabelUsername.Text = client.CurrentUser.Username;
-                trayIcon.Text = $"{res.GetString("trayIcon.Text")}{(Program.IsSecondInstance ? " 2" : "")}\n{client.CurrentUser.Username}";
+                trayIcon.Text = $"{res.GetString("trayIcon.Text")}{(Program.IsSecondInstance ? " (2)" : "")}\n{client.CurrentUser.Username}";
 
                 buttonUpdatePresence.Enabled = true;
 
@@ -1813,7 +1819,7 @@ namespace CustomRPC
             textBoxID.ReadOnly = false;
             toolStripStatusLabelUsername.Text = "";
             toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
-            trayIcon.Text = $"{res.GetString("trayIcon.Text")}{(Program.IsSecondInstance ? " 2" : "")}";
+            trayIcon.Text = $"{res.GetString("trayIcon.Text")}{(Program.IsSecondInstance ? " (2)" : "")}";
 
             textBoxID.BackColor = CurrentColors.BgTextFields;
             ConnectionManager.State = ConnectionState.Disconnected;
