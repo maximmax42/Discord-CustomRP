@@ -7,6 +7,7 @@ using Octokit;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Drawing;
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -1589,8 +1590,7 @@ namespace CustomRPC
             if (type == ActivityType.Competing)
                 canHaveTimestamps = false;
 
-            numericUpDownPartySize.Enabled = canHaveParty;
-            numericUpDownPartyMax.Enabled = canHaveParty;
+            flowLayoutPanelParty.Enabled = canHaveParty;
             panelTimestamps.Enabled = canHaveTimestamps;
         }
 
@@ -1746,16 +1746,22 @@ namespace CustomRPC
         }
 
         /// <summary>
-        /// Called on Paint event for all the buttons.
+        /// Called on Paint event for some controls that can be disabled.
         /// </summary>
-        private void ButtonPaint(object sender, PaintEventArgs e)
+        private void DisabedTextPaint(object sender, PaintEventArgs e)
         {
-            Button btn = (Button)sender;
-            if (btn.Enabled)
+            Control ctrl = (Control)sender;
+            if (ctrl.Enabled)
                 return;
 
+            var newClipRect = new Rectangle(e.ClipRectangle.Location, e.ClipRectangle.Size);
+            if (sender is CheckBox)
+                newClipRect.Location = new Point(7, -1);
+            if (sender is RadioButton)
+                newClipRect.Location = new Point(7, 0);
+
             TextFormatFlags flags = TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter;
-            TextRenderer.DrawText(e.Graphics, btn.Text, btn.Font, e.ClipRectangle, CurrentColors.TextInactive, flags);
+            TextRenderer.DrawText(e.Graphics, ctrl.Text, ctrl.Font, newClipRect, CurrentColors.TextInactive, flags);
         }
 
         /// <summary>

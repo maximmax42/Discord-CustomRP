@@ -113,7 +113,10 @@
             this.labelLargeURL = new System.Windows.Forms.Label();
             this.panelTimestamps = new System.Windows.Forms.Panel();
             this.tableLayoutPanelCustomTimestamps = new System.Windows.Forms.TableLayoutPanel();
+            this.dateTimePickerTimestampEnd = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePickerTimestampStart = new System.Windows.Forms.DateTimePicker();
             this.labelTimestampStart = new System.Windows.Forms.Label();
+            this.checkBoxTimestampEnd = new System.Windows.Forms.CheckBox();
             this.labelPartyOf = new System.Windows.Forms.Label();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabelUsername = new System.Windows.Forms.ToolStripStatusLabel();
@@ -125,21 +128,18 @@
             this.panelSeparator4 = new System.Windows.Forms.Panel();
             this.tableLayoutPanelButtons = new System.Windows.Forms.TableLayoutPanel();
             this.flowLayoutPanelParty = new System.Windows.Forms.FlowLayoutPanel();
+            this.numericUpDownPartySize = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownPartyMax = new System.Windows.Forms.NumericUpDown();
             this.comboBoxDisplay = new System.Windows.Forms.ComboBox();
             this.textBoxSmallURL = new System.Windows.Forms.TextBox();
             this.textBoxLargeURL = new System.Windows.Forms.TextBox();
             this.textBoxStateURL = new System.Windows.Forms.TextBox();
             this.textBoxDetailsURL = new System.Windows.Forms.TextBox();
-            this.numericUpDownPartySize = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDownPartyMax = new System.Windows.Forms.NumericUpDown();
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.textBoxButton2Text = new System.Windows.Forms.TextBox();
             this.textBoxButton2URL = new System.Windows.Forms.TextBox();
             this.textBoxButton1URL = new System.Windows.Forms.TextBox();
             this.textBoxButton1Text = new System.Windows.Forms.TextBox();
-            this.dateTimePickerTimestampEnd = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePickerTimestampStart = new System.Windows.Forms.DateTimePicker();
-            this.checkBoxTimestampEnd = new System.Windows.Forms.CheckBox();
             this.comboBoxSmallKey = new System.Windows.Forms.ComboBox();
             this.textBoxSmallText = new System.Windows.Forms.TextBox();
             this.textBoxLargeText = new System.Windows.Forms.TextBox();
@@ -561,6 +561,7 @@
             this.toolTipInfo.SetToolTip(this.radioButtonLastConnection, resources.GetString("radioButtonLastConnection.ToolTip"));
             this.radioButtonLastConnection.UseVisualStyleBackColor = true;
             this.radioButtonLastConnection.CheckedChanged += new System.EventHandler(this.TimestampsChanged);
+            this.radioButtonLastConnection.Paint += new System.Windows.Forms.PaintEventHandler(this.DisabedTextPaint);
             // 
             // radioButtonStartTime
             // 
@@ -571,6 +572,7 @@
             this.toolTipInfo.SetToolTip(this.radioButtonStartTime, resources.GetString("radioButtonStartTime.ToolTip"));
             this.radioButtonStartTime.UseVisualStyleBackColor = true;
             this.radioButtonStartTime.CheckedChanged += new System.EventHandler(this.TimestampsChanged);
+            this.radioButtonStartTime.Paint += new System.Windows.Forms.PaintEventHandler(this.DisabedTextPaint);
             // 
             // radioButtonLocalTime
             // 
@@ -581,6 +583,7 @@
             this.toolTipInfo.SetToolTip(this.radioButtonLocalTime, resources.GetString("radioButtonLocalTime.ToolTip"));
             this.radioButtonLocalTime.UseVisualStyleBackColor = true;
             this.radioButtonLocalTime.CheckedChanged += new System.EventHandler(this.TimestampsChanged);
+            this.radioButtonLocalTime.Paint += new System.Windows.Forms.PaintEventHandler(this.DisabedTextPaint);
             // 
             // labelTimestamp
             // 
@@ -605,6 +608,7 @@
             this.toolTipInfo.SetToolTip(this.radioButtonCustom, resources.GetString("radioButtonCustom.ToolTip"));
             this.radioButtonCustom.UseVisualStyleBackColor = true;
             this.radioButtonCustom.CheckedChanged += new System.EventHandler(this.TimestampsChanged);
+            this.radioButtonCustom.Paint += new System.Windows.Forms.PaintEventHandler(this.DisabedTextPaint);
             // 
             // labelButton1
             // 
@@ -657,6 +661,7 @@
             this.toolTipInfo.SetToolTip(this.radioButtonPresence, resources.GetString("radioButtonPresence.ToolTip"));
             this.radioButtonPresence.UseVisualStyleBackColor = true;
             this.radioButtonPresence.CheckedChanged += new System.EventHandler(this.TimestampsChanged);
+            this.radioButtonPresence.Paint += new System.Windows.Forms.PaintEventHandler(this.DisabedTextPaint);
             // 
             // labelType
             // 
@@ -683,7 +688,7 @@
             this.toolTipInfo.SetToolTip(this.buttonDisconnect, resources.GetString("buttonDisconnect.ToolTip"));
             this.buttonDisconnect.UseVisualStyleBackColor = true;
             this.buttonDisconnect.Click += new System.EventHandler(this.Disconnect);
-            this.buttonDisconnect.Paint += new System.Windows.Forms.PaintEventHandler(this.ButtonPaint);
+            this.buttonDisconnect.Paint += new System.Windows.Forms.PaintEventHandler(this.DisabedTextPaint);
             // 
             // buttonConnect
             // 
@@ -696,7 +701,7 @@
             this.toolTipInfo.SetToolTip(this.buttonConnect, resources.GetString("buttonConnect.ToolTip"));
             this.buttonConnect.UseVisualStyleBackColor = true;
             this.buttonConnect.Click += new System.EventHandler(this.Connect);
-            this.buttonConnect.Paint += new System.Windows.Forms.PaintEventHandler(this.ButtonPaint);
+            this.buttonConnect.Paint += new System.Windows.Forms.PaintEventHandler(this.DisabedTextPaint);
             // 
             // buttonUpdatePresence
             // 
@@ -709,7 +714,7 @@
             this.toolTipInfo.SetToolTip(this.buttonUpdatePresence, resources.GetString("buttonUpdatePresence.ToolTip"));
             this.buttonUpdatePresence.UseVisualStyleBackColor = true;
             this.buttonUpdatePresence.Click += new System.EventHandler(this.Update);
-            this.buttonUpdatePresence.Paint += new System.Windows.Forms.PaintEventHandler(this.ButtonPaint);
+            this.buttonUpdatePresence.Paint += new System.Windows.Forms.PaintEventHandler(this.DisabedTextPaint);
             // 
             // labelDetailsURL
             // 
@@ -766,15 +771,45 @@
             this.tableLayoutPanelCustomTimestamps.Controls.Add(this.checkBoxTimestampEnd, 2, 0);
             this.tableLayoutPanelCustomTimestamps.Name = "tableLayoutPanelCustomTimestamps";
             // 
+            // dateTimePickerTimestampEnd
+            // 
+            resources.ApplyResources(this.dateTimePickerTimestampEnd, "dateTimePickerTimestampEnd");
+            this.dateTimePickerTimestampEnd.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "customTimestampEnd", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.dateTimePickerTimestampEnd.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerTimestampEnd.MinDate = new System.DateTime(1969, 1, 1, 0, 0, 0, 0);
+            this.dateTimePickerTimestampEnd.Name = "dateTimePickerTimestampEnd";
+            this.dateTimePickerTimestampEnd.Value = global::CustomRPC.Properties.Settings.Default.customTimestampEnd;
+            // 
+            // dateTimePickerTimestampStart
+            // 
+            resources.ApplyResources(this.dateTimePickerTimestampStart, "dateTimePickerTimestampStart");
+            this.dateTimePickerTimestampStart.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "customTimestamp", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.dateTimePickerTimestampStart.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerTimestampStart.MinDate = new System.DateTime(1969, 1, 1, 0, 0, 0, 0);
+            this.dateTimePickerTimestampStart.Name = "dateTimePickerTimestampStart";
+            this.dateTimePickerTimestampStart.Value = global::CustomRPC.Properties.Settings.Default.customTimestamp;
+            // 
             // labelTimestampStart
             // 
             resources.ApplyResources(this.labelTimestampStart, "labelTimestampStart");
             this.labelTimestampStart.Name = "labelTimestampStart";
+            this.labelTimestampStart.Paint += new System.Windows.Forms.PaintEventHandler(this.DisabedTextPaint);
+            // 
+            // checkBoxTimestampEnd
+            // 
+            resources.ApplyResources(this.checkBoxTimestampEnd, "checkBoxTimestampEnd");
+            this.checkBoxTimestampEnd.Checked = global::CustomRPC.Properties.Settings.Default.customTimestampEndEnabled;
+            this.checkBoxTimestampEnd.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::CustomRPC.Properties.Settings.Default, "customTimestampEndEnabled", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.checkBoxTimestampEnd.Name = "checkBoxTimestampEnd";
+            this.checkBoxTimestampEnd.UseVisualStyleBackColor = true;
+            this.checkBoxTimestampEnd.CheckedChanged += new System.EventHandler(this.TimestampEndChanged);
+            this.checkBoxTimestampEnd.Paint += new System.Windows.Forms.PaintEventHandler(this.DisabedTextPaint);
             // 
             // labelPartyOf
             // 
             resources.ApplyResources(this.labelPartyOf, "labelPartyOf");
             this.labelPartyOf.Name = "labelPartyOf";
+            this.labelPartyOf.Paint += new System.Windows.Forms.PaintEventHandler(this.DisabedTextPaint);
             // 
             // statusStrip
             // 
@@ -846,6 +881,36 @@
             resources.ApplyResources(this.flowLayoutPanelParty, "flowLayoutPanelParty");
             this.flowLayoutPanelParty.Name = "flowLayoutPanelParty";
             // 
+            // numericUpDownPartySize
+            // 
+            this.numericUpDownPartySize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
+            this.numericUpDownPartySize.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "partySize", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.numericUpDownPartySize.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.numericUpDownPartySize, "numericUpDownPartySize");
+            this.numericUpDownPartySize.Maximum = new decimal(new int[] {
+            2147483647,
+            0,
+            0,
+            0});
+            this.numericUpDownPartySize.Name = "numericUpDownPartySize";
+            this.numericUpDownPartySize.Value = global::CustomRPC.Properties.Settings.Default.partySize;
+            this.numericUpDownPartySize.Validating += new System.ComponentModel.CancelEventHandler(this.PartySizeValidation);
+            // 
+            // numericUpDownPartyMax
+            // 
+            this.numericUpDownPartyMax.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
+            this.numericUpDownPartyMax.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "partyMax", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.numericUpDownPartyMax.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.numericUpDownPartyMax, "numericUpDownPartyMax");
+            this.numericUpDownPartyMax.Maximum = new decimal(new int[] {
+            2147483647,
+            0,
+            0,
+            0});
+            this.numericUpDownPartyMax.Name = "numericUpDownPartyMax";
+            this.numericUpDownPartyMax.Value = global::CustomRPC.Properties.Settings.Default.partyMax;
+            this.numericUpDownPartyMax.Validating += new System.ComponentModel.CancelEventHandler(this.PartySizeValidation);
+            // 
             // comboBoxDisplay
             // 
             this.comboBoxDisplay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(68)))), ((int)(((byte)(75)))));
@@ -896,36 +961,6 @@
             this.textBoxDetailsURL.TextChanged += new System.EventHandler(this.LengthValidation);
             this.textBoxDetailsURL.Leave += new System.EventHandler(this.TrimTextBoxes);
             this.textBoxDetailsURL.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
-            // 
-            // numericUpDownPartySize
-            // 
-            this.numericUpDownPartySize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
-            this.numericUpDownPartySize.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "partySize", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.numericUpDownPartySize.ForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.numericUpDownPartySize, "numericUpDownPartySize");
-            this.numericUpDownPartySize.Maximum = new decimal(new int[] {
-            2147483647,
-            0,
-            0,
-            0});
-            this.numericUpDownPartySize.Name = "numericUpDownPartySize";
-            this.numericUpDownPartySize.Value = global::CustomRPC.Properties.Settings.Default.partySize;
-            this.numericUpDownPartySize.Validating += new System.ComponentModel.CancelEventHandler(this.PartySizeValidation);
-            // 
-            // numericUpDownPartyMax
-            // 
-            this.numericUpDownPartyMax.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
-            this.numericUpDownPartyMax.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "partyMax", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.numericUpDownPartyMax.ForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.numericUpDownPartyMax, "numericUpDownPartyMax");
-            this.numericUpDownPartyMax.Maximum = new decimal(new int[] {
-            2147483647,
-            0,
-            0,
-            0});
-            this.numericUpDownPartyMax.Name = "numericUpDownPartyMax";
-            this.numericUpDownPartyMax.Value = global::CustomRPC.Properties.Settings.Default.partyMax;
-            this.numericUpDownPartyMax.Validating += new System.ComponentModel.CancelEventHandler(this.PartySizeValidation);
             // 
             // textBoxName
             // 
@@ -986,33 +1021,6 @@
             this.textBoxButton1Text.TextChanged += new System.EventHandler(this.LengthValidation);
             this.textBoxButton1Text.Leave += new System.EventHandler(this.TrimTextBoxes);
             this.textBoxButton1Text.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
-            // 
-            // dateTimePickerTimestampEnd
-            // 
-            resources.ApplyResources(this.dateTimePickerTimestampEnd, "dateTimePickerTimestampEnd");
-            this.dateTimePickerTimestampEnd.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "customTimestampEnd", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.dateTimePickerTimestampEnd.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePickerTimestampEnd.MinDate = new System.DateTime(1969, 1, 1, 0, 0, 0, 0);
-            this.dateTimePickerTimestampEnd.Name = "dateTimePickerTimestampEnd";
-            this.dateTimePickerTimestampEnd.Value = global::CustomRPC.Properties.Settings.Default.customTimestampEnd;
-            // 
-            // dateTimePickerTimestampStart
-            // 
-            resources.ApplyResources(this.dateTimePickerTimestampStart, "dateTimePickerTimestampStart");
-            this.dateTimePickerTimestampStart.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CustomRPC.Properties.Settings.Default, "customTimestamp", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.dateTimePickerTimestampStart.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePickerTimestampStart.MinDate = new System.DateTime(1969, 1, 1, 0, 0, 0, 0);
-            this.dateTimePickerTimestampStart.Name = "dateTimePickerTimestampStart";
-            this.dateTimePickerTimestampStart.Value = global::CustomRPC.Properties.Settings.Default.customTimestamp;
-            // 
-            // checkBoxTimestampEnd
-            // 
-            resources.ApplyResources(this.checkBoxTimestampEnd, "checkBoxTimestampEnd");
-            this.checkBoxTimestampEnd.Checked = global::CustomRPC.Properties.Settings.Default.customTimestampEndEnabled;
-            this.checkBoxTimestampEnd.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::CustomRPC.Properties.Settings.Default, "customTimestampEndEnabled", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.checkBoxTimestampEnd.Name = "checkBoxTimestampEnd";
-            this.checkBoxTimestampEnd.UseVisualStyleBackColor = true;
-            this.checkBoxTimestampEnd.CheckedChanged += new System.EventHandler(this.TimestampEndChanged);
             // 
             // comboBoxSmallKey
             // 
