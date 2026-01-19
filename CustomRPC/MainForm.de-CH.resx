@@ -471,4 +471,25 @@ damit es funktioniert münd bi beidne fälder meh als 0 si.</value>
   <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
     <value>Zeigt wie lang sit du zletzt verbunde hesch.</value>
   </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>En Link wo göffnet wird wenn dä User uf details text klickt.</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>En link wo göffnet wird wenn dä User uf dä stand klickt.</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>Kontrolliert weles feld im user Status text azeigt wird i dä midglider liste.</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>En link wo göffnet wird wenn dä User ufs chline bild klickt.</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>En link wo göffnet wird wenn dä User ufs grosse bild klickt.</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
 </root>
