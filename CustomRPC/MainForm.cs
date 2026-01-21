@@ -289,8 +289,25 @@ namespace CustomRPC
             allowAnalyticsToolStripMenuItem.Checked = Analytics.IsEnabledAsync().Result;
             darkModeToolStripMenuItem.Checked = settings.darkMode;
 
+            // Helper function that recursively gets all DropDownItems
+            IEnumerable<ToolStripItem> GetAllDropDownItems(ToolStripDropDownItem item)
+            {
+                foreach (ToolStripItem subItem in item.DropDownItems)
+                {
+                    yield return subItem;
+
+                    if (subItem is ToolStripDropDownItem subContainer)
+                    {
+                        foreach (ToolStripItem nestedItem in GetAllDropDownItems(subContainer))
+                        {
+                            yield return nestedItem;
+                        }
+                    }
+                }
+            }
+
             // Checks the chosen language setting
-            foreach (var toolStripItemObj in languageToolStripMenuItem.DropDownItems)
+            foreach (var toolStripItemObj in GetAllDropDownItems(languageToolStripMenuItem))
             {
                 if (toolStripItemObj is ToolStripSeparator)
                     continue;

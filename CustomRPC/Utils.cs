@@ -1225,21 +1225,37 @@ namespace CustomRPC
                                           ToolStripMenuItem languagesParent, EventHandler languagesHandler)
         {
             // Clearing out sample items I left in for design purposes
+            languagesParent.DropDownItems.RemoveByKey("sampleToolStripMenuItem"); 
             translatorsParent.DropDownItems.Clear();
-            languagesParent.DropDownItems.RemoveByKey("sampleToolStripMenuItem");
 
-            foreach (var lang in Languages)
+            var langParts = new[] {
+                new ToolStripMenuItem("1/2"),
+                new ToolStripMenuItem("2/2")
+            };
+            var tlParts = new[] {
+                new ToolStripMenuItem("1/2"),
+                new ToolStripMenuItem("2/2")
+            };
+
+            languagesParent.DropDownItems.AddRange(langParts);
+            translatorsParent.DropDownItems.AddRange(tlParts);
+
+            // Sorting the languages by the code just in case, even though I do that manually already
+            Languages.Sort((x, y) => string.Compare(x.Code, y.Code, StringComparison.Ordinal));
+
+            for (int i = 0; i < Languages.Count; i++)
             {
-                var dialect = "";
-                if (!string.IsNullOrEmpty(lang.Dialect))
-                    dialect = $" ({lang.Dialect})";
+                var lang = Languages[i];
+
+                string dialect = string.IsNullOrEmpty(lang.Dialect) ? "" : $" ({lang.Dialect})";
 
                 // Populating Settings -> Languages
-                languagesParent.DropDownItems.Add(new ToolStripMenuItem(lang.Name + dialect, null, languagesHandler)
-                {
-                    Tag = lang.Code,
-                    ToolTipText = lang.EnglishName + dialect,
-                });
+                langParts[langParts.Length * i / Languages.Count].DropDownItems
+                    .Add(new ToolStripMenuItem(lang.Name + dialect, null, languagesHandler)
+                    {
+                        Tag = lang.Code,
+                        ToolTipText = lang.EnglishName + dialect,
+                    });
 
                 if (lang.Code == "en")
                     continue;
@@ -1258,8 +1274,7 @@ namespace CustomRPC
                     }
                     langStrip.DropDownItems.Add(tlItem);
                 }
-
-                translatorsParent.DropDownItems.Add(langStrip);
+                tlParts[tlParts.Length * i / Languages.Count].DropDownItems.Add(langStrip);
             }
         }
 
