@@ -1259,10 +1259,10 @@
       <Version>0.15.1</Version>
     </PackageReference>
     <PackageReference Include="HtmlRenderer.Core">
-      <Version>1.5.1</Version>
+      <Version>1.5.2</Version>
     </PackageReference>
     <PackageReference Include="HtmlRenderer.WinForms">
-      <Version>1.5.1</Version>
+      <Version>1.5.2</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AppCenter.Analytics">
       <Version>5.0.7</Version>
