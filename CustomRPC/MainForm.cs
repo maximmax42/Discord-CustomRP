@@ -382,7 +382,7 @@ namespace CustomRPC
             toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
 
             // Add version info to main window title
-            Text += " v" + VersionHelper.GetVersionString(Application.ProductVersion);
+            Text += " " + VersionHelper.GetVersionString(Application.ProductVersion);
 #if DEBUG
             Text += " DEV";
 #endif
