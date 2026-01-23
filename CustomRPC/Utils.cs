@@ -727,10 +727,10 @@ namespace CustomRPC
                     Dialect = "BR",
                     Code = "pt-br",
                     Translators = new Person[] {
-                        new Person { Name = "Vinicio Henrique (viniciotricolor)" },
+                        new Person { Name = "Vinicio Henrique (viniciotricolor)" }, // +15
+                        new Person { Name = "Ninja Music", Url = "https://linktr.ee/GSNinjaMusic" },
                         new Person { Name = "Slimakoi" },
                         new Person { Name = "Felipe B. Pansani" },
-                        new Person { Name = "Ninja Music" },
                         new Person { Name = "DeusDrizzyy" },
                         new Person { Name = "Leo" },
                         NicolaOcchipinti,
@@ -950,7 +950,7 @@ namespace CustomRPC
             LanguageProgress["fa"] = "91.53";
             LanguageProgress["pl"] = "94.07";
             LanguageProgress["pt"] = "91.53";
-            LanguageProgress["pt-br"] = "91.53";
+            LanguageProgress["pt-br"] = "100";
             LanguageProgress["ro"] = "91.53";
             LanguageProgress["ru"] = "100";
             LanguageProgress["sr"] = "82.2";

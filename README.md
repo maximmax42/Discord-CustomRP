@@ -121,7 +121,7 @@ So far, the app supports these languages:
 * [Persian](https://poeditor.com/projects/po_edit?id_language=126&per_page=100&id=409229) (thanks to [Mohammad Mahdi](https://mo-mahdihh.ir/), AliGhanbarzadeh, [Nima](https://github.com/nima-globals/), Sunnystew and Nythsha)
 * [Polish](https://poeditor.com/projects/po_edit?id_language=127&per_page=100&id=409229) (thanks to Lol1112345.lol12345, Liso, [Muzes](https://radio.muzes.xyz/), Piter, Oscar, Tofix.rs, KM127PL and [Marcel Gustin](https://marcelgustin.de))
 * [Portugese](https://poeditor.com/projects/po_edit?id_language=128&per_page=100&id=409229) (thanks to Verygafanhot, Alexandre Calvario and [Noah Pombas](https://noahpombas.ch))
-* [Portugese (BR)](https://poeditor.com/projects/po_edit?id_language=190&per_page=100&id=409229) (thanks to viniciotricolor, Slimakoi, Felipe B. Pansani, Ninja Music, DeusDrizzyy, Leo, Nicola Occhipinti and João)
+* [Portugese (BR)](https://poeditor.com/projects/po_edit?id_language=190&per_page=100&id=409229) (thanks to viniciotricolor, [Ninja Music](https://linktr.ee/GSNinjaMusic), Slimakoi, Felipe B. Pansani, DeusDrizzyy, Leo, Nicola Occhipinti and João)
 * [Romanian](https://poeditor.com/projects/po_edit?id_language=131&per_page=100&id=409229) (thanks to [JPN](https://isaidpower.dev/), [DiDYRO](https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w), ShadowTiger_9, Electro, [inter](https://github.com/Electro7777), Denisbolba, [KTSGod](https://ktsgod.carrd.co/), [Eddie](https://github.com/EdiRo), veirvn, Matthww and BlockBuzzters)
 * [Russian](https://poeditor.com/projects/po_edit?id_language=134&per_page=100&id=409229)
 * [Serbian](https://poeditor.com/projects/po_edit?id_language=141&per_page=100&id=409229) (thanks to Vihaan, ToShibaToShamara, falcon and Veljko)
