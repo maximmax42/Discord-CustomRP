@@ -909,7 +909,7 @@ namespace CustomRPC
                 string protocol = "https://";
 
                 if (!url.Contains("://"))
-                    return (protocol + url).Substring(0, Math.Min(maxLength, url.Length + protocol.Length));
+                    url = (protocol + url).Substring(0, Math.Min(maxLength, url.Length + protocol.Length));
 
                 try
                 {
@@ -927,8 +927,17 @@ namespace CustomRPC
             settings.detailsURL = ProcessURL(settings.detailsURL, textBoxDetailsURL.MaxLength);
             settings.stateURL = ProcessURL(settings.stateURL, textBoxStateURL.MaxLength);
 
-            rp.DetailsUrl = settings.detailsURL;
-            rp.StateUrl = settings.stateURL;
+            try
+            {
+                rp.DetailsUrl = settings.detailsURL;
+                rp.StateUrl = settings.stateURL;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+
+                return false;
+            }
 
             string Proxify(string key)
             {
@@ -996,34 +1005,28 @@ namespace CustomRPC
 
             Utils.SaveSettings();
 
-            if (settings.button1Text != "" && settings.button1URL != "")
-                buttonsList.Add(new DButton()
-                {
-                    Label = settings.button1Text,
-                    Url = settings.button1URL
-                });
-
-            if (settings.button2Text != "" && settings.button2URL != "")
-                buttonsList.Add(new DButton()
-                {
-                    Label = settings.button2Text,
-                    Url = settings.button2URL
-                });
-
-            /* I don't think that this catch block ever worked
+            // This try block technically isn't necessary, except if you screw up URL field processing (ask me how I know)
             try
             {
+                if (settings.button1Text != "" && settings.button1URL != "")
+                    buttonsList.Add(new DButton()
+                    {
+                        Label = settings.button1Text,
+                        Url = settings.button1URL
+                    });
+
+                if (settings.button2Text != "" && settings.button2URL != "")
+                    buttonsList.Add(new DButton()
+                    {
+                        Label = settings.button2Text,
+                        Url = settings.button2URL
+                    });
             }
-            catch
+            catch 
             {
                 MessageBox.Show(Strings.errorInvalidURL, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
                 return false;
             }
-            finally
-            {
-                Utils.SaveSettings();
-            }
-            */
 
             rp.Buttons = buttonsList.ToArray();
 
