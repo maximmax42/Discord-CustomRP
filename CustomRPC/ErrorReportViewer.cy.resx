@@ -121,8 +121,11 @@
     <value>Iawn</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="labelInfo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 11.25pt</value>
+  <data name="labelInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 3</value>
+  </data>
+  <data name="labelInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 38</value>
   </data>
   <data name="labelInfo.Text" xml:space="preserve">
     <value>Mae CustomRP wedi cwympo yn y sesiwn flaenorol oherwydd yr eithriad canlynol heb ei drin:</value>

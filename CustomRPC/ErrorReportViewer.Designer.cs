@@ -32,6 +32,8 @@
             this.richTextBoxReport = new System.Windows.Forms.RichTextBox();
             this.buttonOK = new System.Windows.Forms.Button();
             this.labelInfo = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // richTextBoxReport
@@ -56,18 +58,26 @@
             resources.ApplyResources(this.labelInfo, "labelInfo");
             this.labelInfo.Name = "labelInfo";
             // 
+            // tableLayoutPanel1
+            // 
+            resources.ApplyResources(this.tableLayoutPanel1, "tableLayoutPanel1");
+            this.tableLayoutPanel1.Controls.Add(this.labelInfo, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.buttonOK, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.richTextBoxReport, 0, 1);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            // 
             // ErrorReportViewer
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.Controls.Add(this.labelInfo);
-            this.Controls.Add(this.buttonOK);
-            this.Controls.Add(this.richTextBoxReport);
+            this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ErrorReportViewer";
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -76,5 +86,6 @@
         private System.Windows.Forms.RichTextBox richTextBoxReport;
         private System.Windows.Forms.Button buttonOK;
         private System.Windows.Forms.Label labelInfo;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

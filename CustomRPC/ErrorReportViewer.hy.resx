@@ -117,21 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="richTextBoxReport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 76</value>
-  </data>
-  <data name="richTextBoxReport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>358, 244</value>
-  </data>
   <data name="buttonOK.Text" xml:space="preserve">
     <value>Լավ</value>
   </data>
-  <data name="labelInfo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 12pt</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 3</value>
   </data>
   <data name="labelInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>360, 57</value>
+    <value>412, 38</value>
   </data>
   <data name="labelInfo.Text" xml:space="preserve">
     <value>CustomRP-ը խափանվել է նախորդ նիստում հետևյալ չկառավարվող բացառության պատճառով.</value>
