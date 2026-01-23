@@ -120,10 +120,16 @@
   <data name="buttonUpdate.Text" xml:space="preserve">
     <value>Այո՛</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonNotNow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 0</value>
+  </data>
+  <data name="buttonNotNow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 25</value>
+  </data>
   <data name="buttonNotNow.Text" xml:space="preserve">
     <value>Ոչ հիմա</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
     <value>269, 14</value>
   </data>
@@ -136,15 +142,18 @@
   <data name="checkBoxNeverNotify.Text" xml:space="preserve">
     <value>Այլևս մի ստուգեք թարմացումների համար</value>
   </data>
-  <data name="labelVersionsText.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 12pt</value>
+  <data name="labelVersionsText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 2</value>
+  </data>
+  <data name="labelVersionsText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 46</value>
   </data>
   <data name="labelVersionsText.Text" xml:space="preserve">
     <value>Ընթացիկ տարբերակը.
 Վերջին տարբերակը.</value>
   </data>
   <data name="buttonSkipUpdate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 23</value>
+    <value>187, 25</value>
   </data>
   <data name="buttonSkipUpdate.Text" xml:space="preserve">
     <value>Բաց թողնել այս տարբերակը</value>

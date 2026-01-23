@@ -120,10 +120,16 @@
   <data name="buttonUpdate.Text" xml:space="preserve">
     <value>Тийм</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonNotNow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 0</value>
+  </data>
+  <data name="buttonNotNow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 25</value>
+  </data>
   <data name="buttonNotNow.Text" xml:space="preserve">
     <value>Одоо биш</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
     <value>164, 14</value>
   </data>
@@ -136,15 +142,18 @@
   <data name="checkBoxNeverNotify.Text" xml:space="preserve">
     <value>Дахиж шинэ шинжлэлт авахгүй</value>
   </data>
-  <data name="labelVersionsText.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 12.75pt</value>
+  <data name="labelVersionsText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 2</value>
+  </data>
+  <data name="labelVersionsText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 46</value>
   </data>
   <data name="labelVersionsText.Text" xml:space="preserve">
     <value>Одоогийн хувилбар:
 Сүүлийн үеийн хувилбар:</value>
   </data>
   <data name="buttonSkipUpdate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 23</value>
+    <value>158, 25</value>
   </data>
   <data name="buttonSkipUpdate.Text" xml:space="preserve">
     <value>Энэ хувилбарийг алагсах</value>

@@ -38,37 +38,39 @@
             this.labelVersions = new System.Windows.Forms.Label();
             this.buttonSkipUpdate = new System.Windows.Forms.Button();
             this.htmlPanelChangelog = new TheArtOfDev.HtmlRenderer.WinForms.HtmlPanel();
+            this.tableLayoutPanelButtons = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanelVersion = new System.Windows.Forms.TableLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
+            this.tableLayoutPanelButtons.SuspendLayout();
+            this.tableLayoutPanelVersion.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonUpdate
             // 
-            this.buttonUpdate.AutoEllipsis = true;
+            resources.ApplyResources(this.buttonUpdate, "buttonUpdate");
             this.buttonUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(25)))), ((int)(((byte)(28)))));
             this.buttonUpdate.DialogResult = System.Windows.Forms.DialogResult.Yes;
             this.buttonUpdate.FlatAppearance.BorderSize = 0;
             this.buttonUpdate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(73)))), ((int)(((byte)(162)))));
             this.buttonUpdate.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(86)))), ((int)(((byte)(193)))));
-            resources.ApplyResources(this.buttonUpdate, "buttonUpdate");
             this.buttonUpdate.Name = "buttonUpdate";
             this.buttonUpdate.UseVisualStyleBackColor = true;
             // 
             // pictureBoxLogo
             // 
-            this.pictureBoxLogo.Image = global::CustomRPC.Properties.Resources.logo;
             resources.ApplyResources(this.pictureBoxLogo, "pictureBoxLogo");
+            this.pictureBoxLogo.Image = global::CustomRPC.Properties.Resources.logo;
             this.pictureBoxLogo.Name = "pictureBoxLogo";
             this.pictureBoxLogo.TabStop = false;
             // 
             // buttonNotNow
             // 
-            this.buttonNotNow.AutoEllipsis = true;
+            resources.ApplyResources(this.buttonNotNow, "buttonNotNow");
             this.buttonNotNow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(25)))), ((int)(((byte)(28)))));
             this.buttonNotNow.DialogResult = System.Windows.Forms.DialogResult.No;
             this.buttonNotNow.FlatAppearance.BorderSize = 0;
             this.buttonNotNow.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(73)))), ((int)(((byte)(162)))));
             this.buttonNotNow.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(86)))), ((int)(((byte)(193)))));
-            resources.ApplyResources(this.buttonNotNow, "buttonNotNow");
             this.buttonNotNow.Name = "buttonNotNow";
             this.buttonNotNow.UseVisualStyleBackColor = true;
             // 
@@ -96,13 +98,12 @@
             // 
             // buttonSkipUpdate
             // 
-            this.buttonSkipUpdate.AutoEllipsis = true;
+            resources.ApplyResources(this.buttonSkipUpdate, "buttonSkipUpdate");
             this.buttonSkipUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(25)))), ((int)(((byte)(28)))));
             this.buttonSkipUpdate.DialogResult = System.Windows.Forms.DialogResult.Ignore;
             this.buttonSkipUpdate.FlatAppearance.BorderSize = 0;
             this.buttonSkipUpdate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(73)))), ((int)(((byte)(162)))));
             this.buttonSkipUpdate.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(86)))), ((int)(((byte)(193)))));
-            resources.ApplyResources(this.buttonSkipUpdate, "buttonSkipUpdate");
             this.buttonSkipUpdate.Name = "buttonSkipUpdate";
             this.buttonSkipUpdate.UseVisualStyleBackColor = true;
             // 
@@ -117,6 +118,21 @@
             this.htmlPanelChangelog.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.htmlPanelChangelog.UseGdiPlusTextRendering = true;
             // 
+            // tableLayoutPanelButtons
+            // 
+            resources.ApplyResources(this.tableLayoutPanelButtons, "tableLayoutPanelButtons");
+            this.tableLayoutPanelButtons.Controls.Add(this.buttonUpdate, 3, 0);
+            this.tableLayoutPanelButtons.Controls.Add(this.buttonNotNow, 2, 0);
+            this.tableLayoutPanelButtons.Controls.Add(this.buttonSkipUpdate, 0, 0);
+            this.tableLayoutPanelButtons.Name = "tableLayoutPanelButtons";
+            // 
+            // tableLayoutPanelVersion
+            // 
+            resources.ApplyResources(this.tableLayoutPanelVersion, "tableLayoutPanelVersion");
+            this.tableLayoutPanelVersion.Controls.Add(this.labelVersionsText, 0, 0);
+            this.tableLayoutPanelVersion.Controls.Add(this.labelVersions, 1, 0);
+            this.tableLayoutPanelVersion.Name = "tableLayoutPanelVersion";
+            // 
             // UpdatePrompt
             // 
             this.AcceptButton = this.buttonUpdate;
@@ -124,20 +140,21 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.CancelButton = this.buttonNotNow;
+            this.Controls.Add(this.pictureBoxLogo);
+            this.Controls.Add(this.tableLayoutPanelVersion);
+            this.Controls.Add(this.tableLayoutPanelButtons);
             this.Controls.Add(this.htmlPanelChangelog);
-            this.Controls.Add(this.buttonSkipUpdate);
-            this.Controls.Add(this.labelVersions);
-            this.Controls.Add(this.labelVersionsText);
             this.Controls.Add(this.checkBoxNeverNotify);
             this.Controls.Add(this.labelQuestion);
-            this.Controls.Add(this.buttonNotNow);
-            this.Controls.Add(this.pictureBoxLogo);
-            this.Controls.Add(this.buttonUpdate);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "UpdatePrompt";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
+            this.tableLayoutPanelButtons.ResumeLayout(false);
+            this.tableLayoutPanelButtons.PerformLayout();
+            this.tableLayoutPanelVersion.ResumeLayout(false);
+            this.tableLayoutPanelVersion.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -154,5 +171,7 @@
         private System.Windows.Forms.Label labelVersions;
         private System.Windows.Forms.Button buttonSkipUpdate;
         private TheArtOfDev.HtmlRenderer.WinForms.HtmlPanel htmlPanelChangelog;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanelButtons;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanelVersion;
     }
 }
