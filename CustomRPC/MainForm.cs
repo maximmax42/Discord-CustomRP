@@ -1389,7 +1389,7 @@ namespace CustomRPC
 
                     return;
                 }
-                catch (IOException ex)
+                catch (Exception ex)
                 {
                     if (MessageBox.Show(ex.Message, Strings.error, MessageBoxButtons.RetryCancel, MessageBoxIcon.Error) == DialogResult.Cancel)
                         return;
