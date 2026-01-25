@@ -906,10 +906,8 @@ namespace CustomRPC
                 if (string.IsNullOrEmpty(url))
                     return url;
 
-                string protocol = "https://";
-
                 if (!url.Contains("://"))
-                    url = protocol + url;
+                    url = "https://" + url;
 
                 try
                 {
