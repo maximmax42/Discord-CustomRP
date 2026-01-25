@@ -909,7 +909,7 @@ namespace CustomRPC
                 string protocol = "https://";
 
                 if (!url.Contains("://"))
-                    url = (protocol + url).Substring(0, Math.Min(maxLength, url.Length + protocol.Length));
+                    url = protocol + url;
 
                 try
                 {
@@ -921,7 +921,7 @@ namespace CustomRPC
                     // Sometimes TryCreate throws errors, even when it's not supposed to, so we can just let it fail quietly
                 }
 
-                return url;
+                return url.Substring(0, Math.Min(maxLength, url.Length));
             }
 
             settings.detailsURL = ProcessURL(settings.detailsURL, textBoxDetailsURL.MaxLength);
