@@ -494,4 +494,34 @@
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>סוג פעילות לסטטוס.</value>
   </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>שם האפליקציה.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>מאז החיבור האחרון</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>מראה כמה זמן עבר מאז ההתחברות האחרונה שלך.</value>
+  </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>קישור שייפתח כאשר המשתמש ילחץ על הטקסט "Details"</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>קישור שייפתח כאשר המשתמש ילחץ על הטקסט "State".</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>שולט באיזה שדה יוצג בטקסט הסטטוס של המשתמש ברשימת החברים.</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>קישור שייפתח כאשר המשתמש ילחץ על התמונה הקטנה.</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>קישור שייפתח כאשר המשתמש ילחץ על התמונה הגדולה.</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>התחלה</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>סוף</value>
+  </data>
 </root>

@@ -326,4 +326,25 @@
   <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
     <value>마지막으로 연결한 이후 얼마나 많은 시간이 지났는지 보여줍니다.</value>
   </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>세부 사항 텍스트를 클릭하면 열리는 링크입니다.</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>상태 텍스트를 클릭하면 열리는 링크입니다.</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>멤버 목록에서 사용자의 상태 텍스트에 표시되는 부분을 제어합니다.</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>작은 이미지를 클릭하면 열리는 링크입니다.</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>큰 이미지를 클릭하면 열리는 링크입니다.</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>시작</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>끝</value>
+  </data>
 </root>

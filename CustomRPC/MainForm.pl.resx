@@ -417,4 +417,25 @@ Jeżeli ma mieć jakikolwiek efekt, obydwa pola muszą być większe od 0.</valu
   <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
     <value>Pokazuje, ile czasu minęło od ostatniego połączenia.</value>
   </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>Link, który się otworzy po kliknięciu na tekst Szczegóły.</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>Link, który się otworzy po kliknięciu na tekst State.</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>Wybiera, które pole jest wyświetlane w statusie użytkownika w liście członków.</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>Link, który się otworzy po kliknięciu małego zdjęcia.</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>Link, który się otworzy po kliknięciu dużego zdjęcia.</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>Początek</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>Koniec</value>
+  </data>
 </root>
