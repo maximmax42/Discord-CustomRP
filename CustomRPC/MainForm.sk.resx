@@ -480,4 +480,25 @@ Aby nadobudli účinnosť, obe polia by mali byť väčšie ako 0.</value>
   <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
     <value>Zobraziť, koľko času uplynulo od posledného pripojenia.</value>
   </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>Odkaz, ktorý sa otvorí po kliknutí na Podrobnosti.</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>Kliknutím na Stav sa otvorí odkaz.</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>Určuje, ktoré pole sa zobrazuje pri user liste.</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>Odkaz, ktorý sa otvorí po kliknutí na malý obrázok.</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>Odkaz, ktorý sa otvorí po kliknutí na veľký obrázok.</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>Štart</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>Koniec</value>
+  </data>
 </root>
