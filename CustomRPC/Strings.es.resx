@@ -124,15 +124,15 @@
     <value>¡ID no especificada!</value>
   </data>
   <data name="errorUpdateFailed" xml:space="preserve">
-    <value>Hubo un error al descargar o instalar una actualización. 
-Presiona "Sí" para reintentar o "No" para descargar manualmente.</value>
+    <value>Se ha producido un error al descargar o instalar una actualización.
+Presione "Sí" para volver a intentarlo o "No" para descargarla manualmente.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
     <value>¿Necesitas ayuda?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
-    <value>¿Te gustaría abrir el manual? 
-Puedes abrirlo en cualquier momento yendo a Ayuda -&gt; Abrir el Manual o presionando F1.</value>
+    <value>¿Deseas abrir el manual?
+Puedes abrirlo en cualquier momento yendo a Ayuda -&gt; Abrir el manual o presionando F1.</value>
   </data>
   <data name="information" xml:space="preserve">
     <value>Información</value>
@@ -144,16 +144,16 @@ Puedes abrirlo en cualquier momento yendo a Ayuda -&gt; Abrir el Manual o presio
     <value>Conectando...</value>
   </data>
   <data name="statusConnectionFailed" xml:space="preserve">
-    <value>Conexión fallida (¿Está ejecutándose Discord?)</value>
+    <value>Error de conexión (¿Discord está funcionando?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
     <value>Desconectado</value>
   </data>
   <data name="statusError" xml:space="preserve">
-    <value>Error de conexión (¿ID incorrecto?)</value>
+    <value>Error de conexión (¿ID incorrecta?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>¡URL inválida especificada para el/los botón(es) o el texto es demasiado largo!</value>
+    <value>¡Se ha especificado una URL no válida para el/los boton(es) o el texto es demasiado largo!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
     <value>¡No se puede conectar a Internet!</value>
@@ -162,15 +162,15 @@ Puedes abrirlo en cualquier momento yendo a Ayuda -&gt; Abrir el Manual o presio
     <value>¡No se han encontrado actualizaciones!</value>
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
-    <value>El archivo de configuración está dañado. 
-Presiona "Sí" para restablecer la configuración, presiona "No" para salir.</value>
+    <value>El archivo de configuración está dañado.
+Presione Sí para restablecer la configuración, presione No para salir.</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">
-    <value>Error al importar el preajuste; el archivo no existe, esta dañado o no está correctamente formateado.</value>
+    <value>No se pudo importar el ajuste preestablecido; el archivo no se encuentra, está dañado o no tiene el formato adecuado.</value>
   </data>
   <data name="askAnalyticsConsent" xml:space="preserve">
-    <value>¿Permites que CustomRP envíe tus análiticas de uso al desarrollador? 
-(Todos los datos están despersonalizados).</value>
+    <value>¿Permites que CustomRP envíe tus datos de uso al desarrollador?
+(Todos los datos son anónimos).</value>
   </data>
   <data name="errorSavingSettings" xml:space="preserve">
     <value>Se produjo un error al guardar la configuración:</value>
@@ -182,17 +182,17 @@ Presiona "Sí" para restablecer la configuración, presiona "No" para salir.</va
     <value>¡La URL de la imagen es demasiado larga!</value>
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
-    <value>Error al añadir o eliminar un acceso directo al inicio:</value>
+    <value>No se pudo agregar o eliminar un acceso directo de inicio:</value>
   </data>
   <data name="errorOpeningURL" xml:space="preserve">
-    <value>Error al abrir la URL. Se ha copiado al portapapeles.</value>
+    <value>No se pudo abrir la URL. Se ha copiado en el portapapeles.</value>
   </data>
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>Actualizando presencia...</value>
   </data>
   <data name="newPresetConfirmation" xml:space="preserve">
-    <value>¿Estás seguro de que quieres empezar desde cero? 
-Esto es irreversible.</value>
+    <value>¿Estás seguro de que quieres empezar desde cero?
+Esta acción es irreversible.</value>
   </data>
   <data name="deleteSettings" xml:space="preserve">
     <value>¿Deseas eliminar los datos de configuración de la aplicación? 

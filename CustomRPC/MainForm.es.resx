@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>Haz doble clic en el ícono para mostrarlo de nuevo, o haz clic derecho para salir.</value>
+    <value>Haga doble clic en el ícono para volver a mostrarlo, o haga clic con el botón derecho para salir.</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
     <value>La aplicación se ejecutará en la bandeja del sistema.</value>
@@ -386,12 +386,12 @@
     <value>Muestra tu hora actual en formato de 24 horas.</value>
   </data>
   <data name="labelTimestamp.ToolTip" xml:space="preserve">
-    <value>Configura la marca de tiempo para el estado, que aparece debajo de todo el texto anterior. 
+    <value>Configura la marca de tiempo para el estado, que aparece debajo de todo el texto anterior.
 Los temporizadores de estado tienen un límite de 24 horas, lo que significa que después de 24 horas el tiempo volverá a 0:00.</value>
   </data>
   <data name="labelParty.ToolTip" xml:space="preserve">
-    <value>Cantidad de jugadores en el grupo actual que se muestra junto al campo de Estado. 
-Para que surta efecto, ambos campos deben ser mayores que 0.</value>
+    <value>Número de jugadores en el grupo actual que aparece junto al campo Estado.
+Para que surta efecto, ambos campos deben ser superiores a 0.</value>
   </data>
   <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 18</value>
@@ -400,7 +400,7 @@ Para que surta efecto, ambos campos deben ser mayores que 0.</value>
     <value>Marca de tiempo personalizada</value>
   </data>
   <data name="radioButtonCustom.ToolTip" xml:space="preserve">
-    <value>Muestra cuánto tiempo ha pasado desde o cuánto tiempo queda hasta la fecha establecida a continuación.</value>
+    <value>Muestra cuánto tiempo ha pasado o queda hasta la fecha establecida a continuación.</value>
   </data>
   <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 14</value>
@@ -409,7 +409,7 @@ Para que surta efecto, ambos campos deben ser mayores que 0.</value>
     <value>Botón 1</value>
   </data>
   <data name="labelButton1.ToolTip" xml:space="preserve">
-    <value>El primero de los dos botones que aparece debajo de tu estado en el popup de tu perfil y en el lado derecho en el perfil completo.</value>
+    <value>El primero de los dos botones que aparecen debajo de tu estado en la ventana emergente de tu perfil y en la parte derecha del perfil completo.</value>
   </data>
   <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 14</value>
@@ -455,5 +455,35 @@ Para que surta efecto, ambos campos deben ser mayores que 0.</value>
   </data>
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>Tipo de actividad para la presencia.</value>
+  </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>El nombre de la aplicación.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>Desde la última conexión</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Muestra cuánto tiempo ha pasado desde la última vez que te conectaste.</value>
+  </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>Un link que se abrirá cuando el usuario haga clic en el texto Detalles.</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>Un link que se abrirá cuando el usuario haga clic en el texto Estado.</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>Controla qué campo se muestra en el texto de estado del usuario en la lista de miembros.</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>Un link que se abrirá cuando el usuario haga clic en la imagen pequeña.</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>Un link que se abrirá cuando el usuario haga clic en la imagen grande.</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>Iniciar</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>Terminar</value>
   </data>
 </root>
