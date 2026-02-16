@@ -460,7 +460,7 @@ Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
     <value>Nieuwe Voorinstelling</value>
   </data>
   <data name="labelType.ToolTip" xml:space="preserve">
-    <value>Tijd van activiteit voor Status.</value>
+    <value>Tijd van activiteit voor de status.</value>
   </data>
   <data name="labelName.ToolTip" xml:space="preserve">
     <value>De naam van de applicatie.</value>
@@ -470,5 +470,26 @@ Om van kracht te worden, moeten beide velden groter zijn dan 0.</value>
   </data>
   <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
     <value>Laat zien hoeveel tijd er is verstreken sinds de laatste verbinding.</value>
+  </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>Een link die opent wanneer de gebruiker op de Details text klikt.</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>Een link die opent wanneer de gebruiker op de Staat text klinkt.</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>Bepaalt welk veld wordt weergegeven in de statustekst van de gebruiker in de ledenlijst.</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>Een link die opent wanneer de gebruiker op de kleine afbeelding klikt.</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>Een link die opent wanneer de gebruiker op de grote afbeelding klikt.</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>Stop</value>
   </data>
 </root>

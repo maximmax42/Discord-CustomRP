@@ -87,7 +87,7 @@ So far, the app supports these languages:
 * [Croatian](https://poeditor.com/projects/po_edit?id_language=37&per_page=100&id=409229) (thanks to Monika and [whoscanel](https://canel.cloud))
 * [Czech](https://poeditor.com/projects/po_edit?id_language=38&per_page=100&id=409229) (thanks to [JayJake](https://jayjake.eu/), SunightMC, Tobias, Daniel Dan, After Klain, Wrexik, MakoPog, Jan and Sebastian)
 * [Danish](https://poeditor.com/projects/po_edit?id_language=39&per_page=100&id=409229) (thanks to [Codiaz](https://codiaz.com/), Sebastian Hviid, Tobias, wimblim, David and Johansenbastian6)
-* [Dutch](https://poeditor.com/projects/po_edit?id_language=41&per_page=100&id=409229) (thanks to [Jeremyzijlemans](https://sionteam.com/), Screitsma64, Vince C., [sys-256](https://sys-256.me/), [Not_H3](https://github.com/damger9) and DutchSlav)
+* [Dutch](https://poeditor.com/projects/po_edit?id_language=41&per_page=100&id=409229) (thanks to [Jeremyzijlemans](https://sionteam.com/), Screitsma64, [ZethalMC](https://github.com/ZethalMC), [sys-256](https://sys-256.me/), Vince C., [Not_H3](https://github.com/damger9) and DutchSlav)
 * [English](https://poeditor.com/projects/po_edit?id_language=43&per_page=100&id=409229)
 * [Estonian](https://poeditor.com/projects/po_edit?id_language=45&per_page=100&id=409229) (thanks to [z1](https://github.com/Erkkii) and Meelis)
 * [Filipino](https://poeditor.com/projects/po_edit?id_language=219&per_page=100&id=409229) (thanks to [_missingo](https://www.youtube.com/channel/UCxNVq2Esevsdp2v1jGQNu5A), [CtrlAltDelicious](https://www.youtube.com/c/CtrlAltDelicious_), syp, jericko and Hachiki)
