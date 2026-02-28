@@ -464,4 +464,34 @@
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>نوع فعالیت در حال انجام.</value>
   </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>نام اپلیکیشن</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>از آخرین اتصال</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>نشان می‌دهد که از آخرین باری که وصل شده‌اید چقدر گذشته است</value>
+  </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>لینکی که وقتی کاربر روی متن جزئیات کلیک می‌کند باز می‌شود</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>لینکی که با کلیک کاربر روی State text باز می‌شود</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>کنترل می‌کند که کدام فیلد در متن وضعیت کاربر در لیست اعضا نمایش داده شود</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>لینکی که وقتی کاربر روی تصویر کوچک کلیک می‌کند، باز می‌شود</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>لینکی که وقتی کاربر روی تصویر بزرگ کلیک می‌کند باز می‌شود</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>شروع</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>پایان</value>
+  </data>
 </root>
