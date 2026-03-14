@@ -717,7 +717,8 @@ namespace CustomRPC
                     EnglishName = "Portuguese",
                     Code = "pt",
                     Translators = new Person[] {
-                        new Person { Name = "Verygafanhot" },
+                        new Person { Name = "Verygafanhot" }, // +12
+                        NicolaOcchipinti,
                         new Person { Name = "Alexandre Calvario" },
                         NoahPombas,
                     }
@@ -732,9 +733,9 @@ namespace CustomRPC
                         new Person { Name = "Ninja Music", Url = "https://linktr.ee/GSNinjaMusic" },
                         new Person { Name = "Slimakoi" },
                         new Person { Name = "Felipe B. Pansani" },
+                        NicolaOcchipinti,
                         new Person { Name = "DeusDrizzyy" },
                         new Person { Name = "Leo" },
-                        NicolaOcchipinti,
                         new Person { Name = "João" },
                     }
                 },
@@ -950,7 +951,7 @@ namespace CustomRPC
             LanguageProgress["pa"] = "91.53";
             LanguageProgress["fa"] = "100";
             LanguageProgress["pl"] = "100";
-            LanguageProgress["pt"] = "91.53";
+            LanguageProgress["pt"] = "100";
             LanguageProgress["pt-br"] = "100";
             LanguageProgress["ro"] = "91.53";
             LanguageProgress["ru"] = "100";
