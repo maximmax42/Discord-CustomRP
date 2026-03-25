@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="trayIcon.BalloonTipText" xml:space="preserve">
-    <value>คลิกสองครั้งที่ Icon เพื่อให้แสดงอีกครั้ง, หรือคลิกขวา เพื่อที่จะออก</value>
+    <value>คลิกสองครั้งที่ Icon เพื่อให้แสดงอีกครั้ง, หรือคลิกขวา เพื่อออก</value>
   </data>
   <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
-    <value>แอพพลิเคชั่นจะทำงานอยู่ใน Tray</value>
+    <value>แอพพลิเคชั่นจะทำงานอยู่ในพื้นหลัง</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -188,7 +188,7 @@
     <value>194, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>ให้เริ่มทำงานเมื่อเปิดเครื่อง</value>
+    <value>เริ่มทำงานเมื่อเปิดเครื่อง</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>194, 22</value>
@@ -203,7 +203,7 @@
     <value>194, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>ตรวจสอบสำหรับการอัพเดต</value>
+    <value>ตรวจสอบอัพเดต</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 6</value>
@@ -251,7 +251,7 @@
     <value>203, 22</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>ตรวจสอบสำหรับการอัพเดต...</value>
+    <value>ตรวจสอบอัพเดต...</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 22</value>
@@ -269,7 +269,7 @@
     <value>115, 20</value>
   </data>
   <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>ดาวน์โหลดการอัปเดต</value>
+    <value>ดาวน์โหลดอัปเดต</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
     <value>อัพเดท Presence</value>
@@ -427,10 +427,10 @@
     <value>ผู้สนับสนุน</value>
   </data>
   <data name="radioButtonPresence.Text" xml:space="preserve">
-    <value>ตั้งแต่การปรับปรุงกครั้งล่าสุด</value>
+    <value>ตั้งแต่การอัปเดตสถานะครั้งล่าสุด</value>
   </data>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
-    <value>แสดงระยะเวลาที่ผ่านไปนับตั้งแต่ที่คุณเชื่อมต่อหรืออัปเดตการสถานะครั้งล่าสุด</value>
+    <value>แสดงระยะเวลาที่ผ่านไปนับตั้งแต่ที่คุณเชื่อมต่อหรืออัปเดตสถานะครั้งล่าสุด</value>
   </data>
   <data name="faqToolStripMenuItem.Text" xml:space="preserve">
     <value>คำถามที่พบบ่อย</value>
@@ -440,5 +440,35 @@
   </data>
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>ประเภทของกิจกรรมเพื่อการปรากฏตัว</value>
+  </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>ชื่อของแอปพลิเคชัน</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>นับตั้งแต่การเชื่อมต่อครั้งล่าสุด</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>แสดงระยะเวลาที่ผ่านไปนับตั้งแต่คุณเชื่อมต่อครั้งล่าสุด</value>
+  </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>ลิงก์ที่จะเปิดขึ้นเมื่อผู้ใช้คลิกที่ Details text</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>ลิงก์ที่จะเปิดขึ้นเมื่อผู้ใช้คลิกที่ State text</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>ควบคุมว่าจะแสดงในฟิลด์ใดในข้อความสถานะของผู้ใช้ในรายการสมาชิก</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>ลิงก์ที่จะเปิดขึ้นเมื่อผู้ใช้คลิกที่ภาพขนาดเล็ก</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>ลิงก์ที่จะเปิดขึ้นเมื่อผู้ใช้คลิกที่ภาพขนาดใหญ่</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>เริ่ม</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>จบ</value>
   </data>
 </root>

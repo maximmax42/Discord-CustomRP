@@ -131,7 +131,7 @@
     <value>คุณต้องการดาวน์โหลดการอัปเดตนี้หรือไม่?</value>
   </data>
   <data name="checkBoxNeverNotify.Text" xml:space="preserve">
-    <value>อย่าตรวจสอบสำหรับการอัพเดตอีก</value>
+    <value>อย่าตรวจสอบอัพเดตอีก</value>
   </data>
   <data name="labelVersionsText.Text" xml:space="preserve">
     <value>เวอร์ชันปัจจุบัน:
@@ -141,6 +141,6 @@
     <value>ข้ามเวอร์ชันนี้</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>พบการอัพเดต</value>
+    <value>พบอัพเดต</value>
   </data>
 </root>

@@ -128,7 +128,7 @@
 กด "ใช่" เพื่อลองใหม่ หรือ "ไม่ใช่" เพื่อดาวน์โหลดด้วยตนเอง</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>ทำงานครั้งแรก</value>
+    <value>ช่วยเหลือ?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>คุณต้องการเปิดคู่มือการใช้งานหรือไม่?
@@ -153,16 +153,16 @@
     <value>พบข้อผิดพลาดในการเชื่อมต่อ (ID ผิด?)</value>
   </data>
   <data name="errorInvalidURL" xml:space="preserve">
-    <value>URL ที่ระบุไม่ถูกต้องสำหรับปุ่มหรือข้อความยาวเกินไป!</value>
+    <value>URL สำหรับปุ่มที่ระบุไม่ถูกต้อง หรือข้อความยาวเกินไป!</value>
   </data>
   <data name="errorNoInternet" xml:space="preserve">
     <value>ไม่สามารถเชื่อมต่อกับอินเทอร์เน็ตได้!</value>
   </data>
   <data name="noUpdatesFound" xml:space="preserve">
-    <value>ไม่พบการอัพเดต!</value>
+    <value>ไม่พบอัพเดต!</value>
   </data>
   <data name="errorCorruptSettings" xml:space="preserve">
-    <value>ไฟล์การตั้งค่าของโปรแกรมเสียหาย 
+    <value>ไฟล์ตั้งค่าของโปรแกรมเสียหาย 
 กด ใช่ เพื่อรีเซ็ตการตั้งค่า กด ไม่ใช่ เพื่อออก</value>
   </data>
   <data name="errorInvalidPresetFile" xml:space="preserve">

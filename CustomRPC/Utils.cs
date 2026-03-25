@@ -820,10 +820,11 @@ namespace CustomRPC
                     Code = "th",
                     Translators = new Person[] {
                         new Person { Name = "Squishee Freshy" },
-                        OHMKUB,
-                        new Person { Name = "YuuabyssSSID" },
+                        new Person { Name = "Platong34821" },
+                        OHMKUB, // +1
                         crohmthz,
                         new Person { Name = "Game" },
+                        new Person { Name = "YuuabyssSSID" },
                         new Person { Name = "SabbKor" },
                         new Person { Name = "toonnongaeoy" },
                     }
@@ -961,7 +962,7 @@ namespace CustomRPC
             LanguageProgress["es"] = "100";
             LanguageProgress["sv"] = "83.05";
             LanguageProgress["ta"] = "80.51";
-            LanguageProgress["th"] = "91.53";
+            LanguageProgress["th"] = "100";
             LanguageProgress["tr"] = "94.07";
             LanguageProgress["uk"] = "94.07";
             LanguageProgress["ur"] = "84.75";

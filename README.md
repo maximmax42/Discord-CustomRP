@@ -131,7 +131,7 @@ So far, the app supports these languages:
 * [Spanish](https://poeditor.com/projects/po_edit?id_language=152&per_page=100&id=409229) (thanks to Korsinemi, Vexot, samykat1, Santiago, Pablo, Luciousmc, SirAmong, Nicola Occhipinti, [Darling-Chan](https://meap.gg/), UncleGeek, Alvaro203204, [JugandoMiguel](https://fiverr.com/jugandomiguel) and Epic)
 * [Swedish](https://poeditor.com/projects/po_edit?id_language=156&per_page=100&id=409229) (thanks to [leadattic_](https://leadattic.leadattic953788.repl.co/), Rose Liljensten, James and Marcus)
 * [Tamil](https://poeditor.com/projects/po_edit?id_language=160&per_page=100&id=409229) (thanks to [Julian](https://julian-idl.codes/))
-* [Thai](https://poeditor.com/projects/po_edit?id_language=163&per_page=100&id=409229) (thanks to Squishee Freshy, OHMKUB, YuuabyssSSID, cr.ohmthz, Game, SabbKor and toonnongaeoy)
+* [Thai](https://poeditor.com/projects/po_edit?id_language=163&per_page=100&id=409229) (thanks to Squishee Freshy, Platong34821, OHMKUB, cr.ohmthz, Game, YuuabyssSSID, SabbKor and toonnongaeoy)
 * [Turkish](https://poeditor.com/projects/po_edit?id_language=169&per_page=100&id=409229) (thanks to [josephisticated](https://github.com/josephisticated), Ozan Akyüz, vLaDeR and Murat_Efendi)
 * [Ukrainian](https://poeditor.com/projects/po_edit?id_language=173&per_page=100&id=409229) (thanks to MechaniX, Dmitromintenko, Desinger, Illia, jostua, stefanbanderovych, l0ngg and Black Cat)
 * [Urdu](https://poeditor.com/projects/po_edit?id_language=174&per_page=100&id=409229) (thanks to [xq34](https://github.com/S3ntryPositive), Muhammad Ali Ashraf and ATTiQ OP)
