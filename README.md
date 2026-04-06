@@ -40,6 +40,7 @@ Custom Discord Rich Presence Manager for Windows 7+. Some of its features are ru
 * Anonymous - $2.62 (0.00011304 BTC)
 * [ᏒᎥፈᏂᏦᏋᏋᎴ](https://github.com/RICH-KEED) - $2.10 (30.00 TRX)
 * Death - $1.93 (142.00 RUB)
+* Ribtex - $1.88 (150.00 RUB)
 * Jan - $1.49 (100.00 RUB)
 * [Mykm](https://github.com/yumiruuwu) - $1.30 (100.00 RUB)
 * [WoomyAisaka](https://woomyaisaka.com) - $1.00 (87.00 RUB)

@@ -1141,6 +1141,11 @@ namespace CustomRPC
                     USDAmount = "4.93",
                     AltAmount = "0.00007299 BTC"
                 },
+                new Supporter {
+                    Name = "Ribtex",
+                    USDAmount = "1.88",
+                    AltAmount = "150 RUB"
+                },
             };
 
             NonMonetarySupporters = new List<NonMonetarySupporter>
