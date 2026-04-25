@@ -128,7 +128,7 @@
 Притисните „Да“ да покушате поново или „Не“ да преузмете ручно.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Први пут трчање</value>
+    <value>Први пут трчање?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Да ли желите да отворите приручник?
@@ -183,5 +183,31 @@
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Грешком док додавања или уклањање пречице за покретање:</value>
+  </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Отварање адресе није успело. Линк је копиран у приручну меморију.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Ажурирање статуса...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Да ли сте сигурни да желите да кренете испочетка?
+Ова радња се не може поништити.</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Да ли желите да обришете подешавања апликације?
+Ова радња се не може поништити.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Игра</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Слуша</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Гледа</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Такмичи се</value>
   </data>
 </root>

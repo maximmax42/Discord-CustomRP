@@ -199,8 +199,9 @@ namespace CustomRPC
         static Person dragonGRaf = new Person { Name = "dragon GRaf", Url = "https://github.com/dragongrafdiscord/mycustomrichpresence" };
         static Person falcon = new Person { Name = "falcon" };
         static Person Julian = new Person { Name = "Julian", Url = "https://julian-idl.codes/" };
-        static Person Korsinemi = new Person { Name = "Korsinemi" };
+        static Person Korsinemi = new Person { Name = "Korsinemi" }; // Zaikonurami
         static Person l0ngg = new Person { Name = "l0ngg" };
+        static Person lukapiplica = new Person { Name = "lukapiplica" };
         static Person MarcelGustin = new Person { Name = "Marcel Gustin", Url = "https://marcelgustin.de" };
         static Person Matthww = new Person { Name = "Matthww" };
         static Person Meelis = new Person { Name = "Meelis" };
@@ -275,8 +276,9 @@ namespace CustomRPC
                     EnglishName = "Bosnian",
                     Code = "bs",
                     Translators = new Person[] {
-                        new Person { Name = "Trax" }, // Emin
+                        new Person { Name = "Trax" }, // Emin +1
                         Korsinemi,
+                        lukapiplica,
                         new Person { Name = "Ammar" },
                     }
                 },
@@ -482,8 +484,9 @@ namespace CustomRPC
                     EnglishName = "Croatian",
                     Code = "hr",
                     Translators = new Person[] {
-                        new Person { Name = "Monika" },
-                        whoscanel,
+                        new Person { Name = "Monika" }, // +4
+                        whoscanel, // +5
+                        lukapiplica,
                     }
                 },
                 new Language {
@@ -789,8 +792,9 @@ namespace CustomRPC
                     EnglishName = "Serbian",
                     Code = "sr",
                     Translators = new Person[] {
-                        new Person { Name = "Vihaan" },
+                        new Person { Name = "Vihaan" }, // +7
                         new Person { Name = "ToShibaToShamara" },
+                        lukapiplica,
                         falcon,
                         new Person { Name = "Veljko" },
                     }
@@ -911,13 +915,13 @@ namespace CustomRPC
             LanguageProgress["az"] = "91.53";
             LanguageProgress["be"] = "91.53";
             LanguageProgress["bn"] = "91.53";
-            LanguageProgress["bs"] = "91.53";
+            LanguageProgress["bs"] = "100";
             LanguageProgress["bg"] = "94.07";
             LanguageProgress["my"] = "91.53";
             LanguageProgress["ca"] = "91.53";
             LanguageProgress["zh-hans"] = "94.07";
             LanguageProgress["zh-hant"] = "94.07";
-            LanguageProgress["hr"] = "82.2";
+            LanguageProgress["hr"] = "100";
             LanguageProgress["cs"] = "94.07";
             LanguageProgress["da"] = "83.05";
             LanguageProgress["nl"] = "100";
@@ -956,7 +960,7 @@ namespace CustomRPC
             LanguageProgress["pt-br"] = "100";
             LanguageProgress["ro"] = "91.53";
             LanguageProgress["ru"] = "100";
-            LanguageProgress["sr"] = "82.2";
+            LanguageProgress["sr"] = "100";
             LanguageProgress["sk"] = "100";
             LanguageProgress["sl"] = "86.44";
             LanguageProgress["es"] = "100";

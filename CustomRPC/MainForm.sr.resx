@@ -453,4 +453,43 @@
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
     <value>Dark Mode</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Често постављана питања</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Нови шаблон</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Врста активности за приказ статуса.</value>
+  </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>Назив апликације.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>Од последњег повезивања</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Приказује колико је времена прошло од последњег повезивања.</value>
+  </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>Линк који ће се отворити када корисник кликне на текст „Детаљи”.</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>Линк који ће се отворити када корисник кликне на текст „Стање”.</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>Контролише које поље се приказује у статусу корисника на листи чланова.</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>Линк који ће се отворити када корисник кликне на малу слику.</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>Линк који ће се отворити када корисник кликне на велику слику.</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>Почетак</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>Крај</value>
+  </data>
 </root>

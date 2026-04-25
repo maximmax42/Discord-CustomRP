@@ -128,7 +128,7 @@
 Pritisnite "Da" da pokušate ponovo ili "Ne" da preuzmete ažuriranje sami.</value>
   </data>
   <data name="firstTimeRun" xml:space="preserve">
-    <value>Prvo pokretanje</value>
+    <value>Prvo pokretanje?</value>
   </data>
   <data name="firstTimeRunText" xml:space="preserve">
     <value>Želite li otvoriti upute?
@@ -183,5 +183,31 @@ Pritisnite Da da biste ponovno postavili postavke, pritisnite Ne da biste odusta
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Dodavanje ili uklanjanje prečaca za pokretanje nije uspjelo:</value>
+  </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Otvaranje URL-a nije uspjelo. Kopiran je u međuspremnik.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Ažuriranje prisutnosti...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Jeste li sigurni da želite krenuti ispočetka?
+Ova se radnja ne može poništiti.</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Želite li obrisati postavke aplikacije?
+Ova se radnja ne može poništiti.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Igra</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Sluša</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Gleda</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Natječe se</value>
   </data>
 </root>

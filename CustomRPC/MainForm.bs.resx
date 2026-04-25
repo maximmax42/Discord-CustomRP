@@ -459,4 +459,34 @@ Da bi se išta desilo, oba polja bi trebala biti veća od 0.</value>
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>Vrsta aktivnosti za prisutnost.</value>
   </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>Ime aplikacije.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>Od posljednjeg povezivanja</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Prikazuje koliko je vremena prošlo od vašeg posljednjeg povezivanja.</value>
+  </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>Link koji će se otvoriti kada korisnik klikne na tekst Detalji.</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>Link koji će se otvoriti kada korisnik klikne na tekst Status.</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>Kontroliše koje polje se prikazuje u statusu korisnika na listi članova.</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>Link koji će se otvoriti kada korisnik klikne na malu sliku.</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>Link koji će se otvoriti kada korisnik klikne na veliku sliku.</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>Pokreni</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>Završi</value>
+  </data>
 </root>

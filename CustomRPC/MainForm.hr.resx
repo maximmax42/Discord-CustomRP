@@ -308,4 +308,43 @@ Da radi, oba polja moraju imati više od 0.</value>
   <data name="radioButtonPresence.ToolTip" xml:space="preserve">
     <value>Pokazuje koliko je vremena prošlo od zadnjeg povezivanja ili ažuriranja prisutnosti.</value>
   </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Često postavljana pitanja</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Novi predložak</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Vrsta aktivnosti za prisutnost.</value>
+  </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>Naziv aplikacije.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>Od posljednjeg povezivanja</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Prikazuje koliko je vremena prošlo od vašeg posljednjeg povezivanja.</value>
+  </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>Poveznica koja će se otvoriti kada korisnik klikne na tekst Detalji.</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>Poveznica koja će se otvoriti kada korisnik klikne na tekst Stanje.</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>Određuje koje se polje prikazuje u statusu korisnika na popisu članova.</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>Poveznica koja će se otvoriti kada korisnik klikne na malu sliku.</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>Poveznica koja će se otvoriti kada korisnik klikne na veliku sliku.</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>Početak</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>Kraj</value>
+  </data>
 </root>
