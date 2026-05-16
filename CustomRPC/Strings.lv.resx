@@ -184,4 +184,30 @@ Nospiediet Jā, lai atjaunotu iestatījumus, nospiediet Nē, lai beigtu.</value>
   <data name="errorStartupShortcut" xml:space="preserve">
     <value>Neizdevās pievienot vai noņemt starta saīsni:</value>
   </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>Neizdevās atvērt URL. Tas ir iekopēts starpliktuvē.</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>Atjaunina statusu...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>Vai tiešām vēlaties sākt no jauna?
+To nevar atcelt.</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>Vai vēlaties dzēst lietotnes iestatījumus?
+To nevar atcelt.</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>Spēlē</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>Klausās</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>Skatās</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>Sāncenšas</value>
+  </data>
 </root>

@@ -620,8 +620,9 @@ namespace CustomRPC
                     EnglishName = "Latvian",
                     Code = "lv",
                     Translators = new Person[] {
-                        new Person { Name = "Buckneraaron07" },
-                        new Person { Name = "Jaroslavs" },
+                        new Person { Name = "NotJohnnyTamale" }, // +1
+                        new Person { Name = "Jaroslavs" }, // +5
+                        new Person { Name = "evyatar" },
                     }
                 },
                 new Language {
@@ -946,7 +947,7 @@ namespace CustomRPC
             LanguageProgress["ko"] = "100";
             LanguageProgress["ku"] = "82.2";
             LanguageProgress["lo"] = "91.53";
-            LanguageProgress["lv"] = "82.2";
+            LanguageProgress["lv"] = "100";
             LanguageProgress["lt"] = "94.07";
             LanguageProgress["mk"] = "82.2";
             LanguageProgress["ms"] = "91.53";

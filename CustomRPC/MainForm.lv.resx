@@ -435,4 +435,46 @@ Lai tas stātos spēkā, abiem laukiem jābūt lielākiem par 0.</value>
   <data name="labelPartyOf.Text" xml:space="preserve">
     <value>no</value>
   </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Autoconnect</value>
+  </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Biežāk uzdotie jautājumi</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Jauna sagatave</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Statusa darbības veids</value>
+  </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>Lietotnes nosaukums</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>Kopš pēdējā savienojuma</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Rāda, cik daudz laika pagājis kopš pēdējā savienojuma izveides.</value>
+  </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>Saite, kas tiks atvērta, lietotājam noklikšķinot uz Details teksta.</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>Saite, kas tiks atvērta, lietotājam noklikšķinot uz State teksta.</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>Kontrolē, kurš lauks tiek rādīts lietotāja statusa tekstā dalībnieku sarakstā.</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>Saite, kas tiks atvērta, lietotājam noklikšķinot uz mazā attēla.</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>Saite, kas tiks atvērta, lietotājam noklikšķinot uz lielā attēla.</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>Sākums</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>Beigas</value>
+  </data>
 </root>
