@@ -134,7 +134,7 @@
     <value>178, 22</value>
   </data>
   <data name="trayMenuReconnect.Text" xml:space="preserve">
-    <value>Opnieuw verbinden</value>
+    <value>Opnieuw Verbinden</value>
   </data>
   <data name="trayMenuDisconnect.Size" type="System.Drawing.Size, System.Drawing">
     <value>178, 22</value>
@@ -161,7 +161,7 @@
     <value>230, 22</value>
   </data>
   <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Instelling opslaan</value>
+    <value>Instelling Opslaan</value>
   </data>
   <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>227, 6</value>
@@ -170,7 +170,7 @@
     <value>230, 22</value>
   </data>
   <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Bestanden uploaden</value>
+    <value>Bestanden Uploaden</value>
   </data>
   <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
     <value>227, 6</value>
@@ -191,19 +191,19 @@
     <value>200, 22</value>
   </data>
   <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Uitvoeren bij het starten</value>
+    <value>Uitvoeren bij het Starten</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 22</value>
   </data>
   <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Begin klein</value>
+    <value>Begin Klein</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 22</value>
   </data>
   <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>Automatisch verbinden</value>
+    <value>Automatisch Verbinden</value>
   </data>
   <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 6</value>
@@ -212,13 +212,13 @@
     <value>200, 22</value>
   </data>
   <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Check voor updates</value>
+    <value>Check voor Updates</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 22</value>
   </data>
   <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sta analyse toe</value>
+    <value>Sta Analyse Toe</value>
   </data>
   <data name="toolStripSeparatorSettings2.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 6</value>
@@ -227,7 +227,7 @@
     <value>200, 22</value>
   </data>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Donkere modus</value>
+    <value>Donkere Modus</value>
   </data>
   <data name="toolStripSeparatorSettings3.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 6</value>
@@ -260,13 +260,13 @@
     <value>211, 22</value>
   </data>
   <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
-    <value>Open de handleiding</value>
+    <value>Open de Handleiding</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 22</value>
   </data>
   <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>GitHub-pagina</value>
+    <value>GitHub-Pagina</value>
   </data>
   <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
     <value>208, 6</value>
@@ -305,7 +305,7 @@
     <value>147, 24</value>
   </data>
   <data name="buttonUpdatePresence.Text" xml:space="preserve">
-    <value>Status bijwerken</value>
+    <value>Status Bijwerken</value>
   </data>
   <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
     <value>Status bijwerken.</value>
@@ -341,7 +341,7 @@
     <value>99, 14</value>
   </data>
   <data name="labelSmall.Text" xml:space="preserve">
-    <value>Kleine afbeelding</value>
+    <value>Kleine Afbeelding</value>
   </data>
   <data name="labelSmall.ToolTip" xml:space="preserve">
     <value>Afbeelding die wordt weergegeven in de rechterbenedenhoek van de grote afbeelding.</value>
@@ -350,7 +350,7 @@
     <value>105, 14</value>
   </data>
   <data name="labelLarge.Text" xml:space="preserve">
-    <value>Groote afbeelding</value>
+    <value>Grote Afbeelding</value>
   </data>
   <data name="labelLarge.ToolTip" xml:space="preserve">
     <value>Afbeelding die links naar de bovenstaande tekst laat zien.</value>

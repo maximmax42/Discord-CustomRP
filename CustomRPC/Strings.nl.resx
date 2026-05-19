@@ -147,7 +147,7 @@ Je kunt het op elk moment openen door naar Help -&gt; Open de handleiding te gaa
     <value>Verbinding mislukt (Is Discord actief?)</value>
   </data>
   <data name="statusDisconnected" xml:space="preserve">
-    <value>Verbinding verbroken</value>
+    <value>Verbinding Verbroken</value>
   </data>
   <data name="statusError" xml:space="preserve">
     <value>Verbindingsfout (verkeerde ID?)</value>
@@ -182,10 +182,10 @@ Druk op Ja om de instellingen te resetten, druk op Nee om te stoppen.</value>
     <value>De afbeeldingslink is te lang!</value>
   </data>
   <data name="errorStartupShortcut" xml:space="preserve">
-    <value>Kon niet een start-koppeling maken of verwijderen:</value>
+    <value>Kon geen start-koppeling maken of verwijderen:</value>
   </data>
   <data name="errorOpeningURL" xml:space="preserve">
-    <value>Het is niet gelukt om de URL te openen. De URL is gekopieerd.</value>
+    <value>Het is niet gelukt om de URL te openen. De URL is gekopieerd naar je klembord.</value>
   </data>
   <data name="statusUpdatingPresence" xml:space="preserve">
     <value>Status aan het bijwerken...</value>
@@ -195,7 +195,8 @@ Druk op Ja om de instellingen te resetten, druk op Nee om te stoppen.</value>
 Dit kan niet ongedaan gemaakt worden.</value>
   </data>
   <data name="deleteSettings" xml:space="preserve">
-    <value>Wil je de app instellingen verwijderen? Dit kun je niet ongedaan maken.</value>
+    <value>Wil je de app-instellingen verwijderen? 
+Dit kun je niet ongedaan maken.</value>
   </data>
   <data name="presenceTypePlaying" xml:space="preserve">
     <value>Spelen</value>

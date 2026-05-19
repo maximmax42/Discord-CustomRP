@@ -144,9 +144,9 @@ Laatste versie:</value>
     <value>125, 23</value>
   </data>
   <data name="buttonSkipUpdate.Text" xml:space="preserve">
-    <value>Sla deze versie over</value>
+    <value>Sla Deze Versie Over</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Update beschikbaar</value>
+    <value>Update Beschikbaar</value>
   </data>
 </root>

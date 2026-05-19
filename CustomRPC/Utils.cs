@@ -427,10 +427,10 @@ namespace CustomRPC
                     EnglishName = "Filipino",
                     Code = "fil",
                     Translators = new Person[] {
-                        new Person { Name = "_missingo", Url = "https://www.youtube.com/channel/UCxNVq2Esevsdp2v1jGQNu5A" }, // 阿什利 基拉
-                        new Person { Name = "CtrlAltDelicious", Url = "https://www.youtube.com/c/CtrlAltDelicious_" },
+                        new Person { Name = "_missingo", Url = "https://www.youtube.com/channel/UCxNVq2Esevsdp2v1jGQNu5A" }, // 阿什利 基拉 (A.K)
+                        new Person { Name = "CtrlAltDelicious", Url = "https://www.youtube.com/c/CtrlAltDelicious_" }, // +2
                         new Person { Name = "syp" },
-                        new Person { Name = "jericko" },
+                        new Person { Name = "jericko" }, // +1
                         new Person { Name = "Hachiki" },
                     }
                 },
@@ -674,13 +674,13 @@ namespace CustomRPC
                     EnglishName = "Dutch",
                     Code = "nl",
                     Translators = new Person[] {
-                        new Person { Name = "Jeremyzijlemans", Url = "https://sionteam.com/" }, // +7
-                        new Person { Name = "Screitsma64" },
+                        new Person { Name = "Jeremyzijlemans", Url = "https://sionteam.com/" }, // +6
                         new Person { Name = "ZethalMC", Url = "https://github.com/ZethalMC" },
+                        new Person { Name = "Screitsma64" },
                         new Person { Name = "sys-256", Url = "https://sys-256.me/" }, // account removed
-                        new Person { Name = "Vince C." },
                         new Person { Name = "Not_H3", Url = "https://github.com/damger9" },
-                        new Person { Name = "DutchSlav" },
+                        new Person { Name = "Vince C." },
+                        new Person { Name = "DutchSlav" }, // 0 translations
                     }
                 },
                 new Language {
@@ -927,7 +927,7 @@ namespace CustomRPC
             LanguageProgress["da"] = "83.05";
             LanguageProgress["nl"] = "100";
             LanguageProgress["et"] = "91.53";
-            LanguageProgress["fil"] = "91.53";
+            LanguageProgress["fil"] = "100";
             LanguageProgress["fi"] = "91.53";
             LanguageProgress["fr"] = "94.07";
             LanguageProgress["gl"] = "82.2";

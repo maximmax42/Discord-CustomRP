@@ -406,10 +406,10 @@ Upang bumisa, ang parehong field ay dapat na higit sa 0.</value>
     <value>URL na pupuntahan ng user pag-pinindut ang pindutan.</value>
   </data>
   <data name="labelButton1Text.ToolTip" xml:space="preserve">
-    <value>Label ng unang buton.</value>
+    <value>Label ng unang pindutan.</value>
   </data>
   <data name="labelButton2Text.ToolTip" xml:space="preserve">
-    <value>Label ng pangalawang buton.</value>
+    <value>Label ng pangalawang pindutan.</value>
   </data>
   <data name="radioButtonPresence.Size" type="System.Drawing.Size, System.Drawing">
     <value>194, 18</value>
@@ -443,5 +443,35 @@ Upang bumisa, ang parehong field ay dapat na higit sa 0.</value>
   </data>
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>Uri ng aktibidad para sa presensya.</value>
+  </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>Pangalan ng aplikasyon.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>Mula noong huling koneksyon</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Ipinapakita kung gaano karaming oras ang lumpias nung huli mong koneksyon.</value>
+  </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>Isang link na bubukas kapag kinlik ng user ang Details text.</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>Isang link na bubukas kapag kinlik ng user ang State text.</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>Kinokontrol kung aling field ang ipapakita sa status text ng user sa member list.</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>Isang link na bubukas kapag kinlik ng user ang maliit na larawan.</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>Isang link na bubukas kapag kinlik ng user ang malaki na larawan.</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>Umpisa</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>Wakas</value>
   </data>
 </root>
