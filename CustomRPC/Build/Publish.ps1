@@ -8,7 +8,7 @@ if ($verRaw.FilePrivatePart -ne 0) { $env:CUSTOMRP_VER += ".$($verRaw.FilePrivat
 xcopy ..\bin\Release CustomRP /e /i /s /y /exclude:exclude.txt
 xcopy License.txt CustomRP
 xcopy "Privacy Policy.txt" CustomRP
-iwr -Uri "https://jrsoftware.org/download.php/is.exe?site=1" -OutFile "./is.exe"
+iwr -Uri "https://github.com/jrsoftware/issrc/releases/download/is-6_7_3/innosetup-6.7.3.exe" -OutFile "./is.exe"
 Start-Process -FilePath ".\is.exe" -ArgumentList "/verysilent", "/suppressmsgboxes" -Wait
 git clone https://github.com/jrsoftware/issrc
 C:\Program` Files` `(x86`)\Inno` Setup` 6\ISCC.exe /DMyAppVersion=$env:CUSTOMRP_VER Installer.iss
