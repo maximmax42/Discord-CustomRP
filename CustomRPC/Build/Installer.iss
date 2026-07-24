@@ -47,9 +47,10 @@ AppCopyright=Copyright (C) 2018-{#CurrentYear} maximmax42
 LicenseFile=License combined.txt
 ChangesAssociations=yes
 
-; No Azerbaijani (az), Welsh (cy), German CH (de-ch), Filipino (fil), Kannada (kn), Malayalam (ml), Malay (ms), Burmese (my), Panjabi (pa), Tamil (ta)
+; No Welsh (cy), German CH (de-ch), Filipino (fil), Kannada (kn), Malayalam (ml), Malay (ms), Burmese (my), Panjabi (pa)
 [Languages]
 Name: "ar";     MessagesFile: "issrc\Files\Languages\Arabic.isl"
+Name: "az";     MessagesFile: "issrc\Files\Languages\Unofficial\Azerbaijan.isl"
 Name: "be";     MessagesFile: "issrc\Files\Languages\Unofficial\Belarusian.isl"
 Name: "bg";     MessagesFile: "issrc\Files\Languages\Bulgarian.isl"
 Name: "bn";     MessagesFile: "issrc\Files\Languages\Unofficial\Bengali.islu"
@@ -94,13 +95,14 @@ Name: "sk";     MessagesFile: "issrc\Files\Languages\Slovak.isl"
 Name: "sl";     MessagesFile: "issrc\Files\Languages\Slovenian.isl"
 Name: "sr";     MessagesFile: "issrc\Files\Languages\Unofficial\SerbianCyrillic.isl"
 Name: "sv";     MessagesFile: "issrc\Files\Languages\Swedish.isl"
+Name: "ta";     MessagesFile: "issrc\Files\Languages\Tamil.isl"
 Name: "th";     MessagesFile: "issrc\Files\Languages\Thai.isl"
 Name: "tr";     MessagesFile: "issrc\Files\Languages\Turkish.isl"
 Name: "uk";     MessagesFile: "issrc\Files\Languages\Ukrainian.isl"
 Name: "ur";     MessagesFile: "issrc\Files\Languages\Unofficial\Urdu.isl"
 Name: "vi";     MessagesFile: "issrc\Files\Languages\Unofficial\Vietnamese.isl"
-Name: "zhHans"; MessagesFile: "issrc\Files\Languages\Unofficial\ChineseSimplified.isl"
-Name: "zhHant"; MessagesFile: "issrc\Files\Languages\Unofficial\ChineseTraditional.isl"
+Name: "zhHans"; MessagesFile: "issrc\Files\Languages\ChineseSimplified.isl"
+Name: "zhHant"; MessagesFile: "issrc\Files\Languages\ChineseTraditional.isl"
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}";
