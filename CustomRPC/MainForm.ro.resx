@@ -483,4 +483,25 @@ Pentru a avea efect, ambele câmpuri trebuie să aibă o valoare mai mare decât
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>Tipul de activitate al prezenței.</value>
   </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>Numele aplicației.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>De la ultima conectare</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Arată cât de mult time a trecut de când te-ai conectat ultima dată.</value>
+  </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>Un link care se va deschide când un utilizator apasă pe textul detalii.</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>Un link care se va dechide când un utilizator apasă pe textul Stare.</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>Sfârșit</value>
+  </data>
 </root>
