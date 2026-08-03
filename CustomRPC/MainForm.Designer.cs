@@ -549,6 +549,7 @@
             // 
             // toolTipInfo
             // 
+            this.toolTipInfo.IsBalloon = true;
             this.toolTipInfo.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.toolTipInfo.ToolTipTitle = "Information";
             // 
