@@ -147,6 +147,7 @@
             this.textBoxState = new System.Windows.Forms.TextBox();
             this.textBoxDetails = new System.Windows.Forms.TextBox();
             this.textBoxID = new System.Windows.Forms.TextBox();
+            this.toolTipFieldContent = new System.Windows.Forms.ToolTip(this.components);
             this.trayMenuStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panelTimestamps.SuspendLayout();
@@ -929,6 +930,7 @@
             resources.ApplyResources(this.textBoxSmallURL, "textBoxSmallURL");
             this.textBoxSmallURL.Name = "textBoxSmallURL";
             this.textBoxSmallURL.Text = global::CustomRPC.Properties.Settings.Default.smallURL;
+            this.textBoxSmallURL.MouseHover += new System.EventHandler(this.ShowFieldToolTip);
             // 
             // textBoxLargeURL
             // 
@@ -938,6 +940,7 @@
             resources.ApplyResources(this.textBoxLargeURL, "textBoxLargeURL");
             this.textBoxLargeURL.Name = "textBoxLargeURL";
             this.textBoxLargeURL.Text = global::CustomRPC.Properties.Settings.Default.largeURL;
+            this.textBoxLargeURL.MouseHover += new System.EventHandler(this.ShowFieldToolTip);
             // 
             // textBoxStateURL
             // 
@@ -949,6 +952,7 @@
             this.textBoxStateURL.Text = global::CustomRPC.Properties.Settings.Default.stateURL;
             this.textBoxStateURL.TextChanged += new System.EventHandler(this.LengthValidation);
             this.textBoxStateURL.Leave += new System.EventHandler(this.TrimTextBoxes);
+            this.textBoxStateURL.MouseHover += new System.EventHandler(this.ShowFieldToolTip);
             this.textBoxStateURL.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxDetailsURL
@@ -961,6 +965,7 @@
             this.textBoxDetailsURL.Text = global::CustomRPC.Properties.Settings.Default.detailsURL;
             this.textBoxDetailsURL.TextChanged += new System.EventHandler(this.LengthValidation);
             this.textBoxDetailsURL.Leave += new System.EventHandler(this.TrimTextBoxes);
+            this.textBoxDetailsURL.MouseHover += new System.EventHandler(this.ShowFieldToolTip);
             this.textBoxDetailsURL.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxName
@@ -973,6 +978,7 @@
             this.textBoxName.Text = global::CustomRPC.Properties.Settings.Default.name;
             this.textBoxName.TextChanged += new System.EventHandler(this.LengthValidation);
             this.textBoxName.Leave += new System.EventHandler(this.TrimTextBoxes);
+            this.textBoxName.MouseHover += new System.EventHandler(this.ShowFieldToolTip);
             this.textBoxName.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxButton2Text
@@ -985,6 +991,7 @@
             this.textBoxButton2Text.Text = global::CustomRPC.Properties.Settings.Default.button2Text;
             this.textBoxButton2Text.TextChanged += new System.EventHandler(this.LengthValidation);
             this.textBoxButton2Text.Leave += new System.EventHandler(this.TrimTextBoxes);
+            this.textBoxButton2Text.MouseHover += new System.EventHandler(this.ShowFieldToolTip);
             this.textBoxButton2Text.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxButton2URL
@@ -997,6 +1004,7 @@
             this.textBoxButton2URL.Text = global::CustomRPC.Properties.Settings.Default.button2URL;
             this.textBoxButton2URL.TextChanged += new System.EventHandler(this.LengthValidation);
             this.textBoxButton2URL.Leave += new System.EventHandler(this.TrimTextBoxes);
+            this.textBoxButton2URL.MouseHover += new System.EventHandler(this.ShowFieldToolTip);
             this.textBoxButton2URL.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxButton1URL
@@ -1009,6 +1017,7 @@
             this.textBoxButton1URL.Text = global::CustomRPC.Properties.Settings.Default.button1URL;
             this.textBoxButton1URL.TextChanged += new System.EventHandler(this.LengthValidation);
             this.textBoxButton1URL.Leave += new System.EventHandler(this.TrimTextBoxes);
+            this.textBoxButton1URL.MouseHover += new System.EventHandler(this.ShowFieldToolTip);
             this.textBoxButton1URL.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxButton1Text
@@ -1021,6 +1030,7 @@
             this.textBoxButton1Text.Text = global::CustomRPC.Properties.Settings.Default.button1Text;
             this.textBoxButton1Text.TextChanged += new System.EventHandler(this.LengthValidation);
             this.textBoxButton1Text.Leave += new System.EventHandler(this.TrimTextBoxes);
+            this.textBoxButton1Text.MouseHover += new System.EventHandler(this.ShowFieldToolTip);
             this.textBoxButton1Text.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // comboBoxSmallKey
@@ -1035,6 +1045,7 @@
             this.comboBoxSmallKey.DropDown += new System.EventHandler(this.FetchAssets);
             this.comboBoxSmallKey.TextChanged += new System.EventHandler(this.LengthValidation);
             this.comboBoxSmallKey.Leave += new System.EventHandler(this.TrimTextBoxes);
+            this.comboBoxSmallKey.MouseHover += new System.EventHandler(this.ShowFieldToolTip);
             this.comboBoxSmallKey.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxSmallText
@@ -1047,6 +1058,7 @@
             this.textBoxSmallText.Text = global::CustomRPC.Properties.Settings.Default.smallText;
             this.textBoxSmallText.TextChanged += new System.EventHandler(this.LengthValidation);
             this.textBoxSmallText.Leave += new System.EventHandler(this.TrimTextBoxes);
+            this.textBoxSmallText.MouseHover += new System.EventHandler(this.ShowFieldToolTip);
             this.textBoxSmallText.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxLargeText
@@ -1059,6 +1071,7 @@
             this.textBoxLargeText.Text = global::CustomRPC.Properties.Settings.Default.largeText;
             this.textBoxLargeText.TextChanged += new System.EventHandler(this.LengthValidation);
             this.textBoxLargeText.Leave += new System.EventHandler(this.TrimTextBoxes);
+            this.textBoxLargeText.MouseHover += new System.EventHandler(this.ShowFieldToolTip);
             this.textBoxLargeText.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // comboBoxLargeKey
@@ -1073,6 +1086,7 @@
             this.comboBoxLargeKey.DropDown += new System.EventHandler(this.FetchAssets);
             this.comboBoxLargeKey.TextChanged += new System.EventHandler(this.LengthValidation);
             this.comboBoxLargeKey.Leave += new System.EventHandler(this.TrimTextBoxes);
+            this.comboBoxLargeKey.MouseHover += new System.EventHandler(this.ShowFieldToolTip);
             this.comboBoxLargeKey.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxState
@@ -1085,6 +1099,7 @@
             this.textBoxState.Text = global::CustomRPC.Properties.Settings.Default.state;
             this.textBoxState.TextChanged += new System.EventHandler(this.LengthValidation);
             this.textBoxState.Leave += new System.EventHandler(this.TrimTextBoxes);
+            this.textBoxState.MouseHover += new System.EventHandler(this.ShowFieldToolTip);
             this.textBoxState.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxDetails
@@ -1097,6 +1112,7 @@
             this.textBoxDetails.Text = global::CustomRPC.Properties.Settings.Default.details;
             this.textBoxDetails.TextChanged += new System.EventHandler(this.LengthValidation);
             this.textBoxDetails.Leave += new System.EventHandler(this.TrimTextBoxes);
+            this.textBoxDetails.MouseHover += new System.EventHandler(this.ShowFieldToolTip);
             this.textBoxDetails.Validating += new System.ComponentModel.CancelEventHandler(this.LengthValidationFocus);
             // 
             // textBoxID
@@ -1312,6 +1328,7 @@
         private System.Windows.Forms.TextBox textBoxSmallURL;
         private System.Windows.Forms.Label labelLargeURL;
         private System.Windows.Forms.TextBox textBoxLargeURL;
+        private System.Windows.Forms.ToolTip toolTipFieldContent;
     }
 }
 

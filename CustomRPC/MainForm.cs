@@ -357,7 +357,7 @@ namespace CustomRPC
             dateTimePickerTimestampEnd.Enabled = checkBoxTimestampEnd.Checked;
 
             // Change the date and time pickers' format according to system's culture
-            dateTimePickerTimestampStart.CustomFormat = dateTimePickerTimestampEnd.CustomFormat = 
+            dateTimePickerTimestampStart.CustomFormat = dateTimePickerTimestampEnd.CustomFormat =
                 CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern + " "
                 + CultureInfo.CurrentCulture.DateTimeFormat.LongTimePattern;
 
@@ -1020,7 +1020,7 @@ namespace CustomRPC
                         Url = settings.button2URL
                     });
             }
-            catch 
+            catch
             {
                 MessageBox.Show(Strings.errorInvalidURL, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
                 return false;
@@ -1074,7 +1074,7 @@ namespace CustomRPC
                 MessageBox.Show(e.Message, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
-            
+
             if ((TimestampType)settings.timestamps == TimestampType.LocalTime)
                 localTimeTimer.Start();
 
@@ -1668,6 +1668,35 @@ namespace CustomRPC
             bool useBytes = box.Name.EndsWith("Button1Text") || box.Name.EndsWith("Button2Text");
 
             box.BackColor = (box.Text.Length == 1 || useBytes && !StringTools.WithinLength(box.Text, box.MaxLength)) ? CurrentColors.BgTextFieldsError : CurrentColors.BgTextFields;
+        }
+
+        /// <summary>
+        /// Shows the full content of most editable fields if the content is too big for the field.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void ShowFieldToolTip(object sender, EventArgs e)
+        {
+            if (!(sender is Control control) || string.IsNullOrEmpty(control.Text))
+                return;
+
+            // Measure the exact text width based on the control's font
+            Size textSize = TextRenderer.MeasureText(control.Text, control.Font, control.ClientSize);
+            int visibleWidth = control.ClientSize.Width;
+
+            if (control is ComboBox comboBox)
+                // Subtract the width of the dropdown arrow button
+                visibleWidth -= SystemInformation.HorizontalScrollBarThumbWidth;
+            else if (control is TextBox)
+                // Apparently textSize is 5 pixels too long than the actual measurement, but when extracting the length
+                // of the ComboBox's arrow, it accounts for that, but for TextBox you need to manually do that 
+                visibleWidth += 5;
+
+            // Toggle tooltip based on text clipping
+            if (textSize.Width > visibleWidth)
+                toolTipFieldContent.SetToolTip(control, control.Text);
+            else
+                toolTipFieldContent.SetToolTip(control, string.Empty);
         }
 
         /// <summary>
