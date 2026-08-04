@@ -326,4 +326,25 @@
   <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
     <value>顯示自最後一次連線以來所經歷的時間。</value>
   </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>使用者點擊詳情文字時會開啟的連結。</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>使用者點擊狀態文字時會開啟的連結。</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>控制成員列表中的使用者狀態文字所顯示的欄位。</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>使用者點擊小圖示時會開啟的連結。</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>使用者點擊大圖示時會開啟的連結。</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>結束</value>
+  </data>
 </root>

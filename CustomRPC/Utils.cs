@@ -296,12 +296,12 @@ namespace CustomRPC
                     EnglishName = "Czech",
                     Code = "cs",
                     Translators = new Person[] {
-                        new Person { Name = "JayJake", Url = "https://jayjake.eu/" },
+                        new Person { Name = "JayJake", Url = "https://jayjake.eu/" }, // +7
                         new Person { Name = "SunightMC" },
+                        new Person { Name = "Wrexik", Url = "https://github.com/wrexik" },
                         new Person { Name = "Tobias" }, // ***@***.cz
                         new Person { Name = "Daniel Dan" },
                         new Person { Name = "After Klain" },
-                        new Person { Name = "Wrexik" },
                         new Person { Name = "MakoPog" },
                         new Person { Name = "Jan" },
                         new Person { Name = "Sebastian" }, // 0 translations
@@ -922,10 +922,10 @@ namespace CustomRPC
             LanguageProgress["bg"] = "94.07";
             LanguageProgress["my"] = "91.53";
             LanguageProgress["ca"] = "91.53";
-            LanguageProgress["zh-hans"] = "94.07";
-            LanguageProgress["zh-hant"] = "94.07";
+            LanguageProgress["zh-hans"] = "100";
+            LanguageProgress["zh-hant"] = "100";
             LanguageProgress["hr"] = "100";
-            LanguageProgress["cs"] = "94.07";
+            LanguageProgress["cs"] = "100";
             LanguageProgress["da"] = "83.05";
             LanguageProgress["nl"] = "100";
             LanguageProgress["et"] = "91.53";
