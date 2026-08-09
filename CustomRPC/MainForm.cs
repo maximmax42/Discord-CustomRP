@@ -583,11 +583,11 @@ namespace CustomRPC
                 releases = await githubClient.Repository.Release.GetAll("maximmax42", "Discord-CustomRP");
                 latestRelease = releases[0];
             }
-            catch
+            catch (Exception e)
             {
                 // If there's no internet or Github is down, do nothing, unless it's a user requested update check
                 if (manual)
-                    MessageBox.Show(this, Strings.errorNoInternet, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(this, e.Message, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
