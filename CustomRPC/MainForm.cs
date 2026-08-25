@@ -1850,7 +1850,6 @@ namespace CustomRPC
                 buttonConnect.Enabled = false; // ...disable Connect button...
                 buttonDisconnect.Enabled = true; // ...enable Disconnect button...
                 trayMenuDisconnect.Enabled = true; // ...enable Disconnect button in tray menu...
-                textBoxID.ReadOnly = true; // ...make the ID field read only...
                 toolStripStatusLabelStatus.Text = Strings.statusConnecting; // and update the connection status label
             }
         }
@@ -1869,7 +1868,6 @@ namespace CustomRPC
             buttonDisconnect.Enabled = false;
             trayMenuDisconnect.Enabled = false;
             buttonUpdatePresence.Enabled = false;
-            textBoxID.ReadOnly = false;
             toolStripStatusLabelUsername.Text = "";
             toolStripStatusLabelStatus.Text = Strings.statusDisconnected;
             trayIcon.Text = $"{res.GetString("trayIcon.Text")}{(Program.IsSecondInstance ? " (2)" : "")}";
@@ -1913,7 +1911,10 @@ namespace CustomRPC
         private void Update(object sender, EventArgs e)
         {
             Utils.SaveSettings();
+            if (client.ApplicationID == (string.IsNullOrEmpty(settings.id) ? defaultID : settings.id))
             SetPresence();
+            else
+                Reconnect();
         }
     }
 }
