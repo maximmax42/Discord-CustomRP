@@ -367,9 +367,13 @@ namespace CustomRPC
             if (settings.customTimestampEnd.CompareTo(new DateTime(1969, 1, 1, 0, 0, 0)) == 0)
                 settings.customTimestampEnd = DateTime.Now;
 
-            // Change the earliest date user can choose according to user's timezone
+            // Change the earliest date user can choose (1 in unix seconds) according to user's timezone
             dateTimePickerTimestampStart.MinDate = dateTimePickerTimestampEnd.MinDate =
                 new DateTime(1970, 1, 1, 0, 0, 1, DateTimeKind.Utc).ToLocalTime();
+
+            // Change the latest date user can choose (99999999999 in unix seconds) according to user's timezone
+            dateTimePickerTimestampStart.MaxDate = dateTimePickerTimestampEnd.MaxDate =
+                new DateTime(5138, 11, 16, 9, 46, 39, DateTimeKind.Utc).ToLocalTime();
 
             // Localize the header of the tooltip because Visual Studio can't do that for some reason
             toolTipInfo.ToolTipTitle = Strings.information;
