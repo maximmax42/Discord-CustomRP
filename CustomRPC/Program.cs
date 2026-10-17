@@ -135,7 +135,8 @@ namespace CustomRPC
                 if (result == DialogResult.Yes)
                 {
                     // I can't just do settings.Reset() since it will throw the same exception, so instead I have to delete the config file.
-                    string filename = ((ConfigurationErrorsException)e.InnerException).Filename;
+                    string filename = (e.InnerException as ConfigurationErrorsException)?.Filename
+                        ?? ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.PerUserRoamingAndLocal).FilePath;
                     File.Delete(filename);
                     AppMutex.Close();
                     Application.Restart();
