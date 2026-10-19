@@ -372,8 +372,12 @@ namespace CustomRPC
                 new DateTime(1970, 1, 1, 0, 0, 1, DateTimeKind.Utc).ToLocalTime();
 
             // Change the latest date user can choose (99999999999 in unix seconds) according to user's timezone
+            // Umm al-Qura calendar only supports dates up to 2077-11-16, in case there are others this is generalized
+            DateTime maxDate = new DateTime(5138, 11, 16, 9, 46, 39, DateTimeKind.Utc).ToLocalTime();
+            Calendar calendar = CultureInfo.CurrentCulture.Calendar;
+
             dateTimePickerTimestampStart.MaxDate = dateTimePickerTimestampEnd.MaxDate =
-                new DateTime(5138, 11, 16, 9, 46, 39, DateTimeKind.Utc).ToLocalTime();
+                (calendar.MaxSupportedDateTime < maxDate) ? calendar.MaxSupportedDateTime : maxDate;
 
             // Localize the header of the tooltip because Visual Studio can't do that for some reason
             toolTipInfo.ToolTipTitle = Strings.information;
