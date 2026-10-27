@@ -14,6 +14,12 @@
 
 Custom Discord Rich Presence Manager for Windows 7+. Some of its features are run on startup and tray minimization. Uses [Lachee's DiscordRPC for C#](https://github.com/Lachee/discord-rpc-csharp).
 
+Not on Windows or want something else? Here's a couple of alternatives:
+* [customrp-cli](https://github.com/KeiraOMG0/customrp-cli) (Windows, Linux, MacOS)
+* [PreMiD](https://premid.app/) (Chrome, Firefox, Safari)
+* [Vencord](https://vencord.dev/) + [CustomRPC](https://vencord.dev/plugins/CustomRPC) (**breaks Discord's TOS**; Windows, Linux, MacOS, Chrome, Firefox)
+* [Kizzy](https://kizzy.vercel.app/) (**breaks Discord's TOS**; Android only)
+
 ## Supporters
 
 * [umamidayo](https://www.roblox.com/users/6757996/profile) - $152.67 (15000.00 RUB)
