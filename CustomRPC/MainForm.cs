@@ -673,7 +673,8 @@ namespace CustomRPC
             int fileType = Application.StartupPath.EndsWith("Roaming\\CustomRP") ? 0 : 1; // 0 is exe, 1 is zip
 
             var wc = new WebClient();
-            var exec = Path.GetTempPath() + latestRelease.Assets[fileType].Name;
+            var exec = Path.Combine(Path.GetTempPath(), Path.ChangeExtension(
+                Path.GetRandomFileName(), Path.GetExtension(latestRelease.Assets[fileType].Name)));
 
             wc.DownloadProgressChanged += DownloadProgress;
 
@@ -681,8 +682,7 @@ namespace CustomRPC
             {
                 try
                 {
-                    if (!File.Exists(exec))
-                        await wc.DownloadFileTaskAsync(latestRelease.Assets[fileType].BrowserDownloadUrl, exec);
+                    await wc.DownloadFileTaskAsync(latestRelease.Assets[fileType].BrowserDownloadUrl, exec);
 
                     if (fileType == 1) // Open up app's folder for ease of manual update
                         Process.Start(Application.StartupPath);
@@ -1101,8 +1101,8 @@ namespace CustomRPC
                     IWshRuntimeLibrary.WshShell wsh = new IWshRuntimeLibrary.WshShell();
                     IWshRuntimeLibrary.IWshShortcut shortcut = wsh.CreateShortcut(linkPath) as IWshRuntimeLibrary.IWshShortcut;
                     shortcut.Description = "Discord Custom Rich Presence Manager";
-                    shortcut.TargetPath = Environment.CurrentDirectory + @"\CustomRP.exe";
-                    shortcut.WorkingDirectory = Environment.CurrentDirectory + @"\";
+                    shortcut.TargetPath = Application.StartupPath + @"\CustomRP.exe";
+                    shortcut.WorkingDirectory = Application.StartupPath + @"\";
                     if (Program.IsSecondInstance)
                         shortcut.Arguments = "--second-instance";
                     shortcut.Save();
