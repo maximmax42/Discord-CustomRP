@@ -1,0 +1,1527 @@
+{
+ "languages": [
+  {
+   "Name": "مَصرى",
+   "EnglishName": "Arabic",
+   "Code": "ar",
+   "Translators": [
+    {
+     "Name": "FiberAhmed",
+     "Url": "https://github.com/FiberAhmed"
+    },
+    {
+     "Name": "ShadowlGamer"
+    },
+    {
+     "Name": "karimawi",
+     "Url": "https://github.com/karimawi"
+    },
+    {
+     "Name": "Bo Raghad"
+    }
+   ]
+  },
+  {
+   "Name": "Azərbaycan",
+   "EnglishName": "Azerbaijani",
+   "Code": "az",
+   "Translators": [
+    {
+     "Name": "Murat_Efendi"
+    },
+    {
+     "Name": "Korsinemi"
+    }
+   ]
+  },
+  {
+   "Name": "Беларуская",
+   "EnglishName": "Belarusian",
+   "Code": "be",
+   "Translators": [
+    {
+     "Name": "Alibical"
+    },
+    {
+     "Name": "haydaay"
+    },
+    {
+     "Name": "Korsinemi"
+    },
+    {
+     "Name": "l0ngg"
+    }
+   ]
+  },
+  {
+   "Name": "Български",
+   "EnglishName": "Bulgarian",
+   "Code": "bg",
+   "Translators": [
+    {
+     "Name": "21"
+    },
+    {
+     "Name": "TheLocalSlavic"
+    },
+    {
+     "Name": "EmeraldCeat",
+     "Url": "https://discord.gg/reformedcityrp"
+    }
+   ]
+  },
+  {
+   "Name": "বাংলা",
+   "EnglishName": "Bengali",
+   "Code": "bn",
+   "Translators": [
+    {
+     "Name": "mrimran",
+     "Url": "https://github.com/mr-Imran"
+    },
+    {
+     "Name": "Korsinemi"
+    },
+    {
+     "Name": "BlackBox-cmd"
+    }
+   ]
+  },
+  {
+   "Name": "Bosanski",
+   "EnglishName": "Bosnian",
+   "Code": "bs",
+   "Translators": [
+    {
+     "Name": "Trax"
+    },
+    {
+     "Name": "Korsinemi"
+    },
+    {
+     "Name": "lukapiplica"
+    },
+    {
+     "Name": "Ammar"
+    }
+   ]
+  },
+  {
+   "Name": "Català",
+   "EnglishName": "Catalan",
+   "Code": "ca",
+   "Translators": [
+    {
+     "Name": "Darling-Chan",
+     "Url": "https://meap.gg/"
+    },
+    {
+     "Name": "Alte87"
+    }
+   ]
+  },
+  {
+   "Name": "Čeština",
+   "EnglishName": "Czech",
+   "Code": "cs",
+   "Translators": [
+    {
+     "Name": "JayJake",
+     "Url": "https://jayjake.eu/"
+    },
+    {
+     "Name": "SunightMC"
+    },
+    {
+     "Name": "Wrexik",
+     "Url": "https://github.com/wrexik"
+    },
+    {
+     "Name": "Tobias"
+    },
+    {
+     "Name": "Daniel Dan"
+    },
+    {
+     "Name": "After Klain"
+    },
+    {
+     "Name": "MakoPog"
+    },
+    {
+     "Name": "Jan"
+    },
+    {
+     "Name": "Sebastian"
+    }
+   ]
+  },
+  {
+   "Name": "Cymraeg",
+   "EnglishName": "Welsh",
+   "Code": "cy",
+   "Translators": [
+    {
+     "Name": "Pxmpkxn",
+     "Url": "https://discord.gg/36Z4u8Q5uN"
+    }
+   ]
+  },
+  {
+   "Name": "Dansk",
+   "EnglishName": "Danish",
+   "Code": "da",
+   "Translators": [
+    {
+     "Name": "Codiaz",
+     "Url": "https://codiaz.com/"
+    },
+    {
+     "Name": "Sebastian Hviid"
+    },
+    {
+     "Name": "Tobias"
+    },
+    {
+     "Name": "wimblim"
+    },
+    {
+     "Name": "David"
+    },
+    {
+     "Name": "Johansenbastian6"
+    }
+   ]
+  },
+  {
+   "Name": "Deutsch",
+   "EnglishName": "German",
+   "Code": "de",
+   "Translators": [
+    {
+     "Name": "Ypsol",
+     "Url": "https://www.youtube.com/channel/UCxGqMDnXnEyVt4yugLeBpgA"
+    },
+    {
+     "Name": "Marcel Gustin",
+     "Url": "https://marcelgustin.de"
+    },
+    {
+     "Name": "ahmad"
+    },
+    {
+     "Name": "binarynoise"
+    },
+    {
+     "Name": "Revax812"
+    },
+    {
+     "Name": "Yoshi"
+    },
+    {
+     "Name": "Felix",
+     "Url": "https://github.com/fbrettnich"
+    },
+    {
+     "Name": "whoscanel",
+     "Url": "https://canel.cloud"
+    },
+    {
+     "Name": "Tom"
+    }
+   ]
+  },
+  {
+   "Name": "Schwiizerdütsch",
+   "EnglishName": "Swiss German",
+   "Code": "de-ch",
+   "Translators": [
+    {
+     "Name": "Foolian",
+     "Url": "https://foolian.com/"
+    },
+    {
+     "Name": "dragon GRaf",
+     "Url": "https://github.com/dragongrafdiscord/mycustomrichpresence"
+    },
+    {
+     "Name": "Noah Pombas",
+     "Url": "https://noahpombas.ch"
+    }
+   ]
+  },
+  {
+   "Name": "Ελληνικά",
+   "EnglishName": "Greek",
+   "Code": "el",
+   "Translators": [
+    {
+     "Name": "Alex Grivas"
+    },
+    {
+     "Name": "NetworkTips#0001",
+     "Url": "https://discord.gg/Qb8RPjH6sD"
+    },
+    {
+     "Name": "Areti"
+    },
+    {
+     "Name": "gsina97"
+    }
+   ]
+  },
+  {
+   "Name": "English",
+   "Code": "en",
+   "Translators": []
+  },
+  {
+   "Name": "Español",
+   "EnglishName": "Spanish",
+   "Code": "es",
+   "Translators": [
+    {
+     "Name": "Korsinemi"
+    },
+    {
+     "Name": "Vexot"
+    },
+    {
+     "Name": "samykat1"
+    },
+    {
+     "Name": "Santiago"
+    },
+    {
+     "Name": "Pablo"
+    },
+    {
+     "Name": "Luciousmc"
+    },
+    {
+     "Name": "SirAmong"
+    },
+    {
+     "Name": "Nicola Occhipinti"
+    },
+    {
+     "Name": "Darling-Chan",
+     "Url": "https://meap.gg/"
+    },
+    {
+     "Name": "UncleGeek"
+    },
+    {
+     "Name": "Alvaro203204"
+    },
+    {
+     "Name": "JugandoMiguel",
+     "Url": "https://fiverr.com/jugandomiguel"
+    },
+    {
+     "Name": "Epic"
+    }
+   ]
+  },
+  {
+   "Name": "Eesti",
+   "EnglishName": "Estonian",
+   "Code": "et",
+   "Translators": [
+    {
+     "Name": "z1",
+     "Url": "https://github.com/Erkkii"
+    },
+    {
+     "Name": "Meelis"
+    }
+   ]
+  },
+  {
+   "Name": "فارسی",
+   "EnglishName": "Persian",
+   "Code": "fa",
+   "Translators": [
+    {
+     "Name": "Mohammad Mahdi",
+     "Url": "https://mo-mahdihh.ir/"
+    },
+    {
+     "Name": "AliGhanbarzadeh"
+    },
+    {
+     "Name": "Nima",
+     "Url": "https://github.com/nima-globals/"
+    },
+    {
+     "Name": "Sunnystew"
+    },
+    {
+     "Name": "Nythsha"
+    }
+   ]
+  },
+  {
+   "Name": "Suomi",
+   "EnglishName": "Finnish",
+   "Code": "fi",
+   "Translators": [
+    {
+     "Name": "Deluxeria"
+    },
+    {
+     "Name": "Zunikuu"
+    },
+    {
+     "Name": "jes",
+     "Url": "https://jesperiz.carrd.co/"
+    },
+    {
+     "Name": "Super"
+    }
+   ]
+  },
+  {
+   "Name": "Filipino",
+   "EnglishName": "Filipino",
+   "Code": "fil",
+   "Translators": [
+    {
+     "Name": "_missingo",
+     "Url": "https://www.youtube.com/channel/UCxNVq2Esevsdp2v1jGQNu5A"
+    },
+    {
+     "Name": "CtrlAltDelicious",
+     "Url": "https://www.youtube.com/c/CtrlAltDelicious_"
+    },
+    {
+     "Name": "syp"
+    },
+    {
+     "Name": "jericko"
+    },
+    {
+     "Name": "Hachiki"
+    }
+   ]
+  },
+  {
+   "Name": "Français",
+   "EnglishName": "French",
+   "Code": "fr",
+   "Translators": [
+    {
+     "Name": "Nenaff"
+    },
+    {
+     "Name": "Yo-3DS"
+    },
+    {
+     "Name": "RedNix"
+    },
+    {
+     "Name": "20syl",
+     "Url": "https://github.com/20syldev"
+    },
+    {
+     "Name": "Skygame404"
+    },
+    {
+     "Name": "CercleRouge1"
+    },
+    {
+     "Name": "VaporCorp"
+    },
+    {
+     "Name": "jojoblackFr"
+    },
+    {
+     "Name": "Prototyx5"
+    },
+    {
+     "Name": "SkyDream"
+    }
+   ]
+  },
+  {
+   "Name": "Galego",
+   "EnglishName": "Galician",
+   "Code": "gl",
+   "Translators": [
+    {
+     "Name": "Unknown"
+    }
+   ]
+  },
+  {
+   "Name": "עברית",
+   "EnglishName": "Hebrew",
+   "Code": "he",
+   "Translators": [
+    {
+     "Name": "Galaxy6430",
+     "Url": "https://www.youtube.com/channel/UC_cnrLEXfwsZoQxEsM95HXg"
+    },
+    {
+     "Name": "Kahpot Vanilla",
+     "Url": "https://linktr.ee/KahpotVanilla"
+    },
+    {
+     "Name": "Amit"
+    }
+   ]
+  },
+  {
+   "Name": "हिन्दी",
+   "EnglishName": "Hindi",
+   "Code": "hi",
+   "Translators": [
+    {
+     "Name": "Mridun Gupta",
+     "Url": "https://contact.mridungupta.eu.org"
+    },
+    {
+     "Name": "regex",
+     "Url": "https://github.com/REGEX777"
+    },
+    {
+     "Name": "Julian",
+     "Url": "https://julian-idl.codes/"
+    },
+    {
+     "Name": "mochiron desu"
+    }
+   ]
+  },
+  {
+   "Name": "Hrvatski",
+   "EnglishName": "Croatian",
+   "Code": "hr",
+   "Translators": [
+    {
+     "Name": "Monika"
+    },
+    {
+     "Name": "whoscanel",
+     "Url": "https://canel.cloud"
+    },
+    {
+     "Name": "lukapiplica"
+    }
+   ]
+  },
+  {
+   "Name": "Magyar",
+   "EnglishName": "Hungarian",
+   "Code": "hu",
+   "Translators": [
+    {
+     "Name": "Balla Botond",
+     "Url": "https://github.com/BallaBotond"
+    },
+    {
+     "Name": "BunDzsi",
+     "Url": "https://github.com/bundzsiman"
+    },
+    {
+     "Name": "Levi"
+    },
+    {
+     "Name": "Noxie"
+    }
+   ]
+  },
+  {
+   "Name": "Հայերէն",
+   "EnglishName": "Armenian",
+   "Code": "hy",
+   "Translators": [
+    {
+     "Name": "Vahe Mnats"
+    },
+    {
+     "Name": "Korsinemi"
+    }
+   ]
+  },
+  {
+   "Name": "Bahasa Indonesia",
+   "EnglishName": "Indonesian",
+   "Code": "id",
+   "Translators": [
+    {
+     "Name": "Hapnan"
+    },
+    {
+     "Name": "Bayu Sopwan",
+     "Url": "https://bayusopwan.github.io/"
+    },
+    {
+     "Name": "Apolycious"
+    },
+    {
+     "Name": "OHMKUB"
+    },
+    {
+     "Name": "xChellz"
+    },
+    {
+     "Name": "delaragon"
+    }
+   ]
+  },
+  {
+   "Name": "Íslenska",
+   "EnglishName": "Icelandic",
+   "Code": "is",
+   "Translators": [
+    {
+     "Name": "phoenix"
+    },
+    {
+     "Name": "Meelis"
+    },
+    {
+     "Name": "Amr Ezzat"
+    }
+   ]
+  },
+  {
+   "Name": "Italiano",
+   "EnglishName": "Italian",
+   "Code": "it",
+   "Translators": [
+    {
+     "Name": "DJD320"
+    },
+    {
+     "Name": "NEKO",
+     "Url": "https://www.youtube.com/@ilcanaledineko"
+    },
+    {
+     "Name": "Frin"
+    },
+    {
+     "Name": "Bay"
+    },
+    {
+     "Name": "Patrick Canal"
+    },
+    {
+     "Name": "Matthww"
+    },
+    {
+     "Name": "ItsMrCube",
+     "Url": "https://mrcube.dev/"
+    }
+   ]
+  },
+  {
+   "Name": "日本語",
+   "EnglishName": "Japanese",
+   "Code": "ja",
+   "Translators": [
+    {
+     "Name": "KABIKIRA000"
+    },
+    {
+     "Name": "mititt"
+    }
+   ]
+  },
+  {
+   "Name": "ქართული ენა",
+   "EnglishName": "Georgian",
+   "Code": "ka",
+   "Translators": [
+    {
+     "Name": "Turashviliguro",
+     "Url": "https://turashviliguro.github.io/daddyexe/"
+    },
+    {
+     "Name": "blessed"
+    }
+   ]
+  },
+  {
+   "Name": "Қазақша",
+   "EnglishName": "Kazakh",
+   "Code": "kk",
+   "Translators": [
+    {
+     "Name": "aaron"
+    }
+   ]
+  },
+  {
+   "Name": "ಕನ್ನಡ",
+   "EnglishName": "Kannada",
+   "Code": "kn",
+   "Translators": [
+    {
+     "Name": "Naagu",
+     "Url": "https://github.com/NaaguYT/"
+    }
+   ]
+  },
+  {
+   "Name": "한국어",
+   "EnglishName": "Korean",
+   "Code": "ko",
+   "Translators": [
+    {
+     "Name": "Yeongaori",
+     "Url": "https://github.com/yeongaori"
+    }
+   ]
+  },
+  {
+   "Name": "کوردی سۆرانی",
+   "EnglishName": "Central Kurdish",
+   "Code": "ku",
+   "Translators": [
+    {
+     "Name": "SamTheNoob",
+     "Url": "https://linktr.ee/stn69"
+    },
+    {
+     "Name": "JakeAnthrax420"
+    }
+   ]
+  },
+  {
+   "Name": "ລາວ",
+   "EnglishName": "Lao",
+   "Code": "lo",
+   "Translators": [
+    {
+     "Name": "emjay.la"
+    }
+   ]
+  },
+  {
+   "Name": "Lietuvių",
+   "EnglishName": "Lithuanian",
+   "Code": "lt",
+   "Translators": [
+    {
+     "Name": "NoctusRaven",
+     "Url": "https://www.twitch.tv/noctusraven"
+    },
+    {
+     "Name": "Flix3ris"
+    }
+   ]
+  },
+  {
+   "Name": "Latviešu",
+   "EnglishName": "Latvian",
+   "Code": "lv",
+   "Translators": [
+    {
+     "Name": "NotJohnnyTamale"
+    },
+    {
+     "Name": "Jaroslavs"
+    },
+    {
+     "Name": "evyatar"
+    }
+   ]
+  },
+  {
+   "Name": "Македонски",
+   "EnglishName": "Macedonian",
+   "Code": "mk",
+   "Translators": [
+    {
+     "Name": "falcon"
+    }
+   ]
+  },
+  {
+   "Name": "മലയാളം",
+   "EnglishName": "Malayalam",
+   "Code": "ml",
+   "Translators": [
+    {
+     "Name": "Strawberrywithchoco"
+    },
+    {
+     "Name": "veirvn"
+    }
+   ]
+  },
+  {
+   "Name": "Монгол",
+   "EnglishName": "Mongolian",
+   "Code": "mn",
+   "Translators": [
+    {
+     "Name": "SenMN",
+     "Url": "https://senmn.tech/"
+    },
+    {
+     "Name": "AnarErdene"
+    }
+   ]
+  },
+  {
+   "Name": "Bahasa Melayu",
+   "EnglishName": "Malay",
+   "Code": "ms",
+   "Translators": [
+    {
+     "Name": "NuruddinPlays"
+    }
+   ]
+  },
+  {
+   "Name": "မြန်မာဘာသာ",
+   "EnglishName": "Burmese",
+   "Code": "my",
+   "Translators": [
+    {
+     "Name": "infer_",
+     "Url": "http://rentry.org/infer"
+    },
+    {
+     "Name": "Korsinemi"
+    },
+    {
+     "Name": "bearinthewonderland"
+    }
+   ]
+  },
+  {
+   "Name": "Nederlands",
+   "EnglishName": "Dutch",
+   "Code": "nl",
+   "Translators": [
+    {
+     "Name": "Jeremyzijlemans",
+     "Url": "https://sionteam.com/"
+    },
+    {
+     "Name": "ZethalMC",
+     "Url": "https://github.com/ZethalMC"
+    },
+    {
+     "Name": "Screitsma64"
+    },
+    {
+     "Name": "sys-256",
+     "Url": "https://sys-256.me/"
+    },
+    {
+     "Name": "Not_H3",
+     "Url": "https://github.com/damger9"
+    },
+    {
+     "Name": "Vince C."
+    },
+    {
+     "Name": "DutchSlav"
+    }
+   ]
+  },
+  {
+   "Name": "Norsk",
+   "EnglishName": "Norwegian",
+   "Code": "no",
+   "Translators": [
+    {
+     "Name": "Sveinung"
+    },
+    {
+     "Name": "Seth"
+    },
+    {
+     "Name": "Codiaz",
+     "Url": "https://codiaz.com/"
+    }
+   ]
+  },
+  {
+   "Name": "ਪੰਜਾਬੀ",
+   "EnglishName": "Panjabi",
+   "Code": "pa",
+   "Translators": [
+    {
+     "Name": "Mridun Gupta",
+     "Url": "https://contact.mridungupta.eu.org"
+    }
+   ]
+  },
+  {
+   "Name": "Polski",
+   "EnglishName": "Polish",
+   "Code": "pl",
+   "Translators": [
+    {
+     "Name": "Lol1112345.lol12345"
+    },
+    {
+     "Name": "Liso"
+    },
+    {
+     "Name": "Muzes",
+     "Url": "https://radio.muzes.xyz/"
+    },
+    {
+     "Name": "Piter"
+    },
+    {
+     "Name": "Oscar"
+    },
+    {
+     "Name": "Tofix.rs"
+    },
+    {
+     "Name": "KM127PL"
+    },
+    {
+     "Name": "Marcel Gustin",
+     "Url": "https://marcelgustin.de"
+    }
+   ]
+  },
+  {
+   "Name": "Português",
+   "EnglishName": "Portuguese",
+   "Code": "pt",
+   "Translators": [
+    {
+     "Name": "Verygafanhot"
+    },
+    {
+     "Name": "Nicola Occhipinti"
+    },
+    {
+     "Name": "Alexandre Calvario"
+    },
+    {
+     "Name": "Noah Pombas",
+     "Url": "https://noahpombas.ch"
+    }
+   ]
+  },
+  {
+   "Name": "Português",
+   "EnglishName": "Portuguese",
+   "Dialect": "BR",
+   "Code": "pt-br",
+   "Translators": [
+    {
+     "Name": "Vinicio Henrique (viniciotricolor)"
+    },
+    {
+     "Name": "Ninja Music",
+     "Url": "https://linktr.ee/GSNinjaMusic"
+    },
+    {
+     "Name": "Slimakoi"
+    },
+    {
+     "Name": "Felipe B. Pansani"
+    },
+    {
+     "Name": "Nicola Occhipinti"
+    },
+    {
+     "Name": "DeusDrizzyy"
+    },
+    {
+     "Name": "Leo"
+    },
+    {
+     "Name": "João"
+    }
+   ]
+  },
+  {
+   "Name": "Limba română",
+   "EnglishName": "Romanian",
+   "Code": "ro",
+   "Translators": [
+    {
+     "Name": "JPN",
+     "Url": "https://isaidpower.dev/"
+    },
+    {
+     "Name": "DiDYRO",
+     "Url": "https://www.youtube.com/channel/UCjij9nYlEyPl5aVYnJkvx2w"
+    },
+    {
+     "Name": "ShadowTiger_9"
+    },
+    {
+     "Name": "Electro"
+    },
+    {
+     "Name": "inter",
+     "Url": "https://github.com/Electro7777"
+    },
+    {
+     "Name": "David"
+    },
+    {
+     "Name": "Denisbolba"
+    },
+    {
+     "Name": "KTSGod",
+     "Url": "https://ktsgod.carrd.co/"
+    },
+    {
+     "Name": "Eddie",
+     "Url": "https://github.com/EdiRo"
+    },
+    {
+     "Name": "veirvn"
+    },
+    {
+     "Name": "Matthww"
+    },
+    {
+     "Name": "BlockBuzzters"
+    }
+   ]
+  },
+  {
+   "Name": "Русский",
+   "EnglishName": "Russian",
+   "Code": "ru",
+   "Translators": [
+    {
+     "Name": "maximmax42",
+     "Url": "https://www.maximmax42.ru"
+    }
+   ]
+  },
+  {
+   "Name": "Slovenčina",
+   "EnglishName": "Slovak",
+   "Code": "sk",
+   "Translators": [
+    {
+     "Name": "richi",
+     "Url": "https://e-z.bio/shelovesrichi"
+    },
+    {
+     "Name": "Maroš"
+    },
+    {
+     "Name": "eRko"
+    }
+   ]
+  },
+  {
+   "Name": "Slovenščina",
+   "EnglishName": "Slovenian",
+   "Code": "sl",
+   "Translators": [
+    {
+     "Name": "BMKoscak"
+    },
+    {
+     "Name": "like button",
+     "Url": "https://www.youtube.com/channel/UCVt43CrPLKNjaPs1r5Pcdnw"
+    }
+   ]
+  },
+  {
+   "Name": "Српски",
+   "EnglishName": "Serbian",
+   "Code": "sr",
+   "Translators": [
+    {
+     "Name": "Vihaan"
+    },
+    {
+     "Name": "ToShibaToShamara"
+    },
+    {
+     "Name": "lukapiplica"
+    },
+    {
+     "Name": "falcon"
+    },
+    {
+     "Name": "Veljko"
+    }
+   ]
+  },
+  {
+   "Name": "Svenska",
+   "EnglishName": "Swedish",
+   "Code": "sv",
+   "Translators": [
+    {
+     "Name": "leadattic_",
+     "Url": "https://leadattic.leadattic953788.repl.co/"
+    },
+    {
+     "Name": "Rose Liljensten"
+    },
+    {
+     "Name": "James"
+    },
+    {
+     "Name": "Marcus"
+    }
+   ]
+  },
+  {
+   "Name": "தமிழ்",
+   "EnglishName": "Tamil",
+   "Code": "ta",
+   "Translators": [
+    {
+     "Name": "Julian",
+     "Url": "https://julian-idl.codes/"
+    }
+   ]
+  },
+  {
+   "Name": "ภาษาไทย",
+   "EnglishName": "Thai",
+   "Code": "th",
+   "Translators": [
+    {
+     "Name": "Squishee Freshy"
+    },
+    {
+     "Name": "Platong34821"
+    },
+    {
+     "Name": "OHMKUB"
+    },
+    {
+     "Name": "cr.ohmthz"
+    },
+    {
+     "Name": "Game"
+    },
+    {
+     "Name": "YuuabyssSSID"
+    },
+    {
+     "Name": "SabbKor"
+    },
+    {
+     "Name": "toonnongaeoy"
+    }
+   ]
+  },
+  {
+   "Name": "Türkçe",
+   "EnglishName": "Turkish",
+   "Code": "tr",
+   "Translators": [
+    {
+     "Name": "josephisticated",
+     "Url": "https://github.com/josephisticated"
+    },
+    {
+     "Name": "Ozan Akyüz"
+    },
+    {
+     "Name": "vLaDeR"
+    },
+    {
+     "Name": "Murat_Efendi"
+    }
+   ]
+  },
+  {
+   "Name": "Українська",
+   "EnglishName": "Ukrainian",
+   "Code": "uk",
+   "Translators": [
+    {
+     "Name": "MechaniX"
+    },
+    {
+     "Name": "Dmitromintenko"
+    },
+    {
+     "Name": "Desinger"
+    },
+    {
+     "Name": "Illia"
+    },
+    {
+     "Name": "jostua"
+    },
+    {
+     "Name": "stefanbanderovych"
+    },
+    {
+     "Name": "l0ngg"
+    },
+    {
+     "Name": "Black Cat"
+    }
+   ]
+  },
+  {
+   "Name": "اُردُو",
+   "EnglishName": "Urdu",
+   "Code": "ur",
+   "Translators": [
+    {
+     "Name": "xq34",
+     "Url": "https://github.com/S3ntryPositive"
+    },
+    {
+     "Name": "Muhammad Ali Ashraf"
+    },
+    {
+     "Name": "ATTiQ OP"
+    }
+   ]
+  },
+  {
+   "Name": "Tiếng Việt",
+   "EnglishName": "Vietnamese",
+   "Code": "vi",
+   "Translators": [
+    {
+     "Name": "Mykm",
+     "Url": "https://github.com/yumiruuwu"
+    },
+    {
+     "Name": "dsbachle"
+    },
+    {
+     "Name": "Ayano"
+    },
+    {
+     "Name": "Nhathungtran2011"
+    },
+    {
+     "Name": "Rinka Ch. リンカタカナシ"
+    },
+    {
+     "Name": "Phnthnhnm0612"
+    },
+    {
+     "Name": "03_Trần"
+    },
+    {
+     "Name": "igijtykvj"
+    },
+    {
+     "Name": "kcott"
+    }
+   ]
+  },
+  {
+   "Name": "简体中文",
+   "EnglishName": "Chinese (simplified)",
+   "Code": "zh-hans",
+   "Translators": [
+    {
+     "Name": "蘆筍 (aka westxlu)",
+     "Url": "https://linktr.ee/westxlu"
+    },
+    {
+     "Name": "Zjsun.ca"
+    },
+    {
+     "Name": "zozocha"
+    },
+    {
+     "Name": "Aaadddsssvvvavc"
+    }
+   ]
+  },
+  {
+   "Name": "繁體中文",
+   "EnglishName": "Chinese (traditional)",
+   "Code": "zh-hant",
+   "Translators": [
+    {
+     "Name": "蘆筍 (aka westxlu)",
+     "Url": "https://linktr.ee/westxlu"
+    },
+    {
+     "Name": "DragonTaki",
+     "Url": "https://steamcommunity.com/id/DragonTaki/"
+    },
+    {
+     "Name": "cr.ohmthz"
+    }
+   ]
+  }
+ ],
+ "progress": {
+  "ar": "91.53",
+  "hy": "91.53",
+  "az": "91.53",
+  "be": "91.53",
+  "bn": "91.53",
+  "bs": "100",
+  "bg": "94.07",
+  "my": "91.53",
+  "ca": "91.53",
+  "zh-hans": "100",
+  "zh-hant": "100",
+  "hr": "100",
+  "cs": "100",
+  "da": "83.05",
+  "nl": "100",
+  "et": "91.53",
+  "fil": "100",
+  "fi": "91.53",
+  "fr": "100",
+  "gl": "82.2",
+  "ka": "91.53",
+  "de": "100",
+  "de-ch": "100",
+  "el": "91.53",
+  "he": "100",
+  "hi": "91.53",
+  "hu": "94.07",
+  "is": "82.2",
+  "id": "91.53",
+  "it": "94.07",
+  "ja": "91.53",
+  "kn": "86.44",
+  "kk": "86.44",
+  "ko": "100",
+  "ku": "82.2",
+  "lo": "91.53",
+  "lv": "100",
+  "lt": "94.07",
+  "mk": "82.2",
+  "ms": "91.53",
+  "ml": "82.2",
+  "mn": "83.9",
+  "no": "83.05",
+  "pa": "91.53",
+  "fa": "100",
+  "pl": "100",
+  "pt": "100",
+  "pt-br": "100",
+  "ro": "97.46",
+  "ru": "100",
+  "sr": "100",
+  "sk": "100",
+  "sl": "86.44",
+  "es": "100",
+  "sv": "83.05",
+  "ta": "80.51",
+  "th": "100",
+  "tr": "94.07",
+  "uk": "94.07",
+  "ur": "84.75",
+  "vi": "100",
+  "cy": "82.2"
+ },
+ "supporters": [
+  {
+   "Name": "Grim",
+   "Url": "https://www.savethekiwi.nz/",
+   "USDAmount": "25.00",
+   "AltAmount": "0.0008328 BTC"
+  },
+  {
+   "Name": "NoctusRaven",
+   "Url": "https://www.twitch.tv/noctusraven",
+   "USDAmount": "6.00"
+  },
+  {
+   "Name": "Boefjim",
+   "Url": "https://boefjim.com/",
+   "USDAmount": "16.13",
+   "AltAmount": "1000.00 RUB"
+  },
+  {
+   "Name": "Anonymous",
+   "USDAmount": "2.62",
+   "AltAmount": "0.00011304 BTC"
+  },
+  {
+   "Name": "Eli404",
+   "Url": "https://linktr.ee/404femboy",
+   "USDAmount": "5.09",
+   "AltAmount": "5.00 EUR"
+  },
+  {
+   "Name": "Tofix.rs",
+   "USDAmount": "0.45",
+   "AltAmount": "1.00 BAT"
+  },
+  {
+   "Name": "kiwi",
+   "USDAmount": "50.69",
+   "AltAmount": "50.00 EUR"
+  },
+  {
+   "Name": "Kushgo",
+   "Url": "https://opensea.io/collection/worldtowers",
+   "USDAmount": "5.00",
+   "AltAmount": "0.00313295 ETH"
+  },
+  {
+   "Name": "Bilal_786",
+   "Url": "https://discord.gg/zabPuE78ne",
+   "USDAmount": "5.79",
+   "AltAmount": "5.80 EUR"
+  },
+  {
+   "Name": "Yoshi",
+   "USDAmount": "3.28",
+   "AltAmount": "200.00 RUB"
+  },
+  {
+   "Name": "Zag",
+   "Url": "https://zag.rip",
+   "USDAmount": "7.45",
+   "AltAmount": "431.55 RUB"
+  },
+  {
+   "Name": "dragon GRaf",
+   "Url": "https://github.com/dragongrafdiscord/mycustomrichpresence",
+   "USDAmount": "45.00",
+   "AltAmount": "1949.00 RUB + 15.00 USDT"
+  },
+  {
+   "Name": "SrNrike",
+   "Url": "https://kyhlus.net/staff/srnrike",
+   "USDAmount": "9.15",
+   "AltAmount": "617.00 RUB"
+  },
+  {
+   "Name": "YJB",
+   "Url": "https://owo.yjb.gay/",
+   "USDAmount": "0.69",
+   "AltAmount": "41.00 RUB"
+  },
+  {
+   "Name": "Jan",
+   "USDAmount": "1.49",
+   "AltAmount": "100.00 RUB"
+  },
+  {
+   "Name": "CJPro25",
+   "USDAmount": "0.91",
+   "AltAmount": "63.00 RUB"
+  },
+  {
+   "Name": "WEIRON GREIZER",
+   "USDAmount": "0.39",
+   "AltAmount": "27.66 RUB"
+  },
+  {
+   "Name": "Death",
+   "USDAmount": "1.93",
+   "AltAmount": "142.00 RUB"
+  },
+  {
+   "Name": "RICHKEED",
+   "Url": "https://github.com/RICH-KEED",
+   "USDAmount": "2.10",
+   "AltAmount": "30.00 TRX"
+  },
+  {
+   "Name": "Mykm",
+   "Url": "https://github.com/yumiruuwu",
+   "USDAmount": "1.30",
+   "AltAmount": "100.00 RUB"
+  },
+  {
+   "Name": "BennyKun",
+   "Url": "https://github.com/Benny-Kun",
+   "USDAmount": "6.93",
+   "AltAmount": "0.00023698 BTC"
+  },
+  {
+   "Name": "Lucid",
+   "USDAmount": "3.59",
+   "AltAmount": "300.00 RUB"
+  },
+  {
+   "Name": "4NG3L",
+   "Url": "https://4ng3l.com/",
+   "USDAmount": "5.77",
+   "AltAmount": "500.00 RUB"
+  },
+  {
+   "Name": "Crohnus1965",
+   "USDAmount": "75.00",
+   "AltAmount": "5922.75 RUB"
+  },
+  {
+   "Name": "Js9",
+   "USDAmount": "24.05",
+   "AltAmount": "2405.25 RUB"
+  },
+  {
+   "Name": "umamidayo",
+   "Url": "https://www.roblox.com/users/6757996/profile",
+   "USDAmount": "152.67",
+   "AltAmount": "15000.00 RUB"
+  },
+  {
+   "Name": "JME",
+   "Url": "https://jme.bio/",
+   "USDAmount": "12.47",
+   "AltAmount": "0.00047618 BTC"
+  },
+  {
+   "Name": "Nicola Occhipinti",
+   "USDAmount": "3.44",
+   "AltAmount": "309.00 RUB"
+  },
+  {
+   "Name": "WoomyAisaka",
+   "Url": "https://woomyaisaka.com",
+   "USDAmount": "1.00",
+   "AltAmount": "87.00 RUB"
+  },
+  {
+   "Name": "5wi",
+   "Url": "https://github.com/5wi5wi",
+   "USDAmount": "4.82",
+   "AltAmount": "471.00 RUB"
+  },
+  {
+   "Name": "Anonymous",
+   "USDAmount": "4.93",
+   "AltAmount": "0.00007299 BTC"
+  },
+  {
+   "Name": "Ribtex",
+   "USDAmount": "1.88",
+   "AltAmount": "150 RUB"
+  }
+ ],
+ "nonMonetarySupporters": [
+  {
+   "Name": "vouivre",
+   "Url": "https://x.com/vvouivre",
+   "DonationType": "A furry art",
+   "DonationUrl": "https://www.customrp.xyz/donations/vouivre.png"
+  },
+  {
+   "Name": "Sojpan",
+   "Url": "https://x.com/Illeg__al",
+   "DonationType": "A furry art",
+   "DonationUrl": "https://www.customrp.xyz/donations/Sojpan.png"
+  },
+  {
+   "Name": "NearbyFish",
+   "Url": "https://x.com/Nearbyfish1",
+   "DonationType": "A furry art",
+   "DonationUrl": "https://www.customrp.xyz/donations/NearbyFish.png"
+  },
+  {
+   "Name": "Nekura",
+   "Url": "https://x.com/nekumellow",
+   "DonationType": "A furry art",
+   "DonationUrl": "https://www.customrp.xyz/donations/nekumellow.png"
+  }
+ ]
+}

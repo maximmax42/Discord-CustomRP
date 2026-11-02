@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "customrp"
+description = "Custom Discord Rich Presence Manager for Linux, macOS and Windows"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = ["PySide6>=6.5"]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.gui-scripts]
+customrp = "customrp.__main__:main"
+
+[tool.setuptools.dynamic]
+version = { attr = "customrp.__version__" }
+
+[tool.setuptools.packages.find]
+include = ["customrp*"]
+
+[tool.setuptools.package-data]
+customrp = ["assets/*", "locales/*.json", "data/*.json"]
