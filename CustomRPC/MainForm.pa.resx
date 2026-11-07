@@ -465,4 +465,34 @@
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>ਹਾਜ਼ਰੀ ਲਈ ਗਤੀਵਿਧੀ ਦੀ ਕਿਸਮ।</value>
   </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>ਐਪਲੀਕੇਸ਼ਨ ਦਾ ਨਾਮ।</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>ਪਿਛਲੇ ਕਨੈਕਸ਼ਨ ਤੋਂ</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>ਇਹ ਦਿਖਾਉਂਦਾ ਹੈ ਕਿ ਤੁਹਾਡੇ ਪਿਛਲੀ ਵਾਰ ਕਨੈਕਟ ਹੋਣ ਤੋਂ ਬਾਅਦ ਕਿੰਨਾ ਸਮਾਂ ਬੀਤ ਚੁੱਕਾ ਹੈ।</value>
+  </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>ਇੱਕ ਲਿੰਕ, ਜੋ ਵਰਤੋਂਕਾਰ ਵੱਲੋਂ ਵੇਰਵੇ 'ਤੇ ਕਲਿੱਕ ਕਰਨ 'ਤੇ ਖੁੱਲ੍ਹੇਗਾ।</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>ਇੱਕ ਲਿੰਕ, ਜੋ ਵਰਤੋਂਕਾਰ ਵੱਲੋਂ ਸਥਿਤੀ 'ਤੇ ਕਲਿੱਕ ਕਰਨ 'ਤੇ ਖੁੱਲ੍ਹੇਗਾ।</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>ਇਹ ਨਿਯੰਤਰਿਤ ਕਰਦਾ ਹੈ ਕਿ ਮੈਂਬਰ ਸੂਚੀ ਵਿੱਚ ਵਰਤੋਂਕਾਰ ਦੇ ਸਟੇਟਸ ਟੈਕਸਟ ਵਿੱਚ ਕਿਹੜਾ ਫੀਲਡ ਦਿਖਾਇਆ ਜਾਵੇਗਾ।</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>ਇੱਕ ਲਿੰਕ, ਜੋ ਛੋਟੀ ਤਸਵੀਰ 'ਤੇ ਕਲਿੱਕ ਕਰਨ 'ਤੇ ਖੁੱਲ੍ਹੇਗਾ।</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>ਇੱਕ ਲਿੰਕ, ਜੋ ਵੱਡੀ ਤਸਵੀਰ 'ਤੇ ਕਲਿੱਕ ਕਰਨ 'ਤੇ ਖੁੱਲ੍ਹੇਗਾ।</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>ਸ਼ੁਰੂਆਤ</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>ਸਮਾਪਤੀ</value>
+  </data>
 </root>

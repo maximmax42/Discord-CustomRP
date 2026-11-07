@@ -432,4 +432,34 @@
   <data name="labelType.ToolTip" xml:space="preserve">
     <value>उपस्थिति के लिए गतिविधि का प्रकार।</value>
   </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>एप्लिकेशन का नाम।</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>पिछले कनेक्शन से</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>यह दिखाता है कि आपके पिछली बार कनेक्ट होने के बाद कितना समय बीत चुका है।</value>
+  </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>एक लिंक, जो उपयोगकर्ता द्वारा विवरण पर क्लिक करने पर खुलेगा।</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>एक लिंक, जो उपयोगकर्ता द्वारा स्थिति पर क्लिक करने पर खुलेगा।</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>यह नियंत्रित करता है कि सदस्य सूची में उपयोगकर्ता के स्टेटस टेक्स्ट में कौन-सा फ़ील्ड दिखाया जाएगा।</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>एक लिंक, जो छोटी छवि पर क्लिक करने पर खुलेगा।</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>एक लिंक, जो बड़ी छवि पर क्लिक करने पर खुलेगा।</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>प्रारंभ</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>समाप्ति</value>
+  </data>
 </root>
