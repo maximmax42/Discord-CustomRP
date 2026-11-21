@@ -215,4 +215,7 @@ This cannot be undone.</value>
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>Competing</value>
   </data>
+  <data name="errorFetchingAssets" xml:space="preserve">
+    <value>Failed to fetch assets.</value>
+  </data>
 </root>

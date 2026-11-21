@@ -180,6 +180,10 @@ namespace CustomRPC
         /// A string showing what application ID was checked last in <see cref="FetchAssets(object, EventArgs)"/>.
         /// </summary>
         string lastIDChecked = "";
+        /// <summary>
+        /// A value showing whether <see cref="FetchAssets(object, EventArgs)"/> is currently fetching.
+        /// </summary>
+        bool fetchingAssets = false;
 
         /// <summary>
         /// A part of the URL path for docs.customrp.xyz links used in the app.
@@ -1759,15 +1763,20 @@ namespace CustomRPC
         /// <summary>
         /// Called on DropDown event for <see cref="comboBoxLargeKey"/> and <see cref="comboBoxSmallKey"/>.
         /// </summary>
-        private void FetchAssets(object sender, EventArgs e)
+        private async void FetchAssets(object sender, EventArgs e)
         {
-            if (settings.id == "" || (lastIDChecked == settings.id && nextAssetCheck.CompareTo(DateTime.Now) > 0))
+            if (fetchingAssets || (lastIDChecked == settings.id && nextAssetCheck.CompareTo(DateTime.Now) > 0))
                 return;
 
             lastIDChecked = settings.id;
 
             comboBoxLargeKey.Items.Clear();
             comboBoxSmallKey.Items.Clear();
+
+            if (settings.id == "")
+                return;
+
+            fetchingAssets = true;
 
             using (var client = new HttpClient())
             {
@@ -1778,24 +1787,33 @@ namespace CustomRPC
                     ServicePointManager.Expect100Continue = true;
                     ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 
-                    var res = client.GetAsync($"https://discord.com/api/oauth2/applications/{settings.id}/assets").Result;
+                    var res = await client.GetAsync($"https://discord.com/api/oauth2/applications/{settings.id}/assets");
 
-                    if (res.IsSuccessStatusCode)
+                    if (IsDisposed)
+                        return; // In case the form closed while we were fetching
+
+                    if (!res.IsSuccessStatusCode)
                     {
-                        var resList = res.Content.ReadAsAsync<List<ImageAssets>>().Result;
-
-                        resList.ForEach(asset =>
-                        {
-                            comboBoxLargeKey.Items.Add(asset.Name);
-                            comboBoxSmallKey.Items.Add(asset.Name);
-                        });
-
-                        nextAssetCheck = DateTime.Now.Add(new TimeSpan(0, 1, 0));
+                        MessageBox.Show(this, Strings.errorFetchingAssets + $"\n{(int)res.StatusCode} {res.ReasonPhrase}", Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
                     }
+
+                    var resList = await res.Content.ReadAsAsync<List<ImageAssets>>();
+                    resList.ForEach(asset =>
+                    {
+                        comboBoxLargeKey.Items.Add(asset.Name);
+                        comboBoxSmallKey.Items.Add(asset.Name);
+                    });
+
+                    nextAssetCheck = DateTime.Now.Add(new TimeSpan(0, 1, 0));
                 }
-                catch
+                catch (Exception ex)
                 {
-                    MessageBox.Show(Strings.errorNoInternet, Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(this, (Strings.errorFetchingAssets + $"\n{ex.Message}").Trim(), Strings.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                finally
+                {
+                    fetchingAssets = false;
                 }
             }
         }

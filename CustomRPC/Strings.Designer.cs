@@ -110,6 +110,15 @@ namespace CustomRPC {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Failed to load assets..
+        /// </summary>
+        internal static string errorFetchingAssets {
+            get {
+                return ResourceManager.GetString("errorFetchingAssets", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на The image URL is too long!.
         /// </summary>
         internal static string errorInvalidImageURL {
