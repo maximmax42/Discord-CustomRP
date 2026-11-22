@@ -210,4 +210,7 @@ Dit kun je niet ongedaan maken.</value>
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>Concurreren</value>
   </data>
+  <data name="errorFetchingAssets" xml:space="preserve">
+    <value>Assets laden mislukt.</value>
+  </data>
 </root>
