@@ -110,7 +110,7 @@ namespace CustomRPC {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Failed to load assets..
+        ///   Ищет локализованную строку, похожую на Failed to fetch assets..
         /// </summary>
         internal static string errorFetchingAssets {
             get {

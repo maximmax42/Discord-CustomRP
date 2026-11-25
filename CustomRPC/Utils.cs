@@ -973,7 +973,7 @@ namespace CustomRPC
             LanguageProgress["tr"] = "93.28";
             LanguageProgress["uk"] = "93.28";
             LanguageProgress["ur"] = "84.03";
-            LanguageProgress["vi"] = "99.16";
+            LanguageProgress["vi"] = "100";
             LanguageProgress["cy"] = "81.51";
             #endregion
 

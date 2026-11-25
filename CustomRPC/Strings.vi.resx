@@ -210,4 +210,7 @@ Chọn Có để đặt lại thiết lập, chọn Không để thoát.</value>
   <data name="presenceTypeCompeting" xml:space="preserve">
     <value>Đang cạnh tranh</value>
   </data>
+  <data name="errorFetchingAssets" xml:space="preserve">
+    <value>Không thể tải asset.</value>
+  </data>
 </root>
